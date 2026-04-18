@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MUS 112 — Theory II | Syllabus</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1a1a1a; --paper: #f7f5f0; --rule: #d8d3c8; --muted: #7a7468;
+    --accent: #2c4a6e; --accent-light: #e8eef5; --sidebar-w: 220px;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { background: var(--paper); color: var(--ink); font-family: 'Source Sans 3', sans-serif; font-weight: 300; font-size: 15px; line-height: 1.7; display: flex; }
+  nav { position: fixed; top: 0; left: 0; width: var(--sidebar-w); height: 100vh; background: var(--ink); color: #fff; padding: 2rem 1.5rem; overflow-y: auto; z-index: 100; display: flex; flex-direction: column; }
+  .nav-logo { font-family: 'Playfair Display', serif; font-size: 0.82rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; line-height: 1.4; border-bottom: 1px solid rgba(255,255,255,0.15); padding-bottom: 0.85rem; margin-bottom: 0.4rem; }
+  .nav-version { font-size: 0.62rem; color: rgba(255,255,255,0.4); letter-spacing: 0.07em; margin-bottom: 1.5rem; }
+  .nav-section-label { font-size: 0.6rem; letter-spacing: 0.15em; text-transform: uppercase; color: rgba(255,255,255,0.35); margin: 1.1rem 0 0.35rem; }
+  nav a { display: block; color: rgba(255,255,255,0.7); text-decoration: none; font-size: 0.78rem; font-weight: 400; line-height: 1.3; padding: 0.25rem 0; transition: color 0.15s; }
+  nav a:hover { color: #fff; }
+  main { margin-left: var(--sidebar-w); width: calc(100% - var(--sidebar-w)); padding: 4rem 3.5rem 6rem; max-width: 1060px; }
+  .page-header { border-bottom: 2px solid var(--ink); padding-bottom: 1.75rem; margin-bottom: 3rem; }
+  .page-header .kicker { font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.4rem; }
+  .page-header h1 { font-family: 'Playfair Display', serif; font-size: 2.2rem; font-weight: 700; line-height: 1.15; margin-bottom: 0.3rem; }
+  .page-header .course-sub { font-size: 0.95rem; color: var(--muted); font-style: italic; }
+  .meta-strip { display: flex; flex-wrap: wrap; gap: 0.5rem 2rem; margin-top: 1.25rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); font-size: 0.8rem; }
+  .meta-item { color: var(--muted); }
+  .meta-item strong { color: var(--ink); font-weight: 600; }
+  .syllabus-section { margin-bottom: 2.75rem; }
+  .syllabus-section h2 { font-family: 'Playfair Display', serif; font-size: 1.1rem; font-weight: 600; margin-bottom: 0.75rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--rule); color: var(--accent); letter-spacing: 0.01em; }
+  .syllabus-section p { font-size: 0.9rem; line-height: 1.75; margin-bottom: 0.65rem; color: var(--ink); }
+  .syllabus-section p:last-child { margin-bottom: 0; }
+  .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.4rem 2rem; font-size: 0.88rem; }
+  .info-row { display: flex; gap: 0.5rem; }
+  .info-label { color: var(--muted); min-width: 110px; font-size: 0.78rem; letter-spacing: 0.05em; text-transform: uppercase; padding-top: 0.1rem; }
+  .info-value { color: var(--ink); }
+  .outcome-list { list-style: none; margin-top: 0.5rem; }
+  .outcome-list li { display: flex; gap: 0.75rem; font-size: 0.88rem; line-height: 1.6; padding: 0.45rem 0; border-bottom: 1px solid #efefec; }
+  .outcome-list li:last-child { border-bottom: none; }
+  .outcome-num { font-family: 'Source Code Pro', monospace; font-size: 0.72rem; color: var(--accent); font-weight: 500; min-width: 28px; padding-top: 0.15rem; }
+  .sched-table { width: 100%; border-collapse: collapse; font-size: 0.83rem; margin-top: 0.5rem; }
+  .sched-table th { font-size: 0.62rem; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 600; color: var(--muted); padding: 0.4rem 0.6rem; border-bottom: 2px solid var(--ink); text-align: left; }
+  .sched-table th:first-child { width: 54px; }
+  .sched-table td { padding: 0.45rem 0.6rem; vertical-align: top; border-bottom: 1px solid #efefec; line-height: 1.4; font-weight: 300; }
+  .sched-table td:first-child { font-family: 'Source Code Pro', monospace; font-size: 0.72rem; color: var(--muted); font-weight: 500; }
+  .sched-table tr:last-child td { border-bottom: none; }
+  .sched-table tr.exam td { font-weight: 600; font-style: italic; color: var(--accent); background: var(--accent-light); }
+  .sched-table tr.stripe td { background: rgba(0,0,0,0.015); }
+  .grade-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin-top: 0.5rem; }
+  .grade-table th { font-size: 0.62rem; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 600; color: var(--muted); padding: 0.35rem 0.6rem; border-bottom: 1px solid var(--rule); text-align: left; }
+  .grade-table td { padding: 0.4rem 0.6rem; border-bottom: 1px solid #efefec; font-weight: 300; }
+  .grade-table tr:last-child td { border-bottom: none; }
+  .grade-table td:last-child { font-family: 'Source Code Pro', monospace; font-size: 0.78rem; color: var(--muted); text-align: right; }
+  .policy-block { background: #fff; border: 1px solid var(--rule); border-left: 3px solid var(--accent); border-radius: 3px; padding: 1rem 1.25rem; margin-top: 0.5rem; font-size: 0.88rem; line-height: 1.7; }
+  .policy-block p { margin-bottom: 0.5rem; }
+  .policy-block p:last-child { margin-bottom: 0; }
+  .benchmark-grid { display: grid; grid-template-columns: 1fr; gap: 1rem; margin-top: 0.5rem; }
+  .benchmark-card { background: var(--ink); color: #fff; border-radius: 4px; padding: 1rem 1.1rem; }
+  .benchmark-card h4 { font-size: 0.62rem; letter-spacing: 0.15em; text-transform: uppercase; font-weight: 600; color: rgba(255,255,255,0.9); margin-bottom: 0.5rem; }
+  .benchmark-card p { font-size: 0.8rem; font-weight: 300; color: rgba(255,255,255,0.85); line-height: 1.6; }
+  hr.div { border: none; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
+  .syllabus-footer { margin-top: 4rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); font-size: 0.7rem; color: var(--muted); font-style: italic; }
+  @media (max-width: 800px) { nav { display: none; } main { margin-left: 0; padding: 2rem 1.5rem; } .info-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-logo">MUS 112<br>Theory II</div>
+  <div class="nav-version">CSU East Bay &middot; Department of Music</div>
+  <div class="nav-section-label">Syllabus</div>
+  <a href="#contact">Contact Information</a>
+  <a href="#course-info">Course Information</a>
+  <a href="#outcomes">Learning Outcomes</a>
+  <a href="#benchmarks">Learning Benchmarks</a>
+  <a href="#workload">Expected Workload</a>
+  <a href="#materials">Course Materials</a>
+  <a href="#requirements">Course Requirements</a>
+  <a href="#grading">Grading</a>
+  <a href="#policies">Course Policies</a>
+  <a href="#ai">Generative AI Policy</a>
+  <a href="#schedule">Course Schedule</a>
+  <a href="#resources">Student Resources</a>
+</nav>
+<main>
+  <header class="page-header">
+    <div class="kicker">California State University, East Bay &mdash; Department of Music</div>
+    <h1>MUS 112 &mdash; Music Theory II</h1>
+    <div class="course-sub">Diatonic harmony completed; advanced part-writing, voice-leading, and harmonization</div>
+    <div class="meta-strip">
+      <div class="meta-item"><strong>Units:</strong> 2</div>
+      <div class="meta-item"><strong>Grading:</strong> A&ndash;F or CR/NC (student choice)</div>
+      <div class="meta-item"><strong>Format:</strong> On-ground</div>
+      <div class="meta-item"><strong>Offered:</strong> Fall only</div>
+      <div class="meta-item"><strong>Prerequisite:</strong> MUS 111 or department permission</div>
+      <div class="meta-item"><strong>Co-requisites:</strong> MUS 116, MUS 119</div>
+    </div>
+  </header>
+
+  <section id="contact" class="syllabus-section">
+    <h2>Contact Information</h2>
+    <div class="info-grid">
+      <div class="info-row"><span class="info-label">Instructor</span><span class="info-value">[Instructor Name]</span></div>
+      <div class="info-row"><span class="info-label">Office</span><span class="info-value">[Office Location]</span></div>
+      <div class="info-row"><span class="info-label">Email</span><span class="info-value">[name]@csueastbay.edu</span></div>
+      <div class="info-row"><span class="info-label">Office Hours</span><span class="info-value">[Days/Times, physical or virtual]</span></div>
+      <div class="info-row"><span class="info-label">Phone</span><span class="info-value">[Phone Number]</span></div>
+      <div class="info-row"><span class="info-label">Virtual Hours</span><span class="info-value">[Zoom link if applicable]</span></div>
+    </div>
+  </section>
+
+  <section class="syllabus-section">
+    <h2>Communicating with the Instructor</h2>
+    <p>The best way to reach the instructor is by email. Expect a response within 48 hours on business days. Office hours are the best place to work through part-writing or analysis questions.</p>
+    <p>Course announcements, assignment instructions, and grade updates will be posted on Canvas. Students are responsible for checking Canvas regularly. Feedback on graded work will be returned within one week of the submission deadline.</p>
+  </section>
+
+  <section id="course-info" class="syllabus-section">
+    <h2>Course Information</h2>
+    <p><strong>Catalog description:</strong> The second of three intensive courses that introduce students to the inner workings of European art music of the 18th and 19th centuries. This course completes diatonic harmony and introduces advanced part-writing, voice-leading, and harmonization techniques.</p>
+    <p>This course picks up where Theory I ended, moving through the full vocabulary of diatonic functional harmony. Students should expect to work with all diatonic seventh chords, sequences, chromatic tones in part-writing, and modulation to the dominant key by the end of the semester.</p>
+  </section>
+
+  <section id="outcomes" class="syllabus-section">
+    <h2>Student Learning Outcomes</h2>
+    <p>Upon successful completion of this course, students will be able to:</p>
+    <ol class="outcome-list">
+      <li><span class="outcome-num">01</span>Write and analyze SATB progressions using the full vocabulary of diatonic harmony, including all diatonic triads and seventh chords.</li>
+      <li><span class="outcome-num">02</span>Identify and apply embellishing chords, the cadential 6/4, and other 6/4 chord types in functional context.</li>
+      <li><span class="outcome-num">03</span>Recognize and compose diatonic sequences.</li>
+      <li><span class="outcome-num">04</span>Analyze tonal works using Roman numerals, figured bass, and functional labels.</li>
+      <li><span class="outcome-num">05</span>Apply diatonic harmonic vocabulary at the keyboard and in performance on the student's primary instrument or voice.</li>
+    </ol>
+  </section>
+
+  <section id="benchmarks" class="syllabus-section">
+    <h2>Learning Benchmarks</h2>
+    <p>By the end of the semester, students who have successfully engaged with the course material should be able to demonstrate the following:</p>
+    <div class="benchmark-grid">
+      <div class="benchmark-card">
+        <h4>Theory II</h4>
+        <p>Students can write and analyze SATB progressions using all diatonic triads and seventh chords, including vii&deg;7, the cadential 6/4, sequences, and embellishing chords. They understand VI, III, and VII in functional context and can identify and apply other 6/4 chord types.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="workload" class="syllabus-section">
+    <h2>Expected Workload</h2>
+    <p>MUS 112 carries 2 units and is classified as a C10 music activity course. Under the CSU credit hour definition, each unit of credit represents one hour of in-class instruction and a minimum of two hours of out-of-class student work per week. For this course, that means:</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;margin-top:0.75rem;">
+      <div style="background:#fff;border:1px solid var(--rule);border-radius:3px;padding:0.85rem 1rem;text-align:center;">
+        <div style="font-family:'Source Code Pro',monospace;font-size:1.4rem;font-weight:500;color:var(--accent);">4</div>
+        <div style="font-size:0.78rem;color:var(--muted);margin-top:0.2rem;">contact hours per week<br>(two 100-min meetings)</div>
+      </div>
+      <div style="background:#fff;border:1px solid var(--rule);border-radius:3px;padding:0.85rem 1rem;text-align:center;">
+        <div style="font-family:'Source Code Pro',monospace;font-size:1.4rem;font-weight:500;color:var(--accent);">4+</div>
+        <div style="font-size:0.78rem;color:var(--muted);margin-top:0.2rem;">out-of-class hours per week<br>(minimum)</div>
+      </div>
+    </div>
+    <h4 style="font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:600;margin-top:1.5rem;margin-bottom:0.5rem;">Making the time work</h4>
+    <p style="font-size:0.88rem;">This course is classified as an activity course for a reason. Class time is not a lecture you can passively receive; it is structured around writing, analyzing, and working through problems in the room with your classmates. You will be at the desk or the keyboard most days, and much of what you take away from a given class comes from the work you do during it. Show up prepared, and show up ready to engage.</p>
+    <p style="margin-top:0.85rem;font-size:0.88rem;">More importantly, you are taking three courses concurrently (Theory, Aural Skills, and Keyboard), and the combined out-of-class load across the three is substantial. Plan for it.</p>
+    <p style="margin-top:0.85rem;font-size:0.88rem;">One schedule that works well is roughly two hours a day, Monday through Thursday, split between the three courses. Daily short sessions will outperform occasional long ones in every one of these courses. Use the practice rooms! See the <a href="https://www.csueastbay.edu/music/facilities/index.html" style="color:var(--accent);">Music Department facilities page</a> for access and hours.</p>
+  </section>
+
+  <section id="materials" class="syllabus-section">
+    <h2>Course Materials</h2>
+    <p><strong>Required texts:</strong> Physical copies are strongly recommended for all texts in this sequence. The Burstein and Straus text is used across Theory I, II, and III; purchase it once and keep it.</p>
+    <div style="margin-top:0.75rem;display:flex;flex-direction:column;gap:0.6rem;">
+      <div class="policy-block">
+        <p><strong>Concise Introduction to Tonal Harmony, 3rd edition</strong><br>
+        L. Poundie Burstein and Joseph N. Straus, W. W. Norton &amp; Company<br>
+        <span style="font-family:'Source Code Pro',monospace;font-size:0.75rem;color:var(--muted);">Hardcover ISBN: 978-1-324-10073-7</span></p>
+        <p style="margin-top:0.4rem;font-size:0.83rem;color:var(--muted);">Primary text. Chapters 13&ndash;24 are covered in this course.</p>
+      </div>
+      <div class="policy-block">
+        <p><strong>Concise Introduction to Tonal Harmony Workbook, 3rd edition</strong><br>
+        Burstein and Straus, W. W. Norton &amp; Company<br>
+        <span style="font-family:'Source Code Pro',monospace;font-size:0.75rem;color:var(--muted);">Softcover ISBN: 978-1-324-08808-0</span></p>
+        <p style="margin-top:0.4rem;font-size:0.83rem;color:var(--muted);">Must be purchased alongside the textbook. Workbook exercises are a required component of lesson assignments.</p>
+      </div>
+    </div>
+    <p style="margin-top:1rem;"><strong>Other materials:</strong> Manuscript paper and pencils with erasers for all written work.</p>
+    <div style="margin-top:0.75rem;background:#fff;border:1px solid var(--rule);border-left:3px solid var(--accent);border-radius:3px;padding:1rem 1.25rem;font-size:0.88rem;line-height:1.7;">
+      <p><strong>Stay organized.</strong> This course generates a lot of paper. You will receive handouts, in-class exercises, and graded assignments almost every week, and the material is strictly cumulative: what you learn in week 3 is still in play in week 12. A folder or binder dedicated to this course is not optional in spirit, even if it is in practice.</p>
+      <p style="margin-top:0.5rem;">A few habits that help: keep handouts in chronological order, annotate exercises when they are returned (your errors are a study guide), and review your notes before each class rather than only before exams. Part-writing is a skill, and skills erode without maintenance. The students who do well in this course are not necessarily the most naturally talented. They are the ones who keep their materials organized and return to them regularly.</p>
+    </div>
+    <p><strong>Technology:</strong> Canvas for all course materials and grade tracking. <a href="https://musescore.org" style="color:var(--accent);">MuseScore</a> (free) is available for optional digital notation work. <a href="https://www.risingsoftware.com/auralia/" style="color:var(--accent);">Auralia</a> ear training software is used in the co-requisite MUS 116; the instructor will provide an access code at the start of the semester.</p>
+  </section>
+
+  <section id="requirements" class="syllabus-section">
+    <h2>Course Requirements</h2>
+    <p>This course has four categories of graded work:</p>
+    <div style="margin-top:0.75rem;display:flex;flex-direction:column;gap:0.6rem;">
+      <div class="policy-block">
+        <p><strong>Lesson Exercises (40%)</strong>: Weekly written assignments from the Burstein and Straus workbook and supplementary materials, graded for completion, accuracy, and application of voice-leading principles. These are the core of the course's skill-building work.</p>
+      </div>
+      <div class="policy-block">
+        <p><strong>Quizzes (25%)</strong>: Short in-class group quizzes testing vocabulary, chord identification, and part-writing skills. Students work in groups of two or three, troubleshooting the material together rather than individually. This is deliberate: the group format asks you to externalize your reasoning, catch each other's errors, and build the habit of talking through theory with peers, which is how theory actually gets used in rehearsals, coachings, and score study. Quizzes are cumulative in nature and cannot be made up if missed without a documented excuse.</p>
+      </div>
+      <div class="policy-block">
+        <p><strong>Midterm Exam (15%)</strong>: A written exam covering Chapters 13&ndash;18. Held during Week 8.</p>
+      </div>
+      <div class="policy-block">
+        <p><strong>Final Exam (20%)</strong>: A cumulative written exam covering all material from the semester. Held during Week 15.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="grading" class="syllabus-section">
+    <h2>Grading</h2>
+    <table class="grade-table" style="margin-bottom:1.25rem;">
+      <thead><tr><th>Component</th><th style="text-align:right;">Weight</th></tr></thead>
+      <tbody>
+        <tr><td>Lesson Exercises</td><td>40%</td></tr>
+        <tr><td>Quizzes</td><td>25%</td></tr>
+        <tr><td>Midterm Exam</td><td>15%</td></tr>
+        <tr><td>Final Exam</td><td>20%</td></tr>
+        <tr><td><strong>Total</strong></td><td><strong>100%</strong></td></tr>
+      </tbody>
+    </table>
+    <table class="grade-table" style="margin-bottom:1rem;max-width:420px;">
+      <thead><tr><th>Grade</th><th>Description</th><th>Percentage</th><th style="text-align:right;">GPA Points</th></tr></thead>
+      <tbody>
+        <tr><td>A</td><td>Excellent</td><td>93&ndash;100%</td><td>4.0</td></tr>
+        <tr><td>A&ndash;</td><td>Excellent</td><td>90&ndash;92%</td><td>3.7</td></tr>
+        <tr><td>B+</td><td>Good</td><td>87&ndash;89%</td><td>3.3</td></tr>
+        <tr><td>B</td><td>Good</td><td>83&ndash;86%</td><td>3.0</td></tr>
+        <tr><td>B&ndash;</td><td>Good</td><td>80&ndash;82%</td><td>2.7</td></tr>
+        <tr><td>C+</td><td>Satisfactory</td><td>77&ndash;79%</td><td>2.3</td></tr>
+        <tr><td>C</td><td>Satisfactory</td><td>73&ndash;76%</td><td>2.0</td></tr>
+        <tr><td>C&ndash;</td><td>Satisfactory</td><td>70&ndash;72%</td><td>1.7</td></tr>
+        <tr><td>D+</td><td>Poor</td><td>67&ndash;69%</td><td>1.3</td></tr>
+        <tr><td>D</td><td>Poor</td><td>60&ndash;66%</td><td>1.0</td></tr>
+        <tr><td>F</td><td>Failing</td><td>Below 60%</td><td>0.0</td></tr>
+      </tbody>
+    </table>
+    <div class="policy-block">
+      <p><strong>Minimum grade requirements.</strong> Music majors and music minors must earn a C&ndash; or better for the course to count toward major or minor requirements.</p>
+    </div>
+    <p style="margin-top:0.85rem;">Grade appeals follow the university process described in the CSUEB Catalog: <a href="https://catalog.csueastbay.edu/content.php?catoid=39&navoid=36981" style="color:var(--accent);">Grade Appeals and Academic Grievances</a>.</p>
+  </section>
+
+  <section id="policies" class="syllabus-section">
+    <h2>Course Policies</h2>
+    <p><strong>Attendance.</strong> Regular attendance is essential. Theory builds cumulatively and each class depends on the one before it. If you need to miss a class, please email the instructor in advance when possible. More than three unexcused absences will affect your grade.</p>
+    <p><strong>Late work.</strong> Assignments submitted after the deadline will receive a 2% deduction per day late, up to a maximum deduction of 50%. This means submitting late is always better than not submitting, and work will never receive less than 50% credit solely due to lateness. The quality of the work is still evaluated normally. If you anticipate significant delays or challenges, please communicate early, in person or through Canvas.</p>
+    <p><strong>Syllabus changes.</strong> Unanticipated circumstances may require adjustments to this syllabus. Any changes will be discussed with students before implementation and communicated in person and through Canvas.</p>
+  </section>
+
+  <section id="ai" class="syllabus-section">
+    <h2>Generative AI Use Policy</h2>
+    <div class="policy-block">
+      <p>Generative AI tools (such as ChatGPT, Claude, DALL&middot;E, and similar) may be used in this course with documentation and citation. AI can be useful for brainstorming or organizing ideas, but the listening, thinking, and writing must be your own. AI cannot replace listening or reflection, and substituting AI-generated content for required analysis violates course policy.</p>
+
+      <p style="margin-top:0.75rem;"><strong>Citation requirements (Chicago 17th edition):</strong></p>
+      <p>Footnote:<br><span style="font-family:'Source Code Pro',monospace;font-size:0.78rem;color:var(--muted);">OpenAI, ChatGPT, [access date], https://chat.openai.com/</span></p>
+      <p>Bibliography:<br><span style="font-family:'Source Code Pro',monospace;font-size:0.78rem;color:var(--muted);">OpenAI. ChatGPT. [access date]. https://chat.openai.com/</span></p>
+
+      <p style="margin-top:0.75rem;"><strong>Document the conversation:</strong> Where the platform allows, click Share &rarr; Copy Link and paste the link in an appendix to your submission. Both Claude and ChatGPT support shareable conversation links.</p>
+
+      <p style="margin-top:0.5rem;">Undisclosed AI use violates the CSUEB Code of Academic Integrity and may be subject to disciplinary action.</p>
+    </div>
+  </section>
+
+  <hr class="div">
+
+  <section id="schedule" class="syllabus-section">
+    <h2>Course Schedule</h2>
+    <p>The following schedule maps the 15-week semester. References are to Burstein and Straus (B&amp;S) chapters. The instructor may make adjustments to pacing as needed; any changes will be announced in class and on Canvas.</p>
+    <p style="margin-top:0.5rem;font-size:0.85rem;color:var(--muted);">Assessment rhythm: lesson exercises are due Wednesday each week, handwritten and turned in on paper in class. Group quizzes are held on Mondays in Weeks 3, 6, 10, 12, and 14. The midterm is in Week 8 and the final in Week 15, as shown in the table below.</p>
+    <table class="sched-table">
+      <thead><tr><th>Week</th><th>Topic</th><th>B&amp;S Chapter</th></tr></thead>
+      <tbody>
+        <tr><td>01</td><td>Review of Theory I: SATB voice leading, V<sup>7</sup> and inversions, species counterpoint.</td><td>Ch. 1&ndash;12 review</td></tr>
+        <tr class="stripe"><td>02</td><td>Vii&deg;6 chord: voice leading and function.</td><td>Ch. 13</td></tr>
+        <tr><td>03</td><td>Approaching the dominant: IV, ii<sup>6</sup>, and ii<sup>6/5</sup>.</td><td>Ch. 14</td></tr>
+        <tr class="stripe"><td>04</td><td>The cadential 6/4: embellishing V.</td><td>Ch. 15</td></tr>
+        <tr><td>05</td><td>Leading to the tonic: IV.</td><td>Ch. 16</td></tr>
+        <tr class="stripe"><td>06</td><td>The leading-tone seventh chord: vii&deg;7 and vii&oslash;7.</td><td>Ch. 17</td></tr>
+        <tr><td>07</td><td>Approaching V: IV<sup>6</sup>, ii, ii<sup>7</sup>, and IV<sup>7</sup>.</td><td>Ch. 18</td></tr>
+        <tr class="exam"><td>08</td><td>Midterm exam. Covers Ch. 13&ndash;18.</td><td></td></tr>
+        <tr><td>09</td><td>Multiple functions: VI.</td><td>Ch. 19</td></tr>
+        <tr class="stripe"><td>10</td><td>Embellishing tones in four-part harmony.</td><td>Ch. 20</td></tr>
+        <tr><td>11</td><td>III and VII.</td><td>Ch. 21</td></tr>
+        <tr class="stripe"><td>12</td><td>Sequences.</td><td>Ch. 22</td></tr>
+        <tr><td>13</td><td>Other 6/4 chords.</td><td>Ch. 23</td></tr>
+        <tr class="stripe"><td>14</td><td>Other embellishing chords.</td><td>Ch. 24</td></tr>
+        <tr class="exam"><td>15</td><td>Review and final exam.</td><td></td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="resources" class="syllabus-section">
+    <h2>Student Resources</h2>
+
+    <p><strong>Academic integrity.</strong> As a member of the academic community, you are expected to act with integrity and avoid plagiarism and other forms of cheating. By enrolling in this class, you agree to uphold the standards of academic integrity described at <a href="https://www.csueastbay.edu/aps/academic-policies/academic-dishonesty.html" style="color:var(--accent);">csueastbay.edu/aps/academic-policies/academic-dishonesty.html</a>.</p>
+
+    <p><strong>Accommodations for students with disabilities.</strong> For disability and other learning-related needs and accommodations, including if you would need assistance in the event of an emergency evacuation, please communicate with the instructor as soon as possible. Students with disabilities are also encouraged to contact the Accessibility Services office at <a href="https://www.csueastbay.edu/accessibility" style="color:var(--accent);">csueastbay.edu/accessibility</a> to meet with a counselor who can advise you on your options, including your rights under Section 504 of the Rehabilitation Act and the Americans with Disabilities Act.</p>
+
+    <p><strong>Student services.</strong> To access student services offered at Cal State East Bay, click on the MyCompass icon to get you to your one-stop online student support hub for information on academic advising, tutoring, financial aid, the library, the health center, technology support, career counseling, campus life, equity programs, and more.</p>
+
+    <p><strong>Emergency information.</strong> Information on what to do in an emergency situation (earthquake, electrical outage, fire, extreme heat, severe storm, hazardous materials, terrorist attack) may be found at <a href="https://www.csueastbay.edu/riskmanagement/index.html" style="color:var(--accent);">csueastbay.edu/riskmanagement</a>. Please review this information at the start of the semester.</p>
+
+    <p><strong>Protection against discrimination, harassment, and retaliation.</strong> Title IX and CSU policy prohibit discrimination, harassment, and retaliation, including sex discrimination, sexual harassment, and sexual violence. For confidential services, contact the Confidential Advocate at 510-885-3700 or the Student Health and Counseling Center. For 24-hour crisis services call the BAWAR hotline at 510-800-4247. More information: <a href="http://www.csueastbay.edu/titleix" style="color:var(--accent);">csueastbay.edu/titleix</a> and <a href="https://www.csueastbay.edu/riskmanagement/complaint.html" style="color:var(--accent);">csueastbay.edu/riskmanagement/complaint.html</a>.</p>
+
+    <p><strong>Student conduct.</strong> The University is committed to maintaining a safe and healthy living and learning environment. More information: <a href="http://www.csueastbay.edu/studentconduct/student-conduct.html" style="color:var(--accent);">csueastbay.edu/studentconduct</a>.</p>
+  </section>
+
+  <div class="syllabus-footer">
+    MUS 112 &mdash; Music Theory II &nbsp;&middot;&nbsp; Department of Music, California State University, East Bay &nbsp;&middot;&nbsp; Version 1.0, Spring 2026 &nbsp;&middot;&nbsp; This syllabus is subject to change; updates will be communicated in person and through Canvas.
+  </div>
+</main>
+</body>
+</html>

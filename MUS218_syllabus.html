@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MUS 218 — Keyboard Musicianship III | Syllabus</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root { --ink: #1a1a1a; --paper: #f7f5f0; --rule: #d8d3c8; --muted: #7a7468; --accent: #1a3d2c; --accent-light: #e8f2ec; --sidebar-w: 220px; }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { background: var(--paper); color: var(--ink); font-family: 'Source Sans 3', sans-serif; font-weight: 300; font-size: 15px; line-height: 1.7; display: flex; }
+  nav { position: fixed; top: 0; left: 0; width: var(--sidebar-w); height: 100vh; background: var(--ink); color: #fff; padding: 2rem 1.5rem; overflow-y: auto; z-index: 100; display: flex; flex-direction: column; }
+  .nav-logo { font-family: 'Playfair Display', serif; font-size: 0.82rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; line-height: 1.4; border-bottom: 1px solid rgba(255,255,255,0.15); padding-bottom: 0.85rem; margin-bottom: 0.4rem; }
+  .nav-version { font-size: 0.62rem; color: rgba(255,255,255,0.4); letter-spacing: 0.07em; margin-bottom: 1.5rem; }
+  .nav-section-label { font-size: 0.6rem; letter-spacing: 0.15em; text-transform: uppercase; color: rgba(255,255,255,0.35); margin: 1.1rem 0 0.35rem; }
+  nav a { display: block; color: rgba(255,255,255,0.7); text-decoration: none; font-size: 0.78rem; font-weight: 400; line-height: 1.3; padding: 0.25rem 0; transition: color 0.15s; }
+  nav a:hover { color: #fff; }
+  main { margin-left: var(--sidebar-w); width: calc(100% - var(--sidebar-w)); padding: 4rem 3.5rem 6rem; max-width: 1060px; }
+  .page-header { border-bottom: 2px solid var(--ink); padding-bottom: 1.75rem; margin-bottom: 3rem; }
+  .page-header .kicker { font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.4rem; }
+  .page-header h1 { font-family: 'Playfair Display', serif; font-size: 2.2rem; font-weight: 700; line-height: 1.15; margin-bottom: 0.3rem; }
+  .page-header .course-sub { font-size: 0.95rem; color: var(--muted); font-style: italic; }
+  .meta-strip { display: flex; flex-wrap: wrap; gap: 0.5rem 2rem; margin-top: 1.25rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); font-size: 0.8rem; }
+  .meta-item { color: var(--muted); }
+  .meta-item strong { color: var(--ink); font-weight: 600; }
+  .syllabus-section { margin-bottom: 2.75rem; }
+  .syllabus-section h2 { font-family: 'Playfair Display', serif; font-size: 1.1rem; font-weight: 600; margin-bottom: 0.75rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--rule); color: var(--accent); letter-spacing: 0.01em; }
+  .syllabus-section p { font-size: 0.9rem; line-height: 1.75; margin-bottom: 0.65rem; color: var(--ink); }
+  .syllabus-section p:last-child { margin-bottom: 0; }
+  .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.4rem 2rem; font-size: 0.88rem; }
+  .info-row { display: flex; gap: 0.5rem; }
+  .info-label { color: var(--muted); min-width: 110px; font-size: 0.78rem; letter-spacing: 0.05em; text-transform: uppercase; padding-top: 0.1rem; }
+  .info-value { color: var(--ink); }
+  .outcome-list { list-style: none; margin-top: 0.5rem; }
+  .outcome-list li { display: flex; gap: 0.75rem; font-size: 0.88rem; line-height: 1.6; padding: 0.45rem 0; border-bottom: 1px solid #efefec; }
+  .outcome-list li:last-child { border-bottom: none; }
+  .outcome-num { font-family: 'Source Code Pro', monospace; font-size: 0.72rem; color: var(--accent); font-weight: 500; min-width: 28px; padding-top: 0.15rem; }
+  .sched-table { width: 100%; border-collapse: collapse; font-size: 0.83rem; margin-top: 0.5rem; }
+  .sched-table th { font-size: 0.62rem; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 600; color: var(--muted); padding: 0.4rem 0.6rem; border-bottom: 2px solid var(--ink); text-align: left; }
+  .sched-table th:first-child { width: 54px; }
+  .sched-table td { padding: 0.45rem 0.6rem; vertical-align: top; border-bottom: 1px solid #efefec; line-height: 1.4; font-weight: 300; }
+  .sched-table td:first-child { font-family: 'Source Code Pro', monospace; font-size: 0.72rem; color: var(--muted); font-weight: 500; }
+  .sched-table tr:last-child td { border-bottom: none; }
+  .sched-table tr.exam td { font-weight: 600; font-style: italic; color: var(--accent); background: var(--accent-light); }
+  .sched-table tr.stripe td { background: rgba(0,0,0,0.015); }
+  .grade-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin-top: 0.5rem; }
+  .grade-table th { font-size: 0.62rem; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 600; color: var(--muted); padding: 0.35rem 0.6rem; border-bottom: 1px solid var(--rule); text-align: left; }
+  .grade-table td { padding: 0.4rem 0.6rem; border-bottom: 1px solid #efefec; font-weight: 300; }
+  .grade-table tr:last-child td { border-bottom: none; }
+  .grade-table td:last-child { font-family: 'Source Code Pro', monospace; font-size: 0.78rem; color: var(--muted); text-align: right; }
+  .policy-block { background: #fff; border: 1px solid var(--rule); border-left: 3px solid var(--accent); border-radius: 3px; padding: 1rem 1.25rem; margin-top: 0.5rem; font-size: 0.88rem; line-height: 1.7; }
+  .policy-block p { margin-bottom: 0.5rem; }
+  .policy-block p:last-child { margin-bottom: 0; }
+  .benchmark-grid { display: grid; grid-template-columns: 1fr; gap: 1rem; margin-top: 0.5rem; }
+  .benchmark-card { background: var(--ink); color: #fff; border-radius: 4px; padding: 1rem 1.1rem; }
+  .benchmark-card h4 { font-size: 0.62rem; letter-spacing: 0.15em; text-transform: uppercase; font-weight: 600; color: rgba(255,255,255,0.9); margin-bottom: 0.5rem; }
+  .benchmark-card p { font-size: 0.8rem; font-weight: 300; color: rgba(255,255,255,0.85); line-height: 1.6; }
+  hr.div { border: none; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
+  .syllabus-footer { margin-top: 4rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); font-size: 0.7rem; color: var(--muted); font-style: italic; }
+  @media (max-width: 800px) { nav { display: none; } main { margin-left: 0; padding: 2rem 1.5rem; } .info-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-logo">MUS 218<br>Keyboard III</div>
+  <div class="nav-version">CSU East Bay &middot; Department of Music</div>
+  <div class="nav-section-label">Syllabus</div>
+  <a href="#contact">Contact Information</a>
+  <a href="#course-info">Course Information</a>
+  <a href="#outcomes">Learning Outcomes</a>
+  <a href="#benchmarks">Learning Benchmarks</a>
+  <a href="#workload">Expected Workload</a>
+  <a href="#materials">Course Materials</a>
+  <a href="#requirements">Course Requirements</a>
+  <a href="#grading">Grading</a>
+  <a href="#policies">Course Policies</a>
+  <a href="#ai">Generative AI Policy</a>
+  <a href="#schedule">Course Schedule</a>
+  <a href="#resources">Student Resources</a>
+</nav>
+<main>
+  <header class="page-header">
+    <div class="kicker">California State University, East Bay &mdash; Department of Music</div>
+    <h1>MUS 218 &mdash; Keyboard Musicianship III</h1>
+    <div class="course-sub">Group piano for music majors: secondary chords, modes, advanced repertoire, and improvisation</div>
+    <div class="meta-strip">
+      <div class="meta-item"><strong>Units:</strong> 1</div>
+      <div class="meta-item"><strong>Grading:</strong> A&ndash;F or CR/NC (student choice)</div>
+      <div class="meta-item"><strong>Format:</strong> On-ground</div>
+      <div class="meta-item"><strong>Offered:</strong> Spring only</div>
+      <div class="meta-item"><strong>Prerequisite:</strong> MUS 119 or department permission</div>
+      <div class="meta-item"><strong>Co-requisites:</strong> MUS 211, MUS 215</div>
+    </div>
+  </header>
+
+  <section id="contact" class="syllabus-section">
+    <h2>Contact Information</h2>
+    <div class="info-grid">
+      <div class="info-row"><span class="info-label">Instructor</span><span class="info-value">[Instructor Name]</span></div>
+      <div class="info-row"><span class="info-label">Office</span><span class="info-value">[Office Location]</span></div>
+      <div class="info-row"><span class="info-label">Email</span><span class="info-value">[name]@csueastbay.edu</span></div>
+      <div class="info-row"><span class="info-label">Office Hours</span><span class="info-value">[Days/Times, physical or virtual]</span></div>
+      <div class="info-row"><span class="info-label">Phone</span><span class="info-value">[Phone Number]</span></div>
+      <div class="info-row"><span class="info-label">Virtual Hours</span><span class="info-value">[Zoom link if applicable]</span></div>
+    </div>
+  </section>
+
+  <section class="syllabus-section">
+    <h2>Communicating with the Instructor</h2>
+    <p>Email is the best way to reach the instructor. Expect a response within 48 hours on business days. Keyboard skills are best discussed in person; office hours are the right place to work through technical questions, fingering issues, or anything that benefits from demonstration at the instrument.</p>
+    <p>Course announcements, assignment instructions, and grade updates will be posted on Canvas. Feedback on GoReact submissions will be returned within one week of the deadline.</p>
+  </section>
+
+  <section id="course-info" class="syllabus-section">
+    <h2>Course Information</h2>
+    <p><strong>Catalog description:</strong> Group instruction in piano for music majors. Emphasis on reading from staff notation, technique, keyboard harmony, improvisation, and repertoire.</p>
+    <p>Keyboard Musicianship III completes the three-semester sequence, extending harmonic vocabulary to secondary chords, seventh chords, and modal scales. Students consolidate the full range of Book 1 skills through advanced repertoire, ensemble work, and improvisation, arriving at a functional command of the keyboard sufficient to support their broader musical studies.</p>
+  </section>
+
+  <section id="outcomes" class="syllabus-section">
+    <h2>Student Learning Outcomes</h2>
+    <p>Upon successful completion of this course, students will be able to:</p>
+    <ol class="outcome-list">
+      <li><span class="outcome-num">01</span>Perform major and minor scales and arpeggios across all key groups, and play chromatic, whole-tone, and blues scales.</li>
+      <li><span class="outcome-num">02</span>Perform secondary triads (ii, iii, vi) and seventh chords in harmonic context, with correct voice leading.</li>
+      <li><span class="outcome-num">03</span>Play melodies and accompaniments in all six church modes.</li>
+      <li><span class="outcome-num">04</span>Harmonize melodies using the full diatonic vocabulary including secondary chords.</li>
+      <li><span class="outcome-num">05</span>Transpose short examples to other keys and improvise within defined modal and harmonic frameworks.</li>
+      <li><span class="outcome-num">06</span>Prepare and perform repertoire from Alfred's Book 1 for peers and instructor.</li>
+    </ol>
+  </section>
+
+  <section id="benchmarks" class="syllabus-section">
+    <h2>Learning Benchmarks</h2>
+    <p>By the end of the semester, students who have successfully engaged with the course material should be able to demonstrate the following:</p>
+    <div class="benchmark-grid">
+      <div class="benchmark-card">
+        <h4>Keyboard III</h4>
+        <p>Students can perform major and minor scales and arpeggios across all key groups, play secondary triads and seventh chords in harmonic context, perform the chromatic, whole-tone, and blues scales, play melodies and accompaniments in all six church modes, harmonize using the full diatonic vocabulary including secondary chords, and improvise within defined modal and harmonic frameworks. The full Alfred's Book 1 sequence is complete.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="workload" class="syllabus-section">
+    <h2>Expected Workload</h2>
+    <p>MUS 218 carries 1 unit and is classified as a C10 music activity course. Under the CSU credit hour definition, each unit of credit represents one hour of in-class instruction and a minimum of two hours of out-of-class student work per week. For this course, that means:</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;margin-top:0.75rem;">
+      <div style="background:#fff;border:1px solid var(--rule);border-radius:3px;padding:0.85rem 1rem;text-align:center;">
+        <div style="font-family:'Source Code Pro',monospace;font-size:1.4rem;font-weight:500;color:var(--accent);">2</div>
+        <div style="font-size:0.78rem;color:var(--muted);margin-top:0.2rem;">contact hours per week<br>(two 50-min meetings)</div>
+      </div>
+      <div style="background:#fff;border:1px solid var(--rule);border-radius:3px;padding:0.85rem 1rem;text-align:center;">
+        <div style="font-family:'Source Code Pro',monospace;font-size:1.4rem;font-weight:500;color:var(--accent);">2+</div>
+        <div style="font-size:0.78rem;color:var(--muted);margin-top:0.2rem;">out-of-class hours per week<br>(minimum)</div>
+      </div>
+    </div>
+    <h4 style="font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:600;margin-top:1.5rem;margin-bottom:0.5rem;">Making the time work</h4>
+    <p style="font-size:0.88rem;">This course is classified as an activity course for a reason. Class time is not a lecture you can passively receive; it is spent at the instrument, working on technique, harmonization, sight-reading, and repertoire alongside your classmates. The hands develop through repetition, and every minute you spend at the keyboard in class matters. Show up prepared, and show up ready to play.</p>
+    <p style="margin-top:0.85rem;font-size:0.88rem;">More importantly, you are taking three courses concurrently (Theory, Aural Skills, and Keyboard), and the combined out-of-class load across the three is substantial. Plan for it.</p>
+    <p style="margin-top:0.85rem;font-size:0.88rem;">One schedule that works well is roughly two hours a day, Monday through Thursday, split between the three courses. Daily short sessions will outperform occasional long ones in every one of these courses. Use the practice rooms! See the <a href="https://www.csueastbay.edu/music/facilities/index.html" style="color:var(--accent);">Music Department facilities page</a> for access and hours.</p>
+  </section>
+
+  <section id="materials" class="syllabus-section">
+    <h2>Course Materials</h2>
+    <p><strong>Required text:</strong></p>
+    <div style="margin-top:0.5rem;display:flex;flex-direction:column;gap:0.6rem;">
+      <div class="policy-block">
+        <p><strong>Alfred's Group Piano for Adults: Student Book 1, 2nd edition</strong><br>
+        E. L. Lancaster and Kenon D. Renfrow, Alfred Music<br>
+        <span style="font-family:'Source Code Pro',monospace;font-size:0.75rem;color:var(--muted);">Softcover ISBN: 978-0-7390-5301-0</span></p>
+        <p style="margin-top:0.4rem;font-size:0.83rem;color:var(--muted);">Primary text. This book is used across all three Keyboard Musicianship courses (MUS 118, 119, and 218). MUS 218 completes the book. Purchase it in MUS 118 and keep it for the full sequence.</p>
+      </div>
+    </div>
+    <p style="margin-top:1rem;"><strong>Other materials:</strong> Manuscript paper and pencils with erasers for written work in class. A metronome is required for all practice sessions outside of class; a free phone app (such as Metronome Beats, Pro Metronome, or similar) is perfectly adequate and strongly recommended if you do not own a physical metronome.</p>
+    <div style="margin-top:0.75rem;background:#fff;border:1px solid var(--rule);border-left:3px solid var(--accent);border-radius:3px;padding:1rem 1.25rem;font-size:0.88rem;line-height:1.7;">
+      <p><strong>Stay organized.</strong> This course distributes handouts and piano scores regularly, and the material builds directly on itself from week to week. A dedicated folder or binder for this course is essential: keep handouts and returned assignments in order so you can return to them during practice.</p>
+      <p style="margin-top:0.5rem;">A few habits that matter: practice every day, even for short sessions: the hands and the ear both respond to regularity, not to cramming. When you make an error in practice, slow down rather than starting over from the beginning. Identify the specific measure that is difficult and work it in isolation before returning it to tempo. And practice with the metronome from the first day: it is much harder to correct an unsteady pulse than to build one correctly from the start.</p>
+    </div>
+    <p style="margin-top:1rem;"><strong>Technology:</strong> Canvas is used for all assignments, announcements, and grade tracking. One additional platform is required:</p>
+    <ul style="margin:0.5rem 0 0 1.25rem;display:flex;flex-direction:column;gap:0.5rem;font-size:0.88rem;line-height:1.7;">
+      <li><strong>GoReact</strong> — video submission platform used for all weekly performance recordings and exam videos. GoReact is fully integrated into Canvas; you do not need to visit GoReact's website or create a separate account. Access it directly from your Canvas course. Useful links: <a href="https://support.echo360.com/hc/en-us/articles/38543582655501-GoReact-Recording-a-Video" style="color:var(--accent);">Recording a video</a> &nbsp;&middot;&nbsp; <a href="https://support.echo360.com/hc/en-us/articles/38543663283725-GoReact-Uploading-a-Video" style="color:var(--accent);">Uploading a video</a>.</li>
+    </ul>
+  </section>
+
+  <section id="requirements" class="syllabus-section">
+    <h2>Course Requirements</h2>
+    <p>This course has four categories of graded work:</p>
+    <div style="margin-top:0.75rem;display:flex;flex-direction:column;gap:0.6rem;">
+      <div class="policy-block">
+        <p><strong>GoReact Assignments (45%)</strong>: On most weeks you will prepare and video-record a few short musical items and upload them to GoReact through Canvas. These may include harmonizations, sing-and-plays, and repertoire. GoReact allows the instructor to provide time-stamped feedback directly on your recordings.</p>
+        <p style="margin-top:0.75rem;"><strong>Recording and submission procedures:</strong></p>
+        <ul style="margin:0.35rem 0 0 1.25rem;font-size:0.86rem;line-height:1.7;">
+          <li>Listen to your own recordings before uploading; submit your best take. Do not upload multiple takes; the instructor will listen only to the first one found.</li>
+          <li>Record one item at a time and name each file appropriately.</li>
+          <li>File naming convention inside GoReact: <span style="font-family:'Source Code Pro',monospace;font-size:0.8rem;">your_last_name_assignment_name.mp4</span>.</li>
+          <li>Audio and video quality do not need to be perfect, but recordings should be free from excessive background noise and your hands should be visible.</li>
+          <li>Do not delete your submission files immediately after uploading, in case of a technical issue.</li>
+        </ul>
+      </div>
+      <div class="policy-block">
+        <p><strong>In-class Wednesday Quizzes (15%)</strong>: Quizzes involve performance or written work. You will be expected to perform exercises, drills, and other materials. There may be weeks when you are not called on, but you should always be prepared. Quiz items will be announced in advance on Canvas.</p>
+      </div>
+      <div class="policy-block">
+        <p><strong>Midterm Exam (20%)</strong>: An individual performance exam held during Week 8. Full details will be posted on Canvas ahead of the exam.</p>
+      </div>
+      <div class="policy-block">
+        <p><strong>Final Exam (20%)</strong>: An individual performance exam held during Week 15. Same format as the midterm.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="grading" class="syllabus-section">
+    <h2>Grading</h2>
+    <table class="grade-table" style="margin-bottom:1.25rem;">
+      <thead><tr><th>Component</th><th style="text-align:right;">Weight</th></tr></thead>
+      <tbody>
+        <tr><td>GoReact Assignments</td><td>45%</td></tr>
+        <tr><td>In-class Wednesday Quizzes</td><td>15%</td></tr>
+        <tr><td>Midterm Exam</td><td>20%</td></tr>
+        <tr><td>Final Exam</td><td>20%</td></tr>
+        <tr><td><strong>Total</strong></td><td><strong>100%</strong></td></tr>
+      </tbody>
+    </table>
+
+    <p><strong>Evaluation criteria for playing assignments:</strong> All GoReact recordings, quizzes, and exams are assessed along the following dimensions. The rubric for quizzes is the same as for recorded assignments, though the materials are simpler.</p>
+    <ul style="margin:0.5rem 0 1.25rem 1.25rem;font-size:0.86rem;line-height:1.8;">
+      <li><strong>Note accuracy:</strong> correct notes in the correct register and octave.</li>
+      <li><strong>Fingering accuracy:</strong> fingering as given in the score or as devised in class.</li>
+      <li><strong>Harmonic accuracy:</strong> melody harmonized with appropriate chords and voicings.</li>
+      <li><strong>Rhythmic accuracy:</strong> correct durations for each note.</li>
+      <li><strong>Tempo:</strong> performed at the requested speed.</li>
+      <li><strong>Pulse:</strong> steady, even beat maintained throughout.</li>
+      <li><strong>Dynamics:</strong> dynamic markings in the score followed.</li>
+      <li><strong>Articulation:</strong> articulation markings in the score followed.</li>
+      <li><strong>Hand position and posture:</strong> appropriate hand position and good overall posture.</li>
+      <li><strong>Continuity:</strong> performed from start to finish without stopping and restarting.</li>
+    </ul>
+
+    <p><strong>Individual assignment rubric (0&ndash;4 scale):</strong> All GoReact assignments, quizzes, and exams are evaluated on a 0&ndash;4 scale.</p>
+    <table class="grade-table" style="margin-bottom:1.25rem;">
+      <thead><tr><th style="width:60px;">Score</th><th style="width:120px;">Level</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td>4</td><td>Outstanding</td><td style="text-align:left;font-family:'Source Sans 3',sans-serif;font-size:0.85rem;">Rare. The finest representation of the work: all notes and rhythms correct in the right register, accurate fingering, appropriate harmony, steady pulse at the requested tempo, dynamics and articulation followed, excellent hand position and posture, and a confident continuous performance from start to finish.</td></tr>
+        <tr><td>3</td><td>Very good</td><td style="text-align:left;font-family:'Source Sans 3',sans-serif;font-size:0.85rem;">Clear mastery of the material. Above average work with minimal errors in pitch, rhythm, or execution.</td></tr>
+        <tr><td>2</td><td>Below average</td><td style="text-align:left;font-family:'Source Sans 3',sans-serif;font-size:0.85rem;">The material has been learned but needs more preparation. Errors in notes, rhythm, fingering, or continuity are present and indicate incomplete practice.</td></tr>
+        <tr><td>1</td><td>Unacceptable</td><td style="text-align:left;font-family:'Source Sans 3',sans-serif;font-size:0.85rem;">Demonstrates less than the required effort. The material is minimally learned and the performance is not yet at a functional level.</td></tr>
+        <tr><td>0</td><td>Not submitted</td><td style="text-align:left;font-family:'Source Sans 3',sans-serif;font-size:0.85rem;">No submission, unlearned music, or work that does not engage with the assignment.</td></tr>
+      </tbody>
+    </table>
+
+    <p style="margin-top:1rem;"><strong>Course grade scale:</strong> Because all assignments are scored on the 0&ndash;4 scale, course grades are calculated from the weighted average of those scores and converted to letter grades as follows.</p>
+    <table class="grade-table" style="margin-bottom:1rem;max-width:480px;">
+      <thead><tr><th>Grade</th><th>Score range</th><th>Percentage</th><th style="text-align:right;">GPA Points</th></tr></thead>
+      <tbody>
+        <tr><td>A (A, A&ndash;)</td><td>3.35&ndash;4.00</td><td>83.75&ndash;100%</td><td>3.7&ndash;4.0</td></tr>
+        <tr><td>B (B+, B, B&ndash;)</td><td>3.05&ndash;3.34</td><td>76.25&ndash;83.74%</td><td>2.7&ndash;3.3</td></tr>
+        <tr><td>C (C+, C, C&ndash;)</td><td>2.75&ndash;3.04</td><td>68.75&ndash;76.24%</td><td>1.7&ndash;2.3</td></tr>
+        <tr><td>F</td><td>Below 2.75</td><td>Below 68.75%</td><td>0.0</td></tr>
+      </tbody>
+    </table>
+    <div class="policy-block"><p><strong>Minimum grade requirements.</strong> Music majors and music minors must earn a C&ndash; or better for the course to count toward major or minor requirements.</p></div>
+    <p style="margin-top:0.85rem;">Grade appeals: <a href="https://catalog.csueastbay.edu/content.php?catoid=39&navoid=36981" style="color:var(--accent);">Grade Appeals and Academic Grievances</a>.</p>
+  </section>
+
+  <section id="policies" class="syllabus-section">
+    <h2>Course Policies</h2>
+    <p><strong>Attendance.</strong> Keyboard is learned in class as well as in the practice room; they are not interchangeable. More than three unexcused absences will affect your grade. Please email the instructor in advance when possible.</p>
+    <p><strong>Late work.</strong> Assignments submitted after the deadline will receive a 2% deduction per day late, up to a maximum deduction of 50%. This means submitting late is always better than not submitting, and work will never receive less than 50% credit solely due to lateness. The quality of the work is still evaluated normally. If you anticipate significant delays or challenges, please communicate early, in person or through Canvas.</p>
+    <p><strong>Fingernails.</strong> Long fingernails that extend beyond the fingertip are not compatible with piano playing. You will need to keep them trimmed for the duration of the course.</p>
+    <p><strong>Lab rules and etiquette.</strong> No food or drink in MB 2081; water bottles with lids must be placed on the floor. Wash and dry hands before using the keyboards. Do not place bags, books, or keychains on the keyboards. Handle headsets with care; always return them to their hooks when leaving. Turn keyboards off and cover the keys when you are done. When using an eraser, keep shavings away from the keys.</p>
+    <p><strong>In-class etiquette.</strong> Play only when instructed. Never play while the instructor or a classmate is playing or speaking. If you have a technical issue (can't hear the instructor, can't hear others), raise your hand. Always check whether your keyboard is in speaker or headset mode before class begins.</p>
+    <p><strong>Syllabus changes.</strong> Any changes will be discussed with students before implementation and communicated in person and through Canvas.</p>
+  </section>
+
+  <section id="ai" class="syllabus-section">
+    <h2>Generative AI Use Policy</h2>
+    <div class="policy-block">
+      <p>Generative AI tools (such as ChatGPT, Claude, DALL&middot;E, and similar) may be used in this course with documentation and citation. AI can be useful for brainstorming or organizing ideas, but the listening, thinking, and writing must be your own. AI cannot replace listening or reflection, and substituting AI-generated content for required analysis violates course policy.</p>
+
+      <p style="margin-top:0.75rem;"><strong>Citation requirements (Chicago 17th edition):</strong></p>
+      <p>Footnote:<br><span style="font-family:'Source Code Pro',monospace;font-size:0.78rem;color:var(--muted);">OpenAI, ChatGPT, [access date], https://chat.openai.com/</span></p>
+      <p>Bibliography:<br><span style="font-family:'Source Code Pro',monospace;font-size:0.78rem;color:var(--muted);">OpenAI. ChatGPT. [access date]. https://chat.openai.com/</span></p>
+
+      <p style="margin-top:0.75rem;"><strong>Document the conversation:</strong> Where the platform allows, click Share &rarr; Copy Link and paste the link in an appendix to your submission. Both Claude and ChatGPT support shareable conversation links.</p>
+
+      <p style="margin-top:0.5rem;">Undisclosed AI use violates the CSUEB Code of Academic Integrity and may be subject to disciplinary action.</p>
+    </div>
+  </section>
+
+  <hr class="div">
+
+  <section id="schedule" class="syllabus-section">
+    <h2>Course Schedule</h2>
+    <p>The following schedule maps the 15-week semester. References are to Alfred's Group Piano for Adults, Book 1. The instructor may make adjustments as needed; changes will be communicated in person and on Canvas.</p>
+    <p style="margin-top:0.5rem;font-size:0.85rem;color:var(--muted);">Assessment rhythm: GoReact video recordings are due Monday at 11:59pm each week (content from the prior week). Short performance quizzes are held in class on Wednesdays. The midterm is in Week 8 and the final in Week 15, as shown in the table below.</p>
+    <table class="sched-table">
+      <thead><tr><th>Week</th><th>Topic</th><th>Alfred's</th></tr></thead>
+      <tbody>
+        <tr><td>01</td><td>Minor scales Group 2 consolidation; triads of the key in harmonic minor.</td><td>Unit 17</td></tr>
+        <tr class="stripe"><td>02</td><td>Major scales Group 3 and triads of the key; scales and arpeggios in new key groups.</td><td>Unit 18</td></tr>
+        <tr><td>03</td><td>Unit 18 continued: repertoire and harmonization in Group 3 keys.</td><td>Unit 18 cont.</td></tr>
+        <tr class="stripe"><td>04</td><td>The ii chord: voice leading and harmonic function at the keyboard.</td><td>Unit 19</td></tr>
+        <tr><td>05</td><td>The vi chord: submediant in harmonic context; repertoire.</td><td>Unit 20</td></tr>
+        <tr class="stripe"><td>06</td><td>The iii chord: mediant function and voice leading at the keyboard.</td><td>Unit 21</td></tr>
+        <tr><td>07</td><td>Minor scales Group 3 and triads of the key in harmonic minor; arpeggios.</td><td>Unit 22</td></tr>
+        <tr class="exam"><td>08</td><td>Midterm exam. Covers Units 17&ndash;22.</td><td></td></tr>
+        <tr><td>09</td><td>Unit 22 continued: repertoire in minor; ensemble and score reading.</td><td>Unit 22 cont.</td></tr>
+        <tr class="stripe"><td>10</td><td>Seventh chords: qualities, inversions, and resolution at the keyboard.</td><td>Unit 23</td></tr>
+        <tr><td>11</td><td>Unit 23 continued: seventh chords in musical context; harmonization and repertoire.</td><td>Unit 23 cont.</td></tr>
+        <tr class="stripe"><td>12</td><td>Other scale structures: chromatic scale, whole-tone scale, blues scale.</td><td>Unit 24</td></tr>
+        <tr><td>13</td><td>Modes: Ionian, Lydian, Mixolydian, Aeolian, Dorian, Phrygian.</td><td>Unit 25</td></tr>
+        <tr class="stripe"><td>14</td><td>Review of Book 1: technique, repertoire, harmonization, sight-reading.</td><td>Unit 26</td></tr>
+        <tr class="exam"><td>15</td><td>Review and final exam.</td><td></td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="resources" class="syllabus-section">
+    <h2>Student Resources</h2>
+
+    <p><strong>Academic integrity.</strong> As a member of the academic community, you are expected to act with integrity and avoid plagiarism and other forms of cheating. By enrolling in this class, you agree to uphold the standards of academic integrity described at <a href="https://www.csueastbay.edu/aps/academic-policies/academic-dishonesty.html" style="color:var(--accent);">csueastbay.edu/aps/academic-policies/academic-dishonesty.html</a>.</p>
+
+    <p><strong>Accommodations for students with disabilities.</strong> For disability and other learning-related needs and accommodations, including if you would need assistance in the event of an emergency evacuation, please communicate with the instructor as soon as possible. Students with disabilities are also encouraged to contact the Accessibility Services office at <a href="https://www.csueastbay.edu/accessibility" style="color:var(--accent);">csueastbay.edu/accessibility</a> to meet with a counselor who can advise you on your options, including your rights under Section 504 of the Rehabilitation Act and the Americans with Disabilities Act.</p>
+
+    <p><strong>Student services.</strong> To access student services offered at Cal State East Bay, click on the MyCompass icon to get you to your one-stop online student support hub for information on academic advising, tutoring, financial aid, the library, the health center, technology support, career counseling, campus life, equity programs, and more.</p>
+
+    <p><strong>Emergency information.</strong> Information on what to do in an emergency situation (earthquake, electrical outage, fire, extreme heat, severe storm, hazardous materials, terrorist attack) may be found at <a href="https://www.csueastbay.edu/riskmanagement/index.html" style="color:var(--accent);">csueastbay.edu/riskmanagement</a>. Please review this information at the start of the semester.</p>
+
+    <p><strong>Protection against discrimination, harassment, and retaliation.</strong> Title IX and CSU policy prohibit discrimination, harassment, and retaliation, including sex discrimination, sexual harassment, and sexual violence. For confidential services, contact the Confidential Advocate at 510-885-3700 or the Student Health and Counseling Center. For 24-hour crisis services call the BAWAR hotline at 510-800-4247. More information: <a href="http://www.csueastbay.edu/titleix" style="color:var(--accent);">csueastbay.edu/titleix</a> and <a href="https://www.csueastbay.edu/riskmanagement/complaint.html" style="color:var(--accent);">csueastbay.edu/riskmanagement/complaint.html</a>.</p>
+
+    <p><strong>Student conduct.</strong> The University is committed to maintaining a safe and healthy living and learning environment. More information: <a href="http://www.csueastbay.edu/studentconduct/student-conduct.html" style="color:var(--accent);">csueastbay.edu/studentconduct</a>.</p>
+  </section>
+
+  <div class="syllabus-footer">MUS 218 &mdash; Keyboard Musicianship III &nbsp;&middot;&nbsp; Department of Music, California State University, East Bay &nbsp;&middot;&nbsp; Version 1.0, Spring 2026 &nbsp;&middot;&nbsp; This syllabus is subject to change; updates will be communicated in person and through Canvas.</div>
+</main>
+</body>
+</html>

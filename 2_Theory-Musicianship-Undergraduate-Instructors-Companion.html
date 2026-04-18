@@ -1,0 +1,1489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Theory and Musicianship — Instructor's Companion — CSU East Bay</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink:        #1a1a1a;
+    --paper:      #f7f5f0;
+    --rule:       #d8d3c8;
+    --muted:      #7a7468;
+
+    --theory-hue:    #2c4a6e;
+    --theory-light:  #e8eef5;
+    --theory-mid:    #5a82a6;
+
+    --aural-hue:     #4a2c1a;
+    --aural-light:   #f5ede8;
+    --aural-mid:     #a67855;
+
+    --keyboard-hue:  #1a3d2c;
+    --keyboard-light:#e8f2ec;
+    --keyboard-mid:  #4a8c68;
+
+    --accent:     #8b1a1a;
+    --accent-light: #fdf5f5;
+    --sidebar-w:  260px;
+    --max-w:      820px;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7;
+    display: flex;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed;
+    top: 0; left: 0;
+    width: var(--sidebar-w);
+    height: 100vh;
+    background: var(--ink);
+    color: #fff;
+    padding: 2rem 1.5rem;
+    overflow-y: auto;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav .nav-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #fff;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+    padding-bottom: 1rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+  }
+
+  nav .nav-version {
+    font-size: 0.65rem;
+    color: rgba(255,255,255,0.4);
+    letter-spacing: 0.08em;
+    margin-bottom: 1rem;
+  }
+
+  nav .nav-section-label {
+    font-size: 0.62rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.35);
+    margin: 1.1rem 0 0.4rem;
+  }
+
+  nav a {
+    display: block;
+    color: rgba(255,255,255,0.7);
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.3;
+    padding: 0.28rem 0;
+    transition: color 0.15s;
+  }
+  nav a:hover { color: #fff; }
+
+  nav .track-dot {
+    display: inline-block;
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    margin-right: 6px;
+    vertical-align: middle;
+    position: relative; top: -1px;
+  }
+  nav .dot-t { background: var(--theory-mid); }
+  nav .dot-a { background: var(--aural-mid); }
+  nav .dot-k { background: var(--keyboard-mid); }
+  nav .dot-s { background: var(--accent); }
+
+  /* ── MAIN ── */
+  main {
+    margin-left: var(--sidebar-w);
+    width: calc(100% - var(--sidebar-w));
+    padding: 4rem 3.5rem 6rem;
+    max-width: calc(var(--max-w) + var(--sidebar-w));
+  }
+
+  /* ── PAGE HEADER ── */
+  .page-header {
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+  }
+  .page-header .institution {
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .page-header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: 0.75rem;
+  }
+  .page-header .subtitle {
+    font-size: 1rem;
+    color: var(--muted);
+    font-style: italic;
+    font-weight: 300;
+  }
+
+  /* ── INTRO ── */
+  .intro p {
+    font-size: 0.95rem;
+    color: var(--muted);
+    line-height: 1.75;
+    margin-bottom: 0.75rem;
+  }
+
+  /* ── SEMESTER BLOCK ── */
+  .semester-block { margin-bottom: 4rem; }
+  .semester-header {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .semester-header h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+  .semester-tag {
+    font-size: 0.72rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-weight: 400;
+    border: 1px solid var(--rule);
+    padding: 0.2rem 0.6rem;
+    border-radius: 2px;
+  }
+  .semester-intro {
+    font-size: 0.95rem;
+    color: var(--muted);
+    font-style: italic;
+    margin-bottom: 1.75rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  /* ── SUBSECTION HEADER ── */
+  .sub-header {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  /* ── DEADLINE GRID ── */
+  .deadline-grid {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    table-layout: fixed;
+  }
+  .deadline-grid colgroup col:first-child { width: 52px; }
+  .deadline-grid th {
+    font-size: 0.62rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--muted);
+    padding: 0.5rem 0.75rem;
+    border-bottom: 2px solid var(--ink);
+    text-align: left;
+    background: var(--paper);
+  }
+  .deadline-grid th.th-theory   { color: var(--theory-hue);   background: var(--theory-light); border-top: 3px solid var(--theory-hue); }
+  .deadline-grid th.th-aural    { color: var(--aural-hue);    background: var(--aural-light); border-top: 3px solid var(--aural-hue); }
+  .deadline-grid th.th-keyboard { color: var(--keyboard-hue); background: var(--keyboard-light); border-top: 3px solid var(--keyboard-hue); }
+  .deadline-grid th.th-solo     { color: var(--accent);       background: var(--accent-light); border-top: 3px solid var(--accent); }
+  .deadline-grid td {
+    padding: 0.55rem 0.75rem;
+    vertical-align: top;
+    border-bottom: 1px solid #efefec;
+    border-right: 1px solid #efefec;
+    line-height: 1.45;
+    font-weight: 300;
+    background: #fff;
+  }
+  .deadline-grid td.week-num {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 0.72rem;
+    color: var(--muted);
+    font-weight: 500;
+    text-align: center;
+    background: var(--paper);
+  }
+  .deadline-grid tr.conflict-row td { background: #fdf5f5; }
+  .deadline-grid tr.conflict-row td.week-num { background: #fdf5f5; color: var(--accent); font-weight: 600; }
+  .deadline-grid tr:last-child td { border-bottom: none; }
+  .deadline-grid .due-tag {
+    display: inline-block;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 0.68rem;
+    color: var(--muted);
+    margin-left: 0.3rem;
+  }
+  .deadline-grid .item-major {
+    display: block;
+    font-weight: 600;
+    color: var(--accent);
+    font-size: 0.82rem;
+    margin-top: 0.15rem;
+  }
+
+  /* ── DAY-SPLIT GRID (shared semesters with Day 1 / Day 2 columns) ── */
+  .deadline-grid.day-split {
+    font-size: 0.72rem;
+    table-layout: fixed;
+  }
+  .deadline-grid.day-split colgroup col:first-child { width: 42px; }
+  .deadline-grid.day-split th {
+    font-size: 0.56rem;
+    padding: 0.35rem 0.45rem;
+    letter-spacing: 0.08em;
+  }
+  .deadline-grid.day-split td {
+    padding: 0.45rem 0.5rem;
+    font-size: 0.72rem;
+    line-height: 1.4;
+  }
+  .deadline-grid.day-split td.week-num { font-size: 0.68rem; }
+  /* Column-colored body cells, tinted by track */
+  .deadline-grid.day-split td.cell-t { background: #f4f7fb; }
+  .deadline-grid.day-split td.cell-a { background: #faf5f1; }
+  .deadline-grid.day-split td.cell-k { background: #f3f8f5; }
+  .deadline-grid.day-split td.cell-s { background: #fbf8f2; }
+  .deadline-grid.day-split tr.conflict-row td.cell-t,
+  .deadline-grid.day-split tr.conflict-row td.cell-a,
+  .deadline-grid.day-split tr.conflict-row td.cell-k,
+  .deadline-grid.day-split tr.conflict-row td.cell-s { background: #fdf5f5; }
+
+  /* Solo-grid overrides: greyscale, no red accent (for MUS 108, 312, 410) */
+  .deadline-grid.day-split.solo-grid {
+    width: 50%;
+    min-width: 340px;
+  }
+  .deadline-grid.day-split.solo-grid th.th-solo {
+    color: var(--ink);
+    background: #ececea;
+    border-top: 3px solid #666;
+  }
+  /* Mon column = darker grey, Wed column = lighter grey */
+  .deadline-grid.day-split.solo-grid td:nth-child(2) { background: #efefec; }
+  .deadline-grid.day-split.solo-grid td:nth-child(3) { background: #f7f6f3; }
+  /* Final / conflict row: muted dark grey, not red */
+  .deadline-grid.day-split.solo-grid tr.conflict-row td:nth-child(2),
+  .deadline-grid.day-split.solo-grid tr.conflict-row td:nth-child(3) {
+    background: #dcdbd6;
+    color: var(--ink);
+  }
+  .deadline-grid.day-split.solo-grid tr.conflict-row td.week-num {
+    background: #dcdbd6;
+    color: var(--ink);
+  }
+  .deadline-grid.day-split.solo-grid tr.conflict-row .item-major {
+    color: var(--ink);
+  }
+  .deadline-grid.day-split .day-label {
+    display: block;
+    font-size: 0.55rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+  }
+  .deadline-grid.day-split .due-tag {
+    display: block;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 0.6rem;
+    color: var(--muted);
+    margin-top: 0.12rem;
+    margin-left: 0;
+  }
+  .deadline-grid.day-split .item-major {
+    font-size: 0.72rem;
+  }
+  .deadline-grid.day-split tr.break-row td {
+    background: #f5f1e8;
+    font-style: italic;
+    color: var(--muted);
+    text-align: center;
+    font-size: 0.72rem;
+  }
+
+  /* ── CONFLICT CALLOUT ── */
+  .conflict-note {
+    background: #fdf5f5;
+    border-left: 3px solid var(--accent);
+    padding: 0.65rem 1rem;
+    font-size: 0.82rem;
+    color: var(--ink);
+    margin-top: 1rem;
+    border-radius: 2px;
+    line-height: 1.55;
+  }
+  .conflict-note strong { color: var(--accent); }
+
+  /* ── CLASS STRUCTURE BLOCKS ── */
+  .class-structure {
+    margin-top: 1.5rem;
+    padding: 1.25rem 1.5rem;
+    background: #fff;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+  }
+  .class-structure.theory   { border-top: 3px solid var(--theory-hue); }
+  .class-structure.aural    { border-top: 3px solid var(--aural-hue); }
+  .class-structure.keyboard { border-top: 3px solid var(--keyboard-hue); }
+  .class-structure.solo     { border-top: 3px solid var(--accent); }
+
+  .class-structure .cs-course-label {
+    font-size: 0.62rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+  }
+  .class-structure.theory   .cs-course-label { color: var(--theory-hue); }
+  .class-structure.aural    .cs-course-label { color: var(--aural-hue); }
+  .class-structure.keyboard .cs-course-label { color: var(--keyboard-hue); }
+  .class-structure.solo     .cs-course-label { color: var(--accent); }
+
+  .class-structure h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+  .class-structure .cs-meta {
+    font-size: 0.78rem;
+    color: var(--muted);
+    font-style: italic;
+    margin-bottom: 1rem;
+    padding-bottom: 0.65rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .class-structure h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-top: 1.1rem;
+    margin-bottom: 0.4rem;
+  }
+  .class-structure h4:first-of-type { margin-top: 0.5rem; }
+  .class-structure p {
+    font-size: 0.88rem;
+    line-height: 1.65;
+    margin-bottom: 0.55rem;
+  }
+  .class-structure ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0.4rem 0 0.65rem;
+  }
+  .class-structure li {
+    font-size: 0.88rem;
+    line-height: 1.55;
+    padding: 0.25rem 0 0.25rem 1.1rem;
+    position: relative;
+  }
+  .class-structure li::before {
+    content: "·";
+    position: absolute;
+    left: 0.25rem;
+    color: var(--muted);
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1;
+    top: 0.35rem;
+  }
+  .class-structure .cs-note {
+    font-size: 0.85rem;
+    color: var(--ink);
+    background: var(--paper);
+    border-left: 2px solid var(--rule);
+    padding: 0.5rem 0.85rem;
+    margin: 0.75rem 0;
+    line-height: 1.6;
+  }
+
+  /* ── DIVIDER ── */
+  .section-divider {
+    border: none;
+    border-top: 1px solid var(--rule);
+    margin: 3rem 0;
+  }
+
+  /* ── FOOTER ── */
+  .footer {
+    margin-top: 4rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+    font-size: 0.72rem;
+    color: var(--muted);
+    font-style: italic;
+  }
+
+  @media (max-width: 800px) {
+    nav { display: none; }
+    main { margin-left: 0; padding: 2rem 1.5rem; }
+    .deadline-grid { font-size: 0.7rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════ NAV ══════════════════════════════════════════ -->
+<nav>
+  <div class="nav-logo">Instructor's<br>Companion<br>CSU East Bay</div>
+  <div class="nav-version">Theory &amp; Musicianship &middot;&nbsp;Version 2.0 &middot;&nbsp;Spring 2026</div>
+
+  <div class="nav-section-label">Overview</div>
+  <a href="#intro">About This Document</a>
+
+  <div class="nav-section-label">Section 1</div>
+  <a href="#mus108"><span class="track-dot dot-s"></span>MUS 108 &mdash; Language of Music</a>
+
+  <div class="nav-section-label">Section 2 &mdash; Core Sequence</div>
+  <a href="#conventions">Deadline Conventions</a>
+  <a href="#concurrent-deadlines">Shared Deadline Grids</a>
+  <a href="#theory-template"><span class="track-dot dot-t"></span>Theory Template</a>
+  <a href="#aural-template"><span class="track-dot dot-a"></span>Aural Skills Template</a>
+  <a href="#keyboard-template"><span class="track-dot dot-k"></span>Keyboard Template</a>
+
+  <div class="nav-section-label">Section 3 &mdash; Upper Division</div>
+  <a href="#mus312"><span class="track-dot dot-s"></span>MUS 312 &mdash; Form and Analysis</a>
+  <a href="#mus410"><span class="track-dot dot-s"></span>MUS 410 &mdash; 20th/21st Century</a>
+</nav>
+
+<!-- ══════════════════════════════════════════ MAIN ══════════════════════════════════════════ -->
+<main>
+
+  <header class="page-header">
+    <div class="institution">California State University, East Bay &mdash; Department of Music</div>
+    <h1>Theory and Musicianship<br>Instructor's Companion</h1>
+    <div class="subtitle">Deadline schedules and class-structure guidance for the B.A. sequence</div>
+  </header>
+
+  <section id="intro" class="intro" style="margin-bottom:2.5rem;">
+    <h2 style="font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:600;margin-bottom:0.75rem;">About This Document</h2>
+    <p>This companion sits alongside the Theory and Musicianship Undergraduate Curriculum Guide. It is intended for instructors teaching within the B.A. sequence and has two purposes: first, to coordinate deadlines across co-requisite courses so that students are not overloaded at the same points in the semester; second, to offer a shared baseline for how class time is typically structured within each course.</p>
+    <p>None of the class-structure guidance is prescriptive. The intent is to give instructors a starting frame that reflects how these courses have been taught successfully, while leaving room for individual pedagogical judgment. Week-by-week content pacing is detailed in the Curriculum Guide and in the individual course syllabi; this document does not duplicate that information.</p>
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- ═══════════════════════════════════════════ SECTION 1: MUS 108 ═══════════════════════════════════════════ -->
+  <section class="doc-section">
+    <div style="font-size:0.7rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:0.4rem;">Section 1</div>
+    <h1 style="font-family:'Playfair Display',serif;font-size:1.9rem;font-weight:700;margin-bottom:0.5rem;">MUS 108 &mdash; Language of Music</h1>
+    <p style="font-size:0.95rem;color:var(--muted);font-style:italic;margin-bottom:2rem;padding-bottom:1.5rem;border-bottom:2px solid var(--ink);">General education course, taught in both Fall and Spring.</p>
+
+    <section id="mus108" class="semester-block">
+    <div class="semester-header">
+      <h2>MUS 108 &mdash; Language of Music</h2>
+      <span class="semester-tag">Fall &mdash; Year 1</span>
+    </div>
+    <p class="semester-intro">GE Area 3A. Open to all students; taught as a C5 seminar with three contact hours per week. Enrollment typically mixes music majors with GE students from other disciplines, and pacing must accommodate that range.</p>
+
+    <h3 class="sub-header">Deadline Schedule</h3>
+    <p style="font-size:0.9rem;color:var(--muted);line-height:1.7;margin-bottom:1.25rem;">MUS 108 is offered in both Fall and Spring. Because the two semesters differ in how holidays and breaks fall, separate grids are provided below. The assignment structure is identical across both; only the calendar notes differ.</p>
+
+    <h3 class="sub-header">Fall Semester</h3>
+    <p style="font-size:0.85rem;color:var(--muted);margin-bottom:0.75rem;line-height:1.7;">In the CSUEB Fall calendar, Fall Recess typically displaces a full calendar week in late November, and Veterans Day takes out a single Wednesday meeting. The grid below uses content-week numbering (1&ndash;15); specific calendar dates should be verified against the published academic calendar each term.</p>
+    <table class="deadline-grid day-split solo-grid">
+      <colgroup>
+        <col><col><col>
+      </colgroup>
+      <thead>
+        <tr>
+          <th rowspan="2">Week</th>
+          <th colspan="2" class="th-solo">MUS 108 &mdash; Language of Music</th>
+        </tr>
+        <tr>
+          <th class="th-solo"><span class="day-label">Mon</span></th>
+          <th class="th-solo"><span class="day-label">Wed</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="week-num">01</td>
+          <td class="cell-s">&mdash;</td>
+          <td class="cell-s">&mdash;</td>
+        </tr>
+        <tr>
+          <td class="week-num">02</td>
+          <td class="cell-s">Ex. 1 <span class="due-tag">(in class)</span></td>
+          <td class="cell-s">&mdash;</td>
+        </tr>
+        <tr>
+          <td class="week-num">03</td>
+          <td class="cell-s">Ex. 2 <span class="due-tag">(in class)</span></td>
+          <td class="cell-s"><span class="item-major">Quiz 1</span> <span class="due-tag">(in class)</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">04</td>
+          <td class="cell-s">Ex. 3 <span class="due-tag">(in class)</span></td>
+          <td class="cell-s">&mdash;</td>
+        </tr>
+        <tr>
+          <td class="week-num">05</td>
+          <td class="cell-s">Ex. 4 <span class="due-tag">(in class)</span><br><span class="item-major">Listening Journal 1</span> <span class="due-tag">Sun (online)</span></td>
+          <td class="cell-s">&mdash;</td>
+        </tr>
+        <tr>
+          <td class="week-num">06</td>
+          <td class="cell-s">Ex. 5 <span class="due-tag">(in class)</span></td>
+          <td class="cell-s"><span class="item-major">Quiz 2</span> <span class="due-tag">(in class)</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">07</td>
+          <td class="cell-s">Ex. 6 <span class="due-tag">(in class)</span></td>
+          <td class="cell-s">&mdash;</td>
+        </tr>
+        <tr>
+          <td class="week-num">08</td>
+          <td class="cell-s">&mdash;</td>
+          <td class="cell-s">&mdash;</td>
+        </tr>
+        <tr>
+          <td class="week-num">09</td>
+          <td class="cell-s">Ex. 7 <span class="due-tag">(in class)</span><br><span class="item-major">Listening Journal 2</span> <span class="due-tag">Sun (online)</span></td>
+          <td class="cell-s"><span class="item-major">Quiz 3</span> <span class="due-tag">(in class)</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">10</td>
+          <td class="cell-s">Ex. 8 <span class="due-tag">(in class)</span></td>
+          <td class="cell-s"><span class="item-major">Final Project Proposal</span> <span class="due-tag">(in class)</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">11</td>
+          <td class="cell-s">Ex. 9 <span class="due-tag">(in class)</span></td>
+          <td class="cell-s">&mdash;</td>
+        </tr>
+        <tr>
+          <td class="week-num">12</td>
+          <td class="cell-s">Ex. 10 <span class="due-tag">(in class)</span></td>
+          <td class="cell-s"><span class="item-major">Final Project Draft</span> <span class="due-tag">(in class)</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">13</td>
+          <td class="cell-s">Ex. 11 <span class="due-tag">(in class)</span><br><span class="item-major">Listening Journal 3</span> <span class="due-tag">Sun (online)</span></td>
+          <td class="cell-s"><span class="item-major">Quiz 4</span> <span class="due-tag">(in class)</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">14</td>
+          <td class="cell-s">Ex. 12 <span class="due-tag">(in class)</span></td>
+          <td class="cell-s">&mdash;</td>
+        </tr>
+        <tr class="conflict-row">
+          <td class="week-num">15</td>
+          <td class="cell-s"><span class="item-major">Final Project Presentation</span></td>
+          <td class="cell-s"><span class="item-major">Final Exam</span></td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="conflict-note"><strong>Fall Recess and Veterans Day:</strong> Fall Recess typically displaces a full calendar week in late November; Veterans Day takes out a single Wednesday meeting. Instructors should verify the specific dates each term and adjust the pacing accordingly.</p>
+    <p class="conflict-note"><strong>Week 8 breather:</strong> Week 8 is intentionally left open in this grid. Instructors may use it for catch-up, review, an additional in-depth listening session, or a content week that needed more breathing room earlier in the semester.</p>
+    <p class="conflict-note"><strong>Week 15 concentration:</strong> The final project presentation and the final exam both land in Week 15. Instructors may choose to present the project on Monday and hold the exam on Wednesday, or vice versa.</p>
+    <h3 class="sub-header" style="margin-top:2.5rem;">Spring Semester</h3>
+    <p style="font-size:0.85rem;color:var(--muted);margin-bottom:0.75rem;line-height:1.7;">In the CSUEB Spring calendar, Spring Break typically falls between content weeks 10 and 11. The grid below uses content-week numbering (1&ndash;15); specific calendar dates should be verified against the published academic calendar each term.</p>
+    <table class="deadline-grid day-split solo-grid">
+      <colgroup>
+        <col><col><col>
+      </colgroup>
+      <thead>
+        <tr>
+          <th rowspan="2">Week</th>
+          <th colspan="2" class="th-solo">MUS 108 &mdash; Language of Music</th>
+        </tr>
+        <tr>
+          <th class="th-solo"><span class="day-label">Mon</span></th>
+          <th class="th-solo"><span class="day-label">Wed</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="week-num">01</td>
+          <td class="cell-s">&mdash;</td>
+          <td class="cell-s">&mdash;</td>
+        </tr>
+        <tr>
+          <td class="week-num">02</td>
+          <td class="cell-s">Ex. 1 <span class="due-tag">(in class)</span></td>
+          <td class="cell-s">&mdash;</td>
+        </tr>
+        <tr>
+          <td class="week-num">03</td>
+          <td class="cell-s">Ex. 2 <span class="due-tag">(in class)</span></td>
+          <td class="cell-s"><span class="item-major">Quiz 1</span> <span class="due-tag">(in class)</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">04</td>
+          <td class="cell-s">Ex. 3 <span class="due-tag">(in class)</span></td>
+          <td class="cell-s">&mdash;</td>
+        </tr>
+        <tr>
+          <td class="week-num">05</td>
+          <td class="cell-s">Ex. 4 <span class="due-tag">(in class)</span><br><span class="item-major">Listening Journal 1</span> <span class="due-tag">Sun (online)</span></td>
+          <td class="cell-s">&mdash;</td>
+        </tr>
+        <tr>
+          <td class="week-num">06</td>
+          <td class="cell-s">Ex. 5 <span class="due-tag">(in class)</span></td>
+          <td class="cell-s"><span class="item-major">Quiz 2</span> <span class="due-tag">(in class)</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">07</td>
+          <td class="cell-s">Ex. 6 <span class="due-tag">(in class)</span></td>
+          <td class="cell-s">&mdash;</td>
+        </tr>
+        <tr>
+          <td class="week-num">08</td>
+          <td class="cell-s">&mdash;</td>
+          <td class="cell-s">&mdash;</td>
+        </tr>
+        <tr>
+          <td class="week-num">09</td>
+          <td class="cell-s">Ex. 7 <span class="due-tag">(in class)</span><br><span class="item-major">Listening Journal 2</span> <span class="due-tag">Sun (online)</span></td>
+          <td class="cell-s"><span class="item-major">Quiz 3</span> <span class="due-tag">(in class)</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">10</td>
+          <td class="cell-s">Ex. 8 <span class="due-tag">(in class)</span></td>
+          <td class="cell-s"><span class="item-major">Final Project Proposal</span> <span class="due-tag">(in class)</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">11</td>
+          <td class="cell-s">Ex. 9 <span class="due-tag">(in class)</span></td>
+          <td class="cell-s">&mdash;</td>
+        </tr>
+        <tr>
+          <td class="week-num">12</td>
+          <td class="cell-s">Ex. 10 <span class="due-tag">(in class)</span></td>
+          <td class="cell-s"><span class="item-major">Final Project Draft</span> <span class="due-tag">(in class)</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">13</td>
+          <td class="cell-s">Ex. 11 <span class="due-tag">(in class)</span><br><span class="item-major">Listening Journal 3</span> <span class="due-tag">Sun (online)</span></td>
+          <td class="cell-s"><span class="item-major">Quiz 4</span> <span class="due-tag">(in class)</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">14</td>
+          <td class="cell-s">Ex. 12 <span class="due-tag">(in class)</span></td>
+          <td class="cell-s">&mdash;</td>
+        </tr>
+        <tr class="conflict-row">
+          <td class="week-num">15</td>
+          <td class="cell-s"><span class="item-major">Final Project Presentation</span></td>
+          <td class="cell-s"><span class="item-major">Final Exam</span></td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="conflict-note"><strong>Spring Break:</strong> Spring Break typically lands between content Week 10 and content Week 11. Instructors should verify against the published CSUEB academic calendar each term. No assignments are due during the break itself.</p>
+    <p class="conflict-note"><strong>Week 8 breather:</strong> Week 8 is intentionally left open in this grid. Instructors may use it for catch-up, review, an additional in-depth listening session, or a content week that needed more breathing room earlier in the semester.</p>
+    <p class="conflict-note"><strong>Week 15 concentration:</strong> The final project presentation and the final exam both land in Week 15. Instructors may choose to present the project on Monday and hold the exam on Wednesday, or vice versa.</p>
+
+
+
+    <h3 class="sub-header">Class Structure Guidance</h3>
+    <div class="class-structure solo">
+      <div class="cs-course-label">Language of Music</div>
+      <h3>MUS 108</h3>
+      <div class="cs-meta">Two 75-minute meetings per week. C5 seminar, mixed-background enrollment.</div>
+
+      <h4>Typical Monday class structure (75 minutes)</h4>
+      <p><strong>Opening listening or drill (~10 min).</strong> A short listening example tied to the week's topic, or a brief drill (clapping rhythms, identifying meter, singing a scale). Gets the room active before content delivery.</p>
+      <p><strong>Concept presentation (~20 min).</strong> Brief introduction of the week's concept from Takesue, anchored in notation at the board and short listening examples. Keep it short; this is a mixed-background room and extended lecture loses people fast.</p>
+      <p><strong>Guided practice (~25 min).</strong> In-class application of the concept through Takesue workbook exercises. Students work in pairs or small groups where possible; instructors can circulate.</p>
+      <p><strong>Listening connection (~15 min).</strong> Closing segment that connects the technical material to a piece of music from any tradition. This is where the cultural and personal dimensions of the GE 3A outcomes get addressed directly.</p>
+      <p><strong>Wrap and preview (~5 min).</strong> Summary of the day's work and a look ahead to Wednesday.</p>
+
+      <h4>Typical Wednesday class structure (75 minutes)</h4>
+      <p>On non-quiz weeks, Wednesday follows roughly the same shape as Monday, with more emphasis on extending or applying the concept introduced on Monday. Lesson exercises turned in Monday are reviewed in the first part of class, and the remaining time deepens the week's material through additional listening, group analysis, or follow-up exercises.</p>
+      <p>On quiz weeks (Weeks 3, 6, 9, 13), Wednesday is almost entirely the quiz. The quiz itself is approximately one hour, preceded by a short settling-in period and followed by a brief look ahead. Some instructors prefer to use the closing minutes for a short listening example that previews the next unit.</p>
+      <p>On final project milestone weeks (Week 10 proposal, Week 12 draft), Wednesday balances brief content with individual or small-group project workshopping. Instructors may use part of class for one-on-one project check-ins while the rest of the room works independently.</p>
+
+      <h4>Quizzes (20% of grade)</h4>
+      <ul>
+        <li>Four group quizzes per semester, held on Wednesdays, approximately one hour in length</li>
+        <li>Students work in groups of two or three, mirroring the group format used in the Theory track so that students moving from MUS 108 into MUS 111 experience continuity of approach</li>
+        <li>Cover a block of content since the prior quiz, with listening identification and short-answer questions</li>
+        <li>Cannot be made up if missed without a documented excuse</li>
+      </ul>
+
+      <h4>Listening Journals (20% of grade)</h4>
+      <ul>
+        <li>Three journals, spaced at Weeks 5, 9, and 13</li>
+        <li>Each pairs a course listening example with a student-chosen piece</li>
+        <li>Graded on engagement and clarity of thinking, not on technical precision</li>
+      </ul>
+
+      <h4>Final Creative Project (15% of grade)</h4>
+      <ul>
+        <li>Staged submission: proposal (Week 10), draft (Week 13), final (Week 15)</li>
+        <li>No prior performance experience required; submissions may be notation, lead sheet, chord chart, or audio</li>
+        <li>Presentation in Week 15 alongside the final exam</li>
+      </ul>
+
+      <div class="cs-note" style="margin-bottom:0.75rem;"><strong>A note on grading.</strong> MUS 108 has five distinct graded components (Lesson Exercises, Quizzes, Listening Journals, Final Creative Project, Final Exam), and the distribution is deliberate: each component asks students to engage with the material from a different angle. The variety is there to produce multiple kinds of engagement, and grading across all components should be lenient. Lesson exercises are graded primarily for completion and effort. Listening journals are evaluated on engagement and clarity of thinking, with generous latitude for students still learning the terminology. Quizzes should be pitched at a level the room can reasonably meet, calibrated to where most students actually are rather than to the standard used in the theory track. The final exam is cumulative but should reward students who have shown up and done the work throughout the semester. Many of these students are taking their first college music course in a mixed-background GE room; the point of the course is to build engaged listeners and thinkers, and the grading should make that possible.</div>
+
+      <div class="cs-note">MUS 108 is often the first college music course for many students. Keeping the room welcoming and low-stakes for the first three weeks pays off throughout the semester.</div>
+    </div>
+  </section>
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- ═══════════════════════════════════════════ SECTION 2: CORE SEQUENCE ═══════════════════════════════════════════ -->
+  <section class="doc-section">
+    <div style="font-size:0.7rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:0.4rem;">Section 2</div>
+    <h1 style="font-family:'Playfair Display',serif;font-size:1.9rem;font-weight:700;margin-bottom:0.5rem;">Core Sequence &mdash; Theory, Aural Skills, Keyboard</h1>
+    <p style="font-size:0.95rem;color:var(--muted);font-style:italic;margin-bottom:2rem;padding-bottom:1.5rem;border-bottom:2px solid var(--ink);">Six courses across three levels: MUS 111 / 115 / 118 (Spring Y1), MUS 112 / 116 / 119 (Fall Y2), MUS 211 / 215 / 218 (Spring Y2). All three co-requisite courses in a given semester share the same weekly deadline structure, and each course type (Theory, Aural Skills, Keyboard) follows the same class-structure pattern across all three levels. Deadline conventions, shared grids, and a single class-structure template for each course type follow below.</p>
+
+    <section id="conventions" style="margin-bottom:3rem;">
+    <h2 style="font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:600;margin-bottom:0.75rem;">Deadline Conventions</h2>
+    <p style="font-size:0.92rem;color:var(--muted);line-height:1.75;margin-bottom:0.6rem;">All concurrent-sequence courses (Theory, Aural Skills, Keyboard) meet on Mondays and Wednesdays. Day 1 = Monday, Day 2 = Wednesday. The grids below show what is due on each meeting day of each week.</p>
+
+    <h3 style="font-family:'Playfair Display',serif;font-size:1rem;font-weight:600;color:var(--theory-hue);margin-top:1.5rem;margin-bottom:0.5rem;border-bottom:1px solid var(--rule);padding-bottom:0.3rem;">Theory</h3>
+    <ul style="list-style:none;padding:0;font-size:0.88rem;color:var(--ink);">
+      <li style="padding:0.4rem 0;border-bottom:1px solid var(--rule);"><strong>Lesson exercises</strong>: handwritten and turned in on paper in class, Wednesday (Day 2). No electronic submission. This is a firm requirement of the written work.</li>
+      <li style="padding:0.4rem 0;border-bottom:1px solid var(--rule);"><strong>Quizzes</strong>: five group quizzes total per semester, scheduled on Mondays where possible. Each quiz runs approximately one hour in groups of two or three students working through the material together.</li>
+      <li style="padding:0.4rem 0;"><strong>Midterm and final</strong>: during the designated class meeting that week.</li>
+    </ul>
+
+    <h3 style="font-family:'Playfair Display',serif;font-size:1rem;font-weight:600;color:var(--aural-hue);margin-top:1.5rem;margin-bottom:0.5rem;border-bottom:1px solid var(--rule);padding-bottom:0.3rem;">Aural Skills</h3>
+    <ul style="list-style:none;padding:0;font-size:0.88rem;color:var(--ink);">
+      <li style="padding:0.4rem 0;border-bottom:1px solid var(--rule);"><strong>GoReact recordings</strong>: due Monday, 11:59pm (the evening before the Wednesday class). Practice rooms are available in the music building Monday through Saturday; the building is closed Sundays.</li>
+      <li style="padding:0.4rem 0;border-bottom:1px solid var(--rule);"><strong>Auralia assignments</strong>: due Sunday, 11:59pm.</li>
+      <li style="padding:0.4rem 0;border-bottom:1px solid var(--rule);"><strong>In-class assessments</strong>: no fixed deadline. Instructors decide when to administer these based on the week's content and the room's progress. They are not shown on the deadline grid.</li>
+      <li style="padding:0.4rem 0;"><strong>Midterm and final</strong>: during the designated class meeting that week.</li>
+    </ul>
+
+    <h3 style="font-family:'Playfair Display',serif;font-size:1rem;font-weight:600;color:var(--keyboard-hue);margin-top:1.5rem;margin-bottom:0.5rem;border-bottom:1px solid var(--rule);padding-bottom:0.3rem;">Keyboard</h3>
+    <ul style="list-style:none;padding:0;font-size:0.88rem;color:var(--ink);">
+      <li style="padding:0.4rem 0;border-bottom:1px solid var(--rule);"><strong>GoReact recordings</strong>: due Monday, 11:59pm of the <em>following</em> week (a full week after the content is introduced, to give students the weekend).</li>
+      <li style="padding:0.4rem 0;border-bottom:1px solid var(--rule);"><strong>Wednesday quizzes</strong>: held every Wednesday.</li>
+      <li style="padding:0.4rem 0;"><strong>Midterm and final</strong>: during the designated class meeting that week.</li>
+    </ul>
+
+    <p style="font-size:0.88rem;color:var(--muted);line-height:1.7;margin-top:1.25rem;">Weeks where co-requisite courses share a high-stakes event (midterm or final) are <span style="background:#fdf5f5;padding:0 0.3rem;border-left:2px solid var(--accent);">highlighted</span> in the grid and flagged in a short note below each table.</p>
+  </section>
+
+    <hr style="border:none;border-top:1px solid var(--rule);margin:2rem 0;">
+
+    <!-- Shared Grids (Spring + Fall) -->
+    <section id="concurrent-deadlines" class="semester-block">
+    <div class="semester-header">
+      <h2>Concurrent-Sequence Deadlines</h2>
+      <span class="semester-tag">Theory &middot; Aural Skills &middot; Keyboard</span>
+    </div>
+    <p class="semester-intro">The three co-requisite courses share the same weekly deadline structure across each semester. This section gives a single reference grid for the Spring pattern (used for MUS 111 / 115 / 118 in Spring Year 1, and again for MUS 211 / 215 / 218 in Spring Year 2) and the Fall pattern (used for MUS 112 / 116 / 119 in Fall Year 2). Class-structure guidance for each individual course follows in the sections below.</p>
+
+    <h3 class="sub-header">Spring Semester &mdash; MUS 111/115/118 and MUS 211/215/218</h3>
+    <p style="font-size:0.85rem;color:var(--muted);margin-bottom:0.75rem;line-height:1.7;">In the CSUEB Spring calendar, Spring Break typically falls between content weeks 10 and 11. The grid below uses content-week numbering (1&ndash;15); specific calendar dates should be verified against the published academic calendar each term.</p>
+    <table class="deadline-grid day-split">
+      <colgroup>
+        <col><col><col><col><col><col><col>
+      </colgroup>
+      <thead>
+        <tr>
+          <th rowspan="2">Week</th>
+          <th colspan="2" class="th-theory">Theory</th>
+          <th colspan="2" class="th-aural">Aural Skills</th>
+          <th colspan="2" class="th-keyboard">Keyboard</th>
+        </tr>
+        <tr>
+          <th class="th-theory"><span class="day-label">Mon</span></th>
+          <th class="th-theory"><span class="day-label">Wed</span></th>
+          <th class="th-aural"><span class="day-label">Mon</span></th>
+          <th class="th-aural"><span class="day-label">Wed</span></th>
+          <th class="th-keyboard"><span class="day-label">Mon</span></th>
+          <th class="th-keyboard"><span class="day-label">Wed</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="week-num">01</td>
+          <td class="cell-t">&mdash;</td><td class="cell-t">&mdash;</td>
+          <td class="cell-a">&mdash;</td><td class="cell-a">&mdash;</td>
+          <td class="cell-k">&mdash;</td><td class="cell-k">&mdash;</td>
+        </tr>
+        <tr>
+          <td class="week-num">02</td>
+          <td class="cell-t">&mdash;</td><td class="cell-t">Ex. 1 <span class="due-tag">(in class)</span></td>
+          <td class="cell-a">&mdash;</td><td class="cell-a">&mdash;</td>
+          <td class="cell-k">&mdash;</td><td class="cell-k"><span class="item-major">Weekly Quiz</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">03</td>
+          <td class="cell-t"><span class="item-major">Quiz 1</span></td><td class="cell-t">Ex. 2 <span class="due-tag">(in class)</span></td>
+          <td class="cell-a">GoReact 1 <span class="due-tag">Mon (online)</span><br>Auralia 1 <span class="due-tag">Sun (online)</span></td><td class="cell-a">&mdash;</td>
+          <td class="cell-k">GoReact 1 <span class="due-tag">Mon (online)</span></td><td class="cell-k"><span class="item-major">Weekly Quiz</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">04</td>
+          <td class="cell-t">&mdash;</td><td class="cell-t">Ex. 3 <span class="due-tag">(in class)</span></td>
+          <td class="cell-a">GoReact 2 <span class="due-tag">Mon (online)</span><br>Auralia 2 <span class="due-tag">Sun (online)</span></td><td class="cell-a">&mdash;</td>
+          <td class="cell-k">GoReact 2 <span class="due-tag">Mon (online)</span></td><td class="cell-k"><span class="item-major">Weekly Quiz</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">05</td>
+          <td class="cell-t">&mdash;</td><td class="cell-t">Ex. 4 <span class="due-tag">(in class)</span></td>
+          <td class="cell-a">GoReact 3 <span class="due-tag">Mon (online)</span><br>Auralia 3 <span class="due-tag">Sun (online)</span></td><td class="cell-a">&mdash;</td>
+          <td class="cell-k">GoReact 3 <span class="due-tag">Mon (online)</span></td><td class="cell-k"><span class="item-major">Weekly Quiz</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">06</td>
+          <td class="cell-t"><span class="item-major">Quiz 2</span></td><td class="cell-t">Ex. 5 <span class="due-tag">(in class)</span></td>
+          <td class="cell-a">GoReact 4 <span class="due-tag">Mon (online)</span><br>Auralia 4 <span class="due-tag">Sun (online)</span></td><td class="cell-a">&mdash;</td>
+          <td class="cell-k">GoReact 4 <span class="due-tag">Mon (online)</span></td><td class="cell-k"><span class="item-major">Weekly Quiz</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">07</td>
+          <td class="cell-t">&mdash;</td><td class="cell-t">Ex. 6 <span class="due-tag">(in class)</span></td>
+          <td class="cell-a">GoReact 5 <span class="due-tag">Mon (online)</span><br>Auralia 5 <span class="due-tag">Sun (online)</span></td><td class="cell-a">&mdash;</td>
+          <td class="cell-k">GoReact 5 <span class="due-tag">Mon (online)</span></td><td class="cell-k"><span class="item-major">Weekly Quiz</span></td>
+        </tr>
+        <tr class="conflict-row">
+          <td class="week-num">08</td>
+          <td class="cell-t">&mdash;</td><td class="cell-t"><span class="item-major">Midterm Exam</span></td>
+          <td class="cell-a">&mdash;</td><td class="cell-a"><span class="item-major">Midterm Exam</span></td>
+          <td class="cell-k">&mdash;</td><td class="cell-k"><span class="item-major">Midterm Exam</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">09</td>
+          <td class="cell-t">&mdash;</td><td class="cell-t">Ex. 7 <span class="due-tag">(in class)</span></td>
+          <td class="cell-a">&mdash;</td><td class="cell-a">&mdash;</td>
+          <td class="cell-k">&mdash;</td><td class="cell-k"><span class="item-major">Weekly Quiz</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">10</td>
+          <td class="cell-t"><span class="item-major">Quiz 3</span></td><td class="cell-t">Ex. 8 <span class="due-tag">(in class)</span></td>
+          <td class="cell-a">GoReact 6 <span class="due-tag">Mon (online)</span><br>Auralia 6 <span class="due-tag">Sun (online)</span></td><td class="cell-a">&mdash;</td>
+          <td class="cell-k">GoReact 6 <span class="due-tag">Mon (online)</span></td><td class="cell-k"><span class="item-major">Weekly Quiz</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">11</td>
+          <td class="cell-t">&mdash;</td><td class="cell-t">Ex. 9 <span class="due-tag">(in class)</span></td>
+          <td class="cell-a">GoReact 7 <span class="due-tag">Mon (online)</span><br>Auralia 7 <span class="due-tag">Sun (online)</span></td><td class="cell-a">&mdash;</td>
+          <td class="cell-k">GoReact 7 <span class="due-tag">Mon (online)</span></td><td class="cell-k"><span class="item-major">Weekly Quiz</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">12</td>
+          <td class="cell-t"><span class="item-major">Quiz 4</span></td><td class="cell-t">Ex. 10 <span class="due-tag">(in class)</span></td>
+          <td class="cell-a">GoReact 8 <span class="due-tag">Mon (online)</span><br>Auralia 8 <span class="due-tag">Sun (online)</span></td><td class="cell-a">&mdash;</td>
+          <td class="cell-k">GoReact 8 <span class="due-tag">Mon (online)</span></td><td class="cell-k"><span class="item-major">Weekly Quiz</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">13</td>
+          <td class="cell-t">&mdash;</td><td class="cell-t">Ex. 11 <span class="due-tag">(in class)</span></td>
+          <td class="cell-a">GoReact 9 <span class="due-tag">Mon (online)</span><br>Auralia 9 <span class="due-tag">Sun (online)</span></td><td class="cell-a">&mdash;</td>
+          <td class="cell-k">GoReact 9 <span class="due-tag">Mon (online)</span></td><td class="cell-k"><span class="item-major">Weekly Quiz</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">14</td>
+          <td class="cell-t"><span class="item-major">Quiz 5</span></td><td class="cell-t">Ex. 12 <span class="due-tag">(in class)</span></td>
+          <td class="cell-a">GoReact 10 <span class="due-tag">Mon (online)</span><br>Auralia 10 <span class="due-tag">Sun (online)</span></td><td class="cell-a">&mdash;</td>
+          <td class="cell-k">GoReact 10 <span class="due-tag">Mon (online)</span></td><td class="cell-k"><span class="item-major">Weekly Quiz</span></td>
+        </tr>
+        <tr class="conflict-row">
+          <td class="week-num">15</td>
+          <td class="cell-t">&mdash;</td><td class="cell-t"><span class="item-major">Final Exam</span></td>
+          <td class="cell-a">&mdash;</td><td class="cell-a"><span class="item-major">Final Exam</span></td>
+          <td class="cell-k">&mdash;</td><td class="cell-k"><span class="item-major">Final Exam</span></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p class="conflict-note"><strong>Spring Break:</strong> Spring Break typically lands between content Week 10 and content Week 11. Instructors should verify against the published CSUEB academic calendar each term. No assignments are due during the break itself.</p>
+    <p class="conflict-note"><strong>Pre-exam weeks:</strong> GoReact and Auralia submissions are not collected for content Week 7 or Week 14. That material is assessed on the midterm and final respectively.</p>
+    <p class="conflict-note"><strong>Week 8 and Week 15 concentration:</strong> Midterms and finals land in the same weeks across all three co-requisites. Instructors are encouraged to coordinate the scheduling of these assessments across each week's Monday and Wednesday meetings to avoid stacking them on the same day.</p>
+
+    <h3 class="sub-header" style="margin-top:2.5rem;">Fall Semester &mdash; MUS 112/116/119</h3>
+    <p style="font-size:0.85rem;color:var(--muted);margin-bottom:0.75rem;line-height:1.7;">In the CSUEB Fall calendar, Fall Recess typically displaces a full calendar week in late November, and Veterans Day takes out a single Wednesday meeting. The grid below uses content-week numbering (1&ndash;15); specific calendar dates should be verified against the published academic calendar each term.</p>
+    <table class="deadline-grid day-split">
+      <colgroup>
+        <col><col><col><col><col><col><col>
+      </colgroup>
+      <thead>
+        <tr>
+          <th rowspan="2">Week</th>
+          <th colspan="2" class="th-theory">Theory</th>
+          <th colspan="2" class="th-aural">Aural Skills</th>
+          <th colspan="2" class="th-keyboard">Keyboard</th>
+        </tr>
+        <tr>
+          <th class="th-theory"><span class="day-label">Mon</span></th>
+          <th class="th-theory"><span class="day-label">Wed</span></th>
+          <th class="th-aural"><span class="day-label">Mon</span></th>
+          <th class="th-aural"><span class="day-label">Wed</span></th>
+          <th class="th-keyboard"><span class="day-label">Mon</span></th>
+          <th class="th-keyboard"><span class="day-label">Wed</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="week-num">01</td>
+          <td class="cell-t">&mdash;</td><td class="cell-t">&mdash;</td>
+          <td class="cell-a">&mdash;</td><td class="cell-a">&mdash;</td>
+          <td class="cell-k">&mdash;</td><td class="cell-k">&mdash;</td>
+        </tr>
+        <tr>
+          <td class="week-num">02</td>
+          <td class="cell-t">&mdash;</td><td class="cell-t">Ex. 1 <span class="due-tag">(in class)</span></td>
+          <td class="cell-a">&mdash;</td><td class="cell-a">&mdash;</td>
+          <td class="cell-k">&mdash;</td><td class="cell-k"><span class="item-major">Weekly Quiz</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">03</td>
+          <td class="cell-t"><span class="item-major">Quiz 1</span></td><td class="cell-t">Ex. 2 <span class="due-tag">(in class)</span></td>
+          <td class="cell-a">GoReact 1 <span class="due-tag">Mon (online)</span><br>Auralia 1 <span class="due-tag">Sun (online)</span></td><td class="cell-a">&mdash;</td>
+          <td class="cell-k">GoReact 1 <span class="due-tag">Mon (online)</span></td><td class="cell-k"><span class="item-major">Weekly Quiz</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">04</td>
+          <td class="cell-t">&mdash;</td><td class="cell-t">Ex. 3 <span class="due-tag">(in class)</span></td>
+          <td class="cell-a">GoReact 2 <span class="due-tag">Mon (online)</span><br>Auralia 2 <span class="due-tag">Sun (online)</span></td><td class="cell-a">&mdash;</td>
+          <td class="cell-k">GoReact 2 <span class="due-tag">Mon (online)</span></td><td class="cell-k"><span class="item-major">Weekly Quiz</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">05</td>
+          <td class="cell-t">&mdash;</td><td class="cell-t">Ex. 4 <span class="due-tag">(in class)</span></td>
+          <td class="cell-a">GoReact 3 <span class="due-tag">Mon (online)</span><br>Auralia 3 <span class="due-tag">Sun (online)</span></td><td class="cell-a">&mdash;</td>
+          <td class="cell-k">GoReact 3 <span class="due-tag">Mon (online)</span></td><td class="cell-k"><span class="item-major">Weekly Quiz</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">06</td>
+          <td class="cell-t"><span class="item-major">Quiz 2</span></td><td class="cell-t">Ex. 5 <span class="due-tag">(in class)</span></td>
+          <td class="cell-a">GoReact 4 <span class="due-tag">Mon (online)</span><br>Auralia 4 <span class="due-tag">Sun (online)</span></td><td class="cell-a">&mdash;</td>
+          <td class="cell-k">GoReact 4 <span class="due-tag">Mon (online)</span></td><td class="cell-k"><span class="item-major">Weekly Quiz</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">07</td>
+          <td class="cell-t">&mdash;</td><td class="cell-t">Ex. 6 <span class="due-tag">(in class)</span></td>
+          <td class="cell-a">GoReact 5 <span class="due-tag">Mon (online)</span><br>Auralia 5 <span class="due-tag">Sun (online)</span></td><td class="cell-a">&mdash;</td>
+          <td class="cell-k">GoReact 5 <span class="due-tag">Mon (online)</span></td><td class="cell-k"><span class="item-major">Weekly Quiz</span></td>
+        </tr>
+        <tr class="conflict-row">
+          <td class="week-num">08</td>
+          <td class="cell-t">&mdash;</td><td class="cell-t"><span class="item-major">Midterm Exam</span></td>
+          <td class="cell-a">&mdash;</td><td class="cell-a"><span class="item-major">Midterm Exam</span></td>
+          <td class="cell-k">&mdash;</td><td class="cell-k"><span class="item-major">Midterm Exam</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">09</td>
+          <td class="cell-t">&mdash;</td><td class="cell-t">Ex. 7 <span class="due-tag">(in class)</span></td>
+          <td class="cell-a">&mdash;</td><td class="cell-a">&mdash;</td>
+          <td class="cell-k">&mdash;</td><td class="cell-k"><span class="item-major">Weekly Quiz</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">10</td>
+          <td class="cell-t"><span class="item-major">Quiz 3</span></td><td class="cell-t">Ex. 8 <span class="due-tag">(in class)</span></td>
+          <td class="cell-a">GoReact 6 <span class="due-tag">Mon (online)</span><br>Auralia 6 <span class="due-tag">Sun (online)</span></td><td class="cell-a">&mdash;</td>
+          <td class="cell-k">GoReact 6 <span class="due-tag">Mon (online)</span></td><td class="cell-k"><span class="item-major">Weekly Quiz</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">11</td>
+          <td class="cell-t">&mdash;</td><td class="cell-t">Ex. 9 <span class="due-tag">(in class)</span></td>
+          <td class="cell-a">GoReact 7 <span class="due-tag">Mon (online)</span><br>Auralia 7 <span class="due-tag">Sun (online)</span></td><td class="cell-a">&mdash;</td>
+          <td class="cell-k">GoReact 7 <span class="due-tag">Mon (online)</span></td><td class="cell-k"><span class="item-major">Weekly Quiz</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">12</td>
+          <td class="cell-t"><span class="item-major">Quiz 4</span></td><td class="cell-t">Ex. 10 <span class="due-tag">(in class)</span></td>
+          <td class="cell-a">GoReact 8 <span class="due-tag">Mon (online)</span><br>Auralia 8 <span class="due-tag">Sun (online)</span></td><td class="cell-a">&mdash;</td>
+          <td class="cell-k">GoReact 8 <span class="due-tag">Mon (online)</span></td><td class="cell-k"><span class="item-major">Weekly Quiz</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">13</td>
+          <td class="cell-t">&mdash;</td><td class="cell-t">Ex. 11 <span class="due-tag">(in class)</span></td>
+          <td class="cell-a">GoReact 9 <span class="due-tag">Mon (online)</span><br>Auralia 9 <span class="due-tag">Sun (online)</span></td><td class="cell-a">&mdash;</td>
+          <td class="cell-k">GoReact 9 <span class="due-tag">Mon (online)</span></td><td class="cell-k"><span class="item-major">Weekly Quiz</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">14</td>
+          <td class="cell-t"><span class="item-major">Quiz 5</span></td><td class="cell-t">Ex. 12 <span class="due-tag">(in class)</span></td>
+          <td class="cell-a">GoReact 10 <span class="due-tag">Mon (online)</span><br>Auralia 10 <span class="due-tag">Sun (online)</span></td><td class="cell-a">&mdash;</td>
+          <td class="cell-k">GoReact 10 <span class="due-tag">Mon (online)</span></td><td class="cell-k"><span class="item-major">Weekly Quiz</span></td>
+        </tr>
+        <tr class="conflict-row">
+          <td class="week-num">15</td>
+          <td class="cell-t">&mdash;</td><td class="cell-t"><span class="item-major">Final Exam</span></td>
+          <td class="cell-a">&mdash;</td><td class="cell-a"><span class="item-major">Final Exam</span></td>
+          <td class="cell-k">&mdash;</td><td class="cell-k"><span class="item-major">Final Exam</span></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p class="conflict-note"><strong>Fall Recess and Veterans Day:</strong> Fall Recess typically displaces a full calendar week in late November. Veterans Day (November 11) takes out a single Wednesday meeting. Both displacements vary year to year; instructors should verify against the published CSUEB academic calendar and adjust the schedule accordingly. The content-week numbering in the grid assumes 15 weeks of teaching material plus the final.</p>
+    <p class="conflict-note"><strong>Pre-exam weeks:</strong> GoReact and Auralia submissions are not collected for content Week 7 or Week 14. That material is assessed on the midterm and final respectively.</p>
+    <p class="conflict-note"><strong>Week 8 and Week 15 concentration:</strong> Midterms and finals land in the same weeks across all three co-requisites. Instructors are encouraged to coordinate the scheduling of these assessments across each week's Monday and Wednesday meetings to avoid stacking them on the same day.</p>
+
+  </section>
+
+    <hr style="border:none;border-top:1px solid var(--rule);margin:2.5rem 0;">
+
+    <!-- Class Structure Templates -->
+    <h2 style="font-family:'Playfair Display',serif;font-size:1.35rem;font-weight:600;margin-bottom:0.5rem;">Class Structure Templates</h2>
+    <p style="font-size:0.9rem;color:var(--muted);margin-bottom:1.5rem;line-height:1.7;">Each course type follows a consistent weekly class structure across all three levels of the sequence. The templates below describe the shared pattern. Instructors adapt the specific content and difficulty to the level they are teaching, while the overall rhythm and assessment structure remain the same.</p>
+
+    <div id="theory-template" class="class-structure theory">
+      <div class="cs-course-label">Music Theory</div>
+      <h3>Theory</h3>
+      <div class="cs-meta">Two 100-minute meetings per week. C10 activity; small-group, writing-intensive.</div>
+
+      <h4>Typical Monday class structure (100 minutes)</h4>
+      <p>On non-quiz Mondays:</p>
+      <p><strong>Review and warm-up (~10 min).</strong> Quick check-in on concepts from the previous meeting; short drill on a skill that needs reinforcement (scale construction, interval identification, chord spelling).</p>
+      <p><strong>Concept introduction (~25 min).</strong> Presentation of the week's new material from Burstein and Straus, anchored in notation at the board. Part-writing is taught by modeling: instructors work through examples while students take notes and annotate.</p>
+      <p><strong>Guided practice (~35 min).</strong> Students work through short part-writing, analysis, or identification exercises. Can be solo, pairs, or small groups depending on the task. Instructors circulate to coach.</p>
+      <p><strong>Whole-group review (~20 min).</strong> Selected exercises put on the board and worked through together. This is where errors become teaching moments.</p>
+      <p><strong>Preview (~10 min).</strong> Short closing problem that sets up the lesson exercise due on Wednesday.</p>
+
+      <p>On quiz Mondays (Weeks 3, 6, 10, 12, 14), the structure is different. After a brief settle-in, students move into their quiz groups (two or three students) and work through the quiz together for roughly an hour. Instructors circulate but do not coach during the quiz itself. The final 20&ndash;25 minutes of class can be used for a short debrief on common errors, or kept as a buffer for groups still finishing.</p>
+
+      <h4>Typical Wednesday class structure (100 minutes)</h4>
+      <p><strong>Lesson exercise turn-in and review (~15 min).</strong> Students turn in their handwritten lesson exercise. Instructors can pull 2&ndash;3 examples onto the board and walk through them as a warm-up.</p>
+      <p><strong>Extended application (~50 min).</strong> Deeper work with the week's material: longer part-writing exercises, analysis of short excerpts from actual repertoire, or board work on the current topic.</p>
+      <p><strong>Whole-group review (~25 min).</strong> Review of the extended exercises; addressing common mistakes; synthesizing what the week's concept actually does in musical practice.</p>
+      <p><strong>Wrap and preview (~10 min).</strong> Preview of next Monday's new concept and any reading to do over the weekend.</p>
+
+      <h4>Quizzes (25% of grade)</h4>
+      <ul>
+        <li>Five group quizzes per semester, held on Mondays, approximately one hour in length</li>
+        <li>Students work in groups of two or three, troubleshooting together rather than working individually</li>
+        <li>Cover a block of material since the previous quiz: vocabulary, chord identification, part-writing, short analysis</li>
+        <li>The group format is pedagogical: students externalize their reasoning, catch each other's errors, and build the habit of talking through theory with peers</li>
+      </ul>
+    </div>
+
+    <div id="aural-template" class="class-structure aural">
+      <div class="cs-course-label">Aural Skills</div>
+      <h3>Aural Skills</h3>
+      <div class="cs-meta">Two 50-minute meetings per week. C10 activity; performance- and dictation-based.</div>
+
+      <h4>Typical class structure (50 minutes)</h4>
+      <p><strong>Warm-up drills (~10 min).</strong> Before moving into the week's content. Rotate emphasis week to week:</p>
+      <ul>
+        <li>Tuning the unison</li>
+        <li>Scale singing with solf&egrave;ge</li>
+        <li>Interval drills</li>
+        <li>Short tonicization exercises</li>
+        <li>Rhythm drills with Takadimi syllables</li>
+      </ul>
+      <p><strong>Main content (~40 min).</strong> Split roughly into sight-singing and dictation/listening:</p>
+      <ul>
+        <li>Sight-singing: Anthology examples at sight, melodies prepared at home and performed, duets</li>
+        <li>Dictation/listening: melodic, rhythmic, and harmonic dictation, calibrated to the current level's harmonic vocabulary</li>
+      </ul>
+      <p>Instructors can weight one weekly meeting toward sight-singing and the other toward dictation, or blend them in each meeting. Both patterns work.</p>
+
+      <h4>In-class assessments (10% of grade)</h4>
+      <ul>
+        <li>Short performance-based tasks embedded in the regular class flow, not separate quiz days</li>
+        <li>A student sings a prepared melody, takes a short dictation, or performs a rhythm</li>
+        <li>Some weeks most of the room is assessed, other weeks only a few students are called on</li>
+      </ul>
+
+      <h4>Solf&egrave;ge and rhythm syllables</h4>
+      <ul>
+        <li>Movable-do solf&egrave;ge, la-based minor (consistent with Karpinski)</li>
+        <li>Takadimi for rhythm syllables throughout</li>
+      </ul>
+    </div>
+
+    <div id="keyboard-template" class="class-structure keyboard">
+      <div class="cs-course-label">Keyboard Musicianship</div>
+      <h3>Keyboard</h3>
+      <div class="cs-meta">Two 50-minute meetings per week in MB 2081. C10 activity; group piano, wide range of entering skill.</div>
+
+      <h4>Typical class structure (50 minutes)</h4>
+      <p><strong>Warm-up at the instrument (~5&ndash;10 min).</strong> Posture check, five-finger patterns, scale or triad work from the current unit. Gets hands and ears activated before new content.</p>
+      <p><strong>New material demonstration (~15 min).</strong> Instructor demonstrates the week's technique or harmonization pattern at a master keyboard. Students observe with hands at rest, then try it at their own stations.</p>
+      <p><strong>Individual practice and coaching (~15&ndash;20 min).</strong> Students work at their own keyboards with headphones while the instructor rotates station to station, coaching individually. Headphone mode is essential here.</p>
+      <p><strong>Ensemble or group exercise (~10 min).</strong> Multi-keyboard ensemble piece, harmonization round, or group sight-reading. Speakers on, headphones off. Builds listening skills and keeps the room connected.</p>
+
+      <h4>Weekly rhythm and Wednesday Quizzes (15% of grade)</h4>
+      <p>Quizzes are held on Wednesday meetings. They do not consume the full class period:</p>
+      <ul>
+        <li>Roughly first 20&ndash;25 minutes of the Wednesday meeting is the quiz (individual performance at own keyboard or, for some items, at a designated assessment keyboard)</li>
+        <li>Remainder of that class meeting returns to regular content</li>
+        <li>Items announced on Canvas in advance</li>
+        <li>Not all students are called for every quiz; preparedness is expected regardless</li>
+      </ul>
+
+      <h4>Lab rules</h4>
+      <ul>
+        <li>No food or drink; water bottles with lids on the floor</li>
+        <li>Wash and dry hands before using keyboards</li>
+        <li>Nails trimmed below fingertip</li>
+        <li>Headsets returned to hooks; keyboards covered at end of class</li>
+      </ul>
+
+      <div class="cs-note">Entering skill varies widely. Students with prior piano experience can sometimes race ahead; keeping them engaged through challenging harmonization or transposition tasks is as important as supporting true beginners.</div>
+    </div>
+
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- ═══════════════════════════════════════════ SECTION 3: UPPER DIVISION ═══════════════════════════════════════════ -->
+  <section class="doc-section">
+    <div style="font-size:0.7rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:0.4rem;">Section 3</div>
+    <h1 style="font-family:'Playfair Display',serif;font-size:1.9rem;font-weight:700;margin-bottom:0.5rem;">Upper Division &mdash; MUS 312 and MUS 410</h1>
+    <p style="font-size:0.95rem;color:var(--muted);font-style:italic;margin-bottom:2rem;padding-bottom:1.5rem;border-bottom:2px solid var(--ink);">Two hybrid courses in Year 3 (2 units C5 seminar + 1 unit C10 activity). MUS 312 is taught in Fall, MUS 410 in Spring. Both follow the same day-split Monday/Wednesday rhythm: written assignments due Wednesdays in class, hour-long group quizzes on Mondays, and ear training assignments due online on Sunday evenings (front-loaded across the first two-thirds of the semester).</p>
+
+    <!-- MUS 312 -->
+    <section class="semester-block">
+      <div class="semester-header">
+        <h2>MUS 312 &mdash; Form and Analysis</h2>
+        <span class="semester-tag">Fall &mdash; Year 3</span>
+      </div>
+      <p class="semester-intro">Upper-division hybrid course. Assessment through hour-long group quizzes on Mondays, weekly written analytical assignments, ear training assignments in the first two-thirds of the semester, and a final exam in Week 15.</p>
+
+      <h3 class="sub-header">Deadline Schedule</h3>
+    <table class="deadline-grid day-split solo-grid">
+      <colgroup><col><col><col></colgroup>
+      <thead>
+        <tr>
+          <th rowspan="2">Week</th>
+          <th colspan="2" class="th-solo">MUS 312 &mdash; Form and Analysis</th>
+        </tr>
+        <tr>
+          <th class="th-solo"><span class="day-label">Mon</span></th>
+          <th class="th-solo"><span class="day-label">Wed</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="week-num">01</td>
+          <td>&mdash;</td>
+          <td>&mdash;</td>
+        </tr>
+        <tr>
+          <td class="week-num">02</td>
+          <td>&mdash;</td>
+          <td>Written Assignment 1 <span class="due-tag">(in class)</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">03</td>
+          <td>Ear Training 1 <span class="due-tag">Sun (online)</span></td>
+          <td>Written Assignment 2 <span class="due-tag">(in class)</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">04</td>
+          <td>Ear Training 2 <span class="due-tag">Sun (online)</span></td>
+          <td>Written Assignment 3 <span class="due-tag">(in class)</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">05</td>
+          <td><span class="item-major">Quiz 1</span> <span class="due-tag">(in class)</span><br>Ear Training 3 <span class="due-tag">Sun (online)</span></td>
+          <td>&mdash;</td>
+        </tr>
+        <tr>
+          <td class="week-num">06</td>
+          <td>Ear Training 4 <span class="due-tag">Sun (online)</span></td>
+          <td>Written Assignment 4 <span class="due-tag">(in class)</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">07</td>
+          <td>Ear Training 5 <span class="due-tag">Sun (online)</span></td>
+          <td>Written Assignment 5 <span class="due-tag">(in class)</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">08</td>
+          <td>Ear Training 6 <span class="due-tag">Sun (online)</span></td>
+          <td>&mdash;</td>
+        </tr>
+        <tr>
+          <td class="week-num">09</td>
+          <td><span class="item-major">Quiz 2</span> <span class="due-tag">(in class)</span><br>Ear Training 7 <span class="due-tag">Sun (online)</span></td>
+          <td>&mdash;</td>
+        </tr>
+        <tr>
+          <td class="week-num">10</td>
+          <td>Ear Training 8 <span class="due-tag">Sun (online)</span></td>
+          <td>Written Assignment 6 <span class="due-tag">(in class)</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">11</td>
+          <td>Ear Training 9 <span class="due-tag">Sun (online)</span></td>
+          <td>Written Assignment 7 <span class="due-tag">(in class)</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">12</td>
+          <td>Ear Training 10 <span class="due-tag">Sun (online)</span></td>
+          <td>Written Assignment 8 <span class="due-tag">(in class)</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">13</td>
+          <td><span class="item-major">Quiz 3</span> <span class="due-tag">(in class)</span></td>
+          <td>&mdash;</td>
+        </tr>
+        <tr>
+          <td class="week-num">14</td>
+          <td>&mdash;</td>
+          <td>Written Assignment 9 <span class="due-tag">(in class)</span></td>
+        </tr>
+        <tr class="conflict-row">
+          <td class="week-num">15</td>
+          <td>&mdash;</td>
+          <td><span class="item-major">Final Exam</span> <span class="due-tag">(in class)</span></td>
+        </tr>
+      </tbody>
+    </table>
+
+      <p class="conflict-note"><strong>Fall Recess and Veterans Day:</strong> Fall Recess typically displaces a full calendar week in late November; Veterans Day takes out a single Wednesday meeting. Instructors should verify the specific dates each term and adjust the pacing accordingly.</p>
+      <p class="conflict-note"><strong>Week 8 breather:</strong> Week 8 is intentionally left open in this grid. Instructors may use it for catch-up, a dedicated listening session, or a topic that needed more breathing room earlier in the semester.</p>
+
+      <h3 class="sub-header">Class Structure Guidance</h3>
+    <div id="mus312" class="class-structure solo">
+      <div class="cs-course-label">Form and Analysis</div>
+      <h3>MUS 312</h3>
+      <div class="cs-meta">Two 100-minute meetings per week. Hybrid: seminar discussion and activity-based analytical work.</div>
+
+      <h4>Typical Monday class structure (100 minutes)</h4>
+      <p>On non-quiz Mondays:</p>
+      <p><strong>Ear training check-in (~15 min).</strong> Brief discussion of the previous week's online ear training assignment. Address common difficulties, clarify concepts, perform selected examples live in the room. Ear training assignments are delivered online (due Sunday evening) during Weeks 2&ndash;11; the in-class check-in supports that work without duplicating it.</p>
+      <p><strong>Seminar segment (~40 min).</strong> Discussion of assigned readings and scores. Close reading, interpretive argument, comparison across pieces. This is where the seminar half of the course lives.</p>
+      <p><strong>Activity segment (~35 min).</strong> Analytical workshop: students work with a short score (solo or in pairs), apply the week's analytical concept, and share findings. Can include short in-class composition exercises (sentences, periods, binary patterns).</p>
+      <p><strong>Wrap and preview (~10 min).</strong> Synthesize the day's work; preview Wednesday's written assignment.</p>
+
+      <p>On quiz Mondays (Weeks 5, 9, 13), the structure is different. After a brief settle-in, students move into their quiz groups (two or three students) and work through the quiz together for roughly an hour. Instructors circulate but do not coach during the quiz itself. The final 20&ndash;25 minutes can be used for a debrief on common errors or as a buffer for groups still finishing.</p>
+
+      <h4>Typical Wednesday class structure (100 minutes)</h4>
+      <p><strong>Written assignment turn-in (~10 min).</strong> Students turn in the week's written analytical assignment. A small set of examples can be pulled onto the board as a starting point for the day's work.</p>
+      <p><strong>Extended analysis (~60 min).</strong> Deeper work with the week's material: score-based analysis of longer excerpts, comparative work across related pieces, or longer-form analytical writing guided at the board.</p>
+      <p><strong>Whole-group synthesis (~25 min).</strong> Review of the day's analytical work; addressing recurring difficulties; connecting the technical analysis back to what the music is actually doing.</p>
+      <p><strong>Wrap and preview (~5 min).</strong> Preview of Monday's ear training and reading.</p>
+
+      <h4>Written Assignments (35% of grade)</h4>
+      <ul>
+        <li>Nine written assignments per semester, turned in on paper in class on Wednesdays</li>
+        <li>Short analytical problems building from the week's concept: phrase analysis, formal diagramming, Roman numeral analysis of excerpts</li>
+        <li>No submissions during quiz weeks (5, 9, 13) or Week 8 breather</li>
+      </ul>
+
+      <h4>Ear Training (25% of grade)</h4>
+      <ul>
+        <li>Ten online assignments delivered through Auralia, front-loaded across Weeks 2&ndash;11</li>
+        <li>Due Sunday 11:59pm the week the material is assigned</li>
+        <li>Focus on chromatic melody, secondary triads, modulation identification, and short harmonic dictation</li>
+        <li>In-class time supports the ear training through the Monday check-in; no separate in-person performance assessments</li>
+      </ul>
+
+      <h4>Quizzes (20% of grade)</h4>
+      <ul>
+        <li>Three group quizzes per semester, held on Mondays at Weeks 5, 9, and 13</li>
+        <li>Approximately one hour, groups of two or three students troubleshooting together</li>
+        <li>Replace a formal midterm; cumulative, testing vocabulary, chord and form identification, and short analytical problems</li>
+        <li>Cannot be made up without a documented excuse</li>
+      </ul>
+
+      <h4>Final Exam (20% of grade)</h4>
+      <ul>
+        <li>Cumulative final exam, held in class during Week 15 (Wednesday)</li>
+        <li>Covers the full semester: formal analysis, harmonic vocabulary, and selected listening</li>
+      </ul>
+
+      <div class="cs-note">The seminar/activity split is not rigid: some weeks will lean heavily toward discussion (e.g., sonata form analyses), others toward activity (e.g., sentence and period construction). Instructors can and should shift the balance as the material demands.</div>
+    </div>
+    </section>
+
+    <hr style="border:none;border-top:1px solid var(--rule);margin:2.5rem 0;">
+
+    <!-- MUS 410 -->
+    <section class="semester-block">
+      <div class="semester-header">
+        <h2>MUS 410 &mdash; 20th and 21st Century Styles and Techniques</h2>
+        <span class="semester-tag">Spring &mdash; Year 3</span>
+      </div>
+      <p class="semester-intro">Upper-division hybrid course. Assessment through hour-long group quizzes on Mondays, weekly written analytical assignments, ear training assignments in the first two-thirds of the semester, and a staged final project with proposal, draft, and presentation.</p>
+
+      <h3 class="sub-header">Deadline Schedule</h3>
+    <table class="deadline-grid day-split solo-grid">
+      <colgroup><col><col><col></colgroup>
+      <thead>
+        <tr>
+          <th rowspan="2">Week</th>
+          <th colspan="2" class="th-solo">MUS 410 &mdash; 20th/21st Century Styles and Techniques</th>
+        </tr>
+        <tr>
+          <th class="th-solo"><span class="day-label">Mon</span></th>
+          <th class="th-solo"><span class="day-label">Wed</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="week-num">01</td>
+          <td>&mdash;</td>
+          <td>&mdash;</td>
+        </tr>
+        <tr>
+          <td class="week-num">02</td>
+          <td>&mdash;</td>
+          <td>Written Assignment 1 <span class="due-tag">(in class)</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">03</td>
+          <td>Ear Training 1 <span class="due-tag">Sun (online)</span></td>
+          <td>Written Assignment 2 <span class="due-tag">(in class)</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">04</td>
+          <td>Ear Training 2 <span class="due-tag">Sun (online)</span></td>
+          <td>Written Assignment 3 <span class="due-tag">(in class)</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">05</td>
+          <td><span class="item-major">Quiz 1</span> <span class="due-tag">(in class)</span><br>Ear Training 3 <span class="due-tag">Sun (online)</span></td>
+          <td>&mdash;</td>
+        </tr>
+        <tr>
+          <td class="week-num">06</td>
+          <td>Ear Training 4 <span class="due-tag">Sun (online)</span></td>
+          <td>Written Assignment 4 <span class="due-tag">(in class)</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">07</td>
+          <td>Ear Training 5 <span class="due-tag">Sun (online)</span></td>
+          <td>Written Assignment 5 <span class="due-tag">(in class)</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">08</td>
+          <td>Ear Training 6 <span class="due-tag">Sun (online)</span></td>
+          <td>&mdash;</td>
+        </tr>
+        <tr>
+          <td class="week-num">09</td>
+          <td><span class="item-major">Quiz 2</span> <span class="due-tag">(in class)</span><br>Ear Training 7 <span class="due-tag">Sun (online)</span></td>
+          <td>&mdash;</td>
+        </tr>
+        <tr>
+          <td class="week-num">10</td>
+          <td>Ear Training 8 <span class="due-tag">Sun (online)</span></td>
+          <td>Written Assignment 6 <span class="due-tag">(in class)</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">11</td>
+          <td>Ear Training 9 <span class="due-tag">Sun (online)</span></td>
+          <td>Written Assignment 7 <span class="due-tag">(in class)</span><br><span class="item-major">Final Project Proposal</span> <span class="due-tag">(in class)</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">12</td>
+          <td>Ear Training 10 <span class="due-tag">Sun (online)</span></td>
+          <td>Written Assignment 8 <span class="due-tag">(in class)</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">13</td>
+          <td><span class="item-major">Quiz 3</span> <span class="due-tag">(in class)</span></td>
+          <td><span class="item-major">Final Project Draft</span> <span class="due-tag">(in class)</span></td>
+        </tr>
+        <tr>
+          <td class="week-num">14</td>
+          <td>&mdash;</td>
+          <td>Written Assignment 9 <span class="due-tag">(in class)</span></td>
+        </tr>
+        <tr class="conflict-row">
+          <td class="week-num">15</td>
+          <td><span class="item-major">Final Project Presentation</span></td>
+          <td><span class="item-major">Final Project Presentation</span></td>
+        </tr>
+      </tbody>
+    </table>
+
+      <p class="conflict-note"><strong>Spring Break:</strong> Spring Break typically lands between content Week 10 and content Week 11. Instructors should verify against the published CSUEB academic calendar each term. No assignments are due during the break itself.</p>
+      <p class="conflict-note"><strong>Week 8 breather:</strong> Week 8 is intentionally left open in this grid. Instructors may use it for catch-up, a dedicated listening session, or a topic that needed more breathing room earlier in the semester.</p>
+
+      <h3 class="sub-header">Class Structure Guidance</h3>
+    <div id="mus410" class="class-structure solo">
+      <div class="cs-course-label">20th/21st Century Styles and Techniques</div>
+      <h3>MUS 410</h3>
+      <div class="cs-meta">Two 100-minute meetings per week. Hybrid: seminar discussion and activity-based analytical and creative work.</div>
+
+      <h4>Typical Monday class structure (100 minutes)</h4>
+      <p>On non-quiz Mondays:</p>
+      <p><strong>Ear training check-in (~15 min).</strong> Brief discussion of the previous week's online ear training assignment. Address common difficulties, clarify concepts, perform selected examples live in the room. Ear training assignments are delivered online (due Sunday evening) during Weeks 2&ndash;11; the in-class check-in supports that work without duplicating it.</p>
+      <p><strong>Seminar segment (~40 min).</strong> Discussion of the week's readings, scores, and recordings. Listening is a larger share of the content than in MUS 312; plan to spend real time with recordings, not just scores.</p>
+      <p><strong>Activity segment (~35 min).</strong> Analytical or compositional workshop. Weeks focused on pitch-class set theory, twelve-tone serialism, and post-tonal form benefit from hands-on construction at the board or on paper. Short creative exercises (row composition, set manipulation, modal improvisation) fit here.</p>
+      <p><strong>Wrap and preview (~10 min).</strong> Synthesize the day's work; preview Wednesday's written assignment and project milestones.</p>
+
+      <p>On quiz Mondays (Weeks 5, 9, 13), the structure is different. After a brief settle-in, students move into their quiz groups (two or three students) and work through the quiz together for roughly an hour. Instructors circulate but do not coach during the quiz itself. The final 20&ndash;25 minutes can be used for a debrief on common errors or as a buffer for groups still finishing.</p>
+
+      <h4>Typical Wednesday class structure (100 minutes)</h4>
+      <p><strong>Written assignment turn-in (~10 min).</strong> Students turn in the week's written assignment. Selected items can be pulled onto the board as a starting point for the day's work.</p>
+      <p><strong>Extended analysis or composition (~60 min).</strong> Deeper work with the week's material: longer analytical problems, listening-based group work, or creative exercises building toward the final project.</p>
+      <p><strong>Whole-group synthesis (~25 min).</strong> Review of the day's work; addressing recurring difficulties; connecting technique back to musical effect.</p>
+      <p><strong>Wrap and preview (~5 min).</strong> Preview of Monday's reading and any listening to prepare.</p>
+
+      <p>Wednesday Week 11 and Wednesday Week 13 carry the two Final Project milestones (proposal and draft respectively). On those days, instructors may pull individual or small-group project check-ins into the extended segment, while the rest of the room works independently.</p>
+
+      <h4>Written Assignments (35% of grade)</h4>
+      <ul>
+        <li>Nine written assignments per semester, turned in on paper in class on Wednesdays</li>
+        <li>Analytical problems tied to the week's concept: pitch-class set analysis, row matrix construction, modal analysis, formal diagramming of post-tonal works</li>
+        <li>No submissions during quiz weeks (5, 9, 13) or Week 8 breather</li>
+      </ul>
+
+      <h4>Ear Training (25% of grade)</h4>
+      <ul>
+        <li>Ten online assignments delivered through Auralia, front-loaded across Weeks 2&ndash;11</li>
+        <li>Due Sunday 11:59pm the week the material is assigned</li>
+        <li>Focus on pentatonic and modal sight-singing, advanced rhythm patterns, non-diatonic pitch collections, and twelve-tone row identification</li>
+        <li>In-class time supports the ear training through the Monday check-in; no separate in-person performance assessments</li>
+      </ul>
+
+      <h4>Quizzes (20% of grade)</h4>
+      <ul>
+        <li>Three group quizzes per semester, held on Mondays at Weeks 5, 9, and 13</li>
+        <li>Approximately one hour, groups of two or three students troubleshooting together</li>
+        <li>Replace a formal midterm; cumulative, testing vocabulary, pitch-class set and row identification, and short analytical problems</li>
+        <li>Cannot be made up without a documented excuse</li>
+      </ul>
+
+      <h4>Final Project (20% of grade)</h4>
+      <ul>
+        <li>Staged submission: proposal (Week 11 Wednesday), draft (Week 13 Wednesday), presentation (Week 15)</li>
+        <li>Options: written analysis of a complete post-tonal work, original composition using techniques from the course, or an in-class project presentation</li>
+      </ul>
+
+      <div class="cs-note">Listening breadth matters in this course. Supplementing the required scores with recordings from outside the primary textbook tradition (e.g., spectral works, American post-minimalism, 21st-century international practice) keeps the course from feeling like a narrow Straus walkthrough.</div>
+    </div>
+    </section>
+
+  </section>
+
+  <div class="footer">
+    Instructor's Companion, Version 2.0 &nbsp;&middot;&nbsp; Spring 2026 &nbsp;&middot;&nbsp; Department of Music, California State University, East Bay
+  </div>
+
+</main>
+</body>
+</html>

@@ -1,0 +1,1347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Theory and Musicianship Undergraduate Curriculum Guide — CSU East Bay</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink:        #1a1a1a;
+    --paper:      #f7f5f0;
+    --rule:       #d8d3c8;
+    --muted:      #7a7468;
+
+    --theory-hue:    #2c4a6e;
+    --theory-light:  #e8eef5;
+    --theory-mid:    #5a82a6;
+
+    --aural-hue:     #4a2c1a;
+    --aural-light:   #f5ede8;
+    --aural-mid:     #a67855;
+
+    --keyboard-hue:  #1a3d2c;
+    --keyboard-light:#e8f2ec;
+    --keyboard-mid:  #4a8c68;
+
+    --accent:     #8b1a1a;
+    --sidebar-w:  260px;
+    --max-w:      1100px;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7;
+    display: flex;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed;
+    top: 0; left: 0;
+    width: var(--sidebar-w);
+    height: 100vh;
+    background: var(--ink);
+    color: #fff;
+    padding: 2rem 1.5rem;
+    overflow-y: auto;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  nav .nav-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #fff;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+  }
+
+  nav .nav-section-label {
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.35);
+    margin: 1.25rem 0 0.4rem;
+  }
+
+  nav a {
+    display: block;
+    color: rgba(255,255,255,0.7);
+    text-decoration: none;
+    font-size: 0.82rem;
+    font-weight: 400;
+    line-height: 1.3;
+    padding: 0.3rem 0;
+    transition: color 0.15s;
+  }
+
+  nav a:hover { color: #fff; }
+
+  nav .track-dot {
+    display: inline-block;
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    margin-right: 6px;
+    vertical-align: middle;
+    position: relative; top: -1px;
+  }
+  nav .dot-t { background: var(--theory-mid); }
+  nav .dot-a { background: var(--aural-mid); }
+  nav .dot-k { background: var(--keyboard-mid); }
+  nav .dot-s { background: var(--accent); }
+
+  /* ── MAIN ── */
+  main {
+    margin-left: var(--sidebar-w);
+    width: calc(100% - var(--sidebar-w));
+    padding: 4rem 3.5rem 6rem;
+    max-width: calc(var(--max-w) + var(--sidebar-w));
+  }
+
+  /* ── PAGE HEADER ── */
+  .page-header {
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .page-header .institution {
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+
+  .page-header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: 0.75rem;
+  }
+
+  .page-header .subtitle {
+    font-size: 1rem;
+    color: var(--muted);
+    font-style: italic;
+    font-weight: 300;
+  }
+
+  /* ── SECTION HEADERS ── */
+  .semester-block {
+    margin-bottom: 4rem;
+  }
+
+  .semester-header {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .semester-header h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+
+  .semester-tag {
+    font-size: 0.72rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-weight: 400;
+    border: 1px solid var(--rule);
+    padding: 0.2rem 0.6rem;
+    border-radius: 2px;
+  }
+
+  .semester-intro {
+    font-size: 0.95rem;
+    color: var(--muted);
+    font-style: italic;
+    margin-bottom: 1.75rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  /* ── COURSE CARDS ── */
+  .course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.25rem;
+    margin-bottom: 2rem;
+  }
+
+  .course-card {
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid var(--rule);
+  }
+
+  .course-card.theory   { border-top: 3px solid var(--theory-hue); }
+  .course-card.aural    { border-top: 3px solid var(--aural-hue); }
+  .course-card.keyboard { border-top: 3px solid var(--keyboard-hue); }
+  .course-card.solo     { border-top: 3px solid var(--accent); }
+
+  .card-header {
+    padding: 1rem 1.25rem 0.75rem;
+  }
+
+  .course-card.theory   .card-header { background: var(--theory-light); }
+  .course-card.aural    .card-header { background: var(--aural-light); }
+  .course-card.keyboard .card-header { background: var(--keyboard-light); }
+  .course-card.solo     .card-header { background: #f9f0f0; }
+
+  .card-label {
+    font-size: 0.65rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+
+  .course-card.theory   .card-label { color: var(--theory-hue); }
+  .course-card.aural    .card-label { color: var(--aural-hue); }
+  .course-card.keyboard .card-label { color: var(--keyboard-hue); }
+  .course-card.solo     .card-label { color: var(--accent); }
+
+  .card-header h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.05rem;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  .card-header .course-num {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 0.75rem;
+    color: var(--muted);
+    margin-top: 0.15rem;
+  }
+
+  .card-body {
+    padding: 1rem 1.25rem 1.25rem;
+    background: #fff;
+  }
+
+  .card-body .textbook {
+    font-size: 0.78rem;
+    color: var(--muted);
+    font-style: italic;
+    margin-bottom: 0.85rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  /* ── WEEKLY SCHEDULE TABLE ── */
+  .schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.83rem;
+    margin-top: 0.25rem;
+  }
+
+  .schedule-table th {
+    text-align: left;
+    font-size: 0.65rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--muted);
+    padding: 0.35rem 0.5rem;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .schedule-table th:first-child { width: 52px; }
+
+  .schedule-table td {
+    padding: 0.4rem 0.5rem;
+    vertical-align: top;
+    border-bottom: 1px solid #efefec;
+    line-height: 1.4;
+    font-weight: 300;
+  }
+
+  .schedule-table td:first-child {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 0.75rem;
+    color: var(--muted);
+    white-space: nowrap;
+    font-weight: 500;
+  }
+
+  .schedule-table tr:last-child td { border-bottom: none; }
+
+  .schedule-table .exam-row td {
+    font-weight: 600;
+    font-style: italic;
+    color: var(--accent);
+  }
+
+  /* ── BENCHMARKS ── */
+  .benchmarks-block {
+    background: var(--ink);
+    color: #fff;
+    border-radius: 4px;
+    padding: 1.5rem 1.75rem;
+    margin-top: 1.75rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .benchmarks-block h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    letter-spacing: 0.02em;
+  }
+
+  .benchmark-tracks {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.25rem;
+  }
+
+  .benchmark-track h5 {
+    font-size: 0.65rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+  }
+
+  .benchmark-track.t h5 { color: var(--theory-mid); }
+  .benchmark-track.a h5 { color: var(--aural-mid); }
+  .benchmark-track.k h5 { color: var(--keyboard-mid); }
+  .benchmark-track.n h5 { color: rgba(255,255,255,0.9); }
+
+  .benchmark-track p {
+    font-size: 0.82rem;
+    font-weight: 300;
+    color: rgba(255,255,255,0.8);
+    line-height: 1.6;
+  }
+
+  /* ── DIVIDER ── */
+  .section-divider {
+    border: none;
+    border-top: 1px solid var(--rule);
+    margin: 3rem 0;
+  }
+
+  /* ── TEXTBOOKS ── */
+  .textbook-list { margin-top: 1rem; display: flex; flex-direction: column; gap: 0.85rem; }
+  .textbook-entry {
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    background: #fff;
+    padding: 0.9rem 1.1rem;
+  }
+  .textbook-entry.te-solo    { border-left: 3px solid var(--accent); }
+  .textbook-entry.te-theory  { border-left: 3px solid var(--theory-hue); }
+  .textbook-entry.te-aural   { border-left: 3px solid var(--aural-hue); }
+  .textbook-entry.te-keyboard{ border-left: 3px solid var(--keyboard-hue); }
+  .te-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+  .te-title a {
+    color: var(--ink);
+    text-decoration: none;
+    border-bottom: 1px solid var(--rule);
+    transition: border-color 0.15s;
+  }
+  .te-title a:hover { border-color: var(--ink); }
+  .te-meta {
+    font-size: 0.78rem;
+    color: var(--muted);
+    margin-top: 0.2rem;
+    line-height: 1.6;
+  }
+  .te-isbn {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 0.72rem;
+    color: var(--muted);
+    margin-top: 0.35rem;
+    line-height: 1.7;
+  }
+  .te-companion {
+    margin-top: 0.6rem;
+    padding-top: 0.6rem;
+    border-top: 1px solid var(--rule);
+  }
+  /* ── COST ── */
+  .cost-row { display:flex; justify-content:space-between; align-items:baseline; padding:0.35rem 0; border-bottom:1px solid #f0ece6; font-size:0.8rem; gap:0.5rem; }
+  .cost-row:last-of-type { border-bottom:none; }
+  .cost-title { color:var(--ink); font-weight:300; flex:1; line-height:1.35; }
+  .cost-price { font-family:'Source Code Pro',monospace; font-size:0.75rem; color:var(--muted); white-space:nowrap; }
+  .cost-subtotal { display:flex; justify-content:space-between; padding:0.5rem 0 0.35rem; margin-top:0.25rem; border-top:2px solid var(--ink); font-size:0.82rem; font-weight:600; }
+  .cost-note { font-size:0.72rem; color:var(--muted); font-style:italic; margin-top:0.6rem; line-height:1.5; }
+  .cost-section-label { font-size:0.62rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--muted); font-weight:600; margin:0.75rem 0 0.25rem; }
+  /* ── CLASS TABLE ── */
+  .class-table { width:100%; border-collapse:collapse; font-size:0.8rem; margin-top:0.25rem; }
+  .class-table th { font-size:0.62rem; letter-spacing:0.12em; text-transform:uppercase; font-weight:600; color:var(--muted); padding:0.4rem 0.75rem; border-bottom:2px solid var(--ink); text-align:left; }
+  .class-table td { padding:0.45rem 0.75rem; border-bottom:1px solid #efefec; vertical-align:top; line-height:1.4; }
+  .class-table tr:last-child td { border-bottom:none; }
+  .class-table td:first-child { font-weight:600; white-space:nowrap; }
+  .class-table .tag-c { display:inline-block; font-family:'Source Code Pro',monospace; font-size:0.68rem; font-weight:500; padding:0.1rem 0.4rem; border-radius:2px; margin-right:0.3rem; }
+  .class-table .tag-c5  { background:#f9f0f0; color:var(--accent); }
+  .class-table .tag-c10 { background:var(--keyboard-light); color:var(--keyboard-hue); }
+  .class-table td.num { font-family:'Source Code Pro',monospace; font-size:0.75rem; color:var(--muted); }
+  .class-table tr.stripe td { background:rgba(0,0,0,0.015); }
+  /* ── SYNC GRID ── */
+  .sync-grid { width:100%; border-collapse:collapse; font-size:0.83rem; margin-bottom:2rem; table-layout:fixed; }
+  .sync-grid colgroup col:first-child { width:52px; }
+  .sync-grid .track-header { padding:0.9rem 1rem 0.75rem; vertical-align:bottom; }
+  .sync-grid .track-header .card-label { font-size:0.65rem; letter-spacing:0.18em; text-transform:uppercase; font-weight:600; margin-bottom:0.25rem; display:block; }
+  .sync-grid .track-header h3 { font-family:'Playfair Display',serif; font-size:1rem; font-weight:600; line-height:1.3; margin-bottom:0.2rem; }
+  .sync-grid .track-header .course-num { font-family:'Source Code Pro',monospace; font-size:0.72rem; color:var(--muted); line-height:1.4; display:block; margin-top:0.2rem; }
+  .sync-grid .track-header .textbook-note { font-size:0.75rem; font-style:italic; color:var(--muted); margin-top:0.4rem; display:block; border-top:1px solid rgba(0,0,0,0.08); padding-top:0.4rem; }
+  .sync-grid td.week-num { font-family:'Source Code Pro',monospace; font-size:0.75rem; color:var(--muted); font-weight:500; text-align:center; vertical-align:top; padding:0.55rem 0.4rem; border-bottom:1px solid #efefec; border-right:1px solid #efefec; background:var(--paper); }
+  .sync-grid td.cell-t, .sync-grid td.cell-a { vertical-align:top; padding:0.55rem 0.75rem; border-bottom:1px solid #efefec; border-right:1px solid #efefec; line-height:1.45; font-weight:300; background:#fff; }
+  .sync-grid td.cell-k { vertical-align:top; padding:0.55rem 0.75rem; border-bottom:1px solid #efefec; line-height:1.45; font-weight:300; background:#fff; }
+  .sync-grid tr.exam-row td { background:#fdf5f5; font-weight:600; font-style:italic; color:var(--accent); }
+  .sync-grid tr.exam-row td.week-num { background:#fdf5f5; color:var(--accent); }
+  .sync-grid .header-row td { padding:0; border-bottom:2px solid var(--ink); }
+  .sync-grid .header-row td.th-theory  { background:var(--theory-light);   border-top:3px solid var(--theory-hue); }
+  .sync-grid .header-row td.th-aural   { background:var(--aural-light);    border-top:3px solid var(--aural-hue); }
+  .sync-grid .header-row td.th-keyboard{ background:var(--keyboard-light); border-top:3px solid var(--keyboard-hue); }
+  .sync-grid .header-row td.th-week    { background:var(--paper); border-top:3px solid transparent; }
+  .sync-grid .label-theory  { color:var(--theory-hue); }
+  .sync-grid .label-aural   { color:var(--aural-hue); }
+  .sync-grid .label-keyboard{ color:var(--keyboard-hue); }
+  @media (max-width: 800px) {
+    nav { display: none; }
+    main { margin-left: 0; padding: 2rem 1.5rem; }
+    .course-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+  <div class="nav-logo">Theory &amp; Musicianship<br>Curriculum Guide<br>CSU East Bay</div>
+  <div style="font-size:0.65rem;color:rgba(255,255,255,0.4);letter-spacing:0.08em;margin-bottom:1rem;margin-top:-0.75rem;">Version 1.0 &nbsp;&middot;&nbsp; Spring 2026</div>
+
+  <div class="nav-section-label">Overview</div>
+  <a href="#intro">About This Document</a>
+  <a href="#sequence">Sequence at a Glance</a>
+  <a href="#workload">Expected Workload</a>
+  <a href="#textbooks">Required Textbooks</a>
+
+  <div class="nav-section-label">Fall — Year 1</div>
+  <a href="#mus108"><span class="track-dot dot-s"></span>MUS 108 — Language of Music</a>
+
+  <div class="nav-section-label">Spring — Year 1</div>
+  <a href="#sem2"><span class="track-dot dot-t"></span>MUS 111 Theory I</a>
+  <a href="#sem2"><span class="track-dot dot-a"></span>MUS 115 Aural Skills I</a>
+  <a href="#sem2"><span class="track-dot dot-k"></span>MUS 118 Keyboard I</a>
+
+  <div class="nav-section-label">Fall — Year 2</div>
+  <a href="#sem3"><span class="track-dot dot-t"></span>MUS 112 Theory II</a>
+  <a href="#sem3"><span class="track-dot dot-a"></span>MUS 116 Aural Skills II</a>
+  <a href="#sem3"><span class="track-dot dot-k"></span>MUS 119 Keyboard II</a>
+
+  <div class="nav-section-label">Spring — Year 2</div>
+  <a href="#sem4"><span class="track-dot dot-t"></span>MUS 211 Theory III</a>
+  <a href="#sem4"><span class="track-dot dot-a"></span>MUS 215 Aural Skills III</a>
+  <a href="#sem4"><span class="track-dot dot-k"></span>MUS 218 Keyboard III</a>
+
+  <div class="nav-section-label">Fall / Spring — Year 3</div>
+  <a href="#mus312"><span class="track-dot dot-s"></span>MUS 312 — Form &amp; Analysis</a>
+  <a href="#mus410"><span class="track-dot dot-s"></span>MUS 410 — 20th/21st C. Styles &amp; Techniques</a>
+</nav>
+
+<!-- MAIN CONTENT -->
+<main>
+
+  <!-- PAGE HEADER -->
+  <header class="page-header">
+    <div class="institution">California State University, East Bay &mdash; Department of Music</div>
+    <h1>Theory and Musicianship<br>Undergraduate Curriculum Guide</h1>
+    <div class="subtitle">B.A. in Music &middot; Theory &middot; Aural Skills &middot; Keyboard Musicianship</div>
+  </header>
+
+  <!-- INTRO -->
+  <section id="intro" style="margin-bottom:3rem;">
+    <h2 style="font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:600;margin-bottom:0.75rem;">About This Document</h2>
+    <p style="font-size:0.95rem;color:var(--muted);margin-bottom:0.75rem;line-height:1.75;">This guide maps the lower division core sequence for the B.A. in Music, coordinating content, pacing, and benchmarks across the three concurrent tracks: Music Theory, Aural Skills, and Keyboard Musicianship. It is intended as a reference for instructors teaching within this sequence, to support cross-track coordination and consistent expectations.</p>
+    <p style="font-size:0.95rem;color:var(--muted);line-height:1.75;">Concepts introduced in theory should be reinforced aurally in the same week or the week following, and keyboard work should connect to both wherever possible.</p>
+  </section>
+
+  <!-- SEQUENCE AT A GLANCE -->
+  <section id="sequence" style="margin-bottom:3rem;">
+    <h2 style="font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:600;margin-bottom:0.75rem;">Sequence at a Glance</h2>
+    <p style="font-size:0.95rem;color:var(--muted);margin-bottom:0.75rem;line-height:1.75;">All three tracks run concurrently within each semester. MUS 108 is a prerequisite for the core sequence and is offered in both Fall and Spring; music majors typically take it in Fall of Year 1. Form and Analysis (MUS 312) and 20th and 21st Century Styles and Techniques (MUS 410) are upper-division courses that draw on the full lower-division sequence.</p>
+    <table class="schedule-table" style="margin-top:0.5rem;max-width:680px;">
+      <thead>
+        <tr>
+          <th>Semester</th>
+          <th>Theory</th>
+          <th>Aural Skills</th>
+          <th>Keyboard</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Fall Y1</td><td colspan="3">MUS 108 &mdash; Language of Music</td></tr>
+        <tr><td>Spr Y1</td><td>MUS 111 Theory I</td><td>MUS 115 Aural Skills I</td><td>MUS 118 Keyboard I</td></tr>
+        <tr><td>Fall Y2</td><td>MUS 112 Theory II</td><td>MUS 116 Aural Skills II</td><td>MUS 119 Keyboard II</td></tr>
+        <tr><td>Spr Y2</td><td>MUS 211 Theory III</td><td>MUS 215 Aural Skills III</td><td>MUS 218 Keyboard III</td></tr>
+        <tr><td>Fall Y3</td><td colspan="3">MUS 312 &mdash; Form and Analysis</td></tr>
+        <tr><td>Spr Y3</td><td colspan="3">MUS 410 &mdash; 20th and 21st Century Styles and Techniques</td></tr>
+      </tbody>
+    </table>
+
+    <div style="margin-top:2rem;">
+      <h3 id="workload" style="font-family:'Playfair Display',serif;font-size:1rem;font-weight:600;margin-bottom:0.5rem;">Course Classifications and Expected Workload</h3>
+      <p style="font-size:0.88rem;color:var(--muted);margin-bottom:1rem;line-height:1.7;">Course classifications follow the CSU Course Classification System. The classification determines both contact hours per unit and maximum class size. Under the CSU credit hour definition, each unit of credit represents one hour of in-class instruction and a minimum of two hours of out-of-class student work per week across a 15-week semester. C10 (music activity, small group) courses carry two contact hours per unit rather than one, reflecting the activity-based nature of the instruction. All hours below are per week during the semester.</p>
+
+      <table class="class-table">
+        <thead>
+          <tr>
+            <th>Course</th>
+            <th>Classification</th>
+            <th>Units</th>
+            <th>Contact hrs/wk</th>
+            <th>Out-of-class hrs/wk</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>MUS 108 — Language of Music</td>
+            <td><span class="tag-c tag-c5">C5</span> seminar</td>
+            <td class="num">3</td>
+            <td class="num">3 <span style="font-weight:300;font-size:0.7rem;">(two 75-min meetings/wk)</span></td>
+            <td class="num">6</td>
+          </tr>
+          <tr class="stripe">
+            <td>MUS 111 / 112 / 211 — Theory I–III</td>
+            <td><span class="tag-c tag-c10">C10</span> music activity, small group</td>
+            <td class="num">2</td>
+            <td class="num">4 <span style="font-weight:300;font-size:0.7rem;">(two 100-min meetings/wk)</span></td>
+            <td class="num">4</td>
+          </tr>
+          <tr>
+            <td>MUS 115 / 116 / 215 — Aural Skills I–III</td>
+            <td><span class="tag-c tag-c10">C10</span> music activity, small group</td>
+            <td class="num">1</td>
+            <td class="num">2 <span style="font-weight:300;font-size:0.7rem;">(two 50-min meetings/wk)</span></td>
+            <td class="num">2</td>
+          </tr>
+          <tr class="stripe">
+            <td>MUS 118 / 119 / 218 — Keyboard I–III</td>
+            <td><span class="tag-c tag-c10">C10</span> music activity, small group</td>
+            <td class="num">1</td>
+            <td class="num">2 <span style="font-weight:300;font-size:0.7rem;">(two 50-min meetings/wk)</span></td>
+            <td class="num">2</td>
+          </tr>
+          <tr>
+            <td>MUS 312 — Form and Analysis *</td>
+            <td><span class="tag-c tag-c5">C5</span> seminar (2 units)<br><span class="tag-c tag-c10">C10</span> music activity, small group (1 unit)</td>
+            <td class="num">3</td>
+            <td class="num">4 <span style="font-weight:300;font-size:0.7rem;">(two 100-min meetings/wk)</span></td>
+            <td class="num">6</td>
+          </tr>
+          <tr class="stripe">
+            <td>MUS 410 — 20th and 21st Century Styles and Techniques *</td>
+            <td><span class="tag-c tag-c5">C5</span> seminar (2 units)<br><span class="tag-c tag-c10">C10</span> music activity, small group (1 unit)</td>
+            <td class="num">3</td>
+            <td class="num">4 <span style="font-weight:300;font-size:0.7rem;">(two 100-min meetings/wk)</span></td>
+            <td class="num">6</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p style="font-size:0.75rem;color:var(--muted);font-style:italic;margin-top:0.75rem;line-height:1.6;">Contact hours for C10 courses are 2 hours per unit per week (per CSU classification system). Out-of-class hours follow the standard CSU credit hour definition of 2 hours per unit per week.<br>Sources: <a href="https://www.csueastbay.edu/aps/academic-programs/curriculum-development-new/cpm/class-table.html" target="_blank" style="color:var(--muted);">CSUEB Course Classification Table</a> and <a href="https://calstate.policystat.com/policy/18667879" target="_blank" style="color:var(--muted);">CSU Definition of Credit Hour</a>.</p>
+      <p style="font-size:0.75rem;color:var(--muted);font-style:italic;margin-top:0.4rem;line-height:1.6;">* MUS 312 and MUS 410 reclassification from C2 to 2 units C5 + 1 unit C10 is pending curriculum approval. Effective Fall 2027.</p>
+    </div>
+  </section>
+
+  <!-- TEXTBOOKS + COST SIDE BY SIDE -->
+  <section id="textbooks" style="margin-bottom:3rem;">
+    <h2 style="font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:600;margin-bottom:0.4rem;">Required Textbooks</h2>
+    <p style="font-size:0.95rem;color:var(--muted);margin-bottom:1rem;line-height:1.75;">Physical textbooks are strongly suggested for all courses in this sequence. Research consistently shows that print reading supports the deeper processing, annotation, and non-linear navigation that complex music theory and ear training demand. The four titles below cover all twelve courses in the sequence. Where a workbook or anthology is listed alongside a primary text, both must be purchased.</p>
+
+    <div style="display:grid;grid-template-columns:1fr 280px;gap:1.5rem;align-items:center;">
+
+      <!-- Textbook list -->
+      <div class="textbook-list">
+
+        <div class="textbook-entry te-solo">
+          <div class="te-content">
+            <div class="te-title"><a href="https://www.routledge.com/Music-Fundamentals-A-Balanced-Approach/Takesue/p/book/9781032290409" target="_blank">Music Fundamentals: A Balanced Approach, 4th edition</a></div>
+            <div class="te-meta">Sumy Takesue &mdash; Routledge</div>
+            <div class="te-isbn">Softcover ISBN: 978-1-032-29040-9</div>
+          </div>
+        </div>
+
+        <div class="textbook-entry te-solo">
+          <div class="te-content">
+            <div class="te-title"><a href="https://wwnorton.com/books/9780393892789" target="_blank">Manual for Ear Training and Sight Singing, 2nd edition</a></div>
+            <div class="te-meta">Gary S. Karpinski &mdash; W. W. Norton &amp; Company</div>
+            <div class="te-isbn">Softcover ISBN: 978-0-393-89278-9</div>
+            <div class="te-companion">
+              <div class="te-title" style="font-size:0.88rem;"><a href="https://wwnorton.com/books/9780393614480" target="_blank">Anthology for Sight Singing, 2nd edition</a></div>
+              <div class="te-meta">Gary S. Karpinski &mdash; W. W. Norton &amp; Company &mdash; must be purchased alongside the Manual</div>
+              <div class="te-isbn">Softcover ISBN: 978-0-393-61448-0</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="textbook-entry te-theory">
+          <div class="te-content">
+            <div class="te-title"><a href="https://wwnorton.com/books/9781324100737" target="_blank">Concise Introduction to Tonal Harmony, 3rd edition</a></div>
+            <div class="te-meta">L. Poundie Burstein and Joseph N. Straus &mdash; W. W. Norton &amp; Company</div>
+            <div class="te-isbn">Hardcover ISBN: 978-1-324-10073-7</div>
+            <div class="te-companion">
+              <div class="te-title" style="font-size:0.88rem;"><a href="https://wwnorton.com/books/9781324088080" target="_blank">Concise Introduction to Tonal Harmony Workbook, 3rd edition</a></div>
+              <div class="te-meta">Burstein and Straus &mdash; W. W. Norton &amp; Company &mdash; must be purchased alongside the textbook</div>
+              <div class="te-isbn">Softcover ISBN: 978-1-324-08808-0</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="textbook-entry te-keyboard">
+          <div class="te-content">
+            <div class="te-title"><a href="https://www.alfred.com/alfreds-group-piano-for-adults-student-book-1-2nd-edition/p/00-30368/" target="_blank">Alfred's Group Piano for Adults: Student Book 1, 2nd edition</a></div>
+            <div class="te-meta">E. L. Lancaster and Kenon D. Renfrow &mdash; Alfred Music</div>
+            <div class="te-isbn">Softcover ISBN: 978-0-7390-5301-0</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Cost analysis -->
+      <div style="background:#fff;border:1px solid var(--rule);border-radius:4px;padding:1.1rem 1.25rem;align-self:center;">
+        <div style="font-size:0.65rem;letter-spacing:0.15em;text-transform:uppercase;font-weight:600;color:var(--muted);margin-bottom:0.85rem;">Estimated Cost per Student</div>
+
+        <div class="cost-section-label">MUS 108</div>
+        <div class="cost-row"><span class="cost-title">Music Fundamentals (Takesue)</span><span class="cost-price">~$85</span></div>
+
+        <div class="cost-section-label">Aural Skills I–III</div>
+        <div class="cost-row"><span class="cost-title">Manual for Ear Training (Karpinski)</span><span class="cost-price">~$90</span></div>
+        <div class="cost-row"><span class="cost-title">Anthology for Sight Singing</span><span class="cost-price">~$75</span></div>
+
+        <div class="cost-section-label">Theory I–III &amp; Form</div>
+        <div class="cost-row"><span class="cost-title">Concise Intro to Tonal Harmony</span><span class="cost-price">~$120</span></div>
+        <div class="cost-row"><span class="cost-title">Tonal Harmony Workbook</span><span class="cost-price">~$55</span></div>
+
+        <div class="cost-section-label">Keyboard I–III</div>
+        <div class="cost-row"><span class="cost-title">Alfred's Group Piano, Bk. 1</span><span class="cost-price">~$45</span></div>
+
+        <div class="cost-subtotal"><span>Estimated total</span><span style="font-family:'Source Code Pro',monospace;">~$470</span></div>
+        <div class="cost-note">Prices are approximate retail. Used and rental copies are widely available for most titles except Alfred's. Karpinski and Takesue texts are used across multiple semesters.</div>
+      </div>
+
+    </div>
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- MUS 108 -->
+  <!-- ══════════════════════════════════════════ -->
+  <section id="mus108" class="semester-block">
+    <div class="semester-header">
+      <h2>MUS 108 &mdash; Language of Music</h2>
+      <span class="semester-tag">Fall &mdash; Year 1</span>
+    </div>
+    <p class="semester-intro">GE Area 3A. Open to all students; fulfills the arts requirement for non-majors. Enrollment typically includes both music majors in their first semester and a significant proportion of GE students with no prior musical training. Pacing must account for this range.</p>
+
+    <div class="course-grid">
+      <div class="course-card solo" style="grid-column: 1 / -1;">
+        <div class="card-header">
+          <div class="card-label">Language of Music</div>
+          <h3>MUS 108</h3>
+        </div>
+        <div class="card-body">
+          <div class="textbook">Takesue Modules 1–12 / Karpinski Chapters 1–10 (assigned alongside relevant Takesue modules). Takesue Modules 13–16 are not covered.</div>
+          <table class="schedule-table">
+            <thead>
+              <tr><th>Week</th><th>Takesue</th><th>Karpinski</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>01</td><td>Basics of pitch: the staff, clefs, keyboard geography, note reading in treble clef. [Mod. 1]</td><td>Fundamentals of pitch. [Ch. 2]</td></tr>
+              <tr><td>02</td><td>Basics of pitch continued: bass clef, grand staff, ledger lines, octave signs. [Mod. 1 cont.]</td><td>Fundamentals of meter and rhythm. [Ch. 1]</td></tr>
+              <tr><td>03</td><td>Basics of rhythm: pulse, note values, stems, beams, simple meter, bar lines. [Mod. 2]</td><td>Combining pitches with rhythm and meter. [Ch. 3]</td></tr>
+              <tr><td>04</td><td>Rhythm continued: time signatures, conducting patterns, comparing meters. [Mod. 2 cont.]</td><td>Error detection and correction. [Ch. 4]</td></tr>
+              <tr><td>05</td><td>Extending duration: ties, slurs, dotted notes, anacrusis, rests. [Mod. 3]</td><td>More about meter and rhythm. [Ch. 5]</td></tr>
+              <tr><td>06</td><td>Accidentals: sharps, flats, naturals; enharmonics; half and whole steps. [Mod. 4]</td><td>More about pitch. [Ch. 6]</td></tr>
+              <tr><td>07</td><td>Rhythm expanded: sixteenth notes, syncopation, changing pulse note. [Mod. 5]</td><td>Notating rhythm and meter. [Ch. 7]</td></tr>
+              <tr><td>08</td><td>Major scale: construction, scale degree names, transposition. [Mod. 6]</td><td>Notating pitches. [Ch. 8]</td></tr>
+              <tr><td>09</td><td>Major key signatures: sharps and flats, circle of fifths. [Mod. 7]</td><td>Combining rhythm and pitch notation. [Ch. 9]</td></tr>
+              <tr><td>10</td><td>Compound meter: counting methods, rests, beams, dotted rhythms. [Mod. 8]</td><td>Dictation in longer contexts. [Ch. 10]</td></tr>
+              <tr><td>11</td><td>Minor scale: key signatures, relative and parallel minor, three forms. [Mod. 9]</td><td></td></tr>
+              <tr><td>12</td><td>Intervals: identification, consonance and dissonance, quality, augmented and diminished. [Mod. 10]</td><td></td></tr>
+              <tr><td>13</td><td>Triads: major, minor, diminished, augmented; diatonic triads of the scale. [Mod. 11]</td><td></td></tr>
+              <tr><td>14</td><td>Compound meter expanded: triplets and duplets. [Mod. 12]</td><td></td></tr>
+              <tr class="exam-row"><td>15</td><td colspan="2">Review and final exam.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="benchmarks-block">
+      <h4>End-of-Semester Benchmarks — MUS 108</h4>
+      <div class="benchmark-tracks">
+        <div class="benchmark-track n">
+          <h5>Reading &amp; Rhythm</h5>
+          <p>Students can read pitches in treble and bass clef, interpret note values and rests in simple and compound meters, and correctly identify and write ties, dotted rhythms, syncopation, triplets, and duplets.</p>
+        </div>
+        <div class="benchmark-track n">
+          <h5>Scales &amp; Keys</h5>
+          <p>Students can construct major scales and all three forms of minor scales, identify key signatures through the full circle of fifths, and identify and construct intervals by number and quality. Roman numeral analysis and form are not covered.</p>
+        </div>
+        <div class="benchmark-track n">
+          <h5>Harmony</h5>
+          <p>Students can construct and identify major, minor, diminished, and augmented triads in root position. Triad inversions, seventh chords, Roman numerals, and formal analysis are reserved for the Theory I sequence.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- SEMESTER 2: Theory I / Aural I / Keyboard I -->
+  <!-- ══════════════════════════════════════════ -->
+  <section id="sem2" class="semester-block">
+    <div class="semester-header">
+      <h2>MUS 111 / 115 / 118 &mdash; Theory I, Aural Skills I, Keyboard I</h2>
+      <span class="semester-tag">Spring &mdash; Year 1</span>
+    </div>
+    <p class="semester-intro">First semester of the concurrent core sequence. Students are assumed to enter with MUS 108 fundamentals. The three tracks reinforce each other: theory introduces concepts in writing, aural skills develops them by ear and voice, and keyboard brings them into the hands.</p>
+
+    <table class="sync-grid">
+      <colgroup>
+        <col style="width:44px">
+        <col>
+        <col>
+        <col>
+      </colgroup>
+      <!-- Track headers -->
+      <tbody>
+      <tr class="header-row">
+        <td class="th-week"></td>
+        <td class="th-theory">
+          <div class="track-header">
+            <span class="card-label label-theory">Music Theory</span>
+            <h3>MUS 111 — Theory I</h3>
+            <span class="course-num">Concise Introduction to Tonal Harmony</span>
+            <span class="textbook-note">Ch. 1–12. Fundamentals through inversions of V<sup>7</sup>.</span>
+          </div>
+        </td>
+        <td class="th-aural">
+          <div class="track-header">
+            <span class="card-label label-aural">Aural Skills</span>
+            <h3>MUS 115 — Aural Skills I</h3>
+            <span class="course-num">Manual for Ear Training &amp; Sight Singing</span>
+            <span class="textbook-note">Ch. 11–24. Ch. 15 and 24 paired in week 14.</span>
+          </div>
+        </td>
+        <td class="th-keyboard">
+          <div class="track-header">
+            <span class="card-label label-keyboard">Keyboard Musicianship</span>
+            <h3>MUS 118 — Keyboard I</h3>
+            <span class="course-num">Alfred's Group Piano for Adults, Bk. 1</span>
+            <span class="textbook-note">Units 1–8. Keyboard basics through major scales in tetrachord position.</span>
+          </div>
+        </td>
+      </tr>
+      <!-- Week rows -->
+      <tr>
+        <td class="week-num">01</td>
+        <td class="cell-t">Review: scales, key signatures, intervals. [Ch. 1–2]</td>
+        <td class="cell-a">The fifteen major keys. [Ch. 11]</td>
+        <td class="cell-k">Keyboard basics: posture, white key names, note/rest values, octaves, dynamic signs, sharps/flats/naturals, half and whole steps, chromatic scale, grand staff, time signatures, articulation. [Unit 1]</td>
+      </tr>
+      <tr>
+        <td class="week-num">02</td>
+        <td class="cell-t">Triads and seventh chords: types and construction. [Ch. 3]</td>
+        <td class="cell-a">Ties and the dotted beat. [Ch. 12]</td>
+        <td class="cell-k">Unit 1 continued: repertoire, reading exercises, dynamic and articulation practice. [Unit 1 cont.]</td>
+      </tr>
+      <tr>
+        <td class="week-num">03</td>
+        <td class="cell-t">Triads and seventh chords continued: inversions, figured bass, Roman numerals. [Ch. 3 cont.]</td>
+        <td class="cell-a">Intervals: number and quality. [Ch. 13]</td>
+        <td class="cell-k">Intervals at the keyboard; eighth notes and dotted quarter notes; key signatures; new time signatures and dynamic signs. [Unit 2]</td>
+      </tr>
+      <tr>
+        <td class="week-num">04</td>
+        <td class="cell-t">Introduction to four-part (SATB) harmony. [Ch. 4]</td>
+        <td class="cell-a">Skips to 7/ti and 2/re as prefix neighbors. [Ch. 14]</td>
+        <td class="cell-k">Unit 2 continued: repertoire and sight-reading; interval identification at the keyboard. [Unit 2 cont.]</td>
+      </tr>
+      <tr>
+        <td class="week-num">05</td>
+        <td class="cell-t">Voice leading principles. [Ch. 5]</td>
+        <td class="cell-a">Compound meters: introduction, counting, sight-singing. [Ch. 16]</td>
+        <td class="cell-k">Major five-finger patterns; major triads (chords); new time signature (3/4). [Unit 3]</td>
+      </tr>
+      <tr>
+        <td class="week-num">06</td>
+        <td class="cell-t">Harmonic progression: syntax and function. [Ch. 6]</td>
+        <td class="cell-a">Introduction to minor mode: diatonic minor through relative and parallel approaches. [Ch. 17]</td>
+        <td class="cell-k">Unit 3 continued: repertoire; harmonization with major triads; ensemble pieces. [Unit 3 cont.]</td>
+      </tr>
+      <tr>
+        <td class="week-num">07</td>
+        <td class="cell-t">Melodic elaboration: non-chord tones. [Ch. 7]</td>
+        <td class="cell-a">Lower chromatic neighbors. [Ch. 18]</td>
+        <td class="cell-k">Major five-finger pattern review across key groups; sixteenth notes. [Unit 4]</td>
+      </tr>
+      <tr class="exam-row">
+        <td class="week-num">08</td>
+        <td class="cell-t">Midterm exam. Covers Ch. 1–7.</td>
+        <td class="cell-a">Midterm: sight-singing and dictation in major keys, simple and compound meter. Ch. 11–18.</td>
+        <td class="cell-k">Midterm: technique evaluation covering Units 1–4. Sight-reading and harmonization.</td>
+      </tr>
+      <tr>
+        <td class="week-num">09</td>
+        <td class="cell-t">Species counterpoint I: first and second species. [Ch. 8]</td>
+        <td class="cell-a">More about minor: chromatic 6/la and 7/ti through modal borrowing. [Ch. 19]</td>
+        <td class="cell-k">Minor five-finger patterns; major and minor patterns compared; minor chords; relative minor keys. [Unit 5]</td>
+      </tr>
+      <tr>
+        <td class="week-num">10</td>
+        <td class="cell-t">Species counterpoint II: fourth species (suspension). [Ch. 8 cont.]</td>
+        <td class="cell-a">Triplets and duplets. [Ch. 20]</td>
+        <td class="cell-k">Unit 5 continued: repertoire and harmonization in minor keys. [Unit 5 cont.]</td>
+      </tr>
+      <tr>
+        <td class="week-num">11</td>
+        <td class="cell-t">Diatonic harmony: I and V. [Ch. 9]</td>
+        <td class="cell-a">Introduction to transcription. [Ch. 21]</td>
+        <td class="cell-k">Minor five-finger pattern review; eighth-note triplets. [Unit 6]</td>
+      </tr>
+      <tr>
+        <td class="week-num">12</td>
+        <td class="cell-t">The V<sup>7</sup> chord: preparation and resolution. [Ch. 10]</td>
+        <td class="cell-a">Quadruple division of the beat in simple meters. [Ch. 22]</td>
+        <td class="cell-k">Chord qualities: augmented and diminished chords; dotted eighth note. [Unit 7]</td>
+      </tr>
+      <tr>
+        <td class="week-num">13</td>
+        <td class="cell-t">I<sup>6</sup> and V<sup>6</sup> chords: first inversion triads in context. [Ch. 11]</td>
+        <td class="cell-a">Conducting pulse levels other than the notated beat. [Ch. 23]</td>
+        <td class="cell-k">Unit 7 continued: repertoire; harmonization using all four chord qualities. [Unit 7 cont.]</td>
+      </tr>
+      <tr>
+        <td class="week-num">14</td>
+        <td class="cell-t">Inversions of the V<sup>7</sup> chord. [Ch. 12]</td>
+        <td class="cell-a">Tempo; performance indications. [Ch. 15 &amp; 24]</td>
+        <td class="cell-k">Major scales in tetrachord position; intervals of 6ths, 7ths, and octaves; the damper pedal. [Unit 8]</td>
+      </tr>
+      <tr class="exam-row">
+        <td class="week-num">15</td>
+        <td class="cell-t">Review and final exam.</td>
+        <td class="cell-a">Review and final exam.</td>
+        <td class="cell-k">Review and final exam.</td>
+      </tr>
+      </tbody>
+    </table>
+
+    <div class="benchmarks-block">
+      <h4>End-of-Semester Benchmarks — Spring Year 1</h4>
+      <div class="benchmark-tracks">
+        <div class="benchmark-track t">
+          <h5>Theory I</h5>
+          <p>Students can write and identify all triad and seventh chord types, construct SATB progressions using I, V, V<sup>7</sup>, I<sup>6</sup>, and V<sup>6</sup>, apply voice leading principles, write simple two-voice counterpoint through fourth species, and use all inversions of the V<sup>7</sup> chord correctly.</p>
+        </div>
+        <div class="benchmark-track a">
+          <h5>Aural Skills I</h5>
+          <p>Students can sight-sing diatonic melodies in major and minor keys using solfège or scale degrees, take melodic dictation in simple and compound meters including quadruple beat division, identify intervals by number and quality, and perform chromatic neighbor tones. Minor mode is introduced and consolidated within this semester.</p>
+        </div>
+        <div class="benchmark-track k">
+          <h5>Keyboard I</h5>
+          <p>Students can play major and minor five-finger patterns and their triads in all common keys, perform all four triad qualities (major, minor, augmented, diminished), play major scales in tetrachord position with correct fingering, and use the damper pedal. Basic sight-reading and harmonization skills are established.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- SEMESTER 3: Theory II / Aural II / Keyboard II -->
+  <!-- ══════════════════════════════════════════ -->
+  <section id="sem3" class="semester-block">
+    <div class="semester-header">
+      <h2>MUS 112 / 116 / 119 &mdash; Theory II, Aural Skills II, Keyboard II</h2>
+      <span class="semester-tag">Fall &mdash; Year 2</span>
+    </div>
+    <p class="semester-intro">Second semester of the concurrent core sequence. Theory II moves through diatonic harmony in depth, Aural Skills II consolidates minor mode and introduces harmonic listening, and Keyboard II builds full harmonic vocabulary at the keyboard. All three tracks converge on functional harmony (dominant, subdominant, and primary chords in both major and minor) in the second half of the semester.</p>
+
+    <table class="sync-grid">
+      <colgroup>
+        <col style="width:44px">
+        <col>
+        <col>
+        <col>
+      </colgroup>
+      <tbody>
+      <tr class="header-row">
+        <td class="th-week"></td>
+        <td class="th-theory">
+          <div class="track-header">
+            <span class="card-label label-theory">Music Theory</span>
+            <h3>MUS 112 — Theory II</h3>
+            <span class="course-num">Concise Introduction to Tonal Harmony</span>
+            <span class="textbook-note">Ch. 13–24. Diatonic harmony through modulation to the dominant key.</span>
+          </div>
+        </td>
+        <td class="th-aural">
+          <div class="track-header">
+            <span class="card-label label-aural">Aural Skills</span>
+            <h3>MUS 116 — Aural Skills II</h3>
+            <span class="course-num">Manual for Ear Training &amp; Sight Singing</span>
+            <span class="textbook-note">Ch. 25–40. Ch. 26, 28, and 30 omitted.</span>
+          </div>
+        </td>
+        <td class="th-keyboard">
+          <div class="track-header">
+            <span class="card-label label-keyboard">Keyboard Musicianship</span>
+            <h3>MUS 119 — Keyboard II</h3>
+            <span class="course-num">Alfred's Group Piano for Adults, Bk. 1</span>
+            <span class="textbook-note">Units 9–17. Triads of the key through minor scales Group 2.</span>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="week-num">01</td>
+        <td class="cell-t">Review of Theory I: SATB voice leading, V<sup>7</sup> and inversions, species counterpoint. [Ch. 1–12 review]</td>
+        <td class="cell-a">The dominant triad; skips to 5/sol, 7/ti, and 2/re. [Ch. 25]</td>
+        <td class="cell-k">Playing triads of the key; major scales and arpeggios, Group 1 keys. [Unit 9]</td>
+      </tr>
+      <tr>
+        <td class="week-num">02</td>
+        <td class="cell-t">Vii°6 chord: voice leading and function. [Ch. 13]</td>
+        <td class="cell-a">Skips to 4/fa and 6/la/le as prefix neighbors. [Ch. 27]</td>
+        <td class="cell-k">Unit 9 continued: triads of the key in all positions; sight-reading and harmonization. [Unit 9 cont.]</td>
+      </tr>
+      <tr>
+        <td class="week-num">03</td>
+        <td class="cell-t">Approaching the dominant: IV, ii<sup>6</sup>, and ii<sup>6/5</sup>. [Ch. 14]</td>
+        <td class="cell-a">Sextuple division of the beat in compound meters. [Ch. 29]</td>
+        <td class="cell-k">Triads and inversions; triads in all positions; major scales and arpeggios, Group 2 keys. [Unit 10]</td>
+      </tr>
+      <tr>
+        <td class="week-num">04</td>
+        <td class="cell-t">The cadential 6/4: embellishing V. [Ch. 15]</td>
+        <td class="cell-a">The subdominant triad; skips to 4/fa, 6/la/le, and 1/do. [Ch. 31]</td>
+        <td class="cell-k">Unit 10 continued: inversions in harmonic context; sight-reading. [Unit 10 cont.]</td>
+      </tr>
+      <tr>
+        <td class="week-num">05</td>
+        <td class="cell-t">Leading to the tonic: IV. [Ch. 16]</td>
+        <td class="cell-a">Syncopation. [Ch. 32]</td>
+        <td class="cell-k">The dominant and V<sup>7</sup> chords: tonic and dominant at the keyboard; block and broken chord patterns. [Unit 11]</td>
+      </tr>
+      <tr>
+        <td class="week-num">06</td>
+        <td class="cell-t">The leading-tone seventh chord: vii°7 and viiø7. [Ch. 17]</td>
+        <td class="cell-a">The dominant seventh chord in melodic contexts; skips to 5/sol, 7/ti, 2/re, and 4/fa. [Ch. 33]</td>
+        <td class="cell-k">Unit 11 continued: V<sup>7</sup> in musical context; repertoire and harmonization. [Unit 11 cont.]</td>
+      </tr>
+      <tr>
+        <td class="week-num">07</td>
+        <td class="cell-t">Approaching V: IV<sup>6</sup>, ii, ii<sup>7</sup>, and IV<sup>7</sup>. [Ch. 18]</td>
+        <td class="cell-a">Introduction to harmonic singing. [Ch. 34]</td>
+        <td class="cell-k">The subdominant chord; Alberti bass and waltz bass accompaniment. [Unit 12]</td>
+      </tr>
+      <tr class="exam-row">
+        <td class="week-num">08</td>
+        <td class="cell-t">Midterm exam. Covers Ch. 13–18.</td>
+        <td class="cell-a">Midterm: sight-singing, dictation, harmonic context through Ch. 34.</td>
+        <td class="cell-k">Midterm: technique, sight-reading, and harmonization. Units 9–12.</td>
+      </tr>
+      <tr>
+        <td class="week-num">09</td>
+        <td class="cell-t">Multiple functions: VI. [Ch. 19]</td>
+        <td class="cell-a">Introduction to harmonic listening: harmonic rhythm and cadences. [Ch. 35]</td>
+        <td class="cell-k">Primary chords in major keys: I, IV, V<sup>7</sup> in musical context. [Unit 13]</td>
+      </tr>
+      <tr>
+        <td class="week-num">10</td>
+        <td class="cell-t">Embellishing tones in four-part harmony. [Ch. 20]</td>
+        <td class="cell-a">Two-voice music. [Ch. 36]</td>
+        <td class="cell-k">Minor scales in tetrachord position. [Unit 14]</td>
+      </tr>
+      <tr>
+        <td class="week-num">11</td>
+        <td class="cell-t">III and VII. [Ch. 21]</td>
+        <td class="cell-a">Introduction to bass line dictation. [Ch. 37]</td>
+        <td class="cell-k">Unit 14 continued: minor scales in all forms; repertoire in minor keys. [Unit 14 cont.]</td>
+      </tr>
+      <tr>
+        <td class="week-num">12</td>
+        <td class="cell-t">Sequences. [Ch. 22]</td>
+        <td class="cell-a">Root position and first inversion triads. [Ch. 38]</td>
+        <td class="cell-k">Minor scales Group 1 and triads of the key in harmonic minor; arpeggios. [Unit 15]</td>
+      </tr>
+      <tr>
+        <td class="week-num">13</td>
+        <td class="cell-t">Other 6/4 chords. [Ch. 23]</td>
+        <td class="cell-a">Introduction to voice leading. [Ch. 39]</td>
+        <td class="cell-k">Primary chords in minor keys. [Unit 16]</td>
+      </tr>
+      <tr>
+        <td class="week-num">14</td>
+        <td class="cell-t">Other embellishing chords. [Ch. 24]</td>
+        <td class="cell-a">Triad qualities: identifying all four triad types by ear. [Ch. 40]</td>
+        <td class="cell-k">Minor scales Group 2 and triads of the key in harmonic minor. [Unit 17]</td>
+      </tr>
+      <tr class="exam-row">
+        <td class="week-num">15</td>
+        <td class="cell-t">Review and final exam.</td>
+        <td class="cell-a">Review and final exam.</td>
+        <td class="cell-k">Review and final exam.</td>
+      </tr>
+      </tbody>
+    </table>
+
+    <div class="benchmarks-block">
+      <h4>End-of-Semester Benchmarks — Fall Year 2</h4>
+      <div class="benchmark-tracks">
+        <div class="benchmark-track t">
+          <h5>Theory II</h5>
+          <p>Students can write and analyze SATB progressions using all diatonic triads and seventh chords, including vii°7, the cadential 6/4, sequences, and embellishing chords. They understand VI, III, and VII in functional context and can identify and apply other 6/4 chord types.</p>
+        </div>
+        <div class="benchmark-track a">
+          <h5>Aural Skills II</h5>
+          <p>Students can sight-sing in major and minor modes with chromatic neighbors and dominant seventh chord skips, take melodic and harmonic dictation including bass lines and two-voice textures, perform syncopation and sextuple compound meter, and identify all four triad qualities by ear. Harmonic listening through basic chord progressions is introduced and consolidated.</p>
+        </div>
+        <div class="benchmark-track k">
+          <h5>Keyboard II</h5>
+          <p>Students can play major and minor scales and arpeggios across Group 1 and 2 keys, perform primary chords in major and minor with block and broken patterns, harmonize short melodies using diatonic chords, sing a melody while playing a two-hand accompaniment, and realize simple lead-sheet symbols. Sight-reading in grand staff hands together is established.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- SEMESTER 4: Theory III / Aural III / Keyboard III -->
+  <!-- ══════════════════════════════════════════ -->
+  <section id="sem4" class="semester-block">
+    <div class="semester-header">
+      <h2>MUS 211 / 215 / 218 &mdash; Theory III, Aural Skills III, Keyboard III</h2>
+      <span class="semester-tag">Spring &mdash; Year 2</span>
+    </div>
+    <p class="semester-intro">Third and final semester of the concurrent core sequence. Theory III moves into chromatic harmony, beginning with applied dominants and culminating in chromatic modulation. Aural Skills III deepens harmonic listening and introduces more advanced melodic and rhythmic contexts. Keyboard III completes Book 1, extending harmonic vocabulary to secondary triads, seventh chords, and modal and non-diatonic scales.</p>
+
+    <table class="sync-grid">
+      <colgroup>
+        <col style="width:44px">
+        <col>
+        <col>
+        <col>
+      </colgroup>
+      <tbody>
+      <tr class="header-row">
+        <td class="th-week"></td>
+        <td class="th-theory">
+          <div class="track-header">
+            <span class="card-label label-theory">Music Theory</span>
+            <h3>MUS 211 — Theory III</h3>
+            <span class="course-num">Concise Introduction to Tonal Harmony</span>
+            <span class="textbook-note">Ch. 25–34. Applied dominants through chromatic modulation.</span>
+          </div>
+        </td>
+        <td class="th-aural">
+          <div class="track-header">
+            <span class="card-label label-aural">Aural Skills</span>
+            <h3>MUS 215 — Aural Skills III</h3>
+            <span class="course-num">Manual for Ear Training &amp; Sight Singing</span>
+            <span class="textbook-note">Ch. 41–54. Week 1 review. Ch. 50–51 covered in MUS 410.</span>
+          </div>
+        </td>
+        <td class="th-keyboard">
+          <div class="track-header">
+            <span class="card-label label-keyboard">Keyboard Musicianship</span>
+            <h3>MUS 218 — Keyboard III</h3>
+            <span class="course-num">Alfred's Group Piano for Adults, Bk. 1</span>
+            <span class="textbook-note">Units 17–26. Secondary triads through modes and review.</span>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="week-num">01</td>
+        <td class="cell-t">Review of Theory II: diatonic harmony, sequences, embellishing chords. [Ch. 13–24 review]</td>
+        <td class="cell-a">Review: harmonic triads, voice leading, triad qualities from Aural Skills II. [Ch. 25–40 review]</td>
+        <td class="cell-k">Minor scales Group 2 consolidation; triads of the key in harmonic minor. [Unit 17]</td>
+      </tr>
+      <tr>
+        <td class="week-num">02</td>
+        <td class="cell-t">Applied dominants of V. [Ch. 25]</td>
+        <td class="cell-a">The leading-tone triad: skips to 7/ti, 2/re, and 4/fa. [Ch. 41]</td>
+        <td class="cell-k">Major scales Group 3 and triads of the key; playing scales and arpeggios in new key groups. [Unit 18]</td>
+      </tr>
+      <tr>
+        <td class="week-num">03</td>
+        <td class="cell-t">Other applied chords. [Ch. 26]</td>
+        <td class="cell-a">The supertonic triad: skips to 2/re, 4/fa, and 6/la/le. [Ch. 42]</td>
+        <td class="cell-k">Unit 18 continued: repertoire and harmonization in Group 3 keys. [Unit 18 cont.]</td>
+      </tr>
+      <tr>
+        <td class="week-num">04</td>
+        <td class="cell-t">Modulation to the dominant key. [Ch. 27]</td>
+        <td class="cell-a">The submediant triad: skips to 6/la/le, 1/do, and 3/mi/me. [Ch. 43]</td>
+        <td class="cell-k">The ii chord: voice leading and harmonic function at the keyboard. [Unit 19]</td>
+      </tr>
+      <tr>
+        <td class="week-num">05</td>
+        <td class="cell-t">Modulation to closely related keys. [Ch. 28]</td>
+        <td class="cell-a">The mediant triad: skips to 3/mi/me, 5/sol, and 7/ti/te. [Ch. 44]</td>
+        <td class="cell-k">The vi chord: submediant in harmonic context; repertoire. [Unit 20]</td>
+      </tr>
+      <tr>
+        <td class="week-num">06</td>
+        <td class="cell-t">Modal mixture: borrowed chords. [Ch. 29]</td>
+        <td class="cell-a">The dominant seventh chord in harmonic contexts. [Ch. 45]</td>
+        <td class="cell-k">The iii chord: mediant function and voice leading at the keyboard. [Unit 21]</td>
+      </tr>
+      <tr>
+        <td class="week-num">07</td>
+        <td class="cell-t">Modal mixture continued: application in part-writing and analysis. [Ch. 29 cont.]</td>
+        <td class="cell-a">Voice leading techniques. [Ch. 46]</td>
+        <td class="cell-k">Minor scales Group 3 and triads of the key in harmonic minor; arpeggios. [Unit 22]</td>
+      </tr>
+      <tr class="exam-row">
+        <td class="week-num">08</td>
+        <td class="cell-t">Midterm exam. Covers Ch. 25–29.</td>
+        <td class="cell-a">Midterm: sight-singing, harmonic dictation, triad identification. Ch. 41–46.</td>
+        <td class="cell-k">Midterm: technique, sight-reading, and harmonization. Units 17–22.</td>
+      </tr>
+      <tr>
+        <td class="week-num">09</td>
+        <td class="cell-t">bII<sup>6</sup>: the Neapolitan sixth. [Ch. 30]</td>
+        <td class="cell-a">Six-four figures. [Ch. 47]</td>
+        <td class="cell-k">Unit 22 continued: repertoire in minor; ensemble and score reading. [Unit 22 cont.]</td>
+      </tr>
+      <tr>
+        <td class="week-num">10</td>
+        <td class="cell-t">Augmented sixth chords. [Ch. 31]</td>
+        <td class="cell-a">Other seventh chords: skips of a seventh. [Ch. 48]</td>
+        <td class="cell-k">Seventh chords: qualities, inversions, and resolution at the keyboard. [Unit 23]</td>
+      </tr>
+      <tr>
+        <td class="week-num">11</td>
+        <td class="cell-t">Other chords: altered, common-tone, chromatic, and ninth chords. [Ch. 32]</td>
+        <td class="cell-a">Transposition. [Ch. 49]</td>
+        <td class="cell-k">Unit 23 continued: seventh chords in musical context; harmonization and repertoire. [Unit 23 cont.]</td>
+      </tr>
+      <tr>
+        <td class="week-num">12</td>
+        <td class="cell-t">Chromatic sequences. [Ch. 33]</td>
+        <td class="cell-a">Advanced triplets. [Ch. 52]</td>
+        <td class="cell-k">Other scale structures: chromatic scale, whole-tone scale, blues scale. [Unit 24]</td>
+      </tr>
+      <tr>
+        <td class="week-num">13</td>
+        <td class="cell-t">Chromatic modulation. [Ch. 34]</td>
+        <td class="cell-a">Chromatic passing tones. [Ch. 53]</td>
+        <td class="cell-k">Modes: Ionian, Lydian, Mixolydian, Aeolian, Dorian, Phrygian. [Unit 25]</td>
+      </tr>
+      <tr>
+        <td class="week-num">14</td>
+        <td class="cell-t">Review: chromatic harmony and modulation.</td>
+        <td class="cell-a">Skips to chromatic pitches as prefix neighbors. [Ch. 54]</td>
+        <td class="cell-k">Review of Book 1: technique, repertoire, harmonization, sight-reading. [Unit 26]</td>
+      </tr>
+      <tr class="exam-row">
+        <td class="week-num">15</td>
+        <td class="cell-t">Review and final exam.</td>
+        <td class="cell-a">Review and final exam.</td>
+        <td class="cell-k">Review and final exam.</td>
+      </tr>
+      </tbody>
+    </table>
+
+    <div class="benchmarks-block">
+      <h4>End-of-Semester Benchmarks — Spring Year 2</h4>
+      <div class="benchmark-tracks">
+        <div class="benchmark-track t">
+          <h5>Theory III</h5>
+          <p>Students can write and analyze chromatic harmony including applied dominants, modal mixture, the Neapolitan sixth, augmented sixth chords, and altered chords. They can identify and write modulations to the dominant and closely related keys, and analyze chromatic sequences and chromatic modulation.</p>
+        </div>
+        <div class="benchmark-track a">
+          <h5>Aural Skills III</h5>
+          <p>Students can identify all diatonic triads by ear, sight-sing melodies involving secondary triads and seventh chords, take dictation including chromatic passing tones and applied chord skips, and perform six-four figures and chromatic prefix neighbors in melodic context.</p>
+        </div>
+        <div class="benchmark-track k">
+          <h5>Keyboard III</h5>
+          <p>Students can play major and minor scales and arpeggios in all key groups, perform secondary triads (ii, iii, vi) and seventh chords in harmonic context, play chromatic, whole-tone, and blues scales, and perform melodies and accompaniments in all six church modes. Alfred's Book 1 is complete.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- MUS 312: FORM AND ANALYSIS -->
+  <!-- ══════════════════════════════════════════ -->
+  <section id="mus312" class="semester-block">
+    <div class="semester-header">
+      <h2>MUS 312 &mdash; Form and Analysis</h2>
+      <span class="semester-tag">Fall &mdash; Year 3</span>
+    </div>
+    <p class="semester-intro">Upper-division. Prerequisite: completion of the Theory I–III / Aural Skills I–III sequence. This course applies the harmonic and contrapuntal knowledge of the lower-division sequence to the analysis of complete musical works. The first week consolidates chromatic harmony within an analytical framework before moving into phrase structure, formal types, and sonata form. In place of a midterm, the course uses three group quiz checkpoints distributed across the semester, with a cumulative final exam in Week 15.</p>
+
+    <div class="course-grid">
+      <div class="course-card theory" style="grid-column: 1 / -1;">
+        <div class="card-header">
+          <div class="card-label">Form and Analysis</div>
+          <h3>MUS 312</h3>
+          <div class="course-num">Concise Introduction to Tonal Harmony / Manual for Ear Training &amp; Sight Singing</div>
+        </div>
+        <div class="card-body">
+          <div class="textbook">Straus Ch. 35–39. Karpinski Ch. 55–62 and 67–71. Ch. 63–66 omitted. No midterm; assessment through group quiz checkpoints and a cumulative final exam.</div>
+          <table class="schedule-table">
+            <thead>
+              <tr><th>Week</th><th>Straus</th><th>Karpinski</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>01</td><td>Review: chromatic harmony and modulation. Analytical framework for the course.</td><td>Chords applied to the dominant: skips involving 4/fi. [Ch. 55]</td></tr>
+              <tr><td>02</td><td>Sentences and other phrase types. [Ch. 35]</td><td>Chords applied to the subdominant: skips involving 7/te and 3/mi. [Ch. 56]</td></tr>
+              <tr><td>03</td><td>Sentences continued: analysis and composition exercises. [Ch. 35 cont.]</td><td>Chords applied to the supertonic: skips involving 2/di. [Ch. 57]</td></tr>
+              <tr><td>04</td><td>Periods and other phrase pairs. [Ch. 36]</td><td>Chords applied to the submediant: skips involving 1/si. [Ch. 58]</td></tr>
+              <tr><td>05</td><td>Periods continued: antecedent-consequent, parallel, contrasting. [Ch. 36 cont.]</td><td>Chords applied to the mediant: skips involving 2/ri and 7/te–3/me. [Ch. 59]</td></tr>
+              <tr><td>06</td><td>Binary form. [Ch. 37]</td><td>The Neapolitan chord: steps and skips involving 2/ra. [Ch. 60]</td></tr>
+              <tr><td>07</td><td>Binary form continued: rounded, simple, continuous. [Ch. 37 cont.]</td><td>The augmented sixth chords: steps and skips involving 4/fi and 6/le. [Ch. 61]</td></tr>
+              <tr><td>08</td><td>Ternary and rondo forms. [Ch. 38]</td><td>Other chords. [Ch. 62]</td></tr>
+              <tr><td>09</td><td>Ternary and rondo continued: analysis of complete works. [Ch. 38 cont.]</td><td>Stepwise chromatic alterations. [Ch. 67]</td></tr>
+              <tr><td>10</td><td>Sonata form: exposition, development, recapitulation. [Ch. 39]</td><td>Reading in keys other than the notated key signature. [Ch. 68]</td></tr>
+              <tr><td>11</td><td>Sonata form continued: tonal and thematic processes. [Ch. 39 cont.]</td><td>Introduction to modulation. [Ch. 69]</td></tr>
+              <tr><td>12</td><td>Sonata form: analysis of a complete movement.</td><td>Closely related modulation from the major mode. [Ch. 70]</td></tr>
+              <tr><td>13</td><td>Sonata form: tonal and formal integration across the movement.</td><td>Closely related modulation from the minor mode. [Ch. 71]</td></tr>
+              <tr><td>14</td><td>Integrative analysis: complete work from the repertoire.</td><td></td></tr>
+              <tr class="exam-row"><td>15</td><td colspan="2">Final: analytical project presentation or written analysis.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="benchmarks-block">
+      <h4>End-of-Semester Benchmarks — MUS 312</h4>
+      <div class="benchmark-tracks">
+        <div class="benchmark-track t">
+          <h5>Phrase Structure</h5>
+          <p>Students can identify and describe sentences, periods, and phrase pairs in musical scores, distinguishing antecedent from consequent, parallel from contrasting, and locating cadential points with precision.</p>
+        </div>
+        <div class="benchmark-track a">
+          <h5>Formal Analysis</h5>
+          <p>Students can analyze complete movements in binary, ternary, rondo, and sonata forms, identifying tonal and thematic processes and supporting their readings with evidence from the score.</p>
+        </div>
+        <div class="benchmark-track k">
+          <h5>Aural Skills</h5>
+          <p>Students can sight-sing through modulations to closely related keys, identify modulation by ear, and hear hypermeter and formal boundaries in musical examples.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- MUS 410: 20TH/21ST CENTURY TECHNIQUES -->
+  <!-- ══════════════════════════════════════════ -->
+  <section id="mus410" class="semester-block">
+    <div class="semester-header">
+      <h2>MUS 410 &mdash; 20th and 21st Century Styles and Techniques</h2>
+      <span class="semester-tag">Spring &mdash; Year 3</span>
+    </div>
+    <p class="semester-intro">Upper-division. Prerequisite: MUS 312. This course moves beyond tonal harmony into the analytical and compositional techniques of the 20th and 21st centuries: post-tonal pitch organization, modes, and advanced metric concepts. Karpinski chapters skipped in the lower-division sequence are integrated here alongside the Straus post-tonal content. Assessment is through quiz checkpoints and analytical or compositional projects.</p>
+
+    <div class="course-grid">
+      <div class="course-card theory" style="grid-column: 1 / -1;">
+        <div class="card-header">
+          <div class="card-label">20th and 21st Century Styles and Techniques</div>
+          <h3>MUS 410</h3>
+          <div class="course-num">Concise Introduction to Tonal Harmony / Manual for Ear Training &amp; Sight Singing</div>
+        </div>
+        <div class="card-body">
+          <div class="textbook">Straus Ch. 40–46 (skipping Ch. 47), two weeks each. Karpinski Ch. 28, 50, 51, and 74–77 woven in. No midterm; assessment through quiz checkpoints and projects.</div>
+          <table class="schedule-table">
+            <thead>
+              <tr><th>Week</th><th>Straus</th><th>Karpinski</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>01</td><td>Collections and scales: pentatonic, octatonic, whole-tone, diatonic. [Ch. 40]</td><td>Pentatonicism. [Ch. 28]</td></tr>
+              <tr><td>02</td><td>Collections and scales continued: application in analysis and composition. [Ch. 40 cont.]</td><td></td></tr>
+              <tr><td>03</td><td>Pitch-class sets: introduction, normal form, prime form. [Ch. 41]</td><td>The modes: relative approach. [Ch. 50]</td></tr>
+              <tr><td>04</td><td>Pitch-class sets continued: interval vectors and set-class relations. [Ch. 41 cont.]</td><td></td></tr>
+              <tr><td>05</td><td>Centricity and referential pitch collections. [Ch. 42]</td><td>The modes: parallel approach. [Ch. 51]</td></tr>
+              <tr><td>06</td><td>Centricity continued: analysis of centric non-tonal works. [Ch. 42 cont.]</td><td></td></tr>
+              <tr><td>07</td><td>Twelve-tone serialism: row forms and matrices. [Ch. 43]</td><td>Fragments of tonality. [Ch. 74]</td></tr>
+              <tr><td>08</td><td>Twelve-tone serialism continued: analysis of serial works. [Ch. 43 cont.]</td><td></td></tr>
+              <tr><td>09</td><td>Form in post-tonal music. [Ch. 44]</td><td>Advanced metric concepts. [Ch. 75]</td></tr>
+              <tr><td>10</td><td>Form continued: analysis of complete post-tonal movements. [Ch. 44 cont.]</td><td></td></tr>
+              <tr><td>11</td><td>Music after 1945: serialism, spectralism, minimalism, extended techniques. [Ch. 45]</td><td>More advanced rhythms. [Ch. 76]</td></tr>
+              <tr><td>12</td><td>Music after 1945 continued: analysis and listening. [Ch. 45 cont.]</td><td></td></tr>
+              <tr><td>13</td><td>The 21st century: new directions in pitch, rhythm, and form. [Ch. 46]</td><td>Some common non-diatonic pitch collections. [Ch. 77]</td></tr>
+              <tr><td>14</td><td>21st century continued: analysis and creative response. [Ch. 46 cont.]</td><td></td></tr>
+              <tr class="exam-row"><td>15</td><td colspan="2">Final: analytical or compositional project presentation.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="benchmarks-block">
+      <h4>End-of-Semester Benchmarks — MUS 410</h4>
+      <div class="benchmark-tracks">
+        <div class="benchmark-track t">
+          <h5>Pitch Organization</h5>
+          <p>Students can identify and analyze post-tonal pitch collections including pentatonic, octatonic, whole-tone, and diatonic sets, construct and manipulate pitch-class sets in normal and prime form, and analyze twelve-tone rows and their transformations.</p>
+        </div>
+        <div class="benchmark-track a">
+          <h5>Form and Style</h5>
+          <p>Students can analyze formal processes in post-tonal and 21st-century works, identify centricity and referential collections, and situate works within the major compositional movements of the 20th and 21st centuries including serialism, spectralism, and minimalism.</p>
+        </div>
+        <div class="benchmark-track k">
+          <h5>Aural Skills</h5>
+          <p>Students can sight-sing pentatonic melodies, perform in all church modes using both relative and parallel approaches, perform and notate advanced rhythmic patterns and metric complexities, and identify non-diatonic pitch collections and fragments of tonality by ear.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <div style="margin-top:4rem;padding-top:1.5rem;border-top:1px solid var(--rule);font-size:0.72rem;color:var(--muted);font-style:italic;">
+    Version 1.0 &nbsp;&middot;&nbsp; Spring 2026 &nbsp;&middot;&nbsp; Department of Music, California State University, East Bay
+  </div>
+
+</main>
+</body>
+</html>

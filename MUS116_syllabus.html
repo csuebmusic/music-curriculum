@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MUS 116 — Aural Skills II | Syllabus</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root { --ink: #1a1a1a; --paper: #f7f5f0; --rule: #d8d3c8; --muted: #7a7468; --accent: #4a2c1a; --accent-light: #f5ede8; --sidebar-w: 220px; }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { background: var(--paper); color: var(--ink); font-family: 'Source Sans 3', sans-serif; font-weight: 300; font-size: 15px; line-height: 1.7; display: flex; }
+  nav { position: fixed; top: 0; left: 0; width: var(--sidebar-w); height: 100vh; background: var(--ink); color: #fff; padding: 2rem 1.5rem; overflow-y: auto; z-index: 100; display: flex; flex-direction: column; }
+  .nav-logo { font-family: 'Playfair Display', serif; font-size: 0.82rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; line-height: 1.4; border-bottom: 1px solid rgba(255,255,255,0.15); padding-bottom: 0.85rem; margin-bottom: 0.4rem; }
+  .nav-version { font-size: 0.62rem; color: rgba(255,255,255,0.4); letter-spacing: 0.07em; margin-bottom: 1.5rem; }
+  .nav-section-label { font-size: 0.6rem; letter-spacing: 0.15em; text-transform: uppercase; color: rgba(255,255,255,0.35); margin: 1.1rem 0 0.35rem; }
+  nav a { display: block; color: rgba(255,255,255,0.7); text-decoration: none; font-size: 0.78rem; font-weight: 400; line-height: 1.3; padding: 0.25rem 0; transition: color 0.15s; }
+  nav a:hover { color: #fff; }
+  main { margin-left: var(--sidebar-w); width: calc(100% - var(--sidebar-w)); padding: 4rem 3.5rem 6rem; max-width: 1060px; }
+  .page-header { border-bottom: 2px solid var(--ink); padding-bottom: 1.75rem; margin-bottom: 3rem; }
+  .page-header .kicker { font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.4rem; }
+  .page-header h1 { font-family: 'Playfair Display', serif; font-size: 2.2rem; font-weight: 700; line-height: 1.15; margin-bottom: 0.3rem; }
+  .page-header .course-sub { font-size: 0.95rem; color: var(--muted); font-style: italic; }
+  .meta-strip { display: flex; flex-wrap: wrap; gap: 0.5rem 2rem; margin-top: 1.25rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); font-size: 0.8rem; }
+  .meta-item { color: var(--muted); }
+  .meta-item strong { color: var(--ink); font-weight: 600; }
+  .syllabus-section { margin-bottom: 2.75rem; }
+  .syllabus-section h2 { font-family: 'Playfair Display', serif; font-size: 1.1rem; font-weight: 600; margin-bottom: 0.75rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--rule); color: var(--accent); letter-spacing: 0.01em; }
+  .syllabus-section p { font-size: 0.9rem; line-height: 1.75; margin-bottom: 0.65rem; color: var(--ink); }
+  .syllabus-section p:last-child { margin-bottom: 0; }
+  .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.4rem 2rem; font-size: 0.88rem; }
+  .info-row { display: flex; gap: 0.5rem; }
+  .info-label { color: var(--muted); min-width: 110px; font-size: 0.78rem; letter-spacing: 0.05em; text-transform: uppercase; padding-top: 0.1rem; }
+  .info-value { color: var(--ink); }
+  .outcome-list { list-style: none; margin-top: 0.5rem; }
+  .outcome-list li { display: flex; gap: 0.75rem; font-size: 0.88rem; line-height: 1.6; padding: 0.45rem 0; border-bottom: 1px solid #efefec; }
+  .outcome-list li:last-child { border-bottom: none; }
+  .outcome-num { font-family: 'Source Code Pro', monospace; font-size: 0.72rem; color: var(--accent); font-weight: 500; min-width: 28px; padding-top: 0.15rem; }
+  .sched-table { width: 100%; border-collapse: collapse; font-size: 0.83rem; margin-top: 0.5rem; }
+  .sched-table th { font-size: 0.62rem; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 600; color: var(--muted); padding: 0.4rem 0.6rem; border-bottom: 2px solid var(--ink); text-align: left; }
+  .sched-table th:first-child { width: 54px; }
+  .sched-table td { padding: 0.45rem 0.6rem; vertical-align: top; border-bottom: 1px solid #efefec; line-height: 1.4; font-weight: 300; }
+  .sched-table td:first-child { font-family: 'Source Code Pro', monospace; font-size: 0.72rem; color: var(--muted); font-weight: 500; }
+  .sched-table tr:last-child td { border-bottom: none; }
+  .sched-table tr.exam td { font-weight: 600; font-style: italic; color: var(--accent); background: var(--accent-light); }
+  .sched-table tr.stripe td { background: rgba(0,0,0,0.015); }
+  .grade-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin-top: 0.5rem; }
+  .grade-table th { font-size: 0.62rem; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 600; color: var(--muted); padding: 0.35rem 0.6rem; border-bottom: 1px solid var(--rule); text-align: left; }
+  .grade-table td { padding: 0.4rem 0.6rem; border-bottom: 1px solid #efefec; font-weight: 300; }
+  .grade-table tr:last-child td { border-bottom: none; }
+  .grade-table td:last-child { font-family: 'Source Code Pro', monospace; font-size: 0.78rem; color: var(--muted); text-align: right; }
+  .policy-block { background: #fff; border: 1px solid var(--rule); border-left: 3px solid var(--accent); border-radius: 3px; padding: 1rem 1.25rem; margin-top: 0.5rem; font-size: 0.88rem; line-height: 1.7; }
+  .policy-block p { margin-bottom: 0.5rem; }
+  .policy-block p:last-child { margin-bottom: 0; }
+  .benchmark-grid { display: grid; grid-template-columns: 1fr; gap: 1rem; margin-top: 0.5rem; }
+  .benchmark-card { background: var(--ink); color: #fff; border-radius: 4px; padding: 1rem 1.1rem; }
+  .benchmark-card h4 { font-size: 0.62rem; letter-spacing: 0.15em; text-transform: uppercase; font-weight: 600; color: rgba(255,255,255,0.9); margin-bottom: 0.5rem; }
+  .benchmark-card p { font-size: 0.8rem; font-weight: 300; color: rgba(255,255,255,0.85); line-height: 1.6; }
+  hr.div { border: none; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
+  .syllabus-footer { margin-top: 4rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); font-size: 0.7rem; color: var(--muted); font-style: italic; }
+  @media (max-width: 800px) { nav { display: none; } main { margin-left: 0; padding: 2rem 1.5rem; } .info-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-logo">MUS 116<br>Aural Skills II</div>
+  <div class="nav-version">CSU East Bay &middot; Department of Music</div>
+  <div class="nav-section-label">Syllabus</div>
+  <a href="#contact">Contact Information</a>
+  <a href="#course-info">Course Information</a>
+  <a href="#outcomes">Learning Outcomes</a>
+  <a href="#benchmarks">Learning Benchmarks</a>
+  <a href="#workload">Expected Workload</a>
+  <a href="#materials">Course Materials</a>
+  <a href="#requirements">Course Requirements</a>
+  <a href="#grading">Grading</a>
+  <a href="#policies">Course Policies</a>
+  <a href="#ai">Generative AI Policy</a>
+  <a href="#schedule">Course Schedule</a>
+  <a href="#resources">Student Resources</a>
+</nav>
+<main>
+  <header class="page-header">
+    <div class="kicker">California State University, East Bay &mdash; Department of Music</div>
+    <h1>MUS 116 &mdash; Aural Skills II</h1>
+    <div class="course-sub">Continued development of music reading, dictation, and sight-singing skills</div>
+    <div class="meta-strip">
+      <div class="meta-item"><strong>Units:</strong> 1</div>
+      <div class="meta-item"><strong>Grading:</strong> A&ndash;F or CR/NC (student choice)</div>
+      <div class="meta-item"><strong>Format:</strong> On-ground</div>
+      <div class="meta-item"><strong>Offered:</strong> Fall only</div>
+      <div class="meta-item"><strong>Prerequisite:</strong> MUS 115 or department permission</div>
+      <div class="meta-item"><strong>Co-requisites:</strong> MUS 112, MUS 119</div>
+    </div>
+  </header>
+
+  <section id="contact" class="syllabus-section">
+    <h2>Contact Information</h2>
+    <div class="info-grid">
+      <div class="info-row"><span class="info-label">Instructor</span><span class="info-value">[Instructor Name]</span></div>
+      <div class="info-row"><span class="info-label">Office</span><span class="info-value">[Office Location]</span></div>
+      <div class="info-row"><span class="info-label">Email</span><span class="info-value">[name]@csueastbay.edu</span></div>
+      <div class="info-row"><span class="info-label">Office Hours</span><span class="info-value">[Days/Times, physical or virtual]</span></div>
+      <div class="info-row"><span class="info-label">Phone</span><span class="info-value">[Phone Number]</span></div>
+      <div class="info-row"><span class="info-label">Virtual Hours</span><span class="info-value">[Zoom link if applicable]</span></div>
+    </div>
+  </section>
+
+  <section class="syllabus-section">
+    <h2>Communicating with the Instructor</h2>
+    <p>Email is the best way to reach the instructor. Expect a response within 48 hours on business days. Aural skills requires consistent daily practice outside of class. Office hours are the best place to troubleshoot difficulties with sight-singing, dictation, or GoReact submissions.</p>
+    <p>Course announcements, assignment instructions, and grade updates will be posted on Canvas. Feedback on graded work will be returned within one week of the submission deadline.</p>
+  </section>
+
+  <section id="course-info" class="syllabus-section">
+    <h2>Course Information</h2>
+    <p><strong>Catalog description:</strong> Development of music reading skills applicable to all instrumental and vocal performance media. Dictation, analysis and singing of melodies and melodic exercises; study and performance of basic rhythmic materials.</p>
+    <p>Aural Skills II continues where Aural Skills I ended, extending melodic vocabulary through skips involving all primary triads and the dominant seventh chord, adding sextuple compound meter and syncopation, introducing harmonic singing and harmonic listening, and beginning bass line and two-voice dictation. The course runs alongside Theory II (MUS 112) and the material of the two courses reinforces each other directly. Consistent daily practice remains essential.</p>
+  </section>
+
+  <section id="outcomes" class="syllabus-section">
+    <h2>Student Learning Outcomes</h2>
+    <p>Upon successful completion of this course, students will be able to:</p>
+    <ol class="outcome-list">
+      <li><span class="outcome-num">01</span>Sight-sing melodies involving all diatonic triads in major and minor, including syncopation and sextuple compound meter.</li>
+      <li><span class="outcome-num">02</span>Take melodic, bass line, and two-voice dictation with accuracy.</li>
+      <li><span class="outcome-num">03</span>Identify harmonic rhythm, cadences, and all four triad qualities by ear.</li>
+      <li><span class="outcome-num">04</span>Perform in harmonic context through harmonic singing and basic two-voice textures.</li>
+    </ol>
+  </section>
+
+  <section id="benchmarks" class="syllabus-section">
+    <h2>Learning Benchmarks</h2>
+    <p>By the end of the semester, students who have successfully engaged with the course material should be able to demonstrate the following:</p>
+    <div class="benchmark-grid">
+      <div class="benchmark-card">
+        <h4>Aural Skills II</h4>
+        <p>Students can sight-sing in major and minor modes with chromatic neighbors and dominant seventh chord skips, take melodic and harmonic dictation including bass lines and two-voice textures, perform syncopation and sextuple compound meter, and identify all four triad qualities by ear. Harmonic listening through basic chord progressions is introduced and consolidated.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="workload" class="syllabus-section">
+    <h2>Expected Workload</h2>
+    <p>MUS 116 carries 1 unit and is classified as a C10 music activity course. Under the CSU credit hour definition, each unit of credit represents one hour of in-class instruction and a minimum of two hours of out-of-class student work per week. For this course, that means:</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;margin-top:0.75rem;">
+      <div style="background:#fff;border:1px solid var(--rule);border-radius:3px;padding:0.85rem 1rem;text-align:center;">
+        <div style="font-family:'Source Code Pro',monospace;font-size:1.4rem;font-weight:500;color:var(--accent);">2</div>
+        <div style="font-size:0.78rem;color:var(--muted);margin-top:0.2rem;">contact hours per week<br>(two 50-min meetings)</div>
+      </div>
+      <div style="background:#fff;border:1px solid var(--rule);border-radius:3px;padding:0.85rem 1rem;text-align:center;">
+        <div style="font-family:'Source Code Pro',monospace;font-size:1.4rem;font-weight:500;color:var(--accent);">2+</div>
+        <div style="font-size:0.78rem;color:var(--muted);margin-top:0.2rem;">out-of-class hours per week<br>(minimum)</div>
+      </div>
+    </div>
+    <h4 style="font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:600;margin-top:1.5rem;margin-bottom:0.5rem;">Making the time work</h4>
+    <p style="font-size:0.88rem;">This course is classified as an activity course for a reason. Class time is not a lecture you can passively receive; it is structured around singing, conducting, dictation, and drill work done in real time with your classmates. The ear and the voice develop through repeated use, and the minutes you spend performing in class are irreplaceable. Show up prepared, and show up ready to sing.</p>
+    <p style="margin-top:0.85rem;font-size:0.88rem;">More importantly, you are taking three courses concurrently (Theory, Aural Skills, and Keyboard), and the combined out-of-class load across the three is substantial. Plan for it.</p>
+    <p style="margin-top:0.85rem;font-size:0.88rem;">One schedule that works well is roughly two hours a day, Monday through Thursday, split between the three courses. Daily short sessions will outperform occasional long ones in every one of these courses. Use the practice rooms! See the <a href="https://www.csueastbay.edu/music/facilities/index.html" style="color:var(--accent);">Music Department facilities page</a> for access and hours.</p>
+  </section>
+
+  <section id="materials" class="syllabus-section">
+    <h2>Course Materials</h2>
+    <p><strong>Required texts:</strong> Physical copies are strongly recommended. You will be working with these books closely every week, and the ability to annotate, tab, and flip between pages quickly matters in practice.</p>
+    <div style="margin-top:0.5rem;display:flex;flex-direction:column;gap:0.6rem;">
+      <div class="policy-block">
+        <p><strong>Manual for Ear Training and Sight Singing, 2nd edition</strong><br>
+        Gary S. Karpinski, W. W. Norton &amp; Company<br>
+        <span style="font-family:'Source Code Pro',monospace;font-size:0.75rem;color:var(--muted);">Softcover ISBN: 978-0-393-89278-9</span></p>
+        <p style="margin-top:0.4rem;font-size:0.83rem;color:var(--muted);">Primary text. Chapters 25&ndash;40 are used in this course (Ch. 26, 28, and 30 are omitted). This text continues from Aural Skills I.</p>
+      </div>
+      <div class="policy-block">
+        <p><strong>Anthology for Sight Singing, 2nd edition</strong><br>
+        Gary S. Karpinski, W. W. Norton &amp; Company<br>
+        <span style="font-family:'Source Code Pro',monospace;font-size:0.75rem;color:var(--muted);">Softcover ISBN: 978-0-393-61448-0</span></p>
+        <p style="margin-top:0.4rem;font-size:0.83rem;color:var(--muted);">Must be purchased alongside the Manual. Used for all sight-singing examples throughout the sequence.</p>
+      </div>
+    </div>
+    <p style="margin-top:1rem;"><strong>Other materials:</strong> Manuscript paper and pencils with erasers for dictation work.</p>
+    <div style="margin-top:0.75rem;background:#fff;border:1px solid var(--rule);border-left:3px solid var(--accent);border-radius:3px;padding:1rem 1.25rem;font-size:0.88rem;line-height:1.7;">
+      <p><strong>Stay organized.</strong> Aural skills generates a lot of handouts, weekly exercises, and returned dictations. The material is cumulative: what you could not hear in week 3 will still matter in week 11. Keep a dedicated folder or binder for this course, in chronological order.</p>
+      <p style="margin-top:0.5rem;">A few habits that help: review your returned dictations carefully (your errors tell you exactly what to practice next), sing through old material regularly rather than only when an exam is approaching, and treat your daily practice sessions as non-negotiable. Fifteen focused minutes every day will outperform three hours the night before.</p>
+    </div>
+    <p style="margin-top:1rem;"><strong>Technology:</strong> Canvas is used for all assignments, announcements, and grade tracking. Two additional platforms are required:</p>
+    <ul style="margin:0.5rem 0 0 1.25rem;display:flex;flex-direction:column;gap:0.5rem;font-size:0.88rem;line-height:1.7;">
+      <li><a href="https://www.risingsoftware.com/auralia/" style="color:var(--accent);font-weight:600;">Auralia</a> — ear training software used for guided listening and dictation exercises outside of class. The instructor will provide a cloud access code valid for 6 months at the start of the semester.</li>
+      <li><strong>GoReact</strong> — video submission platform used for all weekly performance recordings and exam videos. GoReact is fully integrated into Canvas; you do not need to visit GoReact's website or create a separate account. Access it directly from your Canvas course. Useful links: <a href="https://support.echo360.com/hc/en-us/articles/38543582655501-GoReact-Recording-a-Video" style="color:var(--accent);">Recording a video</a> &nbsp;&middot;&nbsp; <a href="https://support.echo360.com/hc/en-us/articles/38543663283725-GoReact-Uploading-a-Video" style="color:var(--accent);">Uploading a video</a>.</li>
+    </ul>
+  </section>
+
+  <section id="requirements" class="syllabus-section">
+    <h2>Course Requirements</h2>
+    <p>This course has five categories of graded work:</p>
+    <div style="margin-top:0.75rem;display:flex;flex-direction:column;gap:0.6rem;">
+      <div class="policy-block">
+        <p><strong>GoReact Assignments (25%)</strong>: On most weeks you will prepare and video-record 2&ndash;3 short musical items and upload them to GoReact through Canvas. These may include melodies, rhythms, sing-and-plays, and keyboard tasks. GoReact allows the instructor to provide time-stamped feedback directly on your recordings.</p>
+        <p style="margin-top:0.75rem;"><strong>Performance requirements for melodies:</strong></p>
+        <ul style="margin:0.35rem 0 0.75rem 1.25rem;font-size:0.86rem;line-height:1.7;">
+          <li>Sing on solfège syllables.</li>
+          <li>Conduct the specified beat (quarter note, half note, etc.) while singing.</li>
+          <li>Perform at the specified tempo (check each item for metronome marks).</li>
+        </ul>
+        <p><strong>Performance requirements for rhythms:</strong></p>
+        <ul style="margin:0.35rem 0 0.75rem 1.25rem;font-size:0.86rem;line-height:1.7;">
+          <li>Vocalize on rhythm syllables (Takadimi).</li>
+          <li>Conduct the specified beat while performing.</li>
+          <li>Perform at the specified tempo (check each item for metronome marks).</li>
+        </ul>
+        <p>After practicing, record each item in a quiet environment. You may give yourself the tonic triad and opening note of a melody before beginning, but do not play along while you sing. A metronome in the background is encouraged and sometimes required.</p>
+        <p style="margin-top:0.75rem;"><strong>Recording and submission procedures:</strong></p>
+        <ul style="margin:0.35rem 0 0 1.25rem;font-size:0.86rem;line-height:1.7;">
+          <li>Listen to your own recordings before uploading; submit your best take. Do not upload multiple takes; the instructor will listen only to the first one found.</li>
+          <li>Record one item at a time and name each file appropriately.</li>
+          <li>File naming convention inside GoReact: <span style="font-family:'Source Code Pro',monospace;font-size:0.8rem;">your_last_name_number_in_anthology.mp4</span> (example: <span style="font-family:'Source Code Pro',monospace;font-size:0.8rem;">Shimron_AFSS_44.mp4</span>).</li>
+          <li>Audio and video quality do not need to be perfect, but recordings should be reasonably free from background noise.</li>
+          <li>Do not delete your submission files immediately after uploading, in case of a technical issue.</li>
+        </ul>
+      </div>
+      <div class="policy-block">
+        <p><strong>Ear Training Assignments (25%)</strong>: On most weeks you will receive an ear training assignment completed outside of class using Auralia. In-class activities will provide a foundation and strategies for the at-home tasks.</p>
+      </div>
+      <div class="policy-block">
+        <p><strong>In-Class Assessments (10%)</strong>: Short in-class drills, melodies, rhythms, or other performance-based tasks. These are embedded in the regular class flow rather than scheduled on a fixed grid, and they happen throughout the semester without advance notice, which means the only reliable preparation is consistent daily work. Some weeks most of the room is assessed, other weeks only a few students are called on, and the assessments act as a snapshot of how you are handling the skills being developed while helping identify areas that need more work.</p>
+      </div>
+      <div class="policy-block">
+        <p><strong>Midterm Exam (20%)</strong>: A performance-based exam held during Week 8, combining GoReact video submissions and ear training. Full details will be posted on Canvas ahead of the exam.</p>
+      </div>
+      <div class="policy-block">
+        <p><strong>Final Exam (20%)</strong>: A performance-based exam held during Week 15, with the same structure as the midterm. Full details will be posted on Canvas ahead of the exam.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="grading" class="syllabus-section">
+    <h2>Grading</h2>
+    <table class="grade-table" style="margin-bottom:1.25rem;">
+      <thead><tr><th>Component</th><th style="text-align:right;">Weight</th></tr></thead>
+      <tbody>
+        <tr><td>GoReact Assignments</td><td>25%</td></tr>
+        <tr><td>Ear Training Assignments</td><td>25%</td></tr>
+        <tr><td>In-Class Assessments</td><td>10%</td></tr>
+        <tr><td>Midterm Exam</td><td>20%</td></tr>
+        <tr><td>Final Exam</td><td>20%</td></tr>
+        <tr><td><strong>Total</strong></td><td><strong>100%</strong></td></tr>
+      </tbody>
+    </table>
+
+    <p><strong>Individual assignment rubric (0&ndash;4 scale):</strong> All GoReact and Ear Training assignments are evaluated on a 0&ndash;4 scale. The same scale applies to exam components.</p>
+    <table class="grade-table" style="margin-bottom:1.25rem;">
+      <thead><tr><th style="width:60px;">Score</th><th style="width:120px;">Level</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td>4</td><td>Outstanding</td><td style="text-align:left;font-family:'Source Sans 3',sans-serif;font-size:0.85rem;">Rare. The finest representation of the work: accurate pitch and rhythm, steady pulse, correct solfège or rhythm syllables, coordinated conducting, musical continuity, and confident independent delivery.</td></tr>
+        <tr><td>3</td><td>Very good</td><td style="text-align:left;font-family:'Source Sans 3',sans-serif;font-size:0.85rem;">Clear mastery of the material in precise form. Above average work with minimal errors.</td></tr>
+        <tr><td>2</td><td>Below average</td><td style="text-align:left;font-family:'Source Sans 3',sans-serif;font-size:0.85rem;">The material has been learned but needs more thought and preparation. Not yet at a passing level of execution.</td></tr>
+        <tr><td>1</td><td>Unacceptable</td><td style="text-align:left;font-family:'Source Sans 3',sans-serif;font-size:0.85rem;">Demonstrates less than the required effort and only minimal understanding of the material.</td></tr>
+        <tr><td>0</td><td>Not submitted</td><td style="text-align:left;font-family:'Source Sans 3',sans-serif;font-size:0.85rem;">No submission, unlearned music, or work that does not engage with the assignment.</td></tr>
+      </tbody>
+    </table>
+
+    <p><strong>Grading criteria for melodies:</strong> accurate pitch; accurate durations; steady pulse; appropriate solfège syllables; coordinated conducting at the assigned tempo; continuity (not stopping); independence (not relying on an instrument to navigate the melody); attention to musical details including expression, dynamics, articulation, and tempo; overall confidence in delivery.</p>
+    <p style="margin-top:0.5rem;"><strong>Grading criteria for rhythms:</strong> accurate durations; steady pulse; appropriate rhythm syllables (Takadimi); coordinated conducting at the assigned tempo; continuity; independence; attention to musical details including expression; overall confidence in delivery.</p>
+
+    <p style="margin-top:1rem;"><strong>Course grade scale:</strong> Because all assignments are scored on the 0&ndash;4 scale, course grades are calculated from the weighted average of those scores and converted to letter grades as follows.</p>
+    <table class="grade-table" style="margin-bottom:1rem;max-width:480px;">
+      <thead><tr><th>Grade</th><th>Score range</th><th>Percentage</th><th style="text-align:right;">GPA Points</th></tr></thead>
+      <tbody>
+        <tr><td>A (A, A&ndash;)</td><td>3.35&ndash;4.00</td><td>83.75&ndash;100%</td><td>3.7&ndash;4.0</td></tr>
+        <tr><td>B (B+, B, B&ndash;)</td><td>3.05&ndash;3.34</td><td>76.25&ndash;83.74%</td><td>2.7&ndash;3.3</td></tr>
+        <tr><td>C (C+, C, C&ndash;)</td><td>2.75&ndash;3.04</td><td>68.75&ndash;76.24%</td><td>1.7&ndash;2.3</td></tr>
+        <tr><td>F</td><td>Below 2.75</td><td>Below 68.75%</td><td>0.0</td></tr>
+      </tbody>
+    </table>
+
+    <div class="policy-block"><p><strong>Minimum grade requirements.</strong> Music majors and music minors must earn a C&ndash; or better for the course to count toward major or minor requirements.</p></div>
+    <p style="margin-top:0.85rem;">Grade appeals: <a href="https://catalog.csueastbay.edu/content.php?catoid=39&navoid=36981" style="color:var(--accent);">Grade Appeals and Academic Grievances</a>.</p>
+  </section>
+
+  <section id="policies" class="syllabus-section">
+    <h2>Course Policies</h2>
+    <p><strong>Attendance.</strong> Aural skills cannot be made up outside of class. More than three unexcused absences will affect your grade. Please email the instructor in advance when possible.</p>
+    <p><strong>Late work.</strong> Assignments submitted after the deadline will receive a 2% deduction per day late, up to a maximum deduction of 50%. This means submitting late is always better than not submitting, and work will never receive less than 50% credit solely due to lateness. The quality of the work is still evaluated normally. If you anticipate significant delays or challenges, please communicate early, in person or through Canvas.</p>
+    <p><strong>Syllabus changes.</strong> Any changes will be discussed with students before implementation and communicated in person and through Canvas.</p>
+  </section>
+
+  <section id="ai" class="syllabus-section">
+    <h2>Generative AI Use Policy</h2>
+    <div class="policy-block">
+      <p>Generative AI tools (such as ChatGPT, Claude, DALL&middot;E, and similar) may be used in this course with documentation and citation. AI can be useful for brainstorming or organizing ideas, but the listening, thinking, and writing must be your own. AI cannot replace listening or reflection, and substituting AI-generated content for required analysis violates course policy.</p>
+
+      <p style="margin-top:0.75rem;"><strong>Citation requirements (Chicago 17th edition):</strong></p>
+      <p>Footnote:<br><span style="font-family:'Source Code Pro',monospace;font-size:0.78rem;color:var(--muted);">OpenAI, ChatGPT, [access date], https://chat.openai.com/</span></p>
+      <p>Bibliography:<br><span style="font-family:'Source Code Pro',monospace;font-size:0.78rem;color:var(--muted);">OpenAI. ChatGPT. [access date]. https://chat.openai.com/</span></p>
+
+      <p style="margin-top:0.75rem;"><strong>Document the conversation:</strong> Where the platform allows, click Share &rarr; Copy Link and paste the link in an appendix to your submission. Both Claude and ChatGPT support shareable conversation links.</p>
+
+      <p style="margin-top:0.5rem;">Undisclosed AI use violates the CSUEB Code of Academic Integrity and may be subject to disciplinary action.</p>
+    </div>
+  </section>
+
+  <hr class="div">
+
+  <section id="schedule" class="syllabus-section">
+    <h2>Course Schedule</h2>
+    <p>The following schedule maps the 15-week semester. References are to Karpinski's Manual for Ear Training and Sight Singing. The instructor may make adjustments as needed; changes will be communicated in person and on Canvas.</p>
+    <p style="margin-top:0.5rem;font-size:0.85rem;color:var(--muted);">Assessment rhythm: GoReact video recordings are due Monday at 11:59pm each week, and Auralia assignments are due Sunday at 11:59pm (neither is collected in Week 7 or Week 14, since that material is assessed on the midterm and final). In-class assessments happen throughout the semester without advance notice; consistent daily practice is the only reliable preparation. The midterm is in Week 8 and the final in Week 15, as shown in the table below.</p>
+    <table class="sched-table">
+      <thead><tr><th>Week</th><th>Topic</th><th>Karpinski</th></tr></thead>
+      <tbody>
+        <tr><td>01</td><td>The dominant triad; skips to 5/sol, 7/ti, and 2/re.</td><td>Ch. 25</td></tr>
+        <tr class="stripe"><td>02</td><td>Skips to 4/fa and 6/la/le as prefix neighbors.</td><td>Ch. 27</td></tr>
+        <tr><td>03</td><td>Sextuple division of the beat in compound meters.</td><td>Ch. 29</td></tr>
+        <tr class="stripe"><td>04</td><td>The subdominant triad; skips to 4/fa, 6/la/le, and 1/do.</td><td>Ch. 31</td></tr>
+        <tr><td>05</td><td>Syncopation.</td><td>Ch. 32</td></tr>
+        <tr class="stripe"><td>06</td><td>The dominant seventh chord in melodic contexts; skips to 5/sol, 7/ti, 2/re, and 4/fa.</td><td>Ch. 33</td></tr>
+        <tr><td>07</td><td>Introduction to harmonic singing.</td><td>Ch. 34</td></tr>
+        <tr class="exam"><td>08</td><td>Midterm: sight-singing, dictation, harmonic context through Ch. 34.</td><td></td></tr>
+        <tr><td>09</td><td>Introduction to harmonic listening: harmonic rhythm and cadences.</td><td>Ch. 35</td></tr>
+        <tr class="stripe"><td>10</td><td>Two-voice music.</td><td>Ch. 36</td></tr>
+        <tr><td>11</td><td>Introduction to bass line dictation.</td><td>Ch. 37</td></tr>
+        <tr class="stripe"><td>12</td><td>Root position and first inversion triads.</td><td>Ch. 38</td></tr>
+        <tr><td>13</td><td>Introduction to voice leading.</td><td>Ch. 39</td></tr>
+        <tr class="stripe"><td>14</td><td>Triad qualities: identifying all four triad types by ear.</td><td>Ch. 40</td></tr>
+        <tr class="exam"><td>15</td><td>Review and final exam.</td><td></td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="resources" class="syllabus-section">
+    <h2>Student Resources</h2>
+
+    <p><strong>Academic integrity.</strong> As a member of the academic community, you are expected to act with integrity and avoid plagiarism and other forms of cheating. By enrolling in this class, you agree to uphold the standards of academic integrity described at <a href="https://www.csueastbay.edu/aps/academic-policies/academic-dishonesty.html" style="color:var(--accent);">csueastbay.edu/aps/academic-policies/academic-dishonesty.html</a>.</p>
+
+    <p><strong>Accommodations for students with disabilities.</strong> For disability and other learning-related needs and accommodations, including if you would need assistance in the event of an emergency evacuation, please communicate with the instructor as soon as possible. Students with disabilities are also encouraged to contact the Accessibility Services office at <a href="https://www.csueastbay.edu/accessibility" style="color:var(--accent);">csueastbay.edu/accessibility</a> to meet with a counselor who can advise you on your options, including your rights under Section 504 of the Rehabilitation Act and the Americans with Disabilities Act.</p>
+
+    <p><strong>Student services.</strong> To access student services offered at Cal State East Bay, click on the MyCompass icon to get you to your one-stop online student support hub for information on academic advising, tutoring, financial aid, the library, the health center, technology support, career counseling, campus life, equity programs, and more.</p>
+
+    <p><strong>Emergency information.</strong> Information on what to do in an emergency situation (earthquake, electrical outage, fire, extreme heat, severe storm, hazardous materials, terrorist attack) may be found at <a href="https://www.csueastbay.edu/riskmanagement/index.html" style="color:var(--accent);">csueastbay.edu/riskmanagement</a>. Please review this information at the start of the semester.</p>
+
+    <p><strong>Protection against discrimination, harassment, and retaliation.</strong> Title IX and CSU policy prohibit discrimination, harassment, and retaliation, including sex discrimination, sexual harassment, and sexual violence. For confidential services, contact the Confidential Advocate at 510-885-3700 or the Student Health and Counseling Center. For 24-hour crisis services call the BAWAR hotline at 510-800-4247. More information: <a href="http://www.csueastbay.edu/titleix" style="color:var(--accent);">csueastbay.edu/titleix</a> and <a href="https://www.csueastbay.edu/riskmanagement/complaint.html" style="color:var(--accent);">csueastbay.edu/riskmanagement/complaint.html</a>.</p>
+
+    <p><strong>Student conduct.</strong> The University is committed to maintaining a safe and healthy living and learning environment. More information: <a href="http://www.csueastbay.edu/studentconduct/student-conduct.html" style="color:var(--accent);">csueastbay.edu/studentconduct</a>.</p>
+  </section>
+
+  <div class="syllabus-footer">MUS 116 &mdash; Aural Skills II &nbsp;&middot;&nbsp; Department of Music, California State University, East Bay &nbsp;&middot;&nbsp; Version 1.0, Spring 2026 &nbsp;&middot;&nbsp; This syllabus is subject to change; updates will be communicated in person and through Canvas.</div>
+</main>
+</body>
+</html>
