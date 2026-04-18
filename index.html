@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Theory & Musicianship Curriculum — CSU East Bay</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink:        #1a1a1a;
+    --paper:      #f7f5f0;
+    --rule:       #d8d3c8;
+    --muted:      #7a7468;
+    --accent:     #8b1a1a;
+    --max-w:      960px;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7;
+    min-height: 100vh;
+    padding: 3rem 2rem 5rem;
+  }
+
+  .container {
+    max-width: var(--max-w);
+    margin: 0 auto;
+  }
+
+  /* HEADER */
+  header {
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  header .institution {
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.75rem;
+  }
+
+  header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 1.12;
+    margin-bottom: 0.75rem;
+  }
+
+  header .subtitle {
+    font-size: 1.05rem;
+    color: var(--muted);
+    font-style: italic;
+    font-weight: 300;
+  }
+
+  /* INTRO */
+  .intro {
+    margin-bottom: 3rem;
+  }
+
+  .intro p {
+    font-size: 0.97rem;
+    line-height: 1.75;
+    margin-bottom: 0.85rem;
+    color: var(--ink);
+  }
+
+  /* SECTION */
+  section.docs-section {
+    margin-bottom: 3rem;
+  }
+
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin: 1.75rem 0 0.75rem;
+  }
+
+  h3:first-of-type {
+    margin-top: 0.5rem;
+  }
+
+  /* FRAMEWORK CARDS */
+  .framework-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .framework-card {
+    background: #fff;
+    border: 1px solid var(--rule);
+    border-top: 3px solid var(--ink);
+    border-radius: 3px;
+    padding: 1.3rem 1.4rem;
+    text-decoration: none;
+    color: var(--ink);
+    transition: all 0.15s;
+    display: block;
+  }
+
+  .framework-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  }
+
+  .framework-card .card-label {
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--muted);
+    margin-bottom: 0.4rem;
+  }
+
+  .framework-card .card-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 0.5rem;
+  }
+
+  .framework-card .card-desc {
+    font-size: 0.85rem;
+    color: var(--muted);
+    line-height: 1.55;
+  }
+
+  /* SYLLABUS LIST */
+  .syllabus-group {
+    margin-bottom: 0.4rem;
+  }
+
+  .syllabus-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.35rem;
+  }
+
+  .syllabus-list li {
+    padding: 0;
+  }
+
+  .syllabus-list a {
+    display: flex;
+    align-items: baseline;
+    gap: 0.55rem;
+    padding: 0.55rem 0.75rem;
+    background: #fff;
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    text-decoration: none;
+    color: var(--ink);
+    font-size: 0.88rem;
+    line-height: 1.35;
+    transition: all 0.15s;
+  }
+
+  .syllabus-list a:hover {
+    border-color: var(--ink);
+    background: #fdfcfa;
+  }
+
+  .syllabus-list .course-num {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 0.72rem;
+    color: var(--muted);
+    font-weight: 500;
+    flex-shrink: 0;
+  }
+
+  /* FOOTER */
+  footer {
+    margin-top: 4rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+    font-size: 0.75rem;
+    color: var(--muted);
+    font-style: italic;
+  }
+
+  /* RESPONSIVE */
+  @media (max-width: 760px) {
+    body { padding: 2rem 1.25rem 4rem; }
+    header h1 { font-size: 1.9rem; }
+    .framework-grid { grid-template-columns: 1fr; }
+    .syllabus-list { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <div class="institution">California State University, East Bay &middot; Department of Music</div>
+    <h1>Theory &amp; Musicianship<br>Undergraduate Curriculum</h1>
+    <div class="subtitle">B.A. in Music &middot; complete document set, version 1.0</div>
+  </header>
+
+  <section class="intro">
+    <p>This is the curriculum documentation for the Theory and Musicianship sequence leading to the B.A. in Music. The collection includes two framework documents, which coordinate content, pacing, and benchmarks across the concurrent tracks, and twelve individual course syllabi covering MUS 108 through MUS 410.</p>
+    <p>The framework documents are intended for faculty and curriculum review. The syllabi are the student-facing versions distributed at the start of each semester.</p>
+  </section>
+
+  <section class="docs-section">
+    <h2>Framework Documents</h2>
+    <div class="framework-grid">
+      <a class="framework-card" href="1_Theory-Musicianship-Undergraduate-Guide.html">
+        <div class="card-label">Guide</div>
+        <div class="card-title">Undergraduate Curriculum Guide</div>
+        <div class="card-desc">Full sequence overview with content pacing, textbooks, workload classifications, and end-of-semester benchmarks for every course.</div>
+      </a>
+      <a class="framework-card" href="2_Theory-Musicianship-Undergraduate-Instructors-Companion.html">
+        <div class="card-label">Companion</div>
+        <div class="card-title">Instructor's Companion</div>
+        <div class="card-desc">Deadline schedules and class-structure guidance for instructors teaching within the sequence.</div>
+      </a>
+    </div>
+  </section>
+
+  <section class="docs-section">
+    <h2>Course Syllabi</h2>
+
+    <div class="syllabus-group">
+      <h3>Year 1 &middot; Fall or Spring</h3>
+      <ul class="syllabus-list">
+        <li><a href="MUS108_syllabus.html"><span class="course-num">MUS&nbsp;108</span><span>Language of Music</span></a></li>
+      </ul>
+    </div>
+
+    <div class="syllabus-group">
+      <h3>Year 1 &middot; Spring</h3>
+      <ul class="syllabus-list">
+        <li><a href="MUS111_syllabus.html"><span class="course-num">MUS&nbsp;111</span><span>Music Theory I</span></a></li>
+        <li><a href="MUS115_syllabus.html"><span class="course-num">MUS&nbsp;115</span><span>Aural Skills I</span></a></li>
+        <li><a href="MUS118_syllabus.html"><span class="course-num">MUS&nbsp;118</span><span>Keyboard Musicianship I</span></a></li>
+      </ul>
+    </div>
+
+    <div class="syllabus-group">
+      <h3>Year 2 &middot; Fall</h3>
+      <ul class="syllabus-list">
+        <li><a href="MUS112_syllabus.html"><span class="course-num">MUS&nbsp;112</span><span>Music Theory II</span></a></li>
+        <li><a href="MUS116_syllabus.html"><span class="course-num">MUS&nbsp;116</span><span>Aural Skills II</span></a></li>
+        <li><a href="MUS119_syllabus.html"><span class="course-num">MUS&nbsp;119</span><span>Keyboard Musicianship II</span></a></li>
+      </ul>
+    </div>
+
+    <div class="syllabus-group">
+      <h3>Year 2 &middot; Spring</h3>
+      <ul class="syllabus-list">
+        <li><a href="MUS211_syllabus.html"><span class="course-num">MUS&nbsp;211</span><span>Music Theory III</span></a></li>
+        <li><a href="MUS215_syllabus.html"><span class="course-num">MUS&nbsp;215</span><span>Aural Skills III</span></a></li>
+        <li><a href="MUS218_syllabus.html"><span class="course-num">MUS&nbsp;218</span><span>Keyboard Musicianship III</span></a></li>
+      </ul>
+    </div>
+
+    <div class="syllabus-group">
+      <h3>Year 3 &middot; Upper Division</h3>
+      <ul class="syllabus-list">
+        <li><a href="MUS312_syllabus.html"><span class="course-num">MUS&nbsp;312</span><span>Form and Analysis (Fall)</span></a></li>
+        <li><a href="MUS410_syllabus.html"><span class="course-num">MUS&nbsp;410</span><span>20th &amp; 21st Century Styles (Spring)</span></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    Version 1.0 &middot; Spring 2026 &middot; Department of Music, California State University, East Bay &middot; Maintained by In&eacute;s Thiebaut
+  </footer>
+
+</div>
+</body>
+</html>
