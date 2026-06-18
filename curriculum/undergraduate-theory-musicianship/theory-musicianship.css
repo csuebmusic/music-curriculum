@@ -335,11 +335,11 @@ body.doc-single main { counter-reset: sec; }
 }
 .sched-table th, .grade-table th {
   font-family: var(--mono);
-  font-size: 0.7rem;
+  font-size: 0.85rem;
   font-weight: 700;
-  letter-spacing: 0.03em;
+  letter-spacing: 0;
   text-transform: lowercase;
-  color: var(--ink-soft);
+  color: var(--ink);
   text-align: left;
   padding: 0 0.6rem 0.6rem;
   border-bottom: 1.5px solid var(--accent);
