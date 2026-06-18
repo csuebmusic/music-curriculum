@@ -1,0 +1,400 @@
+/* ============================================================
+   theory and musicianship — web stylesheet
+   the house style (conventions/house-style.md) applied to the
+   curriculum web pages. one sheet, linked by every page in this
+   subsection, so a house-style version bump is a single edit.
+
+   typed-memo character: Courier Prime does the structural work,
+   Source Serif 4 carries the prose, white page, one oxblood accent.
+   the three track hues survive only as small wayfinding markers in
+   the framework documents; oxblood does every structural job.
+
+   built june 2026, tracking house-style v1.
+   ============================================================ */
+
+:root {
+  /* house tokens (conventions/house-style.md is source of truth) */
+  --paper:        #FFFFFF;
+  --canvas:       #F2F2F0;
+  --ink:          #1B1C1E;
+  --ink-soft:     #5E6166;
+  --rule:         #E6E6E3;
+  --accent:       #6E1F2A;   /* oxblood */
+  --accent-tint:  #F7ECED;
+
+  --serif: "Source Serif 4", Georgia, serif;
+  --mono:  "Courier Prime", ui-monospace, "Courier New", monospace;
+
+  /* legacy token names kept so existing inline color references
+     (var(--muted), var(--accent-light), etc.) resolve to house values */
+  --muted:        var(--ink-soft);
+  --accent-light: var(--accent-tint);
+
+  /* track hues, muted to quiet wayfinding markers (dots, light cell
+     tints) that never compete with oxblood */
+  --theory-hue:    #3c4a5c;
+  --theory-light:  #eef1f4;
+  --theory-mid:    #7d8ea1;
+  --aural-hue:     #5b4636;
+  --aural-light:   #f3efea;
+  --aural-mid:     #a78f78;
+  --keyboard-hue:  #3a5044;
+  --keyboard-light:#eef2ef;
+  --keyboard-mid:  #7ba18d;
+
+  --sidebar-w: 240px;
+  --max-w:     1100px;
+  --measure:   820px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--canvas);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+}
+
+/* single-document layout: centered white card, no sidebar.
+   used by the syllabi (body class="doc-single"). */
+body.doc-single { display: block; }
+body.doc-single main {
+  margin: 0 auto;
+  width: auto;
+  max-width: var(--measure);
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  padding: 64px 72px 56px;
+}
+
+/* ── sidebar nav (framework documents only) ── */
+nav {
+  position: fixed;
+  top: 0; left: 0;
+  width: var(--sidebar-w);
+  height: 100vh;
+  background: var(--ink);
+  color: #fff;
+  padding: 2rem 1.5rem;
+  overflow-y: auto;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+}
+.nav-logo {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.4;
+  color: #fff;
+  border-bottom: 1px solid rgba(255,255,255,0.18);
+  padding-bottom: 0.85rem;
+  margin-bottom: 0.4rem;
+}
+.nav-version {
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.06em;
+  color: rgba(255,255,255,0.4);
+  margin-bottom: 1.5rem;
+}
+.nav-section-label {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.14em;
+  color: rgba(255,255,255,0.4);
+  margin: 1.1rem 0 0.4rem;
+}
+nav a {
+  display: block;
+  font-family: var(--mono);
+  color: rgba(255,255,255,0.72);
+  text-decoration: none;
+  font-size: 0.76rem;
+  line-height: 1.35;
+  padding: 0.28rem 0;
+  transition: color 0.15s;
+}
+nav a:hover { color: #fff; }
+
+/* track markers: small dots, the only surviving use of the
+   three track hues in the chrome */
+.track-dot {
+  display: inline-block;
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  margin-right: 7px;
+  vertical-align: middle;
+  position: relative; top: -1px;
+}
+.dot-t { background: var(--theory-mid); }
+.dot-a { background: var(--aural-mid); }
+.dot-k { background: var(--keyboard-mid); }
+.dot-s { background: var(--accent); }
+
+/* ── main column (framework documents) ── */
+main {
+  margin-left: var(--sidebar-w);
+  width: calc(100% - var(--sidebar-w));
+  max-width: calc(var(--max-w) + var(--sidebar-w));
+  padding: 4rem 3.5rem 6rem;
+  background: var(--paper);
+}
+
+/* ── record header (the routing slip) ── */
+.page-header {
+  border-bottom: 1.5px solid var(--accent);
+  padding-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+.page-header .kicker,
+.kicker {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  margin-bottom: 1.1rem;
+}
+.page-header h1 {
+  font-family: var(--mono);
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin-bottom: 0.5rem;
+}
+.page-header .course-sub,
+.course-sub {
+  font-family: var(--serif);
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+.page-header .subtitle,
+.subtitle { color: var(--ink-soft); font-family: var(--serif); }
+.page-header .institution,
+.institution { font-family: var(--mono); color: var(--ink-soft); }
+
+/* meta strip rendered as the labeled record grid */
+.meta-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 2.25rem;
+  margin-top: 1.25rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+}
+.meta-item strong { color: var(--ink); font-weight: 700; }
+
+/* ── numbered sections (syllabi) ── */
+body.doc-single main { counter-reset: sec; }
+.syllabus-section { margin-bottom: 2.5rem; counter-increment: sec; }
+.syllabus-section h2 {
+  font-family: var(--mono);
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-transform: lowercase;
+  letter-spacing: 0;
+  color: var(--ink);
+  margin-bottom: 0.9rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.7rem;
+}
+.syllabus-section h2::before {
+  content: counter(sec, decimal-leading-zero);
+  font-size: 0.86rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 0.04em;
+}
+.syllabus-section p {
+  font-family: var(--serif);
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--ink);
+  margin-bottom: 0.7rem;
+}
+.syllabus-section p:last-child { margin-bottom: 0; }
+
+/* generic headings inside content (subheads such as "making the
+   time work"), mono, lowercase, no title case */
+.syllabus-section h3,
+.syllabus-section h4 {
+  font-family: var(--mono);
+  font-weight: 700;
+  text-transform: lowercase;
+  color: var(--ink);
+  margin: 1.4rem 0 0.5rem;
+}
+.syllabus-section h3 { font-size: 0.95rem; }
+.syllabus-section h4 { font-size: 0.85rem; }
+
+/* ── contact / info grid ── */
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem 2.25rem;
+}
+.info-row { display: flex; gap: 0.75rem; }
+.info-label {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.03em;
+  color: var(--ink-soft);
+  min-width: 116px;
+  padding-top: 0.12rem;
+}
+.info-value { font-family: var(--serif); color: var(--ink); }
+
+/* ── learning outcomes ── */
+.outcome-list { list-style: none; margin-top: 0.5rem; }
+.outcome-list li {
+  display: flex;
+  gap: 0.85rem;
+  font-family: var(--serif);
+  line-height: 1.65;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+.outcome-list li:last-child { border-bottom: none; }
+.outcome-num {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--accent);
+  min-width: 36px;
+  padding-top: 0.12rem;
+}
+.ge-badge {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.03em;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  padding: 0.2rem 0.5rem;
+  margin-bottom: 0.6rem;
+}
+
+/* ── benchmarks ── */
+.benchmark-grid { display: grid; grid-template-columns: 1fr; gap: 0.9rem; margin-top: 0.5rem; }
+.benchmark-card {
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--accent);
+  padding: 0.95rem 1.15rem;
+}
+.benchmark-card h4 {
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  letter-spacing: 0.04em;
+  text-transform: lowercase;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 0.45rem;
+}
+.benchmark-card p {
+  font-family: var(--serif);
+  font-size: 0.95rem;
+  color: var(--ink);
+  line-height: 1.6;
+}
+
+/* ── policy / note blocks ── */
+.policy-block {
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--accent);
+  padding: 0.95rem 1.2rem;
+  margin-top: 0.6rem;
+  font-family: var(--serif);
+  line-height: 1.7;
+}
+.policy-block p { margin-bottom: 0.5rem; }
+.policy-block p:last-child { margin-bottom: 0; }
+
+/* ── tables (house treatment) ── */
+.sched-table, .grade-table, table.schedule-table, table.class-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--serif);
+  font-size: 0.95rem;
+  margin-top: 0.6rem;
+}
+.sched-table th, .grade-table th {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: lowercase;
+  color: var(--ink-soft);
+  text-align: left;
+  padding: 0 0.6rem 0.6rem;
+  border-bottom: 1.5px solid var(--accent);
+}
+.sched-table th:first-child { width: 56px; }
+.sched-table td, .grade-table td {
+  padding: 0.6rem;
+  vertical-align: top;
+  border-bottom: 1px solid var(--rule);
+  line-height: 1.5;
+}
+.sched-table tr:last-child td, .grade-table tr:last-child td { border-bottom: none; }
+.sched-table td:first-child {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+}
+.grade-table td:last-child {
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  text-align: right;
+}
+.sched-table tr.stripe td { background: #faf9f7; }
+.sched-table tr.exam td {
+  font-family: var(--mono);
+  font-weight: 700;
+  text-transform: lowercase;
+  color: var(--accent);
+  background: var(--accent-tint);
+}
+
+/* ── rules and footer ── */
+hr.div, .section-divider {
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 2.5rem 0;
+}
+.syllabus-footer, footer {
+  margin-top: 3rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--ink-soft);
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* ── responsive ── */
+@media (max-width: 820px) {
+  nav { display: none; }
+  main { margin-left: 0; width: 100%; padding: 2.5rem 1.5rem; }
+  body.doc-single main { padding: 40px 26px 36px; }
+  .info-grid { grid-template-columns: 1fr; }
+}
