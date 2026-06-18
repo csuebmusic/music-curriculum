@@ -628,3 +628,48 @@ hr.div, .section-divider {
 .deadline-grid th.th-week, .sync-grid .header-row td.th-week { background: var(--paper); color: var(--ink-soft); }
 .deadline-grid th.th-week::before, .sync-grid .header-row td.th-week::before { content: none; }
 .te-content { display: block; }
+
+/* ============================================================
+   table fixes (feedback pass)
+   visible grid lines on every table, everything left-aligned,
+   dense grids returned to a tighter legible size, and the track
+   dot removed from matrix headers (those cells carry colspans
+   and day labels, so a dot read as clutter). the track word in
+   the header is the label.
+   ============================================================ */
+:root { --table-line: #CFCFCA; }
+
+.schedule-table, .class-table, .sync-grid, .deadline-grid { border-collapse: collapse; }
+
+/* full light grid + left alignment on every cell */
+.schedule-table th, .schedule-table td,
+.class-table th, .class-table td,
+.sync-grid td,
+.deadline-grid th, .deadline-grid td {
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid var(--table-line);
+}
+
+/* header closed by the oxblood rule */
+.schedule-table th, .class-table th,
+.deadline-grid th,
+.sync-grid .header-row td { border-bottom: 1.5px solid var(--accent); }
+
+/* week-number columns read left, like the rest */
+.deadline-grid td.week-num, .sync-grid td.week-num { text-align: left; }
+
+/* dense grids back to a tight, legible size */
+.sync-grid { font-size: 0.82rem; }
+.deadline-grid { font-size: 0.8rem; }
+.deadline-grid.day-split { font-size: 0.72rem; }
+.schedule-table, .class-table { font-size: 0.9rem; }
+
+/* no dot on matrix headers (colspans + day-label rows) */
+.deadline-grid th.th-theory::before, .deadline-grid th.th-aural::before,
+.deadline-grid th.th-keyboard::before, .deadline-grid th.th-solo::before { content: none; }
+
+/* content links in the house accent (nav excluded) */
+main a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent-tint); }
+main a:hover { border-bottom-color: var(--accent); }
+nav a { border-bottom: none; }
