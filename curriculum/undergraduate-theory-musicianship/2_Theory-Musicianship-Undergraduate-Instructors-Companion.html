@@ -4,458 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Theory and Musicianship — Instructor's Companion — CSU East Bay</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet">
-<style>
-  :root {
-    --ink:        #1a1a1a;
-    --paper:      #f7f5f0;
-    --rule:       #d8d3c8;
-    --muted:      #7a7468;
-
-    --theory-hue:    #2c4a6e;
-    --theory-light:  #e8eef5;
-    --theory-mid:    #5a82a6;
-
-    --aural-hue:     #4a2c1a;
-    --aural-light:   #f5ede8;
-    --aural-mid:     #a67855;
-
-    --keyboard-hue:  #1a3d2c;
-    --keyboard-light:#e8f2ec;
-    --keyboard-mid:  #4a8c68;
-
-    --accent:     #8b1a1a;
-    --accent-light: #fdf5f5;
-    --sidebar-w:  260px;
-    --max-w:      820px;
-  }
-
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  html { scroll-behavior: smooth; }
-
-  body {
-    background: var(--paper);
-    color: var(--ink);
-    font-family: 'Source Sans 3', sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 1.7;
-    display: flex;
-  }
-
-  /* ── NAV ── */
-  nav {
-    position: fixed;
-    top: 0; left: 0;
-    width: var(--sidebar-w);
-    height: 100vh;
-    background: var(--ink);
-    color: #fff;
-    padding: 2rem 1.5rem;
-    overflow-y: auto;
-    z-index: 100;
-    display: flex;
-    flex-direction: column;
-  }
-
-  nav .nav-logo {
-    font-family: 'Playfair Display', serif;
-    font-size: 0.85rem;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: #fff;
-    border-bottom: 1px solid rgba(255,255,255,0.15);
-    padding-bottom: 1rem;
-    margin-bottom: 0.5rem;
-    line-height: 1.4;
-  }
-
-  nav .nav-version {
-    font-size: 0.65rem;
-    color: rgba(255,255,255,0.4);
-    letter-spacing: 0.08em;
-    margin-bottom: 1rem;
-  }
-
-  nav .nav-section-label {
-    font-size: 0.62rem;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    color: rgba(255,255,255,0.35);
-    margin: 1.1rem 0 0.4rem;
-  }
-
-  nav a {
-    display: block;
-    color: rgba(255,255,255,0.7);
-    text-decoration: none;
-    font-size: 0.8rem;
-    font-weight: 400;
-    line-height: 1.3;
-    padding: 0.28rem 0;
-    transition: color 0.15s;
-  }
-  nav a:hover { color: #fff; }
-
-  nav .track-dot {
-    display: inline-block;
-    width: 7px; height: 7px;
-    border-radius: 50%;
-    margin-right: 6px;
-    vertical-align: middle;
-    position: relative; top: -1px;
-  }
-  nav .dot-t { background: var(--theory-mid); }
-  nav .dot-a { background: var(--aural-mid); }
-  nav .dot-k { background: var(--keyboard-mid); }
-  nav .dot-s { background: var(--accent); }
-
-  /* ── MAIN ── */
-  main {
-    margin-left: var(--sidebar-w);
-    width: calc(100% - var(--sidebar-w));
-    padding: 4rem 3.5rem 6rem;
-    max-width: calc(var(--max-w) + var(--sidebar-w));
-  }
-
-  /* ── PAGE HEADER ── */
-  .page-header {
-    border-bottom: 2px solid var(--ink);
-    padding-bottom: 2rem;
-    margin-bottom: 3rem;
-  }
-  .page-header .institution {
-    font-size: 0.75rem;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: var(--muted);
-    margin-bottom: 0.5rem;
-  }
-  .page-header h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 2.4rem;
-    font-weight: 700;
-    line-height: 1.15;
-    margin-bottom: 0.75rem;
-  }
-  .page-header .subtitle {
-    font-size: 1rem;
-    color: var(--muted);
-    font-style: italic;
-    font-weight: 300;
-  }
-
-  /* ── INTRO ── */
-  .intro p {
-    font-size: 0.95rem;
-    color: var(--muted);
-    line-height: 1.75;
-    margin-bottom: 0.75rem;
-  }
-
-  /* ── SEMESTER BLOCK ── */
-  .semester-block { margin-bottom: 4rem; }
-  .semester-header {
-    display: flex;
-    align-items: baseline;
-    gap: 1rem;
-    margin-bottom: 0.5rem;
-  }
-  .semester-header h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.6rem;
-    font-weight: 600;
-  }
-  .semester-tag {
-    font-size: 0.72rem;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    color: var(--muted);
-    font-weight: 400;
-    border: 1px solid var(--rule);
-    padding: 0.2rem 0.6rem;
-    border-radius: 2px;
-  }
-  .semester-intro {
-    font-size: 0.95rem;
-    color: var(--muted);
-    font-style: italic;
-    margin-bottom: 1.75rem;
-    padding-bottom: 1.25rem;
-    border-bottom: 1px solid var(--rule);
-  }
-
-  /* ── SUBSECTION HEADER ── */
-  .sub-header {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.05rem;
-    font-weight: 600;
-    margin-top: 2rem;
-    margin-bottom: 0.75rem;
-    padding-bottom: 0.3rem;
-    border-bottom: 1px solid var(--rule);
-  }
-
-  /* ── DEADLINE GRID ── */
-  .deadline-grid {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 0.8rem;
-    margin-top: 0.5rem;
-    table-layout: fixed;
-  }
-  .deadline-grid colgroup col:first-child { width: 52px; }
-  .deadline-grid th {
-    font-size: 0.62rem;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: var(--muted);
-    padding: 0.5rem 0.75rem;
-    border-bottom: 2px solid var(--ink);
-    text-align: left;
-    background: var(--paper);
-  }
-  .deadline-grid th.th-theory   { color: var(--theory-hue);   background: var(--theory-light); border-top: 3px solid var(--theory-hue); }
-  .deadline-grid th.th-aural    { color: var(--aural-hue);    background: var(--aural-light); border-top: 3px solid var(--aural-hue); }
-  .deadline-grid th.th-keyboard { color: var(--keyboard-hue); background: var(--keyboard-light); border-top: 3px solid var(--keyboard-hue); }
-  .deadline-grid th.th-solo     { color: var(--accent);       background: var(--accent-light); border-top: 3px solid var(--accent); }
-  .deadline-grid td {
-    padding: 0.55rem 0.75rem;
-    vertical-align: top;
-    border-bottom: 1px solid #efefec;
-    border-right: 1px solid #efefec;
-    line-height: 1.45;
-    font-weight: 300;
-    background: #fff;
-  }
-  .deadline-grid td.week-num {
-    font-family: 'Source Code Pro', monospace;
-    font-size: 0.72rem;
-    color: var(--muted);
-    font-weight: 500;
-    text-align: center;
-    background: var(--paper);
-  }
-  .deadline-grid tr.conflict-row td { background: #fdf5f5; }
-  .deadline-grid tr.conflict-row td.week-num { background: #fdf5f5; color: var(--accent); font-weight: 600; }
-  .deadline-grid tr:last-child td { border-bottom: none; }
-  .deadline-grid .due-tag {
-    display: inline-block;
-    font-family: 'Source Code Pro', monospace;
-    font-size: 0.68rem;
-    color: var(--muted);
-    margin-left: 0.3rem;
-  }
-  .deadline-grid .item-major {
-    display: block;
-    font-weight: 600;
-    color: var(--accent);
-    font-size: 0.82rem;
-    margin-top: 0.15rem;
-  }
-
-  /* ── DAY-SPLIT GRID (shared semesters with Day 1 / Day 2 columns) ── */
-  .deadline-grid.day-split {
-    font-size: 0.72rem;
-    table-layout: fixed;
-  }
-  .deadline-grid.day-split colgroup col:first-child { width: 42px; }
-  .deadline-grid.day-split th {
-    font-size: 0.56rem;
-    padding: 0.35rem 0.45rem;
-    letter-spacing: 0.08em;
-  }
-  .deadline-grid.day-split td {
-    padding: 0.45rem 0.5rem;
-    font-size: 0.72rem;
-    line-height: 1.4;
-  }
-  .deadline-grid.day-split td.week-num { font-size: 0.68rem; }
-  /* Column-colored body cells, tinted by track */
-  .deadline-grid.day-split td.cell-t { background: #f4f7fb; }
-  .deadline-grid.day-split td.cell-a { background: #faf5f1; }
-  .deadline-grid.day-split td.cell-k { background: #f3f8f5; }
-  .deadline-grid.day-split td.cell-s { background: #fbf8f2; }
-  .deadline-grid.day-split tr.conflict-row td.cell-t,
-  .deadline-grid.day-split tr.conflict-row td.cell-a,
-  .deadline-grid.day-split tr.conflict-row td.cell-k,
-  .deadline-grid.day-split tr.conflict-row td.cell-s { background: #fdf5f5; }
-
-  /* Solo-grid overrides: greyscale, no red accent (for MUS 108, 312, 410) */
-  .deadline-grid.day-split.solo-grid {
-    width: 50%;
-    min-width: 340px;
-  }
-  .deadline-grid.day-split.solo-grid th.th-solo {
-    color: var(--ink);
-    background: #ececea;
-    border-top: 3px solid #666;
-  }
-  /* Mon column = darker grey, Wed column = lighter grey */
-  .deadline-grid.day-split.solo-grid td:nth-child(2) { background: #efefec; }
-  .deadline-grid.day-split.solo-grid td:nth-child(3) { background: #f7f6f3; }
-  /* Final / conflict row: muted dark grey, not red */
-  .deadline-grid.day-split.solo-grid tr.conflict-row td:nth-child(2),
-  .deadline-grid.day-split.solo-grid tr.conflict-row td:nth-child(3) {
-    background: #dcdbd6;
-    color: var(--ink);
-  }
-  .deadline-grid.day-split.solo-grid tr.conflict-row td.week-num {
-    background: #dcdbd6;
-    color: var(--ink);
-  }
-  .deadline-grid.day-split.solo-grid tr.conflict-row .item-major {
-    color: var(--ink);
-  }
-  .deadline-grid.day-split .day-label {
-    display: block;
-    font-size: 0.55rem;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--muted);
-    font-weight: 600;
-    margin-bottom: 0.2rem;
-  }
-  .deadline-grid.day-split .due-tag {
-    display: block;
-    font-family: 'Source Code Pro', monospace;
-    font-size: 0.6rem;
-    color: var(--muted);
-    margin-top: 0.12rem;
-    margin-left: 0;
-  }
-  .deadline-grid.day-split .item-major {
-    font-size: 0.72rem;
-  }
-  .deadline-grid.day-split tr.break-row td {
-    background: #f5f1e8;
-    font-style: italic;
-    color: var(--muted);
-    text-align: center;
-    font-size: 0.72rem;
-  }
-
-  /* ── CONFLICT CALLOUT ── */
-  .conflict-note {
-    background: #fdf5f5;
-    border-left: 3px solid var(--accent);
-    padding: 0.65rem 1rem;
-    font-size: 0.82rem;
-    color: var(--ink);
-    margin-top: 1rem;
-    border-radius: 2px;
-    line-height: 1.55;
-  }
-  .conflict-note strong { color: var(--accent); }
-
-  /* ── CLASS STRUCTURE BLOCKS ── */
-  .class-structure {
-    margin-top: 1.5rem;
-    padding: 1.25rem 1.5rem;
-    background: #fff;
-    border: 1px solid var(--rule);
-    border-radius: 4px;
-  }
-  .class-structure.theory   { border-top: 3px solid var(--theory-hue); }
-  .class-structure.aural    { border-top: 3px solid var(--aural-hue); }
-  .class-structure.keyboard { border-top: 3px solid var(--keyboard-hue); }
-  .class-structure.solo     { border-top: 3px solid var(--accent); }
-
-  .class-structure .cs-course-label {
-    font-size: 0.62rem;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin-bottom: 0.2rem;
-  }
-  .class-structure.theory   .cs-course-label { color: var(--theory-hue); }
-  .class-structure.aural    .cs-course-label { color: var(--aural-hue); }
-  .class-structure.keyboard .cs-course-label { color: var(--keyboard-hue); }
-  .class-structure.solo     .cs-course-label { color: var(--accent); }
-
-  .class-structure h3 {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.15rem;
-    font-weight: 600;
-    margin-bottom: 0.25rem;
-  }
-  .class-structure .cs-meta {
-    font-size: 0.78rem;
-    color: var(--muted);
-    font-style: italic;
-    margin-bottom: 1rem;
-    padding-bottom: 0.65rem;
-    border-bottom: 1px solid var(--rule);
-  }
-  .class-structure h4 {
-    font-family: 'Playfair Display', serif;
-    font-size: 0.95rem;
-    font-weight: 600;
-    margin-top: 1.1rem;
-    margin-bottom: 0.4rem;
-  }
-  .class-structure h4:first-of-type { margin-top: 0.5rem; }
-  .class-structure p {
-    font-size: 0.88rem;
-    line-height: 1.65;
-    margin-bottom: 0.55rem;
-  }
-  .class-structure ul {
-    list-style: none;
-    padding-left: 0;
-    margin: 0.4rem 0 0.65rem;
-  }
-  .class-structure li {
-    font-size: 0.88rem;
-    line-height: 1.55;
-    padding: 0.25rem 0 0.25rem 1.1rem;
-    position: relative;
-  }
-  .class-structure li::before {
-    content: "·";
-    position: absolute;
-    left: 0.25rem;
-    color: var(--muted);
-    font-weight: 600;
-    font-size: 1.2rem;
-    line-height: 1;
-    top: 0.35rem;
-  }
-  .class-structure .cs-note {
-    font-size: 0.85rem;
-    color: var(--ink);
-    background: var(--paper);
-    border-left: 2px solid var(--rule);
-    padding: 0.5rem 0.85rem;
-    margin: 0.75rem 0;
-    line-height: 1.6;
-  }
-
-  /* ── DIVIDER ── */
-  .section-divider {
-    border: none;
-    border-top: 1px solid var(--rule);
-    margin: 3rem 0;
-  }
-
-  /* ── FOOTER ── */
-  .footer {
-    margin-top: 4rem;
-    padding-top: 1.5rem;
-    border-top: 1px solid var(--rule);
-    font-size: 0.72rem;
-    color: var(--muted);
-    font-style: italic;
-  }
-
-  @media (max-width: 800px) {
-    nav { display: none; }
-    main { margin-left: 0; padding: 2rem 1.5rem; }
-    .deadline-grid { font-size: 0.7rem; }
-  }
-</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="theory-musicianship.css">
 </head>
 <body>
 
@@ -492,7 +44,7 @@
   </header>
 
   <section id="intro" class="intro" style="margin-bottom:2.5rem;">
-    <h2 style="font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:600;margin-bottom:0.75rem;">About This Document</h2>
+    <h2 style="font-family:'Courier Prime',ui-monospace,'Courier New',monospace;font-size:1.2rem;font-weight:600;margin-bottom:0.75rem;">About This Document</h2>
     <p>This companion sits alongside the Theory and Musicianship Undergraduate Curriculum Guide. It is intended for instructors teaching within the B.A. sequence and has two purposes: first, to coordinate deadlines across co-requisite courses so that students are not overloaded at the same points in the semester; second, to offer a shared baseline for how class time is typically structured within each course.</p>
     <p>None of the class-structure guidance is prescriptive. The intent is to give instructors a starting frame that reflects how these courses have been taught successfully, while leaving room for individual pedagogical judgment. Week-by-week content pacing is detailed in the Curriculum Guide and in the individual course syllabi; this document does not duplicate that information.</p>
   </section>
@@ -502,7 +54,7 @@
   <!-- ═══════════════════════════════════════════ SECTION 1: MUS 108 ═══════════════════════════════════════════ -->
   <section class="doc-section">
     <div style="font-size:0.7rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:0.4rem;">Section 1</div>
-    <h1 style="font-family:'Playfair Display',serif;font-size:1.9rem;font-weight:700;margin-bottom:0.5rem;">MUS 108 &mdash; Language of Music</h1>
+    <h1 style="font-family:'Courier Prime',ui-monospace,'Courier New',monospace;font-size:1.9rem;font-weight:700;margin-bottom:0.5rem;">MUS 108 &mdash; Language of Music</h1>
     <p style="font-size:0.95rem;color:var(--muted);font-style:italic;margin-bottom:2rem;padding-bottom:1.5rem;border-bottom:2px solid var(--ink);">General education course, taught in both Fall and Spring.</p>
 
     <section id="mus108" class="semester-block">
@@ -764,21 +316,21 @@
   <!-- ═══════════════════════════════════════════ SECTION 2: CORE SEQUENCE ═══════════════════════════════════════════ -->
   <section class="doc-section">
     <div style="font-size:0.7rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:0.4rem;">Section 2</div>
-    <h1 style="font-family:'Playfair Display',serif;font-size:1.9rem;font-weight:700;margin-bottom:0.5rem;">Core Sequence &mdash; Theory, Aural Skills, Keyboard</h1>
+    <h1 style="font-family:'Courier Prime',ui-monospace,'Courier New',monospace;font-size:1.9rem;font-weight:700;margin-bottom:0.5rem;">Core Sequence &mdash; Theory, Aural Skills, Keyboard</h1>
     <p style="font-size:0.95rem;color:var(--muted);font-style:italic;margin-bottom:2rem;padding-bottom:1.5rem;border-bottom:2px solid var(--ink);">Six courses across three levels: MUS 111 / 115 / 118 (Spring Y1), MUS 112 / 116 / 119 (Fall Y2), MUS 211 / 215 / 218 (Spring Y2). All three co-requisite courses in a given semester share the same weekly deadline structure, and each course type (Theory, Aural Skills, Keyboard) follows the same class-structure pattern across all three levels. Deadline conventions, shared grids, and a single class-structure template for each course type follow below.</p>
 
     <section id="conventions" style="margin-bottom:3rem;">
-    <h2 style="font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:600;margin-bottom:0.75rem;">Deadline Conventions</h2>
+    <h2 style="font-family:'Courier Prime',ui-monospace,'Courier New',monospace;font-size:1.2rem;font-weight:600;margin-bottom:0.75rem;">Deadline Conventions</h2>
     <p style="font-size:0.92rem;color:var(--muted);line-height:1.75;margin-bottom:0.6rem;">All concurrent-sequence courses (Theory, Aural Skills, Keyboard) meet on Mondays and Wednesdays. Day 1 = Monday, Day 2 = Wednesday. The grids below show what is due on each meeting day of each week.</p>
 
-    <h3 style="font-family:'Playfair Display',serif;font-size:1rem;font-weight:600;color:var(--theory-hue);margin-top:1.5rem;margin-bottom:0.5rem;border-bottom:1px solid var(--rule);padding-bottom:0.3rem;">Theory</h3>
+    <h3 style="font-family:'Courier Prime',ui-monospace,'Courier New',monospace;font-size:1rem;font-weight:600;color:var(--ink);margin-top:1.5rem;margin-bottom:0.5rem;border-bottom:1px solid var(--rule);padding-bottom:0.3rem;">Theory</h3>
     <ul style="list-style:none;padding:0;font-size:0.88rem;color:var(--ink);">
       <li style="padding:0.4rem 0;border-bottom:1px solid var(--rule);"><strong>Lesson exercises</strong>: handwritten and turned in on paper in class, Wednesday (Day 2). No electronic submission. This is a firm requirement of the written work.</li>
       <li style="padding:0.4rem 0;border-bottom:1px solid var(--rule);"><strong>Quizzes</strong>: five group quizzes total per semester, scheduled on Mondays where possible. Each quiz runs approximately one hour in groups of two or three students working through the material together.</li>
       <li style="padding:0.4rem 0;"><strong>Midterm and final</strong>: during the designated class meeting that week.</li>
     </ul>
 
-    <h3 style="font-family:'Playfair Display',serif;font-size:1rem;font-weight:600;color:var(--aural-hue);margin-top:1.5rem;margin-bottom:0.5rem;border-bottom:1px solid var(--rule);padding-bottom:0.3rem;">Aural Skills</h3>
+    <h3 style="font-family:'Courier Prime',ui-monospace,'Courier New',monospace;font-size:1rem;font-weight:600;color:var(--ink);margin-top:1.5rem;margin-bottom:0.5rem;border-bottom:1px solid var(--rule);padding-bottom:0.3rem;">Aural Skills</h3>
     <ul style="list-style:none;padding:0;font-size:0.88rem;color:var(--ink);">
       <li style="padding:0.4rem 0;border-bottom:1px solid var(--rule);"><strong>GoReact recordings</strong>: due Monday, 11:59pm (the evening before the Wednesday class). Practice rooms are available in the music building Monday through Saturday; the building is closed Sundays.</li>
       <li style="padding:0.4rem 0;border-bottom:1px solid var(--rule);"><strong>Auralia assignments</strong>: due Sunday, 11:59pm.</li>
@@ -786,7 +338,7 @@
       <li style="padding:0.4rem 0;"><strong>Midterm and final</strong>: during the designated class meeting that week.</li>
     </ul>
 
-    <h3 style="font-family:'Playfair Display',serif;font-size:1rem;font-weight:600;color:var(--keyboard-hue);margin-top:1.5rem;margin-bottom:0.5rem;border-bottom:1px solid var(--rule);padding-bottom:0.3rem;">Keyboard</h3>
+    <h3 style="font-family:'Courier Prime',ui-monospace,'Courier New',monospace;font-size:1rem;font-weight:600;color:var(--ink);margin-top:1.5rem;margin-bottom:0.5rem;border-bottom:1px solid var(--rule);padding-bottom:0.3rem;">Keyboard</h3>
     <ul style="list-style:none;padding:0;font-size:0.88rem;color:var(--ink);">
       <li style="padding:0.4rem 0;border-bottom:1px solid var(--rule);"><strong>GoReact recordings</strong>: due Monday, 11:59pm of the <em>following</em> week (a full week after the content is introduced, to give students the weekend).</li>
       <li style="padding:0.4rem 0;border-bottom:1px solid var(--rule);"><strong>Wednesday quizzes</strong>: held every Wednesday.</li>
@@ -1051,7 +603,7 @@
     <hr style="border:none;border-top:1px solid var(--rule);margin:2.5rem 0;">
 
     <!-- Class Structure Templates -->
-    <h2 style="font-family:'Playfair Display',serif;font-size:1.35rem;font-weight:600;margin-bottom:0.5rem;">Class Structure Templates</h2>
+    <h2 style="font-family:'Courier Prime',ui-monospace,'Courier New',monospace;font-size:1.35rem;font-weight:600;margin-bottom:0.5rem;">Class Structure Templates</h2>
     <p style="font-size:0.9rem;color:var(--muted);margin-bottom:1.5rem;line-height:1.7;">Each course type follows a consistent weekly class structure across all three levels of the sequence. The templates below describe the shared pattern. Instructors adapt the specific content and difficulty to the level they are teaching, while the overall rhythm and assessment structure remain the same.</p>
 
     <div id="theory-template" class="class-structure theory">
@@ -1157,7 +709,7 @@
   <!-- ═══════════════════════════════════════════ SECTION 3: UPPER DIVISION ═══════════════════════════════════════════ -->
   <section class="doc-section">
     <div style="font-size:0.7rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:0.4rem;">Section 3</div>
-    <h1 style="font-family:'Playfair Display',serif;font-size:1.9rem;font-weight:700;margin-bottom:0.5rem;">Upper Division &mdash; MUS 312 and MUS 410</h1>
+    <h1 style="font-family:'Courier Prime',ui-monospace,'Courier New',monospace;font-size:1.9rem;font-weight:700;margin-bottom:0.5rem;">Upper Division &mdash; MUS 312 and MUS 410</h1>
     <p style="font-size:0.95rem;color:var(--muted);font-style:italic;margin-bottom:2rem;padding-bottom:1.5rem;border-bottom:2px solid var(--ink);">Two hybrid courses in Year 3 (2 units C5 seminar + 1 unit C10 activity). MUS 312 is taught in Fall, MUS 410 in Spring. Both follow the same day-split Monday/Wednesday rhythm: written assignments due Wednesdays in class, hour-long group quizzes on Mondays, and ear training assignments due online on Sunday evenings (front-loaded across the first two-thirds of the semester).</p>
 
     <!-- MUS 312 -->

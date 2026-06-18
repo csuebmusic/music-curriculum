@@ -4,438 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Theory and Musicianship Undergraduate Curriculum Guide — CSU East Bay</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet">
-<style>
-  :root {
-    --ink:        #1a1a1a;
-    --paper:      #f7f5f0;
-    --rule:       #d8d3c8;
-    --muted:      #7a7468;
-
-    --theory-hue:    #2c4a6e;
-    --theory-light:  #e8eef5;
-    --theory-mid:    #5a82a6;
-
-    --aural-hue:     #4a2c1a;
-    --aural-light:   #f5ede8;
-    --aural-mid:     #a67855;
-
-    --keyboard-hue:  #1a3d2c;
-    --keyboard-light:#e8f2ec;
-    --keyboard-mid:  #4a8c68;
-
-    --accent:     #8b1a1a;
-    --sidebar-w:  260px;
-    --max-w:      1100px;
-  }
-
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-  html { scroll-behavior: smooth; }
-
-  body {
-    background: var(--paper);
-    color: var(--ink);
-    font-family: 'Source Sans 3', sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 1.7;
-    display: flex;
-  }
-
-  /* ── NAV ── */
-  nav {
-    position: fixed;
-    top: 0; left: 0;
-    width: var(--sidebar-w);
-    height: 100vh;
-    background: var(--ink);
-    color: #fff;
-    padding: 2rem 1.5rem;
-    overflow-y: auto;
-    z-index: 100;
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-  }
-
-  nav .nav-logo {
-    font-family: 'Playfair Display', serif;
-    font-size: 0.85rem;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: #fff;
-    border-bottom: 1px solid rgba(255,255,255,0.15);
-    padding-bottom: 1rem;
-    margin-bottom: 1.5rem;
-    line-height: 1.4;
-  }
-
-  nav .nav-section-label {
-    font-size: 0.65rem;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    color: rgba(255,255,255,0.35);
-    margin: 1.25rem 0 0.4rem;
-  }
-
-  nav a {
-    display: block;
-    color: rgba(255,255,255,0.7);
-    text-decoration: none;
-    font-size: 0.82rem;
-    font-weight: 400;
-    line-height: 1.3;
-    padding: 0.3rem 0;
-    transition: color 0.15s;
-  }
-
-  nav a:hover { color: #fff; }
-
-  nav .track-dot {
-    display: inline-block;
-    width: 7px; height: 7px;
-    border-radius: 50%;
-    margin-right: 6px;
-    vertical-align: middle;
-    position: relative; top: -1px;
-  }
-  nav .dot-t { background: var(--theory-mid); }
-  nav .dot-a { background: var(--aural-mid); }
-  nav .dot-k { background: var(--keyboard-mid); }
-  nav .dot-s { background: var(--accent); }
-
-  /* ── MAIN ── */
-  main {
-    margin-left: var(--sidebar-w);
-    width: calc(100% - var(--sidebar-w));
-    padding: 4rem 3.5rem 6rem;
-    max-width: calc(var(--max-w) + var(--sidebar-w));
-  }
-
-  /* ── PAGE HEADER ── */
-  .page-header {
-    border-bottom: 2px solid var(--ink);
-    padding-bottom: 2rem;
-    margin-bottom: 3rem;
-  }
-
-  .page-header .institution {
-    font-size: 0.75rem;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: var(--muted);
-    margin-bottom: 0.5rem;
-  }
-
-  .page-header h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 2.4rem;
-    font-weight: 700;
-    line-height: 1.15;
-    margin-bottom: 0.75rem;
-  }
-
-  .page-header .subtitle {
-    font-size: 1rem;
-    color: var(--muted);
-    font-style: italic;
-    font-weight: 300;
-  }
-
-  /* ── SECTION HEADERS ── */
-  .semester-block {
-    margin-bottom: 4rem;
-  }
-
-  .semester-header {
-    display: flex;
-    align-items: baseline;
-    gap: 1rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .semester-header h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.6rem;
-    font-weight: 600;
-  }
-
-  .semester-tag {
-    font-size: 0.72rem;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    color: var(--muted);
-    font-weight: 400;
-    border: 1px solid var(--rule);
-    padding: 0.2rem 0.6rem;
-    border-radius: 2px;
-  }
-
-  .semester-intro {
-    font-size: 0.95rem;
-    color: var(--muted);
-    font-style: italic;
-    margin-bottom: 1.75rem;
-    padding-bottom: 1.25rem;
-    border-bottom: 1px solid var(--rule);
-  }
-
-  /* ── COURSE CARDS ── */
-  .course-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.25rem;
-    margin-bottom: 2rem;
-  }
-
-  .course-card {
-    border-radius: 4px;
-    overflow: hidden;
-    border: 1px solid var(--rule);
-  }
-
-  .course-card.theory   { border-top: 3px solid var(--theory-hue); }
-  .course-card.aural    { border-top: 3px solid var(--aural-hue); }
-  .course-card.keyboard { border-top: 3px solid var(--keyboard-hue); }
-  .course-card.solo     { border-top: 3px solid var(--accent); }
-
-  .card-header {
-    padding: 1rem 1.25rem 0.75rem;
-  }
-
-  .course-card.theory   .card-header { background: var(--theory-light); }
-  .course-card.aural    .card-header { background: var(--aural-light); }
-  .course-card.keyboard .card-header { background: var(--keyboard-light); }
-  .course-card.solo     .card-header { background: #f9f0f0; }
-
-  .card-label {
-    font-size: 0.65rem;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin-bottom: 0.25rem;
-  }
-
-  .course-card.theory   .card-label { color: var(--theory-hue); }
-  .course-card.aural    .card-label { color: var(--aural-hue); }
-  .course-card.keyboard .card-label { color: var(--keyboard-hue); }
-  .course-card.solo     .card-label { color: var(--accent); }
-
-  .card-header h3 {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.05rem;
-    font-weight: 600;
-    line-height: 1.3;
-  }
-
-  .card-header .course-num {
-    font-family: 'Source Code Pro', monospace;
-    font-size: 0.75rem;
-    color: var(--muted);
-    margin-top: 0.15rem;
-  }
-
-  .card-body {
-    padding: 1rem 1.25rem 1.25rem;
-    background: #fff;
-  }
-
-  .card-body .textbook {
-    font-size: 0.78rem;
-    color: var(--muted);
-    font-style: italic;
-    margin-bottom: 0.85rem;
-    padding-bottom: 0.75rem;
-    border-bottom: 1px solid var(--rule);
-  }
-
-  /* ── WEEKLY SCHEDULE TABLE ── */
-  .schedule-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 0.83rem;
-    margin-top: 0.25rem;
-  }
-
-  .schedule-table th {
-    text-align: left;
-    font-size: 0.65rem;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: var(--muted);
-    padding: 0.35rem 0.5rem;
-    border-bottom: 1px solid var(--rule);
-  }
-
-  .schedule-table th:first-child { width: 52px; }
-
-  .schedule-table td {
-    padding: 0.4rem 0.5rem;
-    vertical-align: top;
-    border-bottom: 1px solid #efefec;
-    line-height: 1.4;
-    font-weight: 300;
-  }
-
-  .schedule-table td:first-child {
-    font-family: 'Source Code Pro', monospace;
-    font-size: 0.75rem;
-    color: var(--muted);
-    white-space: nowrap;
-    font-weight: 500;
-  }
-
-  .schedule-table tr:last-child td { border-bottom: none; }
-
-  .schedule-table .exam-row td {
-    font-weight: 600;
-    font-style: italic;
-    color: var(--accent);
-  }
-
-  /* ── BENCHMARKS ── */
-  .benchmarks-block {
-    background: var(--ink);
-    color: #fff;
-    border-radius: 4px;
-    padding: 1.5rem 1.75rem;
-    margin-top: 1.75rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .benchmarks-block h4 {
-    font-family: 'Playfair Display', serif;
-    font-size: 1rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    letter-spacing: 0.02em;
-  }
-
-  .benchmark-tracks {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1.25rem;
-  }
-
-  .benchmark-track h5 {
-    font-size: 0.65rem;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin-bottom: 0.6rem;
-  }
-
-  .benchmark-track.t h5 { color: var(--theory-mid); }
-  .benchmark-track.a h5 { color: var(--aural-mid); }
-  .benchmark-track.k h5 { color: var(--keyboard-mid); }
-  .benchmark-track.n h5 { color: rgba(255,255,255,0.9); }
-
-  .benchmark-track p {
-    font-size: 0.82rem;
-    font-weight: 300;
-    color: rgba(255,255,255,0.8);
-    line-height: 1.6;
-  }
-
-  /* ── DIVIDER ── */
-  .section-divider {
-    border: none;
-    border-top: 1px solid var(--rule);
-    margin: 3rem 0;
-  }
-
-  /* ── TEXTBOOKS ── */
-  .textbook-list { margin-top: 1rem; display: flex; flex-direction: column; gap: 0.85rem; }
-  .textbook-entry {
-    border: 1px solid var(--rule);
-    border-radius: 4px;
-    background: #fff;
-    padding: 0.9rem 1.1rem;
-  }
-  .textbook-entry.te-solo    { border-left: 3px solid var(--accent); }
-  .textbook-entry.te-theory  { border-left: 3px solid var(--theory-hue); }
-  .textbook-entry.te-aural   { border-left: 3px solid var(--aural-hue); }
-  .textbook-entry.te-keyboard{ border-left: 3px solid var(--keyboard-hue); }
-  .te-title {
-    font-family: 'Playfair Display', serif;
-    font-size: 0.95rem;
-    font-weight: 600;
-    line-height: 1.3;
-  }
-  .te-title a {
-    color: var(--ink);
-    text-decoration: none;
-    border-bottom: 1px solid var(--rule);
-    transition: border-color 0.15s;
-  }
-  .te-title a:hover { border-color: var(--ink); }
-  .te-meta {
-    font-size: 0.78rem;
-    color: var(--muted);
-    margin-top: 0.2rem;
-    line-height: 1.6;
-  }
-  .te-isbn {
-    font-family: 'Source Code Pro', monospace;
-    font-size: 0.72rem;
-    color: var(--muted);
-    margin-top: 0.35rem;
-    line-height: 1.7;
-  }
-  .te-companion {
-    margin-top: 0.6rem;
-    padding-top: 0.6rem;
-    border-top: 1px solid var(--rule);
-  }
-  /* ── COST ── */
-  .cost-row { display:flex; justify-content:space-between; align-items:baseline; padding:0.35rem 0; border-bottom:1px solid #f0ece6; font-size:0.8rem; gap:0.5rem; }
-  .cost-row:last-of-type { border-bottom:none; }
-  .cost-title { color:var(--ink); font-weight:300; flex:1; line-height:1.35; }
-  .cost-price { font-family:'Source Code Pro',monospace; font-size:0.75rem; color:var(--muted); white-space:nowrap; }
-  .cost-subtotal { display:flex; justify-content:space-between; padding:0.5rem 0 0.35rem; margin-top:0.25rem; border-top:2px solid var(--ink); font-size:0.82rem; font-weight:600; }
-  .cost-note { font-size:0.72rem; color:var(--muted); font-style:italic; margin-top:0.6rem; line-height:1.5; }
-  .cost-section-label { font-size:0.62rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--muted); font-weight:600; margin:0.75rem 0 0.25rem; }
-  /* ── CLASS TABLE ── */
-  .class-table { width:100%; border-collapse:collapse; font-size:0.8rem; margin-top:0.25rem; }
-  .class-table th { font-size:0.62rem; letter-spacing:0.12em; text-transform:uppercase; font-weight:600; color:var(--muted); padding:0.4rem 0.75rem; border-bottom:2px solid var(--ink); text-align:left; }
-  .class-table td { padding:0.45rem 0.75rem; border-bottom:1px solid #efefec; vertical-align:top; line-height:1.4; }
-  .class-table tr:last-child td { border-bottom:none; }
-  .class-table td:first-child { font-weight:600; white-space:nowrap; }
-  .class-table .tag-c { display:inline-block; font-family:'Source Code Pro',monospace; font-size:0.68rem; font-weight:500; padding:0.1rem 0.4rem; border-radius:2px; margin-right:0.3rem; }
-  .class-table .tag-c5  { background:#f9f0f0; color:var(--accent); }
-  .class-table .tag-c10 { background:var(--keyboard-light); color:var(--keyboard-hue); }
-  .class-table td.num { font-family:'Source Code Pro',monospace; font-size:0.75rem; color:var(--muted); }
-  .class-table tr.stripe td { background:rgba(0,0,0,0.015); }
-  /* ── SYNC GRID ── */
-  .sync-grid { width:100%; border-collapse:collapse; font-size:0.83rem; margin-bottom:2rem; table-layout:fixed; }
-  .sync-grid colgroup col:first-child { width:52px; }
-  .sync-grid .track-header { padding:0.9rem 1rem 0.75rem; vertical-align:bottom; }
-  .sync-grid .track-header .card-label { font-size:0.65rem; letter-spacing:0.18em; text-transform:uppercase; font-weight:600; margin-bottom:0.25rem; display:block; }
-  .sync-grid .track-header h3 { font-family:'Playfair Display',serif; font-size:1rem; font-weight:600; line-height:1.3; margin-bottom:0.2rem; }
-  .sync-grid .track-header .course-num { font-family:'Source Code Pro',monospace; font-size:0.72rem; color:var(--muted); line-height:1.4; display:block; margin-top:0.2rem; }
-  .sync-grid .track-header .textbook-note { font-size:0.75rem; font-style:italic; color:var(--muted); margin-top:0.4rem; display:block; border-top:1px solid rgba(0,0,0,0.08); padding-top:0.4rem; }
-  .sync-grid td.week-num { font-family:'Source Code Pro',monospace; font-size:0.75rem; color:var(--muted); font-weight:500; text-align:center; vertical-align:top; padding:0.55rem 0.4rem; border-bottom:1px solid #efefec; border-right:1px solid #efefec; background:var(--paper); }
-  .sync-grid td.cell-t, .sync-grid td.cell-a { vertical-align:top; padding:0.55rem 0.75rem; border-bottom:1px solid #efefec; border-right:1px solid #efefec; line-height:1.45; font-weight:300; background:#fff; }
-  .sync-grid td.cell-k { vertical-align:top; padding:0.55rem 0.75rem; border-bottom:1px solid #efefec; line-height:1.45; font-weight:300; background:#fff; }
-  .sync-grid tr.exam-row td { background:#fdf5f5; font-weight:600; font-style:italic; color:var(--accent); }
-  .sync-grid tr.exam-row td.week-num { background:#fdf5f5; color:var(--accent); }
-  .sync-grid .header-row td { padding:0; border-bottom:2px solid var(--ink); }
-  .sync-grid .header-row td.th-theory  { background:var(--theory-light);   border-top:3px solid var(--theory-hue); }
-  .sync-grid .header-row td.th-aural   { background:var(--aural-light);    border-top:3px solid var(--aural-hue); }
-  .sync-grid .header-row td.th-keyboard{ background:var(--keyboard-light); border-top:3px solid var(--keyboard-hue); }
-  .sync-grid .header-row td.th-week    { background:var(--paper); border-top:3px solid transparent; }
-  .sync-grid .label-theory  { color:var(--theory-hue); }
-  .sync-grid .label-aural   { color:var(--aural-hue); }
-  .sync-grid .label-keyboard{ color:var(--keyboard-hue); }
-  @media (max-width: 800px) {
-    nav { display: none; }
-    main { margin-left: 0; padding: 2rem 1.5rem; }
-    .course-grid { grid-template-columns: 1fr; }
-  }
-</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="theory-musicianship.css">
 </head>
 <body>
 
@@ -485,14 +57,14 @@
 
   <!-- INTRO -->
   <section id="intro" style="margin-bottom:3rem;">
-    <h2 style="font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:600;margin-bottom:0.75rem;">About This Document</h2>
+    <h2 style="font-family:'Courier Prime',ui-monospace,'Courier New',monospace;font-size:1.2rem;font-weight:600;margin-bottom:0.75rem;">About This Document</h2>
     <p style="font-size:0.95rem;color:var(--muted);margin-bottom:0.75rem;line-height:1.75;">This guide maps the lower division core sequence for the B.A. in Music, coordinating content, pacing, and benchmarks across the three concurrent tracks: Music Theory, Aural Skills, and Keyboard Musicianship. It is intended as a reference for instructors teaching within this sequence, to support cross-track coordination and consistent expectations.</p>
     <p style="font-size:0.95rem;color:var(--muted);line-height:1.75;">Concepts introduced in theory should be reinforced aurally in the same week or the week following, and keyboard work should connect to both wherever possible.</p>
   </section>
 
   <!-- SEQUENCE AT A GLANCE -->
   <section id="sequence" style="margin-bottom:3rem;">
-    <h2 style="font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:600;margin-bottom:0.75rem;">Sequence at a Glance</h2>
+    <h2 style="font-family:'Courier Prime',ui-monospace,'Courier New',monospace;font-size:1.2rem;font-weight:600;margin-bottom:0.75rem;">Sequence at a Glance</h2>
     <p style="font-size:0.95rem;color:var(--muted);margin-bottom:0.75rem;line-height:1.75;">All three tracks run concurrently within each semester. MUS 108 is a prerequisite for the core sequence and is offered in both Fall and Spring; music majors typically take it in Fall of Year 1. Form and Analysis (MUS 312) and 20th and 21st Century Styles and Techniques (MUS 410) are upper-division courses that draw on the full lower-division sequence.</p>
     <table class="schedule-table" style="margin-top:0.5rem;max-width:680px;">
       <thead>
@@ -514,7 +86,7 @@
     </table>
 
     <div style="margin-top:2rem;">
-      <h3 id="workload" style="font-family:'Playfair Display',serif;font-size:1rem;font-weight:600;margin-bottom:0.5rem;">Course Classifications and Expected Workload</h3>
+      <h3 id="workload" style="font-family:'Courier Prime',ui-monospace,'Courier New',monospace;font-size:1rem;font-weight:600;margin-bottom:0.5rem;">Course Classifications and Expected Workload</h3>
       <p style="font-size:0.88rem;color:var(--muted);margin-bottom:1rem;line-height:1.7;">Course classifications follow the CSU Course Classification System. The classification determines both contact hours per unit and maximum class size. Under the CSU credit hour definition, each unit of credit represents one hour of in-class instruction and a minimum of two hours of out-of-class student work per week across a 15-week semester. C10 (music activity, small group) courses carry two contact hours per unit rather than one, reflecting the activity-based nature of the instruction. All hours below are per week during the semester.</p>
 
       <table class="class-table">
@@ -580,7 +152,7 @@
 
   <!-- TEXTBOOKS + COST SIDE BY SIDE -->
   <section id="textbooks" style="margin-bottom:3rem;">
-    <h2 style="font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:600;margin-bottom:0.4rem;">Required Textbooks</h2>
+    <h2 style="font-family:'Courier Prime',ui-monospace,'Courier New',monospace;font-size:1.2rem;font-weight:600;margin-bottom:0.4rem;">Required Textbooks</h2>
     <p style="font-size:0.95rem;color:var(--muted);margin-bottom:1rem;line-height:1.75;">Physical textbooks are strongly suggested for all courses in this sequence. Research consistently shows that print reading supports the deeper processing, annotation, and non-linear navigation that complex music theory and ear training demand. The four titles below cover all twelve courses in the sequence. Where a workbook or anthology is listed alongside a primary text, both must be purchased.</p>
 
     <div style="display:grid;grid-template-columns:1fr 280px;gap:1.5rem;align-items:center;">
@@ -650,7 +222,7 @@
         <div class="cost-section-label">Keyboard I–III</div>
         <div class="cost-row"><span class="cost-title">Alfred's Group Piano, Bk. 1</span><span class="cost-price">~$45</span></div>
 
-        <div class="cost-subtotal"><span>Estimated total</span><span style="font-family:'Source Code Pro',monospace;">~$470</span></div>
+        <div class="cost-subtotal"><span>Estimated total</span><span style="font-family:'Courier Prime',ui-monospace,'Courier New',monospace;">~$470</span></div>
         <div class="cost-note">Prices are approximate retail. Used and rental copies are widely available for most titles except Alfred's. Karpinski and Takesue texts are used across multiple semesters.</div>
       </div>
 
