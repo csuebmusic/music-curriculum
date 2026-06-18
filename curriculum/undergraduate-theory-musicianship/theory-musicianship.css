@@ -462,6 +462,7 @@ body.doc-single main { counter-reset: sec; }
   color: var(--ink-soft);
   text-align: right;
 }
+.grade-table td.cell-delivery { font-family: var(--mono); font-size: 0.78rem; color: var(--ink-soft); }
 .sched-table tr.stripe td { background: #faf9f7; }
 .sched-table tr.exam td {
   font-family: var(--mono);
