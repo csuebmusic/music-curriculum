@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>house style specimen</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FFFFFF;
+    --canvas:#F2F2F0;
+    --ink:#1B1C1E;
+    --ink-soft:#5E6166;
+    --rule:#E6E6E3;
+    --accent:#6E1F2A;
+    --accent-tint:#F7ECED;
+    --serif:"Source Serif 4",Georgia,serif;
+    --mono:"Courier Prime",ui-monospace,"Courier New",monospace;
+    --measure:760px;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;}
+  body{
+    background:var(--canvas);
+    color:var(--ink);
+    font-family:var(--serif);
+    font-size:17px;
+    line-height:1.7;
+    -webkit-font-smoothing:antialiased;
+    padding:40px 20px;
+  }
+  .doc{
+    max-width:var(--measure);
+    margin:0 auto;
+    background:var(--paper);
+    border:1px solid var(--rule);
+    padding:64px 72px 56px;
+  }
+  .eyebrow{
+    font-family:var(--mono);
+    font-size:12px;
+    letter-spacing:.06em;
+    color:var(--accent);
+    margin:0 0 22px;
+  }
+  .record{
+    border-bottom:1.5px solid var(--accent);
+    padding-bottom:22px;
+    margin-bottom:30px;
+  }
+  .record-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:16px 40px;
+  }
+  .field .lbl{
+    display:block;
+    font-family:var(--mono);
+    font-size:11px;
+    letter-spacing:.04em;
+    color:var(--ink-soft);
+    margin-bottom:4px;
+  }
+  .field .val{
+    font-family:var(--mono);
+    font-size:14px;
+    color:var(--ink);
+  }
+  .title{
+    font-family:var(--mono);
+    font-weight:700;
+    font-size:26px;
+    line-height:1.25;
+    letter-spacing:-.01em;
+    margin:0 0 12px;
+  }
+  .meta{
+    font-family:var(--mono);
+    font-size:12.5px;
+    color:var(--ink-soft);
+    margin:0 0 40px;
+  }
+  .meta span{color:var(--ink);}
+  section{margin:0 0 34px;}
+  h2{
+    font-family:var(--mono);
+    font-weight:700;
+    font-size:17px;
+    margin:0 0 14px;
+    display:flex;
+    align-items:baseline;
+    gap:12px;
+  }
+  h2 .sec{
+    font-size:14px;
+    color:var(--accent);
+    letter-spacing:.04em;
+  }
+  p{margin:0 0 16px;}
+  p:last-child{margin-bottom:0;}
+  .term{
+    border-bottom:1.5px solid var(--accent);
+    padding-bottom:1px;
+  }
+  .gloss{
+    font-family:var(--mono);
+    font-size:12.5px;
+    color:var(--ink-soft);
+  }
+  table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:6px;
+    font-size:15.5px;
+  }
+  thead th{
+    font-family:var(--mono);
+    font-size:11.5px;
+    font-weight:700;
+    letter-spacing:.04em;
+    color:var(--ink-soft);
+    text-align:left;
+    padding:0 0 9px;
+    border-bottom:1.5px solid var(--accent);
+  }
+  thead th:last-child,tbody td:last-child{text-align:right;}
+  tbody td{
+    padding:11px 0;
+    border-bottom:1px solid var(--rule);
+    vertical-align:top;
+  }
+  tbody tr:last-child td{border-bottom:none;}
+  .unit-change{font-family:var(--mono);font-size:13.5px;}
+  .note{
+    background:var(--accent-tint);
+    border-left:3px solid var(--accent);
+    padding:16px 20px;
+    margin:0 0 34px;
+  }
+  .note-lbl{
+    font-family:var(--mono);
+    font-size:11px;
+    letter-spacing:.06em;
+    color:var(--accent);
+    margin:0 0 6px;
+  }
+  .note p:not(.note-lbl){font-size:15.5px;line-height:1.6;}
+  footer{
+    border-top:1px solid var(--rule);
+    padding-top:16px;
+    font-family:var(--mono);
+    font-size:11.5px;
+    color:var(--ink-soft);
+    display:flex;
+    justify-content:space-between;
+    gap:16px;
+    flex-wrap:wrap;
+  }
+  @media (max-width:620px){
+    .doc{padding:40px 28px 36px;}
+    .record-grid{grid-template-columns:1fr;}
+    .title{font-size:22px;}
+  }
+</style>
+</head>
+<body>
+  <main class="doc">
+    <header class="record">
+      <p class="eyebrow">house-style specimen</p>
+      <div class="record-grid">
+        <div class="field"><span class="lbl">committee</span><span class="val">class curriculum committee</span></div>
+        <div class="field"><span class="lbl">document</span><span class="val">program modification</span></div>
+        <div class="field"><span class="lbl">effective</span><span class="val">fall 2027</span></div>
+        <div class="field"><span class="lbl">status</span><span class="val">draft for review</span></div>
+      </div>
+    </header>
+
+    <h1 class="title">program modification: graduate sequence in music</h1>
+    <p class="meta">prepared by i. thiebaut &middot; spring 2026 &middot; routing id <span>cm-2026-014</span></p>
+
+    <section>
+      <h2><span class="sec">01</span> rationale</h2>
+      <p>This proposal consolidates two overlapping electives into a single course, revises the unit distribution across the graduate sequence, and aligns prerequisite language with the current catalog. The change reduces total required units by three while preserving every program learning outcome.</p>
+      <p>The revised sequence also clarifies the standing of one <span class="term">dual-listed</span> <span class="gloss">(offered at two catalog levels)</span> course, so that graduate and undergraduate enrollments are assessed against separate criteria. No new resources are required, and the affected courses already run on the existing rotation.</p>
+    </section>
+
+    <section>
+      <h2><span class="sec">02</span> proposed changes</h2>
+      <table>
+        <thead>
+          <tr><th>course</th><th>action</th><th>units</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>MUS 6XX</td><td>revise prerequisites</td><td class="unit-change">3</td></tr>
+          <tr><td>MUS 6XX</td><td>increase units</td><td class="unit-change">3 &rarr; 4</td></tr>
+          <tr><td>MUS 6XX</td><td>retitle and recatalog</td><td class="unit-change">3</td></tr>
+          <tr><td>MUS 6XX</td><td>inactivate (merged)</td><td class="unit-change">4 &rarr; 0</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <aside class="note">
+      <p class="note-lbl">reviewer note</p>
+      <p>Dual-listed courses require a separate workload justification under the college policy on cross-level instruction. Attach before the consent agenda.</p>
+    </aside>
+
+    <footer>
+      <span>cm-2026-014 &middot; class curriculum committee</span>
+      <span>page 1 of 4</span>
+    </footer>
+  </main>
+</body>
+</html>
