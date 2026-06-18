@@ -1,43 +1,14 @@
-# Theory and Musicianship Curriculum
+# music-curriculum
 
-California State University, East Bay — Department of Music
+Curriculum, committee, assessment, and webmaster work for the Department of Music at California State University, East Bay, maintained by Inés Thiebaut. This repository is the canonical home for that work, outside of any single course.
 
-This is the curriculum documentation for the Theory and Musicianship sequence leading to the B.A. in Music. It includes two framework documents and twelve course syllabi covering MUS 108 through MUS 410.
+## layout
 
-## Framework Documents
+- conventions/ holds the house style. house-style.md is the canonical spec, with house-style-specimen.html as its on-screen reference and templates/house-style-template.docx as the document starting point. Documents produced here follow it and go out as Word or PDF.
+- curriculum/ holds course and program proposals and related curriculum documentation, organized into subsections. The first is [lower-division-musicianship](curriculum/lower-division-musicianship/), the Theory and Musicianship sequence (framework documents and the MUS 108 to MUS 410 syllabi), which carries its own README.
+- committee/ holds agendas, minutes, and papers for the CLASS curriculum committee.
+- documents/ holds handbooks, program and admissions information, and policy.
+- assessment/ holds program learning outcomes, assessment reports, and review cycles.
+- website/ holds structural HTML snippets that get pasted into Cascade, which supplies its own styling.
 
-- [Undergraduate Curriculum Guide](curriculum/lower-division-musicianship/1_Theory-Musicianship-Undergraduate-Guide.html) — full sequence overview with content pacing, textbooks, workload classifications, and end-of-semester benchmarks for every course
-- [Instructor's Companion](curriculum/lower-division-musicianship/2_Theory-Musicianship-Undergraduate-Instructors-Companion.html) — deadline schedules and class-structure guidance for instructors teaching within the sequence
-
-## Course Syllabi
-
-### Fall Year 1 (or Spring)
-
-- [MUS 108 — Language of Music](curriculum/lower-division-musicianship/MUS108_syllabus.html)
-
-### Spring Year 1
-
-- [MUS 111 — Music Theory I](curriculum/lower-division-musicianship/MUS111_syllabus.html)
-- [MUS 115 — Aural Skills I](curriculum/lower-division-musicianship/MUS115_syllabus.html)
-- [MUS 118 — Keyboard Musicianship I](curriculum/lower-division-musicianship/MUS118_syllabus.html)
-
-### Fall Year 2
-
-- [MUS 112 — Music Theory II](curriculum/lower-division-musicianship/MUS112_syllabus.html)
-- [MUS 116 — Aural Skills II](curriculum/lower-division-musicianship/MUS116_syllabus.html)
-- [MUS 119 — Keyboard Musicianship II](curriculum/lower-division-musicianship/MUS119_syllabus.html)
-
-### Spring Year 2
-
-- [MUS 211 — Music Theory III](curriculum/lower-division-musicianship/MUS211_syllabus.html)
-- [MUS 215 — Aural Skills III](curriculum/lower-division-musicianship/MUS215_syllabus.html)
-- [MUS 218 — Keyboard Musicianship III](curriculum/lower-division-musicianship/MUS218_syllabus.html)
-
-### Year 3
-
-- [MUS 312 — Form and Analysis](curriculum/lower-division-musicianship/MUS312_syllabus.html) (Fall)
-- [MUS 410 — 20th and 21st Century Styles and Techniques](curriculum/lower-division-musicianship/MUS410_syllabus.html) (Spring)
-
----
-
-*Version 1.0, Spring 2026. Maintained by Inés Thiebaut.*
+The curriculum web pages under curriculum/ predate the house style and carry their own look. They stay as they are until reconciled.
