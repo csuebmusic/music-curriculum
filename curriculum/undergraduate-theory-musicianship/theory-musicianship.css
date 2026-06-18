@@ -501,6 +501,11 @@ hr.div, .section-divider {
 .benchmark-track.k h5 { color: var(--keyboard-mid); }
 .benchmark-track.n h5 { color: rgba(255,255,255,0.9); }
 .benchmark-track p { font-family: var(--serif); font-size: 0.9rem; color: rgba(255,255,255,0.82); line-height: 1.6; }
+.benchmark-track ul { list-style: none; margin: 0.2rem 0 0; padding: 0; }
+.benchmark-track li { font-family: var(--serif); font-size: 0.88rem; color: rgba(255,255,255,0.82); line-height: 1.5; position: relative; padding-left: 0.9rem; margin-bottom: 0.4rem; }
+.benchmark-track li:last-child { margin-bottom: 0; }
+.benchmark-track li::before { content: ""; position: absolute; left: 0; top: 0.52em; width: 4px; height: 4px; background: currentColor; opacity: 0.45; border-radius: 50%; }
+.benchmark-track .scope-note { font-family: var(--serif); font-style: italic; font-size: 0.82rem; color: rgba(255,255,255,0.55); line-height: 1.5; margin-top: 0.6rem; }
 
 /* ── textbook list (guide) ── */
 .textbook-list { margin-top: 1rem; display: flex; flex-direction: column; gap: 0.85rem; }
