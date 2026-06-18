@@ -701,7 +701,7 @@ hr.div, .section-divider {
 .deadline-grid.day-split.solo-grid.sun-col td:nth-child(2) { background: var(--paper); }
 .deadline-grid.day-split.solo-grid.sun-col td:nth-child(3) { background: #f4f3f1; }
 .deadline-grid.day-split.solo-grid.sun-col td:nth-child(4) { background: var(--paper); }
-.deadline-grid.day-split.solo-grid.sun-col tr.conflict-row td.cell-s { background: var(--accent-tint); }
+.deadline-grid.day-split.solo-grid.sun-col tr.conflict-row td { background: var(--accent-tint); }
 .deadline-grid.day-split .day-label { font-family: var(--mono); font-size: 0.7rem; color: var(--ink-soft); }
 .day-label { font-family: var(--mono); color: var(--ink-soft); }
 
