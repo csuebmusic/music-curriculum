@@ -4,389 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MUS 108 — Language of Music | Syllabus</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet">
-<style>
-  :root {
-    --ink:        #1a1a1a;
-    --paper:      #f7f5f0;
-    --rule:       #d8d3c8;
-    --muted:      #7a7468;
-    --accent:     #8b1a1a;
-    --accent-light: #f9f0f0;
-    --sidebar-w:  220px;
-  }
-
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  html { scroll-behavior: smooth; }
-
-  body {
-    background: var(--paper);
-    color: var(--ink);
-    font-family: 'Source Sans 3', sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 1.7;
-    display: flex;
-  }
-
-  /* ── NAV ── */
-  nav {
-    position: fixed;
-    top: 0; left: 0;
-    width: var(--sidebar-w);
-    height: 100vh;
-    background: var(--ink);
-    color: #fff;
-    padding: 2rem 1.5rem;
-    overflow-y: auto;
-    z-index: 100;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .nav-logo {
-    font-family: 'Playfair Display', serif;
-    font-size: 0.82rem;
-    font-weight: 700;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    line-height: 1.4;
-    border-bottom: 1px solid rgba(255,255,255,0.15);
-    padding-bottom: 0.85rem;
-    margin-bottom: 0.4rem;
-  }
-
-  .nav-version {
-    font-size: 0.62rem;
-    color: rgba(255,255,255,0.4);
-    letter-spacing: 0.07em;
-    margin-bottom: 1.5rem;
-  }
-
-  .nav-section-label {
-    font-size: 0.6rem;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    color: rgba(255,255,255,0.35);
-    margin: 1.1rem 0 0.35rem;
-  }
-
-  nav a {
-    display: block;
-    color: rgba(255,255,255,0.7);
-    text-decoration: none;
-    font-size: 0.78rem;
-    font-weight: 400;
-    line-height: 1.3;
-    padding: 0.25rem 0;
-    transition: color 0.15s;
-  }
-
-  nav a:hover { color: #fff; }
-
-  /* ── MAIN ── */
-  main {
-    margin-left: var(--sidebar-w);
-    width: calc(100% - var(--sidebar-w));
-    padding: 4rem 3.5rem 6rem;
-    max-width: 1060px;
-  }
-
-  /* ── PAGE HEADER ── */
-  .page-header {
-    border-bottom: 2px solid var(--ink);
-    padding-bottom: 1.75rem;
-    margin-bottom: 3rem;
-  }
-
-  .page-header .kicker {
-    font-size: 0.7rem;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: var(--muted);
-    margin-bottom: 0.4rem;
-  }
-
-  .page-header h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 2.2rem;
-    font-weight: 700;
-    line-height: 1.15;
-    margin-bottom: 0.3rem;
-  }
-
-  .page-header .course-sub {
-    font-size: 0.95rem;
-    color: var(--muted);
-    font-style: italic;
-  }
-
-  .meta-strip {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem 2rem;
-    margin-top: 1.25rem;
-    padding-top: 1.25rem;
-    border-top: 1px solid var(--rule);
-    font-size: 0.8rem;
-  }
-
-  .meta-item { color: var(--muted); }
-  .meta-item strong { color: var(--ink); font-weight: 600; }
-
-  /* ── SECTION ── */
-  .syllabus-section {
-    margin-bottom: 2.75rem;
-  }
-
-  .syllabus-section h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.1rem;
-    font-weight: 600;
-    margin-bottom: 0.75rem;
-    padding-bottom: 0.4rem;
-    border-bottom: 1px solid var(--rule);
-    color: var(--accent);
-    letter-spacing: 0.01em;
-  }
-
-  .syllabus-section p {
-    font-size: 0.9rem;
-    line-height: 1.75;
-    margin-bottom: 0.65rem;
-    color: var(--ink);
-  }
-
-  .syllabus-section p:last-child { margin-bottom: 0; }
-
-  /* ── INFO GRID ── */
-  .info-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0.4rem 2rem;
-    font-size: 0.88rem;
-  }
-
-  .info-row { display: flex; gap: 0.5rem; }
-  .info-label { color: var(--muted); min-width: 110px; font-size: 0.78rem; letter-spacing: 0.05em; text-transform: uppercase; padding-top: 0.1rem; }
-  .info-value { color: var(--ink); }
-
-  /* ── OUTCOMES LIST ── */
-  .outcome-list { list-style: none; margin-top: 0.5rem; }
-
-  .outcome-list li {
-    display: flex;
-    gap: 0.75rem;
-    font-size: 0.88rem;
-    line-height: 1.6;
-    padding: 0.45rem 0;
-    border-bottom: 1px solid #efefec;
-  }
-
-  .outcome-list li:last-child { border-bottom: none; }
-
-  .outcome-num {
-    font-family: 'Source Code Pro', monospace;
-    font-size: 0.72rem;
-    color: var(--accent);
-    font-weight: 500;
-    min-width: 28px;
-    padding-top: 0.15rem;
-  }
-
-  /* ── GE BADGE ── */
-  .ge-badge {
-    display: inline-block;
-    background: var(--accent-light);
-    color: var(--accent);
-    font-size: 0.68rem;
-    font-weight: 600;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    padding: 0.2rem 0.6rem;
-    border-radius: 2px;
-    margin-bottom: 0.85rem;
-    border: 1px solid rgba(139,26,26,0.15);
-  }
-
-  /* ── SCHEDULE TABLE ── */
-  .sched-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 0.83rem;
-    margin-top: 0.5rem;
-  }
-
-  .sched-table th {
-    font-size: 0.62rem;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: var(--muted);
-    padding: 0.4rem 0.6rem;
-    border-bottom: 2px solid var(--ink);
-    text-align: left;
-  }
-
-  .sched-table th:first-child { width: 54px; }
-  .sched-table th:nth-child(2) { width: 42%; }
-
-  .sched-table td {
-    padding: 0.45rem 0.6rem;
-    vertical-align: top;
-    border-bottom: 1px solid #efefec;
-    line-height: 1.4;
-    font-weight: 300;
-  }
-
-  .sched-table td:first-child {
-    font-family: 'Source Code Pro', monospace;
-    font-size: 0.72rem;
-    color: var(--muted);
-    font-weight: 500;
-  }
-
-  .sched-table tr:last-child td { border-bottom: none; }
-
-  .sched-table tr.exam td {
-    font-weight: 600;
-    font-style: italic;
-    color: var(--accent);
-    background: var(--accent-light);
-  }
-
-  .sched-table tr.stripe td { background: rgba(0,0,0,0.015); }
-
-  .due-note {
-    display: block;
-    font-size: 0.75rem;
-    font-style: italic;
-    color: var(--accent);
-    margin-top: 0.2rem;
-  }
-
-  /* ── GRADING TABLE ── */
-  .grade-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 0.85rem;
-    margin-top: 0.5rem;
-  }
-
-  .grade-table th {
-    font-size: 0.62rem;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: var(--muted);
-    padding: 0.35rem 0.6rem;
-    border-bottom: 1px solid var(--rule);
-    text-align: left;
-  }
-
-  .grade-table td {
-    padding: 0.4rem 0.6rem;
-    border-bottom: 1px solid #efefec;
-    font-weight: 300;
-  }
-
-  .grade-table tr:last-child td { border-bottom: none; }
-
-  .grade-table td:last-child {
-    font-family: 'Source Code Pro', monospace;
-    font-size: 0.78rem;
-    color: var(--muted);
-    text-align: right;
-  }
-
-  /* ── POLICY BLOCK ── */
-  .policy-block {
-    background: #fff;
-    border: 1px solid var(--rule);
-    border-left: 3px solid var(--accent);
-    border-radius: 3px;
-    padding: 1rem 1.25rem;
-    margin-top: 0.5rem;
-    font-size: 0.88rem;
-    line-height: 1.7;
-  }
-
-  .policy-block p { margin-bottom: 0.5rem; }
-  .policy-block p:last-child { margin-bottom: 0; }
-
-  /* ── BENCHMARKS ── */
-  .benchmark-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    margin-top: 0.5rem;
-  }
-
-  .benchmark-card {
-    background: var(--ink);
-    color: #fff;
-    border-radius: 4px;
-    padding: 1rem 1.1rem;
-  }
-
-  .benchmark-card h4 {
-    font-size: 0.62rem;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: rgba(255,255,255,0.9);
-    margin-bottom: 0.5rem;
-  }
-
-  .benchmark-card p {
-    font-size: 0.8rem;
-    font-weight: 300;
-    color: rgba(255,255,255,0.85);
-    line-height: 1.6;
-  }
-
-  /* ── DIVIDER ── */
-  hr.div { border: none; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
-
-  /* ── FOOTER ── */
-  .syllabus-footer {
-    margin-top: 4rem;
-    padding-top: 1.25rem;
-    border-top: 1px solid var(--rule);
-    font-size: 0.7rem;
-    color: var(--muted);
-    font-style: italic;
-  }
-
-  @media (max-width: 800px) {
-    nav { display: none; }
-    main { margin-left: 0; padding: 2rem 1.5rem; }
-    .benchmark-grid { grid-template-columns: 1fr; }
-    .info-grid { grid-template-columns: 1fr; }
-  }
-</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="theory-musicianship.css">
 </head>
-<body>
+<body class="doc-single">
 
 <!-- NAV -->
-<nav>
-  <div class="nav-logo">MUS 108<br>Language of Music</div>
-  <div class="nav-version">CSU East Bay &middot; Department of Music</div>
-
-  <div class="nav-section-label">Syllabus</div>
-  <a href="#contact">Contact Information</a>
-  <a href="#course-info">Course Information</a>
-  <a href="#outcomes">Learning Outcomes</a>
-  <a href="#benchmarks">Learning Benchmarks</a>
-  <a href="#workload">Expected Workload</a>
-  <a href="#materials">Course Materials</a>
-  <a href="#requirements">Course Requirements</a>
-  <a href="#grading">Grading</a>
-  <a href="#policies">Course Policies</a>
-  <a href="#ai">Generative AI Policy</a>
-  <a href="#schedule">Course Schedule</a>
-  <a href="#resources">Student Resources</a>
-</nav>
 
 <!-- MAIN -->
 <main>
@@ -492,17 +117,17 @@
     <p>MUS 108 carries 3 units and is classified as a C5 seminar. Under the CSU credit hour definition, each unit of credit represents one hour of in-class instruction and a minimum of two hours of out-of-class student work per week. For this course, that means:</p>
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;margin-top:0.75rem;">
       <div style="background:#fff;border:1px solid var(--rule);border-radius:3px;padding:0.85rem 1rem;text-align:center;">
-        <div style="font-family:'Source Code Pro',monospace;font-size:1.4rem;font-weight:500;color:var(--accent);">3</div>
+        <div style="font-family:'Courier Prime',ui-monospace,'Courier New',monospace;font-size:1.4rem;font-weight:500;color:var(--accent);">3</div>
         <div style="font-size:0.78rem;color:var(--muted);margin-top:0.2rem;">contact hours per week<br>(two 75-min meetings)</div>
       </div>
       <div style="background:#fff;border:1px solid var(--rule);border-radius:3px;padding:0.85rem 1rem;text-align:center;">
-        <div style="font-family:'Source Code Pro',monospace;font-size:1.4rem;font-weight:500;color:var(--accent);">6+</div>
+        <div style="font-family:'Courier Prime',ui-monospace,'Courier New',monospace;font-size:1.4rem;font-weight:500;color:var(--accent);">6+</div>
         <div style="font-size:0.78rem;color:var(--muted);margin-top:0.2rem;">out-of-class hours per week<br>(minimum)</div>
       </div>
     </div>
     <p style="margin-top:0.85rem;font-size:0.88rem;color:var(--muted);">Out-of-class time in this course is primarily spent on listening, written exercises, and journal work. The listening component in particular rewards repeated engagement: pieces that seem opaque on first hearing often open up considerably by the third or fourth listen.</p>
 
-    <h4 style="font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:600;margin-top:1.5rem;margin-bottom:0.5rem;">Making the time work</h4>
+    <h4 style="font-family:'Courier Prime',ui-monospace,'Courier New',monospace;font-size:0.95rem;font-weight:600;margin-top:1.5rem;margin-bottom:0.5rem;">Making the time work</h4>
     <p style="font-size:0.88rem;">For many of you, this is your first semester of college, and you are figuring out the shape of university life at the same time you are taking this course: new campus, new expectations, new rhythms of eating, sleeping, studying, and being alone or with people. That is a real adjustment, and it is worth naming honestly. You do not need to have it all figured out in week one, and you do not need to be a natural musician to do well here. What you do need is a regular, protected pocket of time for this course every week.</p>
     <p style="margin-top:0.85rem;font-size:0.88rem;">One pattern that works well: an hour, three or four days a week, rather than one long push before class. Music rewards repetition. A short daily listening session, even twenty or thirty minutes, builds the ear more effectively than a two-hour session the night before an assignment is due. The same is true of the written work: doing one exercise each day feels lighter and produces better results than saving them all for Sunday night.</p>
     <p style="margin-top:0.85rem;font-size:0.88rem;">Bring questions to class. Bring your listening notes, your written work in progress, and anything that confused you in the reading. Use office hours early in the semester rather than only when something has gone wrong. The students who thrive in MUS 108 are not the ones who arrive already knowing music theory, they are the ones who show up consistently and engage.</p>
@@ -516,13 +141,13 @@
       <div class="policy-block">
         <p><strong>Music Fundamentals: A Balanced Approach, 4th edition</strong><br>
         Sumy Takesue, Routledge<br>
-        <span style="font-family:'Source Code Pro',monospace;font-size:0.75rem;color:var(--muted);">Softcover ISBN: 978-1-032-29040-9</span></p>
+        <span style="font-family:'Courier Prime',ui-monospace,'Courier New',monospace;font-size:0.75rem;color:var(--muted);">Softcover ISBN: 978-1-032-29040-9</span></p>
         <p style="margin-top:0.4rem;font-size:0.83rem;color:var(--muted);">Primary text. The workbook is integrated into this edition.</p>
       </div>
       <div class="policy-block">
         <p><strong>Manual for Ear Training and Sight Singing, 2nd edition</strong><br>
         Gary S. Karpinski, W. W. Norton &amp; Company<br>
-        <span style="font-family:'Source Code Pro',monospace;font-size:0.75rem;color:var(--muted);">Softcover ISBN: 978-0-393-89278-9</span></p>
+        <span style="font-family:'Courier Prime',ui-monospace,'Courier New',monospace;font-size:0.75rem;color:var(--muted);">Softcover ISBN: 978-0-393-89278-9</span></p>
         <p style="margin-top:0.4rem;font-size:0.83rem;color:var(--muted);">Supplementary text. Chapters 1&ndash;10 are used in this course; assigned chapters are listed in the course schedule below.</p>
         <p style="margin-top:0.5rem;font-size:0.83rem;background:var(--accent-light);border-left:3px solid var(--accent);padding:0.5rem 0.75rem;border-radius:2px;"><strong>Note for music majors and music minors:</strong> The Karpinski Manual is used across all 12 courses in the Theory and Musicianship sequence and will accompany you through your entire program. Chapters 1&ndash;10 (the portion used in MUS 108) will be provided as a PDF on Canvas, so you have the option to purchase the full text later rather than now. When you are ready to buy, purchase the physical copy for long-term use.</p>
       </div>
@@ -637,8 +262,8 @@
       <p>Generative AI tools (such as ChatGPT, Claude, DALL&middot;E, and similar) may be used in this course with documentation and citation. AI can be useful for brainstorming or organizing ideas, but the listening, thinking, and writing must be your own. AI cannot replace listening or reflection, and substituting AI-generated content for required analysis violates course policy.</p>
 
       <p style="margin-top:0.75rem;"><strong>Citation requirements (Chicago 17th edition):</strong></p>
-      <p>Footnote:<br><span style="font-family:'Source Code Pro',monospace;font-size:0.78rem;color:var(--muted);">OpenAI, ChatGPT, [access date], https://chat.openai.com/</span></p>
-      <p>Bibliography:<br><span style="font-family:'Source Code Pro',monospace;font-size:0.78rem;color:var(--muted);">OpenAI. ChatGPT. [access date]. https://chat.openai.com/</span></p>
+      <p>Footnote:<br><span style="font-family:'Courier Prime',ui-monospace,'Courier New',monospace;font-size:0.78rem;color:var(--muted);">OpenAI, ChatGPT, [access date], https://chat.openai.com/</span></p>
+      <p>Bibliography:<br><span style="font-family:'Courier Prime',ui-monospace,'Courier New',monospace;font-size:0.78rem;color:var(--muted);">OpenAI. ChatGPT. [access date]. https://chat.openai.com/</span></p>
 
       <p style="margin-top:0.75rem;"><strong>Document the conversation:</strong> Where the platform allows, click Share &rarr; Copy Link and paste the link in an appendix to your submission. Both Claude and ChatGPT support shareable conversation links.</p>
 
