@@ -42,7 +42,7 @@
   --keyboard-light:#eef2ef;
   --keyboard-mid:  #7ba18d;
 
-  --sidebar-w: 240px;
+  --sidebar-w: 300px;
   --max-w:     1100px;
   --measure:   820px;
 }
@@ -64,6 +64,16 @@ body {
 /* single-document layout: centered white card, no sidebar.
    used by the syllabi (body class="doc-single"). */
 body.doc-single { display: block; }
+.back-link {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  color: var(--ink-soft);
+  text-decoration: none;
+  margin-bottom: 1.4rem;
+}
+.back-link:hover { color: var(--accent); }
 body.doc-single main {
   margin: 0 auto;
   width: auto;
