@@ -665,7 +665,7 @@ hr.div, .section-divider {
 
 /* ── deadline grid (companion) ── */
 .deadline-grid { width: 100%; border-collapse: collapse; font-family: var(--serif); font-size: 0.88rem; margin-top: 0.5rem; table-layout: fixed; }
-.deadline-grid colgroup col:first-child { width: 52px; }
+.deadline-grid colgroup col:first-child { width: 60px; }
 .deadline-grid th {
   font-family: var(--mono); font-size: 0.8rem; letter-spacing: 0;
   text-transform: lowercase; font-weight: 700; color: var(--ink);
@@ -688,7 +688,7 @@ hr.div, .section-divider {
 
 /* day-split variant: drop the per-track cell tints to plain paper */
 .deadline-grid.day-split { font-size: 0.8rem; }
-.deadline-grid.day-split colgroup col:first-child { width: 42px; }
+.deadline-grid.day-split colgroup col:first-child { width: 60px; }
 .deadline-grid.day-split td.cell-t, .deadline-grid.day-split td.cell-a,
 .deadline-grid.day-split td.cell-k, .deadline-grid.day-split td.cell-s { background: var(--paper); }
 .deadline-grid.day-split tr.conflict-row td.cell-t, .deadline-grid.day-split tr.conflict-row td.cell-a,
