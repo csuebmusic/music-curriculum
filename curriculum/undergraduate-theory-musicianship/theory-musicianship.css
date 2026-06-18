@@ -474,8 +474,8 @@ hr.div, .section-divider {
 .card-header { padding: 1rem 1.25rem 0.75rem; background: var(--paper); border-bottom: 1px solid var(--rule); }
 .card-label {
   font-family: var(--mono);
-  font-size: 0.68rem;
-  letter-spacing: 0.02em;
+  font-size: 1.02rem;
+  letter-spacing: 0;
   text-transform: lowercase;
   font-weight: 700;
   color: var(--ink);
@@ -600,7 +600,7 @@ hr.div, .section-divider {
 
 /* ── class structure blocks (companion) ── */
 .class-structure { margin-top: 1.5rem; padding: 1.25rem 1.5rem; background: var(--paper); border: 1px solid var(--rule); }
-.class-structure .cs-course-label { font-family: var(--mono); font-size: 0.66rem; letter-spacing: 0.02em; text-transform: lowercase; font-weight: 700; color: var(--ink); margin-bottom: 0.25rem; }
+.class-structure .cs-course-label { font-family: var(--mono); font-size: 1.1rem; letter-spacing: 0; text-transform: lowercase; font-weight: 700; color: var(--ink); margin-bottom: 0.25rem; }
 .class-structure.theory   .cs-course-label::before { background: var(--theory-mid); }
 .class-structure.aural    .cs-course-label::before { background: var(--aural-mid); }
 .class-structure.keyboard .cs-course-label::before { background: var(--keyboard-mid); }
