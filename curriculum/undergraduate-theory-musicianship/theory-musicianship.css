@@ -398,3 +398,233 @@ hr.div, .section-divider {
   body.doc-single main { padding: 40px 26px 36px; }
   .info-grid { grid-template-columns: 1fr; }
 }
+
+/* ============================================================
+   framework documents (guide + instructor's companion)
+   the curriculum-wide pages keep the slimmed sidebar nav. the
+   three track hues are reduced to small dots; oxblood carries
+   every structural rule, and the track word in each header is
+   itself the label.
+   ============================================================ */
+
+/* reusable track dot, injected before track labels/headers */
+.card-label::before, .cs-course-label::before,
+.label-theory::before, .label-aural::before, .label-keyboard::before,
+.deadline-grid th.th-theory::before, .deadline-grid th.th-aural::before,
+.deadline-grid th.th-keyboard::before, .deadline-grid th.th-solo::before {
+  content: "";
+  display: inline-block;
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  margin-right: 7px;
+  vertical-align: middle;
+  position: relative; top: -1px;
+  background: var(--accent);   /* default; per-track below */
+}
+
+/* ── semester blocks ── */
+.semester-block { margin-bottom: 4rem; }
+.semester-header { display: flex; align-items: baseline; gap: 1rem; margin-bottom: 0.5rem; }
+.semester-header h2 {
+  font-family: var(--mono);
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.semester-tag {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.03em;
+  text-transform: lowercase;
+  color: var(--ink-soft);
+  border: 1px solid var(--rule);
+  padding: 0.2rem 0.6rem;
+}
+.semester-intro {
+  font-family: var(--serif);
+  font-size: 1rem;
+  color: var(--ink-soft);
+  font-style: italic;
+  margin-bottom: 1.75rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--rule);
+}
+.sub-header {
+  font-family: var(--mono);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1.5px solid var(--accent);
+}
+.doc-section { margin-bottom: 1rem; }
+.intro p { font-family: var(--serif); }
+
+/* ── course cards (guide) ── */
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+.course-card { border: 1px solid var(--rule); overflow: hidden; }
+.card-header { padding: 1rem 1.25rem 0.75rem; background: var(--paper); border-bottom: 1px solid var(--rule); }
+.card-label {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 0.3rem;
+}
+.course-card.theory   .card-label::before { background: var(--theory-mid); }
+.course-card.aural    .card-label::before { background: var(--aural-mid); }
+.course-card.keyboard .card-label::before { background: var(--keyboard-mid); }
+.course-card.solo     .card-label::before { background: var(--accent); }
+.card-header h3 { font-family: var(--mono); font-size: 1.02rem; font-weight: 700; line-height: 1.3; color: var(--ink); }
+.card-header .course-num { font-family: var(--mono); font-size: 0.75rem; color: var(--ink-soft); margin-top: 0.15rem; }
+.card-body { padding: 1rem 1.25rem 1.25rem; background: var(--paper); font-family: var(--serif); }
+.card-body .textbook { font-size: 0.85rem; color: var(--ink-soft); font-style: italic; }
+.course-num { font-family: var(--mono); color: var(--ink-soft); }
+
+/* ── benchmarks block (dark panel; small track labels kept) ── */
+.benchmarks-block { background: var(--ink); color: #fff; padding: 1.5rem 1.75rem; margin: 1.75rem 0 0.5rem; }
+.benchmarks-block h4 { font-family: var(--mono); font-size: 0.95rem; font-weight: 700; text-transform: lowercase; margin-bottom: 1rem; }
+.benchmark-tracks { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.25rem; }
+.benchmark-track h5 { font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.02em; text-transform: lowercase; font-weight: 700; margin-bottom: 0.6rem; }
+.benchmark-track.t h5 { color: var(--theory-mid); }
+.benchmark-track.a h5 { color: var(--aural-mid); }
+.benchmark-track.k h5 { color: var(--keyboard-mid); }
+.benchmark-track.n h5 { color: rgba(255,255,255,0.9); }
+.benchmark-track p { font-family: var(--serif); font-size: 0.9rem; color: rgba(255,255,255,0.82); line-height: 1.6; }
+
+/* ── textbook list (guide) ── */
+.textbook-list { margin-top: 1rem; display: flex; flex-direction: column; gap: 0.85rem; }
+.textbook-entry { border: 1px solid var(--rule); border-left: 3px solid var(--accent); padding: 0.85rem 1.1rem; background: var(--paper); }
+.textbook-entry.te-solo, .textbook-entry.te-theory,
+.textbook-entry.te-aural, .textbook-entry.te-keyboard { border-left: 3px solid var(--accent); }
+.te-title { font-family: var(--serif); font-weight: 600; line-height: 1.35; }
+.te-title a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--rule); }
+.te-title a:hover { border-color: var(--ink); }
+.te-meta { font-family: var(--serif); font-size: 0.85rem; color: var(--ink-soft); margin-top: 0.2rem; }
+.te-isbn { font-family: var(--mono); font-size: 0.72rem; color: var(--ink-soft); margin-top: 0.2rem; }
+.te-companion { font-family: var(--serif); font-size: 0.82rem; color: var(--ink-soft); font-style: italic; margin-top: 0.3rem; }
+.textbook-note { font-family: var(--serif); font-size: 0.85rem; font-style: italic; color: var(--ink-soft); }
+
+/* ── cost panel (guide) ── */
+.cost-row { display: flex; justify-content: space-between; align-items: baseline; padding: 0.35rem 0; border-bottom: 1px solid var(--rule); font-size: 0.88rem; gap: 0.5rem; }
+.cost-row:last-of-type { border-bottom: none; }
+.cost-title { font-family: var(--serif); color: var(--ink); flex: 1; line-height: 1.35; }
+.cost-price { font-family: var(--mono); font-size: 0.8rem; color: var(--ink-soft); white-space: nowrap; }
+.cost-subtotal { display: flex; justify-content: space-between; padding: 0.5rem 0 0.35rem; margin-top: 0.25rem; border-top: 1.5px solid var(--accent); font-family: var(--mono); font-size: 0.85rem; font-weight: 700; }
+.cost-note { font-family: var(--serif); font-size: 0.78rem; color: var(--ink-soft); font-style: italic; margin-top: 0.6rem; line-height: 1.5; }
+.cost-section-label { font-family: var(--mono); font-size: 0.66rem; letter-spacing: 0.03em; text-transform: lowercase; color: var(--ink-soft); font-weight: 700; margin: 0.75rem 0 0.25rem; }
+
+/* ── "sequence at a glance" + workload tables (guide) ── */
+.schedule-table th, .class-table th {
+  font-family: var(--mono); font-size: 0.7rem; font-weight: 700;
+  letter-spacing: 0.02em; text-transform: lowercase; color: var(--ink-soft);
+  text-align: left; padding: 0 0.7rem 0.55rem; border-bottom: 1.5px solid var(--accent);
+}
+.schedule-table td, .class-table td {
+  padding: 0.5rem 0.7rem; vertical-align: top; border-bottom: 1px solid var(--rule);
+  line-height: 1.5; font-family: var(--serif);
+}
+.schedule-table tr:last-child td, .class-table tr:last-child td { border-bottom: none; }
+.schedule-table tr.stripe td, .class-table tr.stripe td { background: #faf9f7; }
+.class-table td.num { font-family: var(--mono); font-size: 0.85rem; color: var(--ink-soft); }
+.tag-c { display: inline-block; font-family: var(--mono); font-size: 0.7rem; font-weight: 700; padding: 0.1rem 0.4rem; margin-right: 0.3rem; }
+.tag-c5  { background: var(--accent-tint); color: var(--accent); }
+.tag-c10 { background: #ecebe8; color: var(--ink-soft); }
+
+/* ── sync grid (guide concurrent sequence) ── */
+.sync-grid { width: 100%; border-collapse: collapse; font-family: var(--serif); font-size: 0.9rem; margin-bottom: 2rem; table-layout: fixed; }
+.sync-grid colgroup col:first-child { width: 52px; }
+.sync-grid .track-header { padding: 0.9rem 1rem 0.75rem; vertical-align: bottom; }
+.sync-grid .track-header .card-label { font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.02em; text-transform: lowercase; font-weight: 700; margin-bottom: 0.25rem; display: block; color: var(--ink); }
+.sync-grid .track-header h3 { font-family: var(--mono); font-size: 0.95rem; font-weight: 700; line-height: 1.3; margin-bottom: 0.2rem; color: var(--ink); }
+.sync-grid .track-header .course-num { font-family: var(--mono); font-size: 0.72rem; color: var(--ink-soft); line-height: 1.4; display: block; margin-top: 0.2rem; }
+.sync-grid .track-header .textbook-note { font-family: var(--serif); font-size: 0.78rem; font-style: italic; color: var(--ink-soft); margin-top: 0.4rem; display: block; border-top: 1px solid var(--rule); padding-top: 0.4rem; }
+.sync-grid td.week-num { font-family: var(--mono); font-size: 0.78rem; color: var(--ink-soft); font-weight: 700; text-align: center; vertical-align: top; padding: 0.55rem 0.4rem; border-bottom: 1px solid var(--rule); border-right: 1px solid var(--rule); background: var(--paper); }
+.sync-grid td.cell-t, .sync-grid td.cell-a, .sync-grid td.cell-k { vertical-align: top; padding: 0.55rem 0.75rem; border-bottom: 1px solid var(--rule); border-right: 1px solid var(--rule); line-height: 1.45; background: var(--paper); }
+.sync-grid td.cell-k { border-right: none; }
+.sync-grid tr.exam-row td { background: var(--accent-tint); font-weight: 600; font-style: italic; color: var(--accent); }
+.sync-grid tr.exam-row td.week-num { background: var(--accent-tint); color: var(--accent); }
+.sync-grid .header-row td { padding: 0; border-bottom: 1.5px solid var(--accent); background: var(--paper); }
+.sync-grid .label-theory, .sync-grid .label-aural, .sync-grid .label-keyboard { color: var(--ink); }
+.label-theory::before  { background: var(--theory-mid); }
+.label-aural::before   { background: var(--aural-mid); }
+.label-keyboard::before{ background: var(--keyboard-mid); }
+
+/* ── deadline grid (companion) ── */
+.deadline-grid { width: 100%; border-collapse: collapse; font-family: var(--serif); font-size: 0.88rem; margin-top: 0.5rem; table-layout: fixed; }
+.deadline-grid colgroup col:first-child { width: 52px; }
+.deadline-grid th {
+  font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.02em;
+  text-transform: lowercase; font-weight: 700; color: var(--ink-soft);
+  padding: 0.5rem 0.75rem; border-bottom: 1.5px solid var(--accent);
+  text-align: left; background: var(--paper);
+}
+.deadline-grid th.th-theory, .deadline-grid th.th-aural,
+.deadline-grid th.th-keyboard, .deadline-grid th.th-solo { color: var(--ink); background: var(--paper); }
+.deadline-grid th.th-theory::before   { background: var(--theory-mid); }
+.deadline-grid th.th-aural::before    { background: var(--aural-mid); }
+.deadline-grid th.th-keyboard::before { background: var(--keyboard-mid); }
+.deadline-grid th.th-solo::before     { background: var(--accent); }
+.deadline-grid td { padding: 0.55rem 0.75rem; vertical-align: top; border-bottom: 1px solid var(--rule); border-right: 1px solid var(--rule); line-height: 1.45; background: var(--paper); }
+.deadline-grid td.week-num { font-family: var(--mono); font-size: 0.75rem; color: var(--ink-soft); font-weight: 700; text-align: center; background: var(--paper); }
+.deadline-grid tr.conflict-row td { background: var(--accent-tint); }
+.deadline-grid tr.conflict-row td.week-num { background: var(--accent-tint); color: var(--accent); font-weight: 700; }
+.deadline-grid tr:last-child td { border-bottom: none; }
+.deadline-grid .due-tag { display: inline-block; font-family: var(--mono); font-size: 0.7rem; color: var(--ink-soft); margin-left: 0.3rem; }
+.deadline-grid .item-major { display: block; font-family: var(--serif); font-weight: 700; color: var(--accent); font-size: 0.88rem; margin-top: 0.15rem; }
+
+/* day-split variant: drop the per-track cell tints to plain paper */
+.deadline-grid.day-split { font-size: 0.8rem; }
+.deadline-grid.day-split colgroup col:first-child { width: 42px; }
+.deadline-grid.day-split td.cell-t, .deadline-grid.day-split td.cell-a,
+.deadline-grid.day-split td.cell-k, .deadline-grid.day-split td.cell-s { background: var(--paper); }
+.deadline-grid.day-split tr.conflict-row td.cell-t, .deadline-grid.day-split tr.conflict-row td.cell-a,
+.deadline-grid.day-split tr.conflict-row td.cell-k, .deadline-grid.day-split tr.conflict-row td.cell-s { background: var(--accent-tint); }
+.deadline-grid.day-split.solo-grid td:nth-child(2) { background: #f4f3f1; }
+.deadline-grid.day-split.solo-grid td:nth-child(3) { background: var(--paper); }
+.deadline-grid.day-split .day-label { font-family: var(--mono); font-size: 0.7rem; color: var(--ink-soft); }
+.day-label { font-family: var(--mono); color: var(--ink-soft); }
+
+.conflict-note { background: var(--accent-tint); border-left: 3px solid var(--accent); padding: 0.65rem 1rem; font-family: var(--serif); font-size: 0.9rem; color: var(--ink); margin-top: 1rem; line-height: 1.55; }
+.conflict-note strong { color: var(--accent); }
+
+/* ── class structure blocks (companion) ── */
+.class-structure { margin-top: 1.5rem; padding: 1.25rem 1.5rem; background: var(--paper); border: 1px solid var(--rule); }
+.class-structure .cs-course-label { font-family: var(--mono); font-size: 0.66rem; letter-spacing: 0.02em; text-transform: lowercase; font-weight: 700; color: var(--ink); margin-bottom: 0.25rem; }
+.class-structure.theory   .cs-course-label::before { background: var(--theory-mid); }
+.class-structure.aural    .cs-course-label::before { background: var(--aural-mid); }
+.class-structure.keyboard .cs-course-label::before { background: var(--keyboard-mid); }
+.class-structure.solo     .cs-course-label::before { background: var(--accent); }
+.class-structure h3 { font-family: var(--mono); font-size: 1.1rem; font-weight: 700; color: var(--ink); margin-bottom: 0.25rem; }
+.class-structure .cs-meta { font-family: var(--serif); font-size: 0.85rem; color: var(--ink-soft); font-style: italic; margin-bottom: 1rem; padding-bottom: 0.65rem; border-bottom: 1px solid var(--rule); }
+.class-structure h4 { font-family: var(--mono); font-size: 0.9rem; font-weight: 700; text-transform: lowercase; color: var(--ink); margin: 1.1rem 0 0.4rem; }
+.class-structure h4:first-of-type { margin-top: 0.5rem; }
+.class-structure p { font-family: var(--serif); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.55rem; }
+.class-structure ul { list-style: none; padding-left: 0; margin: 0.4rem 0 0.65rem; }
+.class-structure li { font-family: var(--serif); font-size: 0.95rem; line-height: 1.55; padding: 0.25rem 0 0.25rem 1.1rem; position: relative; }
+.class-structure li::before { content: "·"; position: absolute; left: 0.25rem; color: var(--accent); font-weight: 700; font-size: 1.2rem; line-height: 1; top: 0.35rem; }
+.class-structure .cs-note { font-family: var(--serif); font-size: 0.9rem; color: var(--ink); background: var(--canvas); border-left: 2px solid var(--accent); padding: 0.5rem 0.85rem; margin: 0.75rem 0; line-height: 1.6; }
+
+/* framework footer (multi-line block) + minor coverage */
+.footer {
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--ink-soft);
+  line-height: 1.7;
+}
+.deadline-grid th.th-week, .sync-grid .header-row td.th-week { background: var(--paper); color: var(--ink-soft); }
+.deadline-grid th.th-week::before, .sync-grid .header-row td.th-week::before { content: none; }
+.te-content { display: block; }
