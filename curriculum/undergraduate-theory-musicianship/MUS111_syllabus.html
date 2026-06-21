@@ -59,8 +59,6 @@
   <input id="f-office" type="text" autocomplete="off" placeholder="building / room">
   <label for="f-officehours">office hours</label>
   <input id="f-officehours" type="text" autocomplete="off" placeholder="days / times">
-  <label for="f-virtual">virtual hours</label>
-  <input id="f-virtual" type="text" autocomplete="off" placeholder="zoom link (optional)">
   <div class="st-actions">
     <button id="st-download" type="button">download pdf</button>
     <div class="st-saved" id="st-saved"></div>
@@ -91,7 +89,6 @@
       <div class="info-row"><span class="info-label">Email</span><span class="info-value is-empty" id="v-email" data-placeholder="[name]@csueastbay.edu">[name]@csueastbay.edu</span></div>
       <div class="info-row"><span class="info-label">Office Hours</span><span class="info-value is-empty" id="v-officehours" data-placeholder="[Days/Times, physical or virtual]">[Days/Times, physical or virtual]</span></div>
       <div class="info-row"><span class="info-label">Phone</span><span class="info-value is-empty" id="v-phone" data-placeholder="[Phone Number]">[Phone Number]</span></div>
-      <div class="info-row"><span class="info-label">Virtual Hours</span><span class="info-value is-empty" id="v-virtual" data-placeholder="[Zoom link if applicable]">[Zoom link if applicable]</span></div>
     </div>
   </section>
 
@@ -308,7 +305,7 @@
 (function(){
   var KEY='syllabus-contact:MUS111';
   var fields=[['f-instructor','v-instructor'],['f-email','v-email'],['f-phone','v-phone'],
-              ['f-office','v-office'],['f-officehours','v-officehours'],['f-virtual','v-virtual']];
+              ['f-office','v-office'],['f-officehours','v-officehours']];
   function $(id){return document.getElementById(id);}
   function applyOne(fid,vid){
     var inp=$(fid),span=$(vid); if(!inp||!span) return;
