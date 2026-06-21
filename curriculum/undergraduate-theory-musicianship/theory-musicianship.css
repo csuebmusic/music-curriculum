@@ -783,3 +783,45 @@ hr.div, .section-divider {
 main a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent-tint); }
 main a:hover { border-bottom-color: var(--accent); }
 nav a { border-bottom: none; }
+
+
+/* ============================================================
+   instructor details sidebar + print-to-PDF (syllabi)
+   the sidebar is screen-only; the print block hides it and the
+   back-link and lays the page out as a clean PDF. behaviour lives
+   in syllabus-tools.js, included once per syllabus.
+   ============================================================ */
+.syllabus-tools{position:fixed;top:24px;right:24px;width:284px;z-index:200;background:var(--paper);
+  border:1px solid var(--rule);border-top:3px solid var(--accent);padding:16px 18px 18px;
+  box-shadow:0 6px 24px rgba(0,0,0,.08);max-height:calc(100vh - 48px);overflow-y:auto;}
+.syllabus-tools h2{font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.06em;
+  text-transform:lowercase;color:var(--accent);margin:0 0 4px;}
+.syllabus-tools .st-hint{font-family:var(--serif);font-size:.78rem;color:var(--ink-soft);
+  line-height:1.5;margin:0 0 12px;}
+.syllabus-tools label{display:block;font-family:var(--mono);font-size:.62rem;letter-spacing:.04em;
+  color:var(--ink-soft);text-transform:lowercase;margin:10px 0 3px;}
+.syllabus-tools input{width:100%;font-family:var(--mono);font-size:.78rem;color:var(--ink);
+  background:#fff;border:1px solid var(--rule);border-radius:2px;padding:6px 8px;}
+.syllabus-tools input:focus{outline:none;border-color:var(--accent);}
+.syllabus-tools .st-actions{margin-top:14px;}
+.syllabus-tools button{width:100%;font-family:var(--mono);font-size:.74rem;letter-spacing:.04em;
+  text-transform:lowercase;color:#fff;background:var(--accent);border:none;border-radius:2px;
+  padding:9px 10px;cursor:pointer;}
+.syllabus-tools button:hover{background:#5a1922;}
+.syllabus-tools .st-saved{font-family:var(--mono);font-size:.6rem;color:var(--ink-soft);
+  margin-top:8px;text-align:center;min-height:1em;}
+.info-value.is-empty{color:var(--ink-soft);}
+@media (max-width:1240px){
+  .syllabus-tools{position:static;width:auto;max-width:var(--measure);margin:0 auto 18px;box-shadow:none;}
+}
+@media print{
+  .syllabus-tools,.back-link{display:none !important;}
+  body{background:#fff !important;}
+  body.doc-single main{max-width:none;width:auto;border:none;padding:0;margin:0;}
+  main a{border-bottom:none !important;}
+  thead{display:table-header-group;}
+  tr,.benchmark-card,.policy-block,.meta-strip{page-break-inside:avoid;}
+  h2{page-break-after:avoid;}
+  .syllabus-section{page-break-inside:auto;}
+  @page{margin:18mm 16mm;}
+}

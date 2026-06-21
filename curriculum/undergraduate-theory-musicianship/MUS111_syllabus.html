@@ -8,62 +8,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="theory-musicianship.css">
-<style id="st-style">
-  .syllabus-tools{position:fixed;top:24px;right:24px;width:284px;z-index:200;background:var(--paper);
-    border:1px solid var(--rule);border-top:3px solid var(--accent);padding:16px 18px 18px;
-    box-shadow:0 6px 24px rgba(0,0,0,.08);max-height:calc(100vh - 48px);overflow-y:auto;}
-  .syllabus-tools h2{font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.06em;
-    text-transform:lowercase;color:var(--accent);margin:0 0 4px;}
-  .syllabus-tools .st-hint{font-family:var(--serif);font-size:.78rem;color:var(--ink-soft);
-    line-height:1.5;margin:0 0 12px;}
-  .syllabus-tools label{display:block;font-family:var(--mono);font-size:.62rem;letter-spacing:.04em;
-    color:var(--ink-soft);text-transform:lowercase;margin:10px 0 3px;}
-  .syllabus-tools input{width:100%;font-family:var(--mono);font-size:.78rem;color:var(--ink);
-    background:#fff;border:1px solid var(--rule);border-radius:2px;padding:6px 8px;}
-  .syllabus-tools input:focus{outline:none;border-color:var(--accent);}
-  .syllabus-tools .st-actions{margin-top:14px;}
-  .syllabus-tools button{width:100%;font-family:var(--mono);font-size:.74rem;letter-spacing:.04em;
-    text-transform:lowercase;color:#fff;background:var(--accent);border:none;border-radius:2px;
-    padding:9px 10px;cursor:pointer;}
-  .syllabus-tools button:hover{background:#5a1922;}
-  .syllabus-tools .st-saved{font-family:var(--mono);font-size:.6rem;color:var(--ink-soft);
-    margin-top:8px;text-align:center;min-height:1em;}
-  .info-value.is-empty{color:var(--ink-soft);}
-  @media (max-width:1240px){
-    .syllabus-tools{position:static;width:auto;max-width:var(--measure);margin:0 auto 18px;box-shadow:none;}
-  }
-  @media print{
-    .syllabus-tools,.back-link{display:none !important;}
-    body{background:#fff !important;}
-    body.doc-single main{max-width:none;width:auto;border:none;padding:0;margin:0;}
-    main a{border-bottom:none !important;}
-    thead{display:table-header-group;}
-    tr,.benchmark-card,.policy-block,.meta-strip{page-break-inside:avoid;}
-    h2{page-break-after:avoid;}
-    .syllabus-section{page-break-inside:auto;}
-    @page{margin:18mm 16mm;}
-  }
-</style>
 </head>
 <body class="doc-single">
-<aside class="syllabus-tools no-print" aria-label="instructor details">
-  <h2>instructor details</h2>
-  <p class="st-hint">fill these in, then download a PDF. they stay on this device for next time.</p>
-  <label for="f-instructor">instructor</label>
-  <input id="f-instructor" type="text" autocomplete="off" placeholder="name">
-  <label for="f-email">email</label>
-  <input id="f-email" type="text" autocomplete="off" placeholder="name@csueastbay.edu">
-  <label for="f-phone">phone</label>
-  <input id="f-phone" type="text" autocomplete="off" placeholder="(000) 000-0000">
-  <label for="f-office">office location</label>
-  <input id="f-office" type="text" autocomplete="off" placeholder="building / room">
-  <label for="f-officehours">office hours</label>
-  <input id="f-officehours" type="text" autocomplete="off" placeholder="days / times">
-  <div class="st-actions">
-    <button id="st-download" type="button">download pdf</button>
-    <div class="st-saved" id="st-saved"></div>
-  </div>
-</aside>
 <main>
 
   <a class="back-link" href="3_Theory-Musicianship-Undergraduate-Syllabi.html">&larr; Syllabus Templates</a>
@@ -84,11 +30,11 @@
   <section id="contact" class="syllabus-section">
     <h2>Contact Information</h2>
     <div class="info-grid">
-      <div class="info-row"><span class="info-label">Instructor</span><span class="info-value is-empty" id="v-instructor" data-placeholder="[Instructor Name]">[Instructor Name]</span></div>
-      <div class="info-row"><span class="info-label">Office</span><span class="info-value is-empty" id="v-office" data-placeholder="[Office Location]">[Office Location]</span></div>
-      <div class="info-row"><span class="info-label">Email</span><span class="info-value is-empty" id="v-email" data-placeholder="[name]@csueastbay.edu">[name]@csueastbay.edu</span></div>
-      <div class="info-row"><span class="info-label">Office Hours</span><span class="info-value is-empty" id="v-officehours" data-placeholder="[Days/Times, physical or virtual]">[Days/Times, physical or virtual]</span></div>
-      <div class="info-row"><span class="info-label">Phone</span><span class="info-value is-empty" id="v-phone" data-placeholder="[Phone Number]">[Phone Number]</span></div>
+      <div class="info-row"><span class="info-label">Instructor</span><span class="info-value">[Instructor Name]</span></div>
+      <div class="info-row"><span class="info-label">Office</span><span class="info-value">[Office Location]</span></div>
+      <div class="info-row"><span class="info-label">Email</span><span class="info-value">[name]@csueastbay.edu</span></div>
+      <div class="info-row"><span class="info-label">Office Hours</span><span class="info-value">[Days/Times, physical or virtual]</span></div>
+      <div class="info-row"><span class="info-label">Phone</span><span class="info-value">[Phone Number]</span></div>
     </div>
   </section>
 
@@ -301,36 +247,6 @@
     MUS 111 &mdash; Music Theory I &nbsp;&middot;&nbsp; Department of Music, California State University, East Bay &nbsp;&middot;&nbsp; Version 2.0, Summer 2026
   </div>
 </main>
-<script>
-(function(){
-  var KEY='syllabus-contact:MUS111';
-  var fields=[['f-instructor','v-instructor'],['f-email','v-email'],['f-phone','v-phone'],
-              ['f-office','v-office'],['f-officehours','v-officehours']];
-  function $(id){return document.getElementById(id);}
-  function applyOne(fid,vid){
-    var inp=$(fid),span=$(vid); if(!inp||!span) return;
-    var v=inp.value.trim();
-    if(v){span.textContent=v;span.classList.remove('is-empty');}
-    else{span.textContent=span.getAttribute('data-placeholder')||'';span.classList.add('is-empty');}
-  }
-  function applyAll(){fields.forEach(function(f){applyOne(f[0],f[1]);});}
-  var flashTimer;
-  function flash(m){var el=$('st-saved');if(!el)return;el.textContent=m;clearTimeout(flashTimer);
-    flashTimer=setTimeout(function(){el.textContent='';},1600);}
-  function save(){try{var d={};fields.forEach(function(f){d[f[0]]=($(f[0])||{}).value||'';});
-    localStorage.setItem(KEY,JSON.stringify(d));flash('saved on this device');}catch(e){}}
-  function load(){try{var r=localStorage.getItem(KEY);if(!r)return;var d=JSON.parse(r);
-    fields.forEach(function(f){if($(f[0])&&d[f[0]]!=null)$(f[0]).value=d[f[0]];});}catch(e){}}
-  document.addEventListener('DOMContentLoaded',function(){
-    load();applyAll();
-    fields.forEach(function(f){var inp=$(f[0]);if(inp)inp.addEventListener('input',function(){applyOne(f[0],f[1]);save();});});
-    var btn=$('st-download');
-    if(btn)btn.addEventListener('click',function(){
-      var prev=document.title;document.title='MUS 111 \u2014 Music Theory I \u2014 Syllabus';
-      window.print();setTimeout(function(){document.title=prev;},500);
-    });
-  });
-})();
-</script>
+<script src="syllabus-tools.js" defer></script>
 </body>
 </html>
