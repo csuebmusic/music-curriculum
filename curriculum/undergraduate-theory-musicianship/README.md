@@ -33,4 +33,4 @@ Curriculum documentation for the Theory and Musicianship sequence leading to the
 - [MUS 312: Form and Analysis](MUS312_syllabus.html) (fall)
 - [MUS 410: 20th and 21st Century Styles and Techniques](MUS410_syllabus.html) (spring)
 
-Version 1.0, Spring 2026.
+Version 2.0, Summer 2026.
