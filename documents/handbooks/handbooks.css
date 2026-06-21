@@ -60,7 +60,7 @@ nav {
 }
 .nav-logo {
   font-family: var(--mono);
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   font-weight: 700;
   letter-spacing: 0.04em;
   line-height: 1.4;
@@ -70,7 +70,7 @@ nav {
 }
 .nav-version {
   font-family: var(--mono);
-  font-size: 0.62rem;
+  font-size: 0.66rem;
   letter-spacing: 0.06em;
   color: rgba(255,255,255,0.4);
   margin-top: 0.5rem;
@@ -82,19 +82,25 @@ nav a {
   color: rgba(255,255,255,0.74);
   text-decoration: none;
   border: none;
-  font-size: 0.76rem;
-  line-height: 1.35;
-  padding: 0.3rem 0;
+  font-size: 0.83rem;
+  line-height: 1.4;
+  padding: 0.32rem 0;
   transition: color 0.15s;
 }
 nav a:hover { color: #fff; }
 nav a .nav-num { color: var(--accent); font-weight: 700; margin-right: 0.5rem; }
 .nav-sub {
-  font-size: 0.7rem !important;
-  color: rgba(255,255,255,0.5) !important;
-  padding: 0.2rem 0 0.2rem 1.5rem !important;
+  font-size: 0.77rem !important;
+  color: rgba(255,255,255,0.55) !important;
+  padding: 0.22rem 0 0.22rem 1.5rem !important;
 }
 .nav-sub:hover { color: #fff !important; }
+.nav-sub2 {
+  font-size: 0.73rem !important;
+  color: rgba(255,255,255,0.45) !important;
+  padding: 0.18rem 0 0.18rem 2.7rem !important;
+}
+.nav-sub2:hover { color: #fff !important; }
 .nav-divider {
   border: none;
   border-top: 1px solid rgba(255,255,255,0.14);
