@@ -484,3 +484,37 @@ footer {
   font-size: 0.92rem;
   margin: 0 0 0.35rem;
 }
+
+/* ------------------------------------------------------------------
+   folded panels (details/summary): collapsible guideline sections.
+   Courier Prime summary in the oxblood accent, serif body, flat chrome.
+   ------------------------------------------------------------------ */
+details.fold {
+  border: 1px solid var(--rule);
+  margin: 0.5rem 0;
+  background: var(--paper);
+}
+details.fold > summary {
+  font-family: var(--mono);
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--accent);
+  padding: 0.6rem 0.9rem;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+}
+details.fold > summary::-webkit-details-marker { display: none; }
+details.fold > summary::before {
+  content: "+";
+  width: 1ch;
+  color: var(--accent);
+  font-weight: 700;
+}
+details.fold[open] > summary::before { content: "\2212"; }
+details.fold[open] > summary { border-bottom: 1px solid var(--rule); }
+details.fold .fold-body { padding: 0.5rem 0.9rem 0.85rem; }
+details.fold .fold-body > :first-child { margin-top: 0; }
+details.fold .fold-body > :last-child { margin-bottom: 0; }
