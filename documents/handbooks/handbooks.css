@@ -391,6 +391,19 @@ table.hb-table {
 .hb-figure figcaption strong { color: var(--accent); font-weight: 700; }
 
 /* ── jury requirements by area ── */
+/* one label size throughout; color carries the distinction, not size */
+.jarea {
+  font-family: var(--mono);
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: lowercase;
+  letter-spacing: 0.02em;
+  color: var(--accent);
+  background: var(--accent-tint);
+  border-left: 3px solid var(--accent);
+  padding: 0.55rem 0.85rem;
+  margin: 2.2rem 0 1.1rem;
+}
 .jlevel {
   font-family: var(--mono);
   font-size: 0.95rem;
@@ -404,22 +417,18 @@ table.hb-table {
 }
 .jlevel:first-of-type { border-top: none; padding-top: 0; margin-top: 0.6rem; }
 .jtag {
-  font-family: var(--mono);
-  font-size: 0.7rem;
+  font-size: 0.95rem;
   font-weight: 700;
-  letter-spacing: 0.03em;
-  text-transform: lowercase;
   color: var(--accent);
-  margin-left: 0.55rem;
+  margin-left: 0.6rem;
 }
 .jlabel {
   font-family: var(--mono);
-  font-size: 0.72rem;
+  font-size: 0.95rem;
   font-weight: 700;
-  letter-spacing: 0.04em;
   text-transform: lowercase;
   color: var(--ink-soft);
-  margin: 0.75rem 0 0.15rem;
+  margin: 0.85rem 0 0.2rem;
 }
 
 /* ── footer ── */
