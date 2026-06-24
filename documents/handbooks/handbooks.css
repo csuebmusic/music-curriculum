@@ -279,6 +279,12 @@ ol.num-steps > li::before {
   color: var(--accent); flex: 0 0 auto; min-width: 5.5rem;
 }
 .cl-title { font-family: var(--serif); flex: 1 1 auto; line-height: 1.45; }
+.cl-desc {
+  display: block;
+  font-family: var(--serif); font-weight: 400;
+  font-size: 0.9rem; color: var(--ink-soft);
+  line-height: 1.5; margin-top: 0.3rem;
+}
 .cl-ge { font-family: var(--serif); font-style: italic; font-size: 0.85rem; color: var(--ink-soft); }
 .cl-units {
   font-family: var(--mono); font-size: 0.78rem; color: var(--ink-soft);
