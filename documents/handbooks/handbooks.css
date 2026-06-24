@@ -390,6 +390,38 @@ table.hb-table {
 }
 .hb-figure figcaption strong { color: var(--accent); font-weight: 700; }
 
+/* ── jury requirements by area ── */
+.jlevel {
+  font-family: var(--mono);
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: lowercase;
+  letter-spacing: 0;
+  color: var(--ink);
+  margin: 1.5rem 0 0.5rem;
+  padding-top: 0.95rem;
+  border-top: 1px solid var(--rule);
+}
+.jlevel:first-of-type { border-top: none; padding-top: 0; margin-top: 0.6rem; }
+.jtag {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: lowercase;
+  color: var(--accent);
+  margin-left: 0.55rem;
+}
+.jlabel {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: lowercase;
+  color: var(--ink-soft);
+  margin: 0.75rem 0 0.15rem;
+}
+
 /* ── footer ── */
 footer {
   margin-top: 3.5rem;
