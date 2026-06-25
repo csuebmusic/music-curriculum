@@ -437,6 +437,23 @@ table.hb-table {
   margin: 0.85rem 0 0.2rem;
 }
 
+/* ── capstone: set the recital and the lecture apart ── */
+.capstone-type {
+  margin: 0.6rem 0 1.6rem;
+  padding-left: 1.1rem;
+  border-left: 2px solid var(--rule);
+}
+.capstone-type > h5 { margin-top: 0.2rem; color: var(--accent); }
+
+/* ── body divider between parts ── */
+hr.hb-rule {
+  border: 0;
+  height: 1px;
+  background: var(--accent);
+  opacity: 0.5;
+  margin: 2.8rem 0 1.6rem;
+}
+
 /* ── footer ── */
 footer {
   margin-top: 3.5rem;
