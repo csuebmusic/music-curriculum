@@ -1,0 +1,38 @@
+/* ============================================================
+   roadmaps — GE overlay on the handbook house style.
+
+   Adds one cool secondary color for general-education rows, set
+   apart from the oxblood music accent. Roadmap-only: the handbooks
+   keep the single-accent house style (conventions/house-style.md).
+   Linked after handbooks.css by the files in documents/roadmaps/.
+   ============================================================ */
+
+:root {
+  --ge:      #2E5A72;   /* slate blue, general education */
+  --ge-tint: #EAF1F4;
+}
+
+/* general-education rows in the semester tables */
+.hb-table tr.ge td,
+.hb-table tr.ge td.col-code { color: var(--ge); }
+
+/* the GE callout: cool tint, cool left border, mono label */
+.ge-note {
+  background: var(--ge-tint);
+  border-left: 3px solid var(--ge);
+  padding: 0.95rem 1.2rem;
+  margin: 1rem 0 1.6rem;
+  font-family: var(--serif);
+  line-height: 1.65;
+}
+.ge-note .ge-label {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: lowercase;
+  color: var(--ge);
+  display: block;
+  margin-bottom: 0.4rem;
+}
+.ge-note p { margin-bottom: 0; }
