@@ -44,7 +44,7 @@ No letter tags in the level column, and keep the five integer levels tied to 4/3
 
 ## decisions to settle per course
 
-- Gaps. The bands leave 0.4-wide gaps (an average of 3.5 sits between B's 3.3 and A–'s 3.7). Pick one rule and use it on every syllabus: round the average to the nearest grade point, or widen the bands so they are contiguous. Either is fine; be consistent.
+- Gaps. The bands leave 0.4-wide gaps (an average of 3.5 sits between B's 3.3 and A–'s 3.7). Round the average to the nearest grade point, and round an exact midpoint up. State the rule in the syllabus (see style below).
 - Graduate versus undergraduate standing. The MUS 601 syllabus adds graduate rules from the Graduate Student Handbook: only C or better counts toward the degree, a C– or below must be repeated, and a cumulative 3.0 GPA is required to stay in good standing (below it triggers academic probation). Those are graduate rules. The lower-division courses are undergraduate, so do not copy that language. Use the undergraduate standing and minimum-grade rules instead.
 - Weighting. In 601 the five papers weigh equally, so the course average is a straight mean. If a course weights assignments differently, use the weighted average of the 0 to 4 scores. The conversion chart does not change.
 
@@ -52,4 +52,4 @@ No letter tags in the level column, and keep the five integer levels tied to 4/3
 
 - List the plus and minus grades low to high inside the parentheses: A (A–, A), not A (A, A–).
 - The column header reads "course average / GPA".
-- Keep no "rounds to the nearest" sentence in the syllabus itself; the gap rule is a design decision, handled above, not student-facing text.
+- State the rounding rule as student-facing text below the conversion chart: "An average that falls between two grades is rounded to the nearest one, and an exact midpoint is rounded up in your favor."
