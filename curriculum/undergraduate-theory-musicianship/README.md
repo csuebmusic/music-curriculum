@@ -2,12 +2,13 @@
 
 California State University, East Bay, Department of Music.
 
-Curriculum documentation for the Theory and Musicianship sequence leading to the B.A. in Music: two framework documents and twelve course syllabi covering MUS 108 through MUS 410.
+Curriculum documentation for the Theory and Musicianship sequence leading to the B.A. in Music: three framework documents and twelve course syllabi covering MUS 108 through MUS 410.
 
 ## framework documents
 
 - [undergraduate curriculum guide](1_Theory-Musicianship-Undergraduate-Guide.html): full sequence overview with content pacing, textbooks, workload classifications, and end-of-semester benchmarks for every course
-- [instructor's companion](2_Theory-Musicianship-Undergraduate-Instructors-Companion.html): deadline schedules and class-structure guidance for instructors teaching within the sequence
+- [instructor's companion](2_Theory-Musicianship-Undergraduate-Instructors-Companion.html): deadline schedules, class-structure guidance, and the grading and Canvas setup for instructors teaching within the sequence
+- [syllabi index](3_Theory-Musicianship-Undergraduate-Syllabi.html): all twelve syllabi in one place
 
 ## course syllabi
 
