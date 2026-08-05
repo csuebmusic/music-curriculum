@@ -1,6 +1,6 @@
 # assessment scheme: the 0-4 grade-point model
 
-version 1, august 2026.
+version 2, august 2026.
 
 The grading model used across the Theory and Musicianship syllabi and MUS 601. Apply it as written.
 
