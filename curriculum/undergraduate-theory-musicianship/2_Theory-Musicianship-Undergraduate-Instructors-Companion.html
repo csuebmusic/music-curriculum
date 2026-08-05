@@ -1074,27 +1074,27 @@
   <section class="doc-section">
     <div style="font-size:0.7rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:0.4rem;">Section 4</div>
     <h1 id="grading-canvas" style="font-family:'Courier Prime',ui-monospace,'Courier New',monospace;font-size:1.9rem;font-weight:700;margin-bottom:0.5rem;">Grading and Canvas Setup</h1>
-    <p style="font-size:0.95rem;color:var(--muted);font-style:italic;margin-bottom:2rem;padding-bottom:1.5rem;border-bottom:2px solid var(--ink);">Applies to every course in the sequence. All 12 syllabi carry the same 0&ndash;4 grade-point scale, and Canvas needs a specific setup for the gradebook to agree with it. Read this before building a course shell.</p>
+    <p style="font-size:0.95rem;color:var(--muted);font-style:italic;margin-bottom:2rem;padding-bottom:1.5rem;border-bottom:2px solid var(--ink);">Applies to every course in the sequence. All 12 syllabi use the same 0&ndash;4 grade-point scale, which requires a specific Canvas setup. Work through this section when building a course shell.</p>
 
     <section class="semester-block">
 
-    <h3 class="sub-header">How the Scale Works</h3>
+    <h3 class="sub-header">The Scale</h3>
 
-    <p>Every graded item is scored 0 to 4, and that score is its grade-point value: 4 is an A, 3 a B, 2 a C, 1 a D, 0 an F. The course grade is the weighted average of those scores, which is the course GPA, converted to a letter by the anchors in the syllabus. Nothing is divided by 4 at any point in the calculation. A student who turns in consistently good work earns 3s, averages 3.0, and receives a B.</p>
+    <p>Every graded item is scored 0 to 4, and that score is its grade-point value: 4 is an A, 3 a B, 2 a C, 1 a D, 0 an F. The course grade is the weighted average of those scores, converted to a letter by the anchors in the syllabus. An average falling between two anchors rounds to the nearest one, and an exact midpoint rounds up in the student's favor.</p>
 
-    <p>The syllabus chart lists all 11 anchors rather than 5 collapsed bands, so a student can see which of B&ndash;, B, and B+ a given average lands on. An average falling between two anchors rounds to the nearest one, and an exact midpoint rounds up in the student's favor. That rule is what turns a list of anchors into a complete scale, so it stays attached to the chart wherever the chart is reproduced.</p>
+    <h3 class="sub-header">Gradebook Setup</h3>
 
-    <h3 class="sub-header">Building the Canvas Gradebook</h3>
+    <p>Two conditions keep the Canvas percentage proportional to the 0 to 4 average.</p>
 
-    <p>Canvas reports a running percentage of points earned out of points available, which is a different quantity from the 0 to 4 average unless the course is built to keep the two proportional. Two conditions do that.</p>
+    <p><strong>Set every graded item to 4 points possible.</strong> A single assignment left at another point value pulls the course total away from the average for the rest of the term.</p>
 
-    <p>First, every graded item is set to 4 points possible in Canvas, without exception. A single 10-point quiz pulls the course total away from the average and breaks the correspondence for the whole term. Second, weighting runs through weighted assignment groups whose percentages match the component table in the syllabus, rather than through unequal point totals. Build one assignment group per component (Lesson Exercises, Group Quizzes, and so on) and enter the syllabus weight for each.</p>
+    <p><strong>Weight through assignment groups.</strong> Build one group per syllabus component (Lesson Exercises, Group Quizzes, and so on), turn on group weighting from the Assignments page menu, and enter the weight the syllabus gives each. Weighting through group percentages is what lets every item stay at 4 points.</p>
 
-    <p>With both in place, the Canvas percentage equals the weighted 0 to 4 average divided by 4 and multiplied by 100. A 3.0 average reads 75%, a 2.0 reads 50%, and the custom grading scheme below converts those back to B and C.</p>
+    <p>The Canvas percentage is then the weighted average divided by 4 and multiplied by 100. A 3.0 average reads 75%, and a 2.0 reads 50%.</p>
 
-    <h3 class="sub-header">The Custom Grading Scheme</h3>
+    <h3 class="sub-header">The Grading Scheme</h3>
 
-    <p>The default Canvas scheme posts a 3.0 average as a C and has to be replaced. The lower bound for each letter is the midpoint between its anchor and the next anchor down, expressed as a percentage, which is the syllabus rounding rule in the form Canvas can apply.</p>
+    <p>Replace the default Canvas scheme, which posts a 3.0 average as a C. Enter the lower bounds below.</p>
 
     <table class="grade-table" style="margin-bottom:1.25rem;max-width:560px;">
       <thead>
@@ -1117,18 +1117,20 @@
 
     <p>The rightmost column is the only one Canvas asks for. The middle two are there so you can check the result.</p>
 
-    <p>To enter it, open <strong>Settings</strong> in Course Navigation and select the <strong>Course Details</strong> tab. Check <strong>Enable course grading scheme</strong>, then click <strong>Add New Grading Scheme</strong>. Give it a name you will recognize in other shells, for example <em>Music 0&ndash;4 Grade-Point Scale</em>. Leave the scheme set to percentage rather than points. Enter each letter in the Letter Grade field with its lower bound beside it, using the Add button to reach 11 rows, and delete any rows left over from the default 5. Click <strong>Save</strong>, confirm the new scheme is selected in the Grading Scheme dropdown, and click <strong>Update Course Details</strong>. A scheme takes effect only once it is both saved and enabled, and those are two separate actions.</p>
+    <p>Open <strong>Settings</strong> in Course Navigation and select the <strong>Course Details</strong> tab. Check <strong>Enable course grading scheme</strong>, then click <strong>Add New Grading Scheme</strong>. Name it something you will recognize in other shells, for example <em>Music 0&ndash;4 Grade-Point Scale</em>. Leave it set to percentage rather than points. Enter each letter in the Letter Grade field with its lower bound beside it, using the Add button to reach 11 rows and deleting any rows left over from the default 5. Click <strong>Save</strong>, confirm the new scheme is selected in the Grading Scheme dropdown, then click <strong>Update Course Details</strong>. Saving and enabling are two separate actions, and the scheme takes effect only after both.</p>
 
-    <p>The scheme travels with the course. Once one section is set up, importing that shell into the next term carries the scheme and the assignment groups with it, and the setup only has to be checked rather than rebuilt.</p>
+    <p>The scheme travels with the course. Importing a set-up shell into the next term carries the scheme and the assignment groups with it, so later terms need checking rather than rebuilding.</p>
 
-    <h3 class="sub-header">Checking It</h3>
+    <h3 class="sub-header">Checking the Setup</h3>
 
-    <p>The setup is correct when each anchor posts its own letter. Enter test scores in Student View: all 4s should read 100% and A, all 3s should read 75% and B, all 2s should read 50% and C. An off-by-a-little result on that check usually means one assignment was left at a point value other than 4, which is worth finding in week 1 rather than week 15.</p>
+    <p>Enter test scores in Student View. All 4s should read 100% and A, all 3s should read 75% and B, and all 2s should read 50% and C. A result that is off by a little usually means one assignment sits at a point value other than 4, which is worth finding in week 1 rather than week 15.</p>
+
+    <h3 class="sub-header">Policy Settings</h3>
 
     <div class="policy-block">
-      <p><strong>Late work.</strong> The syllabus late policy (2% per day, floor of 50%) maps onto the Canvas Late Policy settings directly: set the late submission deduction to 2% per day and the lowest possible grade to 50%. Canvas deducts a percentage of points possible, so on a 4-point item that is 0.08 points per day.</p>
-      <p><strong>Missing work.</strong> A missing submission is a 0, which is the F anchor. The Canvas Missing Submission policy can apply that automatically, though it will do so on the due date rather than after the late window closes, so most instructors in the sequence enter those by hand.</p>
-      <p><strong>Rubrics.</strong> If you attach a SpeedGrader rubric to an assignment, the rubric total must also come to 4 points, or it will overwrite the assignment's point value on submit.</p>
+      <p><strong>Late work.</strong> Set the Canvas Late Policy to deduct 2% per day with a lowest possible grade of 50%, matching the syllabus. Canvas deducts a percentage of points possible, so on a 4-point item that is 0.08 points per day.</p>
+      <p><strong>Missing work.</strong> A missing submission is a 0. The Canvas Missing Submission policy applies that on the due date rather than after the late window closes, so most instructors in the sequence enter those by hand.</p>
+      <p><strong>Rubrics.</strong> A SpeedGrader rubric attached to an assignment must total 4 points, or it overwrites the assignment's point value on submit.</p>
     </div>
 
     </section>
