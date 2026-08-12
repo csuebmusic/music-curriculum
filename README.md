@@ -10,6 +10,7 @@ The HTML documents are published at https://csuebmusic.github.io/music-curriculu
 - [graduate handbook](https://csuebmusic.github.io/music-curriculum/documents/handbooks/graduate-handbook.html)
 - [B.A. roadmap, 4-year entry](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-roadmap-4-year.html)
 - [B.A. roadmap, 2-year transfer entry](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-roadmap-2-year-transfer.html)
+- [music education certificate roadmap](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/music-education-certificate-roadmap.html): the 31-unit certificate on its two-year course rotation
 
 ## theory and musicianship curriculum
 
@@ -39,6 +40,6 @@ The repository is active, and the folders fill as each workstream produces mater
 
 Committee papers, proposals, and assessment reports follow `conventions/house-style.md` and go out as Word or PDF from the template.
 
-Student-facing documents are screen-first and ship as finished HTML rather than Word. The handbooks and roadmaps apply the same house style through `documents/handbooks/handbooks.css`, and the Theory and Musicianship set applies it through `curriculum/undergraduate-theory-musicianship/theory-musicianship.css`. Both stylesheets track house-style v1.
+Student-facing documents are screen-first and ship as finished HTML rather than Word. The handbooks and roadmaps apply the same house style through `documents/handbooks/handbooks.css`, and the Theory and Musicianship set applies it through `curriculum/undergraduate-theory-musicianship/theory-musicianship.css`. Both stylesheets track house-style v1. The roadmaps layer `documents/roadmaps/roadmaps.css` on top for the general-education color and for print.
 
 The website pocket is the one exception. Its markup is structural only, and Cascade supplies the appearance.
