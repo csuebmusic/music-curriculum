@@ -36,3 +36,20 @@
   margin-bottom: 0.4rem;
 }
 .ge-note p { margin-bottom: 0; }
+
+/* ── print ── */
+@media print {
+  body { display: block; background: #fff; font-size: 11pt; }
+  nav { display: none; }
+  main {
+    margin-left: 0;
+    width: 100%;
+    max-width: none;
+    padding: 0;
+    min-height: 0;
+  }
+  a { color: var(--ink); border-bottom: none; }
+  .page-header, section, table, .policy-block, .ge-note { break-inside: avoid; }
+  thead { display: table-header-group; }
+  footer { break-inside: avoid; }
+}
