@@ -10,8 +10,8 @@ The HTML documents are published at https://csuebmusic.github.io/music-curriculu
 - [graduate handbook](https://csuebmusic.github.io/music-curriculum/documents/handbooks/graduate-handbook.html)
 - [B.A. roadmap, 4-year entry](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-roadmap-4-year.html)
 - [B.A. roadmap, 2-year transfer entry](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-roadmap-2-year-transfer.html)
-- [music education certificate roadmap](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/music-education-certificate-roadmap.html): the 31-unit certificate on its two-year course rotation
 - [FAST 4+1 B.A./M.A. roadmap](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/fast-ba-ma-roadmap.html): both degrees in five years
+- [music education certificate roadmap](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/music-education-certificate-roadmap.html): the 31-unit certificate on its two-year course rotation
 
 ## theory and musicianship curriculum
 
