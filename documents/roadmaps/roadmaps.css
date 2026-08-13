@@ -8,38 +8,46 @@
    ============================================================ */
 
 :root {
-  --ge:      #2E5A72;   /* slate blue, general education */
-  --ge-tint: #EAF1F4;
+  --ge:           #2E5A72;   /* slate blue, general education */
+  --ge-tint:      #EAF1F4;
+  --free-tint:    #F2F2F0;   /* free elective and open units */
+  --blend:        #4A6741;   /* moss, units counting toward both degrees */
+  --blend-tint:   #ECF1EA;
 }
 
-/* general-education rows in the semester tables */
-.hb-table tr.ge td,
+/* row types in the semester tables */
+.hb-table tr.ge td { background: var(--ge-tint); }
 .hb-table tr.ge td.col-code { color: var(--ge); }
+.hb-table tr.free td { background: var(--free-tint); color: var(--ink-soft); }
+.hb-table tr.blended td { background: var(--blend-tint); }
+.hb-table tr.blended td.col-code { color: var(--blend); }
 
-/* the GE callout: cool tint, cool left border, mono label */
-.ge-note {
-  background: var(--ge-tint);
-  border-left: 3px solid var(--ge);
-  padding: 0.95rem 1.2rem;
+/* key to the row colors */
+.row-key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.4rem;
   margin: 1rem 0 1.6rem;
-  font-family: var(--serif);
-  line-height: 1.65;
-}
-.ge-note .ge-label {
   font-family: var(--mono);
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: lowercase;
-  color: var(--ge);
-  display: block;
-  margin-bottom: 0.4rem;
+  font-size: 0.76rem;
+  color: var(--ink-soft);
 }
-.ge-note p { margin-bottom: 0; }
+.row-key span { display: flex; align-items: center; gap: 0.45rem; }
+.row-key i {
+  width: 1.6rem;
+  height: 0.9rem;
+  border: 1px solid var(--rule);
+  display: inline-block;
+}
+.row-key .sw-major { background: var(--paper); }
+.row-key .sw-ge { background: var(--ge-tint); border-color: var(--ge); }
+.row-key .sw-free { background: var(--free-tint); }
+.row-key .sw-blend { background: var(--blend-tint); border-color: var(--blend); }
+
 
 /* ── print ── */
 @media print {
-  body { display: block; background: #fff; font-size: 11pt; }
+  body { display: block; background: #fff; font-size: 11pt; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
   nav { display: none; }
   main {
     margin-left: 0;
@@ -49,7 +57,7 @@
     min-height: 0;
   }
   a { color: var(--ink); border-bottom: none; }
-  .page-header, section, table, .policy-block, .ge-note { break-inside: avoid; }
+  .page-header, section, table, .policy-block, .row-key { break-inside: avoid; }
   thead { display: table-header-group; }
   footer { break-inside: avoid; }
 }
