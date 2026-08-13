@@ -15,9 +15,19 @@
   --blend-tint:   #ECF1EA;
 }
 
-/* ── narrower measure than the handbooks ── */
-main { max-width: calc(820px + var(--sidebar-w)); }
-@media (max-width: 860px) { main { max-width: 100%; } }
+/* ── narrower measure than the handbooks, centered in the space beside the sidebar ── */
+main {
+  max-width: none;
+  width: calc(100% - var(--sidebar-w));
+  padding-left: 0;
+  padding-right: 0;
+}
+main > * { max-width: 720px; margin-left: auto; margin-right: auto; }
+main > footer { max-width: 720px; }
+@media (max-width: 860px) {
+  main { width: 100%; padding-left: 1.4rem; padding-right: 1.4rem; }
+  main > * { max-width: 100%; }
+}
 
 /* row types in the semester tables */
 .hb-table tr.ge td { background: var(--ge-tint); }
@@ -60,6 +70,7 @@ main { max-width: calc(820px + var(--sidebar-w)); }
     padding: 0;
     min-height: 0;
   }
+  main > * { max-width: none; }
   a { color: var(--ink); border-bottom: none; }
   .page-header, section, table, .policy-block, .row-key { break-inside: avoid; }
   thead { display: table-header-group; }
