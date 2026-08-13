@@ -15,6 +15,10 @@
   --blend-tint:   #ECF1EA;
 }
 
+/* ── narrower measure than the handbooks ── */
+main { max-width: calc(820px + var(--sidebar-w)); }
+@media (max-width: 860px) { main { max-width: 100%; } }
+
 /* row types in the semester tables */
 .hb-table tr.ge td { background: var(--ge-tint); }
 .hb-table tr.ge td.col-code { color: var(--ge); }
