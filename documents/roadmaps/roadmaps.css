@@ -46,6 +46,7 @@ main > footer { max-width: 800px; }
   font-size: 0.76rem;
   color: var(--ink-soft);
 }
+main > .row-key { max-width: 800px; margin-left: auto; margin-right: auto; }
 .row-key span { display: flex; align-items: center; gap: 0.45rem; }
 .row-key i {
   width: 1.6rem;
