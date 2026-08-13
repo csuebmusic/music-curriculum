@@ -34,6 +34,7 @@ main > footer { max-width: 900px; }
 .hb-table tr.ge td.col-code { color: var(--ge); }
 .hb-table tr.free td { background: var(--free-tint); color: var(--ink-soft); }
 .hb-table tr.blended td { background: var(--blend-tint); }
+.hb-table tr.row-accent.blend-total td { color: var(--blend); background: var(--blend-tint); }
 .hb-table tr.blended td.col-code { color: var(--blend); }
 
 /* key to the row colors */
