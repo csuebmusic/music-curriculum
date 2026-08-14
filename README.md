@@ -21,6 +21,12 @@ Three framework documents and the twelve syllabi from MUS 108 through MUS 410. T
 - [instructor's companion](https://csuebmusic.github.io/music-curriculum/curriculum/undergraduate-theory-musicianship/2_Theory-Musicianship-Undergraduate-Instructors-Companion.html): deadline schedules, class-structure guidance, grading and Canvas setup
 - [syllabi index](https://csuebmusic.github.io/music-curriculum/curriculum/undergraduate-theory-musicianship/3_Theory-Musicianship-Undergraduate-Syllabi.html): all twelve syllabi in one place
 
+## semester syllabi
+
+Posted syllabi for individual sections, one file per section per term, with a permanent link for Canvas. The [syllabi README](syllabi/README.md) covers naming, posting, and editing in the browser.
+
+- [fall 2026](https://csuebmusic.github.io/music-curriculum/syllabi/fall-2026/)
+
 ## conventions
 
 - [house-style.md](conventions/house-style.md) is the canonical style spec, with [house-style-specimen.html](https://csuebmusic.github.io/music-curriculum/conventions/house-style-specimen.html) as its on-screen reference and [house-style-template.docx](conventions/templates/house-style-template.docx) as the document starting point.
@@ -29,6 +35,7 @@ Three framework documents and the twelve syllabi from MUS 108 through MUS 410. T
 ## layout
 
 - `conventions/` holds the house style and the grading scheme.
+- `syllabi/` holds the syllabi posted for individual sections, in one folder per term.
 - `curriculum/` holds course and program proposals and curriculum documentation, organized into subsections, each with its own README. The first is the undergraduate Theory and Musicianship sequence.
 - `documents/` holds the handbooks, the roadmaps, and program, admissions, and policy material.
 - `committee/` holds agendas, minutes, and papers for the CLASS curriculum committee.
