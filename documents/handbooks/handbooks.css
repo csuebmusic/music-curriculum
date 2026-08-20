@@ -541,3 +541,84 @@ details.fold[open] > summary { border-bottom: 1px solid var(--rule); }
 details.fold .fold-body { padding: 0.5rem 0.9rem 0.85rem; }
 details.fold .fold-body > :first-child { margin-top: 0; }
 details.fold .fold-body > :last-child { margin-bottom: 0; }
+
+/* ------------------------------------------------------------------
+   hour tracker: editable worksheet with print-to-PDF, used by the
+   equipment office student assistant guide.
+   ------------------------------------------------------------------ */
+.tracker {
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--accent);
+  background: var(--paper);
+  padding: 1rem 1.1rem 1.2rem;
+  margin: 1rem 0;
+}
+.tracker-head {
+  font-family: var(--mono); font-size: 0.78rem; font-weight: 700;
+  color: var(--accent); margin-bottom: 0.8rem;
+}
+.tk-fields {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.6rem 1rem;
+  margin-bottom: 1rem;
+}
+.tk-field label {
+  display: block; font-family: var(--mono); font-size: 0.7rem;
+  color: var(--ink-soft); margin-bottom: 0.1rem;
+}
+.tk-field input {
+  width: 100%; font-family: var(--mono); font-size: 0.85rem; color: var(--ink);
+  background: var(--paper); border: 0; border-bottom: 1px solid var(--rule);
+  padding: 0.25rem 0.1rem;
+}
+.tk-field input:focus { outline: none; border-bottom-color: var(--accent); }
+table.tk-table { width: 100%; border-collapse: collapse; font-family: var(--mono); font-size: 0.82rem; }
+.tk-table th {
+  font-family: var(--mono); font-size: 0.7rem; font-weight: 700; text-align: left;
+  color: var(--ink-soft); padding: 0.3rem 0.4rem; border-bottom: 1.5px solid var(--accent);
+}
+.tk-table td { padding: 0.1rem 0.4rem; border-bottom: 1px solid var(--rule); }
+.tk-table td.tk-wk { color: var(--ink-soft); width: 4.5rem; }
+.tk-table th.tk-num, .tk-table td.tk-num, .tk-table th.tk-bal, .tk-table td.tk-bal { text-align: right; }
+.tk-table input {
+  width: 100%; font-family: var(--mono); font-size: 0.82rem; color: var(--ink);
+  border: 0; background: transparent; padding: 0.22rem 0;
+}
+.tk-table input.tk-num { text-align: right; }
+.tk-table input:focus { outline: none; background: var(--accent-tint); }
+.tk-bal { color: var(--ink-soft); }
+.tk-bal.low { color: var(--accent); font-weight: 700; }
+.tk-table tr.tk-total td {
+  border-bottom: none; border-top: 1.5px solid var(--accent);
+  font-weight: 700; padding-top: 0.45rem;
+}
+.tk-actions { display: flex; gap: 0.6rem; margin-top: 1rem; flex-wrap: wrap; }
+.tk-btn {
+  font-family: var(--mono); font-size: 0.78rem; color: var(--accent);
+  background: var(--paper); border: 1px solid var(--accent);
+  padding: 0.35rem 0.85rem; cursor: pointer;
+}
+.tk-btn:hover { background: var(--accent-tint); }
+.tk-summary { font-family: var(--mono); font-size: 0.75rem; color: var(--ink-soft); margin-top: 0.7rem; }
+
+/* print sheet: only the generated worksheet reaches the page */
+#print-root { display: none; }
+@media print {
+  body.tracker-print { display: block; background: #fff; }
+  body.tracker-print > *:not(#print-root) { display: none !important; }
+  body.tracker-print #print-root { display: block; padding: 0; }
+  #print-root h1 { font-family: var(--mono); font-size: 15px; font-weight: 700; margin-bottom: 0.2rem; }
+  #print-root .pr-sub { font-family: var(--mono); font-size: 10px; color: var(--ink-soft); margin-bottom: 0.9rem; }
+  #print-root .pr-fields { font-family: var(--mono); font-size: 11px; margin-bottom: 0.9rem; line-height: 1.9; }
+  #print-root .pr-fields span { display: inline-block; margin-right: 1.6rem; }
+  #print-root table { width: 100%; border-collapse: collapse; font-family: var(--mono); font-size: 11px; }
+  #print-root th {
+    text-align: left; font-weight: 700; color: #000; padding: 3px 5px;
+    border-bottom: 1.5px solid var(--accent);
+  }
+  #print-root td { padding: 3px 5px; border-bottom: 1px solid var(--rule); }
+  #print-root .pr-num, #print-root th.pr-num { text-align: right; }
+  #print-root tr.pr-total td { border-top: 1.5px solid var(--accent); border-bottom: none; font-weight: 700; }
+  #print-root .pr-foot { font-family: var(--mono); font-size: 9px; color: var(--ink-soft); margin-top: 1rem; }
+}
