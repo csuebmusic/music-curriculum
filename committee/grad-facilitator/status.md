@@ -41,6 +41,18 @@ Out of date as posted:
 
 These channels are mapped against the 2024 plan section by section in `recruitment-plan.md`. The plan's recommendations largely exist in some form. What is missing is coverage and currency: seven programs of fifty-plus appear on the info sessions index, and no lead nurturing or source attribution is visible anywhere.
 
+## who runs what
+
+Three people, as of August 2026.
+
+- Monica Zango, Graduate Studies administrator: Handshake and BaySync.
+- Joshua Kerr, Faculty Director: Graduate Studies web pages, Salesforce and Canvas communications, and ordering of LED ads, posters, and flyers.
+- Risha Rohilla, student assistant: posters and flyers in Canva, posting to social media.
+
+Two further student assistants are expected. Joshua Kerr intends to move the ordering of marketing materials to the student assistants once they are in place.
+
+Program pages outside the Graduate Studies site are maintained department by department.
+
 ## College of Business and Economics
 
 CBE runs its own marketing and it performs well. The methods are not documented here yet.
@@ -53,7 +65,7 @@ CBE runs its own marketing and it performs well. The methods are not documented 
 - Meet with department chairs and associate deans about outreach and advertisement.
 - Meet with CBE about outreach and marketing strategies transferable to other programs, and record the methods above.
 - Pull the graduate enrollment and origin-institute figures from Pioneer Insights for a baseline by program.
-- Request Salesforce Marketing Cloud access through ITS.
+- Request Salesforce Marketing Cloud access through Joshua Kerr, who runs the central communications.
 - Check whether the [Office of Graduate Studies page](https://www.csueastbay.edu/graduate-studies/) still lists joshua.kerr@csueastbay.edu as the contact email for Dr. Divya Sitaraman, and report it to Graduate Studies if it does.
 
 ## open questions
@@ -63,7 +75,8 @@ Each names where the answer comes from.
 - Whether the Graduate School Fair sits inside this portfolio. Joshua Kerr.
 - Which unit the 2024 plan means by "Recruitment and Marketing team": University Communications and Marketing, Admissions and Student Outreach, or both. Josh Russell.
 - Whether the 9 percent university-wide yield figure has moved since November 2024, and the current figure by program. Graduate Studies, or Pioneer Insights directly.
-- Whether departments already hold Salesforce Marketing Cloud access or whether it is provisioned per request. ITS.
+- Whether departments hold their own Salesforce Marketing Cloud access or whether all sends route through Graduate Studies. Joshua Kerr.
+- What the two incoming student assistants will be assigned. Joshua Kerr.
 - What the associate deans currently do with material distributed to them for department chairs. Joshua Kerr.
 - Which colleges and departments have already been approached about graduate outreach. Joshua Kerr.
 - What has been tried and set aside. Joshua Kerr.

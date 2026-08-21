@@ -172,6 +172,8 @@ Seven candidate sections, not yet agreed. Each names something the 2024 plan ass
 
 The plan addresses "you" throughout and never says who. Assign each recommendation to Graduate Studies, the college, or the program, and name the point in the application cycle at which it happens. Name who keeps published material current and on what schedule. Seven of fifty-plus programs on the info sessions index, an ambassador page a year behind, and workshop materials from 2024 are all the same gap.
 
+Central execution runs on three people: the Graduate Studies administrator on Handshake and BaySync, the Faculty Director on the web pages, Salesforce and Canvas communications, and marketing orders, and one student assistant on Canva design and social posting. Two further student assistants are expected. Any recommendation in this plan that assumes central capacity has to be read against those numbers.
+
 ### B. the recruitment calendar
 
 Recruitment is keyed to the Cal State Apply deadlines and the plan has no dates in it. Sequence the activity against the graduate and credential application deadlines: when sessions run, when the follow-up sequence fires, when fairs happen, when pages get refreshed.
@@ -194,4 +196,4 @@ Completion rates, time to degree, and placement by program. Prospective graduate
 
 ### G. resourcing
 
-Sessions, an ambassador program, fairs at other universities, Salesforce sequences, and a website audit each cost staff time. The plan names no budget, no assigned time, and no staffing.
+Sessions, an ambassador program, fairs at other universities, Salesforce sequences, and a website audit each cost staff time. The plan names no budget, no assigned time, and no staffing. The staff available centrally is three people, one of them a student assistant, with two more student assistants expected.
