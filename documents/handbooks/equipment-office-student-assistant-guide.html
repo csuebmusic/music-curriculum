@@ -137,7 +137,7 @@
         <div class="tk-field"><label for="tk-pos">position</label><input id="tk-pos" type="text" autocomplete="off" placeholder="audio technician / stage manager"></div>
         <div class="tk-field"><label for="tk-term">academic year</label><input id="tk-term" type="text" autocomplete="off" placeholder="2026&ndash;27"></div>
         <div class="tk-field"><label for="tk-award">total award ($)</label><input id="tk-award" class="tk-num" type="number" min="0" step="1" value="3000"></div>
-        <div class="tk-field"><label for="tk-rate">hourly rate ($)</label><input id="tk-rate" class="tk-num" type="number" min="0" step="0.01" placeholder="0.00"></div>
+        <div class="tk-field"><label for="tk-rate">hourly rate ($)</label><input id="tk-rate" class="tk-num" type="number" min="0" step="0.01" value="16.90"></div>
         <div class="tk-field"><label for="tk-hours">total awarded hours</label><input id="tk-hours" class="tk-num" type="text" readonly tabindex="-1"></div>
       </div>
       <table class="tk-table">
@@ -573,7 +573,7 @@
     document.getElementById('tk-print').addEventListener('click', printSheet);
     document.getElementById('tk-clear').addEventListener('click', function(){
       if(!window.confirm('Clear every entry on this sheet?')) return;
-      ids.forEach(function(id){ document.getElementById(id).value = id === 'tk-award' ? '3000' : ''; });
+      ids.forEach(function(id){ document.getElementById(id).value = id === 'tk-award' ? '3000' : (id === 'tk-rate' ? '16.90' : ''); });
       body.querySelectorAll('input').forEach(function(el){ el.value = ''; });
       try { localStorage.removeItem(KEY); } catch(e){}
       render();
