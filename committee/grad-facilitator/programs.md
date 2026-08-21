@@ -74,6 +74,40 @@ The roster as listed on the [Office of Graduate Studies](https://www.csueastbay.
 
 Of 48 programs, 14 are reachable through a listed information session, and 9 of those 14 sit in education, counseling, or speech-language pathology. The College of Business and Economics runs its own [graduate events page](https://www.csueastbay.edu/cbegrad/events.html) covering its four master's programs. The remaining 34 programs have no session listed.
 
+## corroboration
+
+Checked against [Graduate Programs Admission Requirements by College](https://www.csueastbay.edu/ip/files/docs/grad-program-requirements.pdf), published by International Programs and marked verified July 15, 2025. It covers programs open to international applicants, so credentials and several master's programs are absent from it. The 2026-2027 catalog remains the authority and has not been read yet.
+
+Suspended:
+
+- English, M.A. (Literature, Composition, Creative Writing, TESOL). Suspended until Fall 2026, with applicants directed to Cal State Apply to confirm.
+- M.B.A. for Global Innovators. Suspended, not accepting applications for Fall 2026.
+
+In the requirements document and absent from the Graduate Studies tiles:
+
+- English, M.A.
+- M.B.A. for Global Innovators.
+- One Year Intensive M.B.A.
+- Counseling, M.S. carries three options: School Psychology, School Counseling, and Marriage and Family Therapy. The tiles list Counseling alone.
+
+Named differently in the requirements document:
+
+- Interaction Design and Interactive Art, M.A.
+- Educational Leadership for Social Justice, Ed.D.
+- Statistics, M.S. carries Biostatistics and Data Science as options, which puts the separate Biostatistics entry on the tiles in question.
+
+College placement as of July 2025:
+
+- College of Science: Biological Sciences, Chemistry, Computer Science, Construction Management, Engineering Management, Environmental Geosciences, Marine Science, Mathematics, Statistics.
+- College of Business and Economics: Accountancy, M.B.A. with Concentrations, Business Analytics, Marketing Analytics, M.B.A. for Global Innovators, One Year Intensive M.B.A.
+- College of Letters, Arts, and Social Sciences: Counseling, Educational Leadership for Social Justice, English, History, Interaction Design and Interactive Art, Music.
+- College of Health: Kinesiology, Social Work, Speech-Language Pathology.
+- Post-baccalaureate certificates: Biotechnology, Pre-Professional Health Academic Program.
+
+Marine Science is administered by Moss Landing Marine Laboratories, with applications handled there.
+
 ## to reconcile
 
 The [prospective graduate students](https://www.csueastbay.edu/graduate-studies/prospective-grad-students.html) page carries a departmental listing that disagrees with the index tiles above. It names MA programs in Art, Communication, and English and an MS in Quantitative Economics that the tiles omit, and it groups programs under a College of Education and Allied Studies while the site navigation lists a College of Health. Which listing is current, and the college each program belongs to, both need confirming before this roster is used for anything.
+
+The [College of Health](https://www.csueastbay.edu/coh/graduate-programs.html) names Nursing among its graduate programs, and Nursing does not appear in the requirements document. A [Graduate School of Education](https://www.csueastbay.edu/gse/masters.html) publishes its own master's listing, while the requirements document places Counseling and the Ed.D. under Letters, Arts, and Social Sciences. The education programs, Nursing, Health Care Administration, Public Administration, and the Art and Communication master's degrees appear in none of the sources read so far in a way that fixes their college.
