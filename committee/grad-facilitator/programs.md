@@ -4,7 +4,11 @@ The roster as it stands in the [2026-2027 catalog](https://catalog.csueastbay.ed
 
 The info session column is filled from [Graduate Program Info Sessions](https://www.csueastbay.edu/graduate-studies/graduate-program-infosessions.html), whose most recent tab is Spring 2026. College placement comes from the [Graduate School of Education](https://www.csueastbay.edu/gse/masters.html) and [College of Health](https://www.csueastbay.edu/coh/graduate-programs.html) listings and from the International Programs [admission requirements document](https://www.csueastbay.edu/ip/files/docs/grad-program-requirements.pdf) of July 2025.
 
-## Graduate School of Education
+## College of Letters, Arts, and Social Sciences
+
+### Graduate School of Education
+
+A sub-school within the college since the merger of the former College of Education and Allied Studies.
 
 | program | info session | note |
 | --- | --- | --- |
@@ -24,6 +28,21 @@ The info session column is filled from [Graduate Program Info Sessions](https://
 | [Single Subject Credential](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20503&returnto=42138) | via CSSC | |
 | [Educational Technology Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20610&returnto=42138) | no | |
 
+### other programs
+
+| program | info session | note |
+| --- | --- | --- |
+| [Communication, M.A.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20484&returnto=42138) | no | suspended |
+| [Health Care Administration, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20664&returnto=42138) | no | |
+| [History, M.A.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20697&returnto=42138) | no | |
+| [Interaction Design and Interactive Art, M.A.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20423&returnto=42138) | no | |
+| [Music, M.A.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20498&returnto=42138) | no | |
+| [Public Administration, M.P.A.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20490&returnto=42138) | no | Health Care Administration, Public Management and Policy Analysis |
+| [Hospitality, Recreation and Tourism, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20485&returnto=42138) | no | |
+| [Interaction and User Experience Design Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20693&returnto=42138) | no | |
+| [Music Single Subject Matter Preparation Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20615&returnto=42138) | no | |
+| [Social Science Single Subject Matter Preparation](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20612&returnto=42138) | no | |
+
 ## College of Science
 
 | program | info session | note |
@@ -42,20 +61,6 @@ The info session column is filled from [Graduate Program Info Sessions](https://
 | [Biotechnology Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20599&returnto=42138) | no | |
 | [Mathematics, Single Subject Matter Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20624&returnto=42138) | no | |
 | [Mathematics, Single Subject Matter Preparation](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20623&returnto=42138) | no | |
-
-## College of Letters, Arts, and Social Sciences
-
-| program | info session | note |
-| --- | --- | --- |
-| [Communication, M.A.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20484&returnto=42138) | no | suspended |
-| [Health Care Administration, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20664&returnto=42138) | no | |
-| [History, M.A.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20697&returnto=42138) | no | |
-| [Interaction Design and Interactive Art, M.A.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20423&returnto=42138) | no | |
-| [Music, M.A.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20498&returnto=42138) | no | |
-| [Public Administration, M.P.A.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20490&returnto=42138) | no | Health Care Administration, Public Management and Policy Analysis |
-| [Interaction and User Experience Design Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20693&returnto=42138) | no | |
-| [Music Single Subject Matter Preparation Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20615&returnto=42138) | no | |
-| [Social Science Single Subject Matter Preparation](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20612&returnto=42138) | no | |
 
 ## College of Business and Economics
 
@@ -82,12 +87,15 @@ The info session column is filled from [Graduate Program Info Sessions](https://
 
 | program | info session | note |
 | --- | --- | --- |
-| [Hospitality, Recreation and Tourism, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20485&returnto=42138) | no | was College of Education and Allied Studies |
 | [Post-baccalaureate Health Professions Academic Program Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20603&returnto=42138) | no | self-support only |
 
 ## coverage
 
-Fifty-one programs. Fifteen are reachable through a listed information session, and eleven of those sit in the Graduate School of Education. The five College of Business and Economics programs are covered by the college's own [graduate events page](https://www.csueastbay.edu/cbegrad/events.html). No program in the College of Science and none in Letters, Arts, and Social Sciences has a session listed.
+Fifty-one programs, eighteen of them reachable through a listed information session.
+
+Letters, Arts, and Social Sciences holds twenty-five programs, ten with a session listed, and all ten sit in the Graduate School of Education sub-school. The other fifteen, Music among them, have none.
+
+The five College of Business and Economics programs are covered by the college's own [graduate events page](https://www.csueastbay.edu/cbegrad/events.html). The College of Health has three of six covered, all in social work and speech-language pathology. No program in the College of Science has a session listed.
 
 ## suspended
 
