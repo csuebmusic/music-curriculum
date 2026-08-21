@@ -196,7 +196,9 @@ A sub-school within the college since the merger of the former College of Educat
 | [Speech-Language Pathology, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20533&returnto=42138) | yes | |
 | [Speech-Language Pathology Services Credential](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20598&returnto=42138) | yes | |
 
-## college and department to confirm
+## Continuing Education
+
+Delivered through university extension rather than held by a college or department.
 
 | program | info session | note |
 | --- | --- | --- |
@@ -218,7 +220,7 @@ Letters, Arts, and Social Sciences holds twenty-five programs, ten with a sessio
 
 The five College of Business and Economics programs are covered by the college's own [graduate events page](https://www.csueastbay.edu/cbegrad/events.html). The College of Health has three of six covered, in social work and speech-language pathology. No program in the College of Science has a session listed.
 
-Nineteen departments carry graduate programs. Six have a session listed: Educational Leadership, Educational Psychology, Teacher Education, Special Education, Social Work, and Speech, Language, and Hearing Sciences, plus the College of Business and Economics running its own.
+Nineteen departments carry graduate programs, with the M.B.A. held at college level and the health professions certificate through Continuing Education. Six have a session listed: Educational Leadership, Educational Psychology, Teacher Education, Special Education, Social Work, and Speech, Language, and Hearing Sciences, plus the College of Business and Economics running its own.
 
 ## suspended
 
