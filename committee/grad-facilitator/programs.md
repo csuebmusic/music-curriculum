@@ -10,6 +10,10 @@ The info session column is filled from [Graduate Program Info Sessions](https://
 
 A sub-school within the college since the merger of the former College of Education and Allied Studies.
 
+| program | info session | note |
+| --- | --- | --- |
+| [Post-baccalaureate Health Professions Academic Program Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20603&returnto=42138) | no | self-support only, delivered through university extension, placed here provisionally, department to confirm |
+
 #### Educational Leadership
 
 | program | info session | note |
@@ -196,14 +200,6 @@ A sub-school within the college since the merger of the former College of Educat
 | [Speech-Language Pathology, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20533&returnto=42138) | yes | |
 | [Speech-Language Pathology Services Credential](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20598&returnto=42138) | yes | |
 
-## Continuing Education
-
-Delivered through university extension rather than held by a college or department.
-
-| program | info session | note |
-| --- | --- | --- |
-| [Post-baccalaureate Health Professions Academic Program Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20603&returnto=42138) | no | self-support only |
-
 ## placements taken by inference
 
 - Interaction Design and Interactive Art, and the Interaction and User Experience Design certificate, placed in Art.
@@ -220,7 +216,7 @@ Letters, Arts, and Social Sciences holds twenty-five programs, ten with a sessio
 
 The five College of Business and Economics programs are covered by the college's own [graduate events page](https://www.csueastbay.edu/cbegrad/events.html). The College of Health has three of six covered, in social work and speech-language pathology. No program in the College of Science has a session listed.
 
-Nineteen departments carry graduate programs, with the M.B.A. held at college level and the health professions certificate through Continuing Education. Six have a session listed: Educational Leadership, Educational Psychology, Teacher Education, Special Education, Social Work, and Speech, Language, and Hearing Sciences, plus the College of Business and Economics running its own.
+Nineteen departments carry graduate programs, with the M.B.A. held at college level. Six have a session listed: Educational Leadership, Educational Psychology, Teacher Education, Special Education, Social Work, and Speech, Language, and Hearing Sciences, plus the College of Business and Economics running its own.
 
 ## suspended
 
