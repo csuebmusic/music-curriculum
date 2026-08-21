@@ -63,6 +63,7 @@ CBE runs its own marketing and it performs well. The methods are not documented 
 - Meet with CBE about outreach and marketing strategies transferable to other programs, and record the methods above.
 - Pull the graduate enrollment and origin-institute figures from Pioneer Insights for a baseline by program.
 - Request Salesforce Marketing Cloud access through Joshua Kerr, who runs the central communications.
+- Confirm which program listing is current, the Graduate Studies index tiles or the departmental listing on the prospective students page, and the college each program belongs to.
 - Check whether the [Office of Graduate Studies page](https://www.csueastbay.edu/graduate-studies/) still lists joshua.kerr@csueastbay.edu as the contact email for Dr. Divya Sitaraman, and report it to Graduate Studies if it does.
 
 ## open questions
