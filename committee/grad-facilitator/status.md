@@ -78,7 +78,8 @@ CBE runs its own marketing and it performs well. The methods are not documented 
 
 - Meet with department chairs and associate deans about outreach and advertisement, including the content standard for the program pages Graduate Studies does not own.
 - Meet with CBE about outreach and marketing strategies transferable to other programs, and record the methods above.
-- Pull the graduate enrollment and origin-institute figures from Pioneer Insights for a baseline by program.
+- Ask Institutional Effectiveness and Research for the Non-US prior-institution figures, absent from the exports, and for whether the enrollment dashboard carries anything later than Fall 2025.
+- Ask Graduate Studies or Admissions for applications and admits by program, which appear in no dashboard read so far.
 - Request Salesforce Marketing Cloud access through Joshua Kerr, who runs the central communications.
 - Take the tile-against-catalog discrepancies in `programs.md` to Graduate Studies, and establish who reconciles the index against the catalog each year.
 - Confirm the status of the English, M.A. and the Art, M.A., neither of which appears in the 2026-2027 catalog.
