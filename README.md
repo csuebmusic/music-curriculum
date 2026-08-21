@@ -38,7 +38,7 @@ Posted syllabi for individual sections, one file per section per term, with a pe
 - `syllabi/` holds the syllabi posted for individual sections, in one folder per term.
 - `curriculum/` holds course and program proposals and curriculum documentation, organized into subsections, each with its own README. The first is the undergraduate Theory and Musicianship sequence.
 - `documents/` holds the handbooks, the roadmaps, and program, admissions, and policy material.
-- `committee/` holds agendas, minutes, and papers for the CLASS curriculum committee.
+- `committee/` holds agendas, minutes, and papers for committee service: the CLASS Curriculum Committee, and the graduate recruitment facilitator role in `committee/grad-facilitator/`.
 - `assessment/` holds program learning outcomes, assessment reports, and review cycles.
 - `website/` holds structural HTML snippets that get pasted into Cascade, which supplies its own styling.
 
