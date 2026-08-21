@@ -524,7 +524,7 @@
       if(!raw) return;
       var o;
       try { o = JSON.parse(raw); } catch(e){ return; }
-      ids.forEach(function(id){ if(typeof o[id] === 'string') document.getElementById(id).value = o[id]; });
+      ids.forEach(function(id){ if(o[id]) document.getElementById(id).value = o[id]; });
       if(o.weeks){
         o.weeks.forEach(function(w, idx){
           var n = idx + 1;
