@@ -59,9 +59,6 @@ CBE runs its own marketing and it performs well. The methods are not documented 
 
 ## next actions
 
-- Send the reply to Joshua Kerr confirming Monday at 1:00 pm with Kevin Brown and Josh Russell, and putting the three handoff questions to him.
-- Take the three uncovered areas to Monday: lead nurturing, source attribution, and the coverage gap on the info sessions index.
-- Propose at Monday's meeting that the incoming student assistants take the info sessions index refresh, the term-by-term chase for program sessions, and the ambassador cohort upkeep.
 - Raise the program page content standard with the Graduate Advisory Council, which is the coordinators of all graduate programs and the only route to pages Graduate Studies does not own.
 - Meet with department chairs and associate deans about outreach and advertisement.
 - Meet with CBE about outreach and marketing strategies transferable to other programs, and record the methods above.
