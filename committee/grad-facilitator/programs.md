@@ -2,7 +2,7 @@
 
 The roster as it stands in the [2026-2027 catalog](https://catalog.csueastbay.edu/content.php?catoid=44&navoid=42138), whose content was approved on or before May 26, 2026. Programs are listed once and their concentrations named in the note, since the catalog lists each concentration as a separate entry.
 
-College placement comes from the [Graduate School of Education](https://www.csueastbay.edu/gse/masters.html) and [College of Health](https://www.csueastbay.edu/coh/graduate-programs.html) listings and from the International Programs [admission requirements document](https://www.csueastbay.edu/ip/files/docs/grad-program-requirements.pdf) of July 2025. Department groupings come from the departmental listing on the [prospective graduate students](https://www.csueastbay.edu/graduate-studies/prospective-grad-students.html) page, whose college headings are out of date and whose department names are not. Placements taken by inference rather than from a source are listed at the end.
+College placement comes from the [Graduate School of Education](https://www.csueastbay.edu/gse/masters.html) and [College of Health](https://www.csueastbay.edu/coh/graduate-programs.html) listings and from the International Programs [admission requirements document](https://www.csueastbay.edu/ip/files/docs/grad-program-requirements.pdf) of July 2025. Department groupings come from the departmental listing on the [prospective graduate students](https://www.csueastbay.edu/graduate-studies/prospective-grad-students.html) page, whose college headings are out of date and whose department names are not.
 
 ## College of Letters, Arts, and Social Sciences
 
@@ -199,14 +199,6 @@ A sub-school within the college since the merger of the former College of Educat
 | --- | --- |
 | [Speech-Language Pathology, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20533&returnto=42138) | |
 | [Speech-Language Pathology Services Credential](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20598&returnto=42138) | |
-
-## placements taken by inference
-
-- Interaction Design and Interactive Art, and the Interaction and User Experience Design certificate, placed in Art.
-- Social Science Single Subject Matter Preparation placed in History.
-- Multiple Subject and Single Subject credentials placed in Teacher Education, and the Education Specialist credential in Special Education, on the basis of the degree each accompanies. All three are served by the Credential Student Service Center, which is not a department.
-- Physical Education Single Subject Matter Preparation placed in Kinesiology.
-- The M.B.A. held at college level, since its concentrations run through Accounting and Finance, Management, and Marketing.
 
 ## coverage
 
