@@ -59,8 +59,7 @@ CBE runs its own marketing and it performs well. The methods are not documented 
 
 ## next actions
 
-- Raise the program page content standard with the Graduate Advisory Council, which is the coordinators of all graduate programs and the only route to pages Graduate Studies does not own.
-- Meet with department chairs and associate deans about outreach and advertisement.
+- Meet with department chairs and associate deans about outreach and advertisement, including the content standard for the program pages Graduate Studies does not own.
 - Meet with CBE about outreach and marketing strategies transferable to other programs, and record the methods above.
 - Pull the graduate enrollment and origin-institute figures from Pioneer Insights for a baseline by program.
 - Request Salesforce Marketing Cloud access through Joshua Kerr, who runs the central communications.
