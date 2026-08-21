@@ -17,6 +17,8 @@ The present inventory, as sent by Joshua Kerr.
 - Handshake postings.
 - Alumni messaging where appropriate.
 
+Absent from the inventory as sent, and in use: the Graduate School Fair, hosted by the Office of Academic Programs and Services, with Zoom rooms for more than fifty programs.
+
 ## College of Business and Economics
 
 CBE runs its own marketing and it performs well. The methods are not documented here yet.
@@ -28,12 +30,13 @@ CBE runs its own marketing and it performs well. The methods are not documented 
 - Meet with CBE about outreach and marketing strategies transferable to other programs, and record the methods above.
 - Pull the graduate enrollment and origin-institute figures from Pioneer Insights for a baseline by program.
 - Request Salesforce Marketing Cloud access through ITS.
-- Report to Graduate Studies that the [Office of Graduate Studies page](https://www.csueastbay.edu/graduate-studies/) lists joshua.kerr@csueastbay.edu as the contact email for Dr. Divya Sitaraman.
+- Check whether the [Office of Graduate Studies page](https://www.csueastbay.edu/graduate-studies/) still lists joshua.kerr@csueastbay.edu as the contact email for Dr. Divya Sitaraman, and report it to Graduate Studies if it does.
 
 ## open questions
 
 Each names where the answer comes from.
 
+- Whether the Graduate School Fair sits inside this portfolio. Joshua Kerr.
 - Which unit the 2024 plan means by "Recruitment and Marketing team": University Communications and Marketing, Admissions and Student Outreach, or both. Josh Russell.
 - Whether the 9 percent university-wide yield figure has moved since November 2024, and the current figure by program. Graduate Studies, or Pioneer Insights directly.
 - Whether departments already hold Salesforce Marketing Cloud access or whether it is provisioned per request. ITS.
