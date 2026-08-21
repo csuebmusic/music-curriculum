@@ -33,15 +33,15 @@ CBE runs its own marketing and it performs well. The methods are not documented 
 
 ## open questions
 
-- The official title of the position, and whether the listing reads Graduate Student Success Facilitator like the other three or something distinct.
-- Term of the appointment and the reporting line: Faculty Director of Graduate Studies, or the AVP.
-- Whether the role has a deliverable on a set date.
-- Whether the three existing Graduate Student Success Facilitators divide work by portfolio or by college, and where recruitment sat before this appointment.
-- Whether the 9 percent university-wide yield figure has been updated since November 2024, and what the current figure is by program.
-- Whether departments already have Salesforce Marketing Cloud access or whether that is provisioned per request.
-- What the associate deans currently do with material distributed to them for department chairs.
-- Which unit the plan means by "Recruitment and Marketing team": University Communications and Marketing, Admissions and Student Outreach, or both.
+Each names where the answer comes from.
+
+- The reporting line: Faculty Director of Graduate Studies, or the AVP. Joshua Kerr.
+- Which unit the 2024 plan means by "Recruitment and Marketing team": University Communications and Marketing, Admissions and Student Outreach, or both. Josh Russell.
+- Whether the 9 percent university-wide yield figure has moved since November 2024, and the current figure by program. Graduate Studies, or Pioneer Insights directly.
+- Whether departments already hold Salesforce Marketing Cloud access or whether it is provisioned per request. ITS.
+- What the associate deans currently do with material distributed to them for department chairs. The associate deans, or Kevin Brown before August 31.
 
 ## decisions
 
 - Every graduate program is treated at equal priority. No triage by yield gap or by college.
+- The appointment runs two years, ongoing, with promotion and recruitment as the portfolio.
