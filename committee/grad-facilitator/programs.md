@@ -56,12 +56,6 @@ A sub-school within the college since the merger of the former College of Educat
 | [Interaction Design and Interactive Art, M.A.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20423&returnto=42138) | |
 | [Interaction and User Experience Design Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20693&returnto=42138) | |
 
-### Communication
-
-| program | note |
-| --- | --- |
-| [Communication, M.A.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20484&returnto=42138) | suspended |
-
 ### History
 
 | program | note |
@@ -170,7 +164,7 @@ A sub-school within the college since the merger of the former College of Educat
 
 | program | note |
 | --- | --- |
-| [Business Administration, M.B.A.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20559&returnto=42138) | concentrations delivered across departments: Finance, General Business, General Business One-Year Accelerated (self-support), Global Innovators (self-support, suspended), Human Resources Management and Organizational Behavior, Marketing Management, Operations and Supply Chain Management |
+| [Business Administration, M.B.A.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20559&returnto=42138) | concentrations delivered across departments: Finance, General Business, General Business One-Year Accelerated (self-support), Human Resources Management and Organizational Behavior, Marketing Management, Operations and Supply Chain Management |
 
 ## College of Health
 
@@ -202,16 +196,16 @@ A sub-school within the college since the merger of the former College of Educat
 
 ## coverage
 
-Fifty-one programs across nineteen departments, with the M.B.A. held at college level. Letters, Arts, and Social Sciences holds twenty-five of the fifty-one, fifteen of them outside the Graduate School of Education sub-school.
+Fifty programs across twenty-four departments, with the M.B.A. held at college level. Letters, Arts, and Social Sciences holds twenty-five of the fifty, nine of them outside the Graduate School of Education sub-school.
 
 Information session coverage by program is tracked in `status.md`.
 
 ## suspended
 
+Held out of the roster above, and still listed in the catalog.
+
 - Communication, M.A.
 - Business Administration, M.B.A., Global Innovators Concentration. Recorded in the International Programs requirements document as not accepting applications for Fall 2026.
-
-Both remain listed in the catalog.
 
 ## against the Graduate Studies tiles
 

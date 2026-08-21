@@ -49,7 +49,7 @@ Fall 2025 carried six entries: College of Business and Economics, Master of Soci
 
 The Credential Student Service Center entry links out to Educational Psychology and Educational Leadership sessions, which have no rows of their own.
 
-Six of the nineteen departments in `programs.md` are reachable through the index: Educational Leadership, Educational Psychology, Teacher Education, Special Education, Social Work, and Speech, Language, and Hearing Sciences. The College of Business and Economics runs its own [graduate events page](https://www.csueastbay.edu/cbegrad/events.html) covering its five programs. No department in the College of Science appears, and in Letters, Arts, and Social Sciences only the education sub-school does.
+Six of the twenty-four departments in `programs.md` are reachable through the index: Educational Leadership, Educational Psychology, Teacher Education, Special Education, Social Work, and Speech, Language, and Hearing Sciences. The College of Business and Economics runs its own [graduate events page](https://www.csueastbay.edu/cbegrad/events.html) covering its five programs. No department in the College of Science appears, and in Letters, Arts, and Social Sciences only the education sub-school does.
 
 ## who runs what
 
