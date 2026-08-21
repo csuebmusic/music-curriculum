@@ -1,113 +1,119 @@
 # graduate programs
 
-The roster as listed on the [Office of Graduate Studies](https://www.csueastbay.edu/graduate-studies/) index, August 2026. The info session column is filled from [Graduate Program Info Sessions](https://www.csueastbay.edu/graduate-studies/graduate-program-infosessions.html), whose most recent tab is Spring 2026.
+The roster as it stands in the [2026-2027 catalog](https://catalog.csueastbay.edu/content.php?catoid=44&navoid=42138), whose content was approved on or before May 26, 2026. Programs are listed once and their concentrations named in the note, since the catalog lists each concentration as a separate entry.
 
-## master's
+The info session column is filled from [Graduate Program Info Sessions](https://www.csueastbay.edu/graduate-studies/graduate-program-infosessions.html), whose most recent tab is Spring 2026. College placement comes from the [Graduate School of Education](https://www.csueastbay.edu/gse/masters.html) and [College of Health](https://www.csueastbay.edu/coh/graduate-programs.html) listings and from the International Programs [admission requirements document](https://www.csueastbay.edu/ip/files/docs/grad-program-requirements.pdf) of July 2025.
 
-| program | info session |
-| --- | --- |
-| [Accountancy](https://www.csueastbay.edu/msa/index.html) | via CBE |
-| [Biological Sciences](https://www.csueastbay.edu/biology/graduate-program/biology-ms-program/index.html) | no |
-| [Biostatistics](https://www.csueastbay.edu/statistics/biostatistics-psm/index.html) | no |
-| [Business Administration, MBA](https://www.csueastbay.edu/mba/index.html) | via CBE |
-| [Business Analytics](https://www.csueastbay.edu/msba/index.html) | via CBE |
-| [Chemistry](https://www.csueastbay.edu/chemistry/graduate/index.html) | no |
-| [Computer Science](https://www.csueastbay.edu/cs/degrees-programs1/index.html) | no |
-| [Construction Management](https://www.csueastbay.edu/engineering/programs-degrees/graduate-degrees.html) | no |
-| [Counseling](https://www.csueastbay.edu/epsy/graduate-programs/index.html) | yes, Educational Psychology |
-| [Curriculum and Instruction](https://www.csueastbay.edu/ted/programs-admissions/masters/index.html) | no |
-| [Early Childhood Education](https://www.csueastbay.edu/ted/programs-admissions/masters/index.html) | no |
-| [Educational Leadership](https://www.csueastbay.edu/el/programs/master-in-el.html) | yes |
-| [Educational Technology](https://www.csueastbay.edu/ted/programs-admissions/masters/index.html) | no |
-| [Engineering Management](https://www.csueastbay.edu/engineering/programs-degrees/graduate-degrees.html) | no |
-| [Environmental Geosciences](https://www.csueastbay.edu/earth/graduate-program/index.html) | no |
-| [Health Care Administration](https://www.csueastbay.edu/paa/healthcare/index.html) | no |
-| [History](https://www.csueastbay.edu/history/degree-programs/ma-degree-programs_new.html) | no |
-| [Hospitality, Recreation, and Tourism](https://www.csueastbay.edu/hrt/grad/index.html) | no |
-| [Interaction Design](https://ixdia.org) | no |
-| [Kinesiology](https://www.csueastbay.edu/kin/programs/ms-kinesiology.html) | no |
-| [Marine Science](https://www.csueastbay.edu/biology/graduate-program/ms-in-marine-sciences.html) | no |
-| [Marketing Analytics](https://www.csueastbay.edu/msma/index.html) | via CBE |
-| [Mathematics](https://www.csueastbay.edu/math/degrees-and-programs/index.html) | no |
-| [Music](https://www.csueastbay.edu/music/prospective/ma.html) | no |
-| [Nursing](https://www.csueastbay.edu/nursing/msn-programs/index.html) | no |
-| [Public Administration](https://www.csueastbay.edu/paa/public-admin/index.html) | no |
-| [Reading and Literacy](https://www.csueastbay.edu/ted/programs-admissions/masters/reading-cert1.html) | yes |
-| [Social Work](https://www.csueastbay.edu/sw/apply-to-msw.html) | yes |
-| [Special Education](https://www.csueastbay.edu/cssc/prospective-cred-student/special-education.html) | via CSSC |
-| [Speech-Language Pathology](https://www.csueastbay.edu/slhs/masters-in-speech-language-pathology/index.html) | yes |
-| [Statistics](https://www.csueastbay.edu/statistics/degrees-programs/index.html) | no |
+## Graduate School of Education
 
-## doctoral
+| program | info session | note |
+| --- | --- | --- |
+| [Counseling Psychology, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20476&returnto=42138) | yes | Marriage and Family Therapy, School Counseling, School Psychology |
+| [Curriculum and Instruction, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20641&returnto=42138) | no | |
+| [Early Childhood Education, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20502&returnto=42138) | no | |
+| [Educational Leadership, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20452&returnto=42138) | yes | with PASC, or with optional PASC |
+| [Educational Leadership, Ed.D.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20451&returnto=42138) | no | summer admission |
+| [Educational Technology, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20565&returnto=42138) | no | |
+| [Reading and Literacy, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20600&returnto=42138) | yes | self-support only |
+| [Special Education, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20561&returnto=42138) | via CSSC | Extensive Support Needs, Mild/Moderate Support Needs |
+| [Education Specialist Credential](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20601&returnto=42138) | via CSSC | |
+| [Multiple Subject Credential](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20499&returnto=42138) | via CSSC | |
+| [Preliminary Administrative Services Credential](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20497&returnto=42138) | yes | available self-support |
+| [PPS Credential, School Counseling](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20509&returnto=42138) | yes | |
+| [PPS Credential, School Psychology](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20508&returnto=42138) | yes | |
+| [Single Subject Credential](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20503&returnto=42138) | via CSSC | |
+| [Educational Technology Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20610&returnto=42138) | no | |
 
-| program | info session |
-| --- | --- |
-| [Ed.D. Educational Leadership](https://www.csueastbay.edu/edd/index.html) | no |
+## College of Science
 
-## credentials
+| program | info session | note |
+| --- | --- | --- |
+| [Biological Science, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20488&returnto=42138) | no | |
+| [Chemistry, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20540&returnto=42138) | no | Chemistry, Biochemistry |
+| [Computer Science, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20563&returnto=42138) | no | Artificial Intelligence and Machine Learning, Computer Networks, Computer Science |
+| [Construction Management, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20474&returnto=42138) | no | |
+| [Engineering Management, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20475&returnto=42138) | no | |
+| [Environmental Geosciences, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20479&returnto=42138) | no | |
+| [Marine Science, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20542&returnto=42138) | no | administered by Moss Landing Marine Laboratories |
+| [Mathematics, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20496&returnto=42138) | no | |
+| [Statistics, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20604&returnto=42138) | no | Actuarial Science, Applied Statistics, Biostatistics, Data Science, Mathematical Statistics |
+| [Applied Statistics Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20621&returnto=42138) | no | |
+| [Theoretical Statistics Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20622&returnto=42138) | no | |
+| [Biotechnology Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20599&returnto=42138) | no | |
+| [Mathematics, Single Subject Matter Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20624&returnto=42138) | no | |
+| [Mathematics, Single Subject Matter Preparation](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20623&returnto=42138) | no | |
 
-| program | info session |
-| --- | --- |
-| [Administrative Services, Clear Induction](https://www.csueastbay.edu/el/programs/clear-admin-services-cred.html) | yes, Educational Leadership |
-| [Education Specialist](https://www.csueastbay.edu/cssc/prospective-cred-student/special-education.html) | via CSSC |
-| [Multiple Subject Teaching](https://www.csueastbay.edu/cssc/prospective-cred-student/multiple-subject.html) | via CSSC |
-| [Preliminary Administrative Services](https://www.csueastbay.edu/el/programs/prelim-admin-services.html) | yes, Educational Leadership |
-| [PPS School Counseling](https://www.csueastbay.edu/epsy/graduate-programs/school-counseling.html) | yes, Educational Psychology |
-| [PPS School Psychology](https://www.csueastbay.edu/school-psychology/prospective-students.html) | yes |
-| [Single Subject Teaching](https://www.csueastbay.edu/cssc/prospective-cred-student/single-subject.html) | via CSSC |
-| [Speech Language Pathology Services](https://www.csueastbay.edu/slhs/masters-in-speech-language-pathology/index.html) | yes |
+## College of Letters, Arts, and Social Sciences
 
-## certificates
+| program | info session | note |
+| --- | --- | --- |
+| [Communication, M.A.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20484&returnto=42138) | no | suspended |
+| [Health Care Administration, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20664&returnto=42138) | no | |
+| [History, M.A.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20697&returnto=42138) | no | |
+| [Interaction Design and Interactive Art, M.A.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20423&returnto=42138) | no | |
+| [Music, M.A.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20498&returnto=42138) | no | |
+| [Public Administration, M.P.A.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20490&returnto=42138) | no | Health Care Administration, Public Management and Policy Analysis |
+| [Interaction and User Experience Design Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20693&returnto=42138) | no | |
+| [Music Single Subject Matter Preparation Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20615&returnto=42138) | no | |
+| [Social Science Single Subject Matter Preparation](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20612&returnto=42138) | no | |
 
-| program | info session |
-| --- | --- |
-| [Applied Statistics](https://www.csueastbay.edu/statistics/degrees-programs/index.html) | no |
-| [Biotechnology](https://www.csueastbay.edu/biology/graduate-program/biotechnology-certificate-program-bcp/index.html) | no |
-| [Educational Technology](https://catalog.csueastbay.edu/preview_program.php?catoid=39&poid=18263&returnto=36991) | no |
-| [Foundational Mathematics, Single Subject](https://www.csueastbay.edu/math/degrees-and-programs/index.html) | no |
-| [Mathematics, Single Subject Matter](https://www.csueastbay.edu/math/degrees-and-programs/index.html) | no |
-| [Music, Single Subject Matter Preparation](https://www.csueastbay.edu/music/prospective/music-ed.html) | no |
-| [Pre-Professional Health Academic Program](https://www.csueastbay.edu/phaprogram/) | no |
-| [Theoretical Statistics](https://www.csueastbay.edu/statistics/degrees-programs/index.html) | no |
+## College of Business and Economics
+
+| program | info session | note |
+| --- | --- | --- |
+| [Accountancy, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20440&returnto=42138) | via CBE | self-support only |
+| [Business Administration, M.B.A.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20559&returnto=42138) | via CBE | Finance, General Business, General Business One-Year Accelerated (self-support), Global Innovators (self-support, suspended), Human Resources Management and Organizational Behavior, Marketing Management, Operations and Supply Chain Management |
+| [Business Analytics, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20441&returnto=42138) | via CBE | |
+| [Marketing Analytics, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20675&returnto=42138) | via CBE | |
+| [Quantitative Economics, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20653&returnto=42138) | via CBE | |
+
+## College of Health
+
+| program | info session | note |
+| --- | --- | --- |
+| [Kinesiology, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20504&returnto=42138) | no | Human Movement and Sport Science, Physical Activity and Exercise |
+| [Nursing, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20687&returnto=42138) | no | |
+| [Social Work, M.S.W.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20686&returnto=42138) | yes | standard and advanced standing |
+| [Speech-Language Pathology, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20533&returnto=42138) | yes | |
+| [Speech-Language Pathology Services Credential](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20598&returnto=42138) | yes | |
+| [Physical Education Single Subject Matter Preparation](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20597&returnto=42138) | no | |
+
+## college to confirm
+
+| program | info session | note |
+| --- | --- | --- |
+| [Hospitality, Recreation and Tourism, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20485&returnto=42138) | no | was College of Education and Allied Studies |
+| [Post-baccalaureate Health Professions Academic Program Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20603&returnto=42138) | no | self-support only |
 
 ## coverage
 
-Of 48 programs, 14 are reachable through a listed information session, and 9 of those 14 sit in education, counseling, or speech-language pathology. The College of Business and Economics runs its own [graduate events page](https://www.csueastbay.edu/cbegrad/events.html) covering its four master's programs. The remaining 34 programs have no session listed.
+Fifty-one programs. Fifteen are reachable through a listed information session, and eleven of those sit in the Graduate School of Education. The five College of Business and Economics programs are covered by the college's own [graduate events page](https://www.csueastbay.edu/cbegrad/events.html). No program in the College of Science and none in Letters, Arts, and Social Sciences has a session listed.
 
-## corroboration
+## suspended
 
-Checked against [Graduate Programs Admission Requirements by College](https://www.csueastbay.edu/ip/files/docs/grad-program-requirements.pdf), published by International Programs and marked verified July 15, 2025. It covers programs open to international applicants, so credentials and several master's programs are absent from it. The 2026-2027 catalog remains the authority and has not been read yet.
+- Communication, M.A.
+- Business Administration, M.B.A., Global Innovators Concentration. Recorded in the International Programs requirements document as not accepting applications for Fall 2026.
 
-Suspended:
+Both remain listed in the catalog.
 
-- English, M.A. (Literature, Composition, Creative Writing, TESOL). Suspended until Fall 2026, with applicants directed to Cal State Apply to confirm.
-- M.B.A. for Global Innovators. Suspended, not accepting applications for Fall 2026.
+## against the Graduate Studies tiles
 
-In the requirements document and absent from the Graduate Studies tiles:
+The [Office of Graduate Studies](https://www.csueastbay.edu/graduate-studies/) index disagrees with the catalog in both directions.
 
-- English, M.A.
-- M.B.A. for Global Innovators.
-- One Year Intensive M.B.A.
-- Counseling, M.S. carries three options: School Psychology, School Counseling, and Marriage and Family Therapy. The tiles list Counseling alone.
+On the tiles and not in the catalog:
 
-Named differently in the requirements document:
+- Biostatistics, as a separate program. The catalog carries it as a Statistics concentration.
+- Administrative Services Credential, Clear Induction.
+- Foundational Mathematics, Single Subject.
 
-- Interaction Design and Interactive Art, M.A.
-- Educational Leadership for Social Justice, Ed.D.
-- Statistics, M.S. carries Biostatistics and Data Science as options, which puts the separate Biostatistics entry on the tiles in question.
+In the catalog and not on the tiles:
 
-College placement as of July 2025:
+- Communication, M.A.
+- Quantitative Economics, M.S.
+- Interaction and User Experience Design Certificate.
+- Physical Education Single Subject Matter Preparation.
+- Social Science Single Subject Matter Preparation.
 
-- College of Science: Biological Sciences, Chemistry, Computer Science, Construction Management, Engineering Management, Environmental Geosciences, Marine Science, Mathematics, Statistics.
-- College of Business and Economics: Accountancy, M.B.A. with Concentrations, Business Analytics, Marketing Analytics, M.B.A. for Global Innovators, One Year Intensive M.B.A.
-- College of Letters, Arts, and Social Sciences: Counseling, Educational Leadership for Social Justice, English, History, Interaction Design and Interactive Art, Music.
-- College of Health: Kinesiology, Social Work, Speech-Language Pathology.
-- Post-baccalaureate certificates: Biotechnology, Pre-Professional Health Academic Program.
+The tiles carry Counseling as one program where the catalog has three concentrations, and name the doctorate Ed.D. Educational Leadership where the International Programs document calls it Educational Leadership for Social Justice.
 
-Marine Science is administered by Moss Landing Marine Laboratories, with applications handled there.
-
-## to reconcile
-
-The [prospective graduate students](https://www.csueastbay.edu/graduate-studies/prospective-grad-students.html) page carries a departmental listing that disagrees with the index tiles above. It names MA programs in Art, Communication, and English and an MS in Quantitative Economics that the tiles omit, and it groups programs under a College of Education and Allied Studies while the site navigation lists a College of Health. Which listing is current, and the college each program belongs to, both need confirming before this roster is used for anything.
-
-The [College of Health](https://www.csueastbay.edu/coh/graduate-programs.html) names Nursing among its graduate programs, and Nursing does not appear in the requirements document. A [Graduate School of Education](https://www.csueastbay.edu/gse/masters.html) publishes its own master's listing, while the requirements document places Counseling and the Ed.D. under Letters, Arts, and Social Sciences. The education programs, Nursing, Health Care Administration, Public Administration, and the Art and Communication master's degrees appear in none of the sources read so far in a way that fixes their college.
+The English, M.A. appears in neither the catalog nor the tiles, and the International Programs document of July 2025 records it as suspended until Fall 2026 across all four options. The Art, M.A. appears on the prospective students page and in neither the catalog nor the tiles.
