@@ -19,13 +19,16 @@ The present inventory, as sent by Joshua Kerr.
 
 Absent from the inventory as sent, and in use: the Graduate School Fair, hosted by the Office of Academic Programs and Services, with Zoom rooms for more than fifty programs.
 
+These channels are mapped against the 2024 plan section by section in `recruitment-plan.md`. Every one of them is broadcast and aimed at people already enrolled at East Bay. Sections 5 and 6 of the plan, lead nurturing and metrics, map to nothing. Section 2 maps to the social accounts alone: the 31 master's pages and the credential and certificate pages are maintained department by department with no shared standard.
+
 ## College of Business and Economics
 
 CBE runs its own marketing and it performs well. The methods are not documented here yet.
 
 ## next actions
 
-- Reply to Joshua Kerr on the Monday 1:00 pm meeting with Kevin Brown and Josh Russell on implementation of current marketing strategies.
+- Send the reply to Joshua Kerr confirming Monday at 1:00 pm with Kevin Brown and Josh Russell, and putting the three handoff questions to him.
+- Take the three uncovered areas to Monday: lead nurturing, source attribution, and program websites.
 - Meet with department chairs and associate deans about outreach and advertisement.
 - Meet with CBE about outreach and marketing strategies transferable to other programs, and record the methods above.
 - Pull the graduate enrollment and origin-institute figures from Pioneer Insights for a baseline by program.
