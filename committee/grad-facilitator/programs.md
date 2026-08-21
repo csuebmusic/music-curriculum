@@ -1,6 +1,6 @@
 # graduate programs
 
-The roster as it stands in the [2026-2027 catalog](https://catalog.csueastbay.edu/content.php?catoid=44&navoid=42138), whose content was approved on or before May 26, 2026. Programs are listed once and their concentrations named in the note, since the catalog lists each concentration as a separate entry.
+The roster as it stands in the [2026-2027 catalog](https://catalog.csueastbay.edu/content.php?catoid=44&navoid=42138), whose content was approved on or before May 26, 2026. The catalog lists each concentration as a separate entry. Programs are listed once here, with their concentrations named in the note.
 
 College placement comes from the [Graduate School of Education](https://www.csueastbay.edu/gse/masters.html) and [College of Health](https://www.csueastbay.edu/coh/graduate-programs.html) listings and from the International Programs [admission requirements document](https://www.csueastbay.edu/ip/files/docs/grad-program-requirements.pdf) of July 2025. Department groupings come from the departmental listing on the [prospective graduate students](https://www.csueastbay.edu/graduate-studies/prospective-grad-students.html) page, whose college headings are out of date and whose department names are not.
 
@@ -18,7 +18,7 @@ A sub-school within the college since the merger of the former College of Educat
 
 | program | note |
 | --- | --- |
-| [Educational Leadership, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20452&returnto=42138) | with PASC, or with optional PASC |
+| [Educational Leadership, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20452&returnto=42138) | tracks: with PASC, with optional PASC |
 | [Educational Leadership, Ed.D.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20451&returnto=42138) | summer admission |
 | [Preliminary Administrative Services Credential](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20497&returnto=42138) | available self-support |
 
@@ -26,7 +26,7 @@ A sub-school within the college since the merger of the former College of Educat
 
 | program | note |
 | --- | --- |
-| [Counseling Psychology, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20476&returnto=42138) | Marriage and Family Therapy, School Counseling, School Psychology |
+| [Counseling Psychology, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20476&returnto=42138) | concentrations: Marriage and Family Therapy, School Counseling, School Psychology |
 | [PPS Credential, School Counseling](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20509&returnto=42138) | |
 | [PPS Credential, School Psychology](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20508&returnto=42138) | |
 
@@ -46,7 +46,7 @@ A sub-school within the college since the merger of the former College of Educat
 
 | program | note |
 | --- | --- |
-| [Special Education, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20561&returnto=42138) | Extensive Support Needs, Mild/Moderate Support Needs |
+| [Special Education, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20561&returnto=42138) | concentrations: Extensive Support Needs, Mild/Moderate Support Needs |
 | [Education Specialist Credential](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20601&returnto=42138) | |
 
 ### Art
@@ -87,7 +87,7 @@ A sub-school within the college since the merger of the former College of Educat
 | program | note |
 | --- | --- |
 | [Health Care Administration, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20664&returnto=42138) | |
-| [Public Administration, M.P.A.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20490&returnto=42138) | Health Care Administration, Public Management and Policy Analysis |
+| [Public Administration, M.P.A.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20490&returnto=42138) | concentrations: Health Care Administration, Public Management and Policy Analysis |
 
 ## College of Science
 
@@ -103,13 +103,13 @@ A sub-school within the college since the merger of the former College of Educat
 
 | program | note |
 | --- | --- |
-| [Chemistry, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20540&returnto=42138) | Chemistry, Biochemistry |
+| [Chemistry, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20540&returnto=42138) | concentrations: Chemistry, Biochemistry |
 
 ### Computer Science
 
 | program | note |
 | --- | --- |
-| [Computer Science, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20563&returnto=42138) | Artificial Intelligence and Machine Learning, Computer Networks, Computer Science |
+| [Computer Science, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20563&returnto=42138) | concentrations: Artificial Intelligence and Machine Learning, Computer Networks, Computer Science |
 
 ### Earth and Environmental Sciences
 
@@ -136,7 +136,7 @@ A sub-school within the college since the merger of the former College of Educat
 
 | program | note |
 | --- | --- |
-| [Statistics, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20604&returnto=42138) | Actuarial Science, Applied Statistics, Biostatistics, Data Science, Mathematical Statistics |
+| [Statistics, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20604&returnto=42138) | concentrations: Actuarial Science, Applied Statistics, Biostatistics, Data Science, Mathematical Statistics |
 | [Applied Statistics Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20621&returnto=42138) | |
 | [Theoretical Statistics Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20622&returnto=42138) | |
 
@@ -178,7 +178,7 @@ A sub-school within the college since the merger of the former College of Educat
 
 | program | note |
 | --- | --- |
-| [Kinesiology, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20504&returnto=42138) | Human Movement and Sport Science, Physical Activity and Exercise |
+| [Kinesiology, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20504&returnto=42138) | concentrations: Human Movement and Sport Science, Physical Activity and Exercise |
 | [Physical Education Single Subject Matter Preparation](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20597&returnto=42138) | |
 
 ### Nursing
@@ -191,7 +191,7 @@ A sub-school within the college since the merger of the former College of Educat
 
 | program | note |
 | --- | --- |
-| [Social Work, M.S.W.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20686&returnto=42138) | standard and advanced standing |
+| [Social Work, M.S.W.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20686&returnto=42138) | tracks: standard, advanced standing |
 
 ### Speech, Language, and Hearing Sciences
 
