@@ -41,6 +41,16 @@ Out of date as posted:
 
 These channels are mapped against the 2024 plan section by section in `recruitment-plan.md`. The plan's recommendations largely exist in some form. What is missing is coverage and currency: seven programs of fifty-plus appear on the info sessions index, and no lead nurturing or source attribution is visible anywhere.
 
+## information session coverage
+
+From [Graduate Program Info Sessions](https://www.csueastbay.edu/graduate-studies/graduate-program-infosessions.html). Neither tab covers Fall 2026.
+
+Fall 2025 carried six entries: College of Business and Economics, Master of Social Work, M.S. in Reading and Literacy, School Psychology, the Credential Student Service Center, and speech-language pathology. Spring 2026 carried four, dropping Reading and Literacy and School Psychology.
+
+The Credential Student Service Center entry links out to Educational Psychology and Educational Leadership sessions, which have no rows of their own.
+
+Six of the nineteen departments in `programs.md` are reachable through the index: Educational Leadership, Educational Psychology, Teacher Education, Special Education, Social Work, and Speech, Language, and Hearing Sciences. The College of Business and Economics runs its own [graduate events page](https://www.csueastbay.edu/cbegrad/events.html) covering its five programs. No department in the College of Science appears, and in Letters, Arts, and Social Sciences only the education sub-school does.
+
 ## who runs what
 
 Three people, as of August 2026.
