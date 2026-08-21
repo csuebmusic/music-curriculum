@@ -35,7 +35,6 @@ CBE runs its own marketing and it performs well. The methods are not documented 
 
 Each names where the answer comes from.
 
-- The reporting line: Faculty Director of Graduate Studies, or the AVP. Joshua Kerr.
 - Which unit the 2024 plan means by "Recruitment and Marketing team": University Communications and Marketing, Admissions and Student Outreach, or both. Josh Russell.
 - Whether the 9 percent university-wide yield figure has moved since November 2024, and the current figure by program. Graduate Studies, or Pioneer Insights directly.
 - Whether departments already hold Salesforce Marketing Cloud access or whether it is provisioned per request. ITS.
