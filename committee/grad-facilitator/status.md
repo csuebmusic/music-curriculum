@@ -61,7 +61,8 @@ CBE runs its own marketing and it performs well. The methods are not documented 
 
 - Send the reply to Joshua Kerr confirming Monday at 1:00 pm with Kevin Brown and Josh Russell, and putting the three handoff questions to him.
 - Take the three uncovered areas to Monday: lead nurturing, source attribution, and the coverage gap on the info sessions index.
-- Ask Graduate Studies who maintains the info sessions index and the ambassador page, and on what cycle.
+- Propose at Monday's meeting that the incoming student assistants take the info sessions index refresh, the term-by-term chase for program sessions, and the ambassador cohort upkeep.
+- Raise the program page content standard with the Graduate Advisory Council, which is the coordinators of all graduate programs and the only route to pages Graduate Studies does not own.
 - Meet with department chairs and associate deans about outreach and advertisement.
 - Meet with CBE about outreach and marketing strategies transferable to other programs, and record the methods above.
 - Pull the graduate enrollment and origin-institute figures from Pioneer Insights for a baseline by program.
@@ -76,7 +77,8 @@ Each names where the answer comes from.
 - Which unit the 2024 plan means by "Recruitment and Marketing team": University Communications and Marketing, Admissions and Student Outreach, or both. Josh Russell.
 - Whether the 9 percent university-wide yield figure has moved since November 2024, and the current figure by program. Graduate Studies, or Pioneer Insights directly.
 - Whether departments hold their own Salesforce Marketing Cloud access or whether all sends route through Graduate Studies. Joshua Kerr.
-- What the two incoming student assistants will be assigned. Joshua Kerr.
+- What the two incoming student assistants will be assigned, and when they start. Joshua Kerr.
+- On what cycle the Graduate Studies pages are refreshed. Joshua Kerr.
 - What the associate deans currently do with material distributed to them for department chairs. Joshua Kerr.
 - Which colleges and departments have already been approached about graduate outreach. Joshua Kerr.
 - What has been tried and set aside. Joshua Kerr.
