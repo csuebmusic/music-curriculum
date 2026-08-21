@@ -41,6 +41,13 @@ Out of date as posted:
 
 These channels are mapped against the 2024 plan section by section in `recruitment-plan.md`. The plan's recommendations largely exist in some form. What is missing is coverage and currency: seven programs of fifty-plus appear on the info sessions index, and no lead nurturing or source attribution is visible anywhere.
 
+## suspended programs
+
+Held out of the roster in `programs.md`, and still listed in the catalog.
+
+- Communication, M.A.
+- Business Administration, M.B.A., Global Innovators Concentration. Recorded in the International Programs requirements document as not accepting applications for Fall 2026.
+
 ## information session coverage
 
 From [Graduate Program Info Sessions](https://www.csueastbay.edu/graduate-studies/graduate-program-infosessions.html). Neither tab covers Fall 2026.

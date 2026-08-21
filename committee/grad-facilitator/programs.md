@@ -194,19 +194,6 @@ A sub-school within the college since the merger of the former College of Educat
 | [Speech-Language Pathology, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20533&returnto=42138) | |
 | [Speech-Language Pathology Services Credential](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20598&returnto=42138) | |
 
-## coverage
-
-Fifty programs across twenty-four departments, with the M.B.A. held at college level. Letters, Arts, and Social Sciences holds twenty-five of the fifty, nine of them outside the Graduate School of Education sub-school.
-
-Information session coverage by program is tracked in `status.md`.
-
-## suspended
-
-Held out of the roster above, and still listed in the catalog.
-
-- Communication, M.A.
-- Business Administration, M.B.A., Global Innovators Concentration. Recorded in the International Programs requirements document as not accepting applications for Fall 2026.
-
 ## against the Graduate Studies tiles
 
 The [Office of Graduate Studies](https://www.csueastbay.edu/graduate-studies/) index disagrees with the catalog in both directions.
