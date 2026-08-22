@@ -2,6 +2,26 @@
 
 From the degrees and plans table in Pioneer Insights, pulled August 2026, counting all student types. Grouped as in `programs.md`.
 
+## coverage
+
+Five programs have no row in the degrees and plans table. Their Fall 2025 figures come from the enrollment by college and program export, which carries no Fall 2026 column. They are excluded from every total in this file.
+
+| program | college | department | 2025 |
+| --- | --- | --- | --- |
+| Accountancy | Business and Economics | Accounting and Finance | 47 |
+| Reading and Literacy | Letters, Arts, and Social Sciences | Teacher Education | 28 |
+| eLearning | Letters, Arts, and Social Sciences | Teacher Education | 25 |
+| Nursing | Health | Nursing | 18 |
+| Nursing Post-Licensure | Health | Nursing | 17 |
+
+Three Fall 2025 totals are in play:
+
+- 1,743 in the degrees and plans table, the basis for every total below.
+- 1,878, the same figure with the five programs above added.
+- 2,144 in the enrollment by college and program export, marked all funding sources.
+
+The remaining 266 sits in five programs the export counts higher: Teacher Credential 288 against 145, Business Administration 174 against 138, Public Administration 145 against 119, Speech-Language Pathology 116 against 91, and Educational Leadership 88 against 49. The export carries no certificate rows, where the plans table holds 3 students.
+
 Carried by neither source: Marine Science, the Educational Technology certificate, the Interaction and User Experience Design certificate, the Mathematics single-subject certificate and preparation, the health professions certificate, the two Pupil Personnel Services credentials, the Speech-Language Pathology Services credential, and the Education Specialist credential on its own. Quantitative Economics last carried students in Fall 2023.
 
 ## totals
@@ -17,8 +37,6 @@ Carried by neither source: Marine Science, the Educational Technology certificat
 | Credential | 145 | 324 |
 | Certificate | 3 | 8 |
 | total | 1,743 | 1,898 |
-
-Totals cover the degrees and plans table alone. Fall 2025 including the five export rows is 1,878, against 2,144 in the export itself.
 
 ## by college
 
