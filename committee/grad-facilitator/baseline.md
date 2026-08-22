@@ -99,38 +99,100 @@ The Fall 2026 figures for these are not comparable to the years before them. The
 
 Accountancy, Economics, Education-OTL, eLearning, Nursing, Nursing Post-Licensure, Quantitative Economics, Reading and Literacy, Speech Pathology and Audiology, and Teaching English to Speakers of Other Languages. Nursing carried 18 students in Fall 2025, Reading and Literacy 28, eLearning 25, and Nursing Post-Licensure 17.
 
-## new students by level
+## every plan, Fall 2025 and Fall 2026
 
-From the degrees and plans table. Headcount is all student types; new is first-time graduate students.
+All thirty-nine graduate plans in the degrees and plans table, with total headcount and first-time graduate students. Accountancy, Nursing, Reading and Literacy, Quantitative Economics, Marine Science, and eLearning carry no rows in this file.
 
-| level | headcount 2025 | headcount 2026 | new 2025 | new 2026 |
+### Master of Arts
+
+| plan | 2025 | 2026 | new 2025 | new 2026 |
 | --- | --- | --- | --- | --- |
-| Master of Science | 1,019 | 928 | 395 | 364 |
-| Master of Social Work | 230 | 263 | 105 | 121 |
-| Master of Business Administration | 138 | 148 | 64 | 51 |
-| Master of Public Administration | 119 | 136 | 79 | 61 |
-| Master of Arts | 41 | 45 | 11 | 21 |
-| Doctor of Education | 48 | 46 | 0 | 1 |
-| Credential | 145 | 324 | 2 | 3 |
-| Certificate | 3 | 8 | 1 | 4 |
-| total | 1,743 | 1,898 | 657 | 626 |
+| Communication MA | 0 | 1 | 0 | 0 |
+| History MA | 18 | 21 | 7 | 10 |
+| Interaction Dsgn/Interactive A | 23 | 15 | 4 | 4 |
+| Music MA | 0 | 8 | 0 | 7 |
+| total | 41 | 45 | 11 | 21 |
 
-The headcount rise is credentials: Single Subject Teaching moves from 77 to 239 and Multiple Subject from 32 to 46. Master's-level headcount falls from 1,595 to 1,566. New students fall from 657 to 626.
+### Master of Science
 
-New students by program, largest movements:
+| plan | 2025 | 2026 | new 2025 | new 2026 |
+| --- | --- | --- | --- | --- |
+| Biological Science MS | 24 | 27 | 12 | 11 |
+| Biostatistics | 9 | 2 | 1 | 0 |
+| Business Analytics MS | 114 | 75 | 34 | 23 |
+| Chemistry MS | 22 | 20 | 7 | 7 |
+| Computer Science MS | 125 | 88 | 41 | 29 |
+| Construction Management MS | 67 | 56 | 21 | 19 |
+| Counseling MS | 39 | 6 | 0 | 0 |
+| Counseling Psychology MS | 44 | 87 | 44 | 46 |
+| Curriculum and Instruction | 1 | 30 | 1 | 0 |
+| Early Childhood Education MS | 29 | 55 | 26 | 29 |
+| Educational Leadership MS | 49 | 43 | 27 | 37 |
+| Educational Technology MS | 25 | 29 | 8 | 12 |
+| Engineering Management MS | 22 | 7 | 3 | 2 |
+| Environmental Geosciences MS | 15 | 11 | 5 | 2 |
+| Health Care Administration MS | 105 | 107 | 56 | 54 |
+| Hospitality, Rec, & Tourism MS | 12 | 21 | 4 | 6 |
+| Kinesiology MS | 16 | 13 | 9 | 3 |
+| Marketing Analytics MS | 26 | 19 | 11 | 6 |
+| Mathematics MS | 27 | 23 | 7 | 8 |
+| Special Education MS | 70 | 78 | 26 | 22 |
+| Speech Language Pathology MS | 91 | 90 | 36 | 36 |
+| Statistics MS | 87 | 41 | 16 | 12 |
+| total | 1019 | 928 | 395 | 364 |
 
-| program | new 2025 | new 2026 |
-| --- | --- | --- |
-| Social Work | 105 | 121 |
-| Educational Leadership | 27 | 37 |
-| Music | 0 | 7 |
-| History | 7 | 10 |
-| Business Analytics | 34 | 23 |
-| Computer Science | 41 | 29 |
-| Public Administration | 79 | 61 |
-| Business Administration | 64 | 51 |
-| Kinesiology | 9 | 3 |
-| Marketing Analytics | 11 | 6 |
+### Master of Business Administration
+
+| plan | 2025 | 2026 | new 2025 | new 2026 |
+| --- | --- | --- | --- | --- |
+| Business Admin MBA | 138 | 148 | 64 | 51 |
+| total | 138 | 148 | 64 | 51 |
+
+### Master of Public Administration
+
+| plan | 2025 | 2026 | new 2025 | new 2026 |
+| --- | --- | --- | --- | --- |
+| Public Administration MPA | 119 | 136 | 79 | 61 |
+| total | 119 | 136 | 79 | 61 |
+
+### Master of Social Work
+
+| plan | 2025 | 2026 | new 2025 | new 2026 |
+| --- | --- | --- | --- | --- |
+| Social Work MSW | 230 | 263 | 105 | 121 |
+| total | 230 | 263 | 105 | 121 |
+
+### Doctor of Education
+
+| plan | 2025 | 2026 | new 2025 | new 2026 |
+| --- | --- | --- | --- | --- |
+| Educational Leadership Ed.D. | 48 | 46 | 0 | 1 |
+| total | 48 | 46 | 0 | 1 |
+
+### Credential
+
+| plan | 2025 | 2026 | new 2025 | new 2026 |
+| --- | --- | --- | --- | --- |
+| Cred:MST & Pre Ed Sp MM Dis | 23 | 24 | 1 | 0 |
+| Cred:MST & Pre Ed Sp MS Dis | 11 | 11 | 0 | 0 |
+| Cred:Multiple Subject Teaching | 32 | 46 | 0 | 1 |
+| Cred:Prof  Admin Services | 2 | 4 | 0 | 0 |
+| Cred:Single Subject Teaching | 77 | 239 | 1 | 2 |
+| total | 145 | 324 | 2 | 3 |
+
+### Certificate
+
+| plan | 2025 | 2026 | new 2025 | new 2026 |
+| --- | --- | --- | --- | --- |
+| Cert: Applied Statistics | 1 | 2 | 1 | 1 |
+| Cert: Biotechnology | 2 | 3 | 0 | 3 |
+| Cert: Mathematical Statistics | 0 | 1 | 0 | 0 |
+| Cert: Music, Single Sub Matter | 0 | 2 | 0 | 0 |
+| total | 3 | 8 | 1 | 4 |
+
+Across all levels: headcount 1,743 to 1,898, first-time students 657 to 626. The headcount rise is credentials, where Single Subject Teaching moves from 77 to 239. Master's-level headcount falls from 1,595 to 1,566.
+
+Counseling MS and Counseling Psychology MS are the same population under two plan codes, 83 in Fall 2025 and 93 in Fall 2026.
 
 ## prior institution
 
