@@ -1,10 +1,10 @@
 # enrollment baseline
 
-From the degrees and plans table in Pioneer Insights, pulled August 2026, counting all student types. Grouped as in `programs.md`.
+From the enrollment digest in Pioneer Insights, pulled August 2026, counting all student types. Grouped as in `programs.md`.
 
 ## coverage
 
-Five programs have no row in the degrees and plans table. Their Fall 2025 figures come from the enrollment by college and program export, which carries no Fall 2026 column. They are excluded from every total in this file.
+Five programs have no row in the enrollment digest. Their Fall 2025 figures come from the enrollment by college and program export, which carries no Fall 2026 column. They are excluded from every total in this file.
 
 | program | college | department | 2025 |
 | --- | --- | --- | --- |
@@ -16,7 +16,7 @@ Five programs have no row in the degrees and plans table. Their Fall 2025 figure
 
 Three Fall 2025 totals are in play:
 
-- 1,743 in the degrees and plans table, the basis for every total below.
+- 1,743 in the enrollment digest, the basis for every total below.
 - 1,878, the same figure with the five programs above added.
 - 2,144 in the enrollment by college and program export, marked all funding sources.
 
