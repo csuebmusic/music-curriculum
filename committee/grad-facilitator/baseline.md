@@ -1,12 +1,15 @@
 # enrollment baseline
 
-From the enrollment digest in Pioneer Insights, pulled August 2026, counting all student types. Grouped as in `programs.md`.
+Two sources, both from Pioneer Insights, pulled August 2026 and counting all student types. Programs are grouped as in `programs.md`.
+
+- The enrollment digest, by degree and plan, carrying Fall 2025 and Fall 2026.
+- The Graduate Studies report, by college and program, carrying Fall 2021 through Fall 2025.
 
 ## coverage
 
 The digest gives 1,743 graduate students for Fall 2025. The report gives 2,144. Totals in this file follow the digest.
 
-Five programs have no digest row. Their Fall 2025 figures come from the report, which has no Fall 2026 column, and they sit outside every total below.
+Five programs have no digest row. Their Fall 2025 figures come from the report, and they sit outside every total below.
 
 | program | college | department | 2025 |
 | --- | --- | --- | --- |
