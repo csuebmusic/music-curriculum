@@ -2,9 +2,7 @@
 
 From the degrees and plans table in Pioneer Insights, pulled August 2026, counting all student types. Grouped as in `programs.md`.
 
-Five programs carry no row in that file and appear below with a Fall 2025 figure taken from the enrollment by college and program export: Accountancy, Reading and Literacy, Nursing, Nursing Post-Licensure, and eLearning. Quantitative Economics last carried students in Fall 2023, and Marine Science appears in neither source, its applications running through Moss Landing. Absent from both and not supplied elsewhere are the Educational Technology certificate, the Interaction and User Experience Design certificate, the Mathematics single-subject certificate and preparation, the health professions certificate, the two Pupil Personnel Services credentials, the Speech-Language Pathology Services credential, and the Education Specialist credential on its own.
-
-The two sources reconcile exactly for Fall 2025. The export gives 2,144. Subtract the 135 students in the five programs named above, subtract 269 more where the export counts a program higher than the plans table does (Teacher Credential 143, Business Administration 36, Educational Leadership 39, Public Administration 26, Speech-Language Pathology 25), add back the 3 certificate students the export has no rows for, and 1,743 remains.
+Carried by neither source: Marine Science, the Educational Technology certificate, the Interaction and User Experience Design certificate, the Mathematics single-subject certificate and preparation, the health professions certificate, the two Pupil Personnel Services credentials, the Speech-Language Pathology Services credential, and the Education Specialist credential on its own. Quantitative Economics last carried students in Fall 2023.
 
 ## totals
 
@@ -20,7 +18,7 @@ The two sources reconcile exactly for Fall 2025. The export gives 2,144. Subtrac
 | Certificate | 3 | 8 |
 | total | 1,743 | 1,898 |
 
-Totals exclude the five programs carrying an export figure. Including them, Fall 2025 is 1,878. The rise from 2025 to 2026 is credentials, where Single Subject Teaching moves from 77 to 239 and Multiple Subject from 32 to 46. Master's-level headcount falls from 1,595 to 1,566, and first-time graduate students fall from 657 to 626.
+Totals cover the degrees and plans table alone. Fall 2025 including the five export rows is 1,878, against 2,144 in the export itself.
 
 ## by college
 
@@ -31,8 +29,6 @@ Totals exclude the five programs carrying an export figure. Including them, Fall
 | College of Health | 337 | 366 |
 | College of Business and Economics | 278 | 242 |
 | total | 1,743 | 1,898 |
-
-Science and Business and Economics fall. The rise in Letters, Arts, and Social Sciences is the credential movement.
 
 ## by department
 
@@ -62,8 +58,8 @@ Science and Business and Economics fall. The rise in Letters, Arts, and Social S
 | Educational Technology MS | 25 | 29 |  |
 | Cred:Multiple Subject Teaching | 32 | 46 |  |
 | Cred:Single Subject Teaching | 77 | 239 |  |
-| Reading and Literacy | 28 |  | Fall 2025 from the enrollment by college and program export; this file carries no row |
-| eLearning | 25 |  | Fall 2025 from the enrollment by college and program export; this file carries no row, and the catalog carries no such program |
+| Reading and Literacy | 28 | *missing* | from the enrollment by college and program export |
+| eLearning | 25 | *missing* | from the enrollment by college and program export; not in the catalog |
 
 #### Special Education
 
@@ -174,8 +170,8 @@ Science and Business and Economics fall. The rise in Letters, Arts, and Social S
 
 | plan | 2025 | 2026 | note |
 | --- | --- | --- | --- |
-| Nursing | 18 |  | Fall 2025 from the enrollment by college and program export; this file carries no row |
-| Nursing Post-Licensure | 17 |  | Fall 2025 from the enrollment by college and program export; this file carries no row, and the catalog carries no such program |
+| Nursing | 18 | *missing* | from the enrollment by college and program export |
+| Nursing Post-Licensure | 17 | *missing* | from the enrollment by college and program export; not in the catalog |
 
 #### Social Work
 
@@ -196,7 +192,7 @@ Science and Business and Economics fall. The rise in Letters, Arts, and Social S
 
 | plan | 2025 | 2026 | note |
 | --- | --- | --- | --- |
-| Accountancy | 47 |  | Fall 2025 from the enrollment by college and program export; this file carries no row |
+| Accountancy | 47 | *missing* | from the enrollment by college and program export |
 
 #### Management
 
