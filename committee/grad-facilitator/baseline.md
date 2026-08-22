@@ -22,7 +22,9 @@ Three Fall 2025 totals are in play:
 
 The remaining 266 sits in five programs the report counts higher: Teacher Credential 288 against 145, Business Administration 174 against 138, Public Administration 145 against 119, Speech-Language Pathology 116 against 91, and Educational Leadership 88 against 49. The report carries no certificate rows, where the enrollment digest holds 3 students.
 
-Carried by neither source: Marine Science, the Educational Technology certificate, the Interaction and User Experience Design certificate, the Mathematics single-subject certificate and preparation, the health professions certificate, the two Pupil Personnel Services credentials, the Speech-Language Pathology Services credential, and the Education Specialist credential on its own. Quantitative Economics last carried students in Fall 2023.
+Absent from both sources: Marine Science, the Educational Technology certificate, the Interaction and User Experience Design certificate, the Mathematics single-subject certificate and preparation, and the health professions certificate. Quantitative Economics last carried students in Fall 2023.
+
+Present but not separately identifiable: the report has no certificate rows at all and collapses credentials into one Teacher Credential Program line. The Education Specialist credential appears in the digest only inside the two dual codes with Multiple Subject Teaching. The two Pupil Personnel Services credentials and the Speech-Language Pathology Services credential appear in the digest not at all, so their students sit inside a program line in the report and nowhere in the digest.
 
 ## totals
 
