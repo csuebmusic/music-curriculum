@@ -2,7 +2,9 @@
 
 From the degrees and plans table in Pioneer Insights, pulled August 2026. Headcount counts all student types; new counts first-time graduate students. Grouped as in `programs.md`.
 
-Accountancy, Quantitative Economics, Nursing, Reading and Literacy, Marine Science, and eLearning carry no rows in this file, and neither do the Educational Technology certificate, the Interaction and User Experience Design certificate, the Mathematics single-subject certificate and preparation, the health professions certificate, the two Pupil Personnel Services credentials, the Speech-Language Pathology Services credential, or the Education Specialist credential on its own. Every figure below is the state-support population the file covers.
+Five programs carry no row in this file and appear below with a Fall 2025 figure taken from the enrollment by college and program export: Accountancy, Reading and Literacy, Nursing, Nursing Post-Licensure, and eLearning. Quantitative Economics last carried students in Fall 2023, and Marine Science appears in neither source, its applications running through Moss Landing. Absent from this file and not supplied elsewhere are the Educational Technology certificate, the Interaction and User Experience Design certificate, the Mathematics single-subject certificate and preparation, the health professions certificate, the two Pupil Personnel Services credentials, the Speech-Language Pathology Services credential, or the Education Specialist credential on its own. Every unmarked figure below is the state-support population the file covers.
+
+The two sources reconcile exactly for Fall 2025. The dashboard export gives 2,144. Subtract the 135 students in the five programs named above, subtract 269 more where that export counts a program higher than this file does (Teacher Credential 143, Business Administration 36, Educational Leadership 39, Public Administration 26, Speech-Language Pathology 25), add back the 3 certificate students it has no rows for, and 1,743 remains.
 
 ## totals
 
@@ -18,7 +20,7 @@ Accountancy, Quantitative Economics, Nursing, Reading and Literacy, Marine Scien
 | Certificate | 3 | 8 | 1 | 4 |
 | total | 1,743 | 1,898 | 657 | 626 |
 
-Headcount rises by 155 and first-time students fall by 31. The rise is credentials, where Single Subject Teaching moves from 77 to 239 and Multiple Subject from 32 to 46. Master's-level headcount falls from 1,595 to 1,566.
+Totals exclude the five programs carrying a dashboard figure. Including them, Fall 2025 is 1,878. Headcount rises by 155 and first-time students fall by 31. The rise is credentials, where Single Subject Teaching moves from 77 to 239 and Multiple Subject from 32 to 46. Master's-level headcount falls from 1,595 to 1,566.
 
 ## by college
 
@@ -61,6 +63,8 @@ Science and Business and Economics fall on both measures. The rise in Letters, A
 | Educational Technology MS | 25 | 29 | 8 | 12 |  |
 | Cred:Multiple Subject Teaching | 32 | 46 | 0 | 1 |  |
 | Cred:Single Subject Teaching | 77 | 239 | 1 | 2 |  |
+| Reading and Literacy | 28 | | | | Fall 2025 from the dashboard export; this file carries no row |
+| eLearning | 25 | | | | Fall 2025 from the dashboard export; this file carries no row, and the catalog carries no such program |
 
 #### Special Education
 
@@ -167,6 +171,13 @@ Science and Business and Economics fall on both measures. The rise in Letters, A
 | --- | --- | --- | --- | --- | --- |
 | Kinesiology MS | 16 | 13 | 9 | 3 |  |
 
+#### Nursing
+
+| plan | headcount 2025 | headcount 2026 | new 2025 | new 2026 | note |
+| --- | --- | --- | --- | --- | --- |
+| Nursing | 18 | | | | Fall 2025 from the dashboard export; this file carries no row |
+| Nursing Post-Licensure | 17 | | | | Fall 2025 from the dashboard export; this file carries no row, and the catalog carries no such program |
+
 #### Social Work
 
 | plan | headcount 2025 | headcount 2026 | new 2025 | new 2026 | note |
@@ -181,6 +192,12 @@ Science and Business and Economics fall on both measures. The rise in Letters, A
 
 
 ### College of Business and Economics
+
+#### Accounting and Finance
+
+| plan | headcount 2025 | headcount 2026 | new 2025 | new 2026 | note |
+| --- | --- | --- | --- | --- | --- |
+| Accountancy | 47 | | | | Fall 2025 from the dashboard export; this file carries no row |
 
 #### Management
 
