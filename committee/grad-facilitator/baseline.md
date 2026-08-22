@@ -23,38 +23,55 @@ The two columns are not comparable. For Fall 2025 they differ by 401 students, t
 
 ## by college
 
-Fall 2021 to Fall 2025, using the college groupings in the dashboard export, which predate the merger of education into Letters, Arts, and Social Sciences.
+Dashboard basis, all funding sources, using the college groupings in the export, which already place education inside Letters, Arts, and Social Sciences.
 
-| college | Fall 2021 | Fall 2025 | change |
+| college | 2021 | 2022 | 2023 | 2024 | 2025 |
+| --- | --- | --- | --- | --- | --- |
+| Letters, Arts, and Social Sciences | 1,409 | 1,244 | 1,076 | 919 | 988 |
+| Business and Economics | 574 | 583 | 587 | 424 | 362 |
+| Science | 480 | 569 | 563 | 497 | 397 |
+| Health | 267 | 259 | 287 | 319 | 397 |
+| total | 2,730 | 2,655 | 2,513 | 2,159 | 2,144 |
+
+Fall 2021 to Fall 2025: Business and Economics down 37 percent, Letters, Arts, and Social Sciences down 30 percent, Science down 17 percent, Health up 49 percent.
+
+Plans table basis, which is the only source carrying Fall 2026.
+
+| college | headcount 2025 | headcount 2026 | new 2025 | new 2026 |
+| --- | --- | --- | --- | --- |
+| Letters, Arts, and Social Sciences | 727 | 1,009 | 284 | 292 |
+| Health | 337 | 366 | 150 | 160 |
+| Science | 401 | 281 | 114 | 94 |
+| Business and Economics | 278 | 242 | 109 | 80 |
+| total | 1,743 | 1,898 | 657 | 626 |
+
+Science and Business and Economics fall on both measures. The rise in Letters, Arts, and Social Sciences is the credential recoding, and its first-time students barely move.
+
+## programs falling and rising
+
+Fall 2021 to Fall 2025 on the dashboard basis, with Fall 2026 from the plans table where the two sources agree on Fall 2025. A dash marks a program the plans table does not carry.
+
+| falling | 2021 | 2025 | 2026 |
 | --- | --- | --- | --- |
-| Letters, Arts, and Social Sciences | 1,409 | 988 | -30% |
-| Business and Economics | 516 | 291 | -44% |
-| Science | 480 | 397 | -17% |
-| Health | 285 | 380 | +33% |
+| Teacher Credential Program | 414 | 288 | not comparable |
+| Business Administration | 327 | 174 | not comparable |
+| Health Care Administration | 229 | 105 | 107 |
+| Computer Science | 221 | 125 | 88 |
+| Counseling Psychology | 142 | 83 | 93 |
+| Business Analytics | 170 | 115 | 75 |
+| Accountancy | 58 | 47 | - |
+| Nursing | 40 | 18 | - |
+| Curriculum and Instruction | 40 | 1 | 30 |
 
-## programs falling fastest
+| rising | 2021 | 2025 | 2026 |
+| --- | --- | --- | --- |
+| Social Work | 129 | 230 | 263 |
+| Public Administration | 105 | 145 | not comparable |
+| Speech Language Pathology | 79 | 116 | not comparable |
+| Statistics | 70 | 86 | 41 |
+| Construction Management | 43 | 67 | 56 |
 
-Fall 2021 against Fall 2025.
-
-| program | Fall 2021 | Fall 2025 |
-| --- | --- | --- |
-| Business Administration | 327 | 174 |
-| Computer Science | 221 | 125 |
-| Health Care Administration | 229 | 105 |
-| Counseling Psychology | 142 | 83 |
-| Teacher Credential Program | 414 | 288 |
-| Curriculum and Instruction | 40 | 1 |
-| Nursing | 40 | 18 |
-
-## programs rising
-
-| program | Fall 2021 | Fall 2025 |
-| --- | --- | --- |
-| Social Work | 129 | 230 |
-| Speech Language Pathology | 79 | 116 |
-| Public Administration | 105 | 145 |
-| Construction Management | 43 | 67 |
-| Statistics | 70 | 86 |
+Statistics rises to Fall 2025 and then falls by more than half.
 
 ## enrollment by program, Fall 2021 to Fall 2026
 
@@ -282,7 +299,7 @@ Headcount 337 to 366, first-time students 150 to 160.
 
 ## prior institution
 
-Fall 2025, from the four region exports supplied. Non-US is absent from them, so the regions here account for 1,759 of the 2,144 enrolled.
+Fall 2021 to Fall 2025. The exports carry no Fall 2026, and no Non-US region, so the regions here account for 1,759 of the 2,144 enrolled in Fall 2025.
 
 | institution | Fall 2021 | Fall 2025 |
 | --- | --- | --- |
