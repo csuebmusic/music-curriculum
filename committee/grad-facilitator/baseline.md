@@ -4,7 +4,7 @@ From the enrollment digest in Pioneer Insights, pulled August 2026, counting all
 
 ## coverage
 
-Five programs have no row in the enrollment digest. Their Fall 2025 figures come from the enrollment by college and program export, which carries no Fall 2026 column. They are excluded from every total in this file.
+Five programs have no row in the enrollment digest. Their Fall 2025 figures come from the Pioneer Insights Graduate Studies report, which carries no Fall 2026 column. They are excluded from every total in this file.
 
 | program | college | department | 2025 |
 | --- | --- | --- | --- |
@@ -18,9 +18,9 @@ Three Fall 2025 totals are in play:
 
 - 1,743 in the enrollment digest, the basis for every total below.
 - 1,878, the same figure with the five programs above added.
-- 2,144 in the enrollment by college and program export, marked all funding sources.
+- 2,144 in the Pioneer Insights Graduate Studies report, marked all funding sources.
 
-The remaining 266 sits in five programs the export counts higher: Teacher Credential 288 against 145, Business Administration 174 against 138, Public Administration 145 against 119, Speech-Language Pathology 116 against 91, and Educational Leadership 88 against 49. The export carries no certificate rows, where the plans table holds 3 students.
+The remaining 266 sits in five programs the report counts higher: Teacher Credential 288 against 145, Business Administration 174 against 138, Public Administration 145 against 119, Speech-Language Pathology 116 against 91, and Educational Leadership 88 against 49. The report carries no certificate rows, where the enrollment digest holds 3 students.
 
 Carried by neither source: Marine Science, the Educational Technology certificate, the Interaction and User Experience Design certificate, the Mathematics single-subject certificate and preparation, the health professions certificate, the two Pupil Personnel Services credentials, the Speech-Language Pathology Services credential, and the Education Specialist credential on its own. Quantitative Economics last carried students in Fall 2023.
 
@@ -76,8 +76,8 @@ Carried by neither source: Marine Science, the Educational Technology certificat
 | Educational Technology MS | 25 | 29 |  |
 | Cred:Multiple Subject Teaching | 32 | 46 |  |
 | Cred:Single Subject Teaching | 77 | 239 |  |
-| Reading and Literacy | 28 | *missing* | from the enrollment by college and program export |
-| eLearning | 25 | *missing* | from the enrollment by college and program export; not in the catalog |
+| Reading and Literacy | 28 | *missing* | from the Pioneer Insights Graduate Studies report |
+| eLearning | 25 | *missing* | from the Pioneer Insights Graduate Studies report; not in the catalog |
 
 #### Special Education
 
@@ -188,8 +188,8 @@ Carried by neither source: Marine Science, the Educational Technology certificat
 
 | plan | 2025 | 2026 | note |
 | --- | --- | --- | --- |
-| Nursing | 18 | *missing* | from the enrollment by college and program export |
-| Nursing Post-Licensure | 17 | *missing* | from the enrollment by college and program export; not in the catalog |
+| Nursing | 18 | *missing* | from the Pioneer Insights Graduate Studies report |
+| Nursing Post-Licensure | 17 | *missing* | from the Pioneer Insights Graduate Studies report; not in the catalog |
 
 #### Social Work
 
@@ -210,7 +210,7 @@ Carried by neither source: Marine Science, the Educational Technology certificat
 
 | plan | 2025 | 2026 | note |
 | --- | --- | --- | --- |
-| Accountancy | 47 | *missing* | from the enrollment by college and program export |
+| Accountancy | 47 | *missing* | from the Pioneer Insights Graduate Studies report |
 
 #### Management
 
