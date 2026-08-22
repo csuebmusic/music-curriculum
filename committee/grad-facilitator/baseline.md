@@ -6,15 +6,20 @@ The dashboard export is marked all funding sources and totals 2,144 for Fall 202
 
 ## total graduate enrollment
 
-| term | headcount |
-| --- | --- |
-| Fall 2021 | 2,730 |
-| Fall 2022 | 2,655 |
-| Fall 2023 | 2,513 |
-| Fall 2024 | 2,159 |
-| Fall 2025 | 2,144 |
+| term | dashboard, all funding sources | degrees and plans table |
+| --- | --- | --- |
+| Fall 2021 | 2,730 | |
+| Fall 2022 | 2,655 | |
+| Fall 2023 | 2,513 | |
+| Fall 2024 | 2,159 | |
+| Fall 2025 | 2,144 | 1,743 |
+| Fall 2026 | | 1,898 |
 
-Down 586 students, 21 percent, across four years.
+On the dashboard basis, down 586 students, 21 percent, from Fall 2021 to Fall 2025.
+
+On the plans table basis, up 155 students from Fall 2025 to Fall 2026, all of it credentials.
+
+The two columns are not comparable. For Fall 2025 they differ by 401 students, the programs and funding sources the plans table leaves out. A Fall 2026 figure on the dashboard basis is not in the exports supplied, so the four-year decline cannot yet be extended to Fall 2026.
 
 ## by college
 
