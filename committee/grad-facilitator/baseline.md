@@ -4,7 +4,9 @@ From the enrollment digest in Pioneer Insights, pulled August 2026, counting all
 
 ## coverage
 
-Five programs have no row in the enrollment digest. Their Fall 2025 figures come from the Pioneer Insights Graduate Studies report, which carries no Fall 2026 column. They are excluded from every total in this file.
+The digest gives 1,743 graduate students for Fall 2025. The report gives 2,144. Totals in this file follow the digest.
+
+Five programs have no digest row. Their Fall 2025 figures come from the report, which has no Fall 2026 column, and they sit outside every total below.
 
 | program | college | department | 2025 |
 | --- | --- | --- | --- |
@@ -14,17 +16,17 @@ Five programs have no row in the enrollment digest. Their Fall 2025 figures come
 | Nursing | Health | Nursing | 18 |
 | Nursing Post-Licensure | Health | Nursing | 17 |
 
-Three Fall 2025 totals are in play:
+Five more carry a higher Fall 2025 figure in the report than in the digest:
 
-- 1,743 in the enrollment digest, the basis for every total below.
-- 1,878, the same figure with the five programs above added.
-- 2,144 in the Pioneer Insights Graduate Studies report, marked all funding sources.
+- Teacher Credential, 288 against 145
+- Business Administration, 174 against 138
+- Public Administration, 145 against 119
+- Speech-Language Pathology, 116 against 91
+- Educational Leadership, 88 against 49
 
-The remaining 266 sits in five programs the report counts higher: Teacher Credential 288 against 145, Business Administration 174 against 138, Public Administration 145 against 119, Speech-Language Pathology 116 against 91, and Educational Leadership 88 against 49. The report carries no certificate rows, where the enrollment digest holds 3 students.
+Absent from both: Marine Science, the Educational Technology certificate, the Interaction and User Experience Design certificate, the Mathematics single-subject certificate and preparation, and the health professions certificate. Quantitative Economics last carried students in Fall 2023.
 
-Absent from both sources: Marine Science, the Educational Technology certificate, the Interaction and User Experience Design certificate, the Mathematics single-subject certificate and preparation, and the health professions certificate. Quantitative Economics last carried students in Fall 2023.
-
-Present but not separately identifiable: the report has no certificate rows at all and collapses credentials into one Teacher Credential Program line. The Education Specialist credential appears in the digest only inside the two dual codes with Multiple Subject Teaching. The two Pupil Personnel Services credentials and the Speech-Language Pathology Services credential appear in the digest not at all, so their students sit inside a program line in the report and nowhere in the digest.
+Not broken out anywhere: the report has no certificate rows and collapses credentials into one Teacher Credential Program line. The Education Specialist credential appears in the digest only inside the two dual codes with Multiple Subject Teaching. The two Pupil Personnel Services credentials and the Speech-Language Pathology Services credential appear in the digest not at all.
 
 ## totals
 
