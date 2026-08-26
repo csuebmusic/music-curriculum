@@ -23,13 +23,29 @@
   <a href="#s2"><span class="nav-num">02</span>flow</a>
   <a href="#s3"><span class="nav-num">03</span>merge fields</a>
   <a href="#s4"><span class="nav-num">04</span>templates</a>
-  <a class="nav-sub2" href="#01-ba-application-in-progress">email 1</a>
-  <a class="nav-sub2" href="#02-ba-application-received">email 2</a>
-  <a class="nav-sub2" href="#03a-ma-application-in-progress">email 3a</a>
-  <a class="nav-sub2" href="#03b-certificate-application-in-progress">email 3b</a>
-  <a class="nav-sub2" href="#04a-ma-application-received">email 4a</a>
-  <a class="nav-sub2" href="#04b-certificate-application-received">email 4b</a>
-  <a class="nav-sub2" href="#05-inquiry">email 5</a>
+  <a class="nav-sub" href="#g-all">all music plans</a>
+  <a class="nav-sub2" href="#00-inquiry">inq</a>
+  <a class="nav-sub" href="#g-ba">b.a. in music and additional degree</a>
+  <a class="nav-sub2" href="#ba-1-application-in-progress">ba 1</a>
+  <a class="nav-sub2" href="#ba-2-application-received">ba 2</a>
+  <a class="nav-sub2" href="#ba-3-conditionally-admitted">ba 3</a>
+  <a class="nav-sub2" href="#ba-4-fully-admitted">ba 4</a>
+  <a class="nav-sub2" href="#ba-5-admission-accepted">ba 5</a>
+  <a class="nav-sub2" href="#ba-6-active">ba 6</a>
+  <a class="nav-sub" href="#g-ma">m.a. in music</a>
+  <a class="nav-sub2" href="#ma-1-application-in-progress">ma 1</a>
+  <a class="nav-sub2" href="#ma-2-application-received">ma 2</a>
+  <a class="nav-sub2" href="#ma-3-conditionally-admitted">ma 3</a>
+  <a class="nav-sub2" href="#ma-4-fully-admitted">ma 4</a>
+  <a class="nav-sub2" href="#ma-5-admission-accepted">ma 5</a>
+  <a class="nav-sub2" href="#ma-6-active">ma 6</a>
+  <a class="nav-sub" href="#g-cert">single subject matter preparation certificate</a>
+  <a class="nav-sub2" href="#cert-1-application-in-progress">cert 1</a>
+  <a class="nav-sub2" href="#cert-2-application-received">cert 2</a>
+  <a class="nav-sub2" href="#cert-3-conditionally-admitted">cert 3</a>
+  <a class="nav-sub2" href="#cert-4-fully-admitted">cert 4</a>
+  <a class="nav-sub2" href="#cert-5-admission-accepted">cert 5</a>
+  <a class="nav-sub2" href="#cert-6-active">cert 6</a>
   <a href="#s5"><span class="nav-num">05</span>open items</a>
 </nav>
 
@@ -38,12 +54,12 @@
   <header class="page-header">
     <div class="institution">California State University, East Bay &middot; Department of Music</div>
     <h1>Admissions Email Templates</h1>
-    <div class="subtitle">Automated messages for Music applicants and inquiries</div>
+    <div class="subtitle">Automated messages for Music applicants, admits, and new students</div>
     <div class="meta-strip">
       <span class="meta-item">document: <strong>admissions email templates</strong></span>
       <span class="meta-item">system: <strong>salesforce</strong></span>
       <span class="meta-item">season: <strong>2026&ndash;2027</strong></span>
-      <span class="meta-item">revised: <strong>august 2026</strong></span>
+      <span class="meta-item">templates: <strong>19</strong></span>
       <span class="meta-item">status: <strong>for review</strong></span>
     </div>
   </header>
@@ -59,25 +75,67 @@
     <h2>send configuration</h2>
     <p class="measure">Every message in this set goes to the <strong>Email</strong> and <strong>Alternate Email</strong> fields on the applicant record. The university address issued with the NetID is not a send target for this set.</p>
     <div class="policy-block">
-      <span class="policy-label">applies to all seven templates</span>
+      <span class="policy-label">applies to every template</span>
       Applicants activate the Horizon account after they apply. Messages routed there are missed.
     </div>
   </section>
 
   <section class="hb-section" id="s2">
     <h2>flow</h2>
+    <p class="measure">One template per plan and application status. The inquiry message is shared across every plan containing Music and sends once: an inquiry that later attaches an application plan moves to that plan's sequence.</p>
+    <h3 id="f-all">all music plans</h3>
+    <p class="measure">Plan: <span class="gloss">All plans containing Music</span></p>
     <table class="hb-table">
       <thead>
-        <tr><th>plan</th><th>stage</th><th class="col-code">template</th></tr>
+        <tr><th>application status</th><th class="col-code">template</th></tr>
       </thead>
       <tbody>
-        <tr><td>Music BA, Music Additional Degree</td><td>application in progress</td><td class="col-code"><a href="#01-ba-application-in-progress">email 1</a></td></tr>
-        <tr><td>Music BA, Music Additional Degree</td><td>application received</td><td class="col-code"><a href="#02-ba-application-received">email 2</a></td></tr>
-        <tr><td>Music MA</td><td>application in progress</td><td class="col-code"><a href="#03a-ma-application-in-progress">email 3a</a></td></tr>
-        <tr><td>Cert: Music, Single Sub Matter</td><td>application in progress</td><td class="col-code"><a href="#03b-certificate-application-in-progress">email 3b</a></td></tr>
-        <tr><td>Music MA</td><td>application received</td><td class="col-code"><a href="#04a-ma-application-received">email 4a</a></td></tr>
-        <tr><td>Cert: Music, Single Sub Matter</td><td>application received</td><td class="col-code"><a href="#04b-certificate-application-received">email 4b</a></td></tr>
-        <tr><td>All plans containing Music</td><td>inquired</td><td class="col-code"><a href="#05-inquiry">email 5</a></td></tr>
+        <tr><td>inquired</td><td class="col-code"><a href="#00-inquiry">inq</a></td></tr>
+      </tbody>
+    </table>
+    <h3 id="f-ba">b.a. in music and additional degree</h3>
+    <p class="measure">Plan: <span class="gloss">Music BA, Music Additional Degree</span></p>
+    <table class="hb-table">
+      <thead>
+        <tr><th>application status</th><th class="col-code">template</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>application in progress</td><td class="col-code"><a href="#ba-1-application-in-progress">ba 1</a></td></tr>
+        <tr><td>application received</td><td class="col-code"><a href="#ba-2-application-received">ba 2</a></td></tr>
+        <tr><td>conditionally admitted</td><td class="col-code"><a href="#ba-3-conditionally-admitted">ba 3</a></td></tr>
+        <tr><td>fully admitted</td><td class="col-code"><a href="#ba-4-fully-admitted">ba 4</a></td></tr>
+        <tr><td>admission accepted</td><td class="col-code"><a href="#ba-5-admission-accepted">ba 5</a></td></tr>
+        <tr><td>active</td><td class="col-code"><a href="#ba-6-active">ba 6</a></td></tr>
+      </tbody>
+    </table>
+    <h3 id="f-ma">m.a. in music</h3>
+    <p class="measure">Plan: <span class="gloss">Music MA</span></p>
+    <table class="hb-table">
+      <thead>
+        <tr><th>application status</th><th class="col-code">template</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>application in progress</td><td class="col-code"><a href="#ma-1-application-in-progress">ma 1</a></td></tr>
+        <tr><td>application received</td><td class="col-code"><a href="#ma-2-application-received">ma 2</a></td></tr>
+        <tr><td>conditionally admitted</td><td class="col-code"><a href="#ma-3-conditionally-admitted">ma 3</a></td></tr>
+        <tr><td>fully admitted</td><td class="col-code"><a href="#ma-4-fully-admitted">ma 4</a></td></tr>
+        <tr><td>admission accepted</td><td class="col-code"><a href="#ma-5-admission-accepted">ma 5</a></td></tr>
+        <tr><td>active</td><td class="col-code"><a href="#ma-6-active">ma 6</a></td></tr>
+      </tbody>
+    </table>
+    <h3 id="f-cert">single subject matter preparation certificate</h3>
+    <p class="measure">Plan: <span class="gloss">Cert: Music, Single Sub Matter</span></p>
+    <table class="hb-table">
+      <thead>
+        <tr><th>application status</th><th class="col-code">template</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>application in progress</td><td class="col-code"><a href="#cert-1-application-in-progress">cert 1</a></td></tr>
+        <tr><td>application received</td><td class="col-code"><a href="#cert-2-application-received">cert 2</a></td></tr>
+        <tr><td>conditionally admitted</td><td class="col-code"><a href="#cert-3-conditionally-admitted">cert 3</a></td></tr>
+        <tr><td>fully admitted</td><td class="col-code"><a href="#cert-4-fully-admitted">cert 4</a></td></tr>
+        <tr><td>admission accepted</td><td class="col-code"><a href="#cert-5-admission-accepted">cert 5</a></td></tr>
+        <tr><td>active</td><td class="col-code"><a href="#cert-6-active">cert 6</a></td></tr>
       </tbody>
     </table>
   </section>
@@ -89,7 +147,7 @@
         <tr><th class="col-code">token</th><th>field</th><th>note</th></tr>
       </thead>
       <tbody>
-        <tr><td class="col-code">{{FIRST_NAME}}</td><td>preferred name, falling back to first name</td><td>one formula field, used by all seven templates</td></tr>
+        <tr><td class="col-code">{{FIRST_NAME}}</td><td>preferred name, falling back to first name</td><td>one formula field, used by every template</td></tr>
       </tbody>
     </table>
     <p class="measure">The templates carry a single token in a syntax Salesforce does not resolve, so an unreplaced token is visible rather than silent. Replace it with the merge syntax for the object these messages send from, and confirm the fallback returns the legal first name when the preferred name is blank.</p>
@@ -97,267 +155,20 @@
 
   <section class="hb-section" id="s4">
     <h2>templates</h2>
-  <div class="tpl" id="01-ba-application-in-progress">
+  <h3 id="g-all">all music plans</h3>
+  <div class="tpl" id="00-inquiry">
     <div class="tpl-head">
-      <span class="tpl-id">email 1</span>
-      <span class="tpl-meta">Music BA, Music Additional Degree &middot; application in progress</span>
-      <span class="tpl-subject"><span>subject</span>You&#x27;ve started your application to CSUEB Music</span>
+      <span class="tpl-id">inq</span>
+      <span class="tpl-meta">inquired</span>
+      <span class="tpl-subject"><span>subject</span>Music at Cal State East Bay</span>
     </div>
     <div class="tpl-bar">
       <button class="copy-btn" data-src="src-0">copy html source</button>
       <span class="copy-note">paste into the html source view, not the rich-text editor</span>
     </div>
-    <iframe class="tpl-frame" data-src="src-0" title="email 1 preview"></iframe>
+    <iframe class="tpl-frame" data-src="src-0" title="inq preview"></iframe>
   </div>
   <script type="text/plain" id="src-0"><div style="font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.6;color:#1B1C1E;">
-<!-- MUSIC DEPARTMENT HEADER IMAGE -->
-<p style="margin:0 0 1em 0;">Hi {{FIRST_NAME}},</p>
-
-<p style="margin:0 0 1em 0;">You&rsquo;ve started an application to the <a href="https://www.csueastbay.edu/music/prospective/ba.html" style="color:#6E1F2A;">B.A. in Music</a> at Cal State East Bay, and we&rsquo;re glad you did.</p>
-
-<p style="margin:0 0 1em 0;">A little about us. Our ensembles play around the Bay Area and abroad. Our faculty are working performers, composers, and scholars, and classes are small enough that they will know your name and your playing. Students here write, produce, perform, conduct, and teach, often in the same week. There is more on the <a href="https://www.csueastbay.edu/music/about-us/index.html" style="color:#6E1F2A;">Department of Music</a> site.</p>
-
-<p style="margin:0 0 1em 0;">If anything about the application is unclear, ask us. Call (510) 885-3135 or write <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>. A person reads that inbox.</p>
-
-<p style="margin:0 0 1em 0;">We&rsquo;ll be in touch as you go. Come see us on campus when you can.</p>
-
-<p style="margin:0 0 1em 0;">All the best,<br>
-Department of Music</p>
-
-<p style="margin:0 0 1em 0;font-size:14px;color:#5E6166;">
-Department of Music &middot; CSUEB Music Building, MB 2569<br>
-25800 Carlos Bee Boulevard, Hayward, CA 94542<br>
-(510) 885-3135 &middot; <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>
-</p>
-
-<p style="margin:0 0 0.4em 0;"><strong>Other places to look</strong></p>
-<ul style="margin:0 0 1em 0;padding-left:1.4em;">
-<li><a href="https://www.csueastbay.edu/music/" style="color:#6E1F2A;">Department of Music</a></li>
-<li><a href="https://www.csueastbay.edu/admissions/index.html" style="color:#6E1F2A;">Admissions</a></li>
-<li><a href="https://www.csueastbay.edu/visit/campustours.html" style="color:#6E1F2A;">Campus tours</a></li>
-<li><a href="https://www.csueastbay.edu/housing/" style="color:#6E1F2A;">University housing</a></li>
-<li><a href="https://www.csueastbay.edu/financialaid/" style="color:#6E1F2A;">Financial aid</a></li>
-<li><a href="https://www.csueastbay.edu/admissions/how-to-videos.html" style="color:#6E1F2A;">Video answers to common questions</a></li>
-</ul>
-</div></script>
-  <div class="tpl" id="02-ba-application-received">
-    <div class="tpl-head">
-      <span class="tpl-id">email 2</span>
-      <span class="tpl-meta">Music BA, Music Additional Degree &middot; application received</span>
-      <span class="tpl-subject"><span>subject</span>Your application is in. Here&#x27;s what comes next</span>
-    </div>
-    <div class="tpl-bar">
-      <button class="copy-btn" data-src="src-1">copy html source</button>
-      <span class="copy-note">paste into the html source view, not the rich-text editor</span>
-    </div>
-    <iframe class="tpl-frame" data-src="src-1" title="email 2 preview"></iframe>
-  </div>
-  <script type="text/plain" id="src-1"><div style="font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.6;color:#1B1C1E;">
-<!-- MUSIC DEPARTMENT HEADER IMAGE -->
-<p style="margin:0 0 1em 0;">Hi {{FIRST_NAME}},</p>
-
-<p style="margin:0 0 1em 0;">Your application to the Department of Music is in. Nice work.</p>
-
-<p style="margin:0 0 1em 0;">Now come visit. You can meet the faculty, sit in on a rehearsal, and see what an ordinary week looks like around here. Write to <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a> and we&rsquo;ll set it up.</p>
-
-<p style="margin:0 0 1em 0;">And audition for a scholarship. We award them to incoming students every year, and the same materials count as your applied area placement, so one audition does both jobs. Deadlines are fixed in the application season, and in-person dates go up each year: <a href="https://www.csueastbay.edu/music/prospective/how-to-apply/auditions.html" style="color:#6E1F2A;">scholarship auditions and applied area placements</a>.</p>
-
-<p style="margin:1.4em 0 0.4em 0;"><strong>Three things to take care of</strong></p>
-
-<ul style="margin:0 0 1em 0;padding-left:1.4em;">
-<li style="margin:0 0 0.5em 0;">Activate your NetID. It reaches you within 48 hours of applying, and you&rsquo;ll need it for MyCSUEB and for your Horizon email.</li>
-<li style="margin:0 0 0.5em 0;">Send your transcripts. The fastest route is to have each school send them electronically to <a href="mailto:electronictranscripts@csueastbay.edu" style="color:#6E1F2A;">electronictranscripts@csueastbay.edu</a>. Your admission offer won&rsquo;t come until they arrive.</li>
-<li style="margin:0 0 0.5em 0;">Watch <a href="https://www.csueastbay.edu/mycsueb/" style="color:#6E1F2A;">MyCSUEB</a>. That&rsquo;s where you track your status and, later, accept your offer.</li>
-</ul>
-
-<p style="margin:0 0 1em 0;">Questions about a visit or an audition? Call (510) 885-3135 or write <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>. A person reads that inbox.</p>
-
-<p style="margin:0 0 1em 0;">All the best,<br>
-Department of Music</p>
-
-<p style="margin:0 0 1em 0;font-size:14px;color:#5E6166;">
-Department of Music &middot; CSUEB Music Building, MB 2569<br>
-25800 Carlos Bee Boulevard, Hayward, CA 94542<br>
-(510) 885-3135 &middot; <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>
-</p>
-</div></script>
-  <div class="tpl" id="03a-ma-application-in-progress">
-    <div class="tpl-head">
-      <span class="tpl-id">email 3a</span>
-      <span class="tpl-meta">Music MA &middot; application in progress</span>
-      <span class="tpl-subject"><span>subject</span>Your M.A. in Music application at Cal State East Bay</span>
-    </div>
-    <div class="tpl-bar">
-      <button class="copy-btn" data-src="src-2">copy html source</button>
-      <span class="copy-note">paste into the html source view, not the rich-text editor</span>
-    </div>
-    <iframe class="tpl-frame" data-src="src-2" title="email 3a preview"></iframe>
-  </div>
-  <script type="text/plain" id="src-2"><div style="font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.6;color:#1B1C1E;">
-<!-- MUSIC DEPARTMENT HEADER IMAGE -->
-<p style="margin:0 0 1em 0;">Hi {{FIRST_NAME}},</p>
-
-<p style="margin:0 0 1em 0;">Thanks for starting an application to the <a href="https://www.csueastbay.edu/music/prospective/ma.html" style="color:#6E1F2A;">Master of Arts in Music</a>. You&rsquo;ll pick one area to work in: Performance (Classical or Jazz), Choral Conducting, or Composition.</p>
-
-<p style="margin:0 0 1em 0;">A bachelor&rsquo;s degree in music is the usual preparation and we do encourage it, though it isn&rsquo;t a hard requirement: we read applications without one case by case, and self-taught musicians have come through the program. We do ask for good academic standing at your most recent college or university.</p>
-
-<p style="margin:1.4em 0 0.4em 0;"><strong>What goes into CSUApply</strong></p>
-
-<ul style="margin:0 0 1em 0;padding-left:1.4em;">
-<li style="margin:0 0 0.5em 0;">Your CV or r&eacute;sum&eacute;.</li>
-<li style="margin:0 0 0.5em 0;">Two letters of recommendation, from teachers or colleagues who can speak to your readiness for graduate work.</li>
-<li style="margin:0 0 0.5em 0;">A statement of purpose, 2 pages, on what you want from a graduate degree in music and where you&rsquo;re headed in the short and long term.</li>
-<li style="margin:0 0 0.5em 0;">Evidence of your abilities in your area. What that means varies by area, and it&rsquo;s laid out on the <a href="https://www.csueastbay.edu/music/prospective/how-to-apply/index.html" style="color:#6E1F2A;">How to Apply</a> page.</li>
-</ul>
-
-<p style="margin:0 0 1em 0;">Stuck on any of it? Call (510) 885-3135 or write <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>. A person reads that inbox.</p>
-
-<p style="margin:0 0 1em 0;">All the best,<br>
-Department of Music</p>
-
-<p style="margin:0 0 1em 0;font-size:14px;color:#5E6166;">
-Department of Music &middot; CSUEB Music Building, MB 2569<br>
-25800 Carlos Bee Boulevard, Hayward, CA 94542<br>
-(510) 885-3135 &middot; <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>
-</p>
-</div></script>
-  <div class="tpl" id="03b-certificate-application-in-progress">
-    <div class="tpl-head">
-      <span class="tpl-id">email 3b</span>
-      <span class="tpl-meta">Cert: Music, Single Sub Matter &middot; application in progress</span>
-      <span class="tpl-subject"><span>subject</span>Your certificate application at Cal State East Bay</span>
-    </div>
-    <div class="tpl-bar">
-      <button class="copy-btn" data-src="src-3">copy html source</button>
-      <span class="copy-note">paste into the html source view, not the rich-text editor</span>
-    </div>
-    <iframe class="tpl-frame" data-src="src-3" title="email 3b preview"></iframe>
-  </div>
-  <script type="text/plain" id="src-3"><div style="font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.6;color:#1B1C1E;">
-<!-- MUSIC DEPARTMENT HEADER IMAGE -->
-<p style="margin:0 0 1em 0;">Hi {{FIRST_NAME}},</p>
-
-<p style="margin:0 0 1em 0;">Thanks for starting an application to the <a href="https://www.csueastbay.edu/music/prospective/music-ed.html" style="color:#6E1F2A;">Single Subject Matter Preparation Certificate in Music</a>. It&rsquo;s the path to the California Single Subject Teaching Credential in Music, which lets you teach any area of music from kindergarten through high school.</p>
-
-<p style="margin:0 0 1em 0;">This route is for people who already hold a bachelor&rsquo;s degree.</p>
-
-<p style="margin:1.4em 0 0.4em 0;"><strong>What goes into CSUApply</strong></p>
-
-<ul style="margin:0 0 1em 0;padding-left:1.4em;">
-<li style="margin:0 0 0.5em 0;">Your CV or r&eacute;sum&eacute;.</li>
-<li style="margin:0 0 0.5em 0;">Contact details for two references. They&rsquo;ll be asked for letters later, so give them a heads up.</li>
-<li style="margin:0 0 0.5em 0;">A statement of purpose, 2 to 3 double-spaced pages, on your background in music and why you want to teach K&ndash;12.</li>
-<li style="margin:0 0 0.5em 0;">Unofficial transcripts from every school you&rsquo;ve attended.</li>
-</ul>
-
-<p style="margin:0 0 1em 0;">Questions while you put it together? Call (510) 885-3135 or write <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>. A person reads that inbox.</p>
-
-<p style="margin:0 0 1em 0;">All the best,<br>
-Department of Music</p>
-
-<p style="margin:0 0 1em 0;font-size:14px;color:#5E6166;">
-Department of Music &middot; CSUEB Music Building, MB 2569<br>
-25800 Carlos Bee Boulevard, Hayward, CA 94542<br>
-(510) 885-3135 &middot; <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>
-</p>
-</div></script>
-  <div class="tpl" id="04a-ma-application-received">
-    <div class="tpl-head">
-      <span class="tpl-id">email 4a</span>
-      <span class="tpl-meta">Music MA &middot; application received</span>
-      <span class="tpl-subject"><span>subject</span>Your M.A. application is complete. What happens now</span>
-    </div>
-    <div class="tpl-bar">
-      <button class="copy-btn" data-src="src-4">copy html source</button>
-      <span class="copy-note">paste into the html source view, not the rich-text editor</span>
-    </div>
-    <iframe class="tpl-frame" data-src="src-4" title="email 4a preview"></iframe>
-  </div>
-  <script type="text/plain" id="src-4"><div style="font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.6;color:#1B1C1E;">
-<!-- MUSIC DEPARTMENT HEADER IMAGE -->
-<p style="margin:0 0 1em 0;">Hi {{FIRST_NAME}},</p>
-
-<p style="margin:0 0 1em 0;">Your application to the Master of Arts in Music is complete. Thank you.</p>
-
-<p style="margin:0 0 1em 0;">We read graduate applications as they come in. Once the Office of Graduate Admissions has been through your CSUApply file, we move to a decision. Your status shows up in <a href="https://www.csueastbay.edu/mycsueb/" style="color:#6E1F2A;">MyCSUEB</a>.</p>
-
-<p style="margin:1.4em 0 0.4em 0;"><strong>Paying for it</strong></p>
-
-<p style="margin:0 0 1em 0;">The Office of Graduate Studies runs fellowships, research funding, and other support across the University: <a href="https://www.csueastbay.edu/graduate-studies/graduate-opportunities.html" style="color:#6E1F2A;">Graduate Opportunities</a>.</p>
-
-<p style="margin:0 0 1em 0;">The Department has its own: <a href="https://www.csueastbay.edu/music/prospective/scholarships.html" style="color:#6E1F2A;">Music Scholarships</a>.</p>
-
-<ul style="margin:0 0 1em 0;padding-left:1.4em;">
-<li style="margin:0 0 0.5em 0;"><strong>Graduate Teaching Associates</strong> teach. You&rsquo;d lead classroom or lab sections, build course materials, run exams, tutor, and grade. You need to be admitted to a CSUEB graduate degree program related to the assignment, enrolled, and holding a 3.0 with progress toward the degree. Pay is per course-unit assigned.</li>
-<li style="margin:0 0 0.5em 0;"><strong>Instructional Student Assistants</strong> support teaching: grading, tutoring, and related work. You need relevant coursework and enrollment in at least 4 units, or recent enrollment with continued eligibility. Up to 20 hours a week, at rates set by level.</li>
-<li style="margin:0 0 0.5em 0;"><strong>The Glenn Glasow Graduate Fellowship in Composition</strong> covers a year of study for one composer, who premieres a new piece at the Glenn Glasow Memorial Concert. There&rsquo;s no separate application. We choose from the scores already in your program application.</li>
-</ul>
-
-<p style="margin:0 0 1em 0;">Anything you want to ask before you hear from us? Call (510) 885-3135 or write <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>. A person reads that inbox.</p>
-
-<p style="margin:0 0 1em 0;">All the best,<br>
-Department of Music</p>
-
-<p style="margin:0 0 1em 0;font-size:14px;color:#5E6166;">
-Department of Music &middot; CSUEB Music Building, MB 2569<br>
-25800 Carlos Bee Boulevard, Hayward, CA 94542<br>
-(510) 885-3135 &middot; <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>
-</p>
-</div></script>
-  <div class="tpl" id="04b-certificate-application-received">
-    <div class="tpl-head">
-      <span class="tpl-id">email 4b</span>
-      <span class="tpl-meta">Cert: Music, Single Sub Matter &middot; application received</span>
-      <span class="tpl-subject"><span>subject</span>Your certificate application is complete. What happens now</span>
-    </div>
-    <div class="tpl-bar">
-      <button class="copy-btn" data-src="src-5">copy html source</button>
-      <span class="copy-note">paste into the html source view, not the rich-text editor</span>
-    </div>
-    <iframe class="tpl-frame" data-src="src-5" title="email 4b preview"></iframe>
-  </div>
-  <script type="text/plain" id="src-5"><div style="font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.6;color:#1B1C1E;">
-<!-- MUSIC DEPARTMENT HEADER IMAGE -->
-<p style="margin:0 0 1em 0;">Hi {{FIRST_NAME}},</p>
-
-<p style="margin:0 0 1em 0;">Your application to the Single Subject Matter Preparation Certificate in Music is complete. Thank you.</p>
-
-<p style="margin:0 0 1em 0;">We read graduate applications as they come in. Once the Office of Graduate Admissions has been through your CSUApply file, we move to a decision. Your status shows up in <a href="https://www.csueastbay.edu/mycsueb/" style="color:#6E1F2A;">MyCSUEB</a>.</p>
-
-<p style="margin:1.4em 0 0.4em 0;"><strong>Paying for it</strong></p>
-
-<p style="margin:0 0 1em 0;">The Office of Graduate Studies runs fellowships, research funding, and other support across the University: <a href="https://www.csueastbay.edu/graduate-studies/graduate-opportunities.html" style="color:#6E1F2A;">Graduate Opportunities</a>.</p>
-
-<p style="margin:0 0 1em 0;">The Department has its own: <a href="https://www.csueastbay.edu/music/prospective/scholarships.html" style="color:#6E1F2A;">Music Scholarships</a>.</p>
-
-<ul style="margin:0 0 1em 0;padding-left:1.4em;">
-<li style="margin:0 0 0.5em 0;"><strong>Instructional Student Assistants</strong> support teaching: grading, tutoring, and related work. You need relevant coursework and enrollment in at least 4 units, or recent enrollment with continued eligibility. Up to 20 hours a week, at rates set by level.</li>
-</ul>
-
-<p style="margin:0 0 1em 0;">Anything you want to ask before you hear from us? Call (510) 885-3135 or write <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>. A person reads that inbox.</p>
-
-<p style="margin:0 0 1em 0;">All the best,<br>
-Department of Music</p>
-
-<p style="margin:0 0 1em 0;font-size:14px;color:#5E6166;">
-Department of Music &middot; CSUEB Music Building, MB 2569<br>
-25800 Carlos Bee Boulevard, Hayward, CA 94542<br>
-(510) 885-3135 &middot; <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>
-</p>
-</div></script>
-  <div class="tpl" id="05-inquiry">
-    <div class="tpl-head">
-      <span class="tpl-id">email 5</span>
-      <span class="tpl-meta">All plans containing Music &middot; inquired</span>
-      <span class="tpl-subject"><span>subject</span>Music at Cal State East Bay</span>
-    </div>
-    <div class="tpl-bar">
-      <button class="copy-btn" data-src="src-6">copy html source</button>
-      <span class="copy-note">paste into the html source view, not the rich-text editor</span>
-    </div>
-    <iframe class="tpl-frame" data-src="src-6" title="email 5 preview"></iframe>
-  </div>
-  <script type="text/plain" id="src-6"><div style="font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.6;color:#1B1C1E;">
 <!-- MUSIC DEPARTMENT HEADER IMAGE -->
 <p style="margin:0 0 1em 0;">Hi {{FIRST_NAME}},</p>
 
@@ -394,6 +205,664 @@ Department of Music &middot; CSUEB Music Building, MB 2569<br>
 <li><a href="https://www.csueastbay.edu/admissions/how-to-videos.html" style="color:#6E1F2A;">Video answers to common questions</a></li>
 </ul>
 </div></script>
+  <h3 id="g-ba">b.a. in music and additional degree</h3>
+  <div class="tpl" id="ba-1-application-in-progress">
+    <div class="tpl-head">
+      <span class="tpl-id">ba 1</span>
+      <span class="tpl-meta">application in progress</span>
+      <span class="tpl-subject"><span>subject</span>You&#x27;ve started your application to CSUEB Music</span>
+    </div>
+    <div class="tpl-bar">
+      <button class="copy-btn" data-src="src-1">copy html source</button>
+      <span class="copy-note">paste into the html source view, not the rich-text editor</span>
+    </div>
+    <iframe class="tpl-frame" data-src="src-1" title="ba 1 preview"></iframe>
+  </div>
+  <script type="text/plain" id="src-1"><div style="font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.6;color:#1B1C1E;">
+<!-- MUSIC DEPARTMENT HEADER IMAGE -->
+<p style="margin:0 0 1em 0;">Hi {{FIRST_NAME}},</p>
+
+<p style="margin:0 0 1em 0;">You&rsquo;ve started an application to the <a href="https://www.csueastbay.edu/music/prospective/ba.html" style="color:#6E1F2A;">B.A. in Music</a> at Cal State East Bay, and we&rsquo;re glad you did.</p>
+
+<p style="margin:0 0 1em 0;">A little about us. Our ensembles play around the Bay Area and abroad. Our faculty are working performers, composers, and scholars, and classes are small enough that they will know your name and your playing. Students here write, produce, perform, conduct, and teach, often in the same week. There is more on the <a href="https://www.csueastbay.edu/music/about-us/index.html" style="color:#6E1F2A;">Department of Music</a> site.</p>
+
+<p style="margin:0 0 1em 0;">If anything about the application is unclear, ask us. Call (510) 885-3135 or write <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>. A person reads that inbox.</p>
+
+<p style="margin:0 0 1em 0;">We&rsquo;ll be in touch as you go. Come see us on campus when you can.</p>
+
+<p style="margin:0 0 1em 0;">All the best,<br>
+Department of Music</p>
+
+<p style="margin:0 0 1em 0;font-size:14px;color:#5E6166;">
+Department of Music &middot; CSUEB Music Building, MB 2569<br>
+25800 Carlos Bee Boulevard, Hayward, CA 94542<br>
+(510) 885-3135 &middot; <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>
+</p>
+
+<p style="margin:0 0 0.4em 0;"><strong>Other places to look</strong></p>
+<ul style="margin:0 0 1em 0;padding-left:1.4em;">
+<li><a href="https://www.csueastbay.edu/music/" style="color:#6E1F2A;">Department of Music</a></li>
+<li><a href="https://www.csueastbay.edu/admissions/index.html" style="color:#6E1F2A;">Admissions</a></li>
+<li><a href="https://www.csueastbay.edu/visit/campustours.html" style="color:#6E1F2A;">Campus tours</a></li>
+<li><a href="https://www.csueastbay.edu/housing/" style="color:#6E1F2A;">University housing</a></li>
+<li><a href="https://www.csueastbay.edu/financialaid/" style="color:#6E1F2A;">Financial aid</a></li>
+<li><a href="https://www.csueastbay.edu/admissions/how-to-videos.html" style="color:#6E1F2A;">Video answers to common questions</a></li>
+</ul>
+</div></script>
+  <div class="tpl" id="ba-2-application-received">
+    <div class="tpl-head">
+      <span class="tpl-id">ba 2</span>
+      <span class="tpl-meta">application received</span>
+      <span class="tpl-subject"><span>subject</span>Your application is in. Here&#x27;s what comes next</span>
+    </div>
+    <div class="tpl-bar">
+      <button class="copy-btn" data-src="src-2">copy html source</button>
+      <span class="copy-note">paste into the html source view, not the rich-text editor</span>
+    </div>
+    <iframe class="tpl-frame" data-src="src-2" title="ba 2 preview"></iframe>
+  </div>
+  <script type="text/plain" id="src-2"><div style="font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.6;color:#1B1C1E;">
+<!-- MUSIC DEPARTMENT HEADER IMAGE -->
+<p style="margin:0 0 1em 0;">Hi {{FIRST_NAME}},</p>
+
+<p style="margin:0 0 1em 0;">Your application to the Department of Music is in. Nice work.</p>
+
+<p style="margin:0 0 1em 0;">Now come visit. You can meet the faculty, sit in on a rehearsal, and see what an ordinary week looks like around here. Write to <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a> and we&rsquo;ll set it up.</p>
+
+<p style="margin:0 0 1em 0;">And audition for a scholarship. We award them to incoming students every year, and the same materials count as your applied area placement, so one audition does both jobs. Deadlines are fixed in the application season, and in-person dates go up each year: <a href="https://www.csueastbay.edu/music/prospective/how-to-apply/auditions.html" style="color:#6E1F2A;">scholarship auditions and applied area placements</a>.</p>
+
+<p style="margin:1.4em 0 0.4em 0;"><strong>Two things to take care of</strong></p>
+
+<ul style="margin:0 0 1em 0;padding-left:1.4em;">
+<li style="margin:0 0 0.5em 0;">Activate your NetID. It reaches you within 48 hours of applying, and you&rsquo;ll need it for MyCSUEB and for your Horizon email.</li>
+<li style="margin:0 0 0.5em 0;">Send your transcripts. The fastest route is to have each school send them electronically to <a href="mailto:electronictranscripts@csueastbay.edu" style="color:#6E1F2A;">electronictranscripts@csueastbay.edu</a>. <a href="https://www.csueastbay.edu/admissions/documents-deadlines-and-important-information/transcript-and-document-submission.html" style="color:#6E1F2A;">How to submit documents</a>.</li>
+</ul>
+
+<p style="margin:0 0 1em 0;">Then watch <a href="https://www.csueastbay.edu/mycsueb/" style="color:#6E1F2A;">MyCSUEB</a>. Your status and any outstanding requirements show up there.</p>
+
+<p style="margin:0 0 1em 0;">Questions about a visit or an audition? Call (510) 885-3135 or write <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>. A person reads that inbox.</p>
+
+<p style="margin:0 0 1em 0;">All the best,<br>
+Department of Music</p>
+
+<p style="margin:0 0 1em 0;font-size:14px;color:#5E6166;">
+Department of Music &middot; CSUEB Music Building, MB 2569<br>
+25800 Carlos Bee Boulevard, Hayward, CA 94542<br>
+(510) 885-3135 &middot; <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>
+</p>
+</div></script>
+  <div class="tpl" id="ba-3-conditionally-admitted">
+    <div class="tpl-head">
+      <span class="tpl-id">ba 3</span>
+      <span class="tpl-meta">conditionally admitted</span>
+      <span class="tpl-subject"><span>subject</span>You&#x27;re in, with a couple of things outstanding</span>
+    </div>
+    <div class="tpl-bar">
+      <button class="copy-btn" data-src="src-3">copy html source</button>
+      <span class="copy-note">paste into the html source view, not the rich-text editor</span>
+    </div>
+    <iframe class="tpl-frame" data-src="src-3" title="ba 3 preview"></iframe>
+  </div>
+  <script type="text/plain" id="src-3"><div style="font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.6;color:#1B1C1E;">
+<!-- MUSIC DEPARTMENT HEADER IMAGE -->
+<p style="margin:0 0 1em 0;">Hi {{FIRST_NAME}},</p>
+
+<p style="margin:0 0 1em 0;">Congratulations. The University has admitted you to the B.A. in Music, and your offer is conditional while a few documents are still outstanding.</p>
+
+<p style="margin:0 0 1em 0;">Open <a href="https://www.csueastbay.edu/mycsueb/" style="color:#6E1F2A;">MyCSUEB</a> and look at your To Do List. Everything holding up the offer is named there, usually final transcripts or proof that a degree was conferred. Have each school send transcripts electronically to <a href="mailto:electronictranscripts@csueastbay.edu" style="color:#6E1F2A;">electronictranscripts@csueastbay.edu</a>. Deadlines on those items are firm.</p>
+
+<p style="margin:0 0 1em 0;">Meanwhile, start on your side of things. Every music major needs an <a href="https://www.csueastbay.edu/music/prospective/how-to-apply/auditions.html" style="color:#6E1F2A;">applied area placement</a> before beginning lessons, and it can happen any time up to the end of the first week of the semester. If you auditioned for a scholarship, that already counts.</p>
+
+<p style="margin:0 0 1em 0;">Anything unclear about the conditions? Call (510) 885-3135 or write <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>. A person reads that inbox.</p>
+
+<p style="margin:0 0 1em 0;">All the best,<br>
+Department of Music</p>
+
+<p style="margin:0 0 1em 0;font-size:14px;color:#5E6166;">
+Department of Music &middot; CSUEB Music Building, MB 2569<br>
+25800 Carlos Bee Boulevard, Hayward, CA 94542<br>
+(510) 885-3135 &middot; <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>
+</p>
+</div></script>
+  <div class="tpl" id="ba-4-fully-admitted">
+    <div class="tpl-head">
+      <span class="tpl-id">ba 4</span>
+      <span class="tpl-meta">fully admitted</span>
+      <span class="tpl-subject"><span>subject</span>You&#x27;re in. Welcome to CSUEB Music</span>
+    </div>
+    <div class="tpl-bar">
+      <button class="copy-btn" data-src="src-4">copy html source</button>
+      <span class="copy-note">paste into the html source view, not the rich-text editor</span>
+    </div>
+    <iframe class="tpl-frame" data-src="src-4" title="ba 4 preview"></iframe>
+  </div>
+  <script type="text/plain" id="src-4"><div style="font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.6;color:#1B1C1E;">
+<!-- MUSIC DEPARTMENT HEADER IMAGE -->
+<p style="margin:0 0 1em 0;">Hi {{FIRST_NAME}},</p>
+
+<p style="margin:0 0 1em 0;">Congratulations, and welcome. You&rsquo;re admitted to the B.A. in Music at Cal State East Bay.</p>
+
+<p style="margin:1.4em 0 0.4em 0;"><strong>Claim your spot</strong></p>
+
+<p style="margin:0 0 1em 0;">Log in to <a href="https://www.csueastbay.edu/mycsueb/" style="color:#6E1F2A;">MyCSUEB</a>, open the Admissions tile, choose Accept Admission, and pay the $110 <a href="https://www.csueastbay.edu/admissions/after-youre-accepted/enrollment-fee.html" style="color:#6E1F2A;">pre-enrollment fee</a>, which goes toward orientation. Your status updates once the payment clears.</p>
+
+<p style="margin:0 0 1em 0;">Then read <a href="https://www.csueastbay.edu/music/prospective/how-to-apply/i-got-in-now-what.html" style="color:#6E1F2A;">I got in! Now what?</a>. It walks through orientation, advising, and the department steps that come next.</p>
+
+<p style="margin:0 0 1em 0;">Scholarships need no separate application. We consider incoming students from the audition and application materials you already sent.</p>
+
+<p style="margin:0 0 1em 0;">Questions before you accept? Call (510) 885-3135 or write <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>. A person reads that inbox.</p>
+
+<p style="margin:0 0 1em 0;">All the best,<br>
+Department of Music</p>
+
+<p style="margin:0 0 1em 0;font-size:14px;color:#5E6166;">
+Department of Music &middot; CSUEB Music Building, MB 2569<br>
+25800 Carlos Bee Boulevard, Hayward, CA 94542<br>
+(510) 885-3135 &middot; <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>
+</p>
+</div></script>
+  <div class="tpl" id="ba-5-admission-accepted">
+    <div class="tpl-head">
+      <span class="tpl-id">ba 5</span>
+      <span class="tpl-meta">admission accepted</span>
+      <span class="tpl-subject"><span>subject</span>You said yes. Here&#x27;s what to do before classes start</span>
+    </div>
+    <div class="tpl-bar">
+      <button class="copy-btn" data-src="src-5">copy html source</button>
+      <span class="copy-note">paste into the html source view, not the rich-text editor</span>
+    </div>
+    <iframe class="tpl-frame" data-src="src-5" title="ba 5 preview"></iframe>
+  </div>
+  <script type="text/plain" id="src-5"><div style="font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.6;color:#1B1C1E;">
+<!-- MUSIC DEPARTMENT HEADER IMAGE -->
+<p style="margin:0 0 1em 0;">Hi {{FIRST_NAME}},</p>
+
+<p style="margin:0 0 1em 0;">You&rsquo;ve accepted your offer. We&rsquo;re glad you&rsquo;re coming.</p>
+
+<p style="margin:0 0 1em 0;">Four things to line up before the semester starts.</p>
+
+<ul style="margin:0 0 1em 0;padding-left:1.4em;">
+<li style="margin:0 0 0.5em 0;"><strong>Applied area placement.</strong> Every music major needs one before starting lessons on their primary instrument or voice. It can happen any time up to the end of the first week of the semester, and a scholarship audition already counts as one. <a href="https://www.csueastbay.edu/music/prospective/how-to-apply/auditions.html" style="color:#6E1F2A;">What to prepare</a>.</li>
+<li style="margin:0 0 0.5em 0;"><strong>Ensembles.</strong> Auditions and placement happen at the first meeting of each ensemble. Register for the course and turn up to that first class. <a href="https://www.csueastbay.edu/music/ensembles.html" style="color:#6E1F2A;">Our ensembles</a>.</li>
+<li style="margin:0 0 0.5em 0;"><strong>Advising.</strong> Music students are advised through the College of Letters, Arts, and Social Sciences. BayAdvisor is where you find your GE advisor, book appointments, and track degree progress. For anything about the major itself, come to us.</li>
+<li style="margin:0 0 0.5em 0;"><strong>Keyboard.</strong> Graduating requires three semesters of group keyboard, normally MUS 118, MUS 119, and MUS 218. Build them into your plan early.</li>
+</ul>
+
+<p style="margin:0 0 1em 0;">Not sure where to start? Call (510) 885-3135 or write <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>. A person reads that inbox.</p>
+
+<p style="margin:0 0 1em 0;">All the best,<br>
+Department of Music</p>
+
+<p style="margin:0 0 1em 0;font-size:14px;color:#5E6166;">
+Department of Music &middot; CSUEB Music Building, MB 2569<br>
+25800 Carlos Bee Boulevard, Hayward, CA 94542<br>
+(510) 885-3135 &middot; <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>
+</p>
+</div></script>
+  <div class="tpl" id="ba-6-active">
+    <div class="tpl-head">
+      <span class="tpl-id">ba 6</span>
+      <span class="tpl-meta">active</span>
+      <span class="tpl-subject"><span>subject</span>Welcome to the Department. A few things to know</span>
+    </div>
+    <div class="tpl-bar">
+      <button class="copy-btn" data-src="src-6">copy html source</button>
+      <span class="copy-note">paste into the html source view, not the rich-text editor</span>
+    </div>
+    <iframe class="tpl-frame" data-src="src-6" title="ba 6 preview"></iframe>
+  </div>
+  <script type="text/plain" id="src-6"><div style="font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.6;color:#1B1C1E;">
+<!-- MUSIC DEPARTMENT HEADER IMAGE -->
+<p style="margin:0 0 1em 0;">Hi {{FIRST_NAME}},</p>
+
+<p style="margin:0 0 1em 0;">You&rsquo;re enrolled, and you&rsquo;re one of ours now.</p>
+
+<p style="margin:0 0 1em 0;">Two habits to start with. Come to concerts: while you&rsquo;re enrolled in applied lessons you need ten each semester, any Music Department event counts as one credit, and performing in one counts as a half. Up to two may come from outside the Department, approved in advance. And use the building: the <a href="https://www.csueastbay.edu/music/facilities/resource-center.html" style="color:#6E1F2A;">Music Resource Center</a> and the <a href="https://www.csueastbay.edu/music/facilities/equipment-office.html" style="color:#6E1F2A;">Music Equipment Office</a> have the scores, instruments, and gear you&rsquo;ll want.</p>
+
+<p style="margin:0 0 1em 0;">Everything else lives on the <a href="https://www.csueastbay.edu/music/current/index.html" style="color:#6E1F2A;">Student Resources</a> page: juries, recitals, exams, health and safety, and the policies you&rsquo;ll want to know before you need them. Concerts and deadlines go up on <a href="https://www.csueastbay.edu/music/news-events/index.html" style="color:#6E1F2A;">News &amp; Events</a>.</p>
+
+<p style="margin:0 0 1em 0;">Your applied teacher and your advisor are your first stops. After that, Call (510) 885-3135 or write <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>. A person reads that inbox.</p>
+
+<p style="margin:0 0 1em 0;">All the best,<br>
+Department of Music</p>
+
+<p style="margin:0 0 1em 0;font-size:14px;color:#5E6166;">
+Department of Music &middot; CSUEB Music Building, MB 2569<br>
+25800 Carlos Bee Boulevard, Hayward, CA 94542<br>
+(510) 885-3135 &middot; <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>
+</p>
+</div></script>
+  <h3 id="g-ma">m.a. in music</h3>
+  <div class="tpl" id="ma-1-application-in-progress">
+    <div class="tpl-head">
+      <span class="tpl-id">ma 1</span>
+      <span class="tpl-meta">application in progress</span>
+      <span class="tpl-subject"><span>subject</span>Your M.A. in Music application at Cal State East Bay</span>
+    </div>
+    <div class="tpl-bar">
+      <button class="copy-btn" data-src="src-7">copy html source</button>
+      <span class="copy-note">paste into the html source view, not the rich-text editor</span>
+    </div>
+    <iframe class="tpl-frame" data-src="src-7" title="ma 1 preview"></iframe>
+  </div>
+  <script type="text/plain" id="src-7"><div style="font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.6;color:#1B1C1E;">
+<!-- MUSIC DEPARTMENT HEADER IMAGE -->
+<p style="margin:0 0 1em 0;">Hi {{FIRST_NAME}},</p>
+
+<p style="margin:0 0 1em 0;">Thanks for starting an application to the <a href="https://www.csueastbay.edu/music/prospective/ma.html" style="color:#6E1F2A;">Master of Arts in Music</a>. You&rsquo;ll pick one area to work in: Performance (Classical or Jazz), Choral Conducting, or Composition.</p>
+
+<p style="margin:0 0 1em 0;">A bachelor&rsquo;s degree in music is the usual preparation and we do encourage it, though it isn&rsquo;t a hard requirement: we read applications without one case by case, and self-taught musicians have come through the program. We do ask for good academic standing at your most recent college or university.</p>
+
+<p style="margin:1.4em 0 0.4em 0;"><strong>What goes into CSUApply</strong></p>
+
+<ul style="margin:0 0 1em 0;padding-left:1.4em;">
+<li style="margin:0 0 0.5em 0;">Your CV or r&eacute;sum&eacute;.</li>
+<li style="margin:0 0 0.5em 0;">Two letters of recommendation, from teachers or colleagues who can speak to your readiness for graduate work.</li>
+<li style="margin:0 0 0.5em 0;">A statement of purpose, 2 pages, on what you want from a graduate degree in music and where you&rsquo;re headed in the short and long term.</li>
+<li style="margin:0 0 0.5em 0;">Evidence of your abilities in your area. What that means varies by area, and it&rsquo;s laid out on the <a href="https://www.csueastbay.edu/music/prospective/how-to-apply/index.html" style="color:#6E1F2A;">How to Apply</a> page.</li>
+</ul>
+
+<p style="margin:0 0 1em 0;">Stuck on any of it? Call (510) 885-3135 or write <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>. A person reads that inbox.</p>
+
+<p style="margin:0 0 1em 0;">All the best,<br>
+Department of Music</p>
+
+<p style="margin:0 0 1em 0;font-size:14px;color:#5E6166;">
+Department of Music &middot; CSUEB Music Building, MB 2569<br>
+25800 Carlos Bee Boulevard, Hayward, CA 94542<br>
+(510) 885-3135 &middot; <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>
+</p>
+</div></script>
+  <div class="tpl" id="ma-2-application-received">
+    <div class="tpl-head">
+      <span class="tpl-id">ma 2</span>
+      <span class="tpl-meta">application received</span>
+      <span class="tpl-subject"><span>subject</span>Your M.A. application is complete. What happens now</span>
+    </div>
+    <div class="tpl-bar">
+      <button class="copy-btn" data-src="src-8">copy html source</button>
+      <span class="copy-note">paste into the html source view, not the rich-text editor</span>
+    </div>
+    <iframe class="tpl-frame" data-src="src-8" title="ma 2 preview"></iframe>
+  </div>
+  <script type="text/plain" id="src-8"><div style="font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.6;color:#1B1C1E;">
+<!-- MUSIC DEPARTMENT HEADER IMAGE -->
+<p style="margin:0 0 1em 0;">Hi {{FIRST_NAME}},</p>
+
+<p style="margin:0 0 1em 0;">Your application to the Master of Arts in Music is complete. Thank you.</p>
+
+<p style="margin:0 0 1em 0;">We read graduate applications as they come in. Once the Office of Graduate Admissions has been through your CSUApply file, we move to a decision. Your status shows up in <a href="https://www.csueastbay.edu/mycsueb/" style="color:#6E1F2A;">MyCSUEB</a>.</p>
+
+<p style="margin:1.4em 0 0.4em 0;"><strong>Paying for it</strong></p>
+
+<p style="margin:0 0 1em 0;">The Office of Graduate Studies runs fellowships, research funding, and other support across the University: <a href="https://www.csueastbay.edu/graduate-studies/graduate-opportunities.html" style="color:#6E1F2A;">Graduate Opportunities</a>.</p>
+
+<p style="margin:0 0 1em 0;">The Department has its own: <a href="https://www.csueastbay.edu/music/prospective/scholarships.html" style="color:#6E1F2A;">Music Scholarships</a>.</p>
+
+<ul style="margin:0 0 1em 0;padding-left:1.4em;">
+<li style="margin:0 0 0.5em 0;"><strong>Graduate Teaching Associates</strong> teach. You&rsquo;d lead classroom or lab sections, build course materials, run exams, tutor, and grade. You need to be admitted to a CSUEB graduate degree program related to the assignment, enrolled, and holding a 3.0 with progress toward the degree. Pay is per course-unit assigned.</li>
+<li style="margin:0 0 0.5em 0;"><strong>Instructional Student Assistants</strong> support teaching: grading, tutoring, and related work. You need relevant coursework and enrollment in at least 4 units, or recent enrollment with continued eligibility. Up to 20 hours a week, at rates set by level.</li>
+<li style="margin:0 0 0.5em 0;"><strong>The Glenn Glasow Graduate Fellowship in Composition</strong> covers a year of study for one composer, who premieres a new piece at the Glenn Glasow Memorial Concert. There&rsquo;s no separate application. We choose from the scores already in your program application.</li>
+</ul>
+
+<p style="margin:0 0 1em 0;">Anything you want to ask before you hear from us? Call (510) 885-3135 or write <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>. A person reads that inbox.</p>
+
+<p style="margin:0 0 1em 0;">All the best,<br>
+Department of Music</p>
+
+<p style="margin:0 0 1em 0;font-size:14px;color:#5E6166;">
+Department of Music &middot; CSUEB Music Building, MB 2569<br>
+25800 Carlos Bee Boulevard, Hayward, CA 94542<br>
+(510) 885-3135 &middot; <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>
+</p>
+</div></script>
+  <div class="tpl" id="ma-3-conditionally-admitted">
+    <div class="tpl-head">
+      <span class="tpl-id">ma 3</span>
+      <span class="tpl-meta">conditionally admitted</span>
+      <span class="tpl-subject"><span>subject</span>You&#x27;re in, with a couple of things outstanding</span>
+    </div>
+    <div class="tpl-bar">
+      <button class="copy-btn" data-src="src-9">copy html source</button>
+      <span class="copy-note">paste into the html source view, not the rich-text editor</span>
+    </div>
+    <iframe class="tpl-frame" data-src="src-9" title="ma 3 preview"></iframe>
+  </div>
+  <script type="text/plain" id="src-9"><div style="font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.6;color:#1B1C1E;">
+<!-- MUSIC DEPARTMENT HEADER IMAGE -->
+<p style="margin:0 0 1em 0;">Hi {{FIRST_NAME}},</p>
+
+<p style="margin:0 0 1em 0;">Congratulations. You&rsquo;ve been admitted to the M.A. in Music, conditionally, while a few documents are still outstanding.</p>
+
+<p style="margin:0 0 1em 0;">Open <a href="https://www.csueastbay.edu/mycsueb/" style="color:#6E1F2A;">MyCSUEB</a> and look at your To Do List. Everything holding up the offer is named there, most often official transcripts or proof that your bachelor&rsquo;s degree was conferred. Have each institution send transcripts electronically to <a href="mailto:electronictranscripts@csueastbay.edu" style="color:#6E1F2A;">electronictranscripts@csueastbay.edu</a>. Deadlines on those items are firm.</p>
+
+<p style="margin:0 0 1em 0;">Nothing about the conditions changes the work ahead: the seminar core, four semesters of applied lessons and ensemble in your area, a public capstone, and an oral comprehensive examination.</p>
+
+<p style="margin:0 0 1em 0;">Anything unclear? Write to the Graduate Coordinator at <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a> or call (510) 885-3135.</p>
+
+<p style="margin:0 0 1em 0;">All the best,<br>
+Department of Music</p>
+
+<p style="margin:0 0 1em 0;font-size:14px;color:#5E6166;">
+Department of Music &middot; CSUEB Music Building, MB 2569<br>
+25800 Carlos Bee Boulevard, Hayward, CA 94542<br>
+(510) 885-3135 &middot; <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>
+</p>
+</div></script>
+  <div class="tpl" id="ma-4-fully-admitted">
+    <div class="tpl-head">
+      <span class="tpl-id">ma 4</span>
+      <span class="tpl-meta">fully admitted</span>
+      <span class="tpl-subject"><span>subject</span>You&#x27;re in. Welcome to the M.A. in Music</span>
+    </div>
+    <div class="tpl-bar">
+      <button class="copy-btn" data-src="src-10">copy html source</button>
+      <span class="copy-note">paste into the html source view, not the rich-text editor</span>
+    </div>
+    <iframe class="tpl-frame" data-src="src-10" title="ma 4 preview"></iframe>
+  </div>
+  <script type="text/plain" id="src-10"><div style="font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.6;color:#1B1C1E;">
+<!-- MUSIC DEPARTMENT HEADER IMAGE -->
+<p style="margin:0 0 1em 0;">Hi {{FIRST_NAME}},</p>
+
+<p style="margin:0 0 1em 0;">Congratulations, and welcome. You&rsquo;re admitted to the Master of Arts in Music at Cal State East Bay.</p>
+
+<p style="margin:0 0 1em 0;">Log in to <a href="https://www.csueastbay.edu/mycsueb/" style="color:#6E1F2A;">MyCSUEB</a>, open the Admissions tile, and accept your offer. The pre-enrollment fee is listed there and is paid at the same time.</p>
+
+<p style="margin:0 0 1em 0;">What you&rsquo;re signing up for: 32 units over four semesters. A shared seminar core in analysis and post-tonal practice, the history and theory of jazz, interdisciplinary collaboration, advanced conducting, entrepreneurship in the arts, the social and ecological dimensions of music, and teaching music in higher education. Alongside it, four semesters of applied lessons and ensemble in your area, a public capstone, and an oral comprehensive examination in your final semester.</p>
+
+<p style="margin:0 0 1em 0;">Questions before you accept? Write to the Graduate Coordinator at <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a> or call (510) 885-3135.</p>
+
+<p style="margin:0 0 1em 0;">All the best,<br>
+Department of Music</p>
+
+<p style="margin:0 0 1em 0;font-size:14px;color:#5E6166;">
+Department of Music &middot; CSUEB Music Building, MB 2569<br>
+25800 Carlos Bee Boulevard, Hayward, CA 94542<br>
+(510) 885-3135 &middot; <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>
+</p>
+</div></script>
+  <div class="tpl" id="ma-5-admission-accepted">
+    <div class="tpl-head">
+      <span class="tpl-id">ma 5</span>
+      <span class="tpl-meta">admission accepted</span>
+      <span class="tpl-subject"><span>subject</span>You said yes. Here&#x27;s how the first semester works</span>
+    </div>
+    <div class="tpl-bar">
+      <button class="copy-btn" data-src="src-11">copy html source</button>
+      <span class="copy-note">paste into the html source view, not the rich-text editor</span>
+    </div>
+    <iframe class="tpl-frame" data-src="src-11" title="ma 5 preview"></iframe>
+  </div>
+  <script type="text/plain" id="src-11"><div style="font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.6;color:#1B1C1E;">
+<!-- MUSIC DEPARTMENT HEADER IMAGE -->
+<p style="margin:0 0 1em 0;">Hi {{FIRST_NAME}},</p>
+
+<p style="margin:0 0 1em 0;">You&rsquo;ve accepted your offer. We&rsquo;re glad you&rsquo;re coming.</p>
+
+<ul style="margin:0 0 1em 0;padding-left:1.4em;">
+<li style="margin:0 0 0.5em 0;"><strong>Applied lessons.</strong> The Graduate Coordinator registers you from the emphasis you declared at admission. You then arrange the weekly lesson time directly with your instructor.</li>
+<li style="margin:0 0 0.5em 0;"><strong>Ensemble.</strong> You perform in one every semester. Auditions and placement happen at the first meeting of each ensemble, so register for the course and turn up to that first class. <a href="https://www.csueastbay.edu/music/ensembles.html" style="color:#6E1F2A;">Our ensembles</a>.</li>
+<li style="margin:0 0 0.5em 0;"><strong>Seminars.</strong> The first semester is MUS 601, Analysis of Musical Styles, and MUS 603, Entrepreneurship in the Arts, alongside lessons and ensemble. Eight units.</li>
+<li style="margin:0 0 0.5em 0;"><strong>Funding.</strong> Teaching Associate and Instructional Student Assistant assignments open before the semester. If either interests you, say so now rather than later.</li>
+</ul>
+
+<p style="margin:0 0 1em 0;">The Graduate Coordinator is your first stop for anything about sequencing, the capstone, or the exam: <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>, (510) 885-3135.</p>
+
+<p style="margin:0 0 1em 0;">All the best,<br>
+Department of Music</p>
+
+<p style="margin:0 0 1em 0;font-size:14px;color:#5E6166;">
+Department of Music &middot; CSUEB Music Building, MB 2569<br>
+25800 Carlos Bee Boulevard, Hayward, CA 94542<br>
+(510) 885-3135 &middot; <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>
+</p>
+</div></script>
+  <div class="tpl" id="ma-6-active">
+    <div class="tpl-head">
+      <span class="tpl-id">ma 6</span>
+      <span class="tpl-meta">active</span>
+      <span class="tpl-subject"><span>subject</span>Welcome to the graduate program</span>
+    </div>
+    <div class="tpl-bar">
+      <button class="copy-btn" data-src="src-12">copy html source</button>
+      <span class="copy-note">paste into the html source view, not the rich-text editor</span>
+    </div>
+    <iframe class="tpl-frame" data-src="src-12" title="ma 6 preview"></iframe>
+  </div>
+  <script type="text/plain" id="src-12"><div style="font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.6;color:#1B1C1E;">
+<!-- MUSIC DEPARTMENT HEADER IMAGE -->
+<p style="margin:0 0 1em 0;">Hi {{FIRST_NAME}},</p>
+
+<p style="margin:0 0 1em 0;">You&rsquo;re enrolled. Welcome.</p>
+
+<p style="margin:0 0 1em 0;">Two years, and they go quickly. The capstone begins in your second semester and runs through the third and fourth, so start thinking about repertoire, program, or portfolio well before you have to. The comprehensive examination is oral, taken in the final semester, and ranges across your area and the seminar core.</p>
+
+<p style="margin:0 0 1em 0;">Use the building. The <a href="https://www.csueastbay.edu/music/facilities/resource-center.html" style="color:#6E1F2A;">Music Resource Center</a> and the <a href="https://www.csueastbay.edu/music/facilities/equipment-office.html" style="color:#6E1F2A;">Music Equipment Office</a> hold the scores, instruments, and gear. Policies, juries, and deadlines are on the <a href="https://www.csueastbay.edu/music/current/index.html" style="color:#6E1F2A;">Student Resources</a> page, and concerts go up on <a href="https://www.csueastbay.edu/music/news-events/index.html" style="color:#6E1F2A;">News &amp; Events</a>.</p>
+
+<p style="margin:0 0 1em 0;">Bring anything about sequencing, advancement to candidacy, the capstone, or the exam to the Graduate Coordinator: <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>, (510) 885-3135.</p>
+
+<p style="margin:0 0 1em 0;">All the best,<br>
+Department of Music</p>
+
+<p style="margin:0 0 1em 0;font-size:14px;color:#5E6166;">
+Department of Music &middot; CSUEB Music Building, MB 2569<br>
+25800 Carlos Bee Boulevard, Hayward, CA 94542<br>
+(510) 885-3135 &middot; <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>
+</p>
+</div></script>
+  <h3 id="g-cert">single subject matter preparation certificate</h3>
+  <div class="tpl" id="cert-1-application-in-progress">
+    <div class="tpl-head">
+      <span class="tpl-id">cert 1</span>
+      <span class="tpl-meta">application in progress</span>
+      <span class="tpl-subject"><span>subject</span>Your certificate application at Cal State East Bay</span>
+    </div>
+    <div class="tpl-bar">
+      <button class="copy-btn" data-src="src-13">copy html source</button>
+      <span class="copy-note">paste into the html source view, not the rich-text editor</span>
+    </div>
+    <iframe class="tpl-frame" data-src="src-13" title="cert 1 preview"></iframe>
+  </div>
+  <script type="text/plain" id="src-13"><div style="font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.6;color:#1B1C1E;">
+<!-- MUSIC DEPARTMENT HEADER IMAGE -->
+<p style="margin:0 0 1em 0;">Hi {{FIRST_NAME}},</p>
+
+<p style="margin:0 0 1em 0;">Thanks for starting an application to the <a href="https://www.csueastbay.edu/music/prospective/music-ed.html" style="color:#6E1F2A;">Single Subject Matter Preparation Certificate in Music</a>. It&rsquo;s the path to the California Single Subject Teaching Credential in Music, which lets you teach any area of music from kindergarten through high school.</p>
+
+<p style="margin:0 0 1em 0;">This route is for people who already hold a bachelor&rsquo;s degree.</p>
+
+<p style="margin:1.4em 0 0.4em 0;"><strong>What goes into CSUApply</strong></p>
+
+<ul style="margin:0 0 1em 0;padding-left:1.4em;">
+<li style="margin:0 0 0.5em 0;">Your CV or r&eacute;sum&eacute;.</li>
+<li style="margin:0 0 0.5em 0;">Contact details for two references. They&rsquo;ll be asked for letters later, so give them a heads up.</li>
+<li style="margin:0 0 0.5em 0;">A statement of purpose, 2 to 3 double-spaced pages, on your background in music and why you want to teach K&ndash;12.</li>
+<li style="margin:0 0 0.5em 0;">Unofficial transcripts from every school you&rsquo;ve attended.</li>
+</ul>
+
+<p style="margin:0 0 1em 0;">Questions while you put it together? Call (510) 885-3135 or write <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>. A person reads that inbox.</p>
+
+<p style="margin:0 0 1em 0;">All the best,<br>
+Department of Music</p>
+
+<p style="margin:0 0 1em 0;font-size:14px;color:#5E6166;">
+Department of Music &middot; CSUEB Music Building, MB 2569<br>
+25800 Carlos Bee Boulevard, Hayward, CA 94542<br>
+(510) 885-3135 &middot; <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>
+</p>
+</div></script>
+  <div class="tpl" id="cert-2-application-received">
+    <div class="tpl-head">
+      <span class="tpl-id">cert 2</span>
+      <span class="tpl-meta">application received</span>
+      <span class="tpl-subject"><span>subject</span>Your certificate application is complete. What happens now</span>
+    </div>
+    <div class="tpl-bar">
+      <button class="copy-btn" data-src="src-14">copy html source</button>
+      <span class="copy-note">paste into the html source view, not the rich-text editor</span>
+    </div>
+    <iframe class="tpl-frame" data-src="src-14" title="cert 2 preview"></iframe>
+  </div>
+  <script type="text/plain" id="src-14"><div style="font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.6;color:#1B1C1E;">
+<!-- MUSIC DEPARTMENT HEADER IMAGE -->
+<p style="margin:0 0 1em 0;">Hi {{FIRST_NAME}},</p>
+
+<p style="margin:0 0 1em 0;">Your application to the Single Subject Matter Preparation Certificate in Music is complete. Thank you.</p>
+
+<p style="margin:0 0 1em 0;">We read graduate applications as they come in. Once the Office of Graduate Admissions has been through your CSUApply file, we move to a decision. Your status shows up in <a href="https://www.csueastbay.edu/mycsueb/" style="color:#6E1F2A;">MyCSUEB</a>.</p>
+
+<p style="margin:1.4em 0 0.4em 0;"><strong>Paying for it</strong></p>
+
+<p style="margin:0 0 1em 0;">The Office of Graduate Studies runs fellowships, research funding, and other support across the University: <a href="https://www.csueastbay.edu/graduate-studies/graduate-opportunities.html" style="color:#6E1F2A;">Graduate Opportunities</a>.</p>
+
+<p style="margin:0 0 1em 0;">The Department has its own: <a href="https://www.csueastbay.edu/music/prospective/scholarships.html" style="color:#6E1F2A;">Music Scholarships</a>.</p>
+
+<ul style="margin:0 0 1em 0;padding-left:1.4em;">
+<li style="margin:0 0 0.5em 0;"><strong>Instructional Student Assistants</strong> support teaching: grading, tutoring, and related work. You need relevant coursework and enrollment in at least 4 units, or recent enrollment with continued eligibility. Up to 20 hours a week, at rates set by level.</li>
+</ul>
+
+<p style="margin:0 0 1em 0;">Anything you want to ask before you hear from us? Call (510) 885-3135 or write <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>. A person reads that inbox.</p>
+
+<p style="margin:0 0 1em 0;">All the best,<br>
+Department of Music</p>
+
+<p style="margin:0 0 1em 0;font-size:14px;color:#5E6166;">
+Department of Music &middot; CSUEB Music Building, MB 2569<br>
+25800 Carlos Bee Boulevard, Hayward, CA 94542<br>
+(510) 885-3135 &middot; <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>
+</p>
+</div></script>
+  <div class="tpl" id="cert-3-conditionally-admitted">
+    <div class="tpl-head">
+      <span class="tpl-id">cert 3</span>
+      <span class="tpl-meta">conditionally admitted</span>
+      <span class="tpl-subject"><span>subject</span>You&#x27;re in, with a couple of things outstanding</span>
+    </div>
+    <div class="tpl-bar">
+      <button class="copy-btn" data-src="src-15">copy html source</button>
+      <span class="copy-note">paste into the html source view, not the rich-text editor</span>
+    </div>
+    <iframe class="tpl-frame" data-src="src-15" title="cert 3 preview"></iframe>
+  </div>
+  <script type="text/plain" id="src-15"><div style="font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.6;color:#1B1C1E;">
+<!-- MUSIC DEPARTMENT HEADER IMAGE -->
+<p style="margin:0 0 1em 0;">Hi {{FIRST_NAME}},</p>
+
+<p style="margin:0 0 1em 0;">Congratulations. You&rsquo;ve been admitted to the Single Subject Matter Preparation Certificate in Music, conditionally, while a few documents are still outstanding.</p>
+
+<p style="margin:0 0 1em 0;">Open <a href="https://www.csueastbay.edu/mycsueb/" style="color:#6E1F2A;">MyCSUEB</a> and look at your To Do List. Everything holding up the offer is named there, most often official transcripts or proof that your bachelor&rsquo;s degree was conferred. Have each institution send transcripts electronically to <a href="mailto:electronictranscripts@csueastbay.edu" style="color:#6E1F2A;">electronictranscripts@csueastbay.edu</a>. Deadlines on those items are firm.</p>
+
+<p style="margin:0 0 1em 0;">Anything unclear about the conditions? Call (510) 885-3135 or write <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>. A person reads that inbox.</p>
+
+<p style="margin:0 0 1em 0;">All the best,<br>
+Department of Music</p>
+
+<p style="margin:0 0 1em 0;font-size:14px;color:#5E6166;">
+Department of Music &middot; CSUEB Music Building, MB 2569<br>
+25800 Carlos Bee Boulevard, Hayward, CA 94542<br>
+(510) 885-3135 &middot; <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>
+</p>
+</div></script>
+  <div class="tpl" id="cert-4-fully-admitted">
+    <div class="tpl-head">
+      <span class="tpl-id">cert 4</span>
+      <span class="tpl-meta">fully admitted</span>
+      <span class="tpl-subject"><span>subject</span>You&#x27;re in. Welcome to CSUEB Music</span>
+    </div>
+    <div class="tpl-bar">
+      <button class="copy-btn" data-src="src-16">copy html source</button>
+      <span class="copy-note">paste into the html source view, not the rich-text editor</span>
+    </div>
+    <iframe class="tpl-frame" data-src="src-16" title="cert 4 preview"></iframe>
+  </div>
+  <script type="text/plain" id="src-16"><div style="font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.6;color:#1B1C1E;">
+<!-- MUSIC DEPARTMENT HEADER IMAGE -->
+<p style="margin:0 0 1em 0;">Hi {{FIRST_NAME}},</p>
+
+<p style="margin:0 0 1em 0;">Congratulations, and welcome. You&rsquo;re admitted to the Single Subject Matter Preparation Certificate in Music at Cal State East Bay.</p>
+
+<p style="margin:0 0 1em 0;">Log in to <a href="https://www.csueastbay.edu/mycsueb/" style="color:#6E1F2A;">MyCSUEB</a>, open the Admissions tile, and accept your offer. The pre-enrollment fee is listed there and is paid at the same time.</p>
+
+<p style="margin:0 0 1em 0;">The certificate covers the subject matter the state requires for the Single Subject Teaching Credential in Music. Finish it and you move into the credential program without a separate subject-matter examination.</p>
+
+<p style="margin:0 0 1em 0;">Questions before you accept? Call (510) 885-3135 or write <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>. A person reads that inbox.</p>
+
+<p style="margin:0 0 1em 0;">All the best,<br>
+Department of Music</p>
+
+<p style="margin:0 0 1em 0;font-size:14px;color:#5E6166;">
+Department of Music &middot; CSUEB Music Building, MB 2569<br>
+25800 Carlos Bee Boulevard, Hayward, CA 94542<br>
+(510) 885-3135 &middot; <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>
+</p>
+</div></script>
+  <div class="tpl" id="cert-5-admission-accepted">
+    <div class="tpl-head">
+      <span class="tpl-id">cert 5</span>
+      <span class="tpl-meta">admission accepted</span>
+      <span class="tpl-subject"><span>subject</span>You said yes. Here&#x27;s what to do before classes start</span>
+    </div>
+    <div class="tpl-bar">
+      <button class="copy-btn" data-src="src-17">copy html source</button>
+      <span class="copy-note">paste into the html source view, not the rich-text editor</span>
+    </div>
+    <iframe class="tpl-frame" data-src="src-17" title="cert 5 preview"></iframe>
+  </div>
+  <script type="text/plain" id="src-17"><div style="font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.6;color:#1B1C1E;">
+<!-- MUSIC DEPARTMENT HEADER IMAGE -->
+<p style="margin:0 0 1em 0;">Hi {{FIRST_NAME}},</p>
+
+<p style="margin:0 0 1em 0;">You&rsquo;ve accepted your offer. We&rsquo;re glad you&rsquo;re coming.</p>
+
+<p style="margin:0 0 1em 0;">Come and talk to us before you register. The certificate coursework spans theory, history, conducting, and applied study, and the order you take it in depends on what your bachelor&rsquo;s already covered. A short conversation now saves a semester later.</p>
+
+<p style="margin:0 0 1em 0;">If applied lessons or an ensemble are part of your plan, note that ensemble auditions and placement happen at the first meeting of each ensemble: register for the course and turn up to that first class. <a href="https://www.csueastbay.edu/music/ensembles.html" style="color:#6E1F2A;">Our ensembles</a>.</p>
+
+<p style="margin:0 0 1em 0;">Write or call to set up that conversation. Call (510) 885-3135 or write <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>. A person reads that inbox.</p>
+
+<p style="margin:0 0 1em 0;">All the best,<br>
+Department of Music</p>
+
+<p style="margin:0 0 1em 0;font-size:14px;color:#5E6166;">
+Department of Music &middot; CSUEB Music Building, MB 2569<br>
+25800 Carlos Bee Boulevard, Hayward, CA 94542<br>
+(510) 885-3135 &middot; <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>
+</p>
+</div></script>
+  <div class="tpl" id="cert-6-active">
+    <div class="tpl-head">
+      <span class="tpl-id">cert 6</span>
+      <span class="tpl-meta">active</span>
+      <span class="tpl-subject"><span>subject</span>Welcome to the Department</span>
+    </div>
+    <div class="tpl-bar">
+      <button class="copy-btn" data-src="src-18">copy html source</button>
+      <span class="copy-note">paste into the html source view, not the rich-text editor</span>
+    </div>
+    <iframe class="tpl-frame" data-src="src-18" title="cert 6 preview"></iframe>
+  </div>
+  <script type="text/plain" id="src-18"><div style="font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.6;color:#1B1C1E;">
+<!-- MUSIC DEPARTMENT HEADER IMAGE -->
+<p style="margin:0 0 1em 0;">Hi {{FIRST_NAME}},</p>
+
+<p style="margin:0 0 1em 0;">You&rsquo;re enrolled. Welcome.</p>
+
+<p style="margin:0 0 1em 0;">Use the building. The <a href="https://www.csueastbay.edu/music/facilities/resource-center.html" style="color:#6E1F2A;">Music Resource Center</a> and the <a href="https://www.csueastbay.edu/music/facilities/equipment-office.html" style="color:#6E1F2A;">Music Equipment Office</a> hold the scores, instruments, and gear you&rsquo;ll want, and our teaching studios are open to you. Policies and deadlines live on the <a href="https://www.csueastbay.edu/music/current/index.html" style="color:#6E1F2A;">Student Resources</a> page, and concerts go up on <a href="https://www.csueastbay.edu/music/news-events/index.html" style="color:#6E1F2A;">News &amp; Events</a>.</p>
+
+<p style="margin:0 0 1em 0;">Come to concerts. You&rsquo;ll be teaching this repertoire soon enough, and the fastest way into it is hearing it live.</p>
+
+<p style="margin:0 0 1em 0;">Anything about sequencing or the credential pathway comes to us. Call (510) 885-3135 or write <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>. A person reads that inbox.</p>
+
+<p style="margin:0 0 1em 0;">All the best,<br>
+Department of Music</p>
+
+<p style="margin:0 0 1em 0;font-size:14px;color:#5E6166;">
+Department of Music &middot; CSUEB Music Building, MB 2569<br>
+25800 Carlos Bee Boulevard, Hayward, CA 94542<br>
+(510) 885-3135 &middot; <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>
+</p>
+</div></script>
   </section>
 
   <section class="hb-section" id="s5">
@@ -403,9 +872,11 @@ Department of Music &middot; CSUEB Music Building, MB 2569<br>
         <tr><th class="col-code">item</th><th>question</th></tr>
       </thead>
       <tbody>
-        <tr><td class="col-code">admitted stage</td><td>The set has no message for applicants who receive an offer. The landing page exists: <a href="https://www.csueastbay.edu/music/prospective/how-to-apply/i-got-in-now-what.html">I got in! Now what?</a> Accepting the offer and the $110 pre-enrollment fee currently sit in email 2, which reaches applicants before a decision.</td></tr>
-        <tr><td class="col-code">stage definition</td><td>What distinguishes Application in Progress from Application Received: submission in CSUApply, or verification by Admissions.</td></tr>
-        <tr><td class="col-code">plan codes</td><td>Confirm the exact plan values, in particular Music Additional Degree, and confirm that every plan containing Music resolves to one of the four rows above.</td></tr>
+        <tr><td class="col-code">stage definitions</td><td>What distinguishes Application in Progress from Application Received: submission in CSUApply, or verification by Admissions. And what moves a record from Admission Accepted to Active: registration, or census.</td></tr>
+        <tr><td class="col-code">plan codes</td><td>Confirm the exact plan values, in particular Music Additional Degree, and confirm that every plan containing Music resolves to one of the three degree groups above.</td></tr>
+        <tr><td class="col-code">conditional wording</td><td>The conditional-admit templates send applicants to the MyCSUEB To Do List rather than naming conditions. If Salesforce can carry the outstanding items into the message, the templates should say so instead.</td></tr>
+        <tr><td class="col-code">graduate fee</td><td>The undergraduate templates name the $110 pre-enrollment fee. Confirm the graduate figure, or leave those templates pointing at the amount shown in MyCSUEB.</td></tr>
+        <tr><td class="col-code">active stage</td><td>Whether an enrolled student should receive automated mail from the admissions sequence at all, or whether the Active message belongs in a departmental list instead.</td></tr>
         <tr><td class="col-code">subject lines</td><td>Subject lines are sentence case and carry no emoji. Confirm this against the University's convention for automated mail.</td></tr>
         <tr><td class="col-code">reminder mail</td><td>Whether a nudge goes to applicants who start an application and do not submit, and at what interval.</td></tr>
       </tbody>

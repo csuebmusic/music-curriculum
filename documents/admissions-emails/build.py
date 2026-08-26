@@ -4,8 +4,9 @@
 
 Single source for the Music admissions email set.
 
-Content lives in the T dictionary below, one entry per template. Running this
-script writes templates/*.html and regenerates index.html from them.
+Content lives in the T dictionary below, one entry per template, grouped by
+degree and ordered by application status. Running this script writes
+templates/*.html and regenerates index.html.
 
     python3 build.py
 """
@@ -44,69 +45,34 @@ def UL(items):
             + "\n</ul>")
 def H(s): return '<p style="margin:1.4em 0 0.4em 0;"><strong>%s</strong></p>' % s
 
+U = dict(
+  ba      = "https://www.csueastbay.edu/music/prospective/ba.html",
+  ma      = "https://www.csueastbay.edu/music/prospective/ma.html",
+  cert    = "https://www.csueastbay.edu/music/prospective/music-ed.html",
+  fast    = "https://www.csueastbay.edu/music/prospective/blended-b.a-m.a-4+1.html",
+  minor   = "https://www.csueastbay.edu/music/prospective/music-minor.html",
+  apply   = "https://www.csueastbay.edu/music/prospective/how-to-apply/index.html",
+  aud     = "https://www.csueastbay.edu/music/prospective/how-to-apply/auditions.html",
+  gotin   = "https://www.csueastbay.edu/music/prospective/how-to-apply/i-got-in-now-what.html",
+  schol   = "https://www.csueastbay.edu/music/prospective/scholarships.html",
+  about   = "https://www.csueastbay.edu/music/about-us/index.html",
+  home    = "https://www.csueastbay.edu/music/index.html",
+  current = "https://www.csueastbay.edu/music/current/index.html",
+  ens     = "https://www.csueastbay.edu/music/ensembles.html",
+  mrc     = "https://www.csueastbay.edu/music/facilities/resource-center.html",
+  equip   = "https://www.csueastbay.edu/music/facilities/equipment-office.html",
+  fac     = "https://www.csueastbay.edu/music/faculty.html",
+  events  = "https://www.csueastbay.edu/music/news-events/index.html",
+  my      = "https://www.csueastbay.edu/mycsueb/",
+  fee     = "https://www.csueastbay.edu/admissions/after-youre-accepted/enrollment-fee.html",
+  gradopp = "https://www.csueastbay.edu/graduate-studies/graduate-opportunities.html",
+  trans   = "https://www.csueastbay.edu/admissions/documents-deadlines-and-important-information/transcript-and-document-submission.html",
+)
+
 ASK = ("Call (510) 885-3135 or write " + A("mailto:music@csueastbay.edu", "music@csueastbay.edu")
        + ". A person reads that inbox.")
 
-T = {}
-
-T["01-ba-application-in-progress"] = dict(
-  subject="You've started your application to CSUEB Music",
-  plans="Music BA, Music Additional Degree", stage="Application in Progress",
-  body="\n\n".join([
-    P("Hi {{FIRST_NAME}},"),
-    P("You&rsquo;ve started an application to the " + A("https://www.csueastbay.edu/music/prospective/ba.html","B.A. in Music") + " at Cal State East Bay, and we&rsquo;re glad you did."),
-    P("A little about us. Our ensembles play around the Bay Area and abroad. Our faculty are working performers, composers, and scholars, and classes are small enough that they will know your name and your playing. Students here write, produce, perform, conduct, and teach, often in the same week. There is more on the " + A("https://www.csueastbay.edu/music/about-us/index.html","Department of Music") + " site."),
-    P("If anything about the application is unclear, ask us. " + ASK),
-    P("We&rsquo;ll be in touch as you go. Come see us on campus when you can."),
-    FOOTER, LINKS]))
-
-T["02-ba-application-received"] = dict(
-  subject="Your application is in. Here's what comes next",
-  plans="Music BA, Music Additional Degree", stage="Application Received",
-  body="\n\n".join([
-    P("Hi {{FIRST_NAME}},"),
-    P("Your application to the Department of Music is in. Nice work."),
-    P("Now come visit. You can meet the faculty, sit in on a rehearsal, and see what an ordinary week looks like around here. Write to " + A("mailto:music@csueastbay.edu","music@csueastbay.edu") + " and we&rsquo;ll set it up."),
-    P("And audition for a scholarship. We award them to incoming students every year, and the same materials count as your applied area placement, so one audition does both jobs. Deadlines are fixed in the application season, and in-person dates go up each year: " + A("https://www.csueastbay.edu/music/prospective/how-to-apply/auditions.html","scholarship auditions and applied area placements") + "."),
-    H("Three things to take care of"),
-    UL([
-      "Activate your NetID. It reaches you within 48 hours of applying, and you&rsquo;ll need it for MyCSUEB and for your Horizon email.",
-      "Send your transcripts. The fastest route is to have each school send them electronically to " + A("mailto:electronictranscripts@csueastbay.edu","electronictranscripts@csueastbay.edu") + ". Your admission offer won&rsquo;t come until they arrive.",
-      "Watch " + A("https://www.csueastbay.edu/mycsueb/","MyCSUEB") + ". That&rsquo;s where you track your status and, later, accept your offer."]),
-    P("Questions about a visit or an audition? " + ASK),
-    FOOTER]))
-
-T["03a-ma-application-in-progress"] = dict(
-  subject="Your M.A. in Music application at Cal State East Bay",
-  plans="Music MA", stage="Application in Progress",
-  body="\n\n".join([
-    P("Hi {{FIRST_NAME}},"),
-    P("Thanks for starting an application to the " + A("https://www.csueastbay.edu/music/prospective/ma.html","Master of Arts in Music") + ". You&rsquo;ll pick one area to work in: Performance (Classical or Jazz), Choral Conducting, or Composition."),
-    P("A bachelor&rsquo;s degree in music is the usual preparation and we do encourage it, though it isn&rsquo;t a hard requirement: we read applications without one case by case, and self-taught musicians have come through the program. We do ask for good academic standing at your most recent college or university."),
-    H("What goes into CSUApply"),
-    UL([
-      "Your CV or r&eacute;sum&eacute;.",
-      "Two letters of recommendation, from teachers or colleagues who can speak to your readiness for graduate work.",
-      "A statement of purpose, 2 pages, on what you want from a graduate degree in music and where you&rsquo;re headed in the short and long term.",
-      "Evidence of your abilities in your area. What that means varies by area, and it&rsquo;s laid out on the " + A("https://www.csueastbay.edu/music/prospective/how-to-apply/index.html","How to Apply") + " page."]),
-    P("Stuck on any of it? " + ASK),
-    FOOTER]))
-
-T["03b-certificate-application-in-progress"] = dict(
-  subject="Your certificate application at Cal State East Bay",
-  plans="Cert: Music, Single Sub Matter", stage="Application in Progress",
-  body="\n\n".join([
-    P("Hi {{FIRST_NAME}},"),
-    P("Thanks for starting an application to the " + A("https://www.csueastbay.edu/music/prospective/music-ed.html","Single Subject Matter Preparation Certificate in Music") + ". It&rsquo;s the path to the California Single Subject Teaching Credential in Music, which lets you teach any area of music from kindergarten through high school."),
-    P("This route is for people who already hold a bachelor&rsquo;s degree."),
-    H("What goes into CSUApply"),
-    UL([
-      "Your CV or r&eacute;sum&eacute;.",
-      "Contact details for two references. They&rsquo;ll be asked for letters later, so give them a heads up.",
-      "A statement of purpose, 2 to 3 double-spaced pages, on your background in music and why you want to teach K&ndash;12.",
-      "Unofficial transcripts from every school you&rsquo;ve attended."]),
-    P("Questions while you put it together? " + ASK),
-    FOOTER]))
+MYCSUEB = A(U["my"], "MyCSUEB")
 
 GTA = ("<strong>Graduate Teaching Associates</strong> teach. You&rsquo;d lead classroom or lab sections, build "
        "course materials, run exams, tutor, and grade. You need to be admitted to a CSUEB graduate degree program "
@@ -119,74 +85,268 @@ GLASOW = ("<strong>The Glenn Glasow Graduate Fellowship in Composition</strong> 
           "composer, who premieres a new piece at the Glenn Glasow Memorial Concert. There&rsquo;s no separate "
           "application. We choose from the scores already in your program application.")
 
-def received_tail(items):
-    return "\n\n".join([
-      H("Paying for it"),
-      P("The Office of Graduate Studies runs fellowships, research funding, and other support across the University: " + A("https://www.csueastbay.edu/graduate-studies/graduate-opportunities.html","Graduate Opportunities") + "."),
-      P("The Department has its own: " + A("https://www.csueastbay.edu/music/prospective/scholarships.html","Music Scholarships") + "."),
-      UL(items),
-      P("Anything you want to ask before you hear from us? " + ASK),
-      FOOTER])
+T = {}
 
-T["04a-ma-application-received"] = dict(
-  subject="Your M.A. application is complete. What happens now",
-  plans="Music MA", stage="Application Received",
-  body="\n\n".join([
-    P("Hi {{FIRST_NAME}},"),
-    P("Your application to the Master of Arts in Music is complete. Thank you."),
-    P("We read graduate applications as they come in. Once the Office of Graduate Admissions has been through your CSUApply file, we move to a decision. Your status shows up in " + A("https://www.csueastbay.edu/mycsueb/","MyCSUEB") + "."),
-    received_tail([GTA, ISA, GLASOW])]))
+def add(key, group, stage, subject, body):
+    T[key] = dict(group=group, stage=stage, subject=subject, body="\n\n".join(body))
 
-T["04b-certificate-application-received"] = dict(
-  subject="Your certificate application is complete. What happens now",
-  plans="Cert: Music, Single Sub Matter", stage="Application Received",
-  body="\n\n".join([
-    P("Hi {{FIRST_NAME}},"),
-    P("Your application to the Single Subject Matter Preparation Certificate in Music is complete. Thank you."),
-    P("We read graduate applications as they come in. Once the Office of Graduate Admissions has been through your CSUApply file, we move to a decision. Your status shows up in " + A("https://www.csueastbay.edu/mycsueb/","MyCSUEB") + "."),
-    received_tail([ISA])]))
+# ============================================================ all plans
 
-T["05-inquiry"] = dict(
-  subject="Music at Cal State East Bay",
-  plans="All plans containing Music", stage="Inquired",
-  body="\n\n".join([
-    P("Hi {{FIRST_NAME}},"),
-    P("Thanks for getting in touch with the " + A("https://www.csueastbay.edu/music/index.html","Department of Music") + ". Here&rsquo;s what we run."),
-    UL([
-      A("https://www.csueastbay.edu/music/prospective/ba.html","<strong>B.A. in Music</strong>") + ". 120 units of applied lessons, ensembles, and coursework across performance, composition, music technology, jazz, and music education. If the University admits you, you&rsquo;re in the major.",
-      A("https://www.csueastbay.edu/music/prospective/ma.html","<strong>M.A. in Music</strong>") + ". 32 units, in Performance (Classical or Jazz), Choral Conducting, or Composition.",
-      A("https://www.csueastbay.edu/music/prospective/music-ed.html","<strong>Single Subject Matter Preparation Certificate in Music</strong>") + ". The path to the California teaching credential in music. Take it inside the B.A., inside the M.A., or on its own if you already hold a bachelor&rsquo;s.",
-      A("https://www.csueastbay.edu/music/prospective/blended-b.a-m.a-4+1.html","<strong>FAST 4+1 B.A./M.A.</strong>") + ". Both degrees in five years, for students already in the B.A. here, who apply in the junior year.",
-      A("https://www.csueastbay.edu/music/prospective/music-minor.html","<strong>Music Minor</strong>") + ". 21 units, open to any major."]),
-    P(A("https://www.csueastbay.edu/music/prospective/how-to-apply/index.html","How to apply") + " &middot; " + A("https://www.csueastbay.edu/music/prospective/scholarships.html","Music scholarships")),
-    P("Come see the place. Write to " + A("mailto:music@csueastbay.edu","music@csueastbay.edu") + " and we&rsquo;ll show you around."),
-    FOOTER, LINKS]))
+add("00-inquiry", "all", "Inquired",
+  "Music at Cal State East Bay", [
+  P("Hi {{FIRST_NAME}},"),
+  P("Thanks for getting in touch with the " + A(U["home"], "Department of Music") + ". Here&rsquo;s what we run."),
+  UL([
+    A(U["ba"], "<strong>B.A. in Music</strong>") + ". 120 units of applied lessons, ensembles, and coursework across performance, composition, music technology, jazz, and music education. If the University admits you, you&rsquo;re in the major.",
+    A(U["ma"], "<strong>M.A. in Music</strong>") + ". 32 units, in Performance (Classical or Jazz), Choral Conducting, or Composition.",
+    A(U["cert"], "<strong>Single Subject Matter Preparation Certificate in Music</strong>") + ". The path to the California teaching credential in music. Take it inside the B.A., inside the M.A., or on its own if you already hold a bachelor&rsquo;s.",
+    A(U["fast"], "<strong>FAST 4+1 B.A./M.A.</strong>") + ". Both degrees in five years, for students already in the B.A. here, who apply in the junior year.",
+    A(U["minor"], "<strong>Music Minor</strong>") + ". 21 units, open to any major."]),
+  P(A(U["apply"], "How to apply") + " &middot; " + A(U["schol"], "Music scholarships")),
+  P("Come see the place. Write to " + A("mailto:music@csueastbay.edu", "music@csueastbay.edu") + " and we&rsquo;ll show you around."),
+  FOOTER, LINKS])
+
+# ============================================================ b.a.
+
+add("ba-1-application-in-progress", "ba", "Application in Progress",
+  "You've started your application to CSUEB Music", [
+  P("Hi {{FIRST_NAME}},"),
+  P("You&rsquo;ve started an application to the " + A(U["ba"], "B.A. in Music") + " at Cal State East Bay, and we&rsquo;re glad you did."),
+  P("A little about us. Our ensembles play around the Bay Area and abroad. Our faculty are working performers, composers, and scholars, and classes are small enough that they will know your name and your playing. Students here write, produce, perform, conduct, and teach, often in the same week. There is more on the " + A(U["about"], "Department of Music") + " site."),
+  P("If anything about the application is unclear, ask us. " + ASK),
+  P("We&rsquo;ll be in touch as you go. Come see us on campus when you can."),
+  FOOTER, LINKS])
+
+add("ba-2-application-received", "ba", "Application Received",
+  "Your application is in. Here's what comes next", [
+  P("Hi {{FIRST_NAME}},"),
+  P("Your application to the Department of Music is in. Nice work."),
+  P("Now come visit. You can meet the faculty, sit in on a rehearsal, and see what an ordinary week looks like around here. Write to " + A("mailto:music@csueastbay.edu", "music@csueastbay.edu") + " and we&rsquo;ll set it up."),
+  P("And audition for a scholarship. We award them to incoming students every year, and the same materials count as your applied area placement, so one audition does both jobs. Deadlines are fixed in the application season, and in-person dates go up each year: " + A(U["aud"], "scholarship auditions and applied area placements") + "."),
+  H("Two things to take care of"),
+  UL([
+    "Activate your NetID. It reaches you within 48 hours of applying, and you&rsquo;ll need it for MyCSUEB and for your Horizon email.",
+    "Send your transcripts. The fastest route is to have each school send them electronically to " + A("mailto:electronictranscripts@csueastbay.edu", "electronictranscripts@csueastbay.edu") + ". " + A(U["trans"], "How to submit documents") + "."]),
+  P("Then watch " + MYCSUEB + ". Your status and any outstanding requirements show up there."),
+  P("Questions about a visit or an audition? " + ASK),
+  FOOTER])
+
+add("ba-3-conditionally-admitted", "ba", "Conditionally Admitted",
+  "You're in, with a couple of things outstanding", [
+  P("Hi {{FIRST_NAME}},"),
+  P("Congratulations. The University has admitted you to the B.A. in Music, and your offer is conditional while a few documents are still outstanding."),
+  P("Open " + MYCSUEB + " and look at your To Do List. Everything holding up the offer is named there, usually final transcripts or proof that a degree was conferred. Have each school send transcripts electronically to " + A("mailto:electronictranscripts@csueastbay.edu", "electronictranscripts@csueastbay.edu") + ". Deadlines on those items are firm."),
+  P("Meanwhile, start on your side of things. Every music major needs an " + A(U["aud"], "applied area placement") + " before beginning lessons, and it can happen any time up to the end of the first week of the semester. If you auditioned for a scholarship, that already counts."),
+  P("Anything unclear about the conditions? " + ASK),
+  FOOTER])
+
+add("ba-4-fully-admitted", "ba", "Fully Admitted",
+  "You're in. Welcome to CSUEB Music", [
+  P("Hi {{FIRST_NAME}},"),
+  P("Congratulations, and welcome. You&rsquo;re admitted to the B.A. in Music at Cal State East Bay."),
+  H("Claim your spot"),
+  P("Log in to " + MYCSUEB + ", open the Admissions tile, choose Accept Admission, and pay the $110 " + A(U["fee"], "pre-enrollment fee") + ", which goes toward orientation. Your status updates once the payment clears."),
+  P("Then read " + A(U["gotin"], "I got in! Now what?") + ". It walks through orientation, advising, and the department steps that come next."),
+  P("Scholarships need no separate application. We consider incoming students from the audition and application materials you already sent."),
+  P("Questions before you accept? " + ASK),
+  FOOTER])
+
+add("ba-5-admission-accepted", "ba", "Admission Accepted",
+  "You said yes. Here's what to do before classes start", [
+  P("Hi {{FIRST_NAME}},"),
+  P("You&rsquo;ve accepted your offer. We&rsquo;re glad you&rsquo;re coming."),
+  P("Four things to line up before the semester starts."),
+  UL([
+    "<strong>Applied area placement.</strong> Every music major needs one before starting lessons on their primary instrument or voice. It can happen any time up to the end of the first week of the semester, and a scholarship audition already counts as one. " + A(U["aud"], "What to prepare") + ".",
+    "<strong>Ensembles.</strong> Auditions and placement happen at the first meeting of each ensemble. Register for the course and turn up to that first class. " + A(U["ens"], "Our ensembles") + ".",
+    "<strong>Advising.</strong> Music students are advised through the College of Letters, Arts, and Social Sciences. BayAdvisor is where you find your GE advisor, book appointments, and track degree progress. For anything about the major itself, come to us.",
+    "<strong>Keyboard.</strong> Graduating requires three semesters of group keyboard, normally MUS 118, MUS 119, and MUS 218. Build them into your plan early."]),
+  P("Not sure where to start? " + ASK),
+  FOOTER])
+
+add("ba-6-active", "ba", "Active",
+  "Welcome to the Department. A few things to know", [
+  P("Hi {{FIRST_NAME}},"),
+  P("You&rsquo;re enrolled, and you&rsquo;re one of ours now."),
+  P("Two habits to start with. Come to concerts: while you&rsquo;re enrolled in applied lessons you need ten each semester, any Music Department event counts as one credit, and performing in one counts as a half. Up to two may come from outside the Department, approved in advance. And use the building: the " + A(U["mrc"], "Music Resource Center") + " and the " + A(U["equip"], "Music Equipment Office") + " have the scores, instruments, and gear you&rsquo;ll want."),
+  P("Everything else lives on the " + A(U["current"], "Student Resources") + " page: juries, recitals, exams, health and safety, and the policies you&rsquo;ll want to know before you need them. Concerts and deadlines go up on " + A(U["events"], "News &amp; Events") + "."),
+  P("Your applied teacher and your advisor are your first stops. After that, " + ASK),
+  FOOTER])
+
+# ============================================================ m.a.
+
+add("ma-1-application-in-progress", "ma", "Application in Progress",
+  "Your M.A. in Music application at Cal State East Bay", [
+  P("Hi {{FIRST_NAME}},"),
+  P("Thanks for starting an application to the " + A(U["ma"], "Master of Arts in Music") + ". You&rsquo;ll pick one area to work in: Performance (Classical or Jazz), Choral Conducting, or Composition."),
+  P("A bachelor&rsquo;s degree in music is the usual preparation and we do encourage it, though it isn&rsquo;t a hard requirement: we read applications without one case by case, and self-taught musicians have come through the program. We do ask for good academic standing at your most recent college or university."),
+  H("What goes into CSUApply"),
+  UL([
+    "Your CV or r&eacute;sum&eacute;.",
+    "Two letters of recommendation, from teachers or colleagues who can speak to your readiness for graduate work.",
+    "A statement of purpose, 2 pages, on what you want from a graduate degree in music and where you&rsquo;re headed in the short and long term.",
+    "Evidence of your abilities in your area. What that means varies by area, and it&rsquo;s laid out on the " + A(U["apply"], "How to Apply") + " page."]),
+  P("Stuck on any of it? " + ASK),
+  FOOTER])
+
+add("ma-2-application-received", "ma", "Application Received",
+  "Your M.A. application is complete. What happens now", [
+  P("Hi {{FIRST_NAME}},"),
+  P("Your application to the Master of Arts in Music is complete. Thank you."),
+  P("We read graduate applications as they come in. Once the Office of Graduate Admissions has been through your CSUApply file, we move to a decision. Your status shows up in " + MYCSUEB + "."),
+  H("Paying for it"),
+  P("The Office of Graduate Studies runs fellowships, research funding, and other support across the University: " + A(U["gradopp"], "Graduate Opportunities") + "."),
+  P("The Department has its own: " + A(U["schol"], "Music Scholarships") + "."),
+  UL([GTA, ISA, GLASOW]),
+  P("Anything you want to ask before you hear from us? " + ASK),
+  FOOTER])
+
+add("ma-3-conditionally-admitted", "ma", "Conditionally Admitted",
+  "You're in, with a couple of things outstanding", [
+  P("Hi {{FIRST_NAME}},"),
+  P("Congratulations. You&rsquo;ve been admitted to the M.A. in Music, conditionally, while a few documents are still outstanding."),
+  P("Open " + MYCSUEB + " and look at your To Do List. Everything holding up the offer is named there, most often official transcripts or proof that your bachelor&rsquo;s degree was conferred. Have each institution send transcripts electronically to " + A("mailto:electronictranscripts@csueastbay.edu", "electronictranscripts@csueastbay.edu") + ". Deadlines on those items are firm."),
+  P("Nothing about the conditions changes the work ahead: the seminar core, four semesters of applied lessons and ensemble in your area, a public capstone, and an oral comprehensive examination."),
+  P("Anything unclear? Write to the Graduate Coordinator at " + A("mailto:music@csueastbay.edu", "music@csueastbay.edu") + " or call (510) 885-3135."),
+  FOOTER])
+
+add("ma-4-fully-admitted", "ma", "Fully Admitted",
+  "You're in. Welcome to the M.A. in Music", [
+  P("Hi {{FIRST_NAME}},"),
+  P("Congratulations, and welcome. You&rsquo;re admitted to the Master of Arts in Music at Cal State East Bay."),
+  P("Log in to " + MYCSUEB + ", open the Admissions tile, and accept your offer. The pre-enrollment fee is listed there and is paid at the same time."),
+  P("What you&rsquo;re signing up for: 32 units over four semesters. A shared seminar core in analysis and post-tonal practice, the history and theory of jazz, interdisciplinary collaboration, advanced conducting, entrepreneurship in the arts, the social and ecological dimensions of music, and teaching music in higher education. Alongside it, four semesters of applied lessons and ensemble in your area, a public capstone, and an oral comprehensive examination in your final semester."),
+  P("Questions before you accept? Write to the Graduate Coordinator at " + A("mailto:music@csueastbay.edu", "music@csueastbay.edu") + " or call (510) 885-3135."),
+  FOOTER])
+
+add("ma-5-admission-accepted", "ma", "Admission Accepted",
+  "You said yes. Here's how the first semester works", [
+  P("Hi {{FIRST_NAME}},"),
+  P("You&rsquo;ve accepted your offer. We&rsquo;re glad you&rsquo;re coming."),
+  UL([
+    "<strong>Applied lessons.</strong> The Graduate Coordinator registers you from the emphasis you declared at admission. You then arrange the weekly lesson time directly with your instructor.",
+    "<strong>Ensemble.</strong> You perform in one every semester. Auditions and placement happen at the first meeting of each ensemble, so register for the course and turn up to that first class. " + A(U["ens"], "Our ensembles") + ".",
+    "<strong>Seminars.</strong> The first semester is MUS 601, Analysis of Musical Styles, and MUS 603, Entrepreneurship in the Arts, alongside lessons and ensemble. Eight units.",
+    "<strong>Funding.</strong> Teaching Associate and Instructional Student Assistant assignments open before the semester. If either interests you, say so now rather than later."]),
+  P("The Graduate Coordinator is your first stop for anything about sequencing, the capstone, or the exam: " + A("mailto:music@csueastbay.edu", "music@csueastbay.edu") + ", (510) 885-3135."),
+  FOOTER])
+
+add("ma-6-active", "ma", "Active",
+  "Welcome to the graduate program", [
+  P("Hi {{FIRST_NAME}},"),
+  P("You&rsquo;re enrolled. Welcome."),
+  P("Two years, and they go quickly. The capstone begins in your second semester and runs through the third and fourth, so start thinking about repertoire, program, or portfolio well before you have to. The comprehensive examination is oral, taken in the final semester, and ranges across your area and the seminar core."),
+  P("Use the building. The " + A(U["mrc"], "Music Resource Center") + " and the " + A(U["equip"], "Music Equipment Office") + " hold the scores, instruments, and gear. Policies, juries, and deadlines are on the " + A(U["current"], "Student Resources") + " page, and concerts go up on " + A(U["events"], "News &amp; Events") + "."),
+  P("Bring anything about sequencing, advancement to candidacy, the capstone, or the exam to the Graduate Coordinator: " + A("mailto:music@csueastbay.edu", "music@csueastbay.edu") + ", (510) 885-3135."),
+  FOOTER])
+
+# ============================================================ certificate
+
+add("cert-1-application-in-progress", "cert", "Application in Progress",
+  "Your certificate application at Cal State East Bay", [
+  P("Hi {{FIRST_NAME}},"),
+  P("Thanks for starting an application to the " + A(U["cert"], "Single Subject Matter Preparation Certificate in Music") + ". It&rsquo;s the path to the California Single Subject Teaching Credential in Music, which lets you teach any area of music from kindergarten through high school."),
+  P("This route is for people who already hold a bachelor&rsquo;s degree."),
+  H("What goes into CSUApply"),
+  UL([
+    "Your CV or r&eacute;sum&eacute;.",
+    "Contact details for two references. They&rsquo;ll be asked for letters later, so give them a heads up.",
+    "A statement of purpose, 2 to 3 double-spaced pages, on your background in music and why you want to teach K&ndash;12.",
+    "Unofficial transcripts from every school you&rsquo;ve attended."]),
+  P("Questions while you put it together? " + ASK),
+  FOOTER])
+
+add("cert-2-application-received", "cert", "Application Received",
+  "Your certificate application is complete. What happens now", [
+  P("Hi {{FIRST_NAME}},"),
+  P("Your application to the Single Subject Matter Preparation Certificate in Music is complete. Thank you."),
+  P("We read graduate applications as they come in. Once the Office of Graduate Admissions has been through your CSUApply file, we move to a decision. Your status shows up in " + MYCSUEB + "."),
+  H("Paying for it"),
+  P("The Office of Graduate Studies runs fellowships, research funding, and other support across the University: " + A(U["gradopp"], "Graduate Opportunities") + "."),
+  P("The Department has its own: " + A(U["schol"], "Music Scholarships") + "."),
+  UL([ISA]),
+  P("Anything you want to ask before you hear from us? " + ASK),
+  FOOTER])
+
+add("cert-3-conditionally-admitted", "cert", "Conditionally Admitted",
+  "You're in, with a couple of things outstanding", [
+  P("Hi {{FIRST_NAME}},"),
+  P("Congratulations. You&rsquo;ve been admitted to the Single Subject Matter Preparation Certificate in Music, conditionally, while a few documents are still outstanding."),
+  P("Open " + MYCSUEB + " and look at your To Do List. Everything holding up the offer is named there, most often official transcripts or proof that your bachelor&rsquo;s degree was conferred. Have each institution send transcripts electronically to " + A("mailto:electronictranscripts@csueastbay.edu", "electronictranscripts@csueastbay.edu") + ". Deadlines on those items are firm."),
+  P("Anything unclear about the conditions? " + ASK),
+  FOOTER])
+
+add("cert-4-fully-admitted", "cert", "Fully Admitted",
+  "You're in. Welcome to CSUEB Music", [
+  P("Hi {{FIRST_NAME}},"),
+  P("Congratulations, and welcome. You&rsquo;re admitted to the Single Subject Matter Preparation Certificate in Music at Cal State East Bay."),
+  P("Log in to " + MYCSUEB + ", open the Admissions tile, and accept your offer. The pre-enrollment fee is listed there and is paid at the same time."),
+  P("The certificate covers the subject matter the state requires for the Single Subject Teaching Credential in Music. Finish it and you move into the credential program without a separate subject-matter examination."),
+  P("Questions before you accept? " + ASK),
+  FOOTER])
+
+add("cert-5-admission-accepted", "cert", "Admission Accepted",
+  "You said yes. Here's what to do before classes start", [
+  P("Hi {{FIRST_NAME}},"),
+  P("You&rsquo;ve accepted your offer. We&rsquo;re glad you&rsquo;re coming."),
+  P("Come and talk to us before you register. The certificate coursework spans theory, history, conducting, and applied study, and the order you take it in depends on what your bachelor&rsquo;s already covered. A short conversation now saves a semester later."),
+  P("If applied lessons or an ensemble are part of your plan, note that ensemble auditions and placement happen at the first meeting of each ensemble: register for the course and turn up to that first class. " + A(U["ens"], "Our ensembles") + "."),
+  P("Write or call to set up that conversation. " + ASK),
+  FOOTER])
+
+add("cert-6-active", "cert", "Active",
+  "Welcome to the Department", [
+  P("Hi {{FIRST_NAME}},"),
+  P("You&rsquo;re enrolled. Welcome."),
+  P("Use the building. The " + A(U["mrc"], "Music Resource Center") + " and the " + A(U["equip"], "Music Equipment Office") + " hold the scores, instruments, and gear you&rsquo;ll want, and our teaching studios are open to you. Policies and deadlines live on the " + A(U["current"], "Student Resources") + " page, and concerts go up on " + A(U["events"], "News &amp; Events") + "."),
+  P("Come to concerts. You&rsquo;ll be teaching this repertoire soon enough, and the fastest way into it is hearing it live."),
+  P("Anything about sequencing or the credential pathway comes to us. " + ASK),
+  FOOTER])
+
+
+# ---------------------------------------------------------------- assembly
+
+GROUPS = [
+  ("all",  "all music plans",  "All plans containing Music"),
+  ("ba",   "b.a. in music and additional degree", "Music BA, Music Additional Degree"),
+  ("ma",   "m.a. in music",    "Music MA"),
+  ("cert", "single subject matter preparation certificate", "Cert: Music, Single Sub Matter"),
+]
+CODE = {"all": "inq", "ba": "ba", "ma": "ma", "cert": "cert"}
+
+ORDER, LABEL = [], {}
+for g, _, _ in GROUPS:
+    keys = [k for k in T if T[k]["group"] == g]
+    keys.sort()
+    for k in keys:
+        ORDER.append(k)
+        n = k.split("-")[1]
+        LABEL[k] = CODE[g] if g == "all" else "%s %s" % (CODE[g], n)
 
 os.makedirs("templates", exist_ok=True)
-for k, v in T.items():
-    v["src"] = OPEN + v["body"] + CLOSE
-    open("templates/%s.html" % k, "w").write(v["src"] + "\n")
+for k in ORDER:
+    T[k]["src"] = OPEN + T[k]["body"] + CLOSE
+    open("templates/%s.html" % k, "w").write(T[k]["src"] + "\n")
 
-# ---------------------------------------------------------------- index page
-
-ORDER = ["01-ba-application-in-progress","02-ba-application-received",
-         "03a-ma-application-in-progress","03b-certificate-application-in-progress",
-         "04a-ma-application-received","04b-certificate-application-received","05-inquiry"]
-LABEL = {"01-ba-application-in-progress":"email 1","02-ba-application-received":"email 2",
-         "03a-ma-application-in-progress":"email 3a","03b-certificate-application-in-progress":"email 3b",
-         "04a-ma-application-received":"email 4a","04b-certificate-application-received":"email 4b",
-         "05-inquiry":"email 5"}
-
-nav, cards, flowrows = [], [], []
-for i, k in enumerate(ORDER):
-    v = T[k]
-    nav.append('  <a class="nav-sub2" href="#%s">%s</a>' % (k, LABEL[k]))
-    flowrows.append('        <tr><td>%s</td><td>%s</td><td class="col-code"><a href="#%s">%s</a></td></tr>'
-                    % (v["plans"], v["stage"].lower(), k, LABEL[k]))
-    cards.append("""  <div class="tpl" id="%s">
+nav, cards, flow = [], [], []
+i = 0
+for g, gname, gplans in GROUPS:
+    keys = [k for k in ORDER if T[k]["group"] == g]
+    nav.append('  <a class="nav-sub" href="#g-%s">%s</a>' % (g, gname))
+    flow.append('    <h3 id="f-%s">%s</h3>\n    <p class="measure">Plan: <span class="gloss">%s</span></p>'
+                % (g, gname, gplans))
+    flow.append('    <table class="hb-table">\n      <thead>\n        <tr><th>application status</th>'
+                '<th class="col-code">template</th></tr>\n      </thead>\n      <tbody>')
+    cards.append('  <h3 id="g-%s">%s</h3>' % (g, gname))
+    for k in keys:
+        v = T[k]
+        nav.append('  <a class="nav-sub2" href="#%s">%s</a>' % (k, LABEL[k]))
+        flow.append('        <tr><td>%s</td><td class="col-code"><a href="#%s">%s</a></td></tr>'
+                    % (v["stage"].lower(), k, LABEL[k]))
+        cards.append("""  <div class="tpl" id="%s">
     <div class="tpl-head">
       <span class="tpl-id">%s</span>
-      <span class="tpl-meta">%s &middot; %s</span>
+      <span class="tpl-meta">%s</span>
       <span class="tpl-subject"><span>subject</span>%s</span>
     </div>
     <div class="tpl-bar">
@@ -196,8 +356,9 @@ for i, k in enumerate(ORDER):
     <iframe class="tpl-frame" data-src="src-%d" title="%s preview"></iframe>
   </div>
   <script type="text/plain" id="src-%d">%s</script>""" % (
-      k, LABEL[k], html.escape(v["plans"]), v["stage"].lower(), html.escape(v["subject"]),
-      i, i, LABEL[k], i, v["src"]))
+          k, LABEL[k], v["stage"].lower(), html.escape(v["subject"]), i, i, LABEL[k], i, v["src"]))
+        i += 1
+    flow.append('      </tbody>\n    </table>')
 
 page = """<!DOCTYPE html>
 <html lang="en">
@@ -233,12 +394,12 @@ page = """<!DOCTYPE html>
   <header class="page-header">
     <div class="institution">California State University, East Bay &middot; Department of Music</div>
     <h1>Admissions Email Templates</h1>
-    <div class="subtitle">Automated messages for Music applicants and inquiries</div>
+    <div class="subtitle">Automated messages for Music applicants, admits, and new students</div>
     <div class="meta-strip">
       <span class="meta-item">document: <strong>admissions email templates</strong></span>
       <span class="meta-item">system: <strong>salesforce</strong></span>
       <span class="meta-item">season: <strong>2026&ndash;2027</strong></span>
-      <span class="meta-item">revised: <strong>august 2026</strong></span>
+      <span class="meta-item">templates: <strong>%d</strong></span>
       <span class="meta-item">status: <strong>for review</strong></span>
     </div>
   </header>
@@ -254,21 +415,15 @@ page = """<!DOCTYPE html>
     <h2>send configuration</h2>
     <p class="measure">Every message in this set goes to the <strong>Email</strong> and <strong>Alternate Email</strong> fields on the applicant record. The university address issued with the NetID is not a send target for this set.</p>
     <div class="policy-block">
-      <span class="policy-label">applies to all seven templates</span>
+      <span class="policy-label">applies to every template</span>
       Applicants activate the Horizon account after they apply. Messages routed there are missed.
     </div>
   </section>
 
   <section class="hb-section" id="s2">
     <h2>flow</h2>
-    <table class="hb-table">
-      <thead>
-        <tr><th>plan</th><th>stage</th><th class="col-code">template</th></tr>
-      </thead>
-      <tbody>
+    <p class="measure">One template per plan and application status. The inquiry message is shared across every plan containing Music and sends once: an inquiry that later attaches an application plan moves to that plan's sequence.</p>
 %s
-      </tbody>
-    </table>
   </section>
 
   <section class="hb-section" id="s3">
@@ -278,7 +433,7 @@ page = """<!DOCTYPE html>
         <tr><th class="col-code">token</th><th>field</th><th>note</th></tr>
       </thead>
       <tbody>
-        <tr><td class="col-code">{{FIRST_NAME}}</td><td>preferred name, falling back to first name</td><td>one formula field, used by all seven templates</td></tr>
+        <tr><td class="col-code">{{FIRST_NAME}}</td><td>preferred name, falling back to first name</td><td>one formula field, used by every template</td></tr>
       </tbody>
     </table>
     <p class="measure">The templates carry a single token in a syntax Salesforce does not resolve, so an unreplaced token is visible rather than silent. Replace it with the merge syntax for the object these messages send from, and confirm the fallback returns the legal first name when the preferred name is blank.</p>
@@ -296,9 +451,11 @@ page = """<!DOCTYPE html>
         <tr><th class="col-code">item</th><th>question</th></tr>
       </thead>
       <tbody>
-        <tr><td class="col-code">admitted stage</td><td>The set has no message for applicants who receive an offer. The landing page exists: <a href="https://www.csueastbay.edu/music/prospective/how-to-apply/i-got-in-now-what.html">I got in! Now what?</a> Accepting the offer and the $110 pre-enrollment fee currently sit in email 2, which reaches applicants before a decision.</td></tr>
-        <tr><td class="col-code">stage definition</td><td>What distinguishes Application in Progress from Application Received: submission in CSUApply, or verification by Admissions.</td></tr>
-        <tr><td class="col-code">plan codes</td><td>Confirm the exact plan values, in particular Music Additional Degree, and confirm that every plan containing Music resolves to one of the four rows above.</td></tr>
+        <tr><td class="col-code">stage definitions</td><td>What distinguishes Application in Progress from Application Received: submission in CSUApply, or verification by Admissions. And what moves a record from Admission Accepted to Active: registration, or census.</td></tr>
+        <tr><td class="col-code">plan codes</td><td>Confirm the exact plan values, in particular Music Additional Degree, and confirm that every plan containing Music resolves to one of the three degree groups above.</td></tr>
+        <tr><td class="col-code">conditional wording</td><td>The conditional-admit templates send applicants to the MyCSUEB To Do List rather than naming conditions. If Salesforce can carry the outstanding items into the message, the templates should say so instead.</td></tr>
+        <tr><td class="col-code">graduate fee</td><td>The undergraduate templates name the $110 pre-enrollment fee. Confirm the graduate figure, or leave those templates pointing at the amount shown in MyCSUEB.</td></tr>
+        <tr><td class="col-code">active stage</td><td>Whether an enrolled student should receive automated mail from the admissions sequence at all, or whether the Active message belongs in a departmental list instead.</td></tr>
         <tr><td class="col-code">subject lines</td><td>Subject lines are sentence case and carry no emoji. Confirm this against the University's convention for automated mail.</td></tr>
         <tr><td class="col-code">reminder mail</td><td>Whether a nudge goes to applicants who start an application and do not submit, and at what interval.</td></tr>
       </tbody>
@@ -329,7 +486,7 @@ document.querySelectorAll(".copy-btn").forEach(function (b) {
 
 </body>
 </html>
-""" % ("\n".join(nav), "\n".join(flowrows), "\n".join(cards))
+""" % ("\n".join(nav), len(T), "\n".join(flow), "\n".join(cards))
 
-open("index.html","w").write(page)
+open("index.html", "w").write(page)
 print("wrote %d templates and index.html" % len(T))
