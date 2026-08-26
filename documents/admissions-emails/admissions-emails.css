@@ -1,0 +1,87 @@
+/* ============================================================
+   admissions-emails — page furniture
+   loaded after handbooks.css, which carries the house style.
+   this sheet covers only what the handbooks do not have:
+   the template card, the rendered preview frame, and the
+   copy-source control.
+   ============================================================ */
+
+.tpl {
+  border: 1px solid var(--rule);
+  margin: 1.4rem 0 2.2rem;
+  background: var(--paper);
+}
+
+.tpl-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 1.1rem;
+  padding: 0.8rem 1.1rem;
+  border-bottom: 1.5px solid var(--accent);
+}
+.tpl-id {
+  font-family: var(--mono);
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 0.04em;
+}
+.tpl-meta {
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  color: var(--ink-soft);
+  letter-spacing: 0.02em;
+}
+.tpl-subject {
+  flex-basis: 100%;
+  font-family: var(--serif);
+  font-size: 1rem;
+}
+.tpl-subject span {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--ink-soft);
+  text-transform: lowercase;
+  letter-spacing: 0.04em;
+  margin-right: 0.5rem;
+}
+
+.tpl-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.6rem 1.1rem;
+  border-bottom: 1px solid var(--rule);
+  background: var(--canvas);
+}
+.copy-btn {
+  font-family: var(--mono);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: lowercase;
+  color: var(--paper);
+  background: var(--accent);
+  border: none;
+  padding: 0.45rem 0.9rem;
+  cursor: pointer;
+}
+.copy-btn:hover { background: var(--ink); }
+.copy-btn.done { background: var(--ink); }
+.copy-note {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--ink-soft);
+}
+
+.tpl-frame {
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 1.1rem;
+}
+
+@media print {
+  .tpl-bar { display: none; }
+}
