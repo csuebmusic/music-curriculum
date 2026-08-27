@@ -420,7 +420,7 @@ add("cert-4-fully-admitted", "cert", "Fully Admitted",
     + " page."),
   H("To help you decide if CSU East Bay is the right place for you"),
   UL([
-    "<strong>What the certificate covers.</strong> The subject matter the state requires for the Single Subject Teaching Credential in Music: theory, history, conducting, and performance, at the depth expected of someone teaching the discipline. Completing it satisfies the subject matter requirement without a separate examination.",
+    "<strong>What the certificate covers.</strong> The subject matter the state requires for the Single Subject Teaching Credential in Music: theory, history, conducting, and performance, at the depth expected of someone teaching the discipline. Completing it satisfies the subject matter requirement without a separate examination. The " + A(U["certrm"], "certificate roadmap") + " lays out the 31 units on their two-year rotation.",
     "<strong>What it is not.</strong> The teaching credential itself is a separate program run by the " + A(U["cred"], "School of Education") + ".",
     "<strong>Aid, if you need it.</strong> The stand-alone certificate is not eligible for federal or state financial aid. If that matters to your plans, apply to the " + A(U["ba"], "B.A. in Music") + " or the " + A(U["ma"], "M.A. in Music") + " and take the certificate alongside the degree. Talk to us before you decide.",
     "<strong>Come and see us.</strong> Sit in on a class, hear a rehearsal, and meet the faculty you would work with. Write to John Eros or the Graduate Coordinator and we will arrange a visit around your schedule."]),
