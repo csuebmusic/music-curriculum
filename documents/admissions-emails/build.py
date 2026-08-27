@@ -136,7 +136,7 @@ add("ba-1-application-in-progress", "ba", "Application in Progress",
   "Your Music application", [
   P("Hi {{FIRST_NAME}},"),
   P("Thanks for starting an application to the " + A(U["ba"], "B.A. in Music") + " at Cal State East Bay."),
-  P("If anything in the application is unclear, ask us before you guess. " + CALL),
+  P("If anything in the application is unclear, don&rsquo;t hesitate to reach out, we are here to help. " + CALL),
   P("You can also begin thinking about your scholarship audition. We award scholarships to incoming students "
     "every year, and the same materials serve as the applied area placement that every music major completes "
     "before starting lessons. Requirements differ by area, and the deadlines fall during the application "
