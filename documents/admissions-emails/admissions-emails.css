@@ -9,6 +9,12 @@
    body size for the subject line.
    ============================================================ */
 
+/* the shared sheet caps main at 1080px + sidebar. this page carries wide
+   tables and full-width email previews, so it runs to the window. */
+main {
+  max-width: none;
+}
+
 .tpl {
   --label: 0.82rem;
   border: 1px solid var(--rule);
