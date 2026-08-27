@@ -66,6 +66,7 @@ U = dict(
   my      = "https://www.csueastbay.edu/mycsueb/",
   fee     = "https://www.csueastbay.edu/admissions/after-youre-accepted/enrollment-fee.html",
   gradopp = "https://www.csueastbay.edu/graduate-studies/graduate-opportunities.html",
+  gradstudies = "https://www.csueastbay.edu/graduate-studies/index.html",
   trans   = "https://www.csueastbay.edu/admissions/documents-deadlines-and-important-information/transcript-and-document-submission.html",
   ughb    = "https://csuebmusic.github.io/music-curriculum/documents/handbooks/undergraduate-handbook.html",
   grhb    = "https://csuebmusic.github.io/music-curriculum/documents/handbooks/graduate-handbook.html",
@@ -81,8 +82,12 @@ U = dict(
 
 CALL = "Call (510) 885-3135 or write " + A("mailto:music@csueastbay.edu", "music@csueastbay.edu") + "."
 ASK = CALL
-COORD = ("Write to the Graduate Coordinator at " + A("mailto:music@csueastbay.edu", "music@csueastbay.edu")
-         + " or call (510) 885-3135.")
+GRADCLOSE = ("Whatever comes up, write to In&eacute;s Thiebaut, our Graduate Coordinator, at "
+             + A("mailto:ines.thiebaut@csueastbay.edu", "ines.thiebaut@csueastbay.edu")
+             + " or call (510) 885-3135. She would rather hear from you early than have you work it "
+             "out alone. The " + A(U["gradstudies"], "Office of Graduate Studies") + " handles the "
+             "university side of graduate study.")
+COORD = GRADCLOSE
 TRANSCRIPTS = A("mailto:electronictranscripts@csueastbay.edu", "electronictranscripts@csueastbay.edu")
 MYCSUEB = A(U["my"], "MyCSUEB")
 
@@ -253,7 +258,7 @@ add("ma-1-application-in-progress", "ma", "Application in Progress",
     "Two letters of recommendation, from teachers or colleagues who can speak to your readiness for graduate work. You enter their names and email addresses in CSUApply, and each one receives an automatic message with a form to complete and a place to upload the letter. Give them warning before you enter them.",
     "A statement of purpose, 2 pages, on what you want from a graduate degree in music and where you&rsquo;re headed in the short and long term.",
     "Evidence of your abilities in your area. What that means varies by area, and it&rsquo;s laid out on the " + A(U["apply"], "How to Apply") + " page."]),
-  P("Questions about any of it? " + ASK),
+  P(GRADCLOSE),
   FOOTER])
 
 add("ma-2-application-received", "ma", "Application Received",
@@ -264,7 +269,7 @@ add("ma-2-application-received", "ma", "Application Received",
     "come in. The Office of Graduate Admissions verifies your transcripts and official documents "
     "separately, and we move to a decision once both are done. Your status shows up in " + MYCSUEB + "."),
   funding([GTA, ISA, GLASOW]),
-  P("Anything you want to ask before you hear from us, " + CALL.lower()[0] + CALL[1:]),
+  P(GRADCLOSE),
   FOOTER])
 
 add("ma-3-conditionally-admitted", "ma", "Conditionally Admitted",
@@ -274,7 +279,7 @@ add("ma-3-conditionally-admitted", "ma", "Conditionally Admitted",
   CONDITIONS,
   P("Nothing about the conditions changes the work ahead: the seminar core, four semesters of applied lessons "
     "and ensemble in your area, a public capstone, and an oral comprehensive examination."),
-  P("Anything unclear, " + COORD.lower()[0] + COORD[1:]),
+  P(GRADCLOSE),
   FOOTER])
 
 add("ma-4-fully-admitted", "ma", "Fully Admitted",
@@ -289,7 +294,7 @@ add("ma-4-fully-admitted", "ma", "Fully Admitted",
     "entrepreneurship in the arts, the social and ecological dimensions of music, and teaching music in higher "
     "education. Alongside it, four semesters of applied lessons and ensemble in your area, a public capstone, "
     "and an oral comprehensive examination in the final semester."),
-  P("Questions before you accept? " + COORD),
+  P(GRADCLOSE),
   FOOTER])
 
 add("ma-5-admission-accepted", "ma", "Admission Accepted",
@@ -308,7 +313,7 @@ add("ma-5-admission-accepted", "ma", "Admission Accepted",
     "briefly. Scores, instruments, and equipment can be borrowed from the "
     + A(U["mrc"], "Music Resource Center") + " and the " + A(U["equip"], "Music Equipment Office")
     + ". The concert calendar is on " + A(U["events"], "News &amp; Events") + "."),
-  P("The Graduate Coordinator is your first stop for sequencing, the capstone, or the exam. " + COORD),
+  P(GRADCLOSE),
   FOOTER])
 
 
