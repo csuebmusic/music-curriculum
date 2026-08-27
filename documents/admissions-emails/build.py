@@ -205,8 +205,8 @@ add("ba-4-fully-admitted", "ba", "Fully Admitted",
     "<strong>Complete your applied area placement.</strong> You need one to begin lessons in your principal area. A scholarship audition already counts. If you have not auditioned, sign up on the " + A(U["aud"], "scholarship auditions and applied area placements") + " page, any time up to the second week of the semester.",
     "<strong>Come to music orientation.</strong> The Department holds it the day before classes start. You will walk our facilities, rent a locker, and meet your cohort and your advisors. We send the date and details by email over the summer."]),
   H("Read ahead"),
-  P(A(U["gotin"], "I got in! Now what?") + " carries the detail behind each step above. The roadmaps lay out "
-    "the degree term by term, " + A(U["rm4"], "four years") + " or "
+  P(A(U["gotin"], "I got in! Now what?") + " gives more detail on each step above. The roadmaps show the "
+    "degree term by term, " + A(U["rm4"], "four years") + " or "
     + A(U["rm2"], "two years for transfer students") + "."),
   P("Questions about any of it? " + CALL),
   FOOTER])
@@ -226,15 +226,14 @@ add("ba-5-admission-accepted", "ba", "Admission Accepted",
   UL([
     "<strong>Applied area placement.</strong> You need one before starting lessons on your principal instrument or voice, any time up to the second week of the semester. A scholarship audition already counts. " + A(U["aud"], "What to prepare") + ".",
     "<strong>Ensembles.</strong> Auditions and placement happen at the first meeting of each ensemble. Register for the course, then turn up to that first class. " + A(U["ens"], "Our ensembles") + ".",
-    "<strong>Music orientation.</strong> The Department holds it the day before classes start. You will walk our facilities, rent a locker, and meet your cohort and your advisors.",
-    "<strong>Concert attendance.</strong> While you are enrolled in applied lessons you need ten a semester. Any Department event counts as one credit, and performing in one counts as a half. You record your own attendance with OneTap on your phone, and the visitor app is worth installing before your first event."]),
+    "<strong>Music orientation.</strong> The Department holds it the day before classes start. You will walk our facilities, rent a locker, and meet your cohort and your advisors."]),
   H("Read ahead"),
-  P("The " + A(U["ughb"], "Undergraduate Handbook") + " holds the whole degree: applied levels and juries, "
-    "recital requirements, ensembles, health and safety, and the policies you will want in hand. "
-    + A(U["current"], "Student Resources") + " is the shorter route, with advising, roadmaps, and forms "
-    "alongside. The " + A(U["mrc"], "Music Resource Center") + " and the "
-    + A(U["equip"], "Music Equipment Office") + " hold the scores, instruments, and gear, and concerts go up "
-    "on " + A(U["events"], "News &amp; Events") + "."),
+  P("The " + A(U["ughb"], "Undergraduate Handbook") + " sets out the degree in full: applied levels and "
+    "juries, recital requirements, ensembles, health and safety, and the academic policies of the "
+    "department. The " + A(U["current"], "Student Resources") + " page collects advising information, "
+    "the roadmaps, and the forms. Scores, instruments, and equipment can be borrowed from the "
+    + A(U["mrc"], "Music Resource Center") + " and the " + A(U["equip"], "Music Equipment Office")
+    + ". The concert calendar is on " + A(U["events"], "News &amp; Events") + "."),
   P("Questions about any of it? " + CALL),
   FOOTER])
 
@@ -304,12 +303,12 @@ add("ma-5-admission-accepted", "ma", "Admission Accepted",
     "<strong>Seminars.</strong> Your first semester is MUS 601, Analysis of Musical Styles, and MUS 603, Entrepreneurship in the Arts, alongside lessons and ensemble. Eight units.",
     "<strong>Funding.</strong> Teaching Associate and Instructional Student Assistant assignments open before the semester. If either interests you, say so now rather than later."]),
   H("Read ahead"),
-  P("The " + A(U["grhb"], "Graduate Handbook") + " holds sequencing, the Level 6 juries for your area, "
+  P("The " + A(U["grhb"], "Graduate Handbook") + " sets out sequencing, the Level 6 juries for your area, "
     "advancement to candidacy at the end of the first year, the capstone, and the comprehensive "
-    "examination. " + A(U["current"], "Student Resources") + " carries the same material in shorter "
-    "form. The " + A(U["mrc"], "Music Resource Center") + " and the "
-    + A(U["equip"], "Music Equipment Office") + " hold the scores, instruments, and gear, and concerts "
-    "go up on " + A(U["events"], "News &amp; Events") + "."),
+    "examination. The " + A(U["current"], "Student Resources") + " page covers the same ground more "
+    "briefly. Scores, instruments, and equipment can be borrowed from the "
+    + A(U["mrc"], "Music Resource Center") + " and the " + A(U["equip"], "Music Equipment Office")
+    + ". The concert calendar is on " + A(U["events"], "News &amp; Events") + "."),
   P("The Graduate Coordinator is your first stop for sequencing, the capstone, or the exam. " + COORD),
   FOOTER])
 
@@ -378,11 +377,12 @@ add("cert-5-admission-accepted", "cert", "Admission Accepted",
     "first meeting: register for the course and turn up to that first class. " + A(U["ens"], "Our ensembles")
     + "."),
   H("Read ahead"),
-  P("The " + A(U["grhb"], "Graduate Handbook") + " covers the certificate alongside the M.A.: applied "
-    "study policies, juries, and the academic policies that apply to you. Advising and forms are on "
-    + A(U["current"], "Student Resources") + ". The " + A(U["mrc"], "Music Resource Center") + " and "
-    "the " + A(U["equip"], "Music Equipment Office") + " hold the scores, instruments, and gear, the "
-    "teaching studios are open to you, and concerts go up on " + A(U["events"], "News &amp; Events") + "."),
+  P("The " + A(U["grhb"], "Graduate Handbook") + " covers the certificate alongside the M.A., including "
+    "applied study policies, juries, and the academic policies that apply to you. Advising and forms "
+    "are on the " + A(U["current"], "Student Resources") + " page. Scores, instruments, and equipment "
+    "can be borrowed from the " + A(U["mrc"], "Music Resource Center") + " and the "
+    + A(U["equip"], "Music Equipment Office") + ", and the teaching studios are open to you. The "
+    "concert calendar is on " + A(U["events"], "News &amp; Events") + "."),
   P("Write or call to set up that conversation. " + CALL),
   FOOTER])
 
