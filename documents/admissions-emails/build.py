@@ -70,6 +70,7 @@ U = dict(
   gradstudies = "https://www.csueastbay.edu/graduate-studies/index.html",
   gradadmit = "https://www.csueastbay.edu/graduate-studies/admitted-grad-students.html",
   cie     = "https://www.csueastbay.edu/cie/",
+  cred    = "https://www.csueastbay.edu/cssc/prospective-cred-student/single-subject.html",
   trans   = "https://www.csueastbay.edu/admissions/documents-deadlines-and-important-information/transcript-and-document-submission.html",
   ughb    = "https://csuebmusic.github.io/music-curriculum/documents/handbooks/undergraduate-handbook.html",
   grhb    = "https://csuebmusic.github.io/music-curriculum/documents/handbooks/graduate-handbook.html",
@@ -351,7 +352,7 @@ add("cert-1-application-in-progress", "cert", "Application in Progress",
   H("What goes into CSUApply"),
   UL([
     "Your CV or r&eacute;sum&eacute;.",
-    "Contact details for two references. They&rsquo;ll be asked for letters later. Give them a heads up.",
+    "Two letters of recommendation, from people who can speak to your readiness to teach music. You enter their names and email addresses in CSUApply, and each one receives an automatic message with a form to complete and a place to upload the letter. Give them warning before you enter them.",
     "A statement of purpose, 2 to 3 double-spaced pages, on your background in music and why you want to teach K&ndash;12.",
     "Unofficial transcripts from every school you&rsquo;ve attended."]),
   P("Questions while you put it together? " + ASK),
@@ -365,7 +366,24 @@ add("cert-2-application-received", "cert", "Application Received",
   P("We read the materials you sent us, your CV, your letters, and the evidence of your abilities, as they "
     "come in. The Office of Graduate Admissions verifies your transcripts and official documents "
     "separately, and we move to a decision once both are done. You can track your status in " + MYCSUEB + "."),
-  funding([ISA]),
+  H("Important financial information"),
+  P("The stand-alone certificate is not eligible for federal or state financial aid. The University&rsquo;s "
+    "Program Participation Agreement does not cover certificate programs at any level, undergraduate or "
+    "graduate, and aid eligibility follows admission to a bachelor&rsquo;s, master&rsquo;s, or credential "
+    "program."),
+  P("If you need aid, the route is to apply to a degree and take the certificate alongside it. Without a "
+    "bachelor&rsquo;s degree, or with one in a field other than music, that means the "
+    + A(U["ba"], "B.A. in Music") + ". With a bachelor&rsquo;s in music already, it means the "
+    + A(U["ma"], "M.A. in Music") + ". Write to the Graduate Coordinator before you decide and she will go "
+    "through which one fits your situation."),
+  H("What this certificate is, and what it is not"),
+  P("This is a subject matter preparation certificate. It is not the teaching credential. The credential is a "
+    "separate program run by the " + A(U["cred"], "School of Education") + ", and you apply to it once the "
+    "subject matter preparation is complete."),
+  H("Teaching opportunities"),
+  P("The graduate program offers teaching opportunities to its graduate students as need arises. Let the "
+    "Graduate Coordinator know if you are interested."),
+  UL([ISA]),
   P("Anything you want to ask before you hear from us, " + CALL.lower()[0] + CALL[1:]),
   FOOTER])
 
