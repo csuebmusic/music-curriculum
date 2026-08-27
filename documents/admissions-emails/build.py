@@ -249,7 +249,7 @@ add("ma-1-application-in-progress", "ma", "Application in Progress",
   H("What goes into CSUApply"),
   UL([
     "Your CV or r&eacute;sum&eacute;.",
-    "Two letters of recommendation, from teachers or colleagues who can speak to your readiness for graduate work.",
+    "Two letters of recommendation, from teachers or colleagues who can speak to your readiness for graduate work. You enter their names and email addresses in CSUApply, and each one receives an automatic message with a form to complete and a place to upload the letter. Give them warning before you enter them.",
     "A statement of purpose, 2 pages, on what you want from a graduate degree in music and where you&rsquo;re headed in the short and long term.",
     "Evidence of your abilities in your area. What that means varies by area, and it&rsquo;s laid out on the " + A(U["apply"], "How to Apply") + " page."]),
   P("Questions about any of it? " + ASK),
