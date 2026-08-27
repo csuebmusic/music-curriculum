@@ -133,7 +133,7 @@ add("00-inquiry", "all", "Inquired",
 add("ba-1-application-in-progress", "ba", "Application in Progress",
   "You've started your application to CSUEB Music", [
   P("Hi {{FIRST_NAME}},"),
-  P("You&rsquo;ve started an application to the " + A(U["ba"], "B.A. in Music") + ". Good."),
+  P("Thanks for starting an application to the " + A(U["ba"], "B.A. in Music") + " at Cal State East Bay."),
   P("Our faculty are working performers, composers, and scholars. They play the gigs and write the pieces they "
     "teach from, and classes are small enough that they&rsquo;ll know your name and your playing by the second "
     "week. Our ensembles play around the Bay Area and abroad. There&rsquo;s more on the "
@@ -145,7 +145,7 @@ add("ba-1-application-in-progress", "ba", "Application in Progress",
 add("ba-2-application-received", "ba", "Application Received",
   "Your application is in. Here's what comes next", [
   P("Hi {{FIRST_NAME}},"),
-  P("Your application is in. Nice work."),
+  P("Your application is in."),
   P("Come and visit while you wait. You can meet the faculty, sit in on a rehearsal, and see an ordinary "
     "Tuesday here. Write to " + A("mailto:music@csueastbay.edu", "music@csueastbay.edu") + " and we&rsquo;ll "
     "set it up."),
@@ -195,7 +195,7 @@ add("ba-5-admission-accepted", "ba", "Admission Accepted",
     "<strong>Ensembles.</strong> Auditions and placement happen at the first meeting of each ensemble. Register for the course, then turn up to that first class. " + A(U["ens"], "Our ensembles") + ".",
     "<strong>Advising.</strong> You&rsquo;ll be assigned a faculty advisor in the Department for the major itself. General education runs through Bay Advisor, where your GE advisor and the rest of your success team are listed. See both before you register.",
     "<strong>Keyboard.</strong> Three semesters of group keyboard, normally MUS 118, MUS 119, and MUS 218. Get them into your plan early."]),
-  P("Not sure where to start? " + ASK),
+  P("Questions about any of it? " + ASK),
   FOOTER])
 
 add("ba-6-active", "ba", "Active",
@@ -231,7 +231,7 @@ add("ma-1-application-in-progress", "ma", "Application in Progress",
     "Two letters of recommendation, from teachers or colleagues who can speak to your readiness for graduate work.",
     "A statement of purpose, 2 pages, on what you want from a graduate degree in music and where you&rsquo;re headed in the short and long term.",
     "Evidence of your abilities in your area. What that means varies by area, and it&rsquo;s laid out on the " + A(U["apply"], "How to Apply") + " page."]),
-  P("Stuck on any of it? " + ASK),
+  P("Questions about any of it? " + ASK),
   FOOTER])
 
 add("ma-2-application-received", "ma", "Application Received",
