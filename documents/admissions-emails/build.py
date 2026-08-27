@@ -71,6 +71,10 @@ U = dict(
   grhb    = "https://csuebmusic.github.io/music-curriculum/documents/handbooks/graduate-handbook.html",
   certrm  = "https://csuebmusic.github.io/music-curriculum/documents/roadmaps/music-education-certificate-roadmap.html",
   netid   = "https://www.csueastbay.edu/netid/netid-activation-instructions.html",
+  rm4     = "https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-roadmap-4-year.html",
+  rm2     = "https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-roadmap-2-year-transfer.html",
+  ssc     = "https://www.csueastbay.edu/class-ssc/index.html",
+  ugadmit = "https://www.csueastbay.edu/admissions/after-youre-accepted/undergrad-after-admitted.html",
   deadlines = "https://www.csueastbay.edu/admissions/documents-deadlines-and-important-information/application-and-doc-deadlines/index.html",
   gdeadlines = "https://www.csueastbay.edu/admissions/documents-deadlines-and-important-information/application-and-doc-deadlines/graduate-and-credential-students.html",
 )
@@ -185,17 +189,22 @@ add("ba-3-conditionally-admitted", "ba", "Conditionally Admitted",
   FOOTER])
 
 add("ba-4-fully-admitted", "ba", "Fully Admitted",
-  "Your offer of admission", [
+  "CSUEB Music Department: Congratulations!", [
   P("Hi {{FIRST_NAME}},"),
   P("Congratulations, and welcome. You have been admitted to the B.A. in Music at Cal State East Bay!"),
-  P("To claim your spot, log in to " + MYCSUEB + ", open the Admissions tile, choose Accept Admission, and "
-    "pay the $110 " + A(U["fee"], "pre-enrollment fee") + ", which goes toward orientation. Your status "
-    "updates once the payment clears."),
-  P("Then read " + A(U["gotin"], "I got in! Now what?") + ", which walks through orientation, advising, and "
-    "the department steps ahead."),
-  P("Scholarships ask nothing further of you. We consider incoming students from the audition materials "
-    "already on file."),
-  P("Questions before you accept? " + CALL),
+  H("Between now and your first week"),
+  UL([
+    "<strong>Accept your offer.</strong> Log in to " + MYCSUEB + ", choose the Admissions tile, select Accept Admission, and pay the $110 non-refundable " + A(U["fee"], "pre-enrollment fee") + ", which is applied toward orientation. The Office of Admissions covers the rest of the university side, from housing to student life, on its " + A(U["ugadmit"], "after you&rsquo;re admitted") + " page.",
+    "<strong>Get your music schedule.</strong> Most of this happens between late May and early July. If you are entering as a first-year student, the " + A(U["ssc"], "CLASS Student Success Center") + " builds your first-semester schedule with the department&rsquo;s music advisors, and you do not register yourself. If you are transferring or coming with a bachelor&rsquo;s already, we schedule an advising session with you, and you register once your courses are settled.",
+    "<strong>Complete your applied area placement.</strong> You need one to begin lessons in your principal area. A scholarship audition already counts. If you have not auditioned, sign up on the " + A(U["aud"], "scholarship auditions and applied area placements") + " page, any time up to the end of the first week of the semester.",
+    "<strong>Come to music orientation.</strong> The Department holds it on the Thursday before the first week of classes. You will walk our facilities, rent a locker, and meet your cohort and your advisors. We send the date and details by email over the summer."]),
+  H("Read ahead"),
+  P("The " + A(U["ughb"], "Undergraduate Handbook") + " holds the whole degree: applied levels and juries, "
+    "recital requirements, the keyboard sequence, ensembles, and the policies you will want in hand. The "
+    "roadmaps lay out the sequence term by term, " + A(U["rm4"], "four years") + " or "
+    + A(U["rm2"], "two years for transfer students") + ". " + A(U["gotin"], "I got in! Now what?")
+    + " carries the detail behind each step above."),
+  P("Questions about any of it? " + CALL),
   FOOTER])
 
 add("ba-5-admission-accepted", "ba", "Admission Accepted",
