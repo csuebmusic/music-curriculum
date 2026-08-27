@@ -302,9 +302,10 @@ add("ma-4-fully-admitted", "ma", "Fully Admitted",
   P("Log in to " + MYCSUEB + ", choose the Admissions tile, and select Accept Admission. The Office of "
     "Admissions covers the rest of the university side, from housing to student life, on its "
     + A(U["gradmit"], "after you&rsquo;re accepted") + " page."),
-  H("Then, between now and your first semester"),
+  H("To help you decide if CSU East Bay is the right place for you"),
   UL([
-    "<strong>Know what you are taking on.</strong> 32 units over four semesters: a shared seminar core in analysis and post-tonal practice, the history and theory of jazz, interdisciplinary collaboration, advanced conducting, entrepreneurship in the arts, the social and ecological dimensions of music, and teaching music in higher education. Alongside it, four semesters of applied lessons and ensemble in your area, a public capstone, and an oral comprehensive examination in the final semester. The " + A(U["grhb"], "Graduate Handbook") + " sets all of it out, along with sequencing, the Level 6 juries for your area, and advancement to candidacy.",
+    "<strong>What the two years hold.</strong> 32 units across four semesters, built on a seminar core in analysis, jazz, conducting, entrepreneurship, interdisciplinary collaboration, and teaching in higher education, with applied lessons and ensemble running throughout. You finish with a public capstone of your own making, a recital, a portfolio, a project you argue for. Our graduate students perform across the Bay Area, premiere new work, conduct, record, and walk out ready to teach at the college level. The " + A(U["grhb"], "Graduate Handbook") + " sets out the whole thing.",
+    "<strong>Come and see us.</strong> Sit in on a seminar, hear a rehearsal, meet the faculty you would work with, and talk to the students already doing it. Write to the Graduate Coordinator and we will arrange a visit around your schedule.",
     "<strong>Say early if you want to teach.</strong> Teaching Associate and Instructional Student Assistant assignments open before the semester. Tell the Graduate Coordinator if either interests you."]),
   H("Check in with the offices that handle the rest"),
   UL([
