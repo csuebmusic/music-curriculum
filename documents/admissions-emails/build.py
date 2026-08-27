@@ -148,11 +148,12 @@ add("ba-2-application-received", "ba", "Application Received",
   "Your application is in, and your audition is next", [
   P("Hi {{FIRST_NAME}},"),
   P("Congratulations! Your application IS IN."),
-  P("Now would be a good moment to arrange your scholarship audition. We award scholarships to incoming "
-    "students every year, and the same materials serve as the applied area placement that every music major "
+  H("Sign up for your scholarship audition"),
+  P("We award scholarships to incoming students every year, and the same materials serve as the applied "
+    "area placement that every music major "
     "completes before starting lessons. All the information is on the "
     + A(U["aud"], "scholarship auditions and applied area placements") + " page. Sign up!"),
-  H("What to do now"),
+  H("Other things to do now"),
   UL([
     "<strong>Activate your NetID.</strong> The University assigns you one within 48 hours of applying, and you need it for MyCSUEB and for your Horizon email account.",
     "<strong>Send your transcripts.</strong> Ask each school to send them electronically to " + TRANSCRIPTS + ". Your admission offer won&rsquo;t come until they land. " + A(U["trans"], "How to submit documents") + ".",
