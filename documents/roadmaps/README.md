@@ -8,6 +8,7 @@ roadmap PDFs and intended as the editable, linkable home for that content.
 - `ba-roadmap-2-year-transfer.html`: Music ADT transfer entry, 60 units in residence.
 - `fast-ba-ma-roadmap.html`: FAST 4+1 blended B.A. and M.A., ten semesters, 120 and 32 units.
 - `fast-ba-ma-certificate-roadmap.html`: FAST 4+1 with the Music Education Certificate, 152 units across five years.
+- `fast-transfer-ba-ma-roadmap.html`: FAST 2+1 transfer entry through both degrees, 81 units in residence. Status: proposed.
 - `fast-transfer-ba-ma-certificate-roadmap.html`: FAST 2+1 transfer entry with the Music Education Certificate, 91 units in residence. Status: proposed.
 - `music-education-certificate-roadmap.html`: certificate course rotation across a two-year cycle, 31 units.
 
