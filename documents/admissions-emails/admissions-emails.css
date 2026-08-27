@@ -4,9 +4,13 @@
    this sheet covers only what the handbooks do not have:
    the template card, the rendered preview frame, and the
    copy-source control.
+
+   two sizes only: --label for every piece of mono chrome,
+   body size for the subject line.
    ============================================================ */
 
 .tpl {
+  --label: 0.82rem;
   border: 1px solid var(--rule);
   margin: 1.4rem 0 2.2rem;
   background: var(--paper);
@@ -22,14 +26,14 @@
 }
 .tpl-id {
   font-family: var(--mono);
-  font-size: 0.82rem;
+  font-size: var(--label);
   font-weight: 700;
   color: var(--accent);
   letter-spacing: 0.04em;
 }
 .tpl-meta {
   font-family: var(--mono);
-  font-size: 0.74rem;
+  font-size: var(--label);
   color: var(--ink-soft);
   letter-spacing: 0.02em;
 }
@@ -40,9 +44,8 @@
 }
 .tpl-subject span {
   font-family: var(--mono);
-  font-size: 0.72rem;
+  font-size: var(--label);
   color: var(--ink-soft);
-  text-transform: lowercase;
   letter-spacing: 0.04em;
   margin-right: 0.5rem;
 }
@@ -57,10 +60,9 @@
 }
 .copy-btn {
   font-family: var(--mono);
-  font-size: 0.76rem;
+  font-size: var(--label);
   font-weight: 700;
   letter-spacing: 0.04em;
-  text-transform: lowercase;
   color: var(--paper);
   background: var(--accent);
   border: none;
@@ -71,7 +73,7 @@
 .copy-btn.done { background: var(--ink); }
 .copy-note {
   font-family: var(--mono);
-  font-size: 0.72rem;
+  font-size: var(--label);
   color: var(--ink-soft);
 }
 
