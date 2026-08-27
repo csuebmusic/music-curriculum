@@ -134,12 +134,13 @@ add("ba-1-application-in-progress", "ba", "Application in Progress",
   "You've started your application to CSUEB Music", [
   P("Hi {{FIRST_NAME}},"),
   P("Thanks for starting an application to the " + A(U["ba"], "B.A. in Music") + " at Cal State East Bay."),
-  P("Our faculty are working performers, composers, and scholars. They play the gigs and write the pieces they "
-    "teach from, and classes are small enough that they&rsquo;ll know your name and your playing by the second "
-    "week. Our ensembles play around the Bay Area and abroad. There&rsquo;s more on the "
-    + A(U["about"], "Department of Music") + " site."),
-  P("If anything in the application is unclear, ask. " + ASK),
-  P("We&rsquo;ll be in touch as you go, and you&rsquo;re welcome on campus any time before then."),
+  P("If anything in the application is unclear, ask us before you guess. " + CALL),
+  P("Start thinking about your scholarship audition. We award scholarships to incoming students every year, "
+    "and the same materials serve as the applied area placement every music major completes before starting "
+    "lessons. Requirements differ by area, and the deadlines fall during the application season: "
+    + A(U["aud"], "scholarship auditions and applied area placements") + "."),
+  P("There&rsquo;s more about the programs, the faculty, and performance opportunities on the "
+    + A(U["about"], "Department of Music") + " site. You&rsquo;re welcome on campus any time."),
   FOOTER, LINKS])
 
 add("ba-2-application-received", "ba", "Application Received",
