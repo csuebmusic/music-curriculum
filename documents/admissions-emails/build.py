@@ -355,7 +355,7 @@ add("cert-1-application-in-progress", "cert", "Application in Progress",
     + A(U["cred"], "School of Education") + ". If you came here looking for the credential program, that "
     "is where to start."),
   P("If you hold a bachelor&rsquo;s degree and want to start a career in music education without much "
-    "teaching experience behind you, you are in the right place. That is who this route is built for."),
+    "teaching experience behind you, you are in the right place."),
   H("What goes into CSUApply"),
   UL([
     "Your CV or r&eacute;sum&eacute;.",
