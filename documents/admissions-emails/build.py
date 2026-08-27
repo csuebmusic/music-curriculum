@@ -67,6 +67,9 @@ U = dict(
   fee     = "https://www.csueastbay.edu/admissions/after-youre-accepted/enrollment-fee.html",
   gradopp = "https://www.csueastbay.edu/graduate-studies/graduate-opportunities.html",
   trans   = "https://www.csueastbay.edu/admissions/documents-deadlines-and-important-information/transcript-and-document-submission.html",
+  ughb    = "https://csuebmusic.github.io/music-curriculum/documents/handbooks/undergraduate-handbook.html",
+  grhb    = "https://csuebmusic.github.io/music-curriculum/documents/handbooks/graduate-handbook.html",
+  certrm  = "https://csuebmusic.github.io/music-curriculum/documents/roadmaps/music-education-certificate-roadmap.html",
 )
 
 ASK = ("Call (510) 885-3135 or write " + A("mailto:music@csueastbay.edu", "music@csueastbay.edu")
@@ -159,7 +162,7 @@ add("ba-5-admission-accepted", "ba", "Admission Accepted",
   UL([
     "<strong>Applied area placement.</strong> Every music major needs one before starting lessons on their primary instrument or voice. It can happen any time up to the end of the first week of the semester, and a scholarship audition already counts as one. " + A(U["aud"], "What to prepare") + ".",
     "<strong>Ensembles.</strong> Auditions and placement happen at the first meeting of each ensemble. Register for the course and turn up to that first class. " + A(U["ens"], "Our ensembles") + ".",
-    "<strong>Advising.</strong> Music students are advised through the College of Letters, Arts, and Social Sciences. BayAdvisor is where you find your GE advisor, book appointments, and track degree progress. For anything about the major itself, come to us.",
+    "<strong>Advising.</strong> Every music major is assigned a faculty advisor in the Department for the major itself. General education runs through Bay Advisor, where your GE advisor and the rest of your success team are listed. Meet both before you register.",
     "<strong>Keyboard.</strong> Graduating requires three semesters of group keyboard, normally MUS 118, MUS 119, and MUS 218. Build them into your plan early."]),
   P("Not sure where to start? " + ASK),
   FOOTER])
@@ -168,9 +171,9 @@ add("ba-6-active", "ba", "Active",
   "Welcome to the Department. A few things to know", [
   P("Hi {{FIRST_NAME}},"),
   P("You&rsquo;re enrolled, and you&rsquo;re one of ours now."),
-  P("Two habits to start with. Come to concerts: while you&rsquo;re enrolled in applied lessons you need ten each semester, any Music Department event counts as one credit, and performing in one counts as a half. Up to two may come from outside the Department, approved in advance. And use the building: the " + A(U["mrc"], "Music Resource Center") + " and the " + A(U["equip"], "Music Equipment Office") + " have the scores, instruments, and gear you&rsquo;ll want."),
-  P("Everything else lives on the " + A(U["current"], "Student Resources") + " page: juries, recitals, exams, health and safety, and the policies you&rsquo;ll want to know before you need them. Concerts and deadlines go up on " + A(U["events"], "News &amp; Events") + "."),
-  P("Your applied teacher and your advisor are your first stops. After that, " + ASK),
+  P("Start with the " + A(U["ughb"], "Undergraduate Handbook") + ". It holds the whole degree: applied levels and juries, recital requirements, the keyboard sequence, ensembles, health and safety, and the policies you&rsquo;ll want before you need them. The " + A(U["current"], "Student Resources") + " page is the shorter route to the same material, with advising, roadmaps, and forms alongside it."),
+  P("Two habits to start now. Come to concerts: while you&rsquo;re enrolled in applied lessons you need ten each semester, any Department event counts as one credit, and performing in one counts as a half. You record your own attendance with OneTap on your phone, so install the visitor app before your first event. And use the building: the " + A(U["mrc"], "Music Resource Center") + " and the " + A(U["equip"], "Music Equipment Office") + " hold the scores, instruments, and gear you&rsquo;ll want."),
+  P("Concerts and deadlines go up on " + A(U["events"], "News &amp; Events") + ". Your applied teacher and your advisor are your first stops. After that, " + ASK),
   FOOTER])
 
 # ============================================================ m.a.
@@ -235,8 +238,9 @@ add("ma-6-active", "ma", "Active",
   "Welcome to the graduate program", [
   P("Hi {{FIRST_NAME}},"),
   P("You&rsquo;re enrolled. Welcome."),
-  P("Two years, and they go quickly. The capstone begins in your second semester and runs through the third and fourth, so start thinking about repertoire, program, or portfolio well before you have to. The comprehensive examination is oral, taken in the final semester, and ranges across your area and the seminar core."),
-  P("Use the building. The " + A(U["mrc"], "Music Resource Center") + " and the " + A(U["equip"], "Music Equipment Office") + " hold the scores, instruments, and gear. Policies, juries, and deadlines are on the " + A(U["current"], "Student Resources") + " page, and concerts go up on " + A(U["events"], "News &amp; Events") + "."),
+  P("Start with the " + A(U["grhb"], "Graduate Handbook") + ". Sequencing, the Level 6 juries for your area, advancement to candidacy, the capstone, and the comprehensive examination are all in it, and the " + A(U["current"], "Student Resources") + " page carries the same material in shorter form."),
+  P("Two years, and they go quickly. Advancement to candidacy falls at the end of the first year. The capstone starts in your second semester and runs through the third and fourth, so think about repertoire, program, or portfolio well before you have to. The comprehensive examination is oral, taken in the final semester, and scored in three categories: your area of emphasis, analysis and musical styles, and the profession and its contexts."),
+  P("Use the building. The " + A(U["mrc"], "Music Resource Center") + " and the " + A(U["equip"], "Music Equipment Office") + " hold the scores, instruments, and gear, and concerts go up on " + A(U["events"], "News &amp; Events") + "."),
   P("Bring anything about sequencing, advancement to candidacy, the capstone, or the exam to the Graduate Coordinator: " + A("mailto:music@csueastbay.edu", "music@csueastbay.edu") + ", (510) 885-3135."),
   FOOTER])
 
@@ -289,7 +293,7 @@ add("cert-5-admission-accepted", "cert", "Admission Accepted",
   "You said yes. Here's what to do before classes start", [
   P("Hi {{FIRST_NAME}},"),
   P("You&rsquo;ve accepted your offer. We&rsquo;re glad you&rsquo;re coming."),
-  P("Come and talk to us before you register. The certificate coursework spans theory, history, conducting, and applied study, and the order you take it in depends on what your bachelor&rsquo;s already covered. A short conversation now saves a semester later."),
+  P("Come and talk to us before you register. The certificate coursework spans theory, history, conducting, and applied study, and the order you take it in depends on what your bachelor&rsquo;s already covered. A short conversation now saves a semester later. The " + A(U["certrm"], "certificate roadmap") + " lays out the 31 units on their two-year rotation."),
   P("If applied lessons or an ensemble are part of your plan, note that ensemble auditions and placement happen at the first meeting of each ensemble: register for the course and turn up to that first class. " + A(U["ens"], "Our ensembles") + "."),
   P("Write or call to set up that conversation. " + ASK),
   FOOTER])
@@ -298,7 +302,8 @@ add("cert-6-active", "cert", "Active",
   "Welcome to the Department", [
   P("Hi {{FIRST_NAME}},"),
   P("You&rsquo;re enrolled. Welcome."),
-  P("Use the building. The " + A(U["mrc"], "Music Resource Center") + " and the " + A(U["equip"], "Music Equipment Office") + " hold the scores, instruments, and gear you&rsquo;ll want, and our teaching studios are open to you. Policies and deadlines live on the " + A(U["current"], "Student Resources") + " page, and concerts go up on " + A(U["events"], "News &amp; Events") + "."),
+  P("Start with the " + A(U["grhb"], "Graduate Handbook") + ", which covers the certificate alongside the M.A.: applied study policies, juries, and the academic policies that apply to you. Advising, the certificate roadmap, and forms are on the " + A(U["current"], "Student Resources") + " page."),
+  P("Use the building. The " + A(U["mrc"], "Music Resource Center") + " and the " + A(U["equip"], "Music Equipment Office") + " hold the scores, instruments, and gear you&rsquo;ll want, the teaching studios are open to you, and concerts go up on " + A(U["events"], "News &amp; Events") + "."),
   P("Come to concerts. You&rsquo;ll be teaching this repertoire soon enough, and the fastest way into it is hearing it live."),
   P("Anything about sequencing or the credential pathway comes to us. " + ASK),
   FOOTER])
