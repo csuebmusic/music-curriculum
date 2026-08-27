@@ -484,14 +484,14 @@ page = """<!DOCTYPE html>
 
   <section class="front" id="use">
     <h2>using this page</h2>
-    <p class="measure">Each template below carries a rendered preview and its HTML source. Use <strong>copy html source</strong>, then paste into the HTML source view of the Salesforce editor. Pasting rendered text into the rich-text editor carries formatting from the browser and produces markup that does not survive the send.</p>
-    <p class="measure">The markup is plain: paragraphs, lists, links, and inline styles only. It carries no tables, no fixed widths, and no fonts of its own beyond a serif stack, so the Salesforce wrapper controls layout and the Department header sits where the wrapper puts it. Each template marks the header position with an HTML comment.</p>
-    <p class="measure">This page is the source. When a template changes, it changes here and the copy is taken again.</p>
+    <p>Each template below carries a rendered preview and its HTML source. Use <strong>copy html source</strong>, then paste into the HTML source view of the Salesforce editor. Pasting rendered text into the rich-text editor carries formatting from the browser and produces markup that does not survive the send.</p>
+    <p>The markup is plain: paragraphs, lists, links, and inline styles only. It carries no tables, no fixed widths, and no fonts of its own beyond a serif stack, so the Salesforce wrapper controls layout and the Department header sits where the wrapper puts it. Each template marks the header position with an HTML comment.</p>
+    <p>This page is the source. When a template changes, it changes here and the copy is taken again.</p>
   </section>
 
   <section class="hb-section" id="s1">
     <h2>send configuration</h2>
-    <p class="measure">Every message in this set goes to the <strong>Email</strong> and <strong>Alternate Email</strong> fields on the applicant record. The university address issued with the NetID is not a send target for this set.</p>
+    <p>Every message in this set goes to the <strong>Email</strong> and <strong>Alternate Email</strong> fields on the applicant record. The university address issued with the NetID is not a send target for this set.</p>
     <div class="policy-block">
       <span class="policy-label">applies to every template</span>
       Applicants activate the Horizon account after they apply. Messages routed there are missed.
