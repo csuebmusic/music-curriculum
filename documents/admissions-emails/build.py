@@ -70,6 +70,8 @@ U = dict(
   ughb    = "https://csuebmusic.github.io/music-curriculum/documents/handbooks/undergraduate-handbook.html",
   grhb    = "https://csuebmusic.github.io/music-curriculum/documents/handbooks/graduate-handbook.html",
   certrm  = "https://csuebmusic.github.io/music-curriculum/documents/roadmaps/music-education-certificate-roadmap.html",
+  deadlines = "https://www.csueastbay.edu/admissions/documents-deadlines-and-important-information/application-and-doc-deadlines/index.html",
+  gdeadlines = "https://www.csueastbay.edu/admissions/documents-deadlines-and-important-information/application-and-doc-deadlines/graduate-and-credential-students.html",
 )
 
 CALL = "Call (510) 885-3135 or write " + A("mailto:music@csueastbay.edu", "music@csueastbay.edu") + "."
@@ -171,7 +173,7 @@ add("ba-3-conditionally-admitted", "ba", "Conditionally Admitted",
   UL([
     "<strong>Read your To Do List in " + MYCSUEB + ".</strong> Everything holding up the offer is named there, usually final transcripts or proof that a degree was conferred.",
     "<strong>Send the missing documents.</strong> Ask each school to send transcripts electronically to " + TRANSCRIPTS + ". " + A(U["trans"], "How to submit documents") + ".",
-    "<strong>Watch the deadlines.</strong> They are firm, and the offer does not become final until the items clear."]),
+    "<strong>Watch the " + A(U["deadlines"], "document deadlines") + ".</strong> They are firm, and the offer does not become final until the items clear."]),
   H("If you have not auditioned yet"),
   P("Scholarship auditions are still open, and we award scholarships to incoming students every year. All the "
     "information is on the " + A(U["aud"], "scholarship auditions and applied area placements") + " page. "
