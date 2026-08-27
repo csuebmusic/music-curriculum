@@ -137,7 +137,7 @@ add("00-inquiry", "all", "Inquired",
   UL([
     A(U["ba"], "<strong>B.A. in Music</strong>") + ". 120 units of applied lessons, ensembles, and coursework across performance, composition, music technology, jazz, and music education.",
     A(U["ma"], "<strong>M.A. in Music</strong>") + ". 32 units, in Performance (Classical or Jazz), Choral Conducting, or Composition.",
-    A(U["cert"], "<strong>Single Subject Matter Preparation Certificate in Music</strong>") + ". The path to the California teaching credential in music. Add it to the B.A., add it to the M.A., or take it on its own if you already hold a bachelor&rsquo;s.",
+    A(U["cert"], "<strong>Single Subject Matter Preparation Certificate in Music</strong>") + ". Preparation for the California Single Subject Teaching Credential in Music. Add it to the B.A., add it to the M.A., or take it on its own if you already hold a bachelor&rsquo;s.",
     A(U["fast"], "<strong>FAST 4+1 B.A./M.A.</strong>") + ". Both degrees in five years, for students already in the B.A. here, who apply in the junior year.",
     A(U["minor"], "<strong>Music Minor</strong>") + ". 21 units, open to any major."]),
   P(A(U["apply"], "How to apply") + " &middot; " + A(U["schol"], "Music scholarships")),
@@ -241,7 +241,7 @@ add("ba-5-admission-accepted", "ba", "Admission Accepted",
     "The " + A(U["mrc"], "Music Resource Center") + " lends scores, parts, and study materials.",
     "The " + A(U["equip"], "Music Equipment Office") + " lends instruments and recording equipment, and assigns lockers.",
     "The concert calendar is on " + A(U["events"], "News &amp; Events") + ".",
-    "The " + A(U["cert"], "Single Subject Matter Preparation Certificate in Music") + " is an add-on to the B.A. and leads to the California teaching credential in music. Its " + A(U["certrm"], "roadmap") + " shows how the coursework fits alongside the degree. John Eros coordinates music education: " + A("mailto:john.eros@csueastbay.edu", "john.eros@csueastbay.edu") + ".",
+    "The " + A(U["cert"], "Single Subject Matter Preparation Certificate in Music") + " is an add-on to the B.A. that prepares you to apply for the California Single Subject Teaching Credential in Music and complete it successfully. Its " + A(U["certrm"], "roadmap") + " shows how the coursework fits alongside the degree. John Eros coordinates music education: " + A("mailto:john.eros@csueastbay.edu", "john.eros@csueastbay.edu") + ".",
     "The " + A(U["fast"], "FAST 4+1 B.A./M.A.") + " gets you both degrees in five years. You apply by January 15 of your junior year, with 60 to 90 units done and a 3.0 in your music courses. Its " + A(U["fastrm"], "roadmap") + " lays out all five years, and it is worth knowing about now rather than in year three."]),
   P("Questions about any of it? " + CALL),
   FOOTER])
@@ -328,9 +328,9 @@ add("cert-1-application-in-progress", "cert", "Application in Progress",
   "Starting your certificate", [
   P("Hi {{FIRST_NAME}},"),
   P("Thanks for starting an application to the "
-    + A(U["cert"], "Single Subject Matter Preparation Certificate in Music") + ". It&rsquo;s the path to the "
-    "California Single Subject Teaching Credential in Music, which lets you teach any area of music from "
-    "kindergarten through high school."),
+    + A(U["cert"], "Single Subject Matter Preparation Certificate in Music") + ". It prepares you to apply "
+    "for the California Single Subject Teaching Credential in Music and to complete it successfully. The "
+    "credential itself authorizes you to teach any area of music from kindergarten through high school."),
   P("This route is for people who already hold a bachelor&rsquo;s degree."),
   H("What goes into CSUApply"),
   UL([
@@ -370,8 +370,8 @@ add("cert-4-fully-admitted", "cert", "Fully Admitted",
   P("To accept your offer, log in to " + MYCSUEB + " and open the Admissions tile. The pre-enrollment fee is "
     "listed there and paid at the same time."),
   P("The certificate covers the subject matter the state requires for the Single Subject Teaching Credential "
-    "in Music. Finish it and you move into the credential program without a separate subject-matter "
-    "examination."),
+    "in Music. Completing it prepares you to apply to a credential program without sitting a separate "
+    "subject-matter examination."),
   P("Questions before you accept? " + CALL),
   FOOTER])
 
