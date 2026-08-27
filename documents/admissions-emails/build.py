@@ -202,8 +202,7 @@ add("ba-4-fully-admitted", "ba", "Fully Admitted",
   H("Then, between now and your first week"),
   UL([
     "<strong>Get your music schedule.</strong> Most of this happens between late May and early July. If you are entering as a first-year student, the " + A(U["ssc"], "CLASS Student Success Center") + " builds your first-semester schedule with the department&rsquo;s music advisors, and you do not register yourself. If you are transferring or coming with a bachelor&rsquo;s already, we schedule an advising session with you, and you register once your courses are settled.",
-    "<strong>Complete your applied area placement.</strong> You need one to begin lessons in your principal area. A scholarship audition already counts. If you have not auditioned, sign up on the " + A(U["aud"], "scholarship auditions and applied area placements") + " page, any time up to the second week of the semester.",
-    "<strong>Come to music orientation.</strong> The Department holds it the day before classes start. You will walk our facilities, rent a locker, and meet your cohort and your advisors. We send the date and details by email over the summer."]),
+    "<strong>Complete your applied area placement.</strong> You need one to begin lessons in your principal area. A scholarship audition already counts. If you have not auditioned, sign up on the " + A(U["aud"], "scholarship auditions and applied area placements") + " page, any time up to the second week of the semester."]),
   H("Read ahead"),
   P(A(U["gotin"], "I got in! Now what?") + " gives more detail on each step above. The roadmaps show the "
     "degree term by term, " + A(U["rm4"], "four years") + " or "
