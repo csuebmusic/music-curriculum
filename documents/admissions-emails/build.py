@@ -70,6 +70,7 @@ U = dict(
   ughb    = "https://csuebmusic.github.io/music-curriculum/documents/handbooks/undergraduate-handbook.html",
   grhb    = "https://csuebmusic.github.io/music-curriculum/documents/handbooks/graduate-handbook.html",
   certrm  = "https://csuebmusic.github.io/music-curriculum/documents/roadmaps/music-education-certificate-roadmap.html",
+  netid   = "https://www.csueastbay.edu/netid/netid-activation-instructions.html",
   deadlines = "https://www.csueastbay.edu/admissions/documents-deadlines-and-important-information/application-and-doc-deadlines/index.html",
   gdeadlines = "https://www.csueastbay.edu/admissions/documents-deadlines-and-important-information/application-and-doc-deadlines/graduate-and-credential-students.html",
 )
@@ -159,7 +160,7 @@ add("ba-2-application-received", "ba", "Application Received",
     + A(U["aud"], "scholarship auditions and applied area placements") + " page. Sign up!"),
   H("Other things to do now"),
   UL([
-    "<strong>Activate your NetID.</strong> The University assigns you one within 48 hours of applying, and you need it for MyCSUEB and for your Horizon email account.",
+    "<strong>Activate your NetID.</strong> The University assigns you one within 48 hours of applying and sends it to the personal email address on your application. You need it for MyCSUEB and for your Horizon email account. " + A(U["netid"], "Activation instructions") + ".",
     "<strong>Send your transcripts.</strong> Ask each school you&rsquo;ve attended (high school, community college, or any other 4-year college) to send them electronically to " + TRANSCRIPTS + ". You will not receive an admission offer until the Office of Admissions has them. " + A(U["trans"], "How to submit documents") + ".",
     "<strong>Check " + MYCSUEB + ".</strong> Your status and anything still outstanding show up there.",
     "<strong>Come and visit.</strong> Meet the faculty, sit in on a rehearsal, and see an ordinary Tuesday here. Write to " + A("mailto:music@csueastbay.edu", "music@csueastbay.edu") + " and we&rsquo;ll set it up."]),
