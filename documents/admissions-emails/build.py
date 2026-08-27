@@ -163,7 +163,7 @@ add("ba-2-application-received", "ba", "Application Received",
   FOOTER])
 
 add("ba-3-conditionally-admitted", "ba", "Conditionally Admitted",
-  "Nearly in", [
+  "Conditionally admitted", [
   P("Hi {{FIRST_NAME}},"),
   P("You have been conditionally admitted to the B.A. in Music. The offer becomes final once the outstanding "
     "items on your record are cleared."),
@@ -180,7 +180,7 @@ add("ba-3-conditionally-admitted", "ba", "Conditionally Admitted",
   FOOTER])
 
 add("ba-4-fully-admitted", "ba", "Fully Admitted",
-  "You're in", [
+  "Your offer of admission", [
   P("Hi {{FIRST_NAME}},"),
   P("Congratulations, and welcome. You have been admitted to the B.A. in Music at Cal State East Bay."),
   P("To claim your spot, log in to " + MYCSUEB + ", open the Admissions tile, choose Accept Admission, and "
@@ -254,7 +254,7 @@ add("ma-2-application-received", "ma", "Application Received",
   FOOTER])
 
 add("ma-3-conditionally-admitted", "ma", "Conditionally Admitted",
-  "Nearly in the M.A.", [
+  "Conditionally admitted, M.A.", [
   P("Hi {{FIRST_NAME}},"),
   P("Congratulations. You&rsquo;re admitted to the M.A. in Music, with a couple of documents still outstanding."),
   CONDITIONS,
@@ -264,7 +264,7 @@ add("ma-3-conditionally-admitted", "ma", "Conditionally Admitted",
   FOOTER])
 
 add("ma-4-fully-admitted", "ma", "Fully Admitted",
-  "You're in the M.A.", [
+  "Your M.A. offer", [
   P("Hi {{FIRST_NAME}},"),
   P("Congratulations, and welcome. You have been admitted to the Master of Arts in Music at Cal State East "
     "Bay."),
@@ -340,7 +340,7 @@ add("cert-2-application-received", "cert", "Application Received",
   FOOTER])
 
 add("cert-3-conditionally-admitted", "cert", "Conditionally Admitted",
-  "Nearly in the certificate", [
+  "Conditionally admitted, certificate", [
   P("Hi {{FIRST_NAME}},"),
   P("Congratulations. You&rsquo;re admitted to the Single Subject Matter Preparation Certificate in Music, "
     "with a couple of documents still outstanding."),
@@ -349,7 +349,7 @@ add("cert-3-conditionally-admitted", "cert", "Conditionally Admitted",
   FOOTER])
 
 add("cert-4-fully-admitted", "cert", "Fully Admitted",
-  "You're in the certificate", [
+  "Your certificate offer", [
   P("Hi {{FIRST_NAME}},"),
   P("Congratulations, and welcome. You have been admitted to the Single Subject Matter Preparation "
     "Certificate in Music at Cal State East Bay."),
