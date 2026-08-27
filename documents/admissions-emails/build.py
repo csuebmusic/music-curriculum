@@ -242,7 +242,7 @@ add("ba-5-admission-accepted", "ba", "Admission Accepted",
     "The " + A(U["mrc"], "Music Resource Center") + " lends scores, parts, and study materials.",
     "The " + A(U["equip"], "Music Equipment Office") + " lends instruments and recording equipment, and assigns lockers.",
     "The concert calendar is on " + A(U["events"], "News &amp; Events") + ".",
-    "The " + A(U["cert"], "Single Subject Matter Preparation Certificate in Music") + " is an add-on to the B.A. that prepares you to apply for the California Single Subject Teaching Credential in Music and complete it successfully. Its " + A(U["certrm"], "roadmap") + " shows how the coursework fits alongside the degree. John Eros coordinates music education: " + A("mailto:john.eros@csueastbay.edu", "john.eros@csueastbay.edu") + ".",
+    "The " + A(U["cert"], "Single Subject Matter Preparation Certificate in Music") + " is an add-on to the B.A. that prepares you to apply for the California Single Subject Teaching Credential in Music and complete it successfully. Its " + A(U["certrm"], "roadmap") + " shows how the coursework fits alongside the degree. John Eros coordinates music education: " + A("mailto:john.eros@csueastbay.edu", "john.eros@csueastbay.edu") + ". Reach out to him directly to schedule an advising session.",
     "The " + A(U["fast"], "FAST 4+1 B.A./M.A.") + " gets you both degrees in five years. You apply by January 15 of your junior year, with 60 to 90 units done and a 3.0 in your music courses. You can find out more about it " + A(U["fast"], "here") + ", and the roadmaps lay out the whole sequence: " + A(U["fastrm"], "4+1") + " and " + A(U["fastrm2"], "2+1 for transfer students") + "."]),
   P("Questions about any of it? " + CALL),
   FOOTER])
