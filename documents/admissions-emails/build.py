@@ -79,6 +79,7 @@ U = dict(
   rm2     = "https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-roadmap-2-year-transfer.html",
   ssc     = "https://www.csueastbay.edu/class-ssc/index.html",
   ugadmit = "https://www.csueastbay.edu/admissions/after-youre-accepted/undergrad-after-admitted.html",
+  gradmit = "https://www.csueastbay.edu/admissions/graduate-requirements/next-steps.html",
   deadlines = "https://www.csueastbay.edu/admissions/documents-deadlines-and-important-information/application-and-doc-deadlines/index.html",
   gdeadlines = "https://www.csueastbay.edu/admissions/documents-deadlines-and-important-information/application-and-doc-deadlines/graduate-and-credential-students.html",
 )
@@ -297,8 +298,9 @@ add("ma-4-fully-admitted", "ma", "Fully Admitted",
   P("Congratulations, and welcome. You have been admitted to the Master of Arts in Music at Cal State East "
     "Bay!"),
   H("First, accept your offer"),
-  P("Log in to " + MYCSUEB + " and open the Admissions tile. The pre-enrollment fee is listed there and paid "
-    "at the same time. Everything below waits on this."),
+  P("Log in to " + MYCSUEB + ", choose the Admissions tile, and select Accept Admission. The Office of "
+    "Admissions covers the rest of the university side, from housing to student life, on its "
+    + A(U["gradmit"], "after you&rsquo;re accepted") + " page."),
   H("Then, between now and your first semester"),
   UL([
     "<strong>Know what you are taking on.</strong> 32 units over four semesters: a shared seminar core in analysis and post-tonal practice, the history and theory of jazz, interdisciplinary collaboration, advanced conducting, entrepreneurship in the arts, the social and ecological dimensions of music, and teaching music in higher education.",
