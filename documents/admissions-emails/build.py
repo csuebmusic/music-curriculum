@@ -312,7 +312,7 @@ add("cert-6-active", "cert", "Active",
 # ---------------------------------------------------------------- assembly
 
 GROUPS = [
-  ("all",  "all music plans",  "All plans containing Music"),
+  ("all",  "all music plans",  None),
   ("ba",   "b.a. in music and additional degree", "Music BA, Music Additional Degree"),
   ("ma",   "m.a. in music",    "Music MA"),
   ("cert", "single subject matter preparation certificate", "Cert: Music, Single Sub Matter"),
@@ -338,8 +338,9 @@ i = 0
 for g, gname, gplans in GROUPS:
     keys = [k for k in ORDER if T[k]["group"] == g]
     nav.append('  <a class="nav-sub" href="#g-%s">%s</a>' % (g, gname))
-    flow.append('    <h3 id="f-%s">%s</h3>\n    <p class="measure">Plan: %s</p>'
-                % (g, gname, gplans))
+    flow.append('    <h3 id="f-%s">%s</h3>' % (g, gname))
+    if gplans:
+        flow.append('    <p class="measure">Plan: %s</p>' % gplans)
     flow.append('    <table class="hb-table">\n      <thead>\n        <tr><th>application status</th>'
                 '<th class="col-code">template</th></tr>\n      </thead>\n      <tbody>')
     cards.append('  <h3 id="g-%s">%s</h3>' % (g, gname))
