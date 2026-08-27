@@ -146,8 +146,7 @@ add("ba-1-application-in-progress", "ba", "Application in Progress",
   P("If anything in the application is unclear, don&rsquo;t hesitate to reach out, we are here to help. " + CALL),
   P("You can also begin thinking about your scholarship audition. We award scholarships to incoming students "
     "every year, and the same materials serve as the applied area placement that every music major completes "
-    "before starting lessons. Requirements differ by area, and the deadlines fall during the application "
-    "season: "
+    "before starting lessons. Requirements differ by area, and auditions close in February: "
     + A(U["aud"], "scholarship auditions and applied area placements") + "."),
   P("There&rsquo;s more about the programs, the faculty, and performance opportunities on the "
     + A(U["about"], "Department of Music") + " site. And remember, you&rsquo;re welcome on campus any time!"),
@@ -159,8 +158,9 @@ add("ba-2-application-received", "ba", "Application Received",
   P("Congratulations! Your application IS IN."),
   H("Sign up for your scholarship audition"),
   P("We award scholarships to incoming students every year, and the same materials serve as the applied "
-    "area placement that every music major "
-    "completes before starting lessons. All the information is on the "
+    "area placement that every music major completes before starting lessons. Auditions close in "
+    "February. You can submit your materials online or sign up for an in-person audition, with the "
+    "dates posted on the page. All the information is on the "
     + A(U["aud"], "scholarship auditions and applied area placements") + " page. Sign up!"),
   H("Other things to do now"),
   UL([
@@ -182,9 +182,11 @@ add("ba-3-conditionally-admitted", "ba", "Conditionally Admitted",
     "<strong>Send the missing documents.</strong> Ask each school you&rsquo;ve attended (high school, community college, or any other 4-year college) to send transcripts electronically to " + TRANSCRIPTS + ". " + A(U["trans"], "How to submit documents") + ".",
     "<strong>Meet the " + A(U["deadlines"], "document deadlines") + ".</strong> They are firm, and the offer does not become final until the items clear."]),
   H("If you have not auditioned yet"),
-  P("Scholarship auditions are still open, and we award scholarships to incoming students every year. All the "
-    "information is on the " + A(U["aud"], "scholarship auditions and applied area placements") + " page. "
-    "Sign up!"),
+  P("Scholarship auditions close in February. If that date has not passed, submit your materials online or "
+    "sign up for an in-person audition. After it, the same materials serve as your applied area "
+    "placement, which you need before starting applied lessons, any time up to the second week of the "
+    "semester. All the information is on the "
+    + A(U["aud"], "scholarship auditions and applied area placements") + " page. Sign up!"),
   P("Questions about any of it? " + CALL),
   FOOTER])
 
@@ -200,8 +202,8 @@ add("ba-4-fully-admitted", "ba", "Fully Admitted",
   H("Then, between now and your first week"),
   UL([
     "<strong>Get your music schedule.</strong> Most of this happens between late May and early July. If you are entering as a first-year student, the " + A(U["ssc"], "CLASS Student Success Center") + " builds your first-semester schedule with the department&rsquo;s music advisors, and you do not register yourself. If you are transferring or coming with a bachelor&rsquo;s already, we schedule an advising session with you, and you register once your courses are settled.",
-    "<strong>Complete your applied area placement.</strong> You need one to begin lessons in your principal area. A scholarship audition already counts. If you have not auditioned, sign up on the " + A(U["aud"], "scholarship auditions and applied area placements") + " page, any time up to the end of the first week of the semester.",
-    "<strong>Come to music orientation.</strong> The Department holds it on the Thursday before the first week of classes. You will walk our facilities, rent a locker, and meet your cohort and your advisors. We send the date and details by email over the summer."]),
+    "<strong>Complete your applied area placement.</strong> You need one to begin lessons in your principal area. A scholarship audition already counts. If you have not auditioned, sign up on the " + A(U["aud"], "scholarship auditions and applied area placements") + " page, any time up to the second week of the semester.",
+    "<strong>Come to music orientation.</strong> The Department holds it the day before classes start. You will walk our facilities, rent a locker, and meet your cohort and your advisors. We send the date and details by email over the summer."]),
   H("Read ahead"),
   P(A(U["gotin"], "I got in! Now what?") + " carries the detail behind each step above. The roadmaps lay out "
     "the degree term by term, " + A(U["rm4"], "four years") + " or "
@@ -222,9 +224,9 @@ add("ba-5-admission-accepted", "ba", "Admission Accepted",
     "email over the summer and pick a time."),
   H("Before the semester starts"),
   UL([
-    "<strong>Applied area placement.</strong> You need one before starting lessons on your principal instrument or voice, any time up to the end of the first week. A scholarship audition already counts. " + A(U["aud"], "What to prepare") + ".",
+    "<strong>Applied area placement.</strong> You need one before starting lessons on your principal instrument or voice, any time up to the second week of the semester. A scholarship audition already counts. " + A(U["aud"], "What to prepare") + ".",
     "<strong>Ensembles.</strong> Auditions and placement happen at the first meeting of each ensemble. Register for the course, then turn up to that first class. " + A(U["ens"], "Our ensembles") + ".",
-    "<strong>Music orientation.</strong> The Department holds it on the Thursday before the first week of classes. You will walk our facilities, rent a locker, and meet your cohort and your advisors.",
+    "<strong>Music orientation.</strong> The Department holds it the day before classes start. You will walk our facilities, rent a locker, and meet your cohort and your advisors.",
     "<strong>Concert attendance.</strong> While you are enrolled in applied lessons you need ten a semester. Any Department event counts as one credit, and performing in one counts as a half. You record your own attendance with OneTap on your phone, and the visitor app is worth installing before your first event."]),
   H("Read ahead"),
   P("The " + A(U["ughb"], "Undergraduate Handbook") + " holds the whole degree: applied levels and juries, "
