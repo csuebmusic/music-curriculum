@@ -224,7 +224,7 @@ add("ba-5-admission-accepted", "ba", "Admission Accepted",
   H("Before the semester starts"),
   UL([
     "<strong>Applied area placement.</strong> You need one before starting lessons on your principal instrument or voice, any time up to the second week of the semester (if you submitted a scholarship audition, that already counts!) " + A(U["aud"], "What to prepare") + ".",
-    "<strong>Ensembles.</strong> Auditions and placement happen at the first meeting of each ensemble. Register for the course, then turn up to that first class. " + A(U["ens"], "Our ensembles") + ".",
+    "<strong>Ensembles.</strong> Auditions and placement happen at the first meeting of each ensemble. Register for the course, then come ready to play to that first class. " + A(U["ens"], "Our ensembles") + ".",
     "<strong>Music orientation.</strong> The Department holds it the day before classes start. You will walk our facilities, rent a locker, and meet your cohort and your advisors."]),
   H("Read ahead"),
   P("The " + A(U["ughb"], "Undergraduate Handbook") + " sets out the degree in full: applied levels and "
@@ -298,7 +298,7 @@ add("ma-5-admission-accepted", "ma", "Admission Accepted",
   P("We were glad to see you accept your offer. Here is how the first semester takes shape."),
   UL([
     "<strong>Applied lessons.</strong> The Graduate Coordinator registers you from the emphasis you declared at admission. You then arrange the weekly lesson time directly with your instructor.",
-    "<strong>Ensemble.</strong> You perform in one every semester. Auditions and placement happen at the first meeting, so register for the course and turn up to that first class. " + A(U["ens"], "Our ensembles") + ".",
+    "<strong>Ensemble.</strong> You perform in one every semester. Auditions and placement happen at the first meeting, so register for the course and come ready to play to that first class. " + A(U["ens"], "Our ensembles") + ".",
     "<strong>Seminars.</strong> Your first semester is MUS 601, Analysis of Musical Styles, and MUS 603, Entrepreneurship in the Arts, alongside lessons and ensemble. Eight units.",
     "<strong>Funding.</strong> Teaching Associate and Instructional Student Assistant assignments open before the semester. If either interests you, say so now rather than later."]),
   H("Read ahead"),
@@ -373,7 +373,7 @@ add("cert-5-admission-accepted", "cert", "Admission Accepted",
     "study, and the order you take it in depends on what your bachelor&rsquo;s already covered. The "
     + A(U["certrm"], "certificate roadmap") + " lays out the 31 units on their two-year rotation."),
   P("If applied lessons or an ensemble are part of your plan, ensemble auditions and placement happen at the "
-    "first meeting: register for the course and turn up to that first class. " + A(U["ens"], "Our ensembles")
+    "first meeting: register for the course and come ready to play to that first class. " + A(U["ens"], "Our ensembles")
     + "."),
   H("Read ahead"),
   P("The " + A(U["grhb"], "Graduate Handbook") + " covers the certificate alongside the M.A., including "
