@@ -209,22 +209,23 @@ add("ba-3-conditionally-admitted", "ba", "Conditionally Admitted",
   FOOTER])
 
 add("ba-4-fully-admitted", "ba", "Fully Admitted",
-  "CSUEB Music Department: Congratulations!", [
+  "Your offer of admission", [
   P("Hi {{FIRST_NAME}},"),
   P("Congratulations, and welcome. You have been admitted to the B.A. in Music at Cal State East Bay!"),
   H("First, accept your offer"),
   P("Log in to " + MYCSUEB + ", choose the Admissions tile, select Accept Admission, and pay the $110 "
-    "non-refundable " + A(U["fee"], "pre-enrollment fee") + ", which is applied toward orientation. Everything "
-    "below waits on this. The Office of Admissions covers the rest of the university side, from housing to "
-    "student life, on its " + A(U["ugadmit"], "after you&rsquo;re accepted") + " page."),
-  H("Then, between now and your first week"),
+    "non-refundable " + A(U["fee"], "pre-enrollment fee") + ", which is applied toward orientation. The Office "
+    "of Admissions covers the rest of the university side, from housing to student life, on its "
+    + A(U["ugadmit"], "after you&rsquo;re accepted") + " page."),
+  H("To help you decide if CSU East Bay is the right place for you"),
   UL([
-    "<strong>Get your music schedule.</strong> Most of this happens between late May and early July. If you are entering as a first-year student, the " + A(U["ssc"], "CLASS Student Success Center") + " builds your first-semester schedule with the department&rsquo;s music advisors, and you do not register yourself. If you are transferring or coming with a bachelor&rsquo;s already, we schedule an advising session with you, and you register once your courses are settled.",
+    "<strong>What the four years hold.</strong> 120 units built on applied lessons and ensembles from your first semester to your last, alongside theory, history, conducting, and technology. You choose where to go deep: performance, composition, production, jazz, or teaching. Our students play across the Bay Area and abroad, write and record their own work, and leave ready for the stage, the studio, the classroom, or graduate school. The roadmaps show the degree term by term, " + A(U["rm4"], "four years") + " or " + A(U["rm2"], "two years for transfer students") + ".",
+    "<strong>The music education add-on.</strong> You can earn the " + A(U["cert"], "Single Subject Matter Preparation Certificate in Music") + " alongside the B.A., which prepares you to apply for the California Single Subject Teaching Credential in Music and complete it successfully. John Eros coordinates music education: " + A("mailto:john.eros@csueastbay.edu", "john.eros@csueastbay.edu") + ".",
+    "<strong>Come and see us.</strong> Sit in on a class, hear a rehearsal, meet the faculty you would study with, and talk to the students already doing it. Write or call and we will arrange a visit around your schedule.",
     "<strong>Complete your applied area placement.</strong> You need one to begin lessons in your principal area (if you submitted a scholarship audition, that already counts!) If you have not auditioned, sign up on the " + A(U["aud"], "scholarship auditions and applied area placements") + " page, any time up to the second week of the semester."]),
   H("Read ahead"),
-  P(A(U["gotin"], "I got in! Now what?") + " gives more detail on each step above. The roadmaps show the "
-    "degree term by term, " + A(U["rm4"], "four years") + " or "
-    + A(U["rm2"], "two years for transfer students") + "."),
+  P(A(U["gotin"], "I got in! Now what?") + " walks through orientation, advising, and the steps that follow "
+    "once you accept."),
   P("Questions about any of it? " + CALL),
   FOOTER])
 
