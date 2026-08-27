@@ -113,8 +113,10 @@ add("00-inquiry", "all", "Inquired",
   "Music at Cal State East Bay", [
   P("Hi {{FIRST_NAME}},"),
   P("Thanks for writing to the " + A(U["home"], "Department of Music") + ". We&rsquo;re a small department "
-    "inside a large and unusually mixed university. Our students perform in various styles, compose, "
-    "produce and design sound in the studios, conduct choirs, and teach music in California schools."),
+    "inside a large and unusually mixed university, and we take our students seriously as the musicians "
+    "they already are. They perform, compose, produce and design sound in the studios, conduct choirs, "
+    "and go out to teach music in California schools. Whatever they make, from the oldest repertoire to "
+    "work finished last week, gets the same rigor and the same attention."),
   UL([
     A(U["ba"], "<strong>B.A. in Music</strong>") + ". 120 units of applied lessons, ensembles, and coursework across performance, composition, music technology, jazz, and music education.",
     A(U["ma"], "<strong>M.A. in Music</strong>") + ". 32 units, in Performance (Classical or Jazz), Choral Conducting, or Composition.",
