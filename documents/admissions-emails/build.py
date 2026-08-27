@@ -146,7 +146,7 @@ add("ba-1-application-in-progress", "ba", "Application in Progress",
 add("ba-2-application-received", "ba", "Application Received",
   "Your application is in. Here's what comes next", [
   P("Hi {{FIRST_NAME}},"),
-  P("Your application is in."),
+  P("Congratulations! Your application IS IN."),
   P("Your next move is the scholarship audition. We award scholarships to incoming students every year, and "
     "the same materials serve as the applied area placement every music major completes before starting "
     "lessons. Requirements differ by area, deadlines fall during the application season, and in-person dates "
