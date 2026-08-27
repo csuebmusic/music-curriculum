@@ -52,6 +52,7 @@ U = dict(
   fast    = "https://www.csueastbay.edu/music/prospective/blended-b.a-m.a-4+1.html",
   minor   = "https://www.csueastbay.edu/music/prospective/music-minor.html",
   apply   = "https://www.csueastbay.edu/music/prospective/how-to-apply/index.html",
+  applyma = "https://www.csueastbay.edu/music/prospective/how-to-apply/index.html#M.A.",
   aud     = "https://www.csueastbay.edu/music/prospective/how-to-apply/auditions.html",
   gotin   = "https://www.csueastbay.edu/music/prospective/how-to-apply/i-got-in-now-what.html",
   schol   = "https://www.csueastbay.edu/music/prospective/scholarships.html",
@@ -262,7 +263,7 @@ add("ma-1-application-in-progress", "ma", "Application in Progress",
     "Your CV or r&eacute;sum&eacute;.",
     "Two letters of recommendation, from teachers or colleagues who can speak to your readiness for graduate work. You enter their names and email addresses in CSUApply, and each one receives an automatic message with a form to complete and a place to upload the letter. Give them warning before you enter them.",
     "A statement of purpose, 2 pages, on what you want from a graduate degree in music and where you&rsquo;re headed in the short and long term.",
-    "Evidence of your abilities in your area. What that means varies by area, and it&rsquo;s laid out on the " + A(U["apply"], "How to Apply") + " page."]),
+    "Evidence of your abilities in your area. What that means varies by area, and it&rsquo;s laid out on the " + A(U["applyma"], "How to Apply") + " page."]),
   P(GRADCLOSE),
   FOOTER])
 
