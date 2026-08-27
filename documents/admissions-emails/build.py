@@ -154,7 +154,7 @@ add("ba-2-application-received", "ba", "Application Received",
     + A(U["aud"], "scholarship auditions and applied area placements") + " page. Sign up!"),
   H("What to do now"),
   UL([
-    "<strong>Activate your NetID.</strong> It reaches you within 48 hours of applying and gets you into MyCSUEB and your Horizon email.",
+    "<strong>Activate your NetID.</strong> The University assigns you one within 48 hours of applying, and you need it for MyCSUEB and for your Horizon email account.",
     "<strong>Send your transcripts.</strong> Ask each school to send them electronically to " + TRANSCRIPTS + ". Your admission offer won&rsquo;t come until they land. " + A(U["trans"], "How to submit documents") + ".",
     "<strong>Watch " + MYCSUEB + ".</strong> Your status and anything still outstanding show up there.",
     "<strong>Come and visit.</strong> Meet the faculty, sit in on a rehearsal, and see an ordinary Tuesday here. Write to " + A("mailto:music@csueastbay.edu", "music@csueastbay.edu") + " and we&rsquo;ll set it up."]),
