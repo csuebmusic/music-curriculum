@@ -223,7 +223,7 @@ add("ba-5-admission-accepted", "ba", "Admission Accepted",
     "email over the summer and pick a time."),
   H("Before the semester starts"),
   UL([
-    "<strong>Applied area placement.</strong> You need one before starting lessons on your principal instrument or voice, any time up to the second week of the semester. A scholarship audition already counts. " + A(U["aud"], "What to prepare") + ".",
+    "<strong>Applied area placement.</strong> You need one before starting lessons on your principal instrument or voice, any time up to the second week of the semester (if you submitted a scholarship audition, that already counts!) " + A(U["aud"], "What to prepare") + ".",
     "<strong>Ensembles.</strong> Auditions and placement happen at the first meeting of each ensemble. Register for the course, then turn up to that first class. " + A(U["ens"], "Our ensembles") + ".",
     "<strong>Music orientation.</strong> The Department holds it the day before classes start. You will walk our facilities, rent a locker, and meet your cohort and your advisors."]),
   H("Read ahead"),
