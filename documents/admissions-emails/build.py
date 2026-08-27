@@ -119,7 +119,9 @@ def funding(items):
       H("Important financial information"),
       P("The Office of Graduate Studies runs fellowships, research funding, and other support across the "
         "University: " + A(U["gradopp"], "Graduate Opportunities") + ". The Department has its own: "
-        + A(U["schol"], "Music Scholarships") + "."),
+        + A(U["schol"], "Music Scholarships") + ". We award music scholarships to entering students "
+        "every year on the strength of the materials already in your application, and there is no "
+        "extra step you need to complete to be eligible."),
       UL(items)])
 
 # ============================================================ all plans
