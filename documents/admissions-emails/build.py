@@ -148,7 +148,7 @@ add("00-inquiry", "all", "Inquired",
     A(U["ba"], "<strong>B.A. in Music</strong>") + ". 120 units of applied lessons, ensembles, and coursework across performance, composition, music technology, jazz, and music education.",
     A(U["ma"], "<strong>M.A. in Music</strong>") + ". 32 units, in Performance (Classical or Jazz), Choral Conducting, or Composition.",
     A(U["cert"], "<strong>Single Subject Matter Preparation Certificate in Music</strong>") + ". Preparation for the California Single Subject Teaching Credential in Music. Add it to the B.A., add it to the M.A., or take it on its own if you already hold a bachelor&rsquo;s.",
-    A(U["fast"], "<strong>FAST 4+1 B.A./M.A.</strong>") + ". Both degrees in five years, for students already in the B.A. here, who apply in the junior year.",
+    A(U["fast"], "<strong>FAST 4+1 B.A./M.A.</strong>") + " gets you both degrees in five years, for students already in the B.A. here, who apply in the junior year.",
     A(U["minor"], "<strong>Music Minor</strong>") + ". 21 units, open to any major."]),
   P(A(U["apply"], "How to apply") + " &middot; " + A(U["schol"], "Music scholarships")),
   P("Come visit us: the recital hall, the studios, and whatever rehearsal happens to be running that "
@@ -184,7 +184,7 @@ add("ba-2-application-received", "ba", "Application Received",
   UL([
     "<strong>Activate your NetID.</strong> The University assigns you one within 48 hours of applying and sends it to the personal email address on your application. You need it for MyCSUEB and for your Horizon email account. " + A(U["netid"], "Activation instructions") + ".",
     "<strong>Send your transcripts.</strong> Ask each school you&rsquo;ve attended (high school, community college, or any other 4-year college) to send them electronically to " + TRANSCRIPTS + ". You will not receive an admission offer until the Office of Admissions has them. " + A(U["trans"], "How to submit documents") + ".",
-    "<strong>Check " + MYCSUEB + ".</strong> Your status and anything still outstanding show up there.",
+    "<strong>Check " + MYCSUEB + ".</strong> It shows your status and anything still outstanding.",
     "<strong>Come and visit.</strong> Meet the faculty, sit in on a rehearsal, and see an ordinary Tuesday here."]),
   P("Questions about a visit or an audition? " + CALL),
   FOOTER])
@@ -197,7 +197,7 @@ add("ba-3-conditionally-admitted", "ba", "Conditionally Admitted",
   H("What is outstanding"),
   UL([
     "<strong>Read your To Do List in " + MYCSUEB + ".</strong> Everything holding up the offer is named there, usually final transcripts or proof that a degree was conferred.",
-    "<strong>Send the missing documents.</strong> Ask each school you&rsquo;ve attended (high school, community college, or any other 4-year college) to send transcripts electronically to " + TRANSCRIPTS + ". " + A(U["trans"], "How to submit documents") + ".",
+    "<strong>Send the missing documents.</strong> These go to the Office of Admissions rather than to us. Ask each school you&rsquo;ve attended (high school, community college, or any other 4-year college) to send transcripts electronically to " + TRANSCRIPTS + ". " + A(U["trans"], "How to submit documents") + ".",
     "<strong>Meet the " + A(U["deadlines"], "document deadlines") + ".</strong> They are firm, and the offer does not become final until the items clear."]),
   H("If you have not auditioned yet"),
   P("Scholarship auditions close in February. If that date has not passed, submit your materials online or "
@@ -216,7 +216,7 @@ add("ba-4-fully-admitted", "ba", "Fully Admitted",
   P("Log in to " + MYCSUEB + ", choose the Admissions tile, select Accept Admission, and pay the $110 "
     "non-refundable " + A(U["fee"], "pre-enrollment fee") + ", which is applied toward orientation. Everything "
     "below waits on this. The Office of Admissions covers the rest of the university side, from housing to "
-    "student life, on its " + A(U["ugadmit"], "after you&rsquo;re admitted") + " page."),
+    "student life, on its " + A(U["ugadmit"], "after you&rsquo;re accepted") + " page."),
   H("Then, between now and your first week"),
   UL([
     "<strong>Get your music schedule.</strong> Most of this happens between late May and early July. If you are entering as a first-year student, the " + A(U["ssc"], "CLASS Student Success Center") + " builds your first-semester schedule with the department&rsquo;s music advisors, and you do not register yourself. If you are transferring or coming with a bachelor&rsquo;s already, we schedule an advising session with you, and you register once your courses are settled.",
@@ -250,7 +250,9 @@ add("ba-5-admission-accepted", "ba", "Admission Accepted",
     "The roadmaps lay out the degree term by term, " + A(U["rm4"], "four years") + " or " + A(U["rm2"], "two years for transfer students") + ".",
     "The " + A(U["mrc"], "Music Resource Center") + " lends scores, parts, and study materials.",
     "The " + A(U["equip"], "Music Equipment Office") + " lends instruments and recording equipment, and assigns lockers.",
-    "The concert calendar is on " + A(U["events"], "News &amp; Events") + ".",
+    "The concert calendar is on " + A(U["events"], "News &amp; Events") + "."]),
+  H("Two other paths worth knowing about now"),
+  UL([
     "The " + A(U["cert"], "Single Subject Matter Preparation Certificate in Music") + " is an add-on to the B.A. that prepares you to apply for the California Single Subject Teaching Credential in Music and complete it successfully. Its " + A(U["certrm"], "roadmap") + " shows how the coursework fits alongside the degree. John Eros coordinates music education: " + A("mailto:john.eros@csueastbay.edu", "john.eros@csueastbay.edu") + ". Reach out to him directly to schedule an advising session.",
     "The " + A(U["fast"], "FAST 4+1 B.A./M.A.") + " gets you both degrees in five years. You apply by January 15 of your junior year, with 60 to 90 units done and a 3.0 in your music courses. You can find out more about it " + A(U["fast"], "here") + ", and the roadmaps lay out the whole sequence: " + A(U["fastrm"], "4+1") + " and " + A(U["fastrm2"], "2+1 for transfer students") + "."]),
   P("Questions about any of it? " + CALL),
@@ -326,7 +328,8 @@ add("ma-5-admission-accepted", "ma", "Admission Accepted",
   P("Hi {{FIRST_NAME}},"),
   P("We were glad to see you accept your offer."),
   H("How your schedule comes together"),
-  P("Our Graduate Coordinator will be in touch shortly to set up an advising meeting. She will go through "
+  P("In&eacute;s Thiebaut, our Graduate Coordinator, will be in touch shortly to set up an advising meeting. "
+    "She will go through "
     "your interests and what you want from the degree, match you to an ensemble that fits, and put you in "
     "touch with your applied studies instructor. Your first semester is MUS 601, Analysis of Musical "
     "Styles, and MUS 603, Entrepreneurship in the Arts, alongside lessons and ensemble, for eight units."),
@@ -541,7 +544,6 @@ page = """<!DOCTYPE html>
   <a href="#s3"><span class="nav-num">03</span>merge fields</a>
   <a href="#s4"><span class="nav-num">04</span>templates</a>
 %s
-  <a href="#s5"><span class="nav-num">05</span>open items</a>
 </nav>
 
 <main>
@@ -596,22 +598,6 @@ page = """<!DOCTYPE html>
 %s
   </section>
 
-  <section class="hb-section" id="s5">
-    <h2>open items</h2>
-    <table class="hb-table">
-      <thead>
-        <tr><th class="col-code">item</th><th>question</th></tr>
-      </thead>
-      <tbody>
-        <tr><td class="col-code">stage definitions</td><td>What distinguishes Application in Progress from Application Received: submission in CSUApply, or verification by Admissions. </td></tr>
-        <tr><td class="col-code">plan codes</td><td>Confirm the exact plan values, in particular Music Additional Degree, and confirm that every plan containing Music resolves to one of the three degree groups above.</td></tr>
-        <tr><td class="col-code">conditional wording</td><td>The conditional-admit templates send applicants to the MyCSUEB To Do List rather than naming conditions. If Salesforce can carry the outstanding items into the message, the templates should say so instead.</td></tr>
-        <tr><td class="col-code">graduate fee</td><td>The undergraduate templates name the $110 pre-enrollment fee. Confirm the graduate figure, or leave those templates pointing at the amount shown in MyCSUEB.</td></tr>
-        <tr><td class="col-code">subject lines</td><td>Subject lines are sentence case and carry no emoji. Confirm this against the University's convention for automated mail.</td></tr>
-        <tr><td class="col-code">reminder mail</td><td>Whether a nudge goes to applicants who start an application and do not submit, and at what interval.</td></tr>
-      </tbody>
-    </table>
-  </section>
 
 </main>
 
