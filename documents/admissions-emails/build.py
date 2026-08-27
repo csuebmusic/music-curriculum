@@ -288,9 +288,6 @@ add("ma-3-conditionally-admitted", "ma", "Conditionally Admitted",
     "<strong>Read your To Do List in " + MYCSUEB + ".</strong> Everything holding up the offer is named there, most often official transcripts or proof that your bachelor&rsquo;s degree was conferred.",
     "<strong>Send the missing documents.</strong> These go to the Office of Graduate Admissions rather than to us. Ask every college and university you have attended to send transcripts electronically to " + TRANSCRIPTS + ". " + A(U["trans"], "How to submit documents") + ".",
     "<strong>Meet the " + A(U["gdeadlines"], "document deadlines") + ".</strong> They are firm, and the offer does not become final until the items clear."]),
-  H("What the degree asks of you"),
-  P("Nothing about the conditions changes the work ahead: the seminar core, four semesters of applied lessons "
-    "and ensemble in your area, a public capstone, and an oral comprehensive examination."),
   P(GRADCLOSE),
   FOOTER])
 
