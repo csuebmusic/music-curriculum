@@ -212,33 +212,30 @@ add("ba-4-fully-admitted", "ba", "Fully Admitted",
 add("ba-5-admission-accepted", "ba", "Admission Accepted",
   "Before classes begin", [
   P("Hi {{FIRST_NAME}},"),
-  P("We were glad to see you accept your offer, and there are four things worth lining up before the "
-    "semester starts."),
+  P("We were glad to see you accept your offer."),
+  H("How your schedule comes together"),
+  P("This depends on how you enter, and most of it happens between late May and early July. If you are "
+    "starting as a first-year student, the " + A(U["ssc"], "CLASS Student Success Center") + " builds your "
+    "first-semester schedule with the department&rsquo;s music advisors, and you do not register yourself in "
+    "the first year. If you are transferring or already hold a bachelor&rsquo;s, we schedule an advising "
+    "session with you to plan your courses, and you register yourself once they are settled. Watch for our "
+    "email over the summer and pick a time."),
+  H("Before the semester starts"),
   UL([
-    "<strong>Applied area placement.</strong> Every music major does one before starting lessons on a principal instrument or voice, any time up to the end of the first week. A scholarship audition already counts. " + A(U["aud"], "What to prepare") + ".",
+    "<strong>Applied area placement.</strong> You need one before starting lessons on your principal instrument or voice, any time up to the end of the first week. A scholarship audition already counts. " + A(U["aud"], "What to prepare") + ".",
     "<strong>Ensembles.</strong> Auditions and placement happen at the first meeting of each ensemble. Register for the course, then turn up to that first class. " + A(U["ens"], "Our ensembles") + ".",
-    "<strong>Advising.</strong> You&rsquo;ll be assigned a faculty advisor in the Department for the major itself. General education runs through Bay Advisor, where your GE advisor and the rest of your success team are listed. See both before you register.",
-    "<strong>Keyboard.</strong> Three semesters of group keyboard, normally MUS 118, MUS 119, and MUS 218. Get them into your plan early."]),
-  P("Questions about any of it? " + ASK),
+    "<strong>Music orientation.</strong> The Department holds it on the Thursday before the first week of classes. You will walk our facilities, rent a locker, and meet your cohort and your advisors.",
+    "<strong>Concert attendance.</strong> While you are enrolled in applied lessons you need ten a semester. Any Department event counts as one credit, and performing in one counts as a half. You record your own attendance with OneTap on your phone, and the visitor app is worth installing before your first event."]),
+  H("Read ahead"),
+  P("The " + A(U["ughb"], "Undergraduate Handbook") + " holds the whole degree: applied levels and juries, "
+    "recital requirements, ensembles, health and safety, and the policies you will want in hand. "
+    + A(U["current"], "Student Resources") + " is the shorter route, with advising, roadmaps, and forms "
+    "alongside. The " + A(U["mrc"], "Music Resource Center") + " and the "
+    + A(U["equip"], "Music Equipment Office") + " hold the scores, instruments, and gear, and concerts go up "
+    "on " + A(U["events"], "News &amp; Events") + "."),
+  P("Questions about any of it? " + CALL),
   FOOTER])
 
-add("ba-6-active", "ba", "Active",
-  "Welcome to Music", [
-  P("Hi {{FIRST_NAME}},"),
-  P("You are enrolled now, and welcome to the Department."),
-  P("Read the " + A(U["ughb"], "Undergraduate Handbook") + " when you have an hour. Applied levels and juries, "
-    "recital requirements, the keyboard sequence, ensembles, health and safety, and the policies you&rsquo;ll "
-    "want in hand are all in it. " + A(U["current"], "Student Resources") + " is the shorter route, with "
-    "advising, roadmaps, and forms alongside."),
-  P("One thing to build into the semester from the start is concert attendance: while you are enrolled in "
-    "applied lessons you need ten a semester, any Department event counts as one credit, and performing in "
-    "one counts as a half. You record your own attendance with OneTap on your phone, and the visitor app is "
-    "worth installing before your first event."),
-  P("The building is yours to use. The " + A(U["mrc"], "Music Resource Center") + " and the "
-    + A(U["equip"], "Music Equipment Office") + " hold the scores, instruments, and gear, and concerts and "
-    "deadlines go up on " + A(U["events"], "News &amp; Events") + "."),
-  P("Your applied teacher and your advisor are the first people to ask. After that, " + CALL.lower()[0] + CALL[1:]),
-  FOOTER])
 
 # ============================================================ m.a.
 
@@ -304,27 +301,16 @@ add("ma-5-admission-accepted", "ma", "Admission Accepted",
     "<strong>Ensemble.</strong> You perform in one every semester. Auditions and placement happen at the first meeting, so register for the course and turn up to that first class. " + A(U["ens"], "Our ensembles") + ".",
     "<strong>Seminars.</strong> Your first semester is MUS 601, Analysis of Musical Styles, and MUS 603, Entrepreneurship in the Arts, alongside lessons and ensemble. Eight units.",
     "<strong>Funding.</strong> Teaching Associate and Instructional Student Assistant assignments open before the semester. If either interests you, say so now rather than later."]),
+  H("Read ahead"),
+  P("The " + A(U["grhb"], "Graduate Handbook") + " holds sequencing, the Level 6 juries for your area, "
+    "advancement to candidacy at the end of the first year, the capstone, and the comprehensive "
+    "examination. " + A(U["current"], "Student Resources") + " carries the same material in shorter "
+    "form. The " + A(U["mrc"], "Music Resource Center") + " and the "
+    + A(U["equip"], "Music Equipment Office") + " hold the scores, instruments, and gear, and concerts "
+    "go up on " + A(U["events"], "News &amp; Events") + "."),
   P("The Graduate Coordinator is your first stop for sequencing, the capstone, or the exam. " + COORD),
   FOOTER])
 
-add("ma-6-active", "ma", "Active",
-  "Welcome to the M.A.", [
-  P("Hi {{FIRST_NAME}},"),
-  P("You are enrolled now, and welcome."),
-  P("Read the " + A(U["grhb"], "Graduate Handbook") + " when you have an hour. Sequencing, the Level 6 juries "
-    "for your area, advancement to candidacy, the capstone, and the comprehensive examination are all in it, "
-    "and " + A(U["current"], "Student Resources") + " carries the same material in shorter form."),
-  P("The degree runs two years and they go quickly. Advancement to candidacy falls at the end of the first "
-    "year, and the capstone starts in your second semester and runs through the third and fourth, which "
-    "leaves room to settle on repertoire, program, or portfolio before you have to. The comprehensive "
-    "examination is oral, taken in the final semester, and scored in three categories: your area of "
-    "emphasis, analysis and musical styles, and the profession and its contexts."),
-  P("The building is yours to use. The " + A(U["mrc"], "Music Resource Center") + " and the "
-    + A(U["equip"], "Music Equipment Office") + " hold the scores, instruments, and gear, and concerts go up "
-    "on " + A(U["events"], "News &amp; Events") + "."),
-  P("Anything to do with sequencing, candidacy, the capstone, or the exam comes to the Graduate Coordinator. "
-    + COORD),
-  FOOTER])
 
 # ============================================================ certificate
 
@@ -389,23 +375,15 @@ add("cert-5-admission-accepted", "cert", "Admission Accepted",
   P("If applied lessons or an ensemble are part of your plan, ensemble auditions and placement happen at the "
     "first meeting: register for the course and turn up to that first class. " + A(U["ens"], "Our ensembles")
     + "."),
-  P("Write or call to set up that conversation. " + ASK),
+  H("Read ahead"),
+  P("The " + A(U["grhb"], "Graduate Handbook") + " covers the certificate alongside the M.A.: applied "
+    "study policies, juries, and the academic policies that apply to you. Advising and forms are on "
+    + A(U["current"], "Student Resources") + ". The " + A(U["mrc"], "Music Resource Center") + " and "
+    "the " + A(U["equip"], "Music Equipment Office") + " hold the scores, instruments, and gear, the "
+    "teaching studios are open to you, and concerts go up on " + A(U["events"], "News &amp; Events") + "."),
+  P("Write or call to set up that conversation. " + CALL),
   FOOTER])
 
-add("cert-6-active", "cert", "Active",
-  "Welcome to the certificate", [
-  P("Hi {{FIRST_NAME}},"),
-  P("You are enrolled now, and welcome."),
-  P("The " + A(U["grhb"], "Graduate Handbook") + " covers the certificate alongside the M.A.: applied study "
-    "policies, juries, and the academic policies that apply to you. Advising, the certificate roadmap, and "
-    "forms are on " + A(U["current"], "Student Resources") + "."),
-  P("The building is yours to use. The " + A(U["mrc"], "Music Resource Center") + " and the "
-    + A(U["equip"], "Music Equipment Office") + " hold the scores, instruments, and gear, the teaching "
-    "studios are open to you, and concerts go up on " + A(U["events"], "News &amp; Events") + "."),
-  P("Come to concerts as often as you can manage, since you will be teaching this repertoire soon enough and "
-    "hearing it live is the fastest way into it."),
-  P("Anything to do with sequencing or the credential pathway comes to us. " + CALL),
-  FOOTER])
 
 
 # ---------------------------------------------------------------- assembly
@@ -552,11 +530,10 @@ page = """<!DOCTYPE html>
         <tr><th class="col-code">item</th><th>question</th></tr>
       </thead>
       <tbody>
-        <tr><td class="col-code">stage definitions</td><td>What distinguishes Application in Progress from Application Received: submission in CSUApply, or verification by Admissions. And what moves a record from Admission Accepted to Active: registration, or census.</td></tr>
+        <tr><td class="col-code">stage definitions</td><td>What distinguishes Application in Progress from Application Received: submission in CSUApply, or verification by Admissions. </td></tr>
         <tr><td class="col-code">plan codes</td><td>Confirm the exact plan values, in particular Music Additional Degree, and confirm that every plan containing Music resolves to one of the three degree groups above.</td></tr>
         <tr><td class="col-code">conditional wording</td><td>The conditional-admit templates send applicants to the MyCSUEB To Do List rather than naming conditions. If Salesforce can carry the outstanding items into the message, the templates should say so instead.</td></tr>
         <tr><td class="col-code">graduate fee</td><td>The undergraduate templates name the $110 pre-enrollment fee. Confirm the graduate figure, or leave those templates pointing at the amount shown in MyCSUEB.</td></tr>
-        <tr><td class="col-code">active stage</td><td>Whether an enrolled student should receive automated mail from the admissions sequence at all, or whether the Active message belongs in a departmental list instead.</td></tr>
         <tr><td class="col-code">subject lines</td><td>Subject lines are sentence case and carry no emoji. Confirm this against the University's convention for automated mail.</td></tr>
         <tr><td class="col-code">reminder mail</td><td>Whether a nudge goes to applicants who start an application and do not submit, and at what interval.</td></tr>
       </tbody>

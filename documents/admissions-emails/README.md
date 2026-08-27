@@ -5,7 +5,7 @@ The automated messages Salesforce sends to Music applicants, admits, and new stu
 `index.html` is the source and the thing to share. It carries the send configuration, the plan and application-status flow, the merge fields, a rendered preview of each template, and a copy control that puts the HTML source on the clipboard. Published at
 [csuebmusic.github.io/music-curriculum/documents/admissions-emails/](https://csuebmusic.github.io/music-curriculum/documents/admissions-emails/).
 
-Nineteen templates: one shared inquiry message, then six each for the B.A. and Additional Degree, the M.A., and the stand-alone certificate, one per application status from Application in Progress through Active.
+Sixteen templates: one shared inquiry message, then five each for the B.A. and Additional Degree, the M.A., and the stand-alone certificate, one per application status from Application in Progress through Admission Accepted.
 
 `templates/` holds the same templates as standalone files, one per message.
 
