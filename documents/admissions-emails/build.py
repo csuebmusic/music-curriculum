@@ -187,7 +187,7 @@ add("ba-3-conditionally-admitted", "ba", "Conditionally Admitted",
 add("ba-4-fully-admitted", "ba", "Fully Admitted",
   "Your offer of admission", [
   P("Hi {{FIRST_NAME}},"),
-  P("Congratulations, and welcome. You have been admitted to the B.A. in Music at Cal State East Bay."),
+  P("Congratulations, and welcome. You have been admitted to the B.A. in Music at Cal State East Bay!"),
   P("To claim your spot, log in to " + MYCSUEB + ", open the Admissions tile, choose Accept Admission, and "
     "pay the $110 " + A(U["fee"], "pre-enrollment fee") + ", which goes toward orientation. Your status "
     "updates once the payment clears."),
