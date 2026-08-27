@@ -281,8 +281,14 @@ add("ma-2-application-received", "ma", "Application Received",
 add("ma-3-conditionally-admitted", "ma", "Conditionally Admitted",
   "Conditionally admitted, M.A.", [
   P("Hi {{FIRST_NAME}},"),
-  P("Congratulations. You&rsquo;re admitted to the M.A. in Music, with a couple of documents still outstanding."),
-  CONDITIONS,
+  P("You have been conditionally admitted to the M.A. in Music. The Office of Graduate Admissions makes the "
+    "offer final once the outstanding items on your record are cleared."),
+  H("What is outstanding"),
+  UL([
+    "<strong>Read your To Do List in " + MYCSUEB + ".</strong> Everything holding up the offer is named there, most often official transcripts or proof that your bachelor&rsquo;s degree was conferred.",
+    "<strong>Send the missing documents.</strong> These go to the Office of Graduate Admissions rather than to us. Ask every college and university you have attended to send transcripts electronically to " + TRANSCRIPTS + ". " + A(U["trans"], "How to submit documents") + ".",
+    "<strong>Meet the " + A(U["gdeadlines"], "document deadlines") + ".</strong> They are firm, and the offer does not become final until the items clear."]),
+  H("What the degree asks of you"),
   P("Nothing about the conditions changes the work ahead: the seminar core, four semesters of applied lessons "
     "and ensemble in your area, a public capstone, and an oral comprehensive examination."),
   P(GRADCLOSE),
@@ -292,33 +298,42 @@ add("ma-4-fully-admitted", "ma", "Fully Admitted",
   "Your M.A. offer", [
   P("Hi {{FIRST_NAME}},"),
   P("Congratulations, and welcome. You have been admitted to the Master of Arts in Music at Cal State East "
-    "Bay."),
-  P("To accept your offer, log in to " + MYCSUEB + " and open the Admissions tile. The pre-enrollment fee is "
-    "listed there and paid at the same time."),
-  P("What lies ahead is 32 units over four semesters. A shared seminar core in analysis and post-tonal "
-    "practice, the history and theory of jazz, interdisciplinary collaboration, advanced conducting, "
-    "entrepreneurship in the arts, the social and ecological dimensions of music, and teaching music in higher "
-    "education. Alongside it, four semesters of applied lessons and ensemble in your area, a public capstone, "
-    "and an oral comprehensive examination in the final semester."),
+    "Bay!"),
+  H("First, accept your offer"),
+  P("Log in to " + MYCSUEB + " and open the Admissions tile. The pre-enrollment fee is listed there and paid "
+    "at the same time. Everything below waits on this."),
+  H("Then, between now and your first semester"),
+  UL([
+    "<strong>Know what you are taking on.</strong> 32 units over four semesters: a shared seminar core in analysis and post-tonal practice, the history and theory of jazz, interdisciplinary collaboration, advanced conducting, entrepreneurship in the arts, the social and ecological dimensions of music, and teaching music in higher education.",
+    "<strong>Alongside the seminars.</strong> Four semesters of applied lessons and ensemble in your area, a public capstone, and an oral comprehensive examination in the final semester.",
+    "<strong>Say early if you want to teach.</strong> Teaching Associate and Instructional Student Assistant assignments open before the semester. Tell the Graduate Coordinator if either interests you."]),
+  H("Read ahead"),
+  P("The " + A(U["grhb"], "Graduate Handbook") + " sets out sequencing, the Level 6 juries for your area, "
+    "advancement to candidacy, the capstone, and the comprehensive examination. The "
+    + A(U["gradstudies"], "Office of Graduate Studies") + " handles the university side of graduate study."),
   P(GRADCLOSE),
   FOOTER])
 
 add("ma-5-admission-accepted", "ma", "Admission Accepted",
   "Before the M.A. begins", [
   P("Hi {{FIRST_NAME}},"),
-  P("We were glad to see you accept your offer. Here is how the first semester takes shape."),
+  P("We were glad to see you accept your offer."),
+  H("How your schedule comes together"),
+  P("The Graduate Coordinator registers you for applied lessons from the emphasis you declared at admission, "
+    "and you then arrange the weekly lesson time directly with your instructor. Your first semester is MUS "
+    "601, Analysis of Musical Styles, and MUS 603, Entrepreneurship in the Arts, alongside lessons and "
+    "ensemble, for eight units."),
+  H("Before the semester starts"),
   UL([
-    "<strong>Applied lessons.</strong> The Graduate Coordinator registers you from the emphasis you declared at admission. You then arrange the weekly lesson time directly with your instructor.",
+    "<strong>Applied lessons.</strong> Arrange your weekly time with your instructor once the Graduate Coordinator has registered you.",
     "<strong>Ensemble.</strong> You perform in one every semester. Auditions and placement happen at the first meeting, so register for the course and come ready to play or sing to that first class. " + A(U["ens"], "Our ensembles") + ".",
-    "<strong>Seminars.</strong> Your first semester is MUS 601, Analysis of Musical Styles, and MUS 603, Entrepreneurship in the Arts, alongside lessons and ensemble. Eight units.",
-    "<strong>Funding.</strong> Teaching Associate and Instructional Student Assistant assignments open before the semester. If either interests you, say so now rather than later."]),
-  H("Read ahead"),
-  P("The " + A(U["grhb"], "Graduate Handbook") + " sets out sequencing, the Level 6 juries for your area, "
-    "advancement to candidacy at the end of the first year, the capstone, and the comprehensive "
-    "examination. The " + A(U["current"], "Student Resources") + " page covers the same ground more "
-    "briefly. Scores, instruments, and equipment can be borrowed from the "
-    + A(U["mrc"], "Music Resource Center") + " and the " + A(U["equip"], "Music Equipment Office")
-    + ". The concert calendar is on " + A(U["events"], "News &amp; Events") + "."),
+    "<strong>Teaching assignments.</strong> Teaching Associate and Instructional Student Assistant assignments open before the semester. Tell the Graduate Coordinator now if either interests you."]),
+  H("Read ahead (all of these are on our " + A(U["current"], "Student Resources") + " page)"),
+  UL([
+    "The " + A(U["grhb"], "Graduate Handbook") + " sets out sequencing, the Level 6 juries for your area, advancement to candidacy at the end of the first year, the capstone, and the comprehensive examination.",
+    "The " + A(U["mrc"], "Music Resource Center") + " lends scores, parts, and study materials.",
+    "The " + A(U["equip"], "Music Equipment Office") + " lends instruments and recording equipment, and assigns lockers.",
+    "The concert calendar is on " + A(U["events"], "News &amp; Events") + "."]),
   P(GRADCLOSE),
   FOOTER])
 
