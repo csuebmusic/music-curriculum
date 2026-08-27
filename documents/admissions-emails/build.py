@@ -352,8 +352,8 @@ add("cert-1-application-in-progress", "cert", "Application in Progress",
     "the state expects of someone standing in front of a classroom. Completing it satisfies the subject "
     "matter requirement without a separate examination."),
   P("The teaching credential itself is the other half, and it is a separate program run by the "
-    + A(U["cred"], "School of Education") + ". You apply to it once the subject matter preparation is "
-    "done. If you came here looking for the credential program, that is where to start."),
+    + A(U["cred"], "School of Education") + ". If you came here looking for the credential program, that "
+    "is where to start."),
   P("If you hold a bachelor&rsquo;s degree and want to start a career in music education without much "
     "teaching experience behind you, you are in the right place. That is who this route is built for."),
   H("What goes into CSUApply"),
@@ -385,8 +385,7 @@ add("cert-2-application-received", "cert", "Application Received",
     "through which one fits your situation."),
   H("What this certificate is, and what it is not"),
   P("This is a subject matter preparation certificate. It is not the teaching credential. The credential is a "
-    "separate program run by the " + A(U["cred"], "School of Education") + ", and you apply to it once the "
-    "subject matter preparation is complete."),
+    "separate program run by the " + A(U["cred"], "School of Education") + "."),
   H("Teaching opportunities"),
   P("The graduate program offers teaching opportunities to its graduate students as need arises. Let the "
     "Graduate Coordinator know if you are interested."),
