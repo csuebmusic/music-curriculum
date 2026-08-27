@@ -114,7 +114,7 @@ def funding(items):
 add("00-inquiry", "all", "Inquired",
   "Music at East Bay", [
   P("Hi {{FIRST_NAME}},"),
-  P("Thanks for writing to the " + A(U["home"], "Department of Music") + ". We&rsquo;re a small department "
+  P("Thanks for your interest in the " + A(U["home"], "Department of Music") + " at Cal State East Bay. We&rsquo;re a small department "
     "inside a large and unusually mixed university, and we take our students seriously as the musicians "
     "they already are. They perform and record, compose and arrange, score for film and games, produce "
     "and design sound in the studios, conduct choirs and ensembles, teach music in California schools, "
