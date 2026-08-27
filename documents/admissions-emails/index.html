@@ -77,7 +77,7 @@
 
   <section class="hb-section" id="s2">
     <h2>flow</h2>
-    <h3 id="f-all">all music plans</h3>
+    <h3>all music plans</h3>
     <table class="hb-table flow">
       <thead>
         <tr><th>application status</th><th class="col-code">template</th></tr>
@@ -86,7 +86,7 @@
         <tr><td>inquired</td><td class="col-code"><a href="#00-inquiry">inq</a></td></tr>
       </tbody>
     </table>
-    <h3 id="f-ba">Plan(s): b.a. in music and additional degree</h3>
+    <h3>Plan(s): b.a. in music and additional degree</h3>
     <table class="hb-table flow">
       <thead>
         <tr><th>application status</th><th class="col-code">template</th></tr>
@@ -99,7 +99,7 @@
         <tr><td>admission accepted</td><td class="col-code"><a href="#ba-5-admission-accepted">ba 5</a></td></tr>
       </tbody>
     </table>
-    <h3 id="f-ma">Plan(s): m.a. in music</h3>
+    <h3>Plan(s): m.a. in music</h3>
     <table class="hb-table flow">
       <thead>
         <tr><th>application status</th><th class="col-code">template</th></tr>
@@ -112,7 +112,7 @@
         <tr><td>admission accepted</td><td class="col-code"><a href="#ma-5-admission-accepted">ma 5</a></td></tr>
       </tbody>
     </table>
-    <h3 id="f-cert">Plan(s): single subject matter preparation certificate</h3>
+    <h3>Plan(s): single subject matter preparation certificate</h3>
     <table class="hb-table flow">
       <thead>
         <tr><th>application status</th><th class="col-code">template</th></tr>
@@ -869,23 +869,77 @@ Department of Music &middot; CSUEB Music Building, MB 2569<br>
 </main>
 
 <script>
-document.querySelectorAll("iframe.tpl-frame").forEach(function (f) {
-  var src = document.getElementById(f.dataset.src).textContent;
-  f.srcdoc = '<!DOCTYPE html><meta charset="utf-8"><style>body{margin:0;font-family:Georgia,serif}</style>' + src;
-  f.addEventListener("load", function () {
-    f.style.height = (f.contentDocument.documentElement.scrollHeight + 24) + "px";
+(function () {
+  "use strict";
+
+  function source(el) {
+    var node = document.getElementById(el.dataset.src);
+    return node ? node.textContent : "";
+  }
+
+  var frames = [].slice.call(document.querySelectorAll("iframe.tpl-frame"));
+
+  function fit(f) {
+    var doc = f.contentDocument;
+    if (!doc || !doc.documentElement) return;
+    f.style.height = (doc.documentElement.scrollHeight + 24) + "px";
+  }
+
+  frames.forEach(function (f) {
+    f.srcdoc = '<!DOCTYPE html><meta charset="utf-8">'
+             + '<style>body{margin:0;font-family:Georgia,serif}</style>' + source(f);
+    f.addEventListener("load", function () { fit(f); });
   });
-});
-document.querySelectorAll(".copy-btn").forEach(function (b) {
-  b.addEventListener("click", function () {
-    var t = document.getElementById(b.dataset.src).textContent;
-    navigator.clipboard.writeText(t).then(function () {
-      b.textContent = "copied";
-      b.classList.add("done");
-      setTimeout(function () { b.textContent = "copy html source"; b.classList.remove("done"); }, 1800);
+
+  // fonts and reflow can change the rendered height after load
+  var pending;
+  window.addEventListener("resize", function () {
+    clearTimeout(pending);
+    pending = setTimeout(function () { frames.forEach(fit); }, 150);
+  });
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(function () { frames.forEach(fit); });
+  }
+
+  function flash(b, label) {
+    b.textContent = label;
+    b.classList.add("done");
+    setTimeout(function () {
+      b.textContent = "copy html source";
+      b.classList.remove("done");
+    }, 1800);
+  }
+
+  // execCommand path for browsers without the clipboard API, and for file:// pages
+  function legacyCopy(text) {
+    var ta = document.createElement("textarea");
+    ta.value = text;
+    ta.setAttribute("readonly", "");
+    ta.style.position = "fixed";
+    ta.style.opacity = "0";
+    document.body.appendChild(ta);
+    ta.select();
+    var ok = false;
+    try { ok = document.execCommand("copy"); } catch (e) { ok = false; }
+    document.body.removeChild(ta);
+    return ok;
+  }
+
+  document.querySelectorAll(".copy-btn").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var text = source(b);
+      if (!text) { flash(b, "nothing to copy"); return; }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(
+          function () { flash(b, "copied"); },
+          function () { flash(b, legacyCopy(text) ? "copied" : "copy failed"); }
+        );
+      } else {
+        flash(b, legacyCopy(text) ? "copied" : "copy failed");
+      }
     });
   });
-});
+})();
 </script>
 
 </body>

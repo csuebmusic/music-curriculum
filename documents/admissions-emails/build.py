@@ -11,7 +11,7 @@ templates/*.html and regenerates index.html.
     python3 build.py
 """
 
-import os, html
+import os, re, html
 
 FOOTER = """<p style="margin:0 0 1em 0;">All the best,<br>
 Department of Music</p>
@@ -62,7 +62,6 @@ U = dict(
   ens     = "https://www.csueastbay.edu/music/ensembles.html",
   mrc     = "https://www.csueastbay.edu/music/facilities/resource-center.html",
   equip   = "https://www.csueastbay.edu/music/facilities/equipment-office.html",
-  fac     = "https://www.csueastbay.edu/music/faculty.html",
   events  = "https://www.csueastbay.edu/music/news-events/index.html",
   my      = "https://www.csueastbay.edu/mycsueb/",
   fee     = "https://www.csueastbay.edu/admissions/after-youre-accepted/enrollment-fee.html",
@@ -88,12 +87,10 @@ U = dict(
 )
 
 CALL = "Call (510) 885-3135 or write " + A("mailto:music@csueastbay.edu", "music@csueastbay.edu") + "."
-ASK = CALL
 GRADCLOSE = ("Whatever comes up, write to In&eacute;s Thiebaut, our Graduate Coordinator, at "
              + A("mailto:ines.thiebaut@csueastbay.edu", "ines.thiebaut@csueastbay.edu")
              + " or call (510) 885-3135. She would rather hear from you early than have you work it "
              "out alone.")
-COORD = GRADCLOSE
 CERTCLOSE = ("Questions about the coursework or the credential pathway go to John Eros, who coordinates "
              "music education, at " + A("mailto:john.eros@csueastbay.edu", "john.eros@csueastbay.edu")
              + ". Anything about admission or sequencing goes to In&eacute;s Thiebaut, our Graduate "
@@ -107,11 +104,6 @@ T = {}
 def add(key, group, stage, subject, body):
     T[key] = dict(group=group, stage=stage, subject=subject, body="\n\n".join(body))
 
-CONDITIONS = P("Open " + MYCSUEB + " and read your To Do List. Whatever is holding up the offer is named "
-               "there, most often official transcripts or proof that your bachelor&rsquo;s degree was "
-               "conferred. These go to the Office of Graduate Admissions rather than to us: ask every "
-               "college and university you have attended to send transcripts electronically to "
-               + TRANSCRIPTS + ". The " + A(U["gdeadlines"], "document deadlines") + " are firm.")
 
 GTA = ("<strong>Graduate Teaching Associates</strong> teach. You&rsquo;d lead classroom or lab sections, build "
        "course materials, run exams, tutor, and grade. You need to be admitted to a CSUEB graduate degree program "
@@ -152,7 +144,7 @@ add("00-inquiry", "all", "Inquired",
     A(U["minor"], "<strong>Music Minor</strong>") + ". 21 units, open to any major."]),
   P(A(U["apply"], "How to apply") + " &middot; " + A(U["schol"], "Music scholarships")),
   P("Come visit us: the recital hall, the studios, and whatever rehearsal happens to be running that "
-    "afternoon. " + ASK),
+    "afternoon. " + CALL),
   FOOTER, LINKS])
 
 # ============================================================ b.a.
@@ -493,8 +485,7 @@ i = 0
 for g, gname, gplans in GROUPS:
     keys = [k for k in ORDER if T[k]["group"] == g]
     nav.append('  <a class="nav-sub" href="#g-%s">%s</a>' % (g, gname))
-    flow.append('    <h3 id="f-%s">%s%s</h3>'
-                % (g, "" if g == "all" else "Plan(s): ", gname))
+    flow.append('    <h3>%s%s</h3>' % ("" if g == "all" else "Plan(s): ", gname))
     flow.append('    <table class="hb-table flow">\n      <thead>\n        <tr><th>application status</th>'
                 '<th class="col-code">template</th></tr>\n      </thead>\n      <tbody>')
     cards.append('  <h3 id="g-%s">%s</h3>' % (g, gname))
@@ -604,23 +595,77 @@ page = """<!DOCTYPE html>
 </main>
 
 <script>
-document.querySelectorAll("iframe.tpl-frame").forEach(function (f) {
-  var src = document.getElementById(f.dataset.src).textContent;
-  f.srcdoc = '<!DOCTYPE html><meta charset="utf-8"><style>body{margin:0;font-family:Georgia,serif}</style>' + src;
-  f.addEventListener("load", function () {
-    f.style.height = (f.contentDocument.documentElement.scrollHeight + 24) + "px";
+(function () {
+  "use strict";
+
+  function source(el) {
+    var node = document.getElementById(el.dataset.src);
+    return node ? node.textContent : "";
+  }
+
+  var frames = [].slice.call(document.querySelectorAll("iframe.tpl-frame"));
+
+  function fit(f) {
+    var doc = f.contentDocument;
+    if (!doc || !doc.documentElement) return;
+    f.style.height = (doc.documentElement.scrollHeight + 24) + "px";
+  }
+
+  frames.forEach(function (f) {
+    f.srcdoc = '<!DOCTYPE html><meta charset="utf-8">'
+             + '<style>body{margin:0;font-family:Georgia,serif}</style>' + source(f);
+    f.addEventListener("load", function () { fit(f); });
   });
-});
-document.querySelectorAll(".copy-btn").forEach(function (b) {
-  b.addEventListener("click", function () {
-    var t = document.getElementById(b.dataset.src).textContent;
-    navigator.clipboard.writeText(t).then(function () {
-      b.textContent = "copied";
-      b.classList.add("done");
-      setTimeout(function () { b.textContent = "copy html source"; b.classList.remove("done"); }, 1800);
+
+  // fonts and reflow can change the rendered height after load
+  var pending;
+  window.addEventListener("resize", function () {
+    clearTimeout(pending);
+    pending = setTimeout(function () { frames.forEach(fit); }, 150);
+  });
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(function () { frames.forEach(fit); });
+  }
+
+  function flash(b, label) {
+    b.textContent = label;
+    b.classList.add("done");
+    setTimeout(function () {
+      b.textContent = "copy html source";
+      b.classList.remove("done");
+    }, 1800);
+  }
+
+  // execCommand path for browsers without the clipboard API, and for file:// pages
+  function legacyCopy(text) {
+    var ta = document.createElement("textarea");
+    ta.value = text;
+    ta.setAttribute("readonly", "");
+    ta.style.position = "fixed";
+    ta.style.opacity = "0";
+    document.body.appendChild(ta);
+    ta.select();
+    var ok = false;
+    try { ok = document.execCommand("copy"); } catch (e) { ok = false; }
+    document.body.removeChild(ta);
+    return ok;
+  }
+
+  document.querySelectorAll(".copy-btn").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var text = source(b);
+      if (!text) { flash(b, "nothing to copy"); return; }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(
+          function () { flash(b, "copied"); },
+          function () { flash(b, legacyCopy(text) ? "copied" : "copy failed"); }
+        );
+      } else {
+        flash(b, legacyCopy(text) ? "copied" : "copy failed");
+      }
     });
   });
-});
+})();
 </script>
 
 </body>
@@ -628,4 +673,20 @@ document.querySelectorAll(".copy-btn").forEach(function (b) {
 """ % ("\n".join(nav), len(T), "\n".join(flow), "\n".join(cards))
 
 open("index.html", "w").write(page)
+
+# self-check: the templates have to survive a paste into Salesforce
+for k in ORDER:
+    src = T[k]["src"]
+    assert all(ord(c) < 128 for c in src), "%s: non-ascii" % k
+    assert src.count("{{FIRST_NAME}}") == 1, "%s: merge token" % k
+    assert "MUSIC DEPARTMENT HEADER" in src, "%s: header comment" % k
+    for tag in ("table", "script", "font", "center"):
+        assert "<" + tag not in src, "%s: <%s>" % (k, tag)
+    for tag in ("p", "ul", "li", "div", "a", "strong"):
+        assert len(re.findall(r"<%s[ >]" % tag, src)) == len(re.findall(r"</%s>" % tag, src)), \
+            "%s: unbalanced <%s>" % (k, tag)
+    for m in re.finditer(r"<a ([^>]*)>", src):
+        assert 'style="color:#6E1F2A;"' in m.group(1), "%s: unstyled link" % k
+assert len(set(T[k]["subject"] for k in ORDER)) == len(ORDER), "duplicate subject line"
+
 print("wrote %d templates and index.html" % len(T))
