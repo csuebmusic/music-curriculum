@@ -450,7 +450,6 @@ page = """<!DOCTYPE html>
         <tr><td class="col-code">{{FIRST_NAME}}</td><td>preferred name, falling back to first name</td><td>one formula field, used by every template</td></tr>
       </tbody>
     </table>
-    <p class="measure">The templates carry a single token in a syntax Salesforce does not resolve, so an unreplaced token is visible rather than silent. Replace it with the merge syntax for the object these messages send from, and confirm the fallback returns the legal first name when the preferred name is blank.</p>
   </section>
 
   <section class="hb-section" id="s4">
