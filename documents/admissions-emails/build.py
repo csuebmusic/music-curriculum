@@ -159,8 +159,8 @@ add("ba-2-application-received", "ba", "Application Received",
   H("Sign up for your scholarship audition"),
   P("We award scholarships to incoming students every year, and the same materials serve as the applied "
     "area placement that every music major completes before starting lessons. Auditions close in "
-    "February. You can submit your materials online or sign up for an in-person audition, with the "
-    "dates posted on the page. All the information is on the "
+    "February. You can submit your materials online or sign up for an in-person audition. All the "
+    "information is on the "
     + A(U["aud"], "scholarship auditions and applied area placements") + " page. Sign up!"),
   H("Other things to do now"),
   UL([
