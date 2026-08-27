@@ -354,7 +354,8 @@ add("cert-1-application-in-progress", "cert", "Application in Progress",
   P("The teaching credential itself is the other half, and it is a separate program run by the "
     + A(U["cred"], "School of Education") + ". You apply to it once the subject matter preparation is "
     "done. If you came here looking for the credential program, that is where to start."),
-  P("This route is for people who already hold a bachelor&rsquo;s degree."),
+  P("If you hold a bachelor&rsquo;s degree and want to start a career in music education without much "
+    "teaching experience behind you, you are in the right place. That is who this route is built for."),
   H("What goes into CSUApply"),
   UL([
     "Your CV or r&eacute;sum&eacute;.",
