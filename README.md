@@ -6,14 +6,34 @@ The HTML documents are published at https://csuebmusic.github.io/music-curriculu
 
 ## handbooks and roadmaps
 
+The [roadmaps README](documents/roadmaps/README.md) describes each plan and its status.
+
 - [undergraduate handbook](https://csuebmusic.github.io/music-curriculum/documents/handbooks/undergraduate-handbook.html)
 - [graduate handbook](https://csuebmusic.github.io/music-curriculum/documents/handbooks/graduate-handbook.html)
 - [B.A. roadmap, 4-year entry](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-roadmap-4-year.html)
 - [B.A. roadmap, 2-year transfer entry](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-roadmap-2-year-transfer.html)
 - [FAST 4+1 B.A./M.A. roadmap](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/fast-ba-ma-roadmap.html): both degrees in five years
 - [FAST 4+1 with the music education certificate](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/fast-ba-ma-certificate-roadmap.html): both degrees and the certificate in five years
+- [FAST 2+1 transfer B.A./M.A. roadmap](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/fast-transfer-ba-ma-roadmap.html): both degrees in three years from Music ADT transfer entry, proposed
 - [FAST 2+1 transfer with the music education certificate](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/fast-transfer-ba-ma-certificate-roadmap.html): both degrees and the certificate in three years from Music ADT transfer entry, proposed
 - [music education certificate roadmap](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/music-education-certificate-roadmap.html): the 31-unit certificate on its two-year course rotation
+
+## admissions emails
+
+The automated messages Salesforce sends to applicants, admits, and new students, with the flow that triggers them. Sixteen templates: one shared inquiry message, then five each for the B.A. and Additional Degree, the M.A., and the stand-alone certificate. The [pocket README](documents/admissions-emails/README.md) covers the build and the paste workflow.
+
+- [admissions email templates](https://csuebmusic.github.io/music-curriculum/documents/admissions-emails/): the flow, the merge field, a rendered preview of every template, and a copy-source control for each
+
+## student employment
+
+- [equipment office student assistant guide](https://csuebmusic.github.io/music-curriculum/documents/handbooks/equipment-office-student-assistant-guide.html): position responsibilities, rounds, event setup, problem reporting, and the hour-tracking worksheet
+
+## website
+
+Structural HTML pasted into Cascade, mirroring the live path under `/music/`. Cascade supplies the appearance.
+
+- `website/current/index.html` &rarr; [student resources](https://www.csueastbay.edu/music/current/index.html)
+- `website/prospective/how-to-apply/i-got-in-now-what.html` &rarr; [I got in! Now what?](https://www.csueastbay.edu/music/prospective/how-to-apply/i-got-in-now-what.html)
 
 ## theory and musicianship curriculum
 
@@ -29,6 +49,12 @@ Posted syllabi for individual sections, one file per section per term, with a pe
 
 - [fall 2026](https://csuebmusic.github.io/music-curriculum/syllabi/fall-2026/)
 
+## graduate recruitment
+
+Working documents for the graduate recruitment facilitator role, in `committee/grad-facilitator/`.
+
+- [role.md](committee/grad-facilitator/role.md), [recruitment-plan.md](committee/grad-facilitator/recruitment-plan.md), [status.md](committee/grad-facilitator/status.md), [programs.md](committee/grad-facilitator/programs.md), [baseline.md](committee/grad-facilitator/baseline.md)
+
 ## conventions
 
 - [house-style.md](conventions/house-style.md) is the canonical style spec, with [house-style-specimen.html](https://csuebmusic.github.io/music-curriculum/conventions/house-style-specimen.html) as its on-screen reference and [house-style-template.docx](conventions/templates/house-style-template.docx) as the document starting point.
@@ -39,12 +65,12 @@ Posted syllabi for individual sections, one file per section per term, with a pe
 - `conventions/` holds the house style and the grading scheme.
 - `syllabi/` holds the syllabi posted for individual sections, in one folder per term.
 - `curriculum/` holds course and program proposals and curriculum documentation, organized into subsections, each with its own README. The first is the undergraduate Theory and Musicianship sequence.
-- `documents/` holds the handbooks, the roadmaps, and program, admissions, and policy material.
+- `documents/` holds the handbooks, the roadmaps, the admissions email set, and program and policy material.
 - `committee/` holds agendas, minutes, and papers for committee service: the CLASS Curriculum Committee, and the graduate recruitment facilitator role in `committee/grad-facilitator/`.
 - `assessment/` holds program learning outcomes, assessment reports, and review cycles.
 - `website/` holds structural HTML snippets that get pasted into Cascade, which supplies its own styling.
 
-The repository is active, and the folders fill as each workstream produces material.
+The repository is active, and the folders fill as each workstream produces material. `assessment/` is empty so far.
 
 ## channels
 
@@ -53,3 +79,5 @@ Committee papers, proposals, and assessment reports follow `conventions/house-st
 Student-facing documents are screen-first and ship as finished HTML rather than Word. The handbooks and roadmaps apply the same house style through `documents/handbooks/handbooks.css`, and the Theory and Musicianship set applies it through `curriculum/undergraduate-theory-musicianship/theory-musicianship.css`. Both stylesheets track house-style v1. The roadmaps layer `documents/roadmaps/roadmaps.css` on top for the general-education color and for print.
 
 The website pocket is the one exception. Its markup is structural only, and Cascade supplies the appearance.
+
+The admissions email templates are a third case. They carry inline styles only, with no stylesheet, no tables, and no fixed widths, so the Salesforce wrapper controls layout. The page that presents them is house-styled through `documents/handbooks/handbooks.css`.
