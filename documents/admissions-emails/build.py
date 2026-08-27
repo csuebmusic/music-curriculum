@@ -147,17 +147,16 @@ add("ba-2-application-received", "ba", "Application Received",
   "Your application is in. Here's what comes next", [
   P("Hi {{FIRST_NAME}},"),
   P("Your application is in."),
-  P("Come and visit while you wait. You can meet the faculty, sit in on a rehearsal, and see an ordinary "
-    "Tuesday here. Write to " + A("mailto:music@csueastbay.edu", "music@csueastbay.edu") + " and we&rsquo;ll "
-    "set it up."),
-  P("Audition for a scholarship too. We award them to incoming students every year, and the same materials "
-    "count as your applied area placement. Deadlines are fixed in the application season, and in-person dates "
+  P("Your next move is the scholarship audition. We award scholarships to incoming students every year, and "
+    "the same materials serve as the applied area placement every music major completes before starting "
+    "lessons. Requirements differ by area, deadlines fall during the application season, and in-person dates "
     "go up each year: " + A(U["aud"], "scholarship auditions and applied area placements") + "."),
-  P("Two things are left on your side. Activate your NetID, which reaches you within 48 hours of applying and "
-    "gets you into MyCSUEB and your Horizon email. And get your transcripts moving: the quickest route is to "
-    "ask each school to send them electronically to " + TRANSCRIPTS + ". Your admission offer won&rsquo;t come "
-    "until they land. " + A(U["trans"], "How to submit documents") + "."),
-  P("Then watch " + MYCSUEB + ". Your status and anything still outstanding show up there."),
+  H("What to do now"),
+  UL([
+    "<strong>Activate your NetID.</strong> It reaches you within 48 hours of applying and gets you into MyCSUEB and your Horizon email.",
+    "<strong>Send your transcripts.</strong> Ask each school to send them electronically to " + TRANSCRIPTS + ". Your admission offer won&rsquo;t come until they land. " + A(U["trans"], "How to submit documents") + ".",
+    "<strong>Watch " + MYCSUEB + ".</strong> Your status and anything still outstanding show up there.",
+    "<strong>Come and visit.</strong> Meet the faculty, sit in on a rehearsal, and see an ordinary Tuesday here. Write to " + A("mailto:music@csueastbay.edu", "music@csueastbay.edu") + " and we&rsquo;ll set it up."]),
   P("Questions about a visit or an audition? " + CALL),
   FOOTER])
 
