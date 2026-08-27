@@ -227,12 +227,11 @@ add("ba-5-admission-accepted", "ba", "Admission Accepted",
     "<strong>Ensembles.</strong> Auditions and placement happen at the first meeting of each ensemble. Register for the course, then come ready to play or sing to that first class. " + A(U["ens"], "Our ensembles") + ".",
     "<strong>Music orientation.</strong> The Department holds it the day before classes start. You will walk our facilities, rent a locker, and meet your cohort and your advisors."]),
   H("Read ahead"),
-  P("The " + A(U["ughb"], "Undergraduate Handbook") + " sets out the degree in full: applied levels and "
-    "juries, recital requirements, ensembles, health and safety, and the academic policies of the "
-    "department. The " + A(U["current"], "Student Resources") + " page collects advising information, "
-    "the roadmaps, and the forms. Scores, instruments, and equipment can be borrowed from the "
-    + A(U["mrc"], "Music Resource Center") + " and the " + A(U["equip"], "Music Equipment Office")
-    + ". The concert calendar is on " + A(U["events"], "News &amp; Events") + "."),
+  UL([
+    "The " + A(U["ughb"], "Undergraduate Handbook") + " sets out the degree in full: applied levels and juries, recital requirements, ensembles, health and safety, and the academic policies of the department.",
+    "The " + A(U["current"], "Student Resources") + " page collects advising information, the roadmaps, and the forms.",
+    "Scores, instruments, and equipment can be borrowed from the " + A(U["mrc"], "Music Resource Center") + " and the " + A(U["equip"], "Music Equipment Office") + ".",
+    "The concert calendar is on " + A(U["events"], "News &amp; Events") + "."]),
   P("Questions about any of it? " + CALL),
   FOOTER])
 
