@@ -72,9 +72,8 @@ U = dict(
   certrm  = "https://csuebmusic.github.io/music-curriculum/documents/roadmaps/music-education-certificate-roadmap.html",
 )
 
-ASK = ("Call (510) 885-3135 or write " + A("mailto:music@csueastbay.edu", "music@csueastbay.edu")
-       + ". A person reads that inbox.")
 CALL = "Call (510) 885-3135 or write " + A("mailto:music@csueastbay.edu", "music@csueastbay.edu") + "."
+ASK = CALL
 COORD = ("Write to the Graduate Coordinator at " + A("mailto:music@csueastbay.edu", "music@csueastbay.edu")
          + " or call (510) 885-3135.")
 TRANSCRIPTS = A("mailto:electronictranscripts@csueastbay.edu", "electronictranscripts@csueastbay.edu")
