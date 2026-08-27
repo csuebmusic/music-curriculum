@@ -94,6 +94,11 @@ GRADCLOSE = ("Whatever comes up, write to In&eacute;s Thiebaut, our Graduate Coo
              + " or call (510) 885-3135. She would rather hear from you early than have you work it "
              "out alone.")
 COORD = GRADCLOSE
+CERTCLOSE = ("Questions about the coursework or the credential pathway go to John Eros, who coordinates "
+             "music education, at " + A("mailto:john.eros@csueastbay.edu", "john.eros@csueastbay.edu")
+             + ". Anything about admission or sequencing goes to In&eacute;s Thiebaut, our Graduate "
+             "Coordinator, at " + A("mailto:ines.thiebaut@csueastbay.edu", "ines.thiebaut@csueastbay.edu")
+             + " or (510) 885-3135.")
 TRANSCRIPTS = A("mailto:electronictranscripts@csueastbay.edu", "electronictranscripts@csueastbay.edu")
 MYCSUEB = A(U["my"], "MyCSUEB")
 
@@ -356,23 +361,6 @@ add("cert-1-application-in-progress", "cert", "Application in Progress",
     "is where to start."),
   P("If you hold a bachelor&rsquo;s degree and want to start a career in music education without much "
     "teaching experience behind you, you are in the right place."),
-  H("What goes into CSUApply"),
-  UL([
-    "Your CV or r&eacute;sum&eacute;.",
-    "Two letters of recommendation, from people who can speak to your readiness to teach music. You enter their names and email addresses in CSUApply, and each one receives an automatic message with a form to complete and a place to upload the letter. Give them warning before you enter them.",
-    "A statement of purpose, 2 to 3 double-spaced pages, on your background in music and why you want to teach K&ndash;12.",
-    "Unofficial transcripts from every school you&rsquo;ve attended."]),
-  P("Questions while you put it together? " + ASK),
-  FOOTER])
-
-add("cert-2-application-received", "cert", "Application Received",
-  "Your certificate application", [
-  P("Hi {{FIRST_NAME}},"),
-  P("Congratulations, your application to the Single Subject Matter Preparation Certificate in Music is "
-    "complete."),
-  P("We read the materials you sent us, your CV, your letters, and the evidence of your abilities, as they "
-    "come in. The Office of Graduate Admissions verifies your transcripts and official documents "
-    "separately, and we move to a decision once both are done. You can track your status in " + MYCSUEB + "."),
   H("Important financial information"),
   P("The stand-alone certificate is not eligible for federal or state financial aid. The University&rsquo;s "
     "Program Participation Agreement does not cover certificate programs at any level, undergraduate or "
@@ -383,14 +371,28 @@ add("cert-2-application-received", "cert", "Application Received",
     + A(U["ba"], "B.A. in Music") + ". With a bachelor&rsquo;s in music already, it means the "
     + A(U["ma"], "M.A. in Music") + ". Write to the Graduate Coordinator before you decide and she will go "
     "through which one fits your situation."),
-  H("What this certificate is, and what it is not"),
-  P("This is a subject matter preparation certificate. It is not the teaching credential. The credential is a "
-    "separate program run by the " + A(U["cred"], "School of Education") + "."),
+  H("What goes into CSUApply"),
+  UL([
+    "Your CV or r&eacute;sum&eacute;.",
+    "Two letters of recommendation, from people who can speak to your readiness to teach music. You enter their names and email addresses in CSUApply, and each one receives an automatic message with a form to complete and a place to upload the letter. Give them warning before you enter them.",
+    "A statement of purpose, 2 to 3 double-spaced pages, on your background in music and why you want to teach K&ndash;12.",
+    "Unofficial transcripts from every school you&rsquo;ve attended."]),
+  P(CERTCLOSE),
+  FOOTER])
+
+add("cert-2-application-received", "cert", "Application Received",
+  "Your certificate application", [
+  P("Hi {{FIRST_NAME}},"),
+  P("Congratulations, your application to the Single Subject Matter Preparation Certificate in Music is "
+    "complete."),
+  P("We read the materials you sent us, your CV, your letters, and the evidence of your abilities, as they "
+    "come in. The Office of Graduate Admissions verifies your transcripts and official documents "
+    "separately, and we move to a decision once both are done. You can track your status in " + MYCSUEB + "."),
   H("Teaching opportunities"),
   P("The graduate program offers teaching opportunities to its graduate students as need arises. Let the "
     "Graduate Coordinator know if you are interested."),
   UL([ISA]),
-  P("Anything you want to ask before you hear from us, " + CALL.lower()[0] + CALL[1:]),
+  P(CERTCLOSE),
   FOOTER])
 
 add("cert-3-conditionally-admitted", "cert", "Conditionally Admitted",
@@ -399,7 +401,7 @@ add("cert-3-conditionally-admitted", "cert", "Conditionally Admitted",
   P("Congratulations. You&rsquo;re admitted to the Single Subject Matter Preparation Certificate in Music, "
     "with a couple of documents still outstanding."),
   CONDITIONS,
-  P("Anything unclear about the conditions, " + CALL.lower()[0] + CALL[1:]),
+  P(CERTCLOSE),
   FOOTER])
 
 add("cert-4-fully-admitted", "cert", "Fully Admitted",
@@ -412,7 +414,7 @@ add("cert-4-fully-admitted", "cert", "Fully Admitted",
   P("The certificate covers the subject matter the state requires for the Single Subject Teaching Credential "
     "in Music. Completing it prepares you to apply to a credential program without sitting a separate "
     "subject-matter examination."),
-  P("Questions before you accept? " + CALL),
+  P(CERTCLOSE),
   FOOTER])
 
 add("cert-5-admission-accepted", "cert", "Admission Accepted",
@@ -432,7 +434,7 @@ add("cert-5-admission-accepted", "cert", "Admission Accepted",
     "can be borrowed from the " + A(U["mrc"], "Music Resource Center") + " and the "
     + A(U["equip"], "Music Equipment Office") + ", and the teaching studios are open to you. The "
     "concert calendar is on " + A(U["events"], "News &amp; Events") + "."),
-  P("Write or call to set up that conversation. " + CALL),
+  P(CERTCLOSE),
   FOOTER])
 
 
