@@ -140,7 +140,7 @@ add("ba-1-application-in-progress", "ba", "Application in Progress",
     "lessons. Requirements differ by area, and the deadlines fall during the application season: "
     + A(U["aud"], "scholarship auditions and applied area placements") + "."),
   P("There&rsquo;s more about the programs, the faculty, and performance opportunities on the "
-    + A(U["about"], "Department of Music") + " site. You&rsquo;re welcome on campus any time."),
+    + A(U["about"], "Department of Music") + " site. And remember, you&rsquo;re welcome on campus any time!"),
   FOOTER, LINKS])
 
 add("ba-2-application-received", "ba", "Application Received",
