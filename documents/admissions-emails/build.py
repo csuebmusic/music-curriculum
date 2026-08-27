@@ -388,10 +388,10 @@ add("cert-2-application-received", "cert", "Application Received",
   P("We read the materials you sent us, your CV, your letters, and the evidence of your abilities, as they "
     "come in. The Office of Graduate Admissions verifies your transcripts and official documents "
     "separately, and we move to a decision once both are done. You can track your status in " + MYCSUEB + "."),
-  H("Teaching opportunities"),
-  P("The graduate program offers teaching opportunities to its graduate students as need arises. Let the "
-    "Graduate Coordinator know if you are interested."),
-  UL([ISA]),
+  H("Two things worth repeating"),
+  UL([
+    "<strong>This is the subject matter certificate, not the credential.</strong> It establishes that you know the discipline you intend to teach. The teaching credential is a separate program run by the " + A(U["cred"], "School of Education") + ".",
+    "<strong>The stand-alone certificate carries no federal or state financial aid.</strong> Aid eligibility follows admission to a bachelor&rsquo;s, master&rsquo;s, or credential program. If you need aid, apply to the " + A(U["ba"], "B.A. in Music") + " or the " + A(U["ma"], "M.A. in Music") + " and take the certificate alongside it. Write to the Graduate Coordinator and she will go through which one fits."]),
   P(CERTCLOSE),
   FOOTER])
 
