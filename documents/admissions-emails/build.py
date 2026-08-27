@@ -158,7 +158,7 @@ add("ba-2-application-received", "ba", "Application Received",
   H("Other things to do now"),
   UL([
     "<strong>Activate your NetID.</strong> The University assigns you one within 48 hours of applying, and you need it for MyCSUEB and for your Horizon email account.",
-    "<strong>Send your transcripts.</strong> Ask each school to send them electronically to " + TRANSCRIPTS + ". Your admission offer won&rsquo;t come until they land. " + A(U["trans"], "How to submit documents") + ".",
+    "<strong>Send your transcripts.</strong> Ask each school you&rsquo;ve attended (high school, community college, or any other 4-year college) to send them electronically to " + TRANSCRIPTS + ". Your admission offer won&rsquo;t come until they land. " + A(U["trans"], "How to submit documents") + ".",
     "<strong>Check " + MYCSUEB + ".</strong> Your status and anything still outstanding show up there.",
     "<strong>Come and visit.</strong> Meet the faculty, sit in on a rehearsal, and see an ordinary Tuesday here. Write to " + A("mailto:music@csueastbay.edu", "music@csueastbay.edu") + " and we&rsquo;ll set it up."]),
   P("Questions about a visit or an audition? " + CALL),
@@ -172,7 +172,7 @@ add("ba-3-conditionally-admitted", "ba", "Conditionally Admitted",
   H("What is outstanding"),
   UL([
     "<strong>Read your To Do List in " + MYCSUEB + ".</strong> Everything holding up the offer is named there, usually final transcripts or proof that a degree was conferred.",
-    "<strong>Send the missing documents.</strong> Ask each school to send transcripts electronically to " + TRANSCRIPTS + ". " + A(U["trans"], "How to submit documents") + ".",
+    "<strong>Send the missing documents.</strong> Ask each school you&rsquo;ve attended (high school, community college, or any other 4-year college) to send transcripts electronically to " + TRANSCRIPTS + ". " + A(U["trans"], "How to submit documents") + ".",
     "<strong>Meet the " + A(U["deadlines"], "document deadlines") + ".</strong> They are firm, and the offer does not become final until the items clear."]),
   H("If you have not auditioned yet"),
   P("Scholarship auditions are still open, and we award scholarships to incoming students every year. All the "
