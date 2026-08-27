@@ -110,7 +110,7 @@ def funding(items):
 # ============================================================ all plans
 
 add("00-inquiry", "all", "Inquired",
-  "Come and make music at Cal State East Bay", [
+  "Music at East Bay", [
   P("Hi {{FIRST_NAME}},"),
   P("Thanks for writing to the " + A(U["home"], "Department of Music") + ". We&rsquo;re a small department "
     "inside a large and unusually mixed university, and we take our students seriously as the musicians "
@@ -131,7 +131,7 @@ add("00-inquiry", "all", "Inquired",
 # ============================================================ b.a.
 
 add("ba-1-application-in-progress", "ba", "Application in Progress",
-  "Your Music application, and the audition that goes with it", [
+  "Your Music application", [
   P("Hi {{FIRST_NAME}},"),
   P("Thanks for starting an application to the " + A(U["ba"], "B.A. in Music") + " at Cal State East Bay."),
   P("If anything in the application is unclear, ask us before you guess. " + CALL),
@@ -145,7 +145,7 @@ add("ba-1-application-in-progress", "ba", "Application in Progress",
   FOOTER, LINKS])
 
 add("ba-2-application-received", "ba", "Application Received",
-  "Your application is in, and your audition is next", [
+  "Now, your audition", [
   P("Hi {{FIRST_NAME}},"),
   P("Congratulations! Your application IS IN."),
   H("Sign up for your scholarship audition"),
@@ -163,7 +163,7 @@ add("ba-2-application-received", "ba", "Application Received",
   FOOTER])
 
 add("ba-3-conditionally-admitted", "ba", "Conditionally Admitted",
-  "Admitted to Music, with a few documents to go", [
+  "Nearly in", [
   P("Hi {{FIRST_NAME}},"),
   P("Congratulations. You&rsquo;re admitted to the B.A. in Music, with a couple of documents still outstanding."),
   CONDITIONS,
@@ -174,7 +174,7 @@ add("ba-3-conditionally-admitted", "ba", "Conditionally Admitted",
   FOOTER])
 
 add("ba-4-fully-admitted", "ba", "Fully Admitted",
-  "You're in: welcome to the Department of Music", [
+  "You're in", [
   P("Hi {{FIRST_NAME}},"),
   P("Congratulations, and welcome. You have been admitted to the B.A. in Music at Cal State East Bay."),
   P("To claim your spot, log in to " + MYCSUEB + ", open the Admissions tile, choose Accept Admission, and "
@@ -188,7 +188,7 @@ add("ba-4-fully-admitted", "ba", "Fully Admitted",
   FOOTER])
 
 add("ba-5-admission-accepted", "ba", "Admission Accepted",
-  "Your first semester in Music starts here", [
+  "Before classes begin", [
   P("Hi {{FIRST_NAME}},"),
   P("We were glad to see you accept your offer, and there are four things worth lining up before the "
     "semester starts."),
@@ -201,7 +201,7 @@ add("ba-5-admission-accepted", "ba", "Admission Accepted",
   FOOTER])
 
 add("ba-6-active", "ba", "Active",
-  "Welcome to the Department of Music", [
+  "Welcome to Music", [
   P("Hi {{FIRST_NAME}},"),
   P("You are enrolled now, and welcome to the Department."),
   P("Read the " + A(U["ughb"], "Undergraduate Handbook") + " when you have an hour. Applied levels and juries, "
@@ -221,7 +221,7 @@ add("ba-6-active", "ba", "Active",
 # ============================================================ m.a.
 
 add("ma-1-application-in-progress", "ma", "Application in Progress",
-  "Starting your M.A. in Music at East Bay", [
+  "Starting your M.A.", [
   P("Hi {{FIRST_NAME}},"),
   P("Thanks for starting an application to the " + A(U["ma"], "Master of Arts in Music") + ". You&rsquo;ll "
     "work in one area: Performance (Classical or Jazz), Choral Conducting, or Composition."),
@@ -238,7 +238,7 @@ add("ma-1-application-in-progress", "ma", "Application in Progress",
   FOOTER])
 
 add("ma-2-application-received", "ma", "Application Received",
-  "Your M.A. application is with us", [
+  "Your M.A. application", [
   P("Hi {{FIRST_NAME}},"),
   P("Congratulations, your application to the Master of Arts in Music is complete."),
   P("We read graduate applications as they come in, and once the Office of Graduate Admissions has been "
@@ -248,7 +248,7 @@ add("ma-2-application-received", "ma", "Application Received",
   FOOTER])
 
 add("ma-3-conditionally-admitted", "ma", "Conditionally Admitted",
-  "Admitted to the M.A. in Music, with a few documents to go", [
+  "Nearly in the M.A.", [
   P("Hi {{FIRST_NAME}},"),
   P("Congratulations. You&rsquo;re admitted to the M.A. in Music, with a couple of documents still outstanding."),
   CONDITIONS,
@@ -258,7 +258,7 @@ add("ma-3-conditionally-admitted", "ma", "Conditionally Admitted",
   FOOTER])
 
 add("ma-4-fully-admitted", "ma", "Fully Admitted",
-  "You're in: welcome to the M.A. in Music", [
+  "You're in the M.A.", [
   P("Hi {{FIRST_NAME}},"),
   P("Congratulations, and welcome. You have been admitted to the Master of Arts in Music at Cal State East "
     "Bay."),
@@ -273,7 +273,7 @@ add("ma-4-fully-admitted", "ma", "Fully Admitted",
   FOOTER])
 
 add("ma-5-admission-accepted", "ma", "Admission Accepted",
-  "Your first semester in the M.A. starts here", [
+  "Before the M.A. begins", [
   P("Hi {{FIRST_NAME}},"),
   P("We were glad to see you accept your offer. Here is how the first semester takes shape."),
   UL([
@@ -285,7 +285,7 @@ add("ma-5-admission-accepted", "ma", "Admission Accepted",
   FOOTER])
 
 add("ma-6-active", "ma", "Active",
-  "Welcome to the graduate program in Music", [
+  "Welcome to the M.A.", [
   P("Hi {{FIRST_NAME}},"),
   P("You are enrolled now, and welcome."),
   P("Read the " + A(U["grhb"], "Graduate Handbook") + " when you have an hour. Sequencing, the Level 6 juries "
@@ -306,7 +306,7 @@ add("ma-6-active", "ma", "Active",
 # ============================================================ certificate
 
 add("cert-1-application-in-progress", "cert", "Application in Progress",
-  "Starting your music teaching certificate at East Bay", [
+  "Starting your certificate", [
   P("Hi {{FIRST_NAME}},"),
   P("Thanks for starting an application to the "
     + A(U["cert"], "Single Subject Matter Preparation Certificate in Music") + ". It&rsquo;s the path to the "
@@ -323,7 +323,7 @@ add("cert-1-application-in-progress", "cert", "Application in Progress",
   FOOTER])
 
 add("cert-2-application-received", "cert", "Application Received",
-  "Your certificate application is with us", [
+  "Your certificate application", [
   P("Hi {{FIRST_NAME}},"),
   P("Congratulations, your application to the Single Subject Matter Preparation Certificate in Music is "
     "complete."),
@@ -334,7 +334,7 @@ add("cert-2-application-received", "cert", "Application Received",
   FOOTER])
 
 add("cert-3-conditionally-admitted", "cert", "Conditionally Admitted",
-  "Admitted to the certificate, with a few documents to go", [
+  "Nearly in the certificate", [
   P("Hi {{FIRST_NAME}},"),
   P("Congratulations. You&rsquo;re admitted to the Single Subject Matter Preparation Certificate in Music, "
     "with a couple of documents still outstanding."),
@@ -343,7 +343,7 @@ add("cert-3-conditionally-admitted", "cert", "Conditionally Admitted",
   FOOTER])
 
 add("cert-4-fully-admitted", "cert", "Fully Admitted",
-  "You're in: welcome to the certificate in Music", [
+  "You're in the certificate", [
   P("Hi {{FIRST_NAME}},"),
   P("Congratulations, and welcome. You have been admitted to the Single Subject Matter Preparation "
     "Certificate in Music at Cal State East Bay."),
@@ -356,7 +356,7 @@ add("cert-4-fully-admitted", "cert", "Fully Admitted",
   FOOTER])
 
 add("cert-5-admission-accepted", "cert", "Admission Accepted",
-  "Your first semester in the certificate starts here", [
+  "Before the certificate begins", [
   P("Hi {{FIRST_NAME}},"),
   P("We were glad to see you accept your offer."),
   P("Come and talk to us before you register. The coursework spans theory, history, conducting, and applied "
@@ -369,7 +369,7 @@ add("cert-5-admission-accepted", "cert", "Admission Accepted",
   FOOTER])
 
 add("cert-6-active", "cert", "Active",
-  "Welcome to Music at East Bay", [
+  "Welcome to the certificate", [
   P("Hi {{FIRST_NAME}},"),
   P("You are enrolled now, and welcome."),
   P("The " + A(U["grhb"], "Graduate Handbook") + " covers the certificate alongside the M.A.: applied study "
