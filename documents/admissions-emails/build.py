@@ -319,14 +319,14 @@ add("ma-5-admission-accepted", "ma", "Admission Accepted",
   P("Hi {{FIRST_NAME}},"),
   P("We were glad to see you accept your offer."),
   H("How your schedule comes together"),
-  P("The Graduate Coordinator registers you for applied lessons from the emphasis you declared at admission, "
-    "and you then arrange the weekly lesson time directly with your instructor. Your first semester is MUS "
-    "601, Analysis of Musical Styles, and MUS 603, Entrepreneurship in the Arts, alongside lessons and "
-    "ensemble, for eight units."),
+  P("Our Graduate Coordinator will be in touch shortly to set up an advising meeting. She will go through "
+    "your interests and what you want from the degree, match you to an ensemble that fits, and put you in "
+    "touch with your applied studies instructor. Your first semester is MUS 601, Analysis of Musical "
+    "Styles, and MUS 603, Entrepreneurship in the Arts, alongside lessons and ensemble, for eight units."),
   H("Before the semester starts"),
   UL([
-    "<strong>Applied lessons.</strong> Arrange your weekly time with your instructor once the Graduate Coordinator has registered you.",
-    "<strong>Ensemble.</strong> You perform in one every semester. Auditions and placement happen at the first meeting, so register for the course and come ready to play or sing to that first class. " + A(U["ens"], "Our ensembles") + ".",
+    "<strong>Applied lessons.</strong> Arrange your weekly lesson time directly with your instructor once you have been introduced.",
+    "<strong>Ensemble.</strong> You perform in one every semester. Placement is settled at your advising meeting, and auditions happen at the first class, so come ready to play or sing. " + A(U["ens"], "Our ensembles") + ".",
     "<strong>Teaching assignments.</strong> Teaching Associate and Instructional Student Assistant assignments open before the semester. Tell the Graduate Coordinator now if either interests you."]),
   H("Read ahead (all of these are on our " + A(U["current"], "Student Resources") + " page)"),
   UL([
