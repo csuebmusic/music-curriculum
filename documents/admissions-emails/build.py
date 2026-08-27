@@ -72,6 +72,7 @@ U = dict(
   grhb    = "https://csuebmusic.github.io/music-curriculum/documents/handbooks/graduate-handbook.html",
   certrm  = "https://csuebmusic.github.io/music-curriculum/documents/roadmaps/music-education-certificate-roadmap.html",
   fastrm  = "https://csuebmusic.github.io/music-curriculum/documents/roadmaps/fast-ba-ma-roadmap.html",
+  fastrm2 = "https://csuebmusic.github.io/music-curriculum/documents/roadmaps/fast-transfer-ba-ma-certificate-roadmap.html",
   netid   = "https://www.csueastbay.edu/netid/netid-activation-instructions.html",
   rm4     = "https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-roadmap-4-year.html",
   rm2     = "https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-roadmap-2-year-transfer.html",
@@ -242,7 +243,7 @@ add("ba-5-admission-accepted", "ba", "Admission Accepted",
     "The " + A(U["equip"], "Music Equipment Office") + " lends instruments and recording equipment, and assigns lockers.",
     "The concert calendar is on " + A(U["events"], "News &amp; Events") + ".",
     "The " + A(U["cert"], "Single Subject Matter Preparation Certificate in Music") + " is an add-on to the B.A. that prepares you to apply for the California Single Subject Teaching Credential in Music and complete it successfully. Its " + A(U["certrm"], "roadmap") + " shows how the coursework fits alongside the degree. John Eros coordinates music education: " + A("mailto:john.eros@csueastbay.edu", "john.eros@csueastbay.edu") + ".",
-    "The " + A(U["fast"], "FAST 4+1 B.A./M.A.") + " gets you both degrees in five years. You apply by January 15 of your junior year, with 60 to 90 units done and a 3.0 in your music courses. Its " + A(U["fastrm"], "roadmap") + " lays out all five years, and it is worth knowing about now rather than in year three."]),
+    "The " + A(U["fast"], "FAST 4+1 B.A./M.A.") + " gets you both degrees in five years. You apply by January 15 of your junior year, with 60 to 90 units done and a 3.0 in your music courses. You can find out more about it " + A(U["fast"], "here") + ", and the roadmaps lay out the whole sequence: " + A(U["fastrm"], "4+1") + " and " + A(U["fastrm2"], "2+1 for transfer students") + "."]),
   P("Questions about any of it? " + CALL),
   FOOTER])
 
