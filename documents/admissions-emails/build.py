@@ -114,9 +114,9 @@ add("00-inquiry", "all", "Inquired",
   P("Hi {{FIRST_NAME}},"),
   P("Thanks for writing to the " + A(U["home"], "Department of Music") + ". We&rsquo;re a small department "
     "inside a large and unusually mixed university, and we take our students seriously as the musicians "
-    "they already are. They perform, compose, produce and design sound in the studios, conduct choirs, "
-    "and go out to teach music in California schools. Whatever they make, from the oldest repertoire to "
-    "work finished last week, gets the same rigor and the same attention."),
+    "they already are. They perform and record, compose and arrange, score for film and games, produce "
+    "and design sound in the studios, conduct choirs and ensembles, teach music in California schools, "
+    "and go on to graduate study."),
   UL([
     A(U["ba"], "<strong>B.A. in Music</strong>") + ". 120 units of applied lessons, ensembles, and coursework across performance, composition, music technology, jazz, and music education.",
     A(U["ma"], "<strong>M.A. in Music</strong>") + ". 32 units, in Performance (Classical or Jazz), Choral Conducting, or Composition.",
