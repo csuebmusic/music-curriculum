@@ -112,9 +112,6 @@ GTA = ("<strong>Graduate Teaching Associates</strong> teach. You&rsquo;d lead cl
 ISA = ("<strong>Instructional Student Assistants</strong> support teaching: grading, tutoring, and related work. "
        "You need relevant coursework and enrollment in at least 4 units, or recent enrollment with continued "
        "eligibility. Up to 20 hours a week, at rates set by level.")
-GLASOW = ("<strong>The Glenn Glasow Graduate Fellowship in Composition</strong> covers a year of study for one "
-          "composer, who premieres a new piece at the Glenn Glasow Memorial Concert. There is no separate "
-          "application. We choose from the scores already in your program application.")
 
 def funding(items):
     return "\n\n".join([
@@ -124,6 +121,9 @@ def funding(items):
         + A(U["schol"], "Music Scholarships") + ". We award music scholarships to entering students "
         "every year on the strength of the materials already in your application, and there is no "
         "extra step you need to complete to be eligible."),
+      P("The graduate program also offers teaching opportunities to its graduate students as need "
+        "arises. Let the Graduate Coordinator know if you are interested." + (" There are two kinds:"
+        if len(items) > 1 else "")),
       UL(items)])
 
 # ============================================================ all plans
@@ -274,7 +274,7 @@ add("ma-2-application-received", "ma", "Application Received",
   P("We read the materials you sent us, your CV, your letters, and the evidence of your abilities, as they "
     "come in. The Office of Graduate Admissions verifies your transcripts and official documents "
     "separately, and we move to a decision once both are done. You can track your status in " + MYCSUEB + "."),
-  funding([GTA, ISA, GLASOW]),
+  funding([GTA, ISA]),
   P(GRADCLOSE),
   FOOTER])
 
