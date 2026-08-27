@@ -272,7 +272,7 @@ add("ma-2-application-received", "ma", "Application Received",
   P("Congratulations, your application to the Master of Arts in Music is complete."),
   P("We read the materials you sent us, your CV, your letters, and the evidence of your abilities, as they "
     "come in. The Office of Graduate Admissions verifies your transcripts and official documents "
-    "separately, and we move to a decision once both are done. Your status shows up in " + MYCSUEB + "."),
+    "separately, and we move to a decision once both are done. You can track your status in " + MYCSUEB + "."),
   funding([GTA, ISA, GLASOW]),
   P(GRADCLOSE),
   FOOTER])
@@ -348,7 +348,7 @@ add("cert-2-application-received", "cert", "Application Received",
     "complete."),
   P("We read the materials you sent us, your CV, your letters, and the evidence of your abilities, as they "
     "come in. The Office of Graduate Admissions verifies your transcripts and official documents "
-    "separately, and we move to a decision once both are done. Your status shows up in " + MYCSUEB + "."),
+    "separately, and we move to a decision once both are done. You can track your status in " + MYCSUEB + "."),
   funding([ISA]),
   P("Anything you want to ask before you hear from us, " + CALL.lower()[0] + CALL[1:]),
   FOOTER])
