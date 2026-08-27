@@ -68,6 +68,8 @@ U = dict(
   fee     = "https://www.csueastbay.edu/admissions/after-youre-accepted/enrollment-fee.html",
   gradopp = "https://www.csueastbay.edu/graduate-studies/graduate-opportunities.html",
   gradstudies = "https://www.csueastbay.edu/graduate-studies/index.html",
+  gradadmit = "https://www.csueastbay.edu/graduate-studies/admitted-grad-students.html",
+  cie     = "https://www.csueastbay.edu/cie/",
   trans   = "https://www.csueastbay.edu/admissions/documents-deadlines-and-important-information/transcript-and-document-submission.html",
   ughb    = "https://csuebmusic.github.io/music-curriculum/documents/handbooks/undergraduate-handbook.html",
   grhb    = "https://csuebmusic.github.io/music-curriculum/documents/handbooks/graduate-handbook.html",
@@ -89,8 +91,7 @@ ASK = CALL
 GRADCLOSE = ("Whatever comes up, write to In&eacute;s Thiebaut, our Graduate Coordinator, at "
              + A("mailto:ines.thiebaut@csueastbay.edu", "ines.thiebaut@csueastbay.edu")
              + " or call (510) 885-3135. She would rather hear from you early than have you work it "
-             "out alone. The " + A(U["gradstudies"], "Office of Graduate Studies") + " handles the "
-             "university side of graduate study.")
+             "out alone.")
 COORD = GRADCLOSE
 TRANSCRIPTS = A("mailto:electronictranscripts@csueastbay.edu", "electronictranscripts@csueastbay.edu")
 MYCSUEB = A(U["my"], "MyCSUEB")
@@ -303,13 +304,12 @@ add("ma-4-fully-admitted", "ma", "Fully Admitted",
     + A(U["gradmit"], "after you&rsquo;re accepted") + " page."),
   H("Then, between now and your first semester"),
   UL([
-    "<strong>Know what you are taking on.</strong> 32 units over four semesters: a shared seminar core in analysis and post-tonal practice, the history and theory of jazz, interdisciplinary collaboration, advanced conducting, entrepreneurship in the arts, the social and ecological dimensions of music, and teaching music in higher education.",
-    "<strong>Alongside the seminars.</strong> Four semesters of applied lessons and ensemble in your area, a public capstone, and an oral comprehensive examination in the final semester.",
+    "<strong>Know what you are taking on.</strong> 32 units over four semesters: a shared seminar core in analysis and post-tonal practice, the history and theory of jazz, interdisciplinary collaboration, advanced conducting, entrepreneurship in the arts, the social and ecological dimensions of music, and teaching music in higher education. Alongside it, four semesters of applied lessons and ensemble in your area, a public capstone, and an oral comprehensive examination in the final semester. The " + A(U["grhb"], "Graduate Handbook") + " sets all of it out, along with sequencing, the Level 6 juries for your area, and advancement to candidacy.",
     "<strong>Say early if you want to teach.</strong> Teaching Associate and Instructional Student Assistant assignments open before the semester. Tell the Graduate Coordinator if either interests you."]),
-  H("Read ahead"),
-  P("The " + A(U["grhb"], "Graduate Handbook") + " sets out sequencing, the Level 6 juries for your area, "
-    "advancement to candidacy, the capstone, and the comprehensive examination. The "
-    + A(U["gradstudies"], "Office of Graduate Studies") + " handles the university side of graduate study."),
+  H("Check in with the offices that handle the rest"),
+  UL([
+    "The " + A(U["gradstudies"], "Office of Graduate Studies") + " oversees graduate study across the University, and its " + A(U["gradadmit"], "admitted students") + " page carries orientation, registration, and the next steps after you accept.",
+    "The " + A(U["cie"], "Center for International Education") + " advises international students on immigration, arrival, and the mandatory check-in: cie@csueastbay.edu, (510) 885-2880."]),
   P(GRADCLOSE),
   FOOTER])
 
