@@ -71,6 +71,7 @@ U = dict(
   ughb    = "https://csuebmusic.github.io/music-curriculum/documents/handbooks/undergraduate-handbook.html",
   grhb    = "https://csuebmusic.github.io/music-curriculum/documents/handbooks/graduate-handbook.html",
   certrm  = "https://csuebmusic.github.io/music-curriculum/documents/roadmaps/music-education-certificate-roadmap.html",
+  fastrm  = "https://csuebmusic.github.io/music-curriculum/documents/roadmaps/fast-ba-ma-roadmap.html",
   netid   = "https://www.csueastbay.edu/netid/netid-activation-instructions.html",
   rm4     = "https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-roadmap-4-year.html",
   rm2     = "https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-roadmap-2-year-transfer.html",
@@ -237,7 +238,9 @@ add("ba-5-admission-accepted", "ba", "Admission Accepted",
     "The roadmaps lay out the degree term by term, " + A(U["rm4"], "four years") + " or " + A(U["rm2"], "two years for transfer students") + ".",
     "The " + A(U["mrc"], "Music Resource Center") + " lends scores, parts, and study materials.",
     "The " + A(U["equip"], "Music Equipment Office") + " lends instruments and recording equipment, and assigns lockers.",
-    "The concert calendar is on " + A(U["events"], "News &amp; Events") + "."]),
+    "The concert calendar is on " + A(U["events"], "News &amp; Events") + ".",
+    "The " + A(U["cert"], "Single Subject Matter Preparation Certificate in Music") + " runs inside the B.A. and leads to the California teaching credential in music. Its " + A(U["certrm"], "roadmap") + " shows how the coursework fits alongside the degree. John Eros coordinates music education: " + A("mailto:john.eros@csueastbay.edu", "john.eros@csueastbay.edu") + ".",
+    "The " + A(U["fast"], "FAST 4+1 B.A./M.A.") + " gets you both degrees in five years. You apply by January 15 of your junior year, with 60 to 90 units done and a 3.0 in your music courses. Its " + A(U["fastrm"], "roadmap") + " lays out all five years, and it is worth knowing about now rather than in year three."]),
   P("Questions about any of it? " + CALL),
   FOOTER])
 
