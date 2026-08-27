@@ -116,7 +116,7 @@ GLASOW = ("<strong>The Glenn Glasow Graduate Fellowship in Composition</strong> 
 
 def funding(items):
     return "\n\n".join([
-      H("Paying for it"),
+      H("Important financial information"),
       P("The Office of Graduate Studies runs fellowships, research funding, and other support across the "
         "University: " + A(U["gradopp"], "Graduate Opportunities") + ". The Department has its own: "
         + A(U["schol"], "Music Scholarships") + "."),
