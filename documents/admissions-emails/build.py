@@ -427,7 +427,7 @@ for g, gname, gplans in GROUPS:
     nav.append('  <a class="nav-sub" href="#g-%s">%s</a>' % (g, gname))
     flow.append('    <h3 id="f-%s">%s%s</h3>'
                 % (g, "" if g == "all" else "Plan(s): ", gname))
-    flow.append('    <table class="hb-table">\n      <thead>\n        <tr><th>application status</th>'
+    flow.append('    <table class="hb-table flow">\n      <thead>\n        <tr><th>application status</th>'
                 '<th class="col-code">template</th></tr>\n      </thead>\n      <tbody>')
     cards.append('  <h3 id="g-%s">%s</h3>' % (g, gname))
     for k in keys:

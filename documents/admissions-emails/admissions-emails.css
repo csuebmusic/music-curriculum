@@ -15,6 +15,18 @@ main {
   max-width: none;
 }
 
+/* flow tables: one fixed geometry across all four groups so the template
+   column lines up down the page. */
+table.hb-table.flow {
+  width: 100%;
+  max-width: 460px;
+  table-layout: fixed;
+}
+table.hb-table.flow td:last-child,
+table.hb-table.flow th:last-child {
+  width: 6.5rem;
+}
+
 .tpl {
   --label: 0.82rem;
   border: 1px solid var(--rule);
