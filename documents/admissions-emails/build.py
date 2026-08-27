@@ -435,19 +435,25 @@ add("cert-5-admission-accepted", "cert", "Admission Accepted",
   "Before the certificate begins", [
   P("Hi {{FIRST_NAME}},"),
   P("We were glad to see you accept your offer."),
-  P("Come and talk to us before you register. The coursework spans theory, history, conducting, and applied "
-    "study, and the order you take it in depends on what your bachelor&rsquo;s already covered. The "
-    + A(U["certrm"], "certificate roadmap") + " lays out the 31 units on their two-year rotation."),
-  P("If applied lessons or an ensemble are part of your plan, ensemble auditions and placement happen at the "
-    "first meeting: register for the course and come ready to play or sing to that first class. " + A(U["ens"], "Our ensembles")
-    + "."),
-  H("Read ahead"),
-  P("The " + A(U["grhb"], "Graduate Handbook") + " covers the certificate alongside the M.A., including "
-    "applied study policies, juries, and the academic policies that apply to you. Advising and forms "
-    "are on the " + A(U["current"], "Student Resources") + " page. Scores, instruments, and equipment "
-    "can be borrowed from the " + A(U["mrc"], "Music Resource Center") + " and the "
-    + A(U["equip"], "Music Equipment Office") + ", and the teaching studios are open to you. The "
-    "concert calendar is on " + A(U["events"], "News &amp; Events") + "."),
+  H("How your schedule comes together"),
+  P("Write to John Eros to set up an advising session before you register. He coordinates music education and "
+    "will go through the certificate coursework with you and work out the order you take it in, which depends "
+    "on what your bachelor&rsquo;s already covered. Reach him at "
+    + A("mailto:john.eros@csueastbay.edu", "john.eros@csueastbay.edu") + "."),
+  P("The music education courses run Tuesday and Thursday mornings, usually 8:30 a.m. to noon, on a two-year "
+    "rotation. The " + A(U["certrm"], "certificate roadmap") + " lays out the 31 units across that rotation."),
+  H("Applied lessons and ensembles"),
+  P("You are eligible for applied lessons as long as you also join an ensemble. To start lessons you need an "
+    "applied area placement, which you can submit any time up to the second week of the semester: "
+    + A(U["aud"], "scholarship auditions and applied area placements") + ". Ensemble auditions and placement "
+    "happen at the first meeting of each ensemble, so register for the course and come ready to play or sing "
+    "to that first class. " + A(U["ens"], "Our ensembles") + "."),
+  H("Read ahead (all of these are on our " + A(U["current"], "Student Resources") + " page)"),
+  UL([
+    "The " + A(U["grhb"], "Graduate Handbook") + " covers the certificate alongside the M.A.: applied study policies, juries, and the academic policies that apply to you.",
+    "The " + A(U["mrc"], "Music Resource Center") + " lends scores, parts, and study materials.",
+    "The " + A(U["equip"], "Music Equipment Office") + " lends instruments and recording equipment, and assigns lockers.",
+    "The concert calendar is on " + A(U["events"], "News &amp; Events") + ". Come to concerts as often as you can manage, since you will be teaching this repertoire soon enough."]),
   P(CERTCLOSE),
   FOOTER])
 
