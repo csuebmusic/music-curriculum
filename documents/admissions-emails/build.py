@@ -398,22 +398,36 @@ add("cert-2-application-received", "cert", "Application Received",
 add("cert-3-conditionally-admitted", "cert", "Conditionally Admitted",
   "Conditionally admitted, certificate", [
   P("Hi {{FIRST_NAME}},"),
-  P("Congratulations. You&rsquo;re admitted to the Single Subject Matter Preparation Certificate in Music, "
-    "with a couple of documents still outstanding."),
-  CONDITIONS,
+  P("You have been conditionally admitted to the Single Subject Matter Preparation Certificate in Music. The "
+    "Office of Graduate Admissions makes the offer final once the outstanding items on your record are "
+    "cleared."),
+  H("What is outstanding"),
+  UL([
+    "<strong>Read your To Do List in " + MYCSUEB + ".</strong> Everything holding up the offer is named there, most often official transcripts or proof that your bachelor&rsquo;s degree was conferred.",
+    "<strong>Send the missing documents.</strong> These go to the Office of Graduate Admissions rather than to us. Ask every college and university you have attended to send transcripts electronically to " + TRANSCRIPTS + ". " + A(U["trans"], "How to submit documents") + ".",
+    "<strong>Meet the " + A(U["gdeadlines"], "document deadlines") + ".</strong> They are firm, and the offer does not become final until the items clear."]),
   P(CERTCLOSE),
   FOOTER])
 
 add("cert-4-fully-admitted", "cert", "Fully Admitted",
   "Your certificate offer", [
   P("Hi {{FIRST_NAME}},"),
-  P("Congratulations, and welcome. You have been admitted to the Single Subject Matter Preparation "
-    "Certificate in Music at Cal State East Bay."),
-  P("To accept your offer, log in to " + MYCSUEB + " and open the Admissions tile. The pre-enrollment fee is "
-    "listed there and paid at the same time."),
-  P("The certificate covers the subject matter the state requires for the Single Subject Teaching Credential "
-    "in Music. Completing it prepares you to apply to a credential program without sitting a separate "
-    "subject-matter examination."),
+  P("Congratulations, and welcome. You have been admitted to the Single Subject Matter Preparation Certificate "
+    "in Music at Cal State East Bay!"),
+  H("First, accept your offer"),
+  P("Log in to " + MYCSUEB + ", choose the Admissions tile, and select Accept Admission. The Office of "
+    "Admissions covers the rest of the university side on its " + A(U["gradmit"], "after you&rsquo;re accepted")
+    + " page."),
+  H("To help you decide if CSU East Bay is the right place for you"),
+  UL([
+    "<strong>What the certificate covers.</strong> The subject matter the state requires for the Single Subject Teaching Credential in Music: theory, history, conducting, and performance, at the depth expected of someone teaching the discipline. Completing it satisfies the subject matter requirement without a separate examination.",
+    "<strong>What it is not.</strong> The teaching credential itself is a separate program run by the " + A(U["cred"], "School of Education") + ".",
+    "<strong>Aid, if you need it.</strong> The stand-alone certificate is not eligible for federal or state financial aid. If that matters to your plans, apply to the " + A(U["ba"], "B.A. in Music") + " or the " + A(U["ma"], "M.A. in Music") + " and take the certificate alongside the degree. Talk to us before you decide.",
+    "<strong>Come and see us.</strong> Sit in on a class, hear a rehearsal, and meet the faculty you would work with. Write to John Eros or the Graduate Coordinator and we will arrange a visit around your schedule."]),
+  H("Check in with the offices that handle the rest"),
+  UL([
+    "The " + A(U["gradstudies"], "Office of Graduate Studies") + " oversees graduate study across the University, and its " + A(U["gradadmit"], "admitted students") + " page carries orientation, registration, and the next steps after you accept.",
+    "The " + A(U["cie"], "Center for International Education") + " advises international students on immigration, arrival, and the mandatory check-in: cie@csueastbay.edu, (510) 885-2880."]),
   P(CERTCLOSE),
   FOOTER])
 
