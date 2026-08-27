@@ -339,8 +339,6 @@ for g, gname, gplans in GROUPS:
     keys = [k for k in ORDER if T[k]["group"] == g]
     nav.append('  <a class="nav-sub" href="#g-%s">%s</a>' % (g, gname))
     flow.append('    <h3 id="f-%s">%s</h3>' % (g, gname))
-    if gplans:
-        flow.append('    <p class="measure">Plan: %s</p>' % gplans)
     flow.append('    <table class="hb-table">\n      <thead>\n        <tr><th>application status</th>'
                 '<th class="col-code">template</th></tr>\n      </thead>\n      <tbody>')
     cards.append('  <h3 id="g-%s">%s</h3>' % (g, gname))
@@ -429,6 +427,16 @@ page = """<!DOCTYPE html>
   <section class="hb-section" id="s2">
     <h2>flow</h2>
     <p class="measure">One template per plan and application status. The inquiry message is shared across every plan containing Music and sends once: an inquiry that later attaches an application plan moves to that plan's sequence.</p>
+    <table class="hb-table">
+      <thead>
+        <tr><th>degree</th><th class="col-code">plan value</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>b.a. in music and additional degree</td><td class="col-code">Music BA, Music Additional Degree</td></tr>
+        <tr><td>m.a. in music</td><td class="col-code">Music MA</td></tr>
+        <tr><td>single subject matter preparation certificate</td><td class="col-code">Cert: Music, Single Sub Matter</td></tr>
+      </tbody>
+    </table>
 %s
   </section>
 
