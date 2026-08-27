@@ -346,8 +346,14 @@ add("cert-1-application-in-progress", "cert", "Application in Progress",
   "Starting your certificate", [
   P("Hi {{FIRST_NAME}},"),
   P("Thanks for starting an application to the "
-    + A(U["cert"], "Single Subject Matter Preparation Certificate in Music") + ". It prepares you to apply "
-    "for the California Single Subject Teaching Credential in Music and to complete it successfully."),
+    + A(U["cert"], "Single Subject Matter Preparation Certificate in Music") + ". The certificate is the "
+    "subject matter half of becoming a music teacher in California. It establishes that you know the "
+    "discipline you intend to teach, across theory, history, conducting, and performance, at the depth "
+    "the state expects of someone standing in front of a classroom. Completing it satisfies the subject "
+    "matter requirement without a separate examination."),
+  P("The teaching credential itself is the other half, and it is a separate program run by the "
+    + A(U["cred"], "School of Education") + ". You apply to it once the subject matter preparation is "
+    "done. If you came here looking for the credential program, that is where to start."),
   P("This route is for people who already hold a bachelor&rsquo;s degree."),
   H("What goes into CSUApply"),
   UL([
