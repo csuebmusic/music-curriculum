@@ -165,12 +165,18 @@ add("ba-2-application-received", "ba", "Application Received",
 add("ba-3-conditionally-admitted", "ba", "Conditionally Admitted",
   "Nearly in", [
   P("Hi {{FIRST_NAME}},"),
-  P("Congratulations. You&rsquo;re admitted to the B.A. in Music, with a couple of documents still outstanding."),
-  CONDITIONS,
-  P("While that clears, you can get on with your side of things. Every music major does an "
-    + A(U["aud"], "applied area placement") + " before beginning lessons, any time up to the end of the first "
-    "week of the semester, and if you auditioned for a scholarship it is already done."),
-  P("Anything unclear about the conditions, " + CALL.lower()[0] + CALL[1:]),
+  P("You have been conditionally admitted to the B.A. in Music. The offer becomes final once the outstanding "
+    "items on your record are cleared."),
+  H("What is outstanding"),
+  UL([
+    "<strong>Read your To Do List in " + MYCSUEB + ".</strong> Everything holding up the offer is named there, usually final transcripts or proof that a degree was conferred.",
+    "<strong>Send the missing documents.</strong> Ask each school to send transcripts electronically to " + TRANSCRIPTS + ". " + A(U["trans"], "How to submit documents") + ".",
+    "<strong>Watch the deadlines.</strong> They are firm, and the offer does not become final until the items clear."]),
+  H("If you have not auditioned yet"),
+  P("Scholarship auditions are still open, and we award scholarships to incoming students every year. All the "
+    "information is on the " + A(U["aud"], "scholarship auditions and applied area placements") + " page. "
+    "Sign up!"),
+  P("Questions about any of it? " + CALL),
   FOOTER])
 
 add("ba-4-fully-admitted", "ba", "Fully Admitted",
