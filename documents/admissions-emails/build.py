@@ -253,8 +253,7 @@ add("ba-5-admission-accepted", "ba", "Admission Accepted",
 add("ma-1-application-in-progress", "ma", "Application in Progress",
   "Starting your M.A.", [
   P("Hi {{FIRST_NAME}},"),
-  P("Thanks for starting an application to the " + A(U["ma"], "Master of Arts in Music") + ". You&rsquo;ll "
-    "work in one area: Performance (Classical or Jazz), Choral Conducting, or Composition."),
+  P("Thanks for starting an application to the " + A(U["ma"], "Master of Arts in Music") + "."),
   P("A bachelor&rsquo;s degree in music is the usual preparation and we do encourage it, though it isn&rsquo;t "
     "a hard requirement. We read applications without one case by case, and self-taught musicians have come "
     "through the program. We do ask for good academic standing at your most recent college or university."),
