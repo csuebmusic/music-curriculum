@@ -126,7 +126,7 @@ add("00-inquiry", "all", "Inquired",
     A(U["fast"], "<strong>FAST 4+1 B.A./M.A.</strong>") + ". Both degrees in five years, for students already in the B.A. here, who apply in the junior year.",
     A(U["minor"], "<strong>Music Minor</strong>") + ". 21 units, open to any major."]),
   P(A(U["apply"], "How to apply") + " &middot; " + A(U["schol"], "Music scholarships")),
-  P("Come and see the place: the recital hall, the studios, and whatever rehearsal happens to be running that "
+  P("Come visit us: the recital hall, the studios, and whatever rehearsal happens to be running that "
     "afternoon. " + ASK),
   FOOTER, LINKS])
 
