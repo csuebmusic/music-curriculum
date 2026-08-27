@@ -87,8 +87,10 @@ def add(key, group, stage, subject, body):
     T[key] = dict(group=group, stage=stage, subject=subject, body="\n\n".join(body))
 
 CONDITIONS = P("Open " + MYCSUEB + " and read your To Do List. Whatever is holding up the offer is named "
-               "there, usually final transcripts or proof that a degree was conferred. Ask each school to "
-               "send transcripts electronically to " + TRANSCRIPTS + ". The deadlines on those items are firm.")
+               "there, most often official transcripts or proof that your bachelor&rsquo;s degree was "
+               "conferred. These go to the Office of Graduate Admissions rather than to us: ask every "
+               "college and university you have attended to send transcripts electronically to "
+               + TRANSCRIPTS + ". The " + A(U["gdeadlines"], "document deadlines") + " are firm.")
 
 GTA = ("<strong>Graduate Teaching Associates</strong> teach. You&rsquo;d lead classroom or lab sections, build "
        "course materials, run exams, tutor, and grade. You need to be admitted to a CSUEB graduate degree program "
@@ -167,8 +169,8 @@ add("ba-2-application-received", "ba", "Application Received",
 add("ba-3-conditionally-admitted", "ba", "Conditionally Admitted",
   "Conditionally admitted", [
   P("Hi {{FIRST_NAME}},"),
-  P("You have been conditionally admitted to the B.A. in Music. The offer becomes final once the outstanding "
-    "items on your record are cleared."),
+  P("You have been conditionally admitted to the B.A. in Music. The Office of Admissions makes the offer "
+    "final once the outstanding items on your record are cleared."),
   H("What is outstanding"),
   UL([
     "<strong>Read your To Do List in " + MYCSUEB + ".</strong> Everything holding up the offer is named there, usually final transcripts or proof that a degree was conferred.",
@@ -190,8 +192,8 @@ add("ba-4-fully-admitted", "ba", "Fully Admitted",
     "updates once the payment clears."),
   P("Then read " + A(U["gotin"], "I got in! Now what?") + ", which walks through orientation, advising, and "
     "the department steps ahead."),
-  P("Scholarships ask nothing further of you. We consider incoming students from the audition and application "
-    "materials already on file."),
+  P("Scholarships ask nothing further of you. We consider incoming students from the audition materials "
+    "already on file."),
   P("Questions before you accept? " + CALL),
   FOOTER])
 
@@ -249,8 +251,9 @@ add("ma-2-application-received", "ma", "Application Received",
   "Your M.A. application", [
   P("Hi {{FIRST_NAME}},"),
   P("Congratulations, your application to the Master of Arts in Music is complete."),
-  P("We read graduate applications as they come in, and once the Office of Graduate Admissions has been "
-    "through your CSUApply file we move to a decision. Your status shows up in " + MYCSUEB + "."),
+  P("We read the materials you sent us, your CV, your letters, and the evidence of your abilities, as they "
+    "come in. The Office of Graduate Admissions verifies your transcripts and official documents "
+    "separately, and we move to a decision once both are done. Your status shows up in " + MYCSUEB + "."),
   funding([GTA, ISA, GLASOW]),
   P("Anything you want to ask before you hear from us, " + CALL.lower()[0] + CALL[1:]),
   FOOTER])
@@ -335,8 +338,9 @@ add("cert-2-application-received", "cert", "Application Received",
   P("Hi {{FIRST_NAME}},"),
   P("Congratulations, your application to the Single Subject Matter Preparation Certificate in Music is "
     "complete."),
-  P("We read graduate applications as they come in, and once the Office of Graduate Admissions has been "
-    "through your CSUApply file we move to a decision. Your status shows up in " + MYCSUEB + "."),
+  P("We read the materials you sent us, your CV, your letters, and the evidence of your abilities, as they "
+    "come in. The Office of Graduate Admissions verifies your transcripts and official documents "
+    "separately, and we move to a decision once both are done. Your status shows up in " + MYCSUEB + "."),
   funding([ISA]),
   P("Anything you want to ask before you hear from us, " + CALL.lower()[0] + CALL[1:]),
   FOOTER])
