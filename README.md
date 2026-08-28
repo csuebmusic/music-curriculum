@@ -49,6 +49,12 @@ Posted syllabi for individual sections, one file per section per term, with a pe
 
 - [fall 2026](https://csuebmusic.github.io/music-curriculum/syllabi/fall-2026/)
 
+## curriculum committee
+
+Proposals under CLASS Curriculum Committee review, with review notes where feedback has been given, in `committee/ccc/`.
+
+- [CCC README](committee/ccc/README.md), [Theatre Arts, B.A., revision](committee/ccc/proposals/theatre-arts-ba-revision-fall-2027.md), [review notes](committee/ccc/proposals/theatre-arts-ba-revision-fall-2027-review.md)
+
 ## graduate recruitment
 
 Working documents for the graduate recruitment facilitator role, in `committee/grad-facilitator/`.
@@ -66,7 +72,7 @@ Working documents for the graduate recruitment facilitator role, in `committee/g
 - `syllabi/` holds the syllabi posted for individual sections, in one folder per term.
 - `curriculum/` holds course and program proposals and curriculum documentation, organized into subsections, each with its own README. The first is the undergraduate Theory and Musicianship sequence.
 - `documents/` holds the handbooks, the roadmaps, the admissions email set, and program and policy material.
-- `committee/` holds agendas, minutes, and papers for committee service: the CLASS Curriculum Committee, and the graduate recruitment facilitator role in `committee/grad-facilitator/`.
+- `committee/` holds agendas, minutes, and papers for committee service: the CLASS Curriculum Committee in `committee/ccc/`, and the graduate recruitment facilitator role in `committee/grad-facilitator/`.
 - `assessment/` holds program learning outcomes, assessment reports, and review cycles.
 - `website/` holds structural HTML snippets that get pasted into Cascade, which supplies its own styling.
 
