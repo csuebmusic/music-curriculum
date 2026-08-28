@@ -34,13 +34,13 @@ Section 8 asks whether the updated roadmap, curriculum map, and assessment plan 
 
 Two corrections to the wording. The Associate Degree for Transfer is a systemwide transfer model curriculum, so the campus updates its own ADT roadmaps and articulation rather than the ADT itself. And the four units are added to the major, not to the total number of required units for the degree, which stays at 120.
 
-Three ADT roadmaps are currently posted for Theater Arts, one for each concentration: Stage Technology and Design, Theatre Performance: Acting and Musical Theatre, and Dance and Inclusive Performance. All three fall out of date with this revision. The articulation officer reviews undergraduate proposals during APS technical review, so it is faster to bring the updated roadmaps with the proposal than to have them requested afterward.
+Three ADT roadmaps are currently posted for Theater Arts, one for each concentration: Stage Technology and Design, Theatre Performance: Acting and Musical Theatre, and Dance and Inclusive Performance. All three map to concentrations that no longer exist, and this revision changes the major that replaces them. The articulation officer reviews undergraduate proposals during APS technical review, so it is faster to bring the updated roadmaps with the proposal than to have them requested afterward.
 
 The 60-unit expectation for ADT transfer students is the item to check against the new core. A four-unit increase in the major, combined with three upper-division Area 3 core courses that cannot all double count, tightens the path. Run one ADT roadmap through to confirm the count still lands before this goes forward.
 
 ## concentrations
 
-This is filed on the Shared Core form, which cannot revise concentrations, and the schema shows a single 36-unit major with no concentration structure. The three concentrations named on the ADT list need to be accounted for. If they were retired in the earlier revision, say so in the rationale and confirm the ADT page and the catalog reflect it. If they remain, the unit outline has to show shared core plus concentration units, and each concentration needs its own revision proposal.
+The concentrations were retired in the earlier revision, so the single 36-unit major in 5b is the whole structure and the Shared Core form is the right one. What remains open is the ADT page, which still posts one roadmap per retired concentration. One roadmap to the single major replaces all three, and that goes to the articulation officer.
 
 ## required courses drawn from Music
 
@@ -54,7 +54,17 @@ The consultation field also describes Buddy James and Inés Thiebaut as programs
 
 The core depends on DANC 360 and DANC 370 being repeatable to 3 units and MUS 363B to 2. Confirm each course record in the 2027-2028 draft catalog carries a repeat limit at or above what the core requires. Where the record caps lower, the course record needs a revision proposal alongside this one.
 
-MUS 363B is entered with its units in the title and a blank units column, the treatment the form specifies for new courses. It is an existing Music course and should be imported from the draft catalog instead, in both the core and the elective list. Its elective annotation also reads [Before] where the parallel DANC entries read [Right].
+MUS 363B is entered with its units in the title and a blank units column, which is the treatment the form specifies for courses added as new. Its elective annotation reads [Before] where the parallel DANC entries read [Right].
+
+## the new Taiko course
+
+MUS 363B is proposed as a new course this cycle, submitted separately from this revision. The letter suffix pairs it with the percussion ensemble and matches what Music already does with MUS 351A. It carries a Music prefix, so the number belongs to the Music side of the department and Buddy James confirms it.
+
+The two proposals travel together. If the course proposal does not clear in the same cycle, the core loses 2 units, the major falls to 34, and both the schema in 5b and the unit outline in 5a change with it.
+
+Three items set in the course proposal, not here. The repeat limit has to allow two enrollments for the core and further enrollments for elective credit. The course classification determines the workload formula for an ensemble. And the course is required of every major, so the proposal should name who teaches it and how often it runs.
+
+Expect a question about overlap with DANC 218, Wellness through Taiko, Tango, Tai Chi & Beyond, which already carries taiko content. A sentence distinguishing the two closes it.
 
 ## capstone
 

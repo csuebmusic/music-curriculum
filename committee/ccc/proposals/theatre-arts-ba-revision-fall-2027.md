@@ -9,6 +9,7 @@
 | Proposed effective term | Fall 2027 (2027-2028 catalog) |
 | Source | Curriculog preview, "Update to Theatre and Dance Curriculum Fall 2026" |
 | Status | at CLASS Curriculum Committee review |
+| Concentrations | retired in the prior revision |
 
 Fields below reproduce the proposal as submitted. Section numbering follows the Curriculog form.
 
@@ -83,7 +84,7 @@ Heading as submitted: Theatre Arts Major Requirements (36 units), 27 units of co
 | THEA 341 | Dramatic Activities for Children | 3 | GE-UD-3 |
 | THEA 493 | Theatre Capstone | 1 | |
 
-MUS 363B is entered with its units in the course title rather than the units column, the convention the form gives for courses added as new.
+MUS 363B is entered with its units in the course title rather than the units column, the convention the form gives for courses added as new. It is a new course, proposed separately in the same cycle.
 
 ### electives, at least 9 units
 
