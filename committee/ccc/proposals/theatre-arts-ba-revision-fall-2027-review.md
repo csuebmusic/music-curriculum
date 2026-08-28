@@ -62,13 +62,25 @@ MUS 363B is proposed as a new course this cycle, submitted separately from this 
 
 The two proposals travel together. If the course proposal does not clear in the same cycle, the core loses 2 units, the major falls to 34, and both the schema in 5b and the unit outline in 5a change with it.
 
-Three items set in the course proposal, not here. The repeat limit has to allow two enrollments for the core and further enrollments for elective credit. The course classification determines the workload formula for an ensemble. And the course is required of every major, so the proposal should name who teaches it and how often it runs.
+Three items set in the course proposal, not here. The repeat limit has to allow two enrollments for the core and further enrollments for elective credit. The course is required of every major, so the proposal should name who teaches it and how often it runs. And the course classification sets both the meeting pattern and the workload: C9, music activity large group, runs 2 class hours per unit at a normal size of 50 with a K-factor of 1.3, and C10, music activity small group, runs the same 2 hours at a normal size of 12. Either one makes a 1-unit ensemble a two-hour weekly meeting, which is the figure Music schedules against.
 
 Expect a question about overlap with DANC 218, Wellness through Taiko, Tango, Tai Chi & Beyond, which already carries taiko content. A sentence distinguishing the two closes it.
 
 ## capstone
 
-THEA 493 Theatre Capstone carries 1 unit against a program description that offers directing, choreographing, performing, writing, interning, or designing as the culmination. Expect the question at college committee and at APS. A sentence in the rationale describing the scope of work at 1 unit, or a unit value that matches the description, closes it.
+THEA 493 Theatre Capstone carries 1 unit and the proposal does not name a course classification. Under the CSU course classification system, 1 unit describes very different things depending on the code.
+
+| Code | Description | Class hours per unit | Normal size, UD | K-factor |
+| --- | --- | --- | --- | --- |
+| C5 | seminar | 1 | 25 | 1.0 |
+| C12 | speech, drama, and journalism activities | 2 | 25 | 1.3 |
+| C20 | major performance | 3 or more | 20 | 3.0 |
+| S25 | practice teaching, work study, thesis and projects | none scheduled | 25 | 0.48 |
+| S36 | independent study, field work, studio instruction, supervised activities | none scheduled | 36 | 0.333 |
+
+At C5 the capstone is one scheduled hour a week for the whole cohort. At C12 it is two. At C20 it is three or more at a K-factor of 3.0, which becomes a resource question rather than a curriculum question. The supervision codes carry no scheduled class hours and generate workload per student, which is the shape that fits a culmination where students direct, choreograph, write, intern, or design on their own projects. C77 and C78 carry a K-factor of 0.0 and generate no workload credit.
+
+The classification also answers the staffing claim in 3c. One faculty member covering almost all core requirements reads differently depending on whether the capstone is a 1 WTU seminar or a supervision code carried across every graduating major. Naming the classification in the proposal settles both the capstone question and the workload picture behind the rationale.
 
 ## rationale in 3c
 
