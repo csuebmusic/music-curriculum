@@ -1,225 +1,215 @@
-# catalog audit
+# course inventory
 
 California State University, East Bay, Department of Music.
 
-Course inventory for the 140 MUS courses in the 2026-2027 catalog, built from the Curriculog proposal archive. Each course carries the values from its most recent completed proposal, the date of that proposal, and the form generation it was filed under. Revisions arising from this audit target the 2027-2028 catalog, with the college curriculum committee deadline of March 1, 2027.
-
-## sources
-
-Course roster and course-type groupings: 2026-2027 catalog, Department of Music and Performing Arts. Course field values and proposal history: Curriculog completed-proposal archive, 523 proposals, February 2016 through September 2025. Banked numbers: APS banked course list, September 2025.
-
-## reading the table
-
-Values are as stored in Curriculog and are what a revision form imports. The published catalog text differs on courses filed under the older forms, where APS normalized wording at export: MUS 281 stores a prerequisite of instructor permission and a corequisite list of 30 numbers, and publishes as department consent with a corequisite of the MUS 261-269 series. Blank means the field carries no value in any proposal for that course.
-
-Last is the date of the most recent completed proposal. Form is the catalog year of the form it was filed under, or semester conversion for the 2016 conversion set. Count is the total number of proposals on record.
+The 140 MUS courses in the 2026-2027 catalog. Units, repeatability, grading, and offering are the published catalog values. Classification is the teaching component and unit split from the most recent Curriculog proposal that carries component data. Last is the date of the most recent completed proposal. Findings are the discrepancies and edits identified in the audit; they are the basis for the proposal queue for the 2027-2028 catalog.
 
 ## applied study (ld)
 
-| course | title | units | repeatable | grading | offered | last | form | count |
+| course | title | units | classification | repeatable | grading | offered | last | findings |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| MUS 261 | Applied Study: Piano | 1 | to 8 units | A-F only | Fall & Spring | 2022-02-22 | 2021-22 | 1 |
-| MUS 261G | Group Applied Study: Piano | 1 | to 4 units | A-F or CR/NC | Fall & Spring | 2022-02-22 | 2021-22 | 1 |
-| MUS 262 | Applied Study: Voice | 1 | to 8 units | A-F only | Fall & Spring | 2022-02-22 | 2021-22 | 2 |
-| MUS 262G | Group Applied Study: Voice | 1 | to 4 units | A-F or CR/NC | Fall & Spring | 2022-02-22 | 2021-22 | 1 |
-| MUS 263 | Applied Study: Strings | 1 | to 8 units | A-F only | Fall & Spring | 2022-02-22 | 2021-22 | 2 |
-| MUS 263G | Group Applied Study: Guitar | 1 | to 4 units | A-F or CR/NC | Fall & Spring | 2022-02-22 | 2021-22 | 1 |
-| MUS 264 | Applied Study: Woodwinds | 1 | to 8 units | A-F only | Fall & Spring | 2022-02-22 | 2021-22 | 1 |
-| MUS 265 | Applied Study: Brass | 1 | to 8 units | A-F only | Fall & Spring | 2022-02-22 | 2021-22 | 1 |
-| MUS 266 | Applied Study: Percussion | 1 | to 8 units | A-F only | Fall & Spring | 2022-02-22 | 2021-22 | 2 |
+| MUS 261 | Applied Study: Piano | 1 | C36 1u | to 4 units | A-F grading only | Fall & Spring | 2022-02-22 | jury sentence states a failing grade where the rest of the series refers to the handbook; range MUS 351-355 spans empty numbers 352, 354; repeat cap of 4 units where the individual lower-division applied norm is 8 |
+| MUS 261G | Group Applied Study: Piano | 1 | C10 1u | to 4 units | A-F or CR/NC (student choice) | Fall & Spring | 2022-02-22 | none |
+| MUS 262 | Applied Study: Voice | 1 | C36 1u | to 8 units | A-F grading only | Fall & Spring | 2022-02-22 | jury sentence states a failing grade where the rest of the series refers to the handbook; range MUS 351-355 spans empty numbers 352, 354 |
+| MUS 262G | Group Applied Study: Voice | 1 | C10 1u | to 4 units | A-F or CR/NC (student choice) | Fall & Spring | 2022-02-22 | none |
+| MUS 263 | Applied Study: Strings | 1 | C36 1u | to 8 units | A-F grading only | Fall & Spring | 2022-02-22 | description runs to 46 words, over the 40-word limit; learning outcome names the violin in a multi-instrument course; range MUS 351-355 spans empty numbers 352, 354 |
+| MUS 263G | Group Applied Study: Guitar | 1 | C10 1u | to 4 units | A-F or CR/NC (student choice) | Fall & Spring | 2022-02-22 | none |
+| MUS 264 | Applied Study: Woodwinds | 1 | C36 1u | to 8 units | A-F grading only | Fall & Spring | 2022-02-22 | description runs to 45 words, over the 40-word limit; learning outcome names the flute in a multi-instrument course; range MUS 351-355 spans empty numbers 352, 354 |
+| MUS 265 | Applied Study: Brass | 1 | C36 1u | to 8 units | A-F grading only | Fall & Spring | 2022-02-22 | jury sentence states a failing grade where the rest of the series refers to the handbook; published description differs from the record; range MUS 351-355 spans empty numbers 352, 354 |
+| MUS 266 | Applied Study: Percussion | 1 | C36 1u | to 4 units | A-F grading only | Fall & Spring | 2022-02-22 | range MUS 351-355 spans empty numbers 352, 354; repeat cap of 4 units where the individual lower-division applied norm is 8 |
 
 ## applied study (ud)
 
-| course | title | units | repeatable | grading | offered | last | form | count |
+| course | title | units | classification | repeatable | grading | offered | last | findings |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| MUS 461 | Applied Study: Piano | 1-2 | to 8 units | A-F only | Fall & Spring | 2023-09-15 | 2024-25 | 2 |
-| MUS 461A | Applied Study: Jazz Piano and Keyboard | 1-2 | to 8 units | A-F only | Fall & Spring | 2023-09-15 | 2024-25 | 4 |
-| MUS 462 | Applied Study: Voice | 1-2 | to 8 units | A-F only | Fall & Spring | 2023-09-15 | 2024-25 | 3 |
-| MUS 463 | Applied Study: Strings | 1-2 | to 8 units | A-F only | Fall & Spring | 2023-09-15 | 2024-25 | 2 |
-| MUS 463A | Applied Study: Jazz Strings | 1-2 | to 8 units | A-F only | Fall & Spring | 2023-09-15 | 2024-25 | 3 |
-| MUS 464 | Applied Study: Woodwinds | 1-2 | to 8 units | A-F only | Fall & Spring | 2023-09-15 | 2024-25 | 2 |
-| MUS 464A | Applied Study: Jazz Woodwinds | 1-2 | to 8 units | A-F only | Fall & Spring | 2023-09-15 | 2024-25 | 3 |
-| MUS 465 | Applied Study: Brass | 1-2 | to 8 units | A-F only | Fall & Spring | 2023-09-15 | 2024-25 | 2 |
-| MUS 465A | Applied Study: Jazz Brass | 1-2 | to 8 units | A-F only | Fall & Spring | 2023-09-15 | 2024-25 | 3 |
-| MUS 466 | Applied Study: Percussion | 1-2 | to 8 units | A-F only | Fall & Spring | 2023-09-15 | 2024-25 | 3 |
-| MUS 466A | Applied Study: Jazz Percussion | 1-2 | to 8 units | A-F only | Fall & Spring | 2023-09-15 | 2024-25 | 2 |
-| MUS 467 | Applied Study: Composition | 1-2 | to 8 units | A-F only | Fall & Spring | 2023-09-15 | 2024-25 | 2 |
-| MUS 467A | Applied Study: Music Production | 1-2 | to 8 units | A-F only | Fall & Spring | 2023-09-15 | 2024-25 | 3 |
-| MUS 468 | Applied Study: Conducting | 1-2 | to 8 units | A-F only | Fall & Spring | 2023-09-15 | 2024-25 | 3 |
+| MUS 461 | Applied Study: Piano | 1-2 | C36 1-2u | to 8 units | A-F grading only | Fall & Spring | 2023-09-15 | jury sentence states a failing grade where the rest of the series refers to the handbook; published description differs from the record; range MUS 351-355 spans empty numbers 352, 354; requires MUS 261A, renumbered or discontinued |
+| MUS 461A | Applied Study: Jazz Piano and Keyboard | 1-2 | C36 1-2u | to 8 units | A-F grading only | Fall & Spring | 2023-09-15 | range MUS 351-355 spans empty numbers 352, 354 |
+| MUS 462 | Applied Study: Voice | 1-2 | C36 1-2u | to 8 units | A-F grading only | Fall & Spring | 2023-09-15 | range MUS 351-355 spans empty numbers 352, 354 |
+| MUS 463 | Applied Study: Strings | 1-2 | C36 1-2u | to 8 units | A-F grading only | Fall & Spring | 2023-09-15 | range MUS 351-355 spans empty numbers 352, 354 |
+| MUS 463A | Applied Study: Jazz Strings | 1-2 | C36 1-2u | to 8 units | A-F grading only | blank | 2023-09-15 | prerequisite ends with a doubled period; range MUS 351-355 spans empty numbers 352, 354 |
+| MUS 464 | Applied Study: Woodwinds | 1-2 | C36 1-2u | to 8 units | A-F grading only | Fall & Spring | 2023-09-15 | range MUS 351-355 spans empty numbers 352, 354 |
+| MUS 464A | Applied Study: Jazz Woodwinds | 1-2 | C36 1-2u | to 8 units | A-F grading only | Fall & Spring | 2023-09-15 | range MUS 351-355 spans empty numbers 352, 354 |
+| MUS 465 | Applied Study: Brass | 1-2 | C36 1-2u | to 8 units | A-F grading only | Fall & Spring | 2023-09-15 | range MUS 351-355 spans empty numbers 352, 354 |
+| MUS 465A | Applied Study: Jazz Brass | 1-2 | C36 1-2u | to 8 units | A-F grading only | blank | 2023-09-15 | range MUS 351-355 spans empty numbers 352, 354 |
+| MUS 466 | Applied Study: Percussion | 1-2 | C36 1-2u | to 8 units | A-F grading only | Fall & Spring | 2023-09-15 | range MUS 351-355 spans empty numbers 352, 354 |
+| MUS 466A | Applied Study: Jazz Percussion | 1-2 | C36 1-2u | to 8 units | A-F grading only | Fall & Spring | 2023-09-15 | range MUS 351-355 spans empty numbers 352, 354 |
+| MUS 467 | Applied Study: Composition | 1-2 | C36 1-2u | to 8 units | A-F grading only | Fall & Spring | 2023-09-15 | prerequisite written without a space in the course number; range MUS 351-355 spans empty numbers 352, 354; requires MUS 180, renumbered or discontinued |
+| MUS 467A | Applied Study: Music Production | 1-2 | C36 1-2u | to 8 units | A-F grading only | Fall & Spring | 2023-09-15 | prerequisite written without a space in the course number; range MUS 351-355 spans empty numbers 352, 354; requires MUS 180, renumbered or discontinued |
+| MUS 468 | Applied Study: Conducting | 1-2 | C36 1-2u | to 8 units | A-F grading only | Fall & Spring | 2023-09-15 | prerequisite written without a space in the course number; range MUS 351-355 spans empty numbers 352, 354 |
 
 ## business and entrepreneurship
 
-| course | title | units | repeatable | grading | offered | last | form | count |
+| course | title | units | classification | repeatable | grading | offered | last | findings |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| MUS 202 | Writing About Music | blank | blank | A-F only | Fall & Spring | 2020-10-06 | 2020-21 | 2 |
-| MUS 303 | Entrepreneurship in the Arts | 3 | blank | A-F only | Spring only | 2023-09-14 | 2024-25 | 2 |
+| MUS 202 | Writing About Music | 3 | C02 | no | A-F grading only | blank | 2020-10-06 | description runs to 42 words, over the 40-word limit |
+| MUS 303 | Entrepreneurship in the Arts | 3 | C02 3u | no | A-F or CR/NC (student choice) | Spring ONLY | 2023-09-14 | none |
 
 ## chamber ensembles
 
-| course | title | units | repeatable | grading | offered | last | form | count |
+| course | title | units | classification | repeatable | grading | offered | last | findings |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| MUS 360 | Rock Band | 1 | to 8 units | A-F or CR/NC | Fall & Spring | 2023-02-14 | 2023-24 | 1 |
-| MUS 360A | Mariachi Ensemble | 1 | to 8 units | A-F or CR/NC | Fall & Spring | 2025-09-14 | 2026-27 | 1 |
-| MUS 361 | Chamber Ensemble | 1 | to 6 units | A-F only | Fall & Spring | 2023-02-14 | 2023-24 | 2 |
-| MUS 363 | Percussion Ensemble | 1 | to 4 units | A-F only | blank | 2016-05-12 | conversion | 1 |
-| MUS 365 | Chamber Orchestra | 1 | to 8 units | A-F only | Fall & Spring | 2023-09-15 | 2024-25 | 3 |
-| MUS 366 | Electronic Music Ensemble | 1 | to 8 units | A-F or CR/NC | Fall & Spring | 2023-09-15 | 2024-25 | 2 |
-| MUS 367 | Piano Ensemble | 1 | to 4 units | A-F or CR/NC | blank | 2016-05-12 | conversion | 1 |
-| MUS 368 | Jazz Combo | 1 | to 8 units | A-F only | Fall & Spring | 2023-02-14 | 2023-24 | 1 |
-| MUS 369A | Vocal Repertory Ensemble | 1 | to 4 units | A-F or CR/NC | blank | 2016-05-19 | conversion | 1 |
-| MUS 369B | Chamber Singers | 1 | to 4 units | A-F or CR/NC | blank | 2016-05-19 | conversion | 1 |
-| MUS 369C | Jazz Singers | 1 | to 4 units | A-F or CR/NC | Variable | 2023-02-15 | 2023-24 | 2 |
-| MUS 369D | A Cappella Ensemble | 1 | to 8 units | A-F or CR/NC | Fall & Spring | 2023-02-14 | 2023-24 | 1 |
+| MUS 360 | Rock Band | 1 | C10 1u | to 8 units | A-F or CR/NC (student choice) | Fall & Spring | 2023-02-14 | repeatability uses non-standard phrasing |
+| MUS 360A | Mariachi Ensemble | 1 | C10 1u | to 8 units | A-F or CR/NC (student choice) | Fall & Spring | 2025-09-14 | grading A-F or CR/NC (student choice) where the chamber ensemble norm is A-F or CR/NC (student choice); repeatability uses non-standard phrasing |
+| MUS 361 | Chamber Ensemble | 1 | C10 1u | to 6 units | A-F grading only | Fall & Spring | 2023-02-14 | grading A-F grading only where the chamber ensemble norm is A-F or CR/NC (student choice); repeat cap of 6 units where the chamber ensemble norm is 8 |
+| MUS 363 | Percussion Ensemble | 1 | C10 1u | to 4 units | A-F grading only | Fall & Spring | 2016-05-12 | grading A-F grading only where the chamber ensemble norm is A-F or CR/NC (student choice); last revised 2016-05-12, still on the 2016 conversion form; repeat cap of 4 units where the chamber ensemble norm is 8 |
+| MUS 365 | Chamber Orchestra | 1 | C10 1u | to 8 units | A-F grading only | Fall & Spring | 2023-09-15 | grading A-F grading only where the chamber ensemble norm is A-F or CR/NC (student choice) |
+| MUS 366 | Electronic Music Ensemble | 1 | C10 1u | to 8 units | A-F or CR/NC (student choice) | Fall & Spring | 2023-09-15 | description runs to 41 words, over the 40-word limit; repeatability uses non-standard phrasing |
+| MUS 367 | Piano Ensemble | 1 | C10 1u | to 4 units | A-F or CR/NC (student choice) | Fall & Spring | 2016-05-12 | last revised 2016-05-12, still on the 2016 conversion form; repeat cap of 4 units where the chamber ensemble norm is 8 |
+| MUS 368 | Jazz Combo | 1 | C10 1u | to 6 units | A-F grading only | Fall & Spring | 2023-02-14 | grading A-F grading only where the chamber ensemble norm is A-F or CR/NC (student choice); repeat cap of 6 units where the chamber ensemble norm is 8 |
+| MUS 369A | Vocal Repertory Ensemble | 1 | C10 1u | to 4 units | A-F or CR/NC (student choice) | Fall & Spring | 2016-05-19 | last revised 2016-05-19, still on the 2016 conversion form; repeat cap of 4 units where the chamber ensemble norm is 8 |
+| MUS 369B | Chamber Singers | 1 | C10 1u | to 4 units | A-F or CR/NC (student choice) | Fall & Spring | 2016-05-19 | last revised 2016-05-19, still on the 2016 conversion form; repeat cap of 4 units where the chamber ensemble norm is 8 |
+| MUS 369C | Jazz Singers | 1 | C10 1u | to 4 units | A-F or CR/NC (student choice) | blank | 2023-02-15 | repeat cap of 4 units where the chamber ensemble norm is 8 |
+| MUS 369D | A Cappella Ensemble | 1 | C10 1u | to 8 units | A-F or CR/NC (student choice) | Fall & Spring | 2023-02-14 | none |
 
 ## composition
 
-| course | title | units | repeatable | grading | offered | last | form | count |
+| course | title | units | classification | repeatable | grading | offered | last | findings |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| MUS 280 | Composers Workshop | 1 | to 2 units | A-F or CR/NC | Fall & Spring | 2023-02-14 | 2023-24 | 5 |
-| MUS 381 | Essentials of Music Technology | blank | blank | blank | blank | 2020-10-14 | 2020-21 | 1 |
-| MUS 412 | Contrapuntal Techniques | 3 | no | A-F or CR/NC | Spring, alternate years | 2023-02-14 | 2023-24 | 3 |
-| MUS 414 | Contemporary Orchestration and Arranging | 3 | no | A-F or CR/NC | Fall, alternate years | 2023-02-14 | 2023-24 | 3 |
-| MUS 415 | MIDI Orchestration | 3 | no | A-F or CR/NC | Variable | 2023-02-14 | 2023-24 | 3 |
-| MUS 485 | Advanced Sound Design I: Sampling, Editing, and Mixing | 3 | no | A-F or CR/NC | Spring only | 2025-09-15 | 2026-27 | 3 |
-| MUS 486 | Advanced Sound Design II: Synthesis, Modulation & Creative Digital Signal Processing | 3 | no | A-F or CR/NC | Fall only | 2025-09-15 | 2026-27 | 3 |
+| MUS 280 | Composers Workshop | 1 | C10 1u | to 2 units | A-F or CR/NC (student choice) | Fall & Spring | 2023-02-14 | none |
+| MUS 381 | Essentials of Music Technology | 3 | blank | no | A-F or CR/NC (student choice) | blank | 2020-10-14 | no teaching component or classification on record |
+| MUS 412 | Contrapuntal Techniques | 3 | C04 3u | no | A-F or CR/NC (student choice) | Fall Alternate Years | 2023-02-14 | none |
+| MUS 414 | Contemporary Orchestration and Arranging | 3 | C04 3u | no | A-F or CR/NC (student choice) | Fall Alternate Years | 2023-02-14 | none |
+| MUS 415 | MIDI Orchestration | 3 | C02 2u + C10 1u | no | A-F or CR/NC (student choice) | Variable Intermittently | 2023-02-14 | none |
+| MUS 485 | Advanced Sound Design I: Sampling, Editing, and Mixing | 3 | C02 2u + C13 1u | no | A-F or CR/NC (student choice) | Spring ONLY | 2025-09-15 | none |
+| MUS 486 | Advanced Sound Design II: Synthesis, Modulation & Creative Digital | 3 | C02 2u + C13 1u | no | A-F or CR/NC (student choice) | Fall ONLY | 2025-09-15 | none |
 
 ## courses for non-music majors
 
-| course | title | units | repeatable | grading | offered | last | form | count |
+| course | title | units | classification | repeatable | grading | offered | last | findings |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| MUS 103A | Elementary Piano for Non-Majors I | blank | blank | A-F or CR/NC | blank | 2019-02-15 | 2019-20 | 1 |
-| MUS 103B | Elementary Piano for Non-Majors II | blank | blank | A-F or CR/NC | blank | 2019-02-15 | 2019-20 | 1 |
-| MUS 106 | History of Rock Music | 3 | blank | A-F or CR/NC | blank | 2025-09-15 | 2026-27 | 3 |
-| MUS 106B | Music in Film | 3 | blank | A-F or CR/NC | blank | 2025-09-15 | 2026-27 | 3 |
-| MUS 106C | History of the Blues | 3 | blank | A-F or CR/NC | blank | 2025-09-15 | 2026-27 | 3 |
-| MUS 108 | The Language of Music | 3 | blank | A-F or CR/NC | blank | 2025-09-15 | 2026-27 | 3 |
-| MUS 121 | Music Through the Ages | 3 | to 3 units | A-F or CR/NC | blank | 2025-09-15 | 2026-27 | 6 |
-| MUS 302 | What to Listen for in Music | 3 | blank | A-F only | blank | 2022-09-26 | 2023-24 | 4 |
-| MUS 304 | World Music & Culture | 3 | to 3 units | A-F or CR/NC | blank | 2022-09-22 | 2023-24 | 4 |
+| MUS 103A | Elementary Piano for Non-Majors I | 1 | blank | to 2 units | A-F or CR/NC (student choice) | blank | 2019-02-15 | no teaching component or classification on record |
+| MUS 103B | Elementary Piano for Non-Majors II | 1 | blank | to 2 units | A-F or CR/NC (student choice) | blank | 2019-02-15 | no teaching component or classification on record |
+| MUS 106 | History of Rock Music | 3 | C01 3u | no | A-F or CR/NC (student choice) | Fall & Spring | 2025-09-15 | none |
+| MUS 106B | Music in Film | 3 | C01 3u | no | A-F or CR/NC (student choice) | Spring ONLY | 2025-09-15 | none |
+| MUS 106C | History of the Blues | 3 | C01 3u | no | A-F or CR/NC (student choice) | Fall & Spring | 2025-09-15 | none |
+| MUS 108 | The Language of Music | 3 | C05 3u | no | A-F or CR/NC (student choice) | Fall & Spring | 2025-09-15 | none |
+| MUS 121 | Music Through the Ages | 3 | C02 3u | no | A-F or CR/NC (student choice) | Fall & Spring | 2025-09-15 | none |
+| MUS 302 | What to Listen for in Music | 3 | C02 3u | no | A-F grading only | Fall & Spring | 2022-09-26 | none |
+| MUS 304 | World Music & Culture | 3 | C02 3u | no | A-F or CR/NC (student choice) | Fall & Spring | 2022-09-22 | none |
 
 ## graduate studies
 
-| course | title | units | repeatable | grading | offered | last | form | count |
+| course | title | units | classification | repeatable | grading | offered | last | findings |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| MUS 600 | Seminar in Research Methodology | 3 | to 6 units | A-F only | blank | 2016-02-05 | conversion | 1 |
-| MUS 601 | Analysis of Musical Styles: Birth and Death of Tonality | 2 | no | A-F only | Fall, alternate years | 2024-01-31 | 2024-25 | 2 |
-| MUS 602 | Analysis of Musical Styles: Post-Tonality and Beyond | 2 | no | A-F only | Fall, alternate years | 2024-01-31 | 2024-25 | 2 |
-| MUS 603 | Entrepreneurship in the Arts | 3 | blank | A-F only | Fall, alternate years | 2024-01-31 | 2024-25 | 1 |
-| MUS 604 | Sounding Justice: Unveiling the Ecological and Social Dimensions of Music | 2 | blank | A-F only | Spring, alternate years | 2024-01-31 | 2024-25 | 1 |
-| MUS 605 | History and Theory of Jazz | 2 | blank | A-F only | Spring, alternate years | 2024-01-31 | 2024-25 | 1 |
-| MUS 606 | Interdisciplinary Collaboration in Music | 2 | blank | A-F only | Fall, alternate years | 2024-01-31 | 2024-25 | 1 |
-| MUS 610 | Seminar in Music of the 20th (post-1945) & 21st Centuries | 3 | blank | A-F only | Spring, alternate years | 2021-09-22 | 2021-22 | 1 |
-| MUS 622 | Seminar in Asian Music and Culture | 3 | no | A-F only | blank | 2016-02-24 | conversion | 1 |
-| MUS 630 | Advanced Conducting | 2 | to 4 units | A-F only | Fall, alternate years | 2024-01-31 | 2024-25 | 2 |
-| MUS 631 | Teaching Music in Higher Education | 2 | no | A-F only | Spring, alternate years | 2024-01-31 | 2024-25 | 2 |
-| MUS 633 | Pedagogy of Music Theory | blank | blank | A-F only | blank | 2019-02-15 | 2019-20 | 1 |
-| MUS 638 | History and Philosophy of Music Education | blank | blank | A-F only | blank | 2019-02-15 | 2019-20 | 1 |
-| MUS 660A | Graduate Vocal Coaching | 1-2 | to 8 units | A-F only | Fall & Spring | 2024-01-31 | 2024-25 | 3 |
-| MUS 660B | Graduate Instrumental Coaching | 1-2 | to 8 units | A-F only | Fall & Spring | 2024-01-31 | 2024-25 | 3 |
-| MUS 661 | Graduate Applied Study: Piano | 1-2 | to 8 units | A-F only | Fall & Spring | 2024-01-31 | 2024-25 | 2 |
-| MUS 661A | Graduate Applied Study: Jazz Piano and Keyboard | 1-2 | to 8 units | A-F only | Fall & Spring | 2024-01-31 | 2024-25 | 4 |
-| MUS 662 | Graduate Applied Study: Voice | 1-2 | to 8 units | A-F only | Fall & Spring | 2024-01-31 | 2024-25 | 4 |
-| MUS 663 | Graduate Applied Study: Strings | 1-2 | to 8 units | A-F only | Fall & Spring | 2024-01-31 | 2024-25 | 2 |
-| MUS 663A | Graduate Applied Study: Jazz Strings | 1-2 | to 8 units | A-F only | Fall & Spring | 2024-01-31 | 2024-25 | 4 |
-| MUS 664 | Graduate Applied Study: Woodwinds | 1-2 | to 8 units | A-F only | Fall & Spring | 2024-01-31 | 2024-25 | 2 |
-| MUS 664A | Graduate Applied Study: Jazz Woodwinds | 1-2 | to 8 units | A-F only | Fall & Spring | 2024-01-31 | 2024-25 | 4 |
-| MUS 665 | Graduate Applied Study: Brass | 1-2 | to 8 units | A-F only | Fall & Spring | 2024-01-31 | 2024-25 | 2 |
-| MUS 665A | Graduate Applied Study: Jazz Brass | 1-2 | to 8 units | A-F only | Fall & Spring | 2024-01-31 | 2024-25 | 4 |
-| MUS 666 | Graduate Applied Study: Percussion | 1-2 | to 8 units | A-F only | Fall & Spring | 2024-01-31 | 2024-25 | 4 |
-| MUS 666A | Graduate Applied Study: Jazz Percussion | 1-2 | to 8 units | A-F only | Fall & Spring | 2024-01-31 | 2024-25 | 2 |
-| MUS 667 | Graduate Applied Study: Composition | 1-2 | to 8 units | A-F only | Fall & Spring | 2024-01-31 | 2024-25 | 2 |
-| MUS 668 | Graduate Applied Study: Conducting | 1-2 | to 8 units | A-F only | Fall & Spring | 2024-01-31 | 2024-25 | 4 |
-| MUS 671 | Kodály Pedagogy | 1 | to 4 units | A-F or CR/NC | Variable | 2025-09-14 | 2026-27 | 1 |
-| MUS 676 | Introduction to Orff Schulwerk | 1 | to 4 units | A-F or CR/NC | Summer ONLY | 2025-09-15 | 2026-27 | 1 |
-| MUS 678 | Introduction to Dalcroze Eurythmics | 1 | to 4 units | A-F or CR/NC | Summer ONLY | 2025-09-15 | 2026-27 | 1 |
-| MUS 690 | Independent Study | 1-3 | to 3 units | A-F only | blank | 2016-02-26 | conversion | 1 |
-| MUS 691 | University Thesis | 1-4 | to 4 units | A-F only | blank | 2016-02-26 | conversion | 1 |
-| MUS 692 | Comprehensive Exam Review | blank | blank | A-F only | blank | 2019-08-30 | older | 1 |
-| MUS 693 | Graduate Music Capstone | 1 | to 4 units | A-F only | Fall & Spring | 2024-01-31 | 2024-25 | 2 |
-| MUS 697 | Issues in Music | 3 | to 6 units | A-F only | blank | 2016-02-26 | conversion | 1 |
-| MUS 698 | Internship | blank | blank | blank | blank | blank | blank | 0 |
-| MUS 699 | Departmental Thesis | blank | blank | A-F only | blank | 2019-08-30 | older | 1 |
+| MUS 600 | Seminar in Research Methodology | 3 | blank | to 6 units | A-F grading only | blank | 2016-02-05 | last revised 2016-02-05, still on the 2016 conversion form; no teaching component or classification on record |
+| MUS 601 | Analysis of Musical Styles: Birth and Death of Tonality | 2 | C05 2u | no | A-F grading only | Fall Alternate Years | 2024-01-31 | none |
+| MUS 602 | Analysis of Musical Styles: Post-Tonality and Beyond | 2 | C05 2u | no | A-F grading only | Fall Alternate Years | 2024-01-31 | none |
+| MUS 603 | Entrepreneurship in the Arts | 3 | C05 3u | no | A-F grading only | Fall Alternate Years | 2024-01-31 | none |
+| MUS 604 | Sounding Justice: Unveiling the Ecological and Social Dimensions of | 2 | C05 2u | no | A-F grading only | Spring Alternate Years | 2024-01-31 | none |
+| MUS 605 | History and Theory of Jazz | 2 | C05 2u | no | A-F grading only | Spring Alternate Years | 2024-01-31 | none |
+| MUS 606 | Interdisciplinary Collaboration in Music | 2 | C05 1u + C10 1u | no | A-F grading only | Fall Alternate Years | 2024-01-31 | none |
+| MUS 610 | Seminar in Music of the 20th (post-1945) & 21st Centuries | 3 | C05 3u | no | A-F grading only | Spring Alternate Years | 2021-09-22 | none |
+| MUS 622 | Seminar in Asian Music and Culture | 3 | blank | no | A-F grading only | blank | 2016-02-24 | last revised 2016-02-24, still on the 2016 conversion form; no teaching component or classification on record |
+| MUS 630 | Advanced Conducting | 2 | C05 1u + C10 1u | to 4 units | A-F grading only | Fall Alternate Years | 2024-01-31 | none |
+| MUS 631 | Teaching Music in Higher Education | 2 | C05 2u | no | A-F grading only | Spring Alternate Years | 2024-01-31 | none |
+| MUS 633 | Pedagogy of Music Theory | 3 | blank | no | A-F grading only | blank | 2019-02-15 | no teaching component or classification on record |
+| MUS 638 | History and Philosophy of Music Education | 3 | blank | no | A-F grading only | blank | 2019-02-15 | no teaching component or classification on record |
+| MUS 660A | Graduate Vocal Coaching | 1-2 | C36 1u | to 8 units | A-F grading only | blank | 2024-01-31 | prerequisite of department consent, absent on most graduate applied courses |
+| MUS 660B | Graduate Instrumental Coaching | 1-2 | C36 1u | to 8 units | A-F grading only | blank | 2024-01-31 | prerequisite of department consent, absent on most graduate applied courses; requires MUS 669, renumbered or discontinued |
+| MUS 661 | Graduate Applied Study: Piano | 1-2 | C36 1u | to 8 units | A-F grading only | Fall & Spring | 2024-01-31 | prerequisite of department consent, absent on most graduate applied courses |
+| MUS 661A | Graduate Applied Study: Jazz Piano and Keyboard | 1-2 | C36 1u | to 8 units | A-F grading only | Fall & Spring | 2024-01-31 | prerequisite of department consent, absent on most graduate applied courses |
+| MUS 662 | Graduate Applied Study: Voice | 1-2 | C36 1u | to 8 units | A-F grading only | Fall & Spring | 2024-01-31 | description runs to 41 words, over the 40-word limit; jury sentence states a failing grade where the rest of the series refers to the handbook |
+| MUS 663 | Graduate Applied Study: Strings | 1-2 | C36 1u | to 8 units | A-F grading only | blank | 2024-01-31 | none |
+| MUS 663A | Graduate Applied Study: Jazz Strings | 1-2 | C36 1u | to 8 units | A-F grading only | Fall & Spring | 2024-01-31 | none |
+| MUS 664 | Graduate Applied Study: Woodwinds | 1-2 | C36 1u | to 8 units | A-F grading only | Fall & Spring | 2024-01-31 | none |
+| MUS 664A | Graduate Applied Study: Jazz Woodwinds | 1 | C36 1u | to 8 units | A-F grading only | Fall & Spring | 2024-01-31 | units publish as 1, record holds 1-2 |
+| MUS 665 | Graduate Applied Study: Brass | 1-2 | C36 1u | to 8 units | A-F grading only | Fall & Spring | 2024-01-31 | none |
+| MUS 665A | Graduate Applied Study: Jazz Brass | 1-2 | C36 1u | to 8 units | A-F grading only | Fall & Spring | 2024-01-31 | none |
+| MUS 666 | Graduate Applied Study: Percussion | 1-2 | C36 1u | to 8 units | A-F grading only | Fall & Spring | 2024-01-31 | none |
+| MUS 666A | Graduate Applied Study: Jazz Percussion | 1-2 | C36 1u | to 8 units | A-F grading only | Fall & Spring | 2024-01-31 | prerequisite of department consent, absent on most graduate applied courses |
+| MUS 667 | Graduate Applied Study: Composition | 1-2 | C36 1u | to 8 units | A-F grading only | Fall & Spring | 2024-01-31 | none |
+| MUS 668 | Graduate Applied Study: Conducting | 1-2 | C36 1u | to 8 units | A-F grading only | Fall & Spring | 2024-01-31 | none |
+| MUS 671 | Kodály Pedagogy | 1 | C10 1u | to 4 units | A-F or CR/NC (student choice) | Variable Intermittently | 2025-09-14 | no learning outcomes published; repeatability uses non-standard phrasing |
+| MUS 676 | Introduction to Orff Schulwerk | 1 | C10 1u | to 4 units | A-F or CR/NC (student choice) | Summer ONLY | 2025-09-15 | repeatability uses non-standard phrasing |
+| MUS 678 | Introduction to Dalcroze Eurythmics | 1 | C10 1u | to 4 units | A-F or CR/NC (student choice) | Summer ONLY | 2025-09-15 | no learning outcomes published; repeatability uses non-standard phrasing |
+| MUS 690 | Independent Study | 1-3 | blank | to 3 units | A-F grading only | blank | 2016-02-26 | last revised 2016-02-26, still on the 2016 conversion form; no learning outcomes published; no teaching component or classification on record |
+| MUS 691 | University Thesis | 1-4 | blank | to 4 units | A-F grading only | blank | 2016-02-26 | description runs to 42 words, over the 40-word limit; last revised 2016-02-26, still on the 2016 conversion form; no teaching component or classification on record |
+| MUS 692 | Comprehensive Exam Review | 1-6 | C36 1-6u | to 6 units | A-F grading only | blank | 2019-08-30 | units publish as 1-6, record holds 6 |
+| MUS 693 | Graduate Music Capstone | 1 | C25 1u | to 3 units | A-F grading only | Fall & Spring | 2024-01-31 | none |
+| MUS 697 | Issues in Music | 3 | blank | to 6 units | A-F grading only | blank | 2016-02-26 | last revised 2016-02-26, still on the 2016 conversion form; no teaching component or classification on record |
+| MUS 698 | Internship | 1-3 | blank | to 6 units | CR/NC grading only | blank | blank | no learning outcomes published; no proposal on record in the Curriculog archive; no teaching component or classification on record |
+| MUS 699 | Departmental Thesis | 1-6 | C36 1-6u | to 6 units | A-F grading only | blank | 2019-08-30 | units publish as 1-6, record holds 6 |
 
 ## jazz studies
 
-| course | title | units | repeatable | grading | offered | last | form | count |
+| course | title | units | classification | repeatable | grading | offered | last | findings |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| MUS 317 | Improvisation Techniques | 1 | to 6 units | A-F or CR/NC | Fall & Spring | 2023-09-15 | 2024-25 | 3 |
+| MUS 317 | Improvisation Techniques | 1 | C10 1u | to 4 units | A-F or CR/NC (student choice) | blank | 2023-09-15 | description runs to 42 words, over the 40-word limit |
 
 ## major performing ensembles
 
-| course | title | units | repeatable | grading | offered | last | form | count |
+| course | title | units | classification | repeatable | grading | offered | last | findings |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| MUS 351A | Choir: Voices of Hope | 1 | to 8 units | A-F or CR/NC | Fall & Spring | 2025-09-14 | 2026-27 | 2 |
-| MUS 351B | Choir: East Bay Singers | 1 | to 8 units | A-F or CR/NC | Fall & Spring | 2024-09-16 | 2025-26 | 3 |
-| MUS 353 | Band: Wind Ensemble | 1 | to 8 units | A-F only | Fall & Spring | 2024-09-16 | 2025-26 | 3 |
-| MUS 355 | East Bay Jazz Orchestra | 1 | to 8 units | A-F only | blank | 2022-09-27 | 2023-24 | 2 |
+| MUS 351A | Choir: Voices of Hope | 1 | C21 1u | to 8 units | A-F or CR/NC (student choice) | Fall & Spring | 2025-09-14 | repeatability uses non-standard phrasing |
+| MUS 351B | Choir: East Bay Singers | 1 | C21 1u | to 8 units | A-F or CR/NC (student choice) | Fall & Spring | 2024-09-16 | none |
+| MUS 353 | Band: Wind Ensemble | 1 | C21 1u | to 8 units | A-F grading only | Fall & Spring | 2024-09-16 | none |
+| MUS 355 | East Bay Jazz Orchestra | 1 | C21 1u | to 8 units | A-F grading only | Fall & Spring | 2022-09-27 | none |
 
 ## music education
 
-| course | title | units | repeatable | grading | offered | last | form | count |
+| course | title | units | classification | repeatable | grading | offered | last | findings |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| MUS 231 | Basic String Techniques | 1 | no | A-F or CR/NC | Variable | 2025-09-14 | 2026-27 | 2 |
-| MUS 232 | Basic Woodwind Techniques | 1 | no | A-F or CR/NC | Variable | 2025-09-14 | 2026-27 | 2 |
-| MUS 233 | Basic Brass Techniques | 1 | no | A-F or CR/NC | Variable | 2025-09-14 | 2026-27 | 2 |
-| MUS 234 | Basic Percussion Techniques | 1 | no | A-F or CR/NC | Variable | 2025-09-14 | 2026-27 | 2 |
-| MUS 235 | Basic Guitar Techniques | 1 | no | A-F or CR/NC | blank | 2016-05-01 | conversion | 1 |
-| MUS 236 | Basic Vocal Techniques | 1 | no | A-F or CR/NC | blank | 2016-05-01 | conversion | 1 |
-| MUS 238 | Band: Concert Band Workshop | 1 | to 4 units | A-F or CR/NC | Fall & Spring | 2025-09-14 | 2026-27 | 2 |
-| MUS 331 | Foundations of Music Education | 3 | no | A-F only | blank | 2016-02-18 | conversion | 1 |
-| MUS 335 | Technology for Music Educators | 3 | no | A-F or CR/NC | blank | 2016-04-27 | conversion | 1 |
-| MUS 341 | Basic Conducting | 2 | no | A-F or CR/NC | blank | 2016-04-26 | conversion | 1 |
-| MUS 431 | Elementary Music Teaching Methods | 3 | to 6 units | A-F or CR/NC | blank | 2016-04-27 | conversion | 1 |
-| MUS 432 | Instrumental Music Teaching Methods | 3 | no | A-F or CR/NC | blank | 2016-04-27 | conversion | 1 |
-| MUS 433 | Choral Music Teaching Methods | 3 | no | A-F or CR/NC | blank | 2016-04-27 | conversion | 1 |
-| MUS 441 | Intermediate Conducting | 2 | to 4 units | A-F or CR/NC | blank | 2016-04-27 | conversion | 1 |
-| MUS 445 | Piano Pedagogy | 2 | to 6 units | A-F or CR/NC | Fall, alternate years | 2023-09-14 | 2024-25 | 3 |
-| MUS 446 | Vocal Pedagogy | blank | blank | A-F or CR/NC | blank | 2019-02-17 | 2019-20 | 1 |
-| MUS 495 | Music Education Practicum | 2 | no | A-F only | blank | 2016-05-13 | conversion | 1 |
-| MUS 497 | Contemporary Issues in Music Education | 3 | to 6 units | A-F only | blank | 2016-05-01 | conversion | 1 |
+| MUS 231 | Basic String Techniques | 1 | C10 1u | no | A-F or CR/NC (student choice) | Variable Intermittently | 2025-09-14 | none |
+| MUS 232 | Basic Woodwind Techniques | 1 | C10 1u | no | A-F or CR/NC (student choice) | Variable Intermittently | 2025-09-14 | none |
+| MUS 233 | Basic Brass Techniques | 1 | C10 1u | no | A-F or CR/NC (student choice) | Variable Intermittently | 2025-09-14 | none |
+| MUS 234 | Basic Percussion Techniques | 1 | C10 1u | no | A-F or CR/NC (student choice) | Variable Intermittently | 2025-09-14 | none |
+| MUS 235 | Basic Guitar Techniques | 1 | C10 1u | no | A-F or CR/NC (student choice) | Variable Intermittently | 2016-05-01 | last revised 2016-05-01, still on the 2016 conversion form |
+| MUS 236 | Basic Vocal Techniques | 1 | C10 1u | no | A-F or CR/NC (student choice) | Variable Intermittently | 2016-05-01 | last revised 2016-05-01, still on the 2016 conversion form |
+| MUS 238 | Band: Concert Band Workshop | 1 | C10 1u | to 4 units | A-F or CR/NC (student choice) | blank | 2025-09-14 | none |
+| MUS 331 | Foundations of Music Education | 3 | blank | no | A-F grading only | Variable Intermittently | 2016-02-18 | last revised 2016-02-18, still on the 2016 conversion form; no teaching component or classification on record |
+| MUS 335 | Technology for Music Educators | 3 | C05 1u + C13 | no | A-F or CR/NC (student choice) | Variable Intermittently | 2016-04-27 | last revised 2016-04-27, still on the 2016 conversion form |
+| MUS 341 | Basic Conducting | 3 | C05 2u | no | A-F or CR/NC (student choice) | Variable Intermittently | 2016-04-26 | last revised 2016-04-26, still on the 2016 conversion form; units publish as 3, record holds 2; units publish as 3, the music education certificate roadmap gives 3, record holds 2 |
+| MUS 431 | Elementary Music Teaching Methods | 3 | C05 3u | to 6 units | A-F or CR/NC (student choice) | Variable Intermittently | 2016-04-27 | last revised 2016-04-27, still on the 2016 conversion form |
+| MUS 432 | Instrumental Music Teaching Methods | 3 | C05 3u | no | A-F or CR/NC (student choice) | Variable Intermittently | 2016-04-27 | last revised 2016-04-27, still on the 2016 conversion form |
+| MUS 433 | Choral Music Teaching Methods | 3 | C05 3u | no | A-F or CR/NC (student choice) | Variable Intermittently | 2016-04-27 | last revised 2016-04-27, still on the 2016 conversion form |
+| MUS 441 | Intermediate Conducting | 3 | C05 2u | to 6 units | A-F or CR/NC (student choice) | Variable Intermittently | 2016-04-27 | last revised 2016-04-27, still on the 2016 conversion form; units publish as 3, record holds 2; units publish as 3, the music education certificate roadmap gives 3, record holds 2 |
+| MUS 445 | Piano Pedagogy | 2 | C02 2u | to 6 units | A-F or CR/NC (student choice) | Fall Alternate Years | 2023-09-14 | none |
+| MUS 446 | Vocal Pedagogy | 2 | blank | to 4 units | A-F or CR/NC (student choice) | blank | 2019-02-17 | no teaching component or classification on record |
+| MUS 495 | Music Education Practicum | 1 | C04 1u + C08 | no | A-F grading only | Variable Intermittently | 2016-05-13 | last revised 2016-05-13, still on the 2016 conversion form; units publish as 1, record holds 2 |
+| MUS 497 | Contemporary Issues in Music Education | 3 | C05 3u | to 6 units | A-F grading only | blank | 2016-05-01 | last revised 2016-05-01, still on the 2016 conversion form |
 
 ## musicology and ethnomusicology
 
-| course | title | units | repeatable | grading | offered | last | form | count |
+| course | title | units | classification | repeatable | grading | offered | last | findings |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| MUS 305 | Global Hip-Hop | blank | blank | A-F or CR/NC | blank | 2022-09-23 | 2023-24 | 2 |
-| MUS 321 | Western Music History I | 3 | no | A-F or CR/NC | Fall, alternate years | 2023-02-13 | 2023-24 | 4 |
-| MUS 322 | Western Music History II | 3 | no | A-F or CR/NC | Spring, alternate years | 2023-02-13 | 2023-24 | 4 |
-| MUS 323 | Topics in Western Music History | 3 | to 6 units | A-F or CR/NC | Fall & Spring | 2025-09-13 | 2026-27 | 2 |
-| MUS 324 | History of American Music | blank | blank | blank | blank | 2020-10-06 | 2020-21 | 1 |
-| MUS 326 | Topics in Global Music | 3 | to 9 units | A-F only | Fall & Spring | 2025-09-15 | 2026-27 | 1 |
+| MUS 305 | Global Hip-Hop | 3 | C02 3u | no | A-F or CR/NC (student choice) | Fall & Spring | 2022-09-23 | none |
+| MUS 321 | Western Music History I | 3 | C02 3u | no | A-F or CR/NC (student choice) | Fall Alternate Years | 2023-02-13 | none |
+| MUS 322 | Western Music History II | 3 | C02 3u | no | A-F or CR/NC (student choice) | Spring Alternate Years | 2023-02-13 | none |
+| MUS 323 | Topics in Western Music History | 3 | C02 3u | to 12 units | A-F or CR/NC (student choice) | blank | 2025-09-13 | none |
+| MUS 324 | History of American Music | 3 | blank | no | A-F or CR/NC (student choice) | Fall & Spring | 2020-10-06 | no teaching component or classification on record |
+| MUS 326 | Topics in Global Music | 3 | C02 3u | to 9 units | A-F grading only | Fall & Spring | 2025-09-15 | no learning outcomes published; repeatability uses non-standard phrasing |
 
 ## performance
 
-| course | title | units | repeatable | grading | offered | last | form | count |
+| course | title | units | classification | repeatable | grading | offered | last | findings |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| MUS 281 | Vocal Coaching | 1 | to 4 units | A-F only | blank | 2016-05-09 | conversion | 1 |
-| MUS 282 | Instrumental Coaching | 1 | to 4 units | A-F only | blank | 2016-05-09 | conversion | 1 |
-| MUS 380 | Recital Class | 1 | no | A-F only | Fall only | 2022-02-01 | 2021-22 | 2 |
-| MUS 481 | Vocal Coaching | 1-2 | to 8 units | A-F only | Fall & Spring | 2023-09-15 | 2024-25 | 3 |
-| MUS 482 | Instrumental Coaching | 1-2 | to 8 units | A-F only | Fall & Spring | 2023-09-15 | 2024-25 | 3 |
+| MUS 281 | Vocal Coaching | 1 | S36 1u | to 4 units | A-F grading only | Fall & Spring | 2016-05-09 | classified S36 where other studio courses are C36; last revised 2016-05-09, still on the 2016 conversion form; range MUS 261-269 spans empty numbers 267, 268, 269 |
+| MUS 282 | Instrumental Coaching | 1 | S36 1u | to 4 units | A-F grading only | Fall & Spring | 2016-05-09 | classified S36 where other studio courses are C36; last revised 2016-05-09, still on the 2016 conversion form; published description differs from the record; range MUS 261-269 spans empty numbers 267, 268, 269 |
+| MUS 380 | Recital Class | 1 | C05 1u | no | A-F grading only | Fall ONLY | 2022-02-01 | range MUS 261-269 spans empty numbers 267, 268, 269; range MUS 361-370 spans empty numbers 362, 364, 370 |
+| MUS 481 | Vocal Coaching | 1-2 | C36 1-2u | to 8 units | A-F grading only | Fall & Spring | 2023-09-15 | range MUS 461-469 spans empty numbers 469 |
+| MUS 482 | Instrumental Coaching | 1-2 | C36 1-2u | to 8 units | A-F grading only | Fall & Spring | 2023-09-15 | range MUS 461-469 spans empty numbers 469 |
 
 ## theory and musicianship
 
-| course | title | units | repeatable | grading | offered | last | form | count |
+| course | title | units | classification | repeatable | grading | offered | last | findings |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| MUS 109 | Music Theory | 2 | to 6 units | A-F or CR/NC | Fall & Spring | 2023-09-14 | 2024-25 | 1 |
-| MUS 110 | Aural Skills | 1 | to 3 units | A-F or CR/NC | Fall & Spring | 2023-09-14 | 2024-25 | 1 |
-| MUS 111 | Music Theory I | 3 | blank | A-F or CR/NC | blank | 2019-08-07 | older | 2 |
-| MUS 112 | Music Theory II | 3 | blank | A-F or CR/NC | blank | 2019-08-07 | older | 2 |
-| MUS 115 | Aural Skills I | 1 | no | A-F or CR/NC | blank | 2016-05-05 | conversion | 1 |
-| MUS 116 | Aural Skills II | 1 | no | A-F or CR/NC | blank | 2016-05-05 | conversion | 1 |
-| MUS 118 | Keyboard Musicianship I | 1 | no | A-F or CR/NC | Spring only | 2023-02-13 | 2023-24 | 2 |
-| MUS 119 | Keyboard Musicianship II | 1 | no | A-F or CR/NC | Fall only | 2023-02-13 | 2023-24 | 2 |
-| MUS 211 | Music Theory III | 3 | no | A-F or CR/NC | blank | 2019-08-07 | older | 2 |
-| MUS 215 | Aural Skills III | 1 | no | A-F or CR/NC | blank | 2016-05-10 | conversion | 1 |
-| MUS 218 | Keyboard Musicianship III | 1 | no | A-F or CR/NC | Spring only | 2023-02-13 | 2023-24 | 2 |
-| MUS 312 | Form and Analysis | 3 | no | A-F or CR/NC | Fall, alternate years | 2023-02-13 | 2023-24 | 3 |
-| MUS 410 | 20th and 21st C Styles and Techniques | 3 | no | A-F or CR/NC | Spring, alternate years | 2023-02-14 | 2023-24 | 2 |
+| MUS 109 | Music Theory | 2 | C10 2u | to 6 units | A-F or CR/NC (student choice) | Fall & Spring | 2023-09-14 | repeatability uses non-standard phrasing |
+| MUS 110 | Aural Skills | 1 | C10 1u | to 3 units | A-F or CR/NC (student choice) | Fall & Spring | 2023-09-14 | repeatability uses non-standard phrasing |
+| MUS 111 | Music Theory I | 2 | C10 2u | no | A-F or CR/NC (student choice) | Spring ONLY | 2019-08-07 | none |
+| MUS 112 | Music Theory II | 2 | C10 2u | no | A-F or CR/NC (student choice) | Variable Intermittently | 2019-08-07 | none |
+| MUS 115 | Aural Skills I | 1 | C10 1u | no | A-F or CR/NC (student choice) | Spring ONLY | 2016-05-05 | last revised 2016-05-05, still on the 2016 conversion form; requires MUS 118A, renumbered or discontinued |
+| MUS 116 | Aural Skills II | 1 | C10 1u | no | A-F or CR/NC (student choice) | Variable Intermittently | 2016-05-05 | last revised 2016-05-05, still on the 2016 conversion form; requires MUS 118B, renumbered or discontinued |
+| MUS 118 | Keyboard Musicianship I | 1 | C10 1u | no | A-F or CR/NC (student choice) | Spring ONLY | 2023-02-13 | none |
+| MUS 119 | Keyboard Musicianship II | 1 | C10 1u | no | A-F or CR/NC (student choice) | Fall ONLY | 2023-02-13 | none |
+| MUS 211 | Music Theory III | 2 | C09 2u | no | A-F or CR/NC (student choice) | Variable Intermittently | 2019-08-07 | classified C09 large group where MUS 111 and MUS 112 are C10 small group; published description differs from the record |
+| MUS 215 | Aural Skills III | 1 | C10 1u | no | A-F or CR/NC (student choice) | Variable Intermittently | 2016-05-10 | last revised 2016-05-10, still on the 2016 conversion form |
+| MUS 218 | Keyboard Musicianship III | 1 | C10 1u | no | A-F or CR/NC (student choice) | Spring ONLY | 2023-02-13 | none |
+| MUS 312 | Form and Analysis | 3 | C02 2u + C10 1u | no | A-F or CR/NC (student choice) | Fall Alternate Years | 2023-02-13 | description runs to 43 words, over the 40-word limit; reclassification to C05 plus C10 pending per the theory and musicianship guide, effective fall 2027 |
+| MUS 410 | 20th and 21st C Styles and Techniques | 3 | C02 3u | no | A-F or CR/NC (student choice) | Spring Alternate Years | 2023-02-14 | reclassification to C05 plus C10 pending per the theory and musicianship guide, effective fall 2027 |
 
 ## undergraduate research
 
-| course | title | units | repeatable | grading | offered | last | form | count |
+| course | title | units | classification | repeatable | grading | offered | last | findings |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| MUS 490 | Independent Study | 1-3 | to 6 units | A-F or CR/NC | Fall & Spring | 2023-09-14 | 2024-25 | 1 |
-| MUS 498 | Internship | 1 | to 6 units | CR/NC only | Fall & Spring | 2023-02-14 | 2023-24 | 1 |
+| MUS 490 | Independent Study | 1-3 | blank | May be repeated for cred | A-F or CR/NC (student choice) | Fall & Spring | 2023-09-14 | no learning outcomes published; no teaching component or classification on record |
+| MUS 498 | Internship | 1-3 | C78 1u | to 6 units | CR/NC grading only | Fall & Spring | 2023-02-14 | units publish as 1-3, record holds 1 |

@@ -6,8 +6,12 @@ Audit of the MUS course inventory in the 2026-2027 catalog against the Curriculo
 
 ## files
 
-- [course inventory](course-inventory.md): the 140 live MUS courses by course-type group, with units, repeatability, grading, offering pattern, and the date and form generation of the most recent proposal
-- [course inventory, full fields](course-inventory.csv): the same 140 courses with descriptions, prerequisites, corequisites, delivery methods, recorded course type, and learning outcomes
+- [course inventory](course-inventory.md): the 140 live MUS courses by course-type group, with published units, teaching classification, repeatability, grading, offering pattern, the date of the most recent proposal, and the findings for each course
+- [course inventory, full fields](course-inventory.csv): the same 140 courses with descriptions, prerequisites, corequisites, recommended preparation, credit restrictions, breadth designations, learning outcomes, and findings
+
+## columns
+
+Units, repeatability, grading, offering, descriptions, prerequisites, corequisites, and learning outcomes are the published catalog values. Classification is the teaching component and unit split held in Curriculog, which the catalog does not publish, taken from the most recent proposal carrying component data. Findings are the discrepancies and edits identified in the audit.
 
 ## roster
 
