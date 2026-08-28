@@ -64,7 +64,7 @@ The two proposals travel together. If the course proposal does not clear in the 
 
 Three items set in the course proposal, not here. The repeat limit has to allow two enrollments for the core and further enrollments for elective credit. The course is required of every major, so the proposal should name who teaches it and how often it runs. And the course classification sets both the meeting pattern and the workload: C9, music activity large group, runs 2 class hours per unit at a normal size of 50 with a K-factor of 1.3, and C10, music activity small group, runs the same 2 hours at a normal size of 12. Either one makes a 1-unit ensemble a two-hour weekly meeting, which is the figure Music schedules against.
 
-Expect a question about overlap with DANC 218, Wellness through Taiko, Tango, Tai Chi & Beyond, which already carries taiko content. A sentence distinguishing the two closes it.
+Expect a question about overlap with DANC 218, Wellness through Taiko, Tango, Tai Chi & Beyond, which already carries taiko content. One option is a course revision removing the taiko material from DANC 218, which would carry a title change with it, filed in the same cycle.
 
 ## capstone
 
