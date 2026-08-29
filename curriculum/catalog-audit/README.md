@@ -6,15 +6,17 @@ Audit of the MUS course inventory in the 2026-2027 catalog against the Curriculo
 
 ## files
 
-- [course inventory](course-inventory.csv): the 140 live MUS courses with published units, descriptions, prerequisites, corequisites, recommended preparation, repeatability, grading, instructional methods, offering pattern, credit restrictions, breadth designations, and learning outcomes, alongside the teaching classification, the date and count of proposals on record, and the technical and content findings for each course
+- [course inventory](course-inventory.xlsx): the 140 live MUS courses with published units, descriptions, prerequisites, corequisites, recommended preparation, repeatability, grading, instructional methods, offering pattern, credit restrictions, breadth designations, and learning outcomes, alongside the teaching classification, the date and count of proposals on record, and the technical and content findings for each course
 
 ## columns
 
 Units, repeatability, grading, offering, descriptions, prerequisites, corequisites, credit restrictions, breadth, and learning outcomes are the published catalog values. Classification is the teaching component and unit split held in Curriculog, which the catalog does not publish, taken from the most recent proposal carrying component data.
 
-Findings are split in two. Technical findings cover classification, units, prerequisites, repeatability, grading, and record state. Content findings carry the proposed catalog description and revised learning outcomes.
+Findings are split in two. Technical findings cover classification, units, prerequisites, repeatability, grading, and record state. Content findings carry the proposed catalog description and revised learning outcomes. In both columns the issue is in plain text and the change to make is in red.
 
-Theory and musicianship content proposals are the descriptions and outcomes already in the syllabi under [undergraduate-theory-musicianship](../undergraduate-theory-musicianship/).
+Where the catalog and the department's own documents disagree, the documents govern and the catalog description is treated as stale. Content proposals draw on the handbooks for applied study, coaching, and ensembles, and on the syllabi under [undergraduate-theory-musicianship](../undergraduate-theory-musicianship/) for the theory sequence.
+
+The catalog prints breadth-area outcomes below the course outcomes on courses carrying a GE or overlay designation. Those are held separately in ge_outcomes and are not course learning outcomes.
 
 ## roster
 
