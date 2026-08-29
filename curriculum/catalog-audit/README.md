@@ -6,11 +6,15 @@ Audit of the MUS course inventory in the 2026-2027 catalog against the Curriculo
 
 ## files
 
-- [course inventory](course-inventory.csv): the 140 live MUS courses with published units, descriptions, prerequisites, corequisites, recommended preparation, repeatability, grading, instructional methods, offering pattern, credit restrictions, breadth designations, and learning outcomes, alongside the teaching classification, the date and count of proposals on record, and the findings for each course
+- [course inventory](course-inventory.csv): the 140 live MUS courses with published units, descriptions, prerequisites, corequisites, recommended preparation, repeatability, grading, instructional methods, offering pattern, credit restrictions, breadth designations, and learning outcomes, alongside the teaching classification, the date and count of proposals on record, and the technical and content findings for each course
 
 ## columns
 
-Units, repeatability, grading, offering, descriptions, prerequisites, corequisites, and learning outcomes are the published catalog values. Classification is the teaching component and unit split held in Curriculog, which the catalog does not publish, taken from the most recent proposal carrying component data. Findings are the discrepancies and edits identified in the audit.
+Units, repeatability, grading, offering, descriptions, prerequisites, corequisites, credit restrictions, breadth, and learning outcomes are the published catalog values. Classification is the teaching component and unit split held in Curriculog, which the catalog does not publish, taken from the most recent proposal carrying component data.
+
+Findings are split in two. Technical findings cover classification, units, prerequisites, repeatability, grading, and record state. Content findings carry the proposed catalog description and revised learning outcomes.
+
+Theory and musicianship content proposals are the descriptions and outcomes already in the syllabi under [undergraduate-theory-musicianship](../undergraduate-theory-musicianship/).
 
 ## roster
 
