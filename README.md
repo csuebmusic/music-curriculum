@@ -43,6 +43,12 @@ Three framework documents and the twelve syllabi from MUS 108 through MUS 410. T
 - [instructor's companion](https://csuebmusic.github.io/music-curriculum/curriculum/undergraduate-theory-musicianship/2_Theory-Musicianship-Undergraduate-Instructors-Companion.html): deadline schedules, class-structure guidance, grading and Canvas setup
 - [syllabi index](https://csuebmusic.github.io/music-curriculum/curriculum/undergraduate-theory-musicianship/3_Theory-Musicianship-Undergraduate-Syllabi.html): all twelve syllabi in one place
 
+## catalog audit
+
+The MUS course inventory in the 2026-2027 catalog checked against the Curriculog proposal archive, the handbooks, the roadmaps, and the syllabi, with the revisions each course needs for the 2027-2028 catalog. The [subsection README](curriculum/catalog-audit/README.md) covers sources, columns, and open items.
+
+- [course inventory](curriculum/catalog-audit/course-inventory.xlsx): 140 courses, their published values and teaching classification, and the technical and content findings for each
+
 ## semester syllabi
 
 Posted syllabi for individual sections, one file per section per term, with a permanent link for Canvas. The [syllabi README](syllabi/README.md) covers naming, posting, and editing in the browser.
@@ -70,7 +76,7 @@ Working documents for the graduate recruitment facilitator role, in `committee/g
 
 - `conventions/` holds the house style and the grading scheme.
 - `syllabi/` holds the syllabi posted for individual sections, in one folder per term.
-- `curriculum/` holds course and program proposals and curriculum documentation, organized into subsections, each with its own README. The first is the undergraduate Theory and Musicianship sequence.
+- `curriculum/` holds course and program proposals and curriculum documentation, organized into subsections, each with its own README: the undergraduate Theory and Musicianship sequence, and the catalog audit.
 - `documents/` holds the handbooks, the roadmaps, the admissions email set, and program and policy material.
 - `committee/` holds agendas, minutes, and papers for committee service: the CLASS Curriculum Committee in `committee/ccc/`, and the graduate recruitment facilitator role in `committee/grad-facilitator/`.
 - `assessment/` holds program learning outcomes, assessment reports, and review cycles.

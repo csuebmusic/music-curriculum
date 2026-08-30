@@ -104,7 +104,7 @@ Best Practice: Hosting Collaborative information sessions, webinars, or panels c
 
 ## 5. Nurture Leads and Maintain Relationships
 
-It's not enough to just generate leads — they need to be nurtured and guided through the application process. A recent report stated that the overall yield across all programs at East Bay was just 9%.
+Generating leads is only the first step: they need to be nurtured and guided through the application process. A recent report stated that the overall yield across all programs at East Bay was just 9%.
 
 Action Steps:
 
