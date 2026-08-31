@@ -1,6 +1,6 @@
 # university house style
 
-version 1, locked june 2026. the on-screen reference is house-style-specimen.html.
+version 1.1, august 2026. the on-screen reference is house-style-specimen.html.
 
 This governs the curriculum and university documents I produce and share through this project: proposals, committee papers, assessment reports, handbooks. It is distinct from the course projects' warm cream and rust pedagogical style, and distinct from the website pocket, which uses the styling Cascade gives me and carries none of this.
 
@@ -46,6 +46,10 @@ tables. Mono header row, lowercase, closed by a 1.5px oxblood bottom rule. Serif
 note block. A faint oxblood tint, a 3px oxblood left border, a mono label, serif text. Square corners, since the border is single-sided.
 
 footer. A top hairline, then mono ink-soft: document id on the left, page on the right.
+
+## links
+
+Every link opens in a new tab, set with `target="_blank" rel="noopener noreferrer"`. This covers external URLs, links to other documents in the repository, and mailto links. An anchor to a section of the same document takes no target and no rel.
 
 ## restraint
 
