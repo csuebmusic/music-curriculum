@@ -8,17 +8,15 @@ The University Extension question in 3a is answered. The unit outline in 5a is r
 
 Core arithmetic unchanged and still correct: 27 units of core, 9 of electives, 36 in the heading.
 
-## the checkbox and the effects field now contradict each other
+## uncheck the curriculum map box in 3a
 
-3a checks "Revising Program Learning Outcomes, Curriculum Map, or Assessment Plan (CAPR/Academic Senate Review required)". 5b says the changes will not affect the Program Learning Outcomes, Curriculum Map, or Assessment Plan. One of the two has to give.
+The curriculum map is not affected. 5b states that, and it stands as written. "Revising Program Learning Outcomes, Curriculum Map, or Assessment Plan" is checked in 3a and comes off.
 
-The reading that fits the rest of the proposal is that the curriculum map does change: the required core gains and loses courses, and the map records courses against outcomes. Section 8 of the form requires an updated curriculum map whenever course requirements change. On that reading, 5b returns to naming the curriculum map, and the map is attached alongside the roadmap.
-
-Leaving the box checked with the Fall 2027 term is the risk to resolve before launch. CAPR and Academic Senate review is the substantive path, and the earliest effective term for a substantive revision is Fall 2028. Ask Catalog which box a curriculum map update implies and whether the Fall 2027 term survives it.
+The box carries CAPR and Academic Senate review, which is the substantive path, and the earliest effective term for a substantive revision is Fall 2028 against the Fall 2027 term proposed in 3c. "Revising non-curricular catalog information" stays checked for the program description and the unit outline.
 
 ## section 8 against 5b
 
-Section 8 answers Yes to the updated degree roadmap, curriculum map, and assessment plan. 5b says a roadmap is attached. Those need to describe the same set of attachments.
+Section 8 answers Yes to the updated degree roadmap, curriculum map, and assessment plan, and 5b names the roadmap alone. With the map unaffected, Yes remains the answer and the roadmap is the attachment. Leave 5b naming what is attached.
 
 ## free electives in 5a
 
@@ -66,5 +64,5 @@ Expect a question about overlap with DANC 218, Wellness through Taiko, Tango, Ta
 
 ## wording
 
-- "They will effect the Roadmap" in 5b, for affect.
+- "They will effect the Roadmap" in 5b, for affect, and Roadmap as one word.
 - The features paragraph in 5a opens with "The Theatre and Dance program" while the program description and the degree title use Theatre Arts.
