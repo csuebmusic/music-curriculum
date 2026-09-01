@@ -544,7 +544,7 @@ details.fold .fold-body > :last-child { margin-bottom: 0; }
 
 /* ------------------------------------------------------------------
    hour tracker: editable worksheet with print-to-PDF, used by the
-   equipment office student assistant guide.
+   student assistant guides.
    ------------------------------------------------------------------ */
 .tracker {
   border: 1px solid var(--rule);
