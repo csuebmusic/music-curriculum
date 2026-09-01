@@ -57,13 +57,3 @@ MUS 306 and MUS 308 overlap. Both are comparative surveys of sacred or ritual so
 MUS 326 Topics in Global Music is upper division, 3 units, rotating topics, repeatable to 9 units, and has never run. It carries no GE designation and no published learning outcomes. Outcomes are pending from area faculty.
 
 The attached summaries are promotional copy. Catalog descriptions run one or two sentences in the third person. Rewrite before filing.
-
-## open questions
-
-Whether MUS 326 receives outcomes and a topic rotation before new numbers are proposed.
-
-Whether MUS 280 stands as a named exception to the upper division elective principle.
-
-Whether the department pursues the Diversity Overlay for MUS 304 under the current outcomes.
-
-Confirmation from APS that MUS 306, 307, and 308 are not banked.
