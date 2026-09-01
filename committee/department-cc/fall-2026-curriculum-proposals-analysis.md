@@ -26,8 +26,6 @@ Lower division units do not count toward the upper division unit requirement. Th
 
 The course carries a credit restriction limiting enrollment to music education majors in the single subject matter program. Adding it to the elective list would require carrying that restriction into the list. Handled instead by department substitution on the major check.
 
-The catalog publishes 1 unit. The Curriculog record holds 2. The correction goes on the next form for the course, which is also still on the 2016 conversion form.
-
 ### course titles
 
 The catalog titles are current: Basic String Techniques, Basic Woodwind Techniques, Basic Brass Techniques, Basic Percussion Techniques. The music education page at `csueastbay.edu/music/prospective/music-ed.html` still carries the former titles for MUS 231 through 234 and is the source of the titles in the memo. Website correction, no proposal.
