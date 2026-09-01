@@ -27,6 +27,7 @@ The automated messages Salesforce sends to applicants, admits, and new students,
 ## student employment
 
 - [equipment office student assistant guide](https://csuebmusic.github.io/music-curriculum/documents/handbooks/equipment-office-student-assistant-guide.html): position responsibilities, rounds, event setup, problem reporting, and the hour-tracking worksheet
+- [ensemble manager student assistant guide](https://csuebmusic.github.io/music-curriculum/documents/handbooks/ensemble-manager-student-assistant-guide.html): the two ensemble assignments, weekly setup and strike, concert and recital work, and the hour-tracking worksheet
 
 ## website
 
