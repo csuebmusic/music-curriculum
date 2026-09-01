@@ -12,29 +12,31 @@ Program revisions that do not change total degree or concentration units launch 
 
 CLASS sets earlier dates than the university calendar. Confirm them with Mary Kendall.
 
-## elective eligibility for MUS 231-236 and MUS 495
+## the music education courses
+
+### elective eligibility
 
 The memo files this under course modifications. It is a program modification to the B.A. in Music. The music elective list is a closed list of named courses, and MUS 231 through 236 and MUS 495 are not on it. The certificate roadmap marks those seven as certificate only and marks every other certificate course as also a B.A. music elective. One program proposal covers the change.
 
 The seven courses total 7 units against a 12-unit elective block.
 
-MUS 495 carries a credit restriction limiting enrollment to music education majors in the single subject matter program. Adding it to the elective list would require carrying that restriction into the list. Handled instead by department substitution on the major check.
-
-## upper division composition of the elective list
+### upper division composition of the elective list
 
 Every course in the six elective categories is 300 or 400 level except MUS 280 Composers Workshop, 1 unit, lower division, repeatable to 2 units. The handbook also allows up to 4 additional units of applied study to count toward electives, and applied study at MUS 261 through 269 is lower division.
 
 Lower division units do not count toward the upper division unit requirement, which governs for transfer students entering with the ADT.
 
-## course titles
+### MUS 495
+
+The course carries a credit restriction limiting enrollment to music education majors in the single subject matter program. Adding it to the elective list would require carrying that restriction into the list. Handled instead by department substitution on the major check.
+
+The catalog publishes 1 unit. The Curriculog record holds 2. The correction goes on the next form for the course, which is also still on the 2016 conversion form.
+
+### course titles
 
 The catalog titles are current: Basic String Techniques, Basic Woodwind Techniques, Basic Brass Techniques, Basic Percussion Techniques. The music education page at `csueastbay.edu/music/prospective/music-ed.html` still carries the former titles for MUS 231 through 234 and is the source of the titles in the memo. Website correction, no proposal.
 
 Two further errors on the same page: the certificate paragraph reads "can currently it may be obtained in three ways," and the first "catalog information HERE" link points to the page itself rather than to the catalog program page.
-
-## MUS 495 units
-
-The catalog publishes 1 unit. The Curriculog record holds 2. The correction goes on the next form for the course, which is also still on the 2016 conversion form.
 
 ## MUS 304 and the Diversity Overlay
 
