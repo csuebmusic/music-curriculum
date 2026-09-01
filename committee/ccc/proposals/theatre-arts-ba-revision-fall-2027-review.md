@@ -18,19 +18,9 @@ The box carries CAPR and Academic Senate review, which is the substantive path, 
 
 The program learning outcomes, curriculum map, and assessment plan approved in the previous revision are attached unchanged, alongside the revised roadmap. 5b states that: the outcomes, map, and plan do not change, and the approved versions are attached with the updated roadmap. Section 8 then answers Yes to the whole set.
 
-## free electives in 5a
-
-"Free Electives must consist of 32 units" reads as fixed, and the note directly under it says units may double count between graduation requirements and the major. Free electives are the residual, so they rise as double counting rises.
-
-The ceiling is 9 units: THEA 101 at GE-3A, THEA 254 at GE-3B, and one of the four GE-UD-3 core courses, since only one upper-division Area 3 course counts toward GE. A student using all three finishes the major and GE in 79 units and needs 41 free electives. Phrase the line as a range, 32 to 41, with the dependency on GE double counting named, and confirm the figure with Catalog.
-
 ## consultation in 4a
 
-Unchanged from the first draft. Two items stand.
-
-The field names Lonny Brooks, Jessica Santone, Buddy James, and Inés Thiebaut as programs chairs. Buddy James chairs the department and Inés Thiebaut coordinates the composition and music production area. Name the roles individually or drop the descriptor.
-
-MUS 431, MUS 485, and MUS 486 carry prerequisites a Theatre Arts major may not have met. Where a course sits behind a chain, the units of that chain come out of the 9-unit elective block or out of free electives. Confirm the prerequisite for each and mark in the elective list where consent of instructor is the route in.
+The consultation field names Lonny Brooks, Jessica Santone, Buddy James, and Inés Thiebaut as programs chairs. Buddy James is the chair for Music. Remove Inés Thiebaut from the list.
 
 ## capstone classification
 
