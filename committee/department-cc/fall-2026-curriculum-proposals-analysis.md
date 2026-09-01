@@ -4,7 +4,13 @@ Analysis of the curriculum proposals memo by John Eros distributed for the depar
 
 ## timing
 
-Proposals filed this cycle go into the 2027-2028 catalog. The CLASS deadline is March 1, 2027 and approved changes take effect fall 2027.
+Proposals filed this cycle go into the 2027-2028 catalog, effective fall 2027. Revisions take effect in the fall semester only.
+
+Course proposals, which include new courses, revisions, GEOC and overlay designations, and banking, launch by September 15, 2026, reach APS with college committee approval by October 15, 2026, and must clear the Academic Senate by February 1, 2027.
+
+Program revisions that do not change total degree or concentration units launch by October 15, 2026, reach APS with college committee approval by November 15, 2026, and must clear the Academic Senate by the end of spring semester.
+
+CLASS sets earlier dates than the university calendar. Confirm them with Mary Kendall.
 
 ## elective eligibility for MUS 231-236 and MUS 495
 
