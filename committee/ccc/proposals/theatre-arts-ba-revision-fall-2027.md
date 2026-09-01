@@ -9,7 +9,7 @@
 | Proposed effective term | Fall 2027 (2027-2028 catalog) |
 | Source | Curriculog preview, second draft |
 | Status | at CLASS Curriculum Committee review, second draft |
-| Concentrations | retired in the prior revision |
+| Concentrations | retired, in effect for one more year |
 
 Fields below reproduce the proposal as submitted. Section numbering follows the Curriculog form.
 

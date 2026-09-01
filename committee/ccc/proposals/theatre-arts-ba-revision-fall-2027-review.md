@@ -36,11 +36,9 @@ THEA 493 is not being revised in this proposal, so nothing here blocks the launc
 
 At C5 the 1 unit is one scheduled hour a week for the whole cohort, and at C12 two. The supervision codes carry no scheduled class hours and generate workload per student, which is the shape that fits students directing, choreographing, writing, interning, or designing their own projects. Pull the current record for THEA 493 and read the classification against what the course actually asks of students. Where they diverge, a course revision fixes it in a later cycle.
 
-## still to confirm
+## repeatability
 
-Repeatability. The core depends on DANC 360 and DANC 370 being repeatable to 3 units and MUS 363B to 2. Confirm each course record in the 2027-2028 draft catalog carries a repeat limit at or above that. Where a record caps lower, the course record needs a revision proposal alongside this one.
-
-ADT roadmaps. Three are posted on the Articulation and Transfer page, one per retired concentration, and one roadmap to the single major replaces all three. The articulation officer reviews undergraduate proposals during APS technical review. Run one ADT path through to confirm a transfer student still lands inside 60 units at East Bay.
+The core depends on DANC 360 and DANC 370 being repeatable to 3 units and MUS 363B to 2. Confirm each course record in the 2027-2028 draft catalog carries a repeat limit at or above that. Where a record caps lower, the course record needs a revision proposal alongside this one.
 
 ## the new Taiko course
 
