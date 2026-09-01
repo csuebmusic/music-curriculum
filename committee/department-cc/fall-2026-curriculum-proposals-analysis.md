@@ -20,7 +20,7 @@ The memo files this under course modifications. It is a program modification to 
 
 Every course in the six elective categories is 300 or 400 level except MUS 280 Composers Workshop, 1 unit, lower division, repeatable to 2 units (the course replaces lower division applied study in composition, which does not exist: applied composition is MUS 467, upper division). The handbook also allows up to 4 additional units of applied study to count toward electives, and applied study at MUS 261 through 269 is lower division.
 
-Lower division units do not count toward the upper division unit requirement, which governs for transfer students entering with the ADT.
+Lower division units do not count toward the upper division unit requirement. The degree requires a minimum of 40 semester units of upper division work, including the 9 units of upper division GE, and a minimum of 30 semester units in residence at CSUEB, of which at least 12 are upper division units in the major and 9 are upper division GE. Upper division GE may be taken at any CSU campus. Transfer students entering with the ADT meet the 40 units within their 60 units in residence.
 
 ### MUS 495
 
