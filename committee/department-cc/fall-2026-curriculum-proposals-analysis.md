@@ -50,11 +50,7 @@ Title change, description, and learning outcome revisions go on one modification
 
 ## the three new upper division GE courses
 
-MUS 306, 307, and 308 are free in the live catalog. Whether they sit on the APS banked list is unchecked. A banked number requires reactivation rather than a new course form.
-
-New GE and overlay designations go to the GEOC subcommittee, which meets on the second and fourth Wednesdays. The review named in the memo was informal and does not enter the record. The APS new course page routes a proposal to CAPR where additional resources are involved.
-
-The memo's count of four music courses in UD Area 3 is correct: MUS 302, 303, 304, 305. The comparison figure for other departments is unverified.
+MUS 306, 307, and 308 are free in the live catalog.
 
 MUS 306 and MUS 308 overlap. Both are comparative surveys of sacred or ritual sound across cultures, both include Sufi devotional practice, and both close on the position of outsiders listening to participatory traditions.
 
