@@ -10,8 +10,6 @@ Course proposals, which include new courses, revisions, GEOC and overlay designa
 
 Program revisions that do not change total degree or concentration units launch by October 15, 2026, reach APS with college committee approval by November 15, 2026, and must clear the Academic Senate by the end of spring semester.
 
-CLASS sets earlier dates than the university calendar. Confirm them with Mary Kendall.
-
 ## the music education courses
 
 ### elective eligibility
