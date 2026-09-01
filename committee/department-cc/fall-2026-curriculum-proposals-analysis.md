@@ -14,9 +14,7 @@ Program revisions that do not change total degree or concentration units launch 
 
 ### elective eligibility
 
-The memo files this under course modifications. It is a program modification to the B.A. in Music. The music elective list is a closed list of named courses, and MUS 231 through 236 and MUS 495 are not on it. The certificate roadmap marks those seven as certificate only and marks every other certificate course as also a B.A. music elective. One program proposal covers the change.
-
-The seven courses total 7 units against a 12-unit elective block.
+The memo files this under course modifications. It is a program modification to the B.A. in Music. A program proposal would cover the change.
 
 ### upper division composition of the elective list
 
