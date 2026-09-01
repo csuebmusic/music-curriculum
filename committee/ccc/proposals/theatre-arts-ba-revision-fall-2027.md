@@ -7,19 +7,19 @@
 | Department | Department of Music and Performing Arts |
 | Academic level | Undergraduate |
 | Proposed effective term | Fall 2027 (2027-2028 catalog) |
-| Source | Curriculog preview, "Update to Theatre and Dance Curriculum Fall 2026" |
-| Status | at CLASS Curriculum Committee review |
+| Source | Curriculog preview, second draft |
+| Status | at CLASS Curriculum Committee review, second draft |
 | Concentrations | retired in the prior revision |
 
 Fields below reproduce the proposal as submitted. Section numbering follows the Curriculog form.
 
 ## 3a. program and revision type
 
-Type of revision, checked: adding or removing required courses or units; adding or removing elective courses or units.
+Type of revision, checked: adding or removing required courses or units; adding or removing elective courses or units; revising program learning outcomes, curriculum map, or assessment plan; revising non-curricular catalog information.
 
-Type of revision, unchecked: fully online version; online degree completion version; hybrid version; self-support version of a state-support program; conversion from self-support to state-support; new concentration program; CSU degree program (CIP) code change; degree or major title change; degree type change; revising program learning outcomes, curriculum map, or assessment plan; revising non-curricular catalog information.
+Type of revision, unchecked: fully online version; online degree completion version; hybrid version; self-support version of a state-support program; conversion from self-support to state-support; new concentration program; CSU degree program (CIP) code change; degree or major title change; degree type change.
 
-University Extension self-support offering: unanswered.
+University Extension self-support offering: No.
 
 FAST 4+1 blended program: No.
 
@@ -29,7 +29,7 @@ Approved as a "similar" degree: Yes.
 
 Effect on the similar degree agreement, as written:
 
-> These curriculum changes will allow the Theatre Arts program to continue to be aligned with the current Theatre Arts Associate Degrees for Transfer, but will have some changes. The Associate Degrees for Transfer will need to be updated to optimize course requirement equivalencies. We will be adding four units to the total number of required units, which will cause minimal changes.
+> These curriculum changes will allow the Theatre Arts program to continue to be aligned with the current Theatre Arts Associate Degrees for Transfer, but will have some changes. The roadmap and articulation will be updated to optimize course requirement equivalencies. We are adding four units to the major requirements, which will cause minimal changes.
 
 ## 3c. implementation and rationale
 
@@ -38,6 +38,8 @@ Rationale for program revision, as written:
 > The Theatre Arts program has been merged with the Music program to form a new department: Music and Performing Arts. After this merge was approved we have engaged in a number of discussions about how the two programs can be structured for maximum mutual support and expanded opportunities for collaboration. These proposed changes will make the Theatre Arts program easily aligned with the structures in the Music program in terms of Ensemble requirements, elective options, and a focus on preparing students to pursue Theatre and Dance teaching and/or community engagement careers after receiving their BA degrees.
 >
 > Also, after our first update to the curriculum and our department merge was approved, Professor Richard Olmsted retired and entered the FERP program. This means that Theatre Arts only has one full faculty member (Professor Eric Kupers). We have updated the curriculum further to make it possible for one full faculty member to teach almost all of the core major requirements. The program works much better with at least a few adjunct faculty teaching to expand the diversity of offerings. But as a back-up measure, the program can continue if necessary if there is ever a time when it all must be taught by one professor.
+>
+> We have added four units to the major core to give a more specific and closely guided pathway through the major, to help students stay on track towards completion.
 
 ## 4a. other impacted disciplines
 
@@ -53,17 +55,17 @@ Blank. Completed by the College Associate Dean.
 
 ## 5a. program identification
 
-Full title of major: Theatre Arts, B.A. Program (120 units). No revised title, degree type, or CIP code proposed.
+Full title of major: Theatre Arts, B.A. Program (120 units). Revised title, degree type, and CIP code: n/a.
 
-Program description, learning outcomes, career opportunities, features, and unit outline as carried in the proposal:
-
-Program description names the Theatre and Dance program and its training in performance (Inclusive Performance, Acting, Dance, Applied Social Justice, Musical Theatre, Experimental Arts) and production, with a culmination requirement offering direction, choreography, performance, writing, internship, or design.
+Program description names the Theatre Arts B.A. program and its training in performance (Inclusive Performance, Acting, Dance, Applied Social Justice, Musical Theatre, Experimental Arts) and production, with a culmination requirement offering direction, choreography, performance, writing, internship, or design. The features paragraph names the Theatre and Dance program.
 
 Program learning outcomes, four, unchanged: perform for audiences on stage or in other arenas and careers; create performance that presents human issues in inclusive, exciting, original ways; reflect on historical and contemporary works of theatre and dance from diverse cultures; engage individuals and build community through meaningful theatre and dance experiences.
 
-Degree requirements unit outline, as carried:
+Degree requirements unit outline, as written:
 
-> A baccalaureate of arts degree requires a total of 120 units: The major requirements consist of 32 units; General Education (GE) & Graduation Requirements (GR) consist of 52 units; Free Electives may consist of 19-39 units (actual number of free elective units may depend on GE/GR units).
+> A baccalaureate of arts degree requires a total of 120 units: The major requirements consist of 36 units; General Education (GE) & Graduation Requirements (GR) consist of 52 units; Free Electives must consist of 32 units
+
+Followed by the standing note that units may double count between graduation requirements and the major.
 
 ## 5b. program curriculum
 
@@ -134,7 +136,9 @@ From the following list, or with substitutions approved by the major advisor.
 
 As written:
 
-> These changes will not affect the Program Learning Outcomes or Assessment Plan. They will effect the Curriculum Map and so a new Curriculum Road Map is attached to this proposal.
+> These changes will not affect the Program Learning Outcomes, Curriculum Map or Assessment Plan.
+>
+> They will effect the Roadmap, and so a Road Map is attached to this proposal.
 
 ## 6 and 7. self-support and distance education
 
@@ -142,9 +146,9 @@ Not applicable. Both sections blank.
 
 ## 8. required documentation
 
-Updated degree roadmap, curriculum map, and assessment plan attached: unanswered.
+Updated degree roadmap, curriculum map, and assessment plan attached: Yes.
 
-Chancellor's Office review documents attached: unanswered.
+Chancellor's Office review documents attached: N/A.
 
 ## deadlines on the form
 
