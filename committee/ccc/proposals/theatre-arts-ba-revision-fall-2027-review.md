@@ -14,9 +14,9 @@ The curriculum map is not affected. 5b states that, and it stands as written. "R
 
 The box carries CAPR and Academic Senate review, which is the substantive path, and the earliest effective term for a substantive revision is Fall 2028 against the Fall 2027 term proposed in 3c. "Revising non-curricular catalog information" stays checked for the program description and the unit outline.
 
-## section 8 against 5b
+## attachments in 5b and section 8
 
-Section 8 answers Yes to the updated degree roadmap, curriculum map, and assessment plan, and 5b names the roadmap alone. With the map unaffected, Yes remains the answer and the roadmap is the attachment. Leave 5b naming what is attached.
+The program learning outcomes, curriculum map, and assessment plan approved in the previous revision are attached unchanged, alongside the revised roadmap. 5b states that: the outcomes, map, and plan do not change, and the approved versions are attached with the updated roadmap. Section 8 then answers Yes to the whole set.
 
 ## free electives in 5a
 
@@ -26,13 +26,11 @@ The ceiling is 9 units: THEA 101 at GE-3A, THEA 254 at GE-3B, and one of the fou
 
 ## consultation in 4a
 
-Unchanged from the first draft. Three items stand.
+Unchanged from the first draft. Two items stand.
 
-MUS 303 at 3 units and MUS 363B at 2 units are required of every Theatre Arts major, and MUS 303 also carries GE-UD-3. The summary describes consultation about electives. Music confirms seats and section counts for the projected major headcount, and 4a records that.
+The field names Lonny Brooks, Jessica Santone, Buddy James, and Inés Thiebaut as programs chairs. Buddy James chairs the department and Inés Thiebaut coordinates the composition and music production area. Name the roles individually or drop the descriptor.
 
-MUS 431, MUS 485, and MUS 486 sit behind the theory and technology sequences. Confirm the prerequisite chain for each out-of-department elective, or arrange the consent mechanism that lets Theatre Arts majors enroll.
-
-Buddy James chairs the department, and Inés Thiebaut coordinates the composition and music production area. The field calls both program chairs.
+MUS 431, MUS 485, and MUS 486 carry prerequisites a Theatre Arts major may not have met. Where a course sits behind a chain, the units of that chain come out of the 9-unit elective block or out of free electives. Confirm the prerequisite for each and mark in the elective list where consent of instructor is the route in.
 
 ## capstone classification
 
