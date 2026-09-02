@@ -89,22 +89,8 @@ Subtotal 9.0. MUS 108 is the prerequisite to the theory and musicianship sequenc
 | MUS 606 | Interdisciplinary Collaboration in Music | 2 | 2.3 |
 | MUS 693 | Graduate Music Capstone | 1 | by headcount |
 
-Subtotal 4.3 plus MUS 693.
+Subtotal 4.3 plus MUS 693. MUS 693 is S25, supervision, at .48 WTU per student.
 
 ## total
 
 23 sections carry a computed figure and total 51.9 WTU, plus MUS 693.
-
-## open items
-
-MUS 693 is a supervision classification. Its WTU is students times the S-factor rather than units times a K-factor. The record holds C25, which does not appear on the CSUEB classification table; S25 does, at .48 per student.
-
-MUS 215 carries MUS 211 as a corequisite on the record. MUS 211 is not offered this term, so enrollment in MUS 215 needs a consent path or the corequisite has to go. MUS 218 carries no corequisite.
-
-MUS 410 moves to 2 units C05 plus 1 unit C10 effective fall 2027. Spring 2027 runs it at C02 for 3.0.
-
-MUS 415 MIDI Orchestration is the alternative to MUS 414 in the composition group, at 3.3 WTU.
-
-MUS 365 Chamber Orchestra carries C10, music activity small group, normal class size 12. C09, music activity large group, holds the same K-factor at a normal class size of 50.
-
-Pending decisions: MUS 202, MUS 322, MUS 610, MUS 304, and the courses for non-music majors at MUS 106, 106C, 121, 302, 305, and 326, each 3.0 WTU per section.
