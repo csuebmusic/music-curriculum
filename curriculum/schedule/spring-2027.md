@@ -112,7 +112,7 @@ Subtotal 4.3 plus MUS 693. MUS 693 is S25, supervision, at .48 WTU per student.
 
 Subtotal 10.8.
 
-## performance
+## coaching
 
 16 students in coaching, undergraduate and graduate alike at 1 unit, for 16 student units.
 
