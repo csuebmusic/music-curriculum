@@ -156,6 +156,7 @@ Applied study and coaching counts are the fall 2026 enrollment carried forward.
 | Eros | 6.0 (MUS 106B-01, 106B-02) | | | | | 6.0 |
 | Hogan | 1.3 (MUS 317) | | 0.3 | 1.5 | 1.44 | 4.54 |
 | James | 6.0 (MUS 351B, 433) | | 0.6 | | 0.96 | 7.56 |
+| Knight | 3.0 (MUS 441) | | | | | 3.0 |
 | Leimbach | | | 1.8 | | | 1.8 |
 | Lyons Kuster | | | 0.6 | | | 0.6 |
 | Marsh | 3.0 (MUS 324) | | | | | 3.0 |
@@ -166,4 +167,4 @@ Applied study and coaching counts are the fall 2026 enrollment carried forward.
 | unassigned: organ | | | 0.3 | | | 0.3 |
 | unassigned: brass | | | 0.3 | | | 0.3 |
 
-55.14 WTU assigned. The 14.2 WTU in remaining scheduled sections carries no instructor.
+58.14 WTU assigned. The 11.2 WTU in remaining scheduled sections carries no instructor.
