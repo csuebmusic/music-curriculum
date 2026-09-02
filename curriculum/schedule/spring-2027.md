@@ -8,7 +8,7 @@ Course slate for spring 2027, a Year A spring. Sections are grouped by catalog c
 
 | course | title | units | WTU |
 |---|---|---|---|
-| MUS 111 | Music Theory I | 2 | 2.6 |
+| **MUS 111** | **Music Theory I** | 2 | 2.6 |
 | MUS 115 | Aural Skills I | 1 | 1.3 |
 | MUS 118 | Keyboard Musicianship I | 1 | 1.3 |
 | MUS 215 | Aural Skills III | 1 | 1.3 |
@@ -45,7 +45,7 @@ Subtotal 1.3.
 
 | course | title | units | WTU |
 |---|---|---|---|
-| MUS 231 | Basic String Techniques | 1 | 1.3 |
+| **MUS 231** | **Basic String Techniques** | 1 | 1.3 |
 | MUS 433 | Choral Music Teaching Methods | 3 | 3.0 |
 | MUS 441 | Intermediate Conducting | 3 | 3.0 |
 
@@ -75,8 +75,8 @@ Subtotal 5.2.
 
 | course | title | units | WTU |
 |---|---|---|---|
-| MUS 605 | History and Theory of Jazz | 2 | 2.0 |
-| MUS 606 | Interdisciplinary Collaboration in Music | 2 | 2.3 |
+| **MUS 605** | **History and Theory of Jazz** | 2 | 2.0 |
+| **MUS 606** | **Interdisciplinary Collaboration in Music** | 2 | 2.3 |
 | MUS 693 | Graduate Music Capstone | 1 | 3.84 |
 
 Subtotal 8.14.
@@ -142,18 +142,20 @@ Applied study and coaching counts are the fall 2026 enrollment carried forward.
 | Abraham | | | 2.7 | | | 2.7 |
 | Chan | 1.3 (MUS 363) | | 0.6 | | | 1.9 |
 | Eckl | 4.3 (MUS 355, 360) | | | | | 4.3 |
-| Eros | | | | | | 0 |
+| **Eros** | | | | | | 0 |
 | Hogan | 1.3 (MUS 317) | | 0.3 | 1.5 | 1.44 | 4.54 |
-| James | 6.0 (MUS 351B, 433) | | 0.6 | | 0.96 | 7.56 |
+| **James** | 6.0 (MUS 351B, 433) | | 0.6 | | 0.96 | 7.56 |
 | Knight | 3.0 (MUS 441) | | | | | 3.0 |
 | Leimbach | | | 1.8 | | | 1.8 |
 | Lyons Kuster | | | 0.6 | | | 0.6 |
 | Marsh | 3.0 (MUS 324) | | | | | 3.0 |
 | Roudman | 1.3 (MUS 365) | | | | | 1.3 |
-| Shimron | 5.2 (MUS 115, 118, 215, 218) | | 0.3 | 3.3 | | 8.8 |
-| Thiebaut | 7.3 (MUS 361, 410, 414) | | 2.7 | | 1.44 | 11.44 |
+| **Shimron** | 5.2 (MUS 115, 118, 215, 218) | | 0.3 | 3.3 | | 8.8 |
+| **Thiebaut** | 7.3 (MUS 361, 410, 414) | | 2.7 | | 1.44 | 11.44 |
 | unassigned: strings | | | 0.6 | | | 0.6 |
 | unassigned: organ | | | 0.3 | | | 0.3 |
 | unassigned: brass | | | 0.3 | | | 0.3 |
 
 52.14 WTU assigned. The 8.2 WTU in remaining scheduled sections carries no instructor.
+
+Bold marks courses with no instructor assigned and the full-time faculty.
