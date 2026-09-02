@@ -87,9 +87,18 @@ Subtotal 9.0. MUS 108 is the prerequisite to the theory and musicianship sequenc
 |---|---|---|---|
 | MUS 605 | History and Theory of Jazz | 2 | 2.0 |
 | MUS 606 | Interdisciplinary Collaboration in Music | 2 | 2.3 |
-| MUS 693 | Graduate Music Capstone | 1 | by headcount |
+| MUS 693 | Graduate Music Capstone | 1 | 3.84 |
 
-Subtotal 4.3 plus MUS 693. MUS 693 is S25, supervision, at .48 WTU per student.
+Subtotal 8.14.
+
+MUS 693 is 8 students at .48 per student.
+
+| advisor | students | WTU |
+|---|---|---|
+| Thiebaut | 3 | 1.44 |
+| James | 2 | 0.96 |
+| Hogan | 3 | 1.44 |
+| total | 8 | 3.84 |
 
 ## applied study
 
@@ -127,6 +136,6 @@ Subtotal 4.8. Shimron carries 3.3 of it.
 
 ## total
 
-23 scheduled sections total 51.9 WTU. Applied study and coaching add 15.6, for 67.5 WTU, plus MUS 693.
+24 scheduled sections total 55.74 WTU. Applied study and coaching add 15.6, for 71.34 WTU.
 
 Applied study and coaching counts are the fall 2026 enrollment carried forward.
