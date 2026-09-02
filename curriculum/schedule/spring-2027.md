@@ -151,17 +151,17 @@ Applied study and coaching counts are the fall 2026 enrollment carried forward.
 | faculty | undergrad courses | grad courses | applied | coaching | MUS 693 | total |
 |---|---|---|---|---|---|---|
 | Abraham | | | 2.7 | | | 2.7 |
-| Chan | 1.3 | | 0.6 | | | 1.9 |
-| Eckl | 4.3 | | | | | 4.3 |
+| Chan | 1.3 (MUS 363) | | 0.6 | | | 1.9 |
+| Eckl | 4.3 (MUS 355, 360) | | | | | 4.3 |
 | Eros | | | | | | 0 |
-| Hogan | 1.3 | | 0.3 | 1.5 | 1.44 | 4.54 |
-| James | 6.0 | | 0.6 | | 0.96 | 7.56 |
+| Hogan | 1.3 (MUS 317) | | 0.3 | 1.5 | 1.44 | 4.54 |
+| James | 6.0 (MUS 351B, 433) | | 0.6 | | 0.96 | 7.56 |
 | Leimbach | | | 1.8 | | | 1.8 |
 | Lyons Kuster | | | 0.6 | | | 0.6 |
 | Marsh | | | | | | 0 |
-| Roudman | 1.3 | | | | | 1.3 |
-| Shimron | 2.6 | | 0.3 | 3.3 | | 6.2 |
-| Thiebaut | 4.3 | | 2.7 | | 1.44 | 8.44 |
+| Roudman | 1.3 (MUS 365) | | | | | 1.3 |
+| Shimron | 2.6 (MUS 115, 215) | | 0.3 | 3.3 | | 6.2 |
+| Thiebaut | 4.3 (MUS 361, 414) | | 2.7 | | 1.44 | 8.44 |
 | unassigned: strings | | | 0.6 | | | 0.6 |
 | unassigned: organ | | | 0.3 | | | 0.3 |
 | unassigned: brass | | | 0.3 | | | 0.3 |
