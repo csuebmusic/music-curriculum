@@ -98,7 +98,6 @@ MUS 693 is 8 students at .48 per student.
 | Thiebaut | 3 | 1.44 |
 | James | 2 | 0.96 |
 | Hogan | 3 | 1.44 |
-| total | 8 | 3.84 |
 
 ## applied study
 
@@ -117,20 +116,18 @@ MUS 693 is 8 students at .48 per student.
 | unassigned: strings | 2 | 0 | 2 | 0.6 |
 | unassigned: organ | 1 | 0 | 1 | 0.3 |
 | unassigned: brass | 1 | 0 | 1 | 0.3 |
-| total | 20 | 8 | 28 | 10.8 |
 
 Subtotal 10.8.
 
 ## coaching
 
-16 students in coaching, undergraduate and graduate alike at 1 unit.
+16 students in coaching, 12 undergraduate and 4 graduate, all at 1 unit.
 
 | coaching | teacher | undergrad | grad | total | WTU |
 |---|---|---|---|---|---|
 | vocal | Shimron | 7 | 1 | 8 | 2.4 |
 | instrumental, non-jazz | Shimron | 3 | 0 | 3 | 0.9 |
 | instrumental, jazz | Hogan | 2 | 3 | 5 | 1.5 |
-| total | | 12 | 4 | 16 | 4.8 |
 
 Subtotal 4.8. Shimron carries 3.3 of it.
 
