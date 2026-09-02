@@ -71,16 +71,6 @@ Subtotal 6.0.
 
 Subtotal 5.2.
 
-## courses for non-music majors
-
-| course | title | units | WTU |
-|---|---|---|---|
-| MUS 106B-01 | Music in Film | 3 | 3.0 |
-| MUS 106B-02 | Music in Film | 3 | 3.0 |
-| MUS 108 | The Language of Music | 3 | 3.0 |
-
-Subtotal 9.0. MUS 108 is the prerequisite to the theory and musicianship sequence.
-
 ## graduate studies
 
 | course | title | units | WTU |
@@ -140,9 +130,8 @@ Subtotal 4.8. Shimron carries 3.3 of it.
 | applied and coaching | | 15.6 |
 | ensembles | 6 | 11.2 |
 | electives | 5 | 11.6 |
-| non-majors | 3 | 9.0 |
 
-69.34 WTU across 24 scheduled sections, applied study, and coaching.
+60.34 WTU across 21 scheduled sections, applied study, and coaching.
 
 Applied study and coaching counts are the fall 2026 enrollment carried forward.
 
@@ -153,7 +142,7 @@ Applied study and coaching counts are the fall 2026 enrollment carried forward.
 | Abraham | | | 2.7 | | | 2.7 |
 | Chan | 1.3 (MUS 363) | | 0.6 | | | 1.9 |
 | Eckl | 4.3 (MUS 355, 360) | | | | | 4.3 |
-| Eros | 6.0 (MUS 106B-01, 106B-02) | | | | | 6.0 |
+| Eros | | | | | | 0 |
 | Hogan | 1.3 (MUS 317) | | 0.3 | 1.5 | 1.44 | 4.54 |
 | James | 6.0 (MUS 351B, 433) | | 0.6 | | 0.96 | 7.56 |
 | Knight | 3.0 (MUS 441) | | | | | 3.0 |
@@ -161,10 +150,10 @@ Applied study and coaching counts are the fall 2026 enrollment carried forward.
 | Lyons Kuster | | | 0.6 | | | 0.6 |
 | Marsh | 3.0 (MUS 324) | | | | | 3.0 |
 | Roudman | 1.3 (MUS 365) | | | | | 1.3 |
-| Shimron | 8.2 (MUS 108, 115, 118, 215, 218) | | 0.3 | 3.3 | | 11.8 |
+| Shimron | 5.2 (MUS 115, 118, 215, 218) | | 0.3 | 3.3 | | 8.8 |
 | Thiebaut | 7.3 (MUS 361, 410, 414) | | 2.7 | | 1.44 | 11.44 |
 | unassigned: strings | | | 0.6 | | | 0.6 |
 | unassigned: organ | | | 0.3 | | | 0.3 |
 | unassigned: brass | | | 0.3 | | | 0.3 |
 
-61.14 WTU assigned. The 8.2 WTU in remaining scheduled sections carries no instructor.
+52.14 WTU assigned. The 8.2 WTU in remaining scheduled sections carries no instructor.
