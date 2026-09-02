@@ -105,7 +105,9 @@ Subtotal 4.3 plus MUS 693. MUS 693 is S25, supervision, at .48 WTU per student.
 | Hogan | 1 | 0 | 1 | 0.3 |
 | James | 0 | 1 | 1 | 0.6 |
 | Lyons Kuster | 0 | 1 | 1 | 0.6 |
-| unassigned | 4 | 0 | 4 | 1.2 |
+| unassigned: strings | 2 | 0 | 2 | 0.6 |
+| unassigned: organ | 1 | 0 | 1 | 0.3 |
+| unassigned: brass | 1 | 0 | 1 | 0.3 |
 | total | 20 | 8 | 28 | 10.8 |
 
 Subtotal 10.8.
