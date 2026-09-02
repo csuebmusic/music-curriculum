@@ -153,7 +153,7 @@ Applied study and coaching counts are the fall 2026 enrollment carried forward.
 | Abraham | | | 2.7 | | | 2.7 |
 | Chan | 1.3 (MUS 363) | | 0.6 | | | 1.9 |
 | Eckl | 4.3 (MUS 355, 360) | | | | | 4.3 |
-| Eros | 3.0 (MUS 106B-01) | | | | | 3.0 |
+| Eros | 6.0 (MUS 106B-01, 106B-02) | | | | | 6.0 |
 | Hogan | 1.3 (MUS 317) | | 0.3 | 1.5 | 1.44 | 4.54 |
 | James | 6.0 (MUS 351B, 433) | | 0.6 | | 0.96 | 7.56 |
 | Leimbach | | | 1.8 | | | 1.8 |
@@ -161,9 +161,9 @@ Applied study and coaching counts are the fall 2026 enrollment carried forward.
 | Marsh | 3.0 (MUS 324) | | | | | 3.0 |
 | Roudman | 1.3 (MUS 365) | | | | | 1.3 |
 | Shimron | 5.2 (MUS 115, 118, 215, 218) | | 0.3 | 3.3 | | 8.8 |
-| Thiebaut | 4.3 (MUS 361, 414) | | 2.7 | | 1.44 | 8.44 |
+| Thiebaut | 7.3 (MUS 361, 410, 414) | | 2.7 | | 1.44 | 11.44 |
 | unassigned: strings | | | 0.6 | | | 0.6 |
 | unassigned: organ | | | 0.3 | | | 0.3 |
 | unassigned: brass | | | 0.3 | | | 0.3 |
 
-49.14 WTU assigned. The 20.2 WTU in remaining scheduled sections carries no instructor.
+55.14 WTU assigned. The 14.2 WTU in remaining scheduled sections carries no instructor.
