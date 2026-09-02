@@ -159,9 +159,8 @@ Applied study and coaching counts are the fall 2026 enrollment carried forward.
 | Leimbach | | | 1.8 | | | 1.8 |
 | Lyons Kuster | | | 0.6 | | | 0.6 |
 | Marsh | | | | | | 0 |
-| Omri | 2.6 | | | | | 2.6 |
 | Roudman | 1.3 | | | | | 1.3 |
-| Shimron | | | 0.3 | 3.3 | | 3.6 |
+| Shimron | 2.6 | | 0.3 | 3.3 | | 6.2 |
 | Thiebaut | 4.3 | | 2.7 | | 1.44 | 8.44 |
 | unassigned: strings | | | 0.6 | | | 0.6 |
 | unassigned: organ | | | 0.3 | | | 0.3 |
