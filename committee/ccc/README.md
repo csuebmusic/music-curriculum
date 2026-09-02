@@ -10,7 +10,7 @@ Curriculog proposals under committee review, recorded here as Markdown from the 
 
 ## papers
 
-- [geoc alignment form, draft](papers/geoc-alignment-form-proposed.docx): a two-page replacement for the 2026/2027 alignment form, keyed to the attached syllabus rather than reproducing it.
+- [geoc alignment form, draft](papers/geoc-alignment-form-proposed.docx): a one-page replacement for the 2026/2027 alignment form, keyed to the attached syllabus rather than reproducing it. It follows the formatting of the GEOC form it would replace, not `conventions/house-style.md`.
 
 ## reference
 
