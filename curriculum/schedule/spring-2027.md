@@ -48,9 +48,9 @@ Subtotal 1.3.
 |---|---|---|---|
 | MUS 231 | Basic String Techniques | 1 | 1.3 |
 | MUS 433 | Choral Music Teaching Methods | 3 | 3.0 |
-| MUS 441 | Intermediate Conducting | 3 | 2.0 |
+| MUS 441 | Intermediate Conducting | 3 | 3.0 |
 
-Subtotal 6.3.
+Subtotal 7.3.
 
 ## major performing ensembles
 
@@ -93,11 +93,9 @@ Subtotal 4.3 plus MUS 693.
 
 ## total
 
-23 sections carry a computed figure and total 50.9 WTU, plus MUS 693.
+23 sections carry a computed figure and total 51.9 WTU, plus MUS 693.
 
 ## open items
-
-MUS 441 publishes at 3 units where the record holds 2 units of C05. The table carries the record value of 2.0. At 3 units it is 3.0 and the total is 51.9.
 
 MUS 693 is a supervision classification. Its WTU is students times the S-factor rather than units times a K-factor. The record holds C25, which does not appear on the CSUEB classification table; S25 does, at .48 per student.
 
