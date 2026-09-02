@@ -114,9 +114,16 @@ Subtotal 10.8.
 
 ## performance
 
-16 students in coaching at 1 unit, 12 undergraduate and 4 graduate, for 16 student units.
+16 students in coaching, undergraduate and graduate alike at 1 unit, for 16 student units.
 
-16 units at .3 is a subtotal of 4.8.
+| coaching | teacher | undergrad | grad | total | WTU |
+|---|---|---|---|---|---|
+| vocal | Shimron | 7 | 1 | 8 | 2.4 |
+| instrumental, non-jazz | Shimron | 3 | 0 | 3 | 0.9 |
+| instrumental, jazz | Hogan | 2 | 3 | 5 | 1.5 |
+| total | | 12 | 4 | 16 | 4.8 |
+
+Subtotal 4.8. Shimron carries 3.3 of it.
 
 ## total
 
