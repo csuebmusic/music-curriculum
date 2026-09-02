@@ -2,7 +2,7 @@
 
 California State University, East Bay, Department of Music.
 
-Course slate for spring 2027, a Year A spring. Sections are grouped by catalog course type. WTU is units times the K-factor for the teaching classification held in Curriculog. Applied study and coaching are supervision, and their WTU is students times the S-factor of .333.
+Course slate for spring 2027, a Year A spring. Sections are grouped by catalog course type. WTU is units times the K-factor for the teaching classification held in Curriculog. Applied study and coaching are supervision, and their WTU is .3 per student unit.
 
 ## theory and musicianship
 
@@ -93,18 +93,18 @@ Subtotal 4.3 plus MUS 693. MUS 693 is S25, supervision, at .48 WTU per student.
 
 ## applied study
 
-28 students, 20 undergraduate at 1 unit and 8 graduate at 2 units. By studio: Abraham 8, Thiebaut 6, Leimbach 4, Chan 2, Shimron 1, Hogan 1, James 1, Lyons Kuster 1, and 4 unassigned.
+28 students, 20 undergraduate at 1 unit and 8 graduate at 2 units, for 36 student units. By studio: Abraham 8, Thiebaut 6, Leimbach 4, Chan 2, Shimron 1, Hogan 1, James 1, Lyons Kuster 1, and 4 unassigned.
 
-Subtotal 9.3.
+36 units at .3 is a subtotal of 10.8.
 
 ## performance
 
-16 students in coaching at 1 unit, 12 undergraduate and 4 graduate.
+16 students in coaching at 1 unit, 12 undergraduate and 4 graduate, for 16 student units.
 
-Subtotal 5.3.
+16 units at .3 is a subtotal of 4.8.
 
 ## total
 
-23 scheduled sections total 51.9 WTU. Applied study and coaching add 14.6, for 66.5 WTU, plus MUS 693.
+23 scheduled sections total 51.9 WTU. Applied study and coaching add 15.6, for 67.5 WTU, plus MUS 693.
 
 Applied study and coaching counts are the fall 2026 enrollment carried forward.
