@@ -333,8 +333,8 @@ add("ma-5-admission-accepted", "ma", "Admission Accepted",
     "She will go through "
     "your interests and what you want from the degree, match you to an ensemble that fits, and put you in "
     "touch with your applied studies instructor. Your first semester is MUS 602, Analysis of Musical "
-    "Styles: Post-Tonality and Beyond, and MUS 630, Advanced Conducting, alongside lessons and ensemble, "
-    "for seven units."),
+    "Styles: Post-Tonality and Beyond, and MUS 630, Advanced Conducting, alongside lessons, ensemble, and "
+    "the first unit of your capstone, for eight units."),
   H("Before the semester starts"),
   UL([
     "<strong>Applied lessons.</strong> Arrange your weekly lesson time directly with your instructor once she has put you in touch.",
