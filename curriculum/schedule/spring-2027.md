@@ -160,10 +160,10 @@ Applied study and coaching counts are the fall 2026 enrollment carried forward.
 | Lyons Kuster | | | 0.6 | | | 0.6 |
 | Marsh | 3.0 (MUS 324) | | | | | 3.0 |
 | Roudman | 1.3 (MUS 365) | | | | | 1.3 |
-| Shimron | 2.6 (MUS 115, 215) | | 0.3 | 3.3 | | 6.2 |
+| Shimron | 5.2 (MUS 115, 118, 215, 218) | | 0.3 | 3.3 | | 8.8 |
 | Thiebaut | 4.3 (MUS 361, 414) | | 2.7 | | 1.44 | 8.44 |
 | unassigned: strings | | | 0.6 | | | 0.6 |
 | unassigned: organ | | | 0.3 | | | 0.3 |
 | unassigned: brass | | | 0.3 | | | 0.3 |
 
-46.54 WTU assigned. The 22.8 WTU in remaining scheduled sections carries no instructor.
+49.14 WTU assigned. The 20.2 WTU in remaining scheduled sections carries no instructor.
