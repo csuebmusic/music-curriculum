@@ -156,9 +156,10 @@ add("ba-1-application-in-progress", "ba", "Application in Progress",
   P("Hi {{FIRST_NAME}},"),
   P("Thanks for starting an application to the " + A(U["ba"], "B.A. in Music") + " at Cal State East Bay."),
   P("If anything in the application is unclear, don&rsquo;t hesitate to reach out, we are here to help. " + CALL),
-  P("You can also begin thinking about your scholarship audition. We award scholarships to incoming students "
-    "every year, and the same materials serve as the applied area placement that every music major completes "
-    "before starting lessons. Requirements differ by area, and auditions close in February: "
+  P("We also want you to consider auditioning in your applied area for lessons and scholarships. We award "
+    "scholarships to incoming students every year, and the same materials serve as the applied area "
+    "placement that every music major completes before starting lessons. Requirements differ by area, so "
+    "check our information for requirements and deadlines: "
     + A(U["aud"], "scholarship auditions and applied area placements") + "."),
   P("There&rsquo;s more about the programs, the faculty, and performance opportunities on the "
     + A(U["about"], "Department of Music") + " site. And remember, you&rsquo;re welcome on campus any time!"),
@@ -168,11 +169,11 @@ add("ba-2-application-received", "ba", "Application Received",
   "Now, your audition", [
   P("Hi {{FIRST_NAME}},"),
   P("Congratulations! Your application IS IN."),
-  H("Sign up for your scholarship audition"),
-  P("We award scholarships to incoming students every year, and the same materials serve as the applied "
-    "area placement that every music major completes before starting lessons. Auditions close in "
-    "February. You can submit your materials online or sign up for an in-person audition. All the "
-    "information is on the "
+  H("Be sure to sign up for your applied area audition to be considered for a scholarship"),
+  P("Music students must audition to begin lessons in their applied area, and we consider everyone who "
+    "auditions for the applied area placement prior to the February deadline for music scholarships. We "
+    "prefer in-person auditions but you can also submit your materials online. All the information and "
+    "deadlines are on the "
     + A(U["aud"], "scholarship auditions and applied area placements") + " page. Sign up!"),
   H("Other things to do now"),
   UL([
@@ -194,10 +195,10 @@ add("ba-3-conditionally-admitted", "ba", "Conditionally Admitted",
     "<strong>Send the missing documents.</strong> These go to the Office of Admissions rather than to us. Ask each school you&rsquo;ve attended (high school, community college, or any other 4-year college) to send transcripts electronically to " + TRANSCRIPTS + ". " + A(U["trans"], "How to submit documents") + ".",
     "<strong>Meet the " + A(U["deadlines"], "document deadlines") + ".</strong> They are firm, and the offer does not become final until the items clear."]),
   H("If you have not auditioned yet"),
-  P("Scholarship auditions close in February. If that date has not passed, submit your materials online or "
-    "sign up for an in-person audition. After it, the same materials serve as your applied area "
-    "placement, which you need before starting applied lessons, any time up to the second week of the "
-    "semester. All the information is on the "
+  P("All music students must pass an audition to begin taking private lessons. You may complete your "
+    "audition before the end of the spring semester, or you may wait until the beginning of the semester "
+    "that you wish to start your lessons. Students who audition before the deadline in February are "
+    "considered for a scholarship. All the information is on the "
     + A(U["aud"], "scholarship auditions and applied area placements") + " page. Sign up!"),
   P("Questions about any of it? " + CALL),
   FOOTER("We look forward to welcoming you as our newest CSUEB Pioneer!")])
@@ -237,7 +238,7 @@ add("ba-5-admission-accepted", "ba", "Admission Accepted",
     "you over the summer to arrange it."),
   H("Before the semester starts"),
   UL([
-    "<strong>Applied area placement.</strong> You need one before starting lessons on your principal instrument or voice, any time up to the second week of the semester (if you submitted a scholarship audition, that already counts!) " + A(U["aud"], "What to prepare") + ".",
+    "<strong>Applied area placement.</strong> You need one before starting lessons on your principal instrument or voice, any time up to the second week of the semester (if you have already auditioned, that counts!) " + A(U["aud"], "What to prepare") + ".",
     "<strong>Ensembles.</strong> Auditions and placement happen at the first meeting of each ensemble. Register for the course, then come ready to play or sing to that first class. " + A(U["ens"], "Our ensembles") + ".",
     "<strong>Music orientation.</strong> The Department holds it the day before classes start. You will walk our facilities, rent a locker, and meet your cohort and your advisors."]),
   H("Read ahead (all of these are on our " + A(U["current"], "Student Resources") + " page)"),
@@ -442,7 +443,7 @@ add("cert-5-admission-accepted", "cert", "Admission Accepted",
   P("The music education courses run Tuesday and Thursday mornings, usually 8:30 a.m. to noon, on a two-year "
     "rotation. The " + A(U["certrm"], "certificate roadmap") + " lays out the 31 units across that rotation."),
   H("Applied lessons and ensembles"),
-  P("You are eligible for applied lessons as long as you also join an ensemble. To start lessons you need an "
+  P("You may be eligible for applied lessons as long as you also join an ensemble. To start lessons you need an "
     "applied area placement, which you can submit any time up to the second week of the semester: "
     + A(U["aud"], "scholarship auditions and applied area placements") + ". Ensemble auditions and placement "
     "happen at the first meeting of each ensemble, so register for the course and come ready to play or sing "
