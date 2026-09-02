@@ -145,3 +145,21 @@ Subtotal 4.8. Shimron carries 3.3 of it.
 71.34 WTU across 24 scheduled sections, applied study, and coaching.
 
 Applied study and coaching counts are the fall 2026 enrollment carried forward.
+
+## WTU by faculty
+
+| faculty | applied | coaching | MUS 693 | total |
+|---|---|---|---|---|
+| Abraham | 2.7 | | | 2.7 |
+| Chan | 0.6 | | | 0.6 |
+| Eros | | | | 0 |
+| Hogan | 0.3 | 1.5 | 1.44 | 3.24 |
+| James | 0.6 | | 0.96 | 1.56 |
+| Leimbach | 1.8 | | | 1.8 |
+| Lyons Kuster | 0.6 | | | 0.6 |
+| Marsh | | | | 0 |
+| Shimron | 0.3 | 3.3 | | 3.6 |
+| Thiebaut | 2.7 | | 1.44 | 4.14 |
+| unassigned | 1.2 | | | 1.2 |
+
+19.44 WTU assigned. The 51.9 WTU in scheduled sections carries no instructor.
