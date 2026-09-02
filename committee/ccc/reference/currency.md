@@ -21,7 +21,7 @@ Three parts of it have no replacement anywhere else, and it stays in the set for
 Everything else in the guide is superseded:
 
 - Appendix I, in full, by the framework. The framework revises 1B, Area 6, UD-3, the Diversity Overlay, and US-1, US-2, and US-3, and gives course characteristics and caps under the current labels.
-- The 5-year recertification figure. The GEOC page carries a figure beginning with 2026-2027.
+- The 5-year recertification figure. The GEOC page carries a figure beginning with 2026-2027, under the current labels. For this year the two agree on which areas recertify.
 - Curriculog contact. Questions go to catalog@csueastbay.edu, not to a personal address.
 - The list of problems that delay proposals. The GEOC page gives a different and shorter list.
 - Syllabus for new course proposals. The framework and the GEOC page both accept a representative syllabus for a new course. Recertification still takes the syllabus the course was actually taught from.
@@ -68,8 +68,6 @@ Current as of 2026-09-02. The GEOC page links this file and requires it as an at
 Current as of 2026-09-02. 25-26 CIC 1 is the most recent entry in the policy's own history. GEOC reads the Course Information section strictly: the catalog course description, and student learning outcomes for the course together with those of every GEOC area the course carries.
 
 ## open
-
-Which areas are up for recertification in 2026-2027. The guide's chart puts UD-B, UD-D, and stand-alone Overlays in that year. The GEOC page's figure is an image and cannot be read from the markup.
 
 The Curriculog form names in the guide carry a 2024-25 AY stamp. Confirm the current names in Curriculog.
 

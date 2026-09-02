@@ -18,6 +18,10 @@ Outcomes, course characteristics, and course caps come from the framework. Routi
 
 Proposals launch in Curriculog by September 15. Revision and recertification requests pass the College Curriculum Committee step and reach the Academic Affairs step by October 15. Proposals reach Senate by March 1 to appear in the following year's catalog. A proposal that misses October 15 goes back on the next catalog year's form.
 
+## this cycle
+
+Recertification in 2026-2027 covers UD-2/5 Upper-division Science or Mathematical Concepts/Quantitative Reasoning, UD-4 Upper-division Social and Behavioral Sciences, and overlay-only courses. A course not approved for recertification loses its certifications effective Fall 2027.
+
 ## live sources
 
 - [GE Guide](https://www.csueastbay.edu/ge/breadth-semesters.html): the student-facing account of the areas and the unit and grade rules. Its outcomes lag the framework for Area 6 and UD-3.
