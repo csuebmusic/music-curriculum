@@ -51,6 +51,14 @@ Proposals, Curriculog records, and syllabi written before the CAL-GETC relabelin
 
 The GE Guide page heads the section UD-5 and then uses UD-B in the body text and in the course-list link.
 
+## geoc-proposal-checklist.pdf
+
+Titled "Checklist for Faculty" and matching the checklist the GEOC page links as a Google Doc, which I cannot open to compare. Undated; it cites Spring 2023 as the point at which representative syllabi stopped being accepted for recertification.
+
+Two things in it are stale. It uses the old labels, citing UD-C and UD-D for the 4,000-word requirement, now UD-3 and UD-4. It sends the reader to the guide for the current outcomes and course characteristics; those come from the framework.
+
+The rest holds and has no replacement: the item-by-item check, the decision each failure draws, and the requirement that word counts for all written assignments appear on the syllabus even though the syllabus policy does not require them.
+
 ## geoc-alignment-form-2026-2027.docx
 
 Current as of 2026-09-02. The GEOC page links this file and requires it as an attachment for all new courses, revisions not up for recertification, and recertifications, as of Fall 2026. Its worked example uses the Fall 2027 UD-3 outcomes.
@@ -64,3 +72,5 @@ Current as of 2026-09-02. 25-26 CIC 1 is the most recent entry in the policy's o
 Which areas are up for recertification in 2026-2027. The guide's chart puts UD-B, UD-D, and stand-alone Overlays in that year. The GEOC page's figure is an image and cannot be read from the markup.
 
 The Curriculog form names in the guide carry a 2024-25 AY stamp. Confirm the current names in Curriculog.
+
+The end of the timeline. The guide has proposals reaching Senate by March 1; the checklist has them reaching the President by February 1.
