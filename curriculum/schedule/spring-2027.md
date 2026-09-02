@@ -93,7 +93,7 @@ Subtotal 4.3 plus MUS 693. MUS 693 is S25, supervision, at .48 WTU per student.
 
 ## applied study
 
-28 students, 20 undergraduate at 1 unit and 8 graduate at 2 units, for 36 student units.
+28 students, 20 undergraduate at 1 unit and 8 graduate at 2 units.
 
 | studio | undergrad (1 unit) | grad (2 units) | total | WTU |
 |---|---|---|---|---|
@@ -114,7 +114,7 @@ Subtotal 10.8.
 
 ## coaching
 
-16 students in coaching, undergraduate and graduate alike at 1 unit, for 16 student units.
+16 students in coaching, undergraduate and graduate alike at 1 unit.
 
 | coaching | teacher | undergrad | grad | total | WTU |
 |---|---|---|---|---|---|
