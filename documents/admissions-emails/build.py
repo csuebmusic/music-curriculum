@@ -359,7 +359,8 @@ add("cert-1-application-in-progress", "cert", "Application in Progress",
     "discipline you intend to teach, including theory, history, conducting, and performance, at the depth "
     "the state expects of someone standing in front of a classroom. Completing it satisfies the subject "
     "matter requirement without a separate examination."),
-  P("The teaching credential itself is the other half, and it is a separate program run by the "
+  P("The teaching credential itself is the other portion of becoming a music teacher in California, "
+    "and it is a separate program run by the "
     + A(U["cred"], "School of Education") + ". If you came here looking for the credential program, that "
     "is where to start."),
   P("If you hold a bachelor&rsquo;s degree and want to start a career in music education without much "
