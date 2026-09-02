@@ -222,7 +222,7 @@ add("ba-4-fully-admitted", "ba", "Fully Admitted",
     "<strong>The music education add-on.</strong> You can earn the " + A(U["cert"], "Single Subject Matter Preparation Certificate in Music") + " alongside the B.A., which prepares you to apply for the California Single Subject Teaching Credential in Music and complete it successfully. John Eros coordinates music education: " + A("mailto:john.eros@csueastbay.edu", "john.eros@csueastbay.edu") + ".",
     "<strong>The FAST 4+1 B.A./M.A.</strong> gets you both degrees in five years. You apply by January 15 of your junior year, with 60 to 90 units done and a 3.0 in your music courses. " + A(U["fast"], "More about the program") + ", and the roadmaps lay out the whole sequence: " + A(U["fastrm"], "4+1") + " and " + A(U["fastrm2"], "2+1 for transfer students") + ".",
     "<strong>Come and see us.</strong> Sit in on a class, hear a rehearsal, meet the faculty you would study with, and talk to the students already doing it. Write or call and we will arrange a visit around your schedule.",
-    "<strong>Complete your applied area placement.</strong> You need one to begin lessons in your principal area (if you submitted a scholarship audition, that already counts!) If you have not auditioned, sign up on the " + A(U["aud"], "scholarship auditions and applied area placements") + " page, any time up to the second week of the semester."]),
+    "<strong>Complete your applied area placement.</strong> You need one to begin lessons in your principal area (if you submitted a scholarship audition, that already counts!) If you have not auditioned, sign up on the " + A(U["aud"], "scholarship auditions and applied area placements") + " page, any time up to the second Tuesday of the semester."]),
   H("Read ahead"),
   P(A(U["gotin"], "I got in! Now what?") + " walks through orientation, advising, and the steps that follow "
     "once you accept."),
@@ -242,7 +242,7 @@ add("ba-5-admission-accepted", "ba", "Admission Accepted",
     "you over the summer to arrange it."),
   H("Before the semester starts"),
   UL([
-    "<strong>Applied area placement.</strong> You need one before starting lessons on your principal instrument or voice, any time up to the second week of the semester (if you have already auditioned, that counts!) " + A(U["aud"], "What to prepare") + ".",
+    "<strong>Applied area placement.</strong> You need one before starting lessons on your principal instrument or voice, any time up to the second Tuesday of the semester (if you have already auditioned, that counts!) " + A(U["aud"], "What to prepare") + ".",
     "<strong>Ensembles.</strong> Auditions and placement happen at the first meeting of each ensemble. Register for the course, then come ready to play or sing to that first class. " + A(U["ens"], "Our ensembles") + ".",
     "<strong>Music orientation.</strong> The Department holds it the day before classes start. You will walk our facilities, rent a locker, and meet your cohort and your advisors. Be sure to save the date."]),
   H("Read ahead (all of these are on our " + A(U["current"], "Student Resources") + " page)"),
@@ -449,7 +449,7 @@ add("cert-5-admission-accepted", "cert", "Admission Accepted",
     "rotation. The " + A(U["certrm"], "certificate roadmap") + " lays out the 31 units across that rotation."),
   H("Applied lessons and ensembles"),
   P("You may be eligible for applied lessons as long as you also join an ensemble. To start lessons you need an "
-    "applied area placement, which you can submit any time up to the second week of the semester: "
+    "applied area placement, which you can submit any time up to the second Tuesday of the semester: "
     + A(U["aud"], "scholarship auditions and applied area placements") + ". Ensemble auditions and placement "
     "happen at the first meeting of each ensemble, so register for the course and come ready to play or sing "
     "to that first class. " + A(U["ens"], "Our ensembles") + "."),
