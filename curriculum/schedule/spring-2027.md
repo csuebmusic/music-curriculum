@@ -161,6 +161,8 @@ Applied study and coaching counts are the fall 2026 enrollment carried forward.
 | Marsh | | | | | 0 |
 | Shimron | | 0.3 | 3.3 | | 3.6 |
 | Thiebaut | | 2.7 | | 1.44 | 4.14 |
-| unassigned | | 1.2 | | | 1.2 |
+| unassigned: strings | | 0.6 | | | 0.6 |
+| unassigned: organ | | 0.3 | | | 0.3 |
+| unassigned: brass | | 0.3 | | | 0.3 |
 
 20.74 WTU assigned. The 51.9 WTU in remaining scheduled sections carries no instructor.
