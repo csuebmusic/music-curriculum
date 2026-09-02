@@ -61,6 +61,7 @@ Posted syllabi for individual sections, one file per section per term, with a pe
 Proposals under CLASS Curriculum Committee review, with review notes where feedback has been given, in `committee/ccc/`.
 
 - [CCC README](committee/ccc/README.md), [Theatre Arts, B.A., revision](committee/ccc/proposals/theatre-arts-ba-revision-fall-2027.md), [review notes](committee/ccc/proposals/theatre-arts-ba-revision-fall-2027-review.md)
+- [reference](committee/ccc/reference/README.md): the GEOC faculty guide, the GEOC alignment form required in Curriculog, the 25-26 CIC 1 syllabus policy, and the curricular deadlines
 
 ## graduate recruitment
 

@@ -8,6 +8,10 @@ Curriculog proposals under committee review, recorded here as Markdown from the 
 
 - [Theatre Arts, B.A., program revision, Fall 2027](proposals/theatre-arts-ba-revision-fall-2027.md), with [review notes](proposals/theatre-arts-ba-revision-fall-2027-review.md)
 
+## reference
+
+Standing reference for review, in [reference/](reference/): the GEOC faculty guide, the GEOC alignment form, the syllabus policy, and links to the GE Framework and the live GEOC pages.
+
 ## naming
 
 One file per proposal, named for the program, the proposal type, and the proposed effective term. The review file carries the same stem with `-review` appended.
