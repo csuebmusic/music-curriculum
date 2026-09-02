@@ -13,24 +13,26 @@ templates/*.html and regenerates index.html.
 
 import os, re, html
 
-FOOTER = """<p style="margin:0 0 1em 0;">All the best,<br>
-Department of Music</p>
+def FOOTER(close="All the best,"):
+    return """<p style="margin:0 0 1em 0;">%s<br>
+The Department of Music and Performing Arts</p>
 
 <p style="margin:0 0 1em 0;font-size:14px;color:#5E6166;">
-Department of Music &middot; CSUEB Music Building, MB 2569<br>
+Department of Music and Performing Arts &middot; CSUEB Music Building, MB 2569<br>
 25800 Carlos Bee Boulevard, Hayward, CA 94542<br>
 (510) 885-3135 &middot; <a href="mailto:music@csueastbay.edu" style="color:#6E1F2A;">music@csueastbay.edu</a>
-</p>"""
+</p>""" % close
 
-LINKS = """<p style="margin:0 0 0.4em 0;"><strong>Other places to look</strong></p>
+def LINKS(first):
+    return """<p style="margin:0 0 0.4em 0;"><strong>Other places to look</strong></p>
 <ul style="margin:0 0 1em 0;padding-left:1.4em;">
-<li><a href="https://www.csueastbay.edu/music/" style="color:#6E1F2A;">Department of Music</a></li>
+<li><a href="https://www.csueastbay.edu/music/" style="color:#6E1F2A;">%s</a></li>
 <li><a href="https://www.csueastbay.edu/admissions/index.html" style="color:#6E1F2A;">Admissions</a></li>
 <li><a href="https://www.csueastbay.edu/visit/campustours.html" style="color:#6E1F2A;">Campus tours</a></li>
 <li><a href="https://www.csueastbay.edu/housing/" style="color:#6E1F2A;">University housing</a></li>
 <li><a href="https://www.csueastbay.edu/financialaid/" style="color:#6E1F2A;">Financial aid</a></li>
 <li><a href="https://www.csueastbay.edu/admissions/how-to-videos.html" style="color:#6E1F2A;">Video answers to common questions</a></li>
-</ul>"""
+</ul>""" % first
 
 OPEN = ('<div style="font-family:Georgia,\'Times New Roman\',serif;font-size:16px;'
         'line-height:1.6;color:#1B1C1E;">\n'
@@ -145,7 +147,7 @@ add("00-inquiry", "all", "Inquired",
   P(A(U["apply"], "How to apply") + " &middot; " + A(U["schol"], "Music scholarships")),
   P("Come visit us: the recital hall, the studios, and whatever rehearsal happens to be running that "
     "afternoon. " + CALL),
-  FOOTER, LINKS])
+  FOOTER(), LINKS("Music at East Bay")])
 
 # ============================================================ b.a.
 
@@ -160,7 +162,7 @@ add("ba-1-application-in-progress", "ba", "Application in Progress",
     + A(U["aud"], "scholarship auditions and applied area placements") + "."),
   P("There&rsquo;s more about the programs, the faculty, and performance opportunities on the "
     + A(U["about"], "Department of Music") + " site. And remember, you&rsquo;re welcome on campus any time!"),
-  FOOTER, LINKS])
+  FOOTER(), LINKS("Music Website")])
 
 add("ba-2-application-received", "ba", "Application Received",
   "Now, your audition", [
@@ -179,7 +181,7 @@ add("ba-2-application-received", "ba", "Application Received",
     "<strong>Check " + MYCSUEB + ".</strong> It shows your status and anything still outstanding.",
     "<strong>Come and visit.</strong> Meet the faculty, sit in on a rehearsal, and see an ordinary Tuesday here. Write or call and we will arrange it."]),
   P("Questions about a visit or an audition? " + CALL),
-  FOOTER])
+  FOOTER()])
 
 add("ba-3-conditionally-admitted", "ba", "Conditionally Admitted",
   "Conditionally admitted", [
@@ -198,7 +200,7 @@ add("ba-3-conditionally-admitted", "ba", "Conditionally Admitted",
     "semester. All the information is on the "
     + A(U["aud"], "scholarship auditions and applied area placements") + " page. Sign up!"),
   P("Questions about any of it? " + CALL),
-  FOOTER])
+  FOOTER("We look forward to welcoming you as our newest CSUEB Pioneer!")])
 
 add("ba-4-fully-admitted", "ba", "Fully Admitted",
   "Your offer of admission", [
@@ -220,7 +222,7 @@ add("ba-4-fully-admitted", "ba", "Fully Admitted",
   P(A(U["gotin"], "I got in! Now what?") + " walks through orientation, advising, and the steps that follow "
     "once you accept."),
   P("Questions about any of it? " + CALL),
-  FOOTER])
+  FOOTER("Welcome to our Musical Family!")])
 
 add("ba-5-admission-accepted", "ba", "Admission Accepted",
   "Before classes begin", [
@@ -250,7 +252,7 @@ add("ba-5-admission-accepted", "ba", "Admission Accepted",
     "For the " + A(U["cert"], "Single Subject Matter Preparation Certificate in Music") + ", write to John Eros at " + A("mailto:john.eros@csueastbay.edu", "john.eros@csueastbay.edu") + " to set up an advising session. Its " + A(U["certrm"], "roadmap") + " shows how the coursework fits alongside the degree.",
     "For the " + A(U["fast"], "FAST 4+1 B.A./M.A.") + ", the application falls on January 15 of your junior year. Roadmaps: " + A(U["fastrm"], "4+1") + " and " + A(U["fastrm2"], "2+1 for transfer students") + "."]),
   P("Questions about any of it? " + CALL),
-  FOOTER])
+  FOOTER("Welcome!")])
 
 
 # ============================================================ m.a.
@@ -269,7 +271,7 @@ add("ma-1-application-in-progress", "ma", "Application in Progress",
     "A statement of purpose, 2 pages, on what you want from a graduate degree in music and where you&rsquo;re headed in the short and long term.",
     "Evidence of your abilities in your area of emphasis. What that means differs from one emphasis to the next, and it is laid out on the " + A(U["applyma"], "How to Apply") + " page."]),
   P(GRADCLOSE),
-  FOOTER])
+  FOOTER()])
 
 add("ma-2-application-received", "ma", "Application Received",
   "Your M.A. application", [
@@ -280,7 +282,7 @@ add("ma-2-application-received", "ma", "Application Received",
     "separately, and we move to a decision once both are done. You can track your status in " + MYCSUEB + "."),
   funding([GTA, ISA]),
   P(GRADCLOSE),
-  FOOTER])
+  FOOTER()])
 
 add("ma-3-conditionally-admitted", "ma", "Conditionally Admitted",
   "Conditionally admitted, M.A.", [
@@ -293,7 +295,7 @@ add("ma-3-conditionally-admitted", "ma", "Conditionally Admitted",
     "<strong>Send the missing documents.</strong> These go to the Office of Graduate Admissions rather than to us. Ask every college and university you have attended to send transcripts electronically to " + TRANSCRIPTS + ". " + A(U["trans"], "How to submit documents") + ".",
     "<strong>Meet the " + A(U["gdeadlines"], "document deadlines") + ".</strong> They are firm, and the offer does not become final until the items clear."]),
   P(GRADCLOSE),
-  FOOTER])
+  FOOTER()])
 
 add("ma-4-fully-admitted", "ma", "Fully Admitted",
   "Your M.A. offer", [
@@ -315,7 +317,7 @@ add("ma-4-fully-admitted", "ma", "Fully Admitted",
     "The " + A(U["gradstudies"], "Office of Graduate Studies") + " oversees graduate study across the University, and its " + A(U["gradadmit"], "admitted students") + " page carries orientation, registration, and the next steps after you accept.",
     "The " + A(U["cie"], "Center for International Education") + " advises international students on immigration, arrival, and the mandatory check-in: cie@csueastbay.edu, (510) 885-2880."]),
   P(GRADCLOSE),
-  FOOTER])
+  FOOTER("Sincerely,")])
 
 add("ma-5-admission-accepted", "ma", "Admission Accepted",
   "Before the M.A. begins", [
@@ -339,7 +341,7 @@ add("ma-5-admission-accepted", "ma", "Admission Accepted",
     "The " + A(U["equip"], "Music Equipment Office") + " lends instruments and recording equipment, and assigns lockers.",
     "The concert calendar is on " + A(U["events"], "News &amp; Events") + "."]),
   P(GRADCLOSE),
-  FOOTER])
+  FOOTER()])
 
 
 # ============================================================ certificate
@@ -375,7 +377,7 @@ add("cert-1-application-in-progress", "cert", "Application in Progress",
     "A statement of purpose, 2 to 3 double-spaced pages, on your background in music and why you want to teach K&ndash;12.",
     "Unofficial transcripts from every school you&rsquo;ve attended."]),
   P(CERTCLOSE),
-  FOOTER])
+  FOOTER()])
 
 add("cert-2-application-received", "cert", "Application Received",
   "Your certificate application", [
@@ -390,7 +392,7 @@ add("cert-2-application-received", "cert", "Application Received",
     "<strong>This is the subject matter certificate, not the credential.</strong> It establishes that you know the discipline you intend to teach. The teaching credential is a separate program run by the " + A(U["cred"], "School of Education") + ".",
     "<strong>The stand-alone certificate carries no federal or state financial aid.</strong> Aid eligibility follows admission to a bachelor&rsquo;s, master&rsquo;s, or credential program. If you need aid, apply to the " + A(U["ba"], "B.A. in Music") + " or the " + A(U["ma"], "M.A. in Music") + " and take the certificate alongside it. Write to the Graduate Coordinator and she will go through which one fits."]),
   P(CERTCLOSE),
-  FOOTER])
+  FOOTER()])
 
 add("cert-3-conditionally-admitted", "cert", "Conditionally Admitted",
   "Conditionally admitted, certificate", [
@@ -404,7 +406,7 @@ add("cert-3-conditionally-admitted", "cert", "Conditionally Admitted",
     "<strong>Send the missing documents.</strong> These go to the Office of Graduate Admissions rather than to us. Ask every college and university you have attended to send transcripts electronically to " + TRANSCRIPTS + ". " + A(U["trans"], "How to submit documents") + ".",
     "<strong>Meet the " + A(U["gdeadlines"], "document deadlines") + ".</strong> They are firm, and the offer does not become final until the items clear."]),
   P(CERTCLOSE),
-  FOOTER])
+  FOOTER()])
 
 add("cert-4-fully-admitted", "cert", "Fully Admitted",
   "Your certificate offer", [
@@ -426,7 +428,7 @@ add("cert-4-fully-admitted", "cert", "Fully Admitted",
     "The " + A(U["gradstudies"], "Office of Graduate Studies") + " oversees graduate study across the University, and its " + A(U["gradadmit"], "admitted students") + " page carries orientation, registration, and the next steps after you accept.",
     "The " + A(U["cie"], "Center for International Education") + " advises international students on immigration, arrival, and the mandatory check-in: cie@csueastbay.edu, (510) 885-2880."]),
   P(CERTCLOSE),
-  FOOTER])
+  FOOTER()])
 
 add("cert-5-admission-accepted", "cert", "Admission Accepted",
   "Before the certificate begins", [
@@ -452,7 +454,7 @@ add("cert-5-admission-accepted", "cert", "Admission Accepted",
     "The " + A(U["equip"], "Music Equipment Office") + " lends instruments and recording equipment, and assigns lockers.",
     "The concert calendar is on " + A(U["events"], "News &amp; Events") + ". Come to concerts as often as you can manage, since you will be teaching this repertoire soon enough."]),
   P(CERTCLOSE),
-  FOOTER])
+  FOOTER()])
 
 
 
