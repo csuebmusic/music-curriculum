@@ -93,9 +93,22 @@ Subtotal 4.3 plus MUS 693. MUS 693 is S25, supervision, at .48 WTU per student.
 
 ## applied study
 
-28 students, 20 undergraduate at 1 unit and 8 graduate at 2 units, for 36 student units. By studio: Abraham 8, Thiebaut 6, Leimbach 4, Chan 2, Shimron 1, Hogan 1, James 1, Lyons Kuster 1, and 4 unassigned.
+28 students, 20 undergraduate at 1 unit and 8 graduate at 2 units, for 36 student units.
 
-36 units at .3 is a subtotal of 10.8.
+| studio | undergraduate | graduate | total | WTU |
+|---|---|---|---|---|
+| Abraham | 7 | 1 | 8 | 2.7 |
+| Thiebaut | 3 | 3 | 6 | 2.7 |
+| Leimbach | 2 | 2 | 4 | 1.8 |
+| Chan | 2 | 0 | 2 | 0.6 |
+| Shimron | 1 | 0 | 1 | 0.3 |
+| Hogan | 1 | 0 | 1 | 0.3 |
+| James | 0 | 1 | 1 | 0.6 |
+| Lyons Kuster | 0 | 1 | 1 | 0.6 |
+| unassigned | 4 | 0 | 4 | 1.2 |
+| total | 20 | 8 | 28 | 10.8 |
+
+Subtotal 10.8.
 
 ## performance
 
