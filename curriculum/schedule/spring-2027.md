@@ -138,11 +138,10 @@ Subtotal 4.8. Shimron carries 3.3 of it.
 | core, undergraduate | 7 | 13.8 |
 | core, graduate | 3 | 8.14 |
 | applied and coaching | | 15.6 |
-| electives | 11 | 24.8 |
+| ensembles | 5 | 9.9 |
+| electives | 6 | 14.9 |
 | non-majors | 3 | 9.0 |
 
 71.34 WTU across 24 scheduled sections, applied study, and coaching.
-
-Core, undergraduate is MUS 111, 115, 118, 215, 218, 324, and 410. Core, graduate is MUS 605, 606, and 693. Electives hold the ensembles and the music education certificate courses. Non-majors holds MUS 108 alongside the two sections of MUS 106B.
 
 Applied study and coaching counts are the fall 2026 enrollment carried forward.
