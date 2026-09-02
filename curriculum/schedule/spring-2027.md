@@ -67,9 +67,10 @@ Subtotal 6.0.
 |---|---|---|---|
 | MUS 360 | Rock Band | 1 | 1.3 |
 | MUS 361 | Chamber Ensemble | 1 | 1.3 |
+| MUS 363 | Percussion Ensemble | 1 | 1.3 |
 | MUS 365 | Chamber Orchestra | 1 | 1.3 |
 
-Subtotal 3.9.
+Subtotal 5.2.
 
 ## courses for non-music majors
 
@@ -138,28 +139,28 @@ Subtotal 4.8. Shimron carries 3.3 of it.
 | core, undergraduate | 7 | 13.8 |
 | core, graduate | 3 | 8.14 |
 | applied and coaching | | 15.6 |
-| ensembles | 5 | 9.9 |
+| ensembles | 6 | 11.2 |
 | electives | 6 | 14.9 |
 | non-majors | 3 | 9.0 |
 
-71.34 WTU across 24 scheduled sections, applied study, and coaching.
+72.64 WTU across 25 scheduled sections, applied study, and coaching.
 
 Applied study and coaching counts are the fall 2026 enrollment carried forward.
 
 ## WTU by faculty
 
-| faculty | applied | coaching | MUS 693 | total |
-|---|---|---|---|---|
-| Abraham | 2.7 | | | 2.7 |
-| Chan | 0.6 | | | 0.6 |
-| Eros | | | | 0 |
-| Hogan | 0.3 | 1.5 | 1.44 | 3.24 |
-| James | 0.6 | | 0.96 | 1.56 |
-| Leimbach | 1.8 | | | 1.8 |
-| Lyons Kuster | 0.6 | | | 0.6 |
-| Marsh | | | | 0 |
-| Shimron | 0.3 | 3.3 | | 3.6 |
-| Thiebaut | 2.7 | | 1.44 | 4.14 |
-| unassigned | 1.2 | | | 1.2 |
+| faculty | sections | applied | coaching | MUS 693 | total |
+|---|---|---|---|---|---|
+| Abraham | | 2.7 | | | 2.7 |
+| Chan | 1.3 | 0.6 | | | 1.9 |
+| Eros | | | | | 0 |
+| Hogan | | 0.3 | 1.5 | 1.44 | 3.24 |
+| James | | 0.6 | | 0.96 | 1.56 |
+| Leimbach | | 1.8 | | | 1.8 |
+| Lyons Kuster | | 0.6 | | | 0.6 |
+| Marsh | | | | | 0 |
+| Shimron | | 0.3 | 3.3 | | 3.6 |
+| Thiebaut | | 2.7 | | 1.44 | 4.14 |
+| unassigned | | 1.2 | | | 1.2 |
 
-19.44 WTU assigned. The 51.9 WTU in scheduled sections carries no instructor.
+20.74 WTU assigned. The 51.9 WTU in remaining scheduled sections carries no instructor.
