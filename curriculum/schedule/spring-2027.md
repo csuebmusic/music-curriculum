@@ -95,7 +95,7 @@ Subtotal 4.3 plus MUS 693. MUS 693 is S25, supervision, at .48 WTU per student.
 
 28 students, 20 undergraduate at 1 unit and 8 graduate at 2 units, for 36 student units.
 
-| studio | undergraduate | graduate | total | WTU |
+| studio | undergrad (1 unit) | grad (2 units) | total | WTU |
 |---|---|---|---|---|
 | Abraham | 7 | 1 | 8 | 2.7 |
 | Thiebaut | 3 | 3 | 6 | 2.7 |
