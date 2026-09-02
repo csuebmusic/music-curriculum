@@ -30,9 +30,8 @@ Subtotal 3.0.
 | course | title | units | WTU |
 |---|---|---|---|
 | MUS 414 | Contemporary Orchestration and Arranging | 3 | 3.0 |
-| MUS 485 | Advanced Sound Design I: Sampling, Editing, and Mixing | 3 | 3.3 |
 
-Subtotal 6.3.
+Subtotal 3.0.
 
 ## jazz studies
 
@@ -140,29 +139,32 @@ Subtotal 4.8. Shimron carries 3.3 of it.
 | core, graduate | 3 | 8.14 |
 | applied and coaching | | 15.6 |
 | ensembles | 6 | 11.2 |
-| electives | 6 | 14.9 |
+| electives | 5 | 11.6 |
 | non-majors | 3 | 9.0 |
 
-72.64 WTU across 25 scheduled sections, applied study, and coaching.
+69.34 WTU across 24 scheduled sections, applied study, and coaching.
 
 Applied study and coaching counts are the fall 2026 enrollment carried forward.
 
 ## WTU by faculty
 
-| faculty | sections | applied | coaching | MUS 693 | total |
-|---|---|---|---|---|---|
-| Abraham | | 2.7 | | | 2.7 |
-| Chan | 1.3 | 0.6 | | | 1.9 |
-| Eros | | | | | 0 |
-| Hogan | | 0.3 | 1.5 | 1.44 | 3.24 |
-| James | | 0.6 | | 0.96 | 1.56 |
-| Leimbach | | 1.8 | | | 1.8 |
-| Lyons Kuster | | 0.6 | | | 0.6 |
-| Marsh | | | | | 0 |
-| Shimron | | 0.3 | 3.3 | | 3.6 |
-| Thiebaut | | 2.7 | | 1.44 | 4.14 |
-| unassigned: strings | | 0.6 | | | 0.6 |
-| unassigned: organ | | 0.3 | | | 0.3 |
-| unassigned: brass | | 0.3 | | | 0.3 |
+| faculty | undergrad courses | grad courses | applied | coaching | MUS 693 | total |
+|---|---|---|---|---|---|---|
+| Abraham | | | 2.7 | | | 2.7 |
+| Chan | 1.3 | | 0.6 | | | 1.9 |
+| Eckl | 4.3 | | | | | 4.3 |
+| Eros | | | | | | 0 |
+| Hogan | 1.3 | | 0.3 | 1.5 | 1.44 | 4.54 |
+| James | 6.0 | | 0.6 | | 0.96 | 7.56 |
+| Leimbach | | | 1.8 | | | 1.8 |
+| Lyons Kuster | | | 0.6 | | | 0.6 |
+| Marsh | | | | | | 0 |
+| Omri | 2.6 | | | | | 2.6 |
+| Roudman | 1.3 | | | | | 1.3 |
+| Shimron | | | 0.3 | 3.3 | | 3.6 |
+| Thiebaut | 4.3 | | 2.7 | | 1.44 | 8.44 |
+| unassigned: strings | | | 0.6 | | | 0.6 |
+| unassigned: organ | | | 0.3 | | | 0.3 |
+| unassigned: brass | | | 0.3 | | | 0.3 |
 
-20.74 WTU assigned. The 51.9 WTU in remaining scheduled sections carries no instructor.
+40.54 WTU assigned. The 28.8 WTU in remaining scheduled sections carries no instructor.
