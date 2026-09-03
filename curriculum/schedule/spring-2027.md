@@ -137,25 +137,36 @@ Applied study and coaching counts are the fall 2026 enrollment carried forward.
 
 ## WTU by faculty
 
+### full-time
+
+| faculty | undergrad courses | grad courses | applied | coaching | MUS 693 | total |
+|---|---|---|---|---|---|---|
+| Eros | | | | | | 0 |
+| James | 6.0 (MUS 351B, 433) | | 0.6 | | 0.96 | 7.56 |
+| Shimron | 5.2 (MUS 115, 118, 215, 218) | | 0.3 | 3.3 | | 8.8 |
+| Thiebaut | 7.3 (MUS 361, 410, 414) | | 2.7 | | 1.44 | 11.44 |
+
+Subtotal 27.8.
+
+### adjunct
+
 | faculty | undergrad courses | grad courses | applied | coaching | MUS 693 | total |
 |---|---|---|---|---|---|---|
 | Abraham | | | 2.7 | | | 2.7 |
 | Chan | 1.3 (MUS 363) | | 0.6 | | | 1.9 |
 | Eckl | 4.3 (MUS 355, 360) | | | | | 4.3 |
-| **Eros** | | | | | | 0 |
 | Hogan | 1.3 (MUS 317) | | 0.3 | 1.5 | 1.44 | 4.54 |
-| **James** | 6.0 (MUS 351B, 433) | | 0.6 | | 0.96 | 7.56 |
 | Knight | 3.0 (MUS 441) | | | | | 3.0 |
 | Leimbach | | | 1.8 | | | 1.8 |
 | Lyons Kuster | | | 0.6 | | | 0.6 |
 | Marsh | 3.0 (MUS 324) | | | | | 3.0 |
 | Roudman | 1.3 (MUS 365) | | | | | 1.3 |
-| **Shimron** | 5.2 (MUS 115, 118, 215, 218) | | 0.3 | 3.3 | | 8.8 |
-| **Thiebaut** | 7.3 (MUS 361, 410, 414) | | 2.7 | | 1.44 | 11.44 |
 | unassigned: strings | | | 0.6 | | | 0.6 |
 | unassigned: organ | | | 0.3 | | | 0.3 |
 | unassigned: brass | | | 0.3 | | | 0.3 |
 
+Subtotal 24.34.
+
 52.14 WTU assigned. The 8.2 WTU in remaining scheduled sections carries no instructor.
 
-Bold marks courses with no instructor assigned and the full-time faculty.
+Bold marks courses with no instructor assigned.
