@@ -125,7 +125,7 @@ Subtotal 4.8. Shimron carries 3.3 of it.
 
 ## weekly grid
 
-[spring-2027-weekly-grid.html](spring-2027-weekly-grid.html)
+[https://csuebmusic.github.io/music-curriculum/curriculum/schedule/spring-2027-weekly-grid.html](https://csuebmusic.github.io/music-curriculum/curriculum/schedule/spring-2027-weekly-grid.html)
 
 Times are proposed. Music education meets Tuesday and Thursday mornings, musicianship Monday and Wednesday. MUS 324 carries a second asynchronous online component. Ensemble times, MUS 363, and the music education slots come from fall 2026.
 
