@@ -131,11 +131,11 @@ Subtotal 4.8. Shimron carries 3.3 of it.
 | 9:00 am | MUS 115 | │ | MUS 115 | │ |  |
 | 9:30 am | │ | MUS 441 | │, MUS 324 | MUS 441 |  |
 | 10:00 am | MUS 118 | │ | │, MUS 118 | │ |  |
-| 10:30 am | │ | │ | │, │ | │ |  |
+| 10:30 am | │ | │ | │ | │ |  |
 | 11:00 am | MUS 111, MUS 215, MUS 410 | MUS 433 | MUS 111, MUS 215, MUS 410 | MUS 433 | MUS 363 |
-| 11:30 am | │, │, │ | │ | │, │, │ | │ | │ |
-| 12:00 pm | │, │, MUS 218 | │ | │, │, MUS 218 | │ | │ |
-| 12:30 pm | │, │ |  | │, │ |  | │ |
+| 11:30 am | │ | │ | │ | │ | │ |
+| 12:00 pm | │, MUS 218 | │ | │, MUS 218 | │ | │ |
+| 12:30 pm | │ |  | │ |  | │ |
 | 1:00 pm | MUS 351B |  | MUS 351B |  |  |
 | 1:30 pm | │ |  | │ |  |  |
 | 2:00 pm | │ | MUS 361 | │ | MUS 317 |  |
@@ -153,7 +153,7 @@ Subtotal 4.8. Shimron carries 3.3 of it.
 | 8:00 pm |  |  | │ | │ |  |
 | 8:30 pm |  |  | │ |  |  |
 
-A course is named in the row it starts and continues as │ through the rows it runs.
+A course is named in the row it starts. A bar marks a row where courses already named are still running.
 
 Music education meets Tuesday and Thursday mornings, musicianship Monday and Wednesday. MUS 324 carries a second asynchronous online component. Ensemble times, MUS 363, and the music education slots come from fall 2026. Times are proposed.
 
