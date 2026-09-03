@@ -125,37 +125,9 @@ Subtotal 4.8. Shimron carries 3.3 of it.
 
 ## weekly grid
 
-| time | Mon | Tue | Wed | Thu | Fri |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 8:30 am |  | MUS 231 |  | MUS 231 |  |
-| 9:00 am | MUS 115 | │ | MUS 115 | │ |  |
-| 9:30 am | │ | MUS 441 | │, MUS 324 | MUS 441 |  |
-| 10:00 am | MUS 118 | │ | │, MUS 118 | │ |  |
-| 10:30 am | │ | │ | │ | │ |  |
-| 11:00 am | MUS 111, MUS 215, MUS 410 | MUS 433 | MUS 111, MUS 215, MUS 410 | MUS 433 | MUS 363 |
-| 11:30 am | │ | │ | │ | │ | │ |
-| 12:00 pm | │, MUS 218 | │ | │, MUS 218 | │ | │ |
-| 12:30 pm | │ |  | │ |  | │ |
-| 1:00 pm | MUS 351B |  | MUS 351B |  |  |
-| 1:30 pm | │ |  | │ |  |  |
-| 2:00 pm | │ | MUS 361 | │ | MUS 317 |  |
-| 2:30 pm | │ | │ | │ | │ |  |
-| 3:00 pm | MUS 414 | │ | MUS 414 | │ |  |
-| 3:30 pm | │ | │ | │ | │ |  |
-| 4:00 pm | │ | MUS 355 | │ |  |  |
-| 4:30 pm |  | │ |  |  |  |
-| 5:00 pm |  | │ | MUS 360 |  |  |
-| 5:30 pm |  | │ | │ |  |  |
-| 6:00 pm | MUS 605 | │ | │ | MUS 606 |  |
-| 6:30 pm | │ | │ | │ | │ |  |
-| 7:00 pm | │ |  | MUS 365 | │ |  |
-| 7:30 pm | │ |  | │ | │ |  |
-| 8:00 pm |  |  | │ | │ |  |
-| 8:30 pm |  |  | │ |  |  |
+[spring-2027-weekly-grid.html](spring-2027-weekly-grid.html)
 
-A course is named in the row it starts. A bar marks a row where courses already named are still running.
-
-Music education meets Tuesday and Thursday mornings, musicianship Monday and Wednesday. MUS 324 carries a second asynchronous online component. Ensemble times, MUS 363, and the music education slots come from fall 2026. Times are proposed.
+Times are proposed. Music education meets Tuesday and Thursday mornings, musicianship Monday and Wednesday. MUS 324 carries a second asynchronous online component. Ensemble times, MUS 363, and the music education slots come from fall 2026.
 
 MUS 111 and MUS 410 are both scheduled into Rm 1506 at 11:00 MoWe and one has to move. No student conflict follows from the MoWe 11:00 stack: MUS 111 is the first-year cohort, MUS 215 and 218 the second, MUS 410 the third.
 
