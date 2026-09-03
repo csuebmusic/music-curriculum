@@ -128,30 +128,32 @@ Subtotal 4.8. Shimron carries 3.3 of it.
 | time | Mon | Tue | Wed | Thu | Fri |
 |---|---|---|---|---|---|
 | 8:30 am |  | MUS 231 |  | MUS 231 |  |
-| 9:00 am | MUS 115 | MUS 231 | MUS 115 | MUS 231 |  |
-| 9:30 am | MUS 115 | MUS 441 | MUS 115, MUS 324 | MUS 441 |  |
-| 10:00 am | MUS 118 | MUS 441 | MUS 324, MUS 118 | MUS 441 |  |
-| 10:30 am | MUS 118 | MUS 441 | MUS 324, MUS 118 | MUS 441 |  |
+| 9:00 am | MUS 115 | │ | MUS 115 | │ |  |
+| 9:30 am | │ | MUS 441 | │, MUS 324 | MUS 441 |  |
+| 10:00 am | MUS 118 | │ | │, MUS 118 | │ |  |
+| 10:30 am | │ | │ | │, │ | │ |  |
 | 11:00 am | MUS 111, MUS 215, MUS 410 | MUS 433 | MUS 111, MUS 215, MUS 410 | MUS 433 | MUS 363 |
-| 11:30 am | MUS 111, MUS 215, MUS 410 | MUS 433 | MUS 111, MUS 215, MUS 410 | MUS 433 | MUS 363 |
-| 12:00 pm | MUS 111, MUS 410, MUS 218 | MUS 433 | MUS 111, MUS 410, MUS 218 | MUS 433 | MUS 363 |
-| 12:30 pm | MUS 111, MUS 218 |  | MUS 111, MUS 218 |  | MUS 363 |
+| 11:30 am | │, │, │ | │ | │, │, │ | │ | │ |
+| 12:00 pm | │, │, MUS 218 | │ | │, │, MUS 218 | │ | │ |
+| 12:30 pm | │, │ |  | │, │ |  | │ |
 | 1:00 pm | MUS 351B |  | MUS 351B |  |  |
-| 1:30 pm | MUS 351B |  | MUS 351B |  |  |
-| 2:00 pm | MUS 351B | MUS 361 | MUS 351B | MUS 317 |  |
-| 2:30 pm | MUS 351B | MUS 361 | MUS 351B | MUS 317 |  |
-| 3:00 pm | MUS 414 | MUS 361 | MUS 414 | MUS 317 |  |
-| 3:30 pm | MUS 414 | MUS 361 | MUS 414 | MUS 317 |  |
-| 4:00 pm | MUS 414 | MUS 355 | MUS 414 |  |  |
-| 4:30 pm |  | MUS 355 |  |  |  |
-| 5:00 pm |  | MUS 355 | MUS 360 |  |  |
-| 5:30 pm |  | MUS 355 | MUS 360 |  |  |
-| 6:00 pm | MUS 605 | MUS 355 | MUS 360 | MUS 606 |  |
-| 6:30 pm | MUS 605 | MUS 355 | MUS 360 | MUS 606 |  |
-| 7:00 pm | MUS 605 |  | MUS 365 | MUS 606 |  |
-| 7:30 pm | MUS 605 |  | MUS 365 | MUS 606 |  |
-| 8:00 pm |  |  | MUS 365 | MUS 606 |  |
-| 8:30 pm |  |  | MUS 365 |  |  |
+| 1:30 pm | │ |  | │ |  |  |
+| 2:00 pm | │ | MUS 361 | │ | MUS 317 |  |
+| 2:30 pm | │ | │ | │ | │ |  |
+| 3:00 pm | MUS 414 | │ | MUS 414 | │ |  |
+| 3:30 pm | │ | │ | │ | │ |  |
+| 4:00 pm | │ | MUS 355 | │ |  |  |
+| 4:30 pm |  | │ |  |  |  |
+| 5:00 pm |  | │ | MUS 360 |  |  |
+| 5:30 pm |  | │ | │ |  |  |
+| 6:00 pm | MUS 605 | │ | │ | MUS 606 |  |
+| 6:30 pm | │ | │ | │ | │ |  |
+| 7:00 pm | │ |  | MUS 365 | │ |  |
+| 7:30 pm | │ |  | │ | │ |  |
+| 8:00 pm |  |  | │ | │ |  |
+| 8:30 pm |  |  | │ |  |  |
+
+A course is named in the row it starts and continues as │ through the rows it runs.
 
 Music education meets Tuesday and Thursday mornings, musicianship Monday and Wednesday. MUS 324 carries a second asynchronous online component. Ensemble times, MUS 363, and the music education slots come from fall 2026. Times are proposed.
 
