@@ -4,6 +4,8 @@ California State University, East Bay, Department of Music.
 
 Course slate for spring 2027, a Year A spring. Sections are grouped by catalog course type. WTU is units times the K-factor for the teaching classification. Applied study and coaching are supervision, and their WTU is .3 per student unit.
 
+Bold marks courses with no instructor assigned.
+
 ## theory and musicianship
 
 | course | title | units | minutes/wk | WTU | faculty |
@@ -168,5 +170,3 @@ Subtotal 30.8.
 Subtotal 21.34.
 
 52.14 WTU assigned. The 8.2 WTU in remaining scheduled sections carries no instructor.
-
-Bold marks courses with no instructor assigned.
