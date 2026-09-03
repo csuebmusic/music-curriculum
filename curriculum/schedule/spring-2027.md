@@ -6,78 +6,78 @@ Course slate for spring 2027, a Year A spring. Sections are grouped by catalog c
 
 ## theory and musicianship
 
-| course | title | units | minutes/wk | WTU |
-|---|---|---|---|---|
-| **MUS 111** | **Music Theory I** | 2 | 200 | 2.6 |
-| MUS 115 | Aural Skills I | 1 | 100 | 1.3 |
-| MUS 118 | Keyboard Musicianship I | 1 | 100 | 1.3 |
-| MUS 215 | Aural Skills III | 1 | 100 | 1.3 |
-| MUS 218 | Keyboard Musicianship III | 1 | 100 | 1.3 |
-| MUS 410 | 20th and 21st Century Styles and Techniques | 3 | 150 | 3.0 |
+| course | title | units | minutes/wk | WTU | faculty |
+|---|---|---|---|---|---|
+| **MUS 111** | **Music Theory I** | 2 | 200 | 2.6 |  |
+| MUS 115 | Aural Skills I | 1 | 100 | 1.3 | Shimron |
+| MUS 118 | Keyboard Musicianship I | 1 | 100 | 1.3 | Shimron |
+| MUS 215 | Aural Skills III | 1 | 100 | 1.3 | Shimron |
+| MUS 218 | Keyboard Musicianship III | 1 | 100 | 1.3 | Shimron |
+| MUS 410 | 20th and 21st Century Styles and Techniques | 3 | 150 | 3.0 | Thiebaut |
 
 Subtotal 10.8.
 
 ## musicology and ethnomusicology
 
-| course | title | units | minutes/wk | WTU |
-|---|---|---|---|---|
-| MUS 324 | History of American Music | 3 | 150 | 3.0 |
+| course | title | units | minutes/wk | WTU | faculty |
+|---|---|---|---|---|---|
+| MUS 324 | History of American Music | 3 | 150 | 3.0 | Marsh |
 
 Subtotal 3.0.
 
 ## composition
 
-| course | title | units | minutes/wk | WTU |
-|---|---|---|---|---|
-| MUS 414 | Contemporary Orchestration and Arranging | 3 | 150 | 3.0 |
+| course | title | units | minutes/wk | WTU | faculty |
+|---|---|---|---|---|---|
+| MUS 414 | Contemporary Orchestration and Arranging | 3 | 150 | 3.0 | Thiebaut |
 
 Subtotal 3.0.
 
 ## jazz studies
 
-| course | title | units | minutes/wk | WTU |
-|---|---|---|---|---|
-| MUS 317 | Improvisation Techniques | 1 | 100 | 1.3 |
+| course | title | units | minutes/wk | WTU | faculty |
+|---|---|---|---|---|---|
+| MUS 317 | Improvisation Techniques | 1 | 100 | 1.3 | Hogan |
 
 Subtotal 1.3.
 
 ## music education
 
-| course | title | units | minutes/wk | WTU |
-|---|---|---|---|---|
-| **MUS 231** | **Basic String Techniques** | 1 | 100 | 1.3 |
-| MUS 433 | Choral Music Teaching Methods | 3 | 150 | 3.0 |
-| MUS 441 | Intermediate Conducting | 3 | 150 | 3.0 |
+| course | title | units | minutes/wk | WTU | faculty |
+|---|---|---|---|---|---|
+| **MUS 231** | **Basic String Techniques** | 1 | 100 | 1.3 |  |
+| MUS 433 | Choral Music Teaching Methods | 3 | 150 | 3.0 | James |
+| MUS 441 | Intermediate Conducting | 3 | 150 | 3.0 | Knight |
 
 Subtotal 7.3.
 
 ## major performing ensembles
 
-| course | title | units | minutes/wk | WTU |
-|---|---|---|---|---|
-| MUS 351B | Choir: East Bay Singers | 1 | 150 | 3.0 |
-| MUS 355 | East Bay Jazz Orchestra | 1 | 150 | 3.0 |
+| course | title | units | minutes/wk | WTU | faculty |
+|---|---|---|---|---|---|
+| MUS 351B | Choir: East Bay Singers | 1 | 150 | 3.0 | James |
+| MUS 355 | East Bay Jazz Orchestra | 1 | 150 | 3.0 | Eckl |
 
 Subtotal 6.0.
 
 ## chamber ensembles
 
-| course | title | units | minutes/wk | WTU |
-|---|---|---|---|---|
-| MUS 360 | Rock Band | 1 | 100 | 1.3 |
-| MUS 361 | Chamber Ensemble | 1 | 100 | 1.3 |
-| MUS 363 | Percussion Ensemble | 1 | 100 | 1.3 |
-| MUS 365 | Chamber Orchestra | 1 | 100 | 1.3 |
+| course | title | units | minutes/wk | WTU | faculty |
+|---|---|---|---|---|---|
+| MUS 360 | Rock Band | 1 | 100 | 1.3 | Eckl |
+| MUS 361 | Chamber Ensemble | 1 | 100 | 1.3 | Thiebaut |
+| MUS 363 | Percussion Ensemble | 1 | 100 | 1.3 | Chan |
+| MUS 365 | Chamber Orchestra | 1 | 100 | 1.3 | Roudman |
 
 Subtotal 5.2.
 
 ## graduate studies
 
-| course | title | units | minutes/wk | WTU |
-|---|---|---|---|---|
-| **MUS 605** | **History and Theory of Jazz** | 2 | 100 | 2.0 |
-| **MUS 606** | **Interdisciplinary Collaboration in Music** | 2 | 150 | 2.3 |
-| MUS 693 | Graduate Music Capstone | 1 |  | 3.84 |
+| course | title | units | minutes/wk | WTU | faculty |
+|---|---|---|---|---|---|
+| **MUS 605** | **History and Theory of Jazz** | 2 | 100 | 2.0 |  |
+| **MUS 606** | **Interdisciplinary Collaboration in Music** | 2 | 150 | 2.3 |  |
+| MUS 693 | Graduate Music Capstone | 1 |  | 3.84 | Thiebaut, James, Hogan |
 
 Subtotal 8.14.
 
