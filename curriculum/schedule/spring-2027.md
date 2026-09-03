@@ -126,7 +126,7 @@ Subtotal 4.8. Shimron carries 3.3 of it.
 ## weekly grid
 
 | time | Mon | Tue | Wed | Thu | Fri |
-|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|
 | 8:30 am |  | MUS 231 |  | MUS 231 |  |
 | 9:00 am | MUS 115 | │ | MUS 115 | │ |  |
 | 9:30 am | │ | MUS 441 | │, MUS 324 | MUS 441 |  |
