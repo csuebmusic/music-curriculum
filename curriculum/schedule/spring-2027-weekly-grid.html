@@ -40,12 +40,29 @@ td.last, th.last { border-right:2px solid var(--rule-day); }
 td.c.d { border-left:2px solid var(--rule-day); }
 td.c { border:1px solid var(--accent); background:var(--accent-tint);
   vertical-align:top; padding:5px 8px; overflow:hidden; }
-td.c b { font-family:"Courier Prime",monospace; font-size:13px; display:block; color:var(--accent); }
+td.c b { font-family:"Courier Prime",monospace; font-size:13px; display:block; }
+td.c.ld   { border-color:#6E1F2A; background:#F7ECED; }
+td.c.ld b { color:#6E1F2A; }
+td.c.udc  { border-color:#3A5A80; background:#EAEFF6; }
+td.c.udc b{ color:#3A5A80; }
+td.c.ude  { border-color:#2F6B58; background:#E8F1ED; }
+td.c.ude b{ color:#2F6B58; }
+td.c.med  { border-color:#8A6A22; background:#F5EFE1; }
+td.c.med b{ color:#8A6A22; }
+td.c.ens  { border-color:#5C4470; background:#F0EBF3; }
+td.c.ens b{ color:#5C4470; }
+td.c.grad { border-color:#6B5A4C; background:#F1EDE9; }
+td.c.grad b{ color:#6B5A4C; }
+td.c.u    { border-width:2px; }
+td.c.u .mt i { color:var(--accent); font-style:normal; font-weight:700; }
+.key { display:flex; flex-wrap:wrap; gap:18px; margin:18px 0 0;
+  font-family:"Courier Prime",monospace; font-size:12px; color:var(--ink-soft); }
+.key span { display:flex; align-items:center; gap:7px; }
+.key i { width:15px; height:15px; display:inline-block; border:1px solid; font-style:normal; }
+
 td.c .ti { display:block; font-size:14px; line-height:1.3; }
 td.c .mt { display:block; font-family:"Courier Prime",monospace; font-size:11px;
   color:var(--ink-soft); line-height:1.4; }
-td.c.u { background:var(--accent); border-color:var(--accent); }
-td.c.u b, td.c.u .ti, td.c.u .mt { color:var(--paper); }
 .note { background:var(--accent-tint); border-left:3px solid var(--accent);
   padding:14px 18px; margin:32px 0 0; }
 .note .lb { font-family:"Courier Prime",monospace; font-weight:700; font-size:12px;
@@ -73,25 +90,25 @@ td.c.u b, td.c.u .ti, td.c.u .mt { color:var(--paper); }
 <tr><th class="t"></th><th colspan="3" class="d">Mon</th><th colspan="1" class="d">Tue</th><th colspan="3" class="d">Wed</th><th colspan="2" class="d">Thu</th><th colspan="1" class="d last">Fri</th></tr>
 </thead>
 <tbody>
-<tr><th class="t" rowspan="6">8:30 am</th><td class="e d h"></td><td class="e h"></td><td class="e h"></td><td class="c u d" rowspan="10"><b>MUS 231</b><span class="ti">Basic String Techniques</span><span class="mt">8:30&#8239;am&#8202;&ndash;&#8202;9:20&#8239;am &middot; no instructor</span></td><td class="e d h"></td><td class="e h"></td><td class="e h"></td><td class="c u d" rowspan="10"><b>MUS 231</b><span class="ti">Basic String Techniques</span><span class="mt">8:30&#8239;am&#8202;&ndash;&#8202;9:20&#8239;am &middot; no instructor</span></td><td class="e h"></td><td class="e d last h"></td></tr>
+<tr><th class="t" rowspan="6">8:30 am</th><td class="e d h"></td><td class="e h"></td><td class="e h"></td><td class="c med u d" rowspan="10"><b>MUS 231</b><span class="ti">Basic String Techniques</span><span class="mt">8:30&#8239;am&#8202;&ndash;&#8202;9:20&#8239;am &middot; <i>no instructor</i></span></td><td class="e d h"></td><td class="e h"></td><td class="e h"></td><td class="c med u d" rowspan="10"><b>MUS 231</b><span class="ti">Basic String Techniques</span><span class="mt">8:30&#8239;am&#8202;&ndash;&#8202;9:20&#8239;am &middot; <i>no instructor</i></span></td><td class="e h"></td><td class="e d last h"></td></tr>
 <tr><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d last"></td></tr>
-<tr><th class="t" rowspan="6">9:00 am</th><td class="c d" rowspan="10"><b>MUS 115</b><span class="ti">Aural Skills I</span><span class="mt">9:00&#8239;am&#8202;&ndash;&#8202;9:50&#8239;am &middot; Shimron</span></td><td class="e h"></td><td class="e h"></td><td class="c d" rowspan="10"><b>MUS 115</b><span class="ti">Aural Skills I</span><span class="mt">9:00&#8239;am&#8202;&ndash;&#8202;9:50&#8239;am &middot; Shimron</span></td><td class="e h"></td><td class="e h"></td><td class="e h"></td><td class="e d last h"></td></tr>
+<tr><th class="t" rowspan="6">9:00 am</th><td class="c ld d" rowspan="10"><b>MUS 115</b><span class="ti">Aural Skills I</span><span class="mt">9:00&#8239;am&#8202;&ndash;&#8202;9:50&#8239;am &middot; Shimron</span></td><td class="e h"></td><td class="e h"></td><td class="c ld d" rowspan="10"><b>MUS 115</b><span class="ti">Aural Skills I</span><span class="mt">9:00&#8239;am&#8202;&ndash;&#8202;9:50&#8239;am &middot; Shimron</span></td><td class="e h"></td><td class="e h"></td><td class="e h"></td><td class="e d last h"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
-<tr><th class="t" rowspan="6">9:30 am</th><td class="e h"></td><td class="e h"></td><td class="c d" rowspan="15"><b>MUS 441</b><span class="ti">Intermediate Conducting</span><span class="mt">9:30&#8239;am&#8202;&ndash;&#8202;10:45&#8239;am &middot; Knight</span></td><td class="c" rowspan="15"><b>MUS 324</b><span class="ti">History of American Music</span><span class="mt">9:30&#8239;am&#8202;&ndash;&#8202;10:45&#8239;am &middot; Marsh</span></td><td class="e h"></td><td class="c d" rowspan="15"><b>MUS 441</b><span class="ti">Intermediate Conducting</span><span class="mt">9:30&#8239;am&#8202;&ndash;&#8202;10:45&#8239;am &middot; Knight</span></td><td class="e h"></td><td class="e d last h"></td></tr>
+<tr><th class="t" rowspan="6">9:30 am</th><td class="e h"></td><td class="e h"></td><td class="c med d" rowspan="15"><b>MUS 441</b><span class="ti">Intermediate Conducting</span><span class="mt">9:30&#8239;am&#8202;&ndash;&#8202;10:45&#8239;am &middot; Knight</span></td><td class="c udc" rowspan="15"><b>MUS 324</b><span class="ti">History of American Music</span><span class="mt">9:30&#8239;am&#8202;&ndash;&#8202;10:45&#8239;am &middot; Marsh</span></td><td class="e h"></td><td class="c med d" rowspan="15"><b>MUS 441</b><span class="ti">Intermediate Conducting</span><span class="mt">9:30&#8239;am&#8202;&ndash;&#8202;10:45&#8239;am &middot; Knight</span></td><td class="e h"></td><td class="e d last h"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d last"></td></tr>
-<tr><th class="t" rowspan="6">10:00 am</th><td class="c d" rowspan="10"><b>MUS 118</b><span class="ti">Keyboard Musicianship I</span><span class="mt">10:00&#8239;am&#8202;&ndash;&#8202;10:50&#8239;am &middot; Shimron</span></td><td class="e h"></td><td class="e h"></td><td class="c d" rowspan="10"><b>MUS 118</b><span class="ti">Keyboard Musicianship I</span><span class="mt">10:00&#8239;am&#8202;&ndash;&#8202;10:50&#8239;am &middot; Shimron</span></td><td class="e h"></td><td class="e h"></td><td class="e d last h"></td></tr>
+<tr><th class="t" rowspan="6">10:00 am</th><td class="c ld d" rowspan="10"><b>MUS 118</b><span class="ti">Keyboard Musicianship I</span><span class="mt">10:00&#8239;am&#8202;&ndash;&#8202;10:50&#8239;am &middot; Shimron</span></td><td class="e h"></td><td class="e h"></td><td class="c ld d" rowspan="10"><b>MUS 118</b><span class="ti">Keyboard Musicianship I</span><span class="mt">10:00&#8239;am&#8202;&ndash;&#8202;10:50&#8239;am &middot; Shimron</span></td><td class="e h"></td><td class="e h"></td><td class="e d last h"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d last"></td></tr>
@@ -103,7 +120,7 @@ td.c.u b, td.c.u .ti, td.c.u .mt { color:var(--paper); }
 <tr><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
-<tr><th class="t" rowspan="6">11:00 am</th><td class="c d" rowspan="10"><b>MUS 215</b><span class="ti">Aural Skills III</span><span class="mt">11:00&#8239;am&#8202;&ndash;&#8202;11:50&#8239;am &middot; Shimron</span></td><td class="c" rowspan="15"><b>MUS 410</b><span class="ti">20th and 21st Century Styles</span><span class="mt">11:00&#8239;am&#8202;&ndash;&#8202;12:15&#8239;pm &middot; Thiebaut</span></td><td class="c u" rowspan="20"><b>MUS 111</b><span class="ti">Music Theory I</span><span class="mt">11:00&#8239;am&#8202;&ndash;&#8202;12:40&#8239;pm &middot; no instructor</span></td><td class="c u d" rowspan="15"><b>MUS 433</b><span class="ti">Choral Music Teaching Methods</span><span class="mt">11:00&#8239;am&#8202;&ndash;&#8202;12:15&#8239;pm &middot; no instructor</span></td><td class="c d" rowspan="10"><b>MUS 215</b><span class="ti">Aural Skills III</span><span class="mt">11:00&#8239;am&#8202;&ndash;&#8202;11:50&#8239;am &middot; Shimron</span></td><td class="c" rowspan="15"><b>MUS 410</b><span class="ti">20th and 21st Century Styles</span><span class="mt">11:00&#8239;am&#8202;&ndash;&#8202;12:15&#8239;pm &middot; Thiebaut</span></td><td class="c u" rowspan="20"><b>MUS 111</b><span class="ti">Music Theory I</span><span class="mt">11:00&#8239;am&#8202;&ndash;&#8202;12:40&#8239;pm &middot; no instructor</span></td><td class="c u d" rowspan="15"><b>MUS 433</b><span class="ti">Choral Music Teaching Methods</span><span class="mt">11:00&#8239;am&#8202;&ndash;&#8202;12:15&#8239;pm &middot; no instructor</span></td><td class="e h"></td><td class="c d last" rowspan="20"><b>MUS 363</b><span class="ti">Percussion Ensemble</span><span class="mt">11:00&#8239;am&#8202;&ndash;&#8202;12:40&#8239;pm &middot; Chan</span></td></tr>
+<tr><th class="t" rowspan="6">11:00 am</th><td class="c ld d" rowspan="10"><b>MUS 215</b><span class="ti">Aural Skills III</span><span class="mt">11:00&#8239;am&#8202;&ndash;&#8202;11:50&#8239;am &middot; Shimron</span></td><td class="c udc" rowspan="15"><b>MUS 410</b><span class="ti">20th and 21st Century Styles</span><span class="mt">11:00&#8239;am&#8202;&ndash;&#8202;12:15&#8239;pm &middot; Thiebaut</span></td><td class="c ld u" rowspan="20"><b>MUS 111</b><span class="ti">Music Theory I</span><span class="mt">11:00&#8239;am&#8202;&ndash;&#8202;12:40&#8239;pm &middot; <i>no instructor</i></span></td><td class="c med u d" rowspan="15"><b>MUS 433</b><span class="ti">Choral Music Teaching Methods</span><span class="mt">11:00&#8239;am&#8202;&ndash;&#8202;12:15&#8239;pm &middot; <i>no instructor</i></span></td><td class="c ld d" rowspan="10"><b>MUS 215</b><span class="ti">Aural Skills III</span><span class="mt">11:00&#8239;am&#8202;&ndash;&#8202;11:50&#8239;am &middot; Shimron</span></td><td class="c udc" rowspan="15"><b>MUS 410</b><span class="ti">20th and 21st Century Styles</span><span class="mt">11:00&#8239;am&#8202;&ndash;&#8202;12:15&#8239;pm &middot; Thiebaut</span></td><td class="c ld u" rowspan="20"><b>MUS 111</b><span class="ti">Music Theory I</span><span class="mt">11:00&#8239;am&#8202;&ndash;&#8202;12:40&#8239;pm &middot; <i>no instructor</i></span></td><td class="c med u d" rowspan="15"><b>MUS 433</b><span class="ti">Choral Music Teaching Methods</span><span class="mt">11:00&#8239;am&#8202;&ndash;&#8202;12:15&#8239;pm &middot; <i>no instructor</i></span></td><td class="e h"></td><td class="c ens d last" rowspan="20"><b>MUS 363</b><span class="ti">Percussion Ensemble</span><span class="mt">11:00&#8239;am&#8202;&ndash;&#8202;12:40&#8239;pm &middot; Chan</span></td></tr>
 <tr><td class="e"></td></tr>
 <tr><td class="e"></td></tr>
 <tr><td class="e"></td></tr>
@@ -115,7 +132,7 @@ td.c.u b, td.c.u .ti, td.c.u .mt { color:var(--paper); }
 <tr><td class="e"></td></tr>
 <tr><td class="e d"></td><td class="e d"></td><td class="e"></td></tr>
 <tr><td class="e d"></td><td class="e d"></td><td class="e"></td></tr>
-<tr><th class="t" rowspan="6">12:00 pm</th><td class="c d" rowspan="10"><b>MUS 218</b><span class="ti">Keyboard Musicianship III</span><span class="mt">12:00&#8239;pm&#8202;&ndash;&#8202;12:50&#8239;pm &middot; Shimron</span></td><td class="c d" rowspan="10"><b>MUS 218</b><span class="ti">Keyboard Musicianship III</span><span class="mt">12:00&#8239;pm&#8202;&ndash;&#8202;12:50&#8239;pm &middot; Shimron</span></td><td class="e h"></td></tr>
+<tr><th class="t" rowspan="6">12:00 pm</th><td class="c ld d" rowspan="10"><b>MUS 218</b><span class="ti">Keyboard Musicianship III</span><span class="mt">12:00&#8239;pm&#8202;&ndash;&#8202;12:50&#8239;pm &middot; Shimron</span></td><td class="c ld d" rowspan="10"><b>MUS 218</b><span class="ti">Keyboard Musicianship III</span><span class="mt">12:00&#8239;pm&#8202;&ndash;&#8202;12:50&#8239;pm &middot; Shimron</span></td><td class="e h"></td></tr>
 <tr><td class="e"></td></tr>
 <tr><td class="e"></td></tr>
 <tr><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d"></td><td class="e"></td></tr>
@@ -127,7 +144,7 @@ td.c.u b, td.c.u .ti, td.c.u .mt { color:var(--paper); }
 <tr><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
-<tr><th class="t" rowspan="6">1:00 pm</th><td class="c d" rowspan="22"><b>MUS 351B</b><span class="ti">Choir: East Bay Singers</span><span class="mt">1:00&#8239;pm&#8202;&ndash;&#8202;2:50&#8239;pm &middot; James</span></td><td class="e h"></td><td class="e h"></td><td class="e d h"></td><td class="c d" rowspan="22"><b>MUS 351B</b><span class="ti">Choir: East Bay Singers</span><span class="mt">1:00&#8239;pm&#8202;&ndash;&#8202;2:50&#8239;pm &middot; James</span></td><td class="e h"></td><td class="e h"></td><td class="e d h"></td><td class="e h"></td><td class="e d last h"></td></tr>
+<tr><th class="t" rowspan="6">1:00 pm</th><td class="c ens d" rowspan="22"><b>MUS 351B</b><span class="ti">Choir: East Bay Singers</span><span class="mt">1:00&#8239;pm&#8202;&ndash;&#8202;2:50&#8239;pm &middot; James</span></td><td class="e h"></td><td class="e h"></td><td class="e d h"></td><td class="c ens d" rowspan="22"><b>MUS 351B</b><span class="ti">Choir: East Bay Singers</span><span class="mt">1:00&#8239;pm&#8202;&ndash;&#8202;2:50&#8239;pm &middot; James</span></td><td class="e h"></td><td class="e h"></td><td class="e d h"></td><td class="e h"></td><td class="e d last h"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
@@ -139,7 +156,7 @@ td.c.u b, td.c.u .ti, td.c.u .mt { color:var(--paper); }
 <tr><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
-<tr><th class="t" rowspan="6">2:00 pm</th><td class="e h"></td><td class="e h"></td><td class="c d" rowspan="20"><b>MUS 317</b><span class="ti">Improvisation Techniques</span><span class="mt">2:00&#8239;pm&#8202;&ndash;&#8202;3:40&#8239;pm &middot; Hogan</span></td><td class="e h"></td><td class="e h"></td><td class="c d" rowspan="20"><b>MUS 361</b><span class="ti">Chamber Ensemble</span><span class="mt">2:00&#8239;pm&#8202;&ndash;&#8202;3:40&#8239;pm &middot; Thiebaut</span></td><td class="c u" rowspan="30"><b>MUS 606</b><span class="ti">Interdisciplinary Collaboration</span><span class="mt">2:00&#8239;pm&#8202;&ndash;&#8202;4:30&#8239;pm &middot; no instructor</span></td><td class="e d last h"></td></tr>
+<tr><th class="t" rowspan="6">2:00 pm</th><td class="e h"></td><td class="e h"></td><td class="c ude d" rowspan="20"><b>MUS 317</b><span class="ti">Improvisation Techniques</span><span class="mt">2:00&#8239;pm&#8202;&ndash;&#8202;3:40&#8239;pm &middot; Hogan</span></td><td class="e h"></td><td class="e h"></td><td class="c ens d" rowspan="20"><b>MUS 361</b><span class="ti">Chamber Ensemble</span><span class="mt">2:00&#8239;pm&#8202;&ndash;&#8202;3:40&#8239;pm &middot; Thiebaut</span></td><td class="c grad u" rowspan="30"><b>MUS 606</b><span class="ti">Interdisciplinary Collaboration</span><span class="mt">2:00&#8239;pm&#8202;&ndash;&#8202;4:30&#8239;pm &middot; <i>no instructor</i></span></td><td class="e d last h"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d last"></td></tr>
@@ -151,7 +168,7 @@ td.c.u b, td.c.u .ti, td.c.u .mt { color:var(--paper); }
 <tr><td class="e"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d last"></td></tr>
-<tr><th class="t" rowspan="6">3:00 pm</th><td class="c d" rowspan="15"><b>MUS 414</b><span class="ti">Contemporary Orchestration</span><span class="mt">3:00&#8239;pm&#8202;&ndash;&#8202;4:15&#8239;pm &middot; Thiebaut</span></td><td class="e h"></td><td class="e h"></td><td class="c d" rowspan="15"><b>MUS 414</b><span class="ti">Contemporary Orchestration</span><span class="mt">3:00&#8239;pm&#8202;&ndash;&#8202;4:15&#8239;pm &middot; Thiebaut</span></td><td class="e h"></td><td class="e h"></td><td class="e d last h"></td></tr>
+<tr><th class="t" rowspan="6">3:00 pm</th><td class="c ude d" rowspan="15"><b>MUS 414</b><span class="ti">Contemporary Orchestration</span><span class="mt">3:00&#8239;pm&#8202;&ndash;&#8202;4:15&#8239;pm &middot; Thiebaut</span></td><td class="e h"></td><td class="e h"></td><td class="c ude d" rowspan="15"><b>MUS 414</b><span class="ti">Contemporary Orchestration</span><span class="mt">3:00&#8239;pm&#8202;&ndash;&#8202;4:15&#8239;pm &middot; Thiebaut</span></td><td class="e h"></td><td class="e h"></td><td class="e d last h"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d last"></td></tr>
@@ -163,7 +180,7 @@ td.c.u b, td.c.u .ti, td.c.u .mt { color:var(--paper); }
 <tr><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e d last"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e d last"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e d last"></td></tr>
-<tr><th class="t" rowspan="6">4:00 pm</th><td class="e h"></td><td class="e h"></td><td class="c d" rowspan="34"><b>MUS 355</b><span class="ti">East Bay Jazz Orchestra</span><span class="mt">4:00&#8239;pm&#8202;&ndash;&#8202;6:50&#8239;pm &middot; Eckl</span></td><td class="e h"></td><td class="e h"></td><td class="e d h"></td><td class="e d last h"></td></tr>
+<tr><th class="t" rowspan="6">4:00 pm</th><td class="e h"></td><td class="e h"></td><td class="c ens d" rowspan="34"><b>MUS 355</b><span class="ti">East Bay Jazz Orchestra</span><span class="mt">4:00&#8239;pm&#8202;&ndash;&#8202;6:50&#8239;pm &middot; Eckl</span></td><td class="e h"></td><td class="e h"></td><td class="e d h"></td><td class="e d last h"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e d last"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e d last"></td></tr>
 <tr><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e d last"></td></tr>
@@ -175,7 +192,7 @@ td.c.u b, td.c.u .ti, td.c.u .mt { color:var(--paper); }
 <tr><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
-<tr><th class="t" rowspan="6">5:00 pm</th><td class="e d h"></td><td class="e h"></td><td class="e h"></td><td class="c d" rowspan="20"><b>MUS 360</b><span class="ti">Rock Band</span><span class="mt">5:00&#8239;pm&#8202;&ndash;&#8202;6:40&#8239;pm &middot; Eckl</span></td><td class="e h"></td><td class="e h"></td><td class="e d h"></td><td class="e h"></td><td class="e d last h"></td></tr>
+<tr><th class="t" rowspan="6">5:00 pm</th><td class="e d h"></td><td class="e h"></td><td class="e h"></td><td class="c ens d" rowspan="20"><b>MUS 360</b><span class="ti">Rock Band</span><span class="mt">5:00&#8239;pm&#8202;&ndash;&#8202;6:40&#8239;pm &middot; Eckl</span></td><td class="e h"></td><td class="e h"></td><td class="e d h"></td><td class="e h"></td><td class="e d last h"></td></tr>
 <tr><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
@@ -187,7 +204,7 @@ td.c.u b, td.c.u .ti, td.c.u .mt { color:var(--paper); }
 <tr><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
-<tr><th class="t" rowspan="6">6:00 pm</th><td class="c u d" rowspan="24"><b>MUS 605</b><span class="ti">History and Theory of Jazz</span><span class="mt">6:00&#8239;pm&#8202;&ndash;&#8202;8:00&#8239;pm &middot; no instructor</span></td><td class="e h"></td><td class="e h"></td><td class="e h"></td><td class="e h"></td><td class="e d h"></td><td class="e h"></td><td class="e d last h"></td></tr>
+<tr><th class="t" rowspan="6">6:00 pm</th><td class="c grad u d" rowspan="24"><b>MUS 605</b><span class="ti">History and Theory of Jazz</span><span class="mt">6:00&#8239;pm&#8202;&ndash;&#8202;8:00&#8239;pm &middot; <i>no instructor</i></span></td><td class="e h"></td><td class="e h"></td><td class="e h"></td><td class="e h"></td><td class="e d h"></td><td class="e h"></td><td class="e d last h"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
@@ -199,7 +216,7 @@ td.c.u b, td.c.u .ti, td.c.u .mt { color:var(--paper); }
 <tr><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
-<tr><th class="t" rowspan="6">7:00 pm</th><td class="e h"></td><td class="e h"></td><td class="e d h"></td><td class="c d" rowspan="20"><b>MUS 365</b><span class="ti">Chamber Orchestra</span><span class="mt">7:00&#8239;pm&#8202;&ndash;&#8202;8:40&#8239;pm &middot; Roudman</span></td><td class="e h"></td><td class="e h"></td><td class="e d h"></td><td class="e h"></td><td class="e d last h"></td></tr>
+<tr><th class="t" rowspan="6">7:00 pm</th><td class="e h"></td><td class="e h"></td><td class="e d h"></td><td class="c ens d" rowspan="20"><b>MUS 365</b><span class="ti">Chamber Orchestra</span><span class="mt">7:00&#8239;pm&#8202;&ndash;&#8202;8:40&#8239;pm &middot; Roudman</span></td><td class="e h"></td><td class="e h"></td><td class="e d h"></td><td class="e h"></td><td class="e d last h"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
 <tr><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e"></td><td class="e d"></td><td class="e"></td><td class="e d last"></td></tr>
@@ -226,9 +243,19 @@ td.c.u b, td.c.u .ti, td.c.u .mt { color:var(--paper); }
 </tbody>
 </table>
 
+<div class="key">
+<span><i style="border-color:#6E1F2A;background:#F7ECED"></i>lower division musicianship</span>
+<span><i style="border-color:#3A5A80;background:#EAEFF6"></i>upper division core</span>
+<span><i style="border-color:#2F6B58;background:#E8F1ED"></i>upper division electives</span>
+<span><i style="border-color:#8A6A22;background:#F5EFE1"></i>music education</span>
+<span><i style="border-color:#5C4470;background:#F0EBF3"></i>ensembles</span>
+<span><i style="border-color:#6B5A4C;background:#F1EDE9"></i>graduate</span>
+<span><i style="border-color:#1B1C1E;border-width:2px;background:#FFF"></i>no instructor, heavy border</span>
+</div>
+
 <div class="note">
   <span class="lb">reading the grid</span>
-  Rules mark every 30 minutes; blocks begin and end at their own times. Courses set in oxblood have no instructor assigned. Music education meets Tuesday and Thursday mornings and musicianship Monday and Wednesday. MUS 324 carries a second asynchronous online component. Ensemble times, MUS 363, and the music education slots come from fall 2026. MUS 106B and MUS 302 are online and MUS 693 is supervision, so none of the five appear here.
+  Rules mark every 30 minutes; blocks begin and end at their own times. Courses with no instructor carry a heavy border and read "no instructor" in oxblood. Music education meets Tuesday and Thursday mornings and musicianship Monday and Wednesday. MUS 324 carries a second asynchronous online component. Ensemble times, MUS 363, and the music education slots come from fall 2026. MUS 106B and MUS 302 are online and MUS 693 is supervision, so none of the five appear here.
 </div>
 
 <div class="note">
