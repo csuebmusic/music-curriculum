@@ -137,7 +137,7 @@ Subtotal 4.8. Shimron carries 3.3 of it.
 
 [https://csuebmusic.github.io/music-curriculum/curriculum/schedule/spring-2027-weekly-grid.html](https://csuebmusic.github.io/music-curriculum/curriculum/schedule/spring-2027-weekly-grid.html)
 
-Times are proposed. Music education meets Tuesday and Thursday mornings, musicianship Monday and Wednesday. MUS 324 carries a second asynchronous online component. Ensemble times, MUS 363, and the music education slots come from fall 2026.
+Times are proposed. The grid covers the 20 sections that meet on campus; MUS 106B and MUS 302 are online and MUS 693 is supervision. Music education meets Tuesday and Thursday mornings, musicianship Monday and Wednesday. MUS 324 carries a second asynchronous online component. Ensemble times, MUS 363, and the music education slots come from fall 2026.
 
 MUS 111 and MUS 410 are both scheduled into Rm 1506 at 11:00 MoWe and one has to move. No student conflict follows from the MoWe 11:00 stack: MUS 111 is the first-year cohort, MUS 215 and 218 the second, MUS 410 the third.
 
