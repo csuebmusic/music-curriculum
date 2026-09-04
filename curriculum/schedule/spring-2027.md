@@ -6,7 +6,7 @@ Course slate for spring 2027, a Year A spring. Sections are grouped by catalog c
 
 Bold marks courses with no instructor assigned.
 
-70.14 WTU are currently assigned; 11.2 WTU are still waiting for instructor assignment.
+72.74 WTU are currently assigned; 8.6 WTU are still waiting for instructor assignment.
 
 ## theory and musicianship
 
@@ -14,9 +14,9 @@ Bold marks courses with no instructor assigned.
 |---|---|---|---|---|---|
 | MUS 111 | Music Theory I | 2 | 200 | 2.6 | Shimron |
 | MUS 115 | Aural Skills I | 1 | 100 | 1.3 | Shimron |
-| **MUS 118** | **Keyboard Musicianship I** | 1 | 100 | 1.3 |  |
+| MUS 118 | Keyboard Musicianship I | 1 | 100 | 1.3 | Shimron |
 | MUS 215 | Aural Skills III | 1 | 100 | 1.3 | Shimron |
-| **MUS 218** | **Keyboard Musicianship III** | 1 | 100 | 1.3 |  |
+| MUS 218 | Keyboard Musicianship III | 1 | 100 | 1.3 | Shimron |
 | MUS 410 | 20th and 21st Century Styles and Techniques | 3 | 150 | 3.0 | Thiebaut |
 
 Subtotal 10.8.
@@ -167,10 +167,10 @@ Applied study and coaching counts are the fall 2026 enrollment carried forward.
 | James | 3.0 (MUS 351B) | | 0.6 | | 0.96 | 4.56 |
 | Marsh | 12.0 (MUS 305-01, 305-02, 324, 326) | | | | | 12.0 |
 | Roundtree | 6.0 (MUS 302-01, 302-02) | | | | | 6.0 |
-| Shimron | 5.2 (MUS 111, 115, 215) | | 0.3 | 3.3 | | 8.8 |
+| Shimron | 7.8 (MUS 111, 115, 118, 215, 218) | | 0.3 | 3.3 | | 11.4 |
 | Thiebaut | 7.3 (MUS 361, 410, 414) | | 2.7 | | 2.88 | 12.88 |
 
-Subtotal 50.24.
+Subtotal 52.84.
 
 ### adjunct
 
