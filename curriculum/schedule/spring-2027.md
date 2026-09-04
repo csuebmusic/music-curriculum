@@ -6,7 +6,7 @@ Course slate for spring 2027, a Year A spring. Sections are grouped by catalog c
 
 Bold marks courses with no instructor assigned.
 
-72.74 WTU are currently assigned; 8.6 WTU are still waiting for instructor assignment.
+75.04 WTU are currently assigned; 6.3 WTU are still waiting for instructor assignment.
 
 ## theory and musicianship
 
@@ -94,7 +94,7 @@ Subtotal 12.0.
 | course | title | units | minutes/wk | WTU | faculty |
 |---|---|---|---|---|---|
 | **MUS 605** | **History and Theory of Jazz** | 2 | 100 | 2.0 |  |
-| **MUS 606** | **Interdisciplinary Collaboration in Music** | 2 | 150 | 2.3 |  |
+| MUS 606 | Interdisciplinary Collaboration in Music | 2 | 150 | 2.3 | James |
 | MUS 693 | Graduate Music Capstone | 1 |  | 3.84 | Thiebaut, James |
 
 Subtotal 8.14.
@@ -164,13 +164,13 @@ Applied study and coaching counts are the fall 2026 enrollment carried forward.
 | faculty | undergrad courses | grad courses | applied | coaching | MUS 693 | total |
 |---|---|---|---|---|---|---|
 | Eros | 6.0 (MUS 106B-01, 106B-02) | | | | | 6.0 |
-| James | 3.0 (MUS 351B) | | 0.6 | | 0.96 | 4.56 |
+| James | 3.0 (MUS 351B) | 2.3 (MUS 606) | 0.6 | | 0.96 | 6.86 |
 | Marsh | 12.0 (MUS 305-01, 305-02, 324, 326) | | | | | 12.0 |
 | Roundtree | 6.0 (MUS 302-01, 302-02) | | | | | 6.0 |
 | Shimron | 7.8 (MUS 111, 115, 118, 215, 218) | | 0.3 | 3.3 | | 11.4 |
 | Thiebaut | 7.3 (MUS 361, 410, 414) | | 2.7 | | 2.88 | 12.88 |
 
-Subtotal 52.84.
+Subtotal 55.14.
 
 ### adjunct
 
