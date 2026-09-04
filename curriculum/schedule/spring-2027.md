@@ -6,6 +6,8 @@ Course slate for spring 2027, a Year A spring. Sections are grouped by catalog c
 
 Bold marks courses with no instructor assigned.
 
+61.14 WTU are currently assigned; 11.2 WTU are still waiting for instructor assignment.
+
 ## theory and musicianship
 
 | course | title | units | minutes/wk | WTU | faculty |
@@ -188,5 +190,3 @@ Subtotal 41.24.
 | unassigned: brass | | | 0.3 | | | 0.3 |
 
 Subtotal 19.9.
-
-61.14 WTU assigned. The 11.2 WTU in remaining scheduled sections carries no instructor.
