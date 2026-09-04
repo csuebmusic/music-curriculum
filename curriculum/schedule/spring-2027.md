@@ -10,11 +10,11 @@ Bold marks courses with no instructor assigned.
 
 | course | title | units | minutes/wk | WTU | faculty |
 |---|---|---|---|---|---|
-| **MUS 111** | **Music Theory I** | 2 | 200 | 2.6 |  |
+| MUS 111 | Music Theory I | 2 | 200 | 2.6 | Shimron |
 | MUS 115 | Aural Skills I | 1 | 100 | 1.3 | Shimron |
-| MUS 118 | Keyboard Musicianship I | 1 | 100 | 1.3 | Shimron |
+| **MUS 118** | **Keyboard Musicianship I** | 1 | 100 | 1.3 |  |
 | MUS 215 | Aural Skills III | 1 | 100 | 1.3 | Shimron |
-| MUS 218 | Keyboard Musicianship III | 1 | 100 | 1.3 | Shimron |
+| **MUS 218** | **Keyboard Musicianship III** | 1 | 100 | 1.3 |  |
 | MUS 410 | 20th and 21st Century Styles and Techniques | 3 | 150 | 3.0 | Thiebaut |
 
 Subtotal 10.8.
@@ -158,7 +158,7 @@ Applied study and coaching counts are the fall 2026 enrollment carried forward.
 | James | 3.0 (MUS 351B) | | 0.6 | | 0.96 | 4.56 |
 | Marsh | 3.0 (MUS 324) | | | | | 3.0 |
 | Roundtree | 6.0 (MUS 302-01, 302-02) | | | | | 6.0 |
-| Shimron | 5.2 (MUS 115, 118, 215, 218) | | 0.3 | 3.3 | | 8.8 |
+| Shimron | 5.2 (MUS 111, 115, 215) | | 0.3 | 3.3 | | 8.8 |
 | Thiebaut | 4.3 (MUS 361, 410) | | 2.7 | | 2.88 | 9.88 |
 
 Subtotal 38.24.
