@@ -79,7 +79,7 @@ Subtotal 5.2.
 |---|---|---|---|---|---|
 | **MUS 605** | **History and Theory of Jazz** | 2 | 100 | 2.0 |  |
 | **MUS 606** | **Interdisciplinary Collaboration in Music** | 2 | 150 | 2.3 |  |
-| MUS 693 | Graduate Music Capstone | 1 |  | 3.84 | Thiebaut, James, Hogan |
+| MUS 693 | Graduate Music Capstone | 1 |  | 3.84 | Thiebaut, James |
 
 Subtotal 8.14.
 
@@ -87,9 +87,8 @@ MUS 693 is 8 students at .48 per student.
 
 | advisor | students | WTU |
 |---|---|---|
-| Thiebaut | 3 | 1.44 |
+| Thiebaut | 6 | 2.88 |
 | James | 2 | 0.96 |
-| Hogan | 3 | 1.44 |
 
 ## applied study
 
@@ -155,9 +154,9 @@ Applied study and coaching counts are the fall 2026 enrollment carried forward.
 | James | 3.0 (MUS 351B) | | 0.6 | | 0.96 | 4.56 |
 | Marsh | 3.0 (MUS 324) | | | | | 3.0 |
 | Shimron | 5.2 (MUS 115, 118, 215, 218) | | 0.3 | 3.3 | | 8.8 |
-| Thiebaut | 7.3 (MUS 361, 410, 414) | | 2.7 | | 1.44 | 11.44 |
+| Thiebaut | 7.3 (MUS 361, 410, 414) | | 2.7 | | 2.88 | 12.88 |
 
-Subtotal 27.8.
+Subtotal 29.24.
 
 ### adjunct
 
@@ -166,7 +165,7 @@ Subtotal 27.8.
 | Abraham | | | 2.7 | | | 2.7 |
 | Chan | 1.3 (MUS 363) | | 0.6 | | | 1.9 |
 | Eckl | 4.3 (MUS 355, 360) | | | | | 4.3 |
-| Hogan | 1.3 (MUS 317) | | 0.3 | 1.5 | 1.44 | 4.54 |
+| Hogan | 1.3 (MUS 317) | | 0.3 | 1.5 | | 3.1 |
 | Knight | 3.0 (MUS 441) | | | | | 3.0 |
 | Leimbach | | | 1.8 | | | 1.8 |
 | Lyons Kuster | | | 0.6 | | | 0.6 |
@@ -175,6 +174,6 @@ Subtotal 27.8.
 | unassigned: organ | | | 0.3 | | | 0.3 |
 | unassigned: brass | | | 0.3 | | | 0.3 |
 
-Subtotal 21.34.
+Subtotal 19.9.
 
 49.14 WTU assigned. The 11.2 WTU in remaining scheduled sections carries no instructor.
