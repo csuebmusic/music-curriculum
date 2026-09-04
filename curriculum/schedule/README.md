@@ -16,3 +16,5 @@ MUS 118 and MUS 218 run after the upper-division band and the ensemble block, so
 On Monday and Wednesday the grid columns are ordered by level: level 1, then level 3, then upper division and everything else.
 
 Music education meets Tuesday and Thursday mornings. Musicianship meets Monday and Wednesday.
+
+University hour runs Tuesday and Thursday 12:15 to 1:15. No class meets in that band.
