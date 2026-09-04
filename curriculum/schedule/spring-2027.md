@@ -6,7 +6,7 @@ Course slate for spring 2027, a Year A spring. Sections are grouped by catalog c
 
 Bold marks courses with no instructor assigned.
 
-61.14 WTU are currently assigned; 11.2 WTU are still waiting for instructor assignment.
+70.14 WTU are currently assigned; 11.2 WTU are still waiting for instructor assignment.
 
 ## theory and musicianship
 
@@ -25,9 +25,12 @@ Subtotal 10.8.
 
 | course | title | units | minutes/wk | WTU | faculty |
 |---|---|---|---|---|---|
+| MUS 305-01 | Global Hip-Hop | 3 | 150 online | 3.0 | Marsh |
+| MUS 305-02 | Global Hip-Hop | 3 | 150 online | 3.0 | Marsh |
 | MUS 324 | History of American Music | 3 | 150 hybrid | 3.0 | Marsh |
+| MUS 326 | Topics in Global Music | 3 | 150 hybrid | 3.0 | Marsh |
 
-Subtotal 3.0.
+Subtotal 12.0.
 
 ## composition
 
@@ -147,10 +150,10 @@ Subtotal 4.8. Shimron carries 3.3 of it.
 | core, graduate | 3 | 8.14 |
 | applied and coaching | | 15.6 |
 | ensembles | 6 | 11.2 |
-| electives | 5 | 11.6 |
-| non-majors | 4 | 12.0 |
+| electives | 6 | 14.6 |
+| non-majors | 6 | 18.0 |
 
-72.34 WTU across 25 scheduled sections, applied study, and coaching.
+81.34 WTU across 28 scheduled sections, applied study, and coaching.
 
 Applied study and coaching counts are the fall 2026 enrollment carried forward.
 
@@ -162,12 +165,12 @@ Applied study and coaching counts are the fall 2026 enrollment carried forward.
 |---|---|---|---|---|---|---|
 | Eros | 6.0 (MUS 106B-01, 106B-02) | | | | | 6.0 |
 | James | 3.0 (MUS 351B) | | 0.6 | | 0.96 | 4.56 |
-| Marsh | 3.0 (MUS 324) | | | | | 3.0 |
+| Marsh | 12.0 (MUS 305-01, 305-02, 324, 326) | | | | | 12.0 |
 | Roundtree | 6.0 (MUS 302-01, 302-02) | | | | | 6.0 |
 | Shimron | 5.2 (MUS 111, 115, 215) | | 0.3 | 3.3 | | 8.8 |
 | Thiebaut | 7.3 (MUS 361, 410, 414) | | 2.7 | | 2.88 | 12.88 |
 
-Subtotal 41.24.
+Subtotal 50.24.
 
 ### adjunct
 
