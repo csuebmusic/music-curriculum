@@ -23,7 +23,7 @@ Subtotal 10.8.
 
 | course | title | units | minutes/wk | WTU | faculty |
 |---|---|---|---|---|---|
-| MUS 324 | History of American Music | 3 | 150 | 3.0 | Marsh |
+| MUS 324 | History of American Music | 3 | 150 hybrid | 3.0 | Marsh |
 
 Subtotal 3.0.
 
@@ -77,10 +77,10 @@ Subtotal 5.2.
 
 | course | title | units | minutes/wk | WTU | faculty |
 |---|---|---|---|---|---|
-| MUS 106B-01 | Music in Film | 3 | 150 | 3.0 | Eros |
-| MUS 106B-02 | Music in Film | 3 | 150 | 3.0 | Eros |
-| MUS 302-01 | What to Listen for in Music | 3 | 150 | 3.0 | Roundtree |
-| MUS 302-02 | What to Listen for in Music | 3 | 150 | 3.0 | Roundtree |
+| MUS 106B-01 | Music in Film | 3 | 150 online | 3.0 | Eros |
+| MUS 106B-02 | Music in Film | 3 | 150 online | 3.0 | Eros |
+| MUS 302-01 | What to Listen for in Music | 3 | 150 online | 3.0 | Roundtree |
+| MUS 302-02 | What to Listen for in Music | 3 | 150 online | 3.0 | Roundtree |
 
 Subtotal 12.0.
 
