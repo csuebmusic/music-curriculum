@@ -48,7 +48,7 @@ Subtotal 1.3.
 | course | title | units | minutes/wk | WTU | faculty |
 |---|---|---|---|---|---|
 | **MUS 231** | **Basic String Techniques** | 1 | 100 | 1.3 |  |
-| MUS 433 | Choral Music Teaching Methods | 3 | 150 | 3.0 | James |
+| **MUS 433** | **Choral Music Teaching Methods** | 3 | 150 | 3.0 |  |
 | MUS 441 | Intermediate Conducting | 3 | 150 | 3.0 | Knight |
 
 Subtotal 7.3.
@@ -152,12 +152,12 @@ Applied study and coaching counts are the fall 2026 enrollment carried forward.
 | faculty | undergrad courses | grad courses | applied | coaching | MUS 693 | total |
 |---|---|---|---|---|---|---|
 | Eros | | | | | | 0 |
-| James | 6.0 (MUS 351B, 433) | | 0.6 | | 0.96 | 7.56 |
+| James | 3.0 (MUS 351B) | | 0.6 | | 0.96 | 4.56 |
 | Marsh | 3.0 (MUS 324) | | | | | 3.0 |
 | Shimron | 5.2 (MUS 115, 118, 215, 218) | | 0.3 | 3.3 | | 8.8 |
 | Thiebaut | 7.3 (MUS 361, 410, 414) | | 2.7 | | 1.44 | 11.44 |
 
-Subtotal 30.8.
+Subtotal 27.8.
 
 ### adjunct
 
@@ -177,4 +177,4 @@ Subtotal 30.8.
 
 Subtotal 21.34.
 
-52.14 WTU assigned. The 8.2 WTU in remaining scheduled sections carries no instructor.
+49.14 WTU assigned. The 11.2 WTU in remaining scheduled sections carries no instructor.
