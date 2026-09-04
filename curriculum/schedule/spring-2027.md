@@ -27,6 +27,14 @@ Subtotal 10.8.
 
 Subtotal 3.0.
 
+## composition
+
+| course | title | units | minutes/wk | WTU | faculty |
+|---|---|---|---|---|---|
+| MUS 414 | Contemporary Orchestration and Arranging | 3 | 150 | 3.0 | Thiebaut |
+
+Subtotal 3.0.
+
 ## jazz studies
 
 | course | title | units | minutes/wk | WTU | faculty |
@@ -141,10 +149,10 @@ MUS 111 and MUS 410 are both scheduled into Rm 1506 at 11:00 MoWe and one has to
 | core, graduate | 3 | 8.14 |
 | applied and coaching | | 15.6 |
 | ensembles | 6 | 11.2 |
-| electives | 4 | 8.6 |
+| electives | 5 | 11.6 |
 | non-majors | 4 | 12.0 |
 
-69.34 WTU across 24 scheduled sections, applied study, and coaching.
+72.34 WTU across 25 scheduled sections, applied study, and coaching.
 
 Applied study and coaching counts are the fall 2026 enrollment carried forward.
 
@@ -159,9 +167,9 @@ Applied study and coaching counts are the fall 2026 enrollment carried forward.
 | Marsh | 3.0 (MUS 324) | | | | | 3.0 |
 | Roundtree | 6.0 (MUS 302-01, 302-02) | | | | | 6.0 |
 | Shimron | 5.2 (MUS 111, 115, 215) | | 0.3 | 3.3 | | 8.8 |
-| Thiebaut | 4.3 (MUS 361, 410) | | 2.7 | | 2.88 | 9.88 |
+| Thiebaut | 7.3 (MUS 361, 410, 414) | | 2.7 | | 2.88 | 12.88 |
 
-Subtotal 38.24.
+Subtotal 41.24.
 
 ### adjunct
 
@@ -181,4 +189,4 @@ Subtotal 38.24.
 
 Subtotal 19.9.
 
-58.14 WTU assigned. The 11.2 WTU in remaining scheduled sections carries no instructor.
+61.14 WTU assigned. The 11.2 WTU in remaining scheduled sections carries no instructor.
