@@ -244,15 +244,95 @@ eLearning Administration, eLearning Design, and eLearning Technology certificate
 
 Read from the tile markup on September 10, 2026. The destinations have not been opened except where noted.
 
-- The Curriculum and Instruction, Early Childhood Education, and Educational Technology tiles carry one URL between them, /ted/programs-admissions/masters/index.html.
-- The Special Education master's tile and the Education Specialist credential tile carry one URL between them, /cssc/prospective-cred-student/special-education.html.
-- The Speech Language Pathology Services credential tile and the Speech-Language Pathology master's tile carry one URL between them, /slhs/masters-in-speech-language-pathology/index.html.
+Fifteen of the 48 tiles share six URLs between them:
+
+- /ted/programs-admissions/masters/index.html: Curriculum & Instruction, Early Childhood Education, Educational Technology.
+- /math/degrees-and-programs/index.html: Mathematics, Foundational Mathematics Single Subject, Mathematics Single Subject Matter.
+- /statistics/degrees-programs/index.html: Statistics, Applied Statistics, Theoretical Statistics.
+- /engineering/programs-degrees/graduate-degrees.html: Construction Management, Engineering Management.
+- /cssc/prospective-cred-student/special-education.html: Special Education, Education Specialist.
+- /slhs/masters-in-speech-language-pathology/index.html: Speech-Language Pathology, Speech Language Pathology Services.
+
+Three others:
+
 - The Educational Technology certificate tile points into catalog year 39. The current catalog is 44.
-- The Applied Statistics, Theoretical Statistics, Mathematics Single Subject Matter, and Foundational Mathematics tiles point at two department index URLs, /statistics/degrees-programs/index.html and /math/degrees-and-programs/index.html, rather than at four program URLs.
 - Interaction Design points off site to ixdia.org.
 - Biological Sciences on the prospective graduate students page points at csuebgradbio.blogspot.com.
 
-Opened: Accountancy reaches the Master of Science in Accountancy program page. The other 47 tile destinations are unchecked.
+Accountancy is the one destination opened so far. The other 47 are unchecked.
+
+### the 48 tile links
+
+Copied from the tile markup. The destination column is filled in as each link is opened.
+
+#### master's
+
+| tile | link | destination |
+| --- | --- | --- |
+| Accountancy | https://www.csueastbay.edu/msa/index.html | MS in Accountancy program page |
+| Biological Sciences | https://www.csueastbay.edu/biology/graduate-program/biology-ms-program/index.html |  |
+| Biostatistics | https://www.csueastbay.edu/statistics/biostatistics-psm/index.html |  |
+| MBA Business Administration | https://www.csueastbay.edu/mba/index.html |  |
+| Business Analytics | https://www.csueastbay.edu/msba/index.html |  |
+| Chemistry | https://www.csueastbay.edu/chemistry/graduate/index.html |  |
+| Computer Science | https://www.csueastbay.edu/cs/degrees-programs1/index.html |  |
+| Construction Management | https://www.csueastbay.edu/engineering/programs-degrees/graduate-degrees.html |  |
+| Counseling | https://www.csueastbay.edu/epsy/graduate-programs/index.html |  |
+| Curriculum & Instruction | https://www.csueastbay.edu/ted/programs-admissions/masters/index.html |  |
+| Early Childhood Education | https://www.csueastbay.edu/ted/programs-admissions/masters/index.html |  |
+| Educational Leadership | https://www.csueastbay.edu/el/programs/master-in-el.html |  |
+| Educational Technology | https://www.csueastbay.edu/ted/programs-admissions/masters/index.html |  |
+| Engineering Management | https://www.csueastbay.edu/engineering/programs-degrees/graduate-degrees.html |  |
+| Environmental Geosciences | https://www.csueastbay.edu/earth/graduate-program/index.html |  |
+| Health Care Administration | https://www.csueastbay.edu/paa/healthcare/index.html |  |
+| History | https://www.csueastbay.edu/history/degree-programs/ma-degree-programs_new.html |  |
+| Hospitality, Recreation, & Tourism | https://www.csueastbay.edu/hrt/grad/index.html |  |
+| Interaction Design | https://ixdia.org |  |
+| Kinesiology | https://www.csueastbay.edu/kin/programs/ms-kinesiology.html |  |
+| Marine Science | https://www.csueastbay.edu/biology/graduate-program/ms-in-marine-sciences.html |  |
+| Marketing Analytics | https://www.csueastbay.edu/msma/index.html |  |
+| Mathematics | https://www.csueastbay.edu/math/degrees-and-programs/index.html |  |
+| Music | https://www.csueastbay.edu/music/prospective/ma.html |  |
+| Nursing | https://www.csueastbay.edu/nursing/msn-programs/index.html |  |
+| Public Administration | https://www.csueastbay.edu/paa/public-admin/index.html |  |
+| Reading and Literacy | https://www.csueastbay.edu/ted/programs-admissions/masters/reading-cert1.html |  |
+| Social Work | https://www.csueastbay.edu/sw/apply-to-msw.html |  |
+| Special Education | https://www.csueastbay.edu/cssc/prospective-cred-student/special-education.html |  |
+| Speech-Language Pathology | https://www.csueastbay.edu/slhs/masters-in-speech-language-pathology/index.html |  |
+| Statistics | https://www.csueastbay.edu/statistics/degrees-programs/index.html |  |
+
+#### doctoral
+
+| tile | link | destination |
+| --- | --- | --- |
+| Ed.D. Educational Leadership | https://www.csueastbay.edu/edd/index.html |  |
+
+#### credentials
+
+| tile | link | destination |
+| --- | --- | --- |
+| Administrative Services Credential Clear Induction | https://www.csueastbay.edu/el/programs/clear-admin-services-cred.html |  |
+| Education Specialist | https://www.csueastbay.edu/cssc/prospective-cred-student/special-education.html |  |
+| Multi-subject Teaching | https://www.csueastbay.edu/cssc/prospective-cred-student/multiple-subject.html |  |
+| Preliminary Administrative Services (PASC) | https://www.csueastbay.edu/el/programs/prelim-admin-services.html |  |
+| PPS School Counseling | https://www.csueastbay.edu/epsy/graduate-programs/school-counseling.html |  |
+| PPS School Psychology | https://www.csueastbay.edu/school-psychology/prospective-students.html |  |
+| Single-subject Teaching | https://www.csueastbay.edu/cssc/prospective-cred-student/single-subject.html |  |
+| Speech Language Pathology Services | https://www.csueastbay.edu/slhs/masters-in-speech-language-pathology/index.html |  |
+
+#### certificates
+
+| tile | link | destination |
+| --- | --- | --- |
+| Applied Statistics | https://www.csueastbay.edu/statistics/degrees-programs/index.html |  |
+| Biotechnology | https://www.csueastbay.edu/biology/graduate-program/biotechnology-certificate-program-bcp/index.html |  |
+| Educational Technology | https://catalog.csueastbay.edu/preview_program.php?catoid=39&poid=18263&returnto=36991 |  |
+| Foundational Mathematics, Single Subject | https://www.csueastbay.edu/math/degrees-and-programs/index.html |  |
+| Pre-Professional Health Academic Program (PHAP) | https://www.csueastbay.edu/phaprogram/ |  |
+| Mathematics, Single Subject Matter | https://www.csueastbay.edu/math/degrees-and-programs/index.html |  |
+| Music Single Subject Matter Preparation | https://www.csueastbay.edu/music/prospective/music-ed.html |  |
+| Theoretical Statistics | https://www.csueastbay.edu/statistics/degrees-programs/index.html |  |
+
 
 ## pages carrying stale content
 
