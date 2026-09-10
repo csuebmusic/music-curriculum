@@ -46,11 +46,11 @@ Text read with Ghostscript txtwrite. Catalog links read from the PDF link annota
 
 Application deadlines stay off the per-program sheets. They travel on a separate dated handout, reprinted each cycle.
 
-Against that rule as the set stands:
+Four CBE sheets print application windows as month and day ranges with no year: Fall October 1 to June 1, Spring August 1 to November 1, with the international windows a month earlier. Written that way they don't go stale, and they sit outside the rule without breaking it.
 
-- `MBA w Concentrations` prints an application deadlines block.
-- MSMA states that international deadlines fall about a month before the domestic ones.
-- The sheets send readers to three different places for dates, or to none. MA IXDIA points to the program website, MA Music to the published deadlines without naming where they are published, and the rest point nowhere.
+The sheets send readers to three different places for dates, or to none. MA IXDIA points to the program website, MA Music to the published deadlines without naming where they are published, and the rest point nowhere.
+
+Four CBE sheets print a version stamp on the page: VERSION: F25 on the MBA, Accountancy and Business Analytics sheets, Version: 24-25 on Marketing Analytics. Those are printed dates and they do go stale.
 
 Date ranges that appear on several sheets (2018-2028 on MSA, 2025-2034 on MS Health Care Administration, 2009-2019 on the old MS Health Care Administration, 2019-2029 on the MBA flyers) sit next to accreditation text.
 
