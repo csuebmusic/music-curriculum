@@ -34,6 +34,22 @@ Text read with Ghostscript txtwrite. Catalog links read from the PDF link annota
 - MS Computer Science InfoSheet is headed Artificial Intelligence and Machine Learning Concentration. The catalog carries three.
 - MS Kinesiology InfoSheet is headed Human Movement and Sport Science Concentration. The catalog carries two.
 
+## content read page by page
+
+Three sheets have been read as rendered pages rather than as extracted text.
+
+MA Music. The capstone heading reads 3 units and the course line reads MUS 693 Capstone - Units: 1, with no note that it repeats three times.
+
+MS Statistics. The body names concentrations in Actuarial Science, Applied Statistics, Data Science, and Mathematical Statistics, omitting Biostatistics, where the catalog carries five. It then sends readers to the Biostatistics chapter of the university catalog as though Biostatistics were a separate degree. The catalog carries Biostatistics as a Statistics concentration; the Graduate Studies tile carries it as a separate master's. The sheet prints the typo "concentrations in in" and the catalog phrase "stated elsewhere in this catalog".
+
+MS Special Education. The concentration name appears two ways on one sheet, Mild/Moderate Support Needs and Mild-Moderate Support Needs. The catalog uses the first.
+
+## course and unit drift, not completed
+
+The sheets set their requirements in two columns. Extracted text interleaves the columns, so unit totals and course lists cannot be checked from the text. Thirty-three sheets still need reading page by page.
+
+Two printed program names differ from the catalog: the Hospitality sheet prints a comma before "and", and the doctorate prints "Doctor of Education in Educational Leadership for Social Justice" where the catalog and the tiles carry "Educational Leadership, Ed.D." 
+
 ## contacts to verify
 
 - MSA sheet gives `jingwen-yang@csueastbay.edu` with a hyphen. The Graduate Program Info workbook gives `jingwen.yang@csueastbay.edu` with a dot.
