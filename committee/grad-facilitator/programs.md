@@ -242,12 +242,17 @@ eLearning Administration, eLearning Design, and eLearning Technology certificate
 
 ## link targets
 
-- Curriculum and Instruction, Early Childhood Education, and Educational Technology tiles all resolve to the same Teacher Education masters index.
-- The Special Education master's tile resolves to the Credential Student Service Center special education page, the same target as the Education Specialist credential tile.
-- The Speech Language Pathology Services credential tile resolves to the master's program page.
-- The Educational Technology certificate tile resolves into catalog year 39.
-- The Applied Statistics, Theoretical Statistics, Mathematics Single Subject Matter, and Foundational Mathematics tiles resolve to department index pages rather than to program pages.
-- Biological Sciences on the prospective graduate students page resolves to csuebgradbio.blogspot.com.
+Read from the tile markup on September 10, 2026. The destinations have not been opened except where noted.
+
+- The Curriculum and Instruction, Early Childhood Education, and Educational Technology tiles carry one URL between them, /ted/programs-admissions/masters/index.html.
+- The Special Education master's tile and the Education Specialist credential tile carry one URL between them, /cssc/prospective-cred-student/special-education.html.
+- The Speech Language Pathology Services credential tile and the Speech-Language Pathology master's tile carry one URL between them, /slhs/masters-in-speech-language-pathology/index.html.
+- The Educational Technology certificate tile points into catalog year 39. The current catalog is 44.
+- The Applied Statistics, Theoretical Statistics, Mathematics Single Subject Matter, and Foundational Mathematics tiles point at two department index URLs, /statistics/degrees-programs/index.html and /math/degrees-and-programs/index.html, rather than at four program URLs.
+- Interaction Design points off site to ixdia.org.
+- Biological Sciences on the prospective graduate students page points at csuebgradbio.blogspot.com.
+
+Opened: Accountancy reaches the Master of Science in Accountancy program page. The other 47 tile destinations are unchecked.
 
 ## pages carrying stale content
 
