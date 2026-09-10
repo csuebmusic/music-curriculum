@@ -1,8 +1,18 @@
-# graduate programs
+# graduate programs inventory
 
-The roster as it stands in the [2026-2027 catalog](https://catalog.csueastbay.edu/content.php?catoid=44&navoid=42138), whose content was approved on or before May 26, 2026. The catalog lists each concentration as a separate entry. Programs are listed once here, with their concentrations named in the note.
+Working file for the graduate program roster and for what needs correcting in how the programs are listed and represented. The roster is the catalog record. The sections after it hold the discrepancies, the programs with no settled status, and the site and document problems.
 
-College placement comes from the [Graduate School of Education](https://www.csueastbay.edu/gse/masters.html) and [College of Health](https://www.csueastbay.edu/coh/graduate-programs.html) listings and from the International Programs [admission requirements document](https://www.csueastbay.edu/ip/files/docs/grad-program-requirements.pdf) of July 2025. Department groupings come from the departmental listing on the [prospective graduate students](https://www.csueastbay.edu/graduate-studies/prospective-grad-students.html) page, whose college headings are out of date and whose department names are not.
+## catalog and cycle
+
+The [2026-2027 catalog](https://catalog.csueastbay.edu/content.php?catoid=44&navoid=42138) is current, with content approved on or before May 26, 2026. There is no 2027-2028 catalog. Students recruited this fair season enter in Fall 2027 under the 2027-2028 catalog, so program status for that round comes from the departments and from Cal State Apply rather than from the published catalog.
+
+Roster and tiles compared September 10, 2026.
+
+## the roster
+
+Fifty entries: 31 master's programs, the Ed.D., seven credentials, and eleven certificate and subject matter preparation programs. The catalog lists each concentration as a separate entry. Programs are listed once here, with their concentrations named in the note.
+
+College placement comes from the [Graduate School of Education](https://www.csueastbay.edu/gse/masters.html) and [College of Health](https://www.csueastbay.edu/coh/graduate-programs.html) listings and from the International Programs [admission requirements document](https://www.csueastbay.edu/ip/files/docs/grad-program-requirements.pdf) of July 2025. Department groupings come from the departmental listing on the [prospective graduate students](https://www.csueastbay.edu/graduate-studies/prospective-grad-students.html) page, whose department names hold and whose college headings do not.
 
 ## College of Letters, Arts, and Social Sciences
 
@@ -194,15 +204,15 @@ A sub-school within the college since the merger of the former College of Educat
 | [Speech-Language Pathology, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20533&returnto=42138) | |
 | [Speech-Language Pathology Services Credential](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20598&returnto=42138) | |
 
-## against the Graduate Studies tiles
+## the roster against the Graduate Studies tiles
 
-The [Office of Graduate Studies](https://www.csueastbay.edu/graduate-studies/) index disagrees with the catalog in both directions.
+The [tiles](https://www.csueastbay.edu/graduate-studies/) carry 48 entries: 31 master's programs, the Ed.D., eight credentials, and eight certificates. The two lists disagree in both directions.
 
 On the tiles and not in the catalog:
 
-- Biostatistics, as a separate program. The catalog carries it as a Statistics concentration.
+- Biostatistics, as a separate master's. The catalog carries it as a Statistics concentration.
 - Administrative Services Credential, Clear Induction.
-- Foundational Mathematics, Single Subject.
+- Foundational Mathematics, Single Subject. The Mathematics [degrees and programs](https://www.csueastbay.edu/math/degrees-and-programs/index.html) page lists two single subject matter programs, Preparation and Certificate, and no foundational-level program. The tile links to that page.
 
 In the catalog and not on the tiles:
 
@@ -212,6 +222,62 @@ In the catalog and not on the tiles:
 - Physical Education Single Subject Matter Preparation.
 - Social Science Single Subject Matter Preparation.
 
+Named differently: the catalog's Post-baccalaureate Health Professions Academic Program Certificate is the tiles' Pre-Professional Health Academic Program (PHAP).
+
 The tiles carry Counseling as one program where the catalog has three concentrations, and name the doctorate Ed.D. Educational Leadership where the International Programs document calls it Educational Leadership for Social Justice.
 
-The English, M.A. appears in neither the catalog nor the tiles, and the International Programs document of July 2025 records it as suspended until Fall 2026 across all four options. The Art, M.A. appears on the prospective students page and in neither the catalog nor the tiles.
+## programs with no settled status
+
+Each is advertised somewhere and absent from the catalog, the tiles, or both. Fall 2027 status needs a department answer for all of them.
+
+English, M.A. Absent from the 2026-2027 catalog and from the tiles. The International Programs document of July 2025 records it as suspended until Fall 2026 across all four options. The department's [graduate page](https://www.csueastbay.edu/english/englgrad/index.html) is live under the heading "New M.A. in English at CSU East Bay" and advertises applications for Fall 2024 through Cal State Apply, with concentrations in Literature and Pedagogy and in TESOL. The department's 2026-2027 lecturer pool posting describes the department as offering the B.A. in English.
+
+Art, M.A. Absent from the catalog and the tiles, linked from the prospective graduate students page as Art. The department's only graduate program in the catalog is the Interaction Design and Interactive Art, M.A.
+
+Communication, M.A. Suspended, in the catalog, absent from the tiles. The prospective graduate students page links to its requirements and classes page.
+
+Business Administration, M.B.A., Global Innovators Concentration. Recorded in the International Programs document as not accepting applications for Fall 2026.
+
+eLearning Administration, eLearning Design, and eLearning Technology certificates. On the unpublished graduate program directory page and nowhere else, with links into catalog years 33 and 39.
+
+## link targets
+
+- Curriculum and Instruction, Early Childhood Education, and Educational Technology tiles all resolve to the same Teacher Education masters index.
+- The Special Education master's tile resolves to the Credential Student Service Center special education page, the same target as the Education Specialist credential tile.
+- The Speech Language Pathology Services credential tile resolves to the master's program page.
+- The Educational Technology certificate tile resolves into catalog year 39.
+- The Applied Statistics, Theoretical Statistics, Mathematics Single Subject Matter, and Foundational Mathematics tiles resolve to department index pages rather than to program pages.
+- Biological Sciences on the prospective graduate students page resolves to csuebgradbio.blogspot.com.
+
+## pages carrying stale content
+
+The graduate program directory at /graduate-studies/graduate-program-directory.html is meta-tagged "Unused page. Do not publish." It is live and linked: the prospective graduate students page sends applicants there for program coordinator contacts. It carries no Music tile, links into catalog years 33 and 39, and lists the three eLearning certificates.
+
+The International Programs [admission requirements document](https://www.csueastbay.edu/ip/files/docs/grad-program-requirements.pdf) is stamped "Information verified 7/15/2025" and is a cycle behind on every dated claim: the English M.A. suspended until Fall 2026, the Global Innovators M.B.A. not accepting applications for Fall 2026, the Computer Science GRE waived for Fall 2025 and Spring 2026. It gives MBA concentrations in Analytics for Managers and in Strategy and Innovation, neither of which is in the catalog, and omits Nursing, Public Administration, Health Care Administration, Hospitality Recreation and Tourism, Special Education, Teacher Education, and all credentials. International applicants for Fall 2027 read this document.
+
+The prospective graduate students page carries Fall 2024 workshop materials and 2020 GRE and GMAT slides, and routes to graduate events at /aps/graduate-studies/graduate-events.html where the site navigation uses /graduate-studies/graduate-events.html.
+
+## college groupings on the prospective graduate students page
+
+The page groups departments under a College of Education and Allied Studies heading. That college is dissolved, and its departments are the Graduate School of Education within CLASS. Five departments sit under the wrong college:
+
+- Kinesiology, under Education and Allied Studies, is College of Health.
+- Hospitality, Recreation and Tourism, under Education and Allied Studies, is CLASS.
+- Nursing, under College of Science, is College of Health.
+- Speech, Language, and Hearing Sciences, under CLASS, is College of Health.
+- Social Work, under CLASS, is College of Health.
+
+Special Education has no entry. The page states that CSUEB offers over fifty graduate programs.
+
+## open questions
+
+Each names where the answer comes from.
+
+- Fall 2027 status of the English, M.A. and the Art, M.A. Department chairs, through Graduate Studies.
+- Whether the Communication, M.A. and the Global Innovators M.B.A. reopen for Fall 2027. Departments.
+- Whether the three eLearning certificates are current programs. Continuing Education.
+- Whether Biostatistics admits separately from the Statistics, M.S. Statistics and Biostatistics.
+- What the tiles' Foundational Mathematics, Single Subject refers to. Mathematics.
+- Who owns the International Programs admission requirements document, and on what cycle it is reverified. International Admissions.
+- Who reconciles the tiles against the catalog each year. Graduate Studies.
+- The Fall 2027 graduate filing window. Admissions.
