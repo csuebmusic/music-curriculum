@@ -44,9 +44,17 @@ MS Statistics. The body names concentrations in Actuarial Science, Applied Stati
 
 MS Special Education. The concentration name appears two ways on one sheet, Mild/Moderate Support Needs and Mild-Moderate Support Needs. The catalog uses the first.
 
-## course and unit drift, not completed
+## unit totals, checked across all 49
 
-The sheets set their requirements in two columns. Extracted text interleaves the columns, so unit totals and course lists cannot be checked from the text. Thirty-three sheets still need reading page by page.
+Text for every sheet is extracted with Ghostscript at `-dTextFormat=0`, which emits glyph positions. Columns are separated by finding the page gutter as the x band with the lowest line coverage, then splitting each row at it. Requirements sections and their course lines read in order.
+
+Every declared section total was checked against the courses listed beneath it. The Music capstone is the only unit error. Sheets that list elective menus carry course units well above the declared total by design: Marine Science lists 120 against 30, Mathematics 82 against 30, Kinesiology 73 against 32, Chemistry 43 against 30, Special Education 50 against 43. Those are menus, not errors.
+
+Three sheets were read in full to rule out a discrepancy and are correct: Hospitality (30 units, 27 required plus an elective), History (30 units, 24 core plus a 6-unit capstone), Statistics (34 units, 20 core required).
+
+The History sheet is the model for the Music fix. It prints "Repeat course three times for 12 units:" above HIST 600 Reading Seminar in History - Units: 4. The Music sheet gives no equivalent line above MUS 693.
+
+Course titles and numbers have not been checked against the catalog. The catalog blocks automated requests, so that comparison needs a person with a browser.
 
 Two printed program names differ from the catalog: the Hospitality sheet prints a comma before "and", and the doctorate prints "Doctor of Education in Educational Leadership for Social Justice" where the catalog and the tiles carry "Educational Leadership, Ed.D." 
 
