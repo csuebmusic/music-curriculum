@@ -44,9 +44,28 @@ Text read with Ghostscript txtwrite. Catalog links read from the PDF link annota
 
 ## deadlines
 
-No sheet states an application deadline for a specific term. `MBA w Concentrations` carries an application deadlines block. MSMA states that international deadlines fall about a month before domestic. MA IXDIA refers the reader to the program website. MA Music refers to the published deadlines without naming them.
+Application deadlines stay off the per-program sheets. They travel on a separate dated handout, reprinted each cycle.
+
+Against that rule as the set stands:
+
+- `MBA w Concentrations` prints an application deadlines block.
+- MSMA states that international deadlines fall about a month before the domestic ones.
+- The sheets send readers to three different places for dates, or to none. MA IXDIA points to the program website, MA Music to the published deadlines without naming where they are published, and the rest point nowhere.
 
 Date ranges that appear on several sheets (2018-2028 on MSA, 2025-2034 on MS Health Care Administration, 2009-2019 on the old MS Health Care Administration, 2019-2029 on the MBA flyers) sit next to accreditation text.
+
+## the deadlines handout
+
+One page, dated, carried to fairs alongside the program sheets. One row per program:
+
+- terms accepting applications
+- the university filing window for the term
+- the department deadline where it falls earlier than the university one
+- the department contact
+
+Sources: `Graduate_Program_Info_Coordinator_Accepting_Deadlines.xlsx` for terms and coordinators, department confirmation for Fall 2027 dates. The International Programs admission requirements document carries department deadlines but is stamped 7/15/2025 and is a cycle behind.
+
+Open: whether the per-program sheets should carry one line pointing to where deadlines live, and whether that line is a URL or a QR code.
 
 ## files not for use, stored with the live ones
 
