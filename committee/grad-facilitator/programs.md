@@ -255,8 +255,6 @@ The graduate program directory at /graduate-studies/graduate-program-directory.h
 
 The International Programs [admission requirements document](https://www.csueastbay.edu/ip/files/docs/grad-program-requirements.pdf) is stamped "Information verified 7/15/2025" and is a cycle behind on every dated claim: the English M.A. suspended until Fall 2026, the Global Innovators M.B.A. not accepting applications for Fall 2026, the Computer Science GRE waived for Fall 2025 and Spring 2026. It gives MBA concentrations in Analytics for Managers and in Strategy and Innovation, neither of which is in the catalog, and omits Nursing, Public Administration, Health Care Administration, Hospitality Recreation and Tourism, Special Education, Teacher Education, and all credentials. International applicants for Fall 2027 read this document.
 
-The prospective graduate students page carries Fall 2024 workshop materials and 2020 GRE and GMAT slides, and routes to graduate events at /aps/graduate-studies/graduate-events.html where the site navigation uses /graduate-studies/graduate-events.html.
-
 ## college groupings on the prospective graduate students page
 
 The page groups departments under a College of Education and Allied Studies heading. That college is dissolved, and its departments are the Graduate School of Education within CLASS. Five departments sit under the wrong college:

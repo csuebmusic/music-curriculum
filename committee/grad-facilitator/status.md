@@ -1,6 +1,6 @@
 # status and current practice
 
-Updated August 21, 2026.
+Updated September 10, 2026.
 
 ## channels in use
 
@@ -38,15 +38,13 @@ Out of date as posted:
 - The info sessions index stops at Spring 2026.
 - The ambassador page stops at the Fall 2025 cohort, and its eligibility text still names a Spring 2025 start.
 - The Pathway workshop materials are from Fall 2024, and the GRE and GMAT slides from 2020.
+- The prospective graduate students page routes to graduate events at /aps/graduate-studies/graduate-events.html where the site navigation uses /graduate-studies/graduate-events.html.
 
 These channels are mapped against the 2024 plan section by section in `recruitment-plan.md`. The plan's recommendations largely exist in some form. What is missing is coverage and currency: seven programs of fifty-plus appear on the info sessions index, and no lead nurturing or source attribution is visible anywhere.
 
-## suspended programs
+## program status
 
-Held out of the roster in `programs.md`, and still listed in the catalog.
-
-- Communication, M.A.
-- Business Administration, M.B.A., Global Innovators Concentration. Recorded in the International Programs requirements document as not accepting applications for Fall 2026.
+The roster, the programs with no settled status, the discrepancies against the Graduate Studies tiles, and the program pages and documents that need correcting are in `programs.md`.
 
 ## information session coverage
 
@@ -81,9 +79,8 @@ CBE runs its own marketing and it performs well. The methods are not documented 
 - Ask Institutional Effectiveness and Research for the Non-US prior-institution figures, absent from the exports, and for whether the enrollment dashboard carries anything later than Fall 2025.
 - Ask Graduate Studies or Admissions for applications and admits by program, which appear in no dashboard read so far.
 - Request Salesforce Marketing Cloud access through Joshua Kerr, who runs the central communications.
-- Take the tile-against-catalog discrepancies in `programs.md` to Graduate Studies, and establish who reconciles the index against the catalog each year.
-- Confirm the status of the English, M.A. and the Art, M.A., neither of which appears in the 2026-2027 catalog.
-- Check whether the [Office of Graduate Studies page](https://www.csueastbay.edu/graduate-studies/) still lists joshua.kerr@csueastbay.edu as the contact email for Dr. Divya Sitaraman, and report it to Graduate Studies if it does.
+- Take the open questions in `programs.md` to Graduate Studies and to the departments they name.
+- Report two errors in the contact block on the [Office of Graduate Studies page](https://www.csueastbay.edu/graduate-studies/) to Graduate Studies: Dr. Divya Sitaraman's email reads joshua.kerr@csueastbay.edu, and the graduate recruitment facilitator is listed as a Graduate Student Success Facilitator.
 
 ## open questions
 

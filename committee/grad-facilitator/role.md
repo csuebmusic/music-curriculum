@@ -25,12 +25,14 @@ Separate from the Music Department graduate coordinator role, which covers the M
 Office of Graduate Studies, SA 4500, 510-885-3716, gradstudies@csueastbay.edu.
 
 - Dr. Chandra Khan, AVP of Research, Sponsored Programs, and Graduate Studies. chandra.khan@csueastbay.edu
-- Dr. Kevin Brown, Faculty Director of Graduate Studies, through August 31, 2026. kevin.brown@csueastbay.edu, 510-885-4007
-- Dr. Joshua Kerr, incoming Faculty Director of Graduate Studies. Graduate Studies web pages, Salesforce and Canvas communications, ordering of LED ads, posters, and flyers. joshua.kerr@csueastbay.edu, 510-885-3626
+- Dr. Joshua Kerr, Faculty Director of Graduate Studies since August 31, 2026. joshua.kerr@csueastbay.edu, 510-885-3626
+- Dr. Emilio Grande, Graduate Student Success Facilitator. emilio.grande@csueastbay.edu, 510-885-3486
 - Dr. Michelle Gravier, Graduate Student Success Facilitator. michelle.gravier@csueastbay.edu, 510-885-3215
 - Dr. Divya Sitaraman, Graduate Student Success Facilitator. 510-885-3484
-- Ms. Monica Zango, Graduate Studies Coordinator. Handshake and BaySync. gradstudies@csueastbay.edu, 510-885-3716
-- Risha Rohilla, student assistant. Posters and flyers in Canva, social media posting.
+- Ms. Monica Zango, Graduate Studies Coordinator. gradstudies@csueastbay.edu, 510-885-3716
+- Risha Rohilla, student assistant.
+
+Who runs which channel is in `status.md`.
 
 University Communications and Marketing, within University Advancement, under Vice President Evelyn Buchanan.
 
