@@ -36,9 +36,7 @@ Text read with Ghostscript txtwrite. Catalog links read from the PDF link annota
 
 ## content read page by page
 
-Three sheets have been read as rendered pages rather than as extracted text.
-
-MA Music. The capstone heading reads 3 units and the course line reads MUS 693 Capstone - Units: 1, with no note that it repeats three times.
+Sheets read as rendered pages rather than as extracted text.
 
 MS Statistics. The body names concentrations in Actuarial Science, Applied Statistics, Data Science, and Mathematical Statistics, omitting Biostatistics, where the catalog carries five. It then sends readers to the Biostatistics chapter of the university catalog as though Biostatistics were a separate degree. The catalog carries Biostatistics as a Statistics concentration; the Graduate Studies tile carries it as a separate master's. The sheet prints the typo "concentrations in in" and the catalog phrase "stated elsewhere in this catalog".
 
@@ -48,11 +46,10 @@ MS Special Education. The concentration name appears two ways on one sheet, Mild
 
 Text for every sheet is extracted with Ghostscript at `-dTextFormat=0`, which emits glyph positions. Columns are separated by finding the page gutter as the x band with the lowest line coverage, then splitting each row at it. Requirements sections and their course lines read in order.
 
-Every declared section total was checked against the courses listed beneath it. The Music capstone is the only unit error. Sheets that list elective menus carry course units well above the declared total by design: Marine Science lists 120 against 30, Mathematics 82 against 30, Kinesiology 73 against 32, Chemistry 43 against 30, Special Education 50 against 43. Those are menus, not errors.
+Every declared section total was checked against the courses listed beneath it. No unit errors. Sheets that list elective menus carry course units well above the declared total by design: Marine Science lists 120 against 30, Mathematics 82 against 30, Kinesiology 73 against 32, Chemistry 43 against 30, Special Education 50 against 43. Those are menus, not errors.
 
 Three sheets were read in full to rule out a discrepancy and are correct: Hospitality (30 units, 27 required plus an elective), History (30 units, 24 core plus a 6-unit capstone), Statistics (34 units, 20 core required).
 
-The History sheet is the model for the Music fix. It prints "Repeat course three times for 12 units:" above HIST 600 Reading Seminar in History - Units: 4. The Music sheet gives no equivalent line above MUS 693.
 
 Course titles and numbers have not been checked against the catalog. The catalog blocks automated requests, so that comparison needs a person with a browser.
 
