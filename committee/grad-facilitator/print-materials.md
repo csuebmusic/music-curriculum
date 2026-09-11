@@ -9,7 +9,9 @@ Text read with Ghostscript txtwrite. Catalog links read from the PDF link annota
 - Both all-university lists are dated 25-26: `CSUEB Graduate Programs List 25-26.pdf` and `CSUEB FAST Programs List 25-26.pdf`. Recruitment this season is for Fall 2027 entry.
 - Every CBE sheet is stamped F25. The Marketing Analytics sheet is dated 012224.
 
-## catalog links
+## hyperlinks embedded in the PDFs
+
+These are link annotations inside each file, mostly sitting on the course lines. A link shows nothing on paper, so they reach a reader only when the file is shared digitally and clicked.
 
 - Every catalog link in the set points at catalog year 39. The current catalog is 44. Nothing in the set links to the current catalog.
 - `MBA Concentration Flyers F25 Sept 25.pdf` links to catalog year 24.
