@@ -1,6 +1,6 @@
 # fall 2026 curriculum proposals: analysis
 
-Analysis of the curriculum proposals memo by John Eros distributed for the department meeting of September 1, 2026. Findings check against the course inventory in [catalog-audit](../../curriculum/catalog-audit/), the undergraduate handbook, the certificate roadmap, the 2026-2027 catalog, and the GE guide.
+Analysis of the curriculum proposals memo by John Eros distributed for the department meeting of September 1, 2026. Findings check against the course inventory in [catalog-audit](catalog-audit/), the undergraduate handbook, the certificate roadmap, the 2026-2027 catalog, and the GE guide.
 
 ## timing
 
