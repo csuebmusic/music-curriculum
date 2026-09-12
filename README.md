@@ -29,12 +29,20 @@ The automated messages Salesforce sends to applicants, admits, and new students,
 - [equipment office student assistant guide](https://csuebmusic.github.io/music-curriculum/documents/handbooks/equipment-office-student-assistant-guide.html): position responsibilities, rounds, event setup, problem reporting, and the hour-tracking worksheet
 - [ensemble manager student assistant guide](https://csuebmusic.github.io/music-curriculum/documents/handbooks/ensemble-manager-student-assistant-guide.html): the two ensemble assignments, weekly setup and strike, concert and recital work, and the hour-tracking worksheet
 
+## forms
+
+Word forms and memos, in `documents/forms/`.
+
+- [equipment office student assistant agreement](documents/forms/equipment-office-student-assistant-agreement.docx)
+- [key 1838 authorization memo](documents/forms/key-1838-authorization-memo.docx)
+
 ## website
 
-Structural HTML pasted into Cascade, mirroring the live path under `/music/`. Cascade supplies the appearance.
+Structural HTML pasted into Cascade, named for the live page it fills. Cascade supplies the appearance.
 
 - `website/current/index.html` &rarr; [student resources](https://www.csueastbay.edu/music/current/index.html)
 - `website/prospective/how-to-apply/i-got-in-now-what.html` &rarr; [I got in! Now what?](https://www.csueastbay.edu/music/prospective/how-to-apply/i-got-in-now-what.html)
+- `website/class-curriculum-committee.html` &rarr; [CLASS Curriculum](https://www.csueastbay.edu/class/curriculum/index.html)
 
 ## theory and musicianship curriculum
 
@@ -49,6 +57,17 @@ Three framework documents and the twelve syllabi from MUS 108 through MUS 410. T
 The MUS course inventory in the 2026-2027 catalog checked against the Curriculog proposal archive, the handbooks, the roadmaps, and the syllabi, with the revisions each course needs for the 2027-2028 catalog. The [subsection README](curriculum/catalog-audit/README.md) covers sources, columns, and open items.
 
 - [course inventory](curriculum/catalog-audit/course-inventory.xlsx): 140 courses, their published values and teaching classification, and the technical and content findings for each
+
+## department curriculum proposals
+
+- [fall 2026 proposals analysis](curriculum/fall-2026-curriculum-proposals-analysis.md): the curriculum proposals memo distributed for the September 2026 department meeting, checked against the course inventory, the undergraduate handbook, the certificate roadmap, the 2026-2027 catalog, and the GE guide
+
+## term schedules
+
+Course slates by term with section counts, units, and WTU by catalog course type, in `curriculum/schedule/`. The [subsection README](curriculum/schedule/README.md) carries the standing scheduling rules.
+
+- [spring 2027](curriculum/schedule/spring-2027.md): the Year A spring slate
+- [spring 2027 weekly grid](https://csuebmusic.github.io/music-curriculum/curriculum/schedule/spring-2027-weekly-grid.html): meeting times for that slate
 
 ## semester syllabi
 
@@ -67,7 +86,8 @@ Proposals under CLASS Curriculum Committee review, with review notes where feedb
 
 Working documents for the graduate recruitment facilitator role, in `committee/grad-facilitator/`.
 
-- [role.md](committee/grad-facilitator/role.md), [recruitment-plan.md](committee/grad-facilitator/recruitment-plan.md), [status.md](committee/grad-facilitator/status.md), [programs.md](committee/grad-facilitator/programs.md), [baseline.md](committee/grad-facilitator/baseline.md)
+- [role.md](committee/grad-facilitator/role.md), [recruitment-plan.md](committee/grad-facilitator/recruitment-plan.md), [status.md](committee/grad-facilitator/status.md), [programs.md](committee/grad-facilitator/programs.md), [baseline.md](committee/grad-facilitator/baseline.md), [print-materials.md](committee/grad-facilitator/print-materials.md)
+- [documents/](committee/grad-facilitator/documents/): the graduate program listings and the print materials audit, as workbooks
 
 ## conventions
 
@@ -78,8 +98,8 @@ Working documents for the graduate recruitment facilitator role, in `committee/g
 
 - `conventions/` holds the house style and the grading scheme.
 - `syllabi/` holds the syllabi posted for individual sections, in one folder per term.
-- `curriculum/` holds course and program proposals and curriculum documentation, organized into subsections, each with its own README: the undergraduate Theory and Musicianship sequence, and the catalog audit.
-- `documents/` holds the handbooks, the roadmaps, the admissions email set, and program and policy material.
+- `curriculum/` holds course and program proposals and curriculum documentation, organized into subsections, each with its own README: the undergraduate Theory and Musicianship sequence, the catalog audit, and the term schedules. The fall 2026 proposals analysis sits at the top of the folder.
+- `documents/` holds the handbooks, the roadmaps, the admissions email set, the forms, and program and policy material.
 - `committee/` holds agendas, minutes, and papers for committee service: the CLASS Curriculum Committee in `committee/ccc/`, and the graduate recruitment facilitator role in `committee/grad-facilitator/`.
 - `assessment/` holds program learning outcomes, assessment reports, and review cycles.
 - `website/` holds structural HTML snippets that get pasted into Cascade, which supplies its own styling.
