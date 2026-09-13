@@ -32,8 +32,6 @@ Curriculog stores the form as approved. The catalog publishes that record after 
 
 The stored values are what a revision form imports. The published values are what students read.
 
-Coaching and graduate applied courses that publish a 1–2 unit range record the range in the classification: C36 1-2u. A record holding C36 1u against a published range of 1–2 is wrong.
-
 ## open items
 
 MUS 698 Internship appears in the catalog with no proposal in the archive under 698 or any predecessor number.
