@@ -2,7 +2,7 @@
 
 California State University, East Bay, Department of Music.
 
-Filing order for the Curriculog proposals arising from the [catalog audit](README.md) and from the [fall 2026 proposals analysis](../fall-2026-curriculum-proposals-analysis.md). Revisions target the 2027-2028 catalog and take effect fall 2027.
+Filing order for the Curriculog proposals arising from the [catalog audit](README.md) and from the curriculum proposals memo distributed for the September 2026 department meeting. Revisions target the 2027-2028 catalog and take effect fall 2027.
 
 Ninety-six of the 140 live courses carry findings. The findings themselves, issue and change, are in the [course inventory](course-inventory.xlsx).
 

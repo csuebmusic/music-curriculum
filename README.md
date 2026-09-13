@@ -58,10 +58,6 @@ The MUS course inventory in the 2026-2027 catalog checked against the Curriculog
 
 - [course inventory](curriculum/catalog-audit/course-inventory.xlsx): 140 courses, their published values and teaching classification, and the technical and content findings for each
 
-## department curriculum proposals
-
-- [fall 2026 proposals analysis](curriculum/fall-2026-curriculum-proposals-analysis.md): the curriculum proposals memo distributed for the September 2026 department meeting, checked against the course inventory, the undergraduate handbook, the certificate roadmap, the 2026-2027 catalog, and the GE guide
-
 ## term schedules
 
 Course slates by term with section counts, units, and WTU by catalog course type, in `curriculum/schedule/`. The [subsection README](curriculum/schedule/README.md) carries the standing scheduling rules.
@@ -98,7 +94,7 @@ Working documents for the graduate recruitment facilitator role, in `committee/g
 
 - `conventions/` holds the house style and the grading scheme.
 - `syllabi/` holds the syllabi posted for individual sections, in one folder per term.
-- `curriculum/` holds course and program proposals and curriculum documentation, organized into subsections, each with its own README: the undergraduate Theory and Musicianship sequence, the catalog audit, and the term schedules. The fall 2026 proposals analysis sits at the top of the folder.
+- `curriculum/` holds course and program proposals and curriculum documentation, organized into subsections, each with its own README: the undergraduate Theory and Musicianship sequence, the catalog audit, and the term schedules.
 - `documents/` holds the handbooks, the roadmaps, the admissions email set, the forms, and program and policy material.
 - `committee/` holds agendas, minutes, and papers for committee service: the CLASS Curriculum Committee in `committee/ccc/`, and the graduate recruitment facilitator role in `committee/grad-facilitator/`.
 - `assessment/` holds program learning outcomes, assessment reports, and review cycles.

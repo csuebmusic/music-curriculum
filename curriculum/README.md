@@ -7,7 +7,3 @@ Course and program proposals and curriculum documentation for the Department of 
 - [undergraduate-theory-musicianship](undergraduate-theory-musicianship/): the Theory and Musicianship sequence leading to the B.A. in Music, three framework documents and the MUS 108 to MUS 410 syllabi.
 - [catalog-audit](catalog-audit/): audit of the MUS course inventory in the 2026-2027 catalog against the Curriculog proposal archive, and the proposal queue for the 2027-2028 catalog.
 - [schedule](schedule/): term course slates with section counts, units, and WTU by catalog course type.
-
-## files
-
-- [fall-2026-curriculum-proposals-analysis.md](fall-2026-curriculum-proposals-analysis.md): the curriculum proposals memo distributed for the September 2026 department meeting, checked against the [catalog audit](catalog-audit/), the undergraduate handbook, the certificate roadmap, the 2026-2027 catalog, and the GE guide.
