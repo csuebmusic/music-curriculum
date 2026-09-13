@@ -32,7 +32,7 @@ Curriculog stores the form as approved. The catalog publishes that record after 
 
 The stored values are what a revision form imports. The published values are what students read.
 
-Graduate applied and coaching courses publish 1–2 units against a C36 1u classification. Students register for 1 or 2 units and each unit carries the C36 classification, so the two agree.
+Coaching and graduate applied courses that publish a 1–2 unit range record the range in the classification: C36 1-2u. A record holding C36 1u against a published range of 1–2 is wrong.
 
 ## open items
 
