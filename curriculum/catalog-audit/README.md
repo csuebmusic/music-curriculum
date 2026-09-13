@@ -32,6 +32,8 @@ Curriculog stores the form as approved. The catalog publishes that record after 
 
 The stored values are what a revision form imports. The published values are what students read.
 
+Graduate applied and coaching courses publish 1–2 units against a C36 1u classification. Students register for 1 or 2 units and each unit carries the C36 classification, so the two agree.
+
 ## open items
 
 MUS 698 Internship appears in the catalog with no proposal in the archive under 698 or any predecessor number.
