@@ -6,7 +6,6 @@ Audit of the MUS course inventory in the 2026-2027 catalog against the Curriculo
 
 ## files
 
-- [proposal queue](proposal-queue.md): the filing order for the proposals arising from the audit and from the fall 2026 proposals analysis, with the deadlines and the decisions each group waits on
 - [course inventory](course-inventory.xlsx): the 140 live MUS courses with published units, descriptions, prerequisites, corequisites, recommended preparation, repeatability, grading, instructional methods, offering pattern, credit restrictions, breadth designations, and learning outcomes, alongside the teaching classification, the date of the most recent proposal on record, and the technical and content findings for each course
 
 ## columns
