@@ -45,9 +45,9 @@ A sub-school within the college since the merger of the former College of Educat
 
 | program | tile link | link issue | note |
 | --- | --- | --- | --- |
-| [Curriculum and Instruction, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20641&returnto=42138) | https://www.csueastbay.edu/ted/programs-admissions/masters/index.html | shared with Early Childhood Education and Educational Technology |  |
-| [Early Childhood Education, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20502&returnto=42138) | https://www.csueastbay.edu/ted/programs-admissions/masters/index.html | shared with Curriculum and Instruction and Educational Technology |  |
-| [Educational Technology, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20565&returnto=42138) | https://www.csueastbay.edu/ted/programs-admissions/masters/index.html | shared with Curriculum and Instruction and Early Childhood Education |  |
+| [Curriculum and Instruction, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20641&returnto=42138) | https://www.csueastbay.edu/ted/programs-admissions/masters/index.html |  | department page shared with Early Childhood Education and Educational Technology |
+| [Early Childhood Education, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20502&returnto=42138) | https://www.csueastbay.edu/ted/programs-admissions/masters/index.html |  | department page shared with Curriculum and Instruction and Educational Technology |
+| [Educational Technology, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20565&returnto=42138) | https://www.csueastbay.edu/ted/programs-admissions/masters/index.html |  | department page shared with Curriculum and Instruction and Early Childhood Education |
 | [Reading and Literacy, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20600&returnto=42138) | https://www.csueastbay.edu/ted/programs-admissions/masters/reading-cert1.html |  | self-support only |
 | [Multiple Subject Credential](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20499&returnto=42138) | https://www.csueastbay.edu/cssc/prospective-cred-student/multiple-subject.html | tile is named Multi-subject Teaching |  |
 | [Single Subject Credential](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20503&returnto=42138) | https://www.csueastbay.edu/cssc/prospective-cred-student/single-subject.html | tile is named Single-subject Teaching |  |
@@ -57,8 +57,8 @@ A sub-school within the college since the merger of the former College of Educat
 
 | program | tile link | link issue | note |
 | --- | --- | --- | --- |
-| [Special Education, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20561&returnto=42138) | https://www.csueastbay.edu/cssc/prospective-cred-student/special-education.html | shared with the Education Specialist Credential | concentrations: Extensive Support Needs, Mild/Moderate Support Needs |
-| [Education Specialist Credential](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20601&returnto=42138) | https://www.csueastbay.edu/cssc/prospective-cred-student/special-education.html | shared with Special Education, M.S. |  |
+| [Special Education, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20561&returnto=42138) | https://www.csueastbay.edu/cssc/prospective-cred-student/special-education.html |  | concentrations: Extensive Support Needs, Mild/Moderate Support Needs; department page shared with the Education Specialist Credential |
+| [Education Specialist Credential](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20601&returnto=42138) | https://www.csueastbay.edu/cssc/prospective-cred-student/special-education.html |  | department page shared with Special Education, M.S. |
 
 ### Art
 
@@ -126,15 +126,15 @@ A sub-school within the college since the merger of the former College of Educat
 
 | program | tile link | link issue | note |
 | --- | --- | --- | --- |
-| [Construction Management, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20474&returnto=42138) | https://www.csueastbay.edu/engineering/programs-degrees/graduate-degrees.html | shared with Engineering Management |  |
-| [Engineering Management, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20475&returnto=42138) | https://www.csueastbay.edu/engineering/programs-degrees/graduate-degrees.html | shared with Construction Management |  |
+| [Construction Management, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20474&returnto=42138) | https://www.csueastbay.edu/engineering/programs-degrees/graduate-degrees.html |  | department page shared with Engineering Management |
+| [Engineering Management, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20475&returnto=42138) | https://www.csueastbay.edu/engineering/programs-degrees/graduate-degrees.html |  | department page shared with Construction Management |
 
 ### Mathematics
 
 | program | tile link | link issue | note |
 | --- | --- | --- | --- |
-| [Mathematics, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20496&returnto=42138) | https://www.csueastbay.edu/math/degrees-and-programs/index.html | shared with the Foundational Mathematics and Mathematics Single Subject Matter tiles |  |
-| [Mathematics, Single Subject Matter Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20624&returnto=42138) | https://www.csueastbay.edu/math/degrees-and-programs/index.html | tile is named Mathematics, Single Subject Matter; shared with Mathematics, M.S. and the Foundational Mathematics tile |  |
+| [Mathematics, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20496&returnto=42138) | https://www.csueastbay.edu/math/degrees-and-programs/index.html |  | department page shared with the Mathematics Single Subject Matter certificate |
+| [Mathematics, Single Subject Matter Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20624&returnto=42138) | https://www.csueastbay.edu/math/degrees-and-programs/index.html | tile is named Mathematics, Single Subject Matter | department page shared with Mathematics, M.S. |
 | [Mathematics, Single Subject Matter Preparation](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20623&returnto=42138) | none | no tile; the one Math single subject matter tile is named Mathematics, Single Subject Matter and matches the certificate |  |
 | Foundational Mathematics, Single Subject | none | tile removed on or before September 14, 2026 | not in the catalog under this name; the Mathematics degrees and programs page lists no foundational-level program |
 
@@ -142,9 +142,9 @@ A sub-school within the college since the merger of the former College of Educat
 
 | program | tile link | link issue | note |
 | --- | --- | --- | --- |
-| [Statistics, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20604&returnto=42138) | https://www.csueastbay.edu/statistics/degrees-programs/index.html | shared with the Applied Statistics and Theoretical Statistics tiles | concentrations: Actuarial Science, Applied Statistics, Biostatistics, Data Science, Mathematical Statistics |
-| [Applied Statistics Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20621&returnto=42138) | https://www.csueastbay.edu/statistics/degrees-programs/index.html | shared with Statistics, M.S. and the Theoretical Statistics tile |  |
-| [Theoretical Statistics Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20622&returnto=42138) | https://www.csueastbay.edu/statistics/degrees-programs/index.html | shared with Statistics, M.S. and the Applied Statistics tile |  |
+| [Statistics, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20604&returnto=42138) | https://www.csueastbay.edu/statistics/degrees-programs/index.html |  | concentrations: Actuarial Science, Applied Statistics, Biostatistics, Data Science, Mathematical Statistics; department page shared with the Applied Statistics and Theoretical Statistics certificates |
+| [Applied Statistics Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20621&returnto=42138) | https://www.csueastbay.edu/statistics/degrees-programs/index.html |  | department page shared with Statistics, M.S. and the Theoretical Statistics certificate |
+| [Theoretical Statistics Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20622&returnto=42138) | https://www.csueastbay.edu/statistics/degrees-programs/index.html |  | department page shared with Statistics, M.S. and the Applied Statistics certificate |
 | Biostatistics | none | tile removed on or before September 14, 2026 | not in the catalog as a separate program; carried as a Statistics concentration |
 
 ## College of Business and Economics
@@ -204,8 +204,8 @@ A sub-school within the college since the merger of the former College of Educat
 
 | program | tile link | link issue | note |
 | --- | --- | --- | --- |
-| [Speech-Language Pathology, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20533&returnto=42138) | https://www.csueastbay.edu/slhs/masters-in-speech-language-pathology/index.html | shared with the Speech Language Pathology Services credential tile |  |
-| [Speech-Language Pathology Services Credential](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20598&returnto=42138) | https://www.csueastbay.edu/slhs/masters-in-speech-language-pathology/index.html | shared with Speech-Language Pathology, M.S. |  |
+| [Speech-Language Pathology, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20533&returnto=42138) | https://www.csueastbay.edu/slhs/masters-in-speech-language-pathology/index.html |  | department page shared with the Speech Language Pathology Services credential |
+| [Speech-Language Pathology Services Credential](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20598&returnto=42138) | https://www.csueastbay.edu/slhs/masters-in-speech-language-pathology/index.html |  | department page shared with Speech-Language Pathology, M.S. |
 
 ## the roster against the Graduate Studies tiles
 
