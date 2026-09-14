@@ -246,7 +246,7 @@ eLearning Administration, eLearning Design, and eLearning Technology certificate
 
 All 46 tile destinations opened September 14, 2026. Every one resolves, and none redirects. Per-tile results sit in `documents/tile-link-check.tsv` and in the destination page and destination note columns of `documents/graduate-program-listings.xlsx`. Regenerate with the link check workflow, `.github/workflows/link-check.yml`, whose URL list is `tools/tile-urls.tsv`.
 
-Fourteen tiles share six URLs, named row by row in the roster: Construction Management with Engineering Management, the three Teacher Education master's, Mathematics with the Mathematics Single Subject Matter certificate, Special Education with the Education Specialist credential, Speech-Language Pathology with the Speech Language Pathology Services credential, and Statistics with the Applied Statistics and Theoretical Statistics certificates.
+Six destinations serve more than one tile, each the department page holding the information for those programs: engineering graduate degrees for Construction Management and Engineering Management, Teacher Education master's for Curriculum and Instruction, Early Childhood Education, and Educational Technology, Mathematics degrees and programs for Mathematics and the Mathematics Single Subject Matter certificate, the CSSC special education page for Special Education and the Education Specialist credential, the SLHS master's page for Speech-Language Pathology and the Speech Language Pathology Services credential, and Statistics degrees and programs for Statistics and the Applied Statistics and Theoretical Statistics certificates.
 
 Destinations that carry a different name or form than the tile:
 
