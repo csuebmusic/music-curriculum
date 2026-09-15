@@ -15,7 +15,7 @@ Course slate for spring 2027, a Year A spring. Sections are grouped by catalog c
 | MUS 118 | Keyboard Musicianship I | 1 | 100 | 1.3 | Shimron |
 | MUS 215 | Aural Skills III | 1 | 100 | 1.3 | Shimron |
 | MUS 218 | Keyboard Musicianship III | 1 | 100 | 1.3 | Shimron |
-| MUS 410 | 20th and 21st Century Styles and Techniques | 3 | 150 | 3.0 | Thiebaut |
+| MUS 410 | 20th and 21st C Styles and Techniques | 3 | 150 | 3.0 | Thiebaut |
 
 Subtotal 10.8.
 

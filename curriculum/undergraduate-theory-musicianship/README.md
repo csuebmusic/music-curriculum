@@ -32,6 +32,6 @@ Curriculum documentation for the Theory and Musicianship sequence leading to the
 
 **year 3**
 - [MUS 312: Form and Analysis](https://csuebmusic.github.io/music-curriculum/curriculum/undergraduate-theory-musicianship/MUS312_syllabus.html) (fall)
-- [MUS 410: 20th and 21st Century Styles and Techniques](https://csuebmusic.github.io/music-curriculum/curriculum/undergraduate-theory-musicianship/MUS410_syllabus.html) (spring)
+- [MUS 410: 20th and 21st C Styles and Techniques](https://csuebmusic.github.io/music-curriculum/curriculum/undergraduate-theory-musicianship/MUS410_syllabus.html) (spring)
 
 Updated Fall 2026.
