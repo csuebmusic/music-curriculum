@@ -39,5 +39,3 @@ MUS 698 Internship appears in the catalog with no proposal in the archive under 
 MUS 413, 464B, 464C, 464D, and 661B carry approved bank proposals and are absent from the APS banked list.
 
 Chamber ensemble repeat caps range from 4 to 8 units and grading splits between A-F only and A-F or CR/NC, pending a decision on whether the differences are intended.
-
-MUS 312 already carries 2 units C02 plus 1 unit C10 where the theory and musicianship guide specifies C05 plus C10, pending a decision on whether the seminar component changes.
