@@ -1,6 +1,6 @@
 # community college music contacts
 
-Music faculty at the community colleges in Alameda and Contra Costa counties, CSUEB's service area, with the theory and the composition, production, and technology faculty at each. Every college in the two counties that offers music is here. Verified against the colleges' own directories and program pages, September 19, 2026. Names link to a personal or professional site where one exists.
+Music faculty at the community colleges that send transfer students to the Department of Music, with the theory and the composition, production, and technology faculty at each. The first group is every college in Alameda and Contra Costa counties, CSUEB's service area, that offers music. The second is the colleges outside those two counties. Verified against the colleges' own directories and program pages, September 19, 2026. Names link to a personal or professional site where one exists.
 
 ## Berkeley City College
 
@@ -123,3 +123,30 @@ The Merritt faculty table names Colin Chew, a photo caption on the same page rea
 Jim McManus, who taught theory and composition at Ohlone and holds a D.M.A. in composition, is listed as emeritus.
 
 De Anza College lists Marcel Castro-Lima as chair of its Music Department and director of instrumental ensembles, with Ohlone among his previous appointments. Ohlone still lists him as adjunct faculty.
+
+# outside the two counties
+
+## De Anza College
+
+| name | role or area | email |
+| --- | --- | --- |
+| [Marcel Castro-Lima](https://castrolima.com/) | Department Chair and director of instrumental ensembles; composition, theory, form and analysis, ear training, electronic music, orchestration | castrolimamarcel@deanza.edu |
+| Jordan Mitchell | Composition, theory, Afro-Latin jazz, mariachi | mitchelljordan@deanza.edu |
+| Benett Zussman | Electronic music, guitar | zussmanbenett@deanza.edu |
+| Grace Lai | Comprehensive musicianship, music fundamentals, conducting, concert band, chamber orchestra | laigrace@deanza.edu |
+| James Schneider | Jazz piano, jazz improvisation, jazz ensemble; pianist and composer | schneiderjames@deanza.edu |
+| John Thomsen | Class piano, music fundamentals, comprehensive musicianship | thomsenjohn@deanza.edu |
+| Jay Jordana | Voice, choral | jordanajay@deanza.edu |
+| Cyril Deaconoff | Music | deaconoffcyril@deanza.edu |
+
+De Anza's faculty page labels Castro-Lima part-time faculty in the heading above a biography that names him department chair. Grace Lai is also the flute instructor at Las Positas.
+
+## Foothill College
+
+| name | role or area | email |
+| --- | --- | --- |
+| Eric Kuehnl | Music Technology program contact | kuehnleric@foothill.edu |
+
+Foothill offers an A.A. in Music Technology alongside the A.A. in Music, covering music production, audio engineering, and sound design, and a theory and composition track within the music degree. The music technology faculty directory page returns no entries, and Foothill's addresses follow lastnamefirstname@foothill.edu.
+
+Not yet combed: City College of San Francisco, Skyline, College of San Mateo, Cañada, West Valley, Mission, Solano, Napa Valley, Santa Rosa, and San Joaquin Delta.
