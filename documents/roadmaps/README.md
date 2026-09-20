@@ -10,7 +10,7 @@ roadmap PDFs and intended as the editable, linkable home for that content.
 - [fast-ba-ma-certificate-roadmap.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/fast-ba-ma-certificate-roadmap.html): FAST 4+1 with the Music Education Certificate, 152 units across five years.
 - [fast-transfer-ba-ma-roadmap.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/fast-transfer-ba-ma-roadmap.html): FAST 2+1 transfer entry through both degrees, 81 units in residence. Status: proposed.
 - [fast-transfer-ba-ma-certificate-roadmap.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/fast-transfer-ba-ma-certificate-roadmap.html): FAST 2+1 transfer entry with the Music Education Certificate, 91 units in residence. Status: proposed.
-- [ba-certificate-roadmap-4-year.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-certificate-roadmap-4-year.html): first-year B.A. entry with the Music Education Certificate, 131 units across eight semesters. Status: draft, unit accounting unverified.
+- [ba-certificate-roadmap-4-year.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-certificate-roadmap-4-year.html): first-year B.A. entry with the Music Education Certificate, 134 units across eight semesters. Status: draft, unit accounting unverified.
 - [music-education-certificate-roadmap.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/music-education-certificate-roadmap.html): certificate course rotation across a two-year cycle, 31 units.
 
 Keep course titles and units in sync with the University Catalog and the
