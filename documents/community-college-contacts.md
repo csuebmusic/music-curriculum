@@ -73,7 +73,7 @@ The college publishes the department co-chairs and no per-faculty listing.
 | Jon Bendich | Songwriting and music industry | JBendich@dvc.edu |
 | Aaron Shaul | Faculty, Music | ashaul@dvc.edu |
 
-Degrees and certificates: A.A. in Music, A.A.-T in Music. Music Industry Studies carries ten degrees and certificates across production, composition, marketing, business, and sound engineering; the individual titles are not yet confirmed.
+Degrees and certificates: A.A. in Music, A.A.-T in Music. Music Industry Studies carries A.A. degrees in Commercial Music: Performance, Commercial Music: Technology and Production, Music Industry Entrepreneurship, and Music Industry Studies, and certificates of achievement in those four plus Commercial Music: Media Composition and Audio Visual Technology.
 
 The DVC directory lists its music faculty under Music with no subject area.
 
@@ -186,7 +186,7 @@ Cañada's music page lists one faculty member.
 | --- | --- | --- |
 | Madeline Mueller | Department Chair | mmueller@ccsf.edu |
 
-Degrees and certificates: not yet confirmed.
+Degrees and certificates: certificates of accomplishment in Music, in Music Technology, and in Computers and Music. The program page lists no music degree.
 
 The department page publishes the chair and no other faculty.
 
@@ -260,14 +260,18 @@ Collin Chu took his classical composition master's at CSU East Bay and works as 
 
 | name | role or area | email |
 | --- | --- | --- |
-| Teri Yumae | Piano, theory, music appreciation, orchestra | not published |
+| Teri Yumae | Piano, theory, music appreciation, orchestra | teri.yumae@solano.edu |
 | Kristy Juliano | Fundamentals, collegiate choir, chamber choir, vocal jazz, voice, piano | not published |
 | Tim Acosta | Jazz ensemble, stage band, brass ensemble | not published |
 | Stephen L. Holland | Multicultural music, guitar | not published |
+| Matt McLean | Adjunct, Music | matt.mclean@solano.edu |
+| Walter Mikolajcik | Adjunct, Music | walt.mikolajcik@solano.edu |
+| Michael Reilly | Adjunct, Music | michael.reilly@solano.edu |
+| Andrew Wesley | Adjunct, Music | andrew.wesley@solano.edu |
 
 Degrees and certificates: A.A. in Music-Instrumental, A.A. in Music-Vocal, A.A.-T in Music. Solano offers no certificate in music.
 
-The department faculty page is on a blog subdomain that refuses automated access, so these areas come from its search listing and no addresses were readable.
+The employee directory gives Yumae as music faculty and McLean, Mikolajcik, Reilly, and Wesley as music adjunct faculty, with no subject areas. Juliano, Acosta, and Holland aren't in that listing. The department faculty page is on a blog subdomain that refuses automated access, so the areas above come from its search listing.
 
 ## West Valley College
 
@@ -296,13 +300,13 @@ Pedro Gomez teaches applied clarinet at West Valley and music appreciation and f
 
 | name | role or area | email |
 | --- | --- | --- |
-| Phil Hawkins | Instructor, Music | phil.hawkins@missioncollege.edu |
-| Keith Johnson | Instructor, Music | keith.johnson@missioncollege.edu |
+| Phillip Hawkins | Instructor, Music | phillip.hawkins@missioncollege.edu |
+| Keith Johnson | Department Chair, Music | keith.johnson@missioncollege.edu |
 | German Gonzalez | Instructor, Music; conducts the Mission College Symphony | german.gonzalez@wvm.edu |
 | John Ector | Instructor, Music | john.ector@wvm.edu |
 | Yoka Drion | Instructor, Music; also class piano at West Valley | yoka.drion@wvm.edu |
 
-Degrees and certificates: not yet confirmed.
+Degrees and certificates: a certificate of achievement in Music Production. The program page lists no music degree.
 
 The employee directory lists faculty by department with no subject areas, and the listing is alphabetical and was read through the letter K.
 
@@ -337,6 +341,6 @@ No faculty roster or addresses came back from the college site or from searches 
 | Robert Budginas | Department Chair, Coordinator of Piano and Commercial Music | rbudginas@santarosa.edu |
 | Mark Anderman | Music Theory Coordinator | manderman@santarosa.edu |
 
-Degrees and certificates: not yet confirmed.
+Degrees and certificates: A.A. in Music, with instrumental, jazz studies, and vocal concentrations, and A.A.-T in Music, both effective fall 2025. A.A. in Commercial Music and a Commercial Music certificate.
 
 SRJC runs the full theory and musicianship core, MUSC 2A through 2D and 3A through 3D, with credit by examination for the first level through Anderman.
