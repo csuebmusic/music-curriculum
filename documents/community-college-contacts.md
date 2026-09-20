@@ -1,8 +1,10 @@
 # community college music contacts
 
-Music faculty at the community colleges that send transfer students to the Department of Music, with the theory and the composition, production, and technology faculty at each. The first group is every college in Alameda and Contra Costa counties, CSUEB's service area, that offers music. The second is the colleges outside those two counties. Verified against the colleges' own directories and program pages, September 19, 2026. Names link to a personal or professional site where one exists.
+Music faculty at the community colleges that send transfer students to the Department of Music, with the theory and the composition, production, and technology faculty at each. The first group is every college in Alameda and Contra Costa counties, CSUEB's service area, that offers music. The second is the colleges outside those two counties. Verified against the colleges' own directories and program pages, September 19, 2026. Each college heading links to its music department. Names link to a personal or professional site where one exists.
 
 ## Berkeley City College
+
+[music studies](https://www.berkeleycitycollege.edu/arts_and_culture/)
 
 | name | role or area | email |
 | --- | --- | --- |
@@ -11,9 +13,13 @@ Music faculty at the community colleges that send transfer students to the Depar
 | Matthew McLean | Music | mmclean@peralta.edu |
 | [Alfred (Fred) Randolph](https://www.fredrandolph.com/) | Music | arandolph@peralta.edu |
 
-Berkeley City College's music offerings are history and appreciation courses: blues and jazz, popular music and culture, and surveys of Western music. No theory sequence or technology courses appear on the program page. Mobley holds a doctorate in composition and theory and teaches counterpoint and composition at the California Jazz Conservatory.
+Degrees and certificates: not yet confirmed.
+
+Mobley holds a doctorate in composition and theory and teaches counterpoint and composition at the California Jazz Conservatory.
 
 ## Chabot College
+
+[music](https://www.chabotcollege.edu/academics/arts-media-communications/music/) · [music recording technology](https://www.chabotcollege.edu/academics/arts-media-communications/music-recording-technology/)
 
 | name | role or area | email |
 | --- | --- | --- |
@@ -23,29 +29,41 @@ Berkeley City College's music offerings are history and appreciation courses: bl
 | [Lucas Schwyter](https://lucasschwyter.com/home) | Commercial Music Coordinator, Music Recording Technology | yschwyter@chabotcollege.edu |
 | [Michael Rosen](https://www.eastbayrecorders.com/) | Music Recording Technology; mixing, audio production, recording curriculum | mrosen@chabotcollege.edu, unconfirmed |
 
+Degrees and certificates: not yet confirmed.
+
 Chabot publishes no email for Michael Rosen on the Music Recording Technology faculty page, the music faculty bios page, or the employee directory. The address above follows the pattern of the other Chabot entries.
 
 Lucas Schwyter's address uses his legal first name, Young Kwang.
 
 ## College of Alameda
 
+[music](https://alameda.peralta.edu/academic-program/music/)
+
 | name | role or area | email |
 | --- | --- | --- |
 | Glen Pearson | Department Chair and lead faculty, Music; piano, jazz piano, jazz ensemble, jazz and popular music history | gpearson@peralta.edu |
 | Silvester Henderson | Vocal and choral courses, classical and gospel piano; also full-time at Los Medanos | shenderson@losmedanos.edu |
 
-Henderson teaches at both colleges, and his Los Medanos address is the published one. College of Alameda offers courses in music history and theory and publishes no theory assignment for either name.
+Degrees and certificates: not yet confirmed.
+
+Henderson teaches at both colleges, and his Los Medanos address is the published one.
 
 ## Contra Costa College
+
+[music](https://www.contracosta.edu/classes/academic-departments/music/)
 
 | name | role or area | email |
 | --- | --- | --- |
 | Stephanie Austin | Music, co-chair | saustin@contracosta.edu |
 | Jennifer Griest | Music, co-chair | jgriest@contracosta.edu |
 
-Contra Costa College offers an AA and an AA-T in Music covering performance, composition, and theory. The college publishes the department co-chairs and no per-faculty listing, so the co-chairs are the route to the rest.
+Degrees and certificates: A.A. in Music, A.A.-T in Music.
+
+The college publishes the department co-chairs and no per-faculty listing.
 
 ## Diablo Valley College
+
+[music](https://www.dvc.edu/academics/explore-our-programs/music) · [music industry studies](https://www.dvc.edu/academics/explore-our-programs/music-industry-studies)
 
 | name | role or area | email |
 | --- | --- | --- |
@@ -55,9 +73,13 @@ Contra Costa College offers an AA and an AA-T in Music covering performance, com
 | Jon Bendich | Songwriting and music industry | JBendich@dvc.edu |
 | Aaron Shaul | Faculty, Music | ashaul@dvc.edu |
 
-The Music Technology Center is the production and recording facility, with Pro Tools certification classes through DVC's AVID partnership. The DVC directory lists its music faculty under Music with no subject area, so no theory assignment is published.
+Degrees and certificates: A.A. in Music, A.A.-T in Music. Music Industry Studies carries ten degrees and certificates across production, composition, marketing, business, and sound engineering; the individual titles are not yet confirmed.
+
+The DVC directory lists its music faculty under Music with no subject area.
 
 ## Laney College
+
+[music](https://laney.edu/music/) · [commercial music](https://laney.edu/commercial-music)
 
 | name | role or area | email |
 | --- | --- | --- |
@@ -67,9 +89,13 @@ The Music Technology Center is the production and recording facility, with Pro T
 | Darcee Olson | Commercial Music; contracts, licensing, intellectual property | dolson@peralta.edu |
 | Victor Siu | Commercial Music; Pop Music Ensemble | vsiu@peralta.edu |
 
-Laney lists its other music faculty as Instructor, Music, with no subject area, so no theory assignment is published. The department chair is the route to the theory and musicianship sequence.
+Degrees and certificates: A.A. in Chinese Music, A.A. in Jazz, A.A. in Music, A.A.-T in Music, A.A. in Commercial Music, and certificates of achievement in Chinese Music, Jazz, Music, and Commercial Music.
+
+Laney lists its other music faculty as Instructor, Music, with no subject area.
 
 ## Las Positas College
+
+[music](https://www.laspositascollege.edu/music/)
 
 | name | role or area | email |
 | --- | --- | --- |
@@ -81,6 +107,8 @@ Laney lists its other music faculty as Instructor, Music, with no subject area, 
 | Julie Homi | Composition, jazz and pop piano, improvisation lab | not published |
 | Elisse La Barre | Music business, music in film | not published |
 
+Degrees and certificates: A.A. and A.A.-T in Music, and certificates in Music Business, Music Technology, Scoring for Film and Multimedia, Jazz Studies, Piano Teaching Fundamentals, Teaching Beginning Piano, Teaching Intermediate Piano, Piano Technology, and, from fall 2026, Music Technology and Production.
+
 Las Positas publishes emails for its three full-time faculty only. The adjunct entries above come from the areas of concentration on the music faculty page.
 
 Dan Marschak is on sabbatical for 2026-2027.
@@ -89,15 +117,19 @@ Ian Brekke has left Las Positas. He's Center for the Arts Manager for the City o
 
 ## Los Medanos College
 
+[music](https://www.losmedanos.edu/music/) · [recording arts](https://www.losmedanos.edu/recarts/)
+
 | name | role or area | email |
 | --- | --- | --- |
 | Aaron Nakaji | Music Coordinator | anakaji@losmedanos.edu |
 | Silvester Henderson | Director of Choral and Vocal Activities | shenderson@losmedanos.edu |
 | Rick Shiner | Recording Arts Chair; founding faculty of the program | not published |
 
-Los Medanos runs a Recording Arts program with two recording studios alongside the music AA-T, and the music schedule carries Music Theory I and III and Musicianship I and III.
+Degrees and certificates: A.A.-T in Music. The Recording Arts program's degree and certificate titles are not yet confirmed.
 
 ## Merritt College
+
+[music](https://merritt.edu/music)
 
 | name | role or area | email |
 | --- | --- | --- |
@@ -108,9 +140,13 @@ Los Medanos runs a Recording Arts program with two recording studios alongside t
 | Summer Benton Nickerson | Voice, musicology, musical theatre | snickerson@peralta.edu |
 | [Constance Koo](http://constancekoo.com) | Harp, dual enrollment | ckoo@peralta.edu |
 
+Degrees and certificates: not yet confirmed.
+
 The Merritt faculty table names Colin Chew, a photo caption on the same page reads Collin Chu, and the address is cchu@peralta.edu.
 
 ## Ohlone College
+
+[music](https://www.ohlone.edu/music)
 
 | name | role or area | email |
 | --- | --- | --- |
@@ -120,6 +156,8 @@ The Merritt faculty table names Colin Chew, a photo caption on the same page rea
 | [Marcel Castro-Lima](https://castrolima.com/) | Music theory and harmony, world music | not published |
 | Kristal Kim | Piano, music history, music theory | not published |
 
+Degrees and certificates: not yet confirmed.
+
 Jim McManus, who taught theory and composition at Ohlone and holds a D.M.A. in composition, is listed as emeritus.
 
 De Anza College lists Marcel Castro-Lima as chair of its Music Department and director of instrumental ensembles, with Ohlone among his previous appointments. Ohlone still lists him as adjunct faculty.
@@ -128,21 +166,31 @@ De Anza College lists Marcel Castro-Lima as chair of its Music Department and di
 
 ## Cañada College
 
+[music](https://canadacollege.edu/music/)
+
 | name | role or area | email |
 | --- | --- | --- |
 | David Meckler | Professor, Music | mecklerd@smccd.edu |
+
+Degrees and certificates: not yet confirmed.
 
 Cañada's music page lists one faculty member.
 
 ## City College of San Francisco
 
+[music](https://www.ccsf.edu/academics/schools/school-arts-communication-and-languages/music-department)
+
 | name | role or area | email |
 | --- | --- | --- |
 | Madeline Mueller | Department Chair | mmueller@ccsf.edu |
 
-CCSF offers electronic music alongside its core Western curriculum and courses in African, Latin American, Asian, and African-American music. The department page publishes the chair and no other faculty.
+Degrees and certificates: not yet confirmed.
+
+The department page publishes the chair and no other faculty.
 
 ## College of San Mateo
+
+[music](https://collegeofsanmateo.edu/music/)
 
 | name | role or area | email |
 | --- | --- | --- |
@@ -152,9 +200,11 @@ CCSF offers electronic music alongside its core Western curriculum and courses i
 | Patrick Wolff | Performance ensembles | wolffp@smccd.edu |
 | Brenda Hutchinson | Associate faculty, electronic music; M.A. in composition, UC San Diego | not published |
 
-CSM carries an A.A. in electronic music and a certificate in it, with courses in electronic and computer music, sound design, sampling and synthesis, digital recording, and audio for visual media, and it offers the full lower-division theory and musicianship core.
+Degrees and certificates: A.A.-T in Music, A.A. in Music, A.A. in Electronic Music, certificate in Electronic Music, and a certificate of achievement in Music and Technology.
 
 ## De Anza College
+
+[music](https://www.deanza.edu/music/)
 
 | name | role or area | email |
 | --- | --- | --- |
@@ -167,17 +217,25 @@ CSM carries an A.A. in electronic music and a certificate in it, with courses in
 | Jay Jordana | Voice, choral | jordanajay@deanza.edu |
 | Cyril Deaconoff | Music | deaconoffcyril@deanza.edu |
 
+Degrees and certificates: A.A. in Music, A.A.-T in Music.
+
 De Anza's faculty page labels Castro-Lima part-time faculty in the heading above a biography that names him department chair. Grace Lai is also the flute instructor at Las Positas.
 
 ## Foothill College
+
+[music](https://foothill.edu/music/) · [music technology](https://foothill.edu/musictech/)
 
 | name | role or area | email |
 | --- | --- | --- |
 | Eric Kuehnl | Music Technology program contact | kuehnleric@foothill.edu |
 
-Foothill offers an A.A. in Music Technology alongside the A.A. in Music, covering music production, audio engineering, and sound design, and a theory and composition track within the music degree. The music technology faculty directory page returns no entries, and Foothill's addresses follow lastnamefirstname@foothill.edu.
+Degrees and certificates: A.A. in Music, A.A. in Music Technology, certificate of achievement in Music History and Literature.
+
+The music technology faculty directory page returns no entries. Foothill's addresses follow lastnamefirstname@foothill.edu.
 
 ## Skyline College
+
+[music](https://skylinecollege.edu/music/)
 
 | name | role or area | email |
 | --- | --- | --- |
@@ -188,11 +246,15 @@ Foothill offers an A.A. in Music Technology alongside the A.A. in Music, coverin
 | Meghan Dibble | Voice, applied voice, music fundamentals | dibblem@smccd.edu |
 | Elizabeth Ingber | Piano, violin and viola, applied piano | ingbere@smccd.edu |
 
+Degrees and certificates: not yet confirmed.
+
 Skyline addresses are surname plus first initial at smccd.edu. The faculty page prints Dibble's in full; Navari's, Hawkins's, and Ingber's are the district directory usernames carried in that page's profile images. Zúñiga and Chu use local photos, so their addresses aren't on the page.
 
 Collin Chu took his classical composition master's at CSU East Bay and works as a composer at Ubisoft. Meghan Dibble also studied at CSU East Bay.
 
 ## Solano Community College
+
+[music](https://solano.edu/academic-programs/music.php)
 
 | name | role or area | email |
 | --- | --- | --- |
@@ -201,9 +263,13 @@ Collin Chu took his classical composition master's at CSU East Bay and works as 
 | Tim Acosta | Jazz ensemble, stage band, brass ensemble | not published |
 | Stephen L. Holland | Multicultural music, guitar | not published |
 
-Solano's AA-T covers theory, musicianship, and performance, and the program description names composition among the specializations it prepares students for. The department faculty page is on a blog subdomain that refuses automated access, so these areas come from its search listing and no addresses were readable.
+Degrees and certificates: A.A. in Music-Instrumental, A.A. in Music-Vocal, A.A.-T in Music. Solano offers no certificate in music.
+
+The department faculty page is on a blog subdomain that refuses automated access, so these areas come from its search listing and no addresses were readable.
 
 ## West Valley College
+
+[music](https://www.westvalley.edu/academics/music/)
 
 | name | role or area | email |
 | --- | --- | --- |
@@ -216,11 +282,15 @@ Solano's AA-T covers theory, musicianship, and performance, and the program desc
 | Jeff Hanson | Commercial music | jeffrey.hanson@wvm.edu |
 | Christopher Nicklin | Commercial music, guitar | christopher.nicklin@wvm.edu |
 
+Degrees and certificates: not yet confirmed.
+
 West Valley's full-time faculty use westvalley.edu and its part-time faculty use wvm.edu. The addresses are obfuscated on the faculty page and decoded here.
 
 Pedro Gomez teaches applied clarinet at West Valley and music appreciation and fundamentals at Skyline. Justin Su'esu'e teaches musical theater and applied voice at West Valley and voice at Chabot.
 
 ## Mission College
+
+[music](https://missioncollege.edu/academics/music/)
 
 | name | role or area | email |
 | --- | --- | --- |
@@ -230,27 +300,41 @@ Pedro Gomez teaches applied clarinet at West Valley and music appreciation and f
 | John Ector | Instructor, Music | john.ector@wvm.edu |
 | Yoka Drion | Instructor, Music; also class piano at West Valley | yoka.drion@wvm.edu |
 
-Mission's program covers theory, performance, history, and digital production. Its employee directory lists faculty by department with no subject areas, so no theory or technology assignment is published, and the listing is alphabetical and was read through the letter K.
+Degrees and certificates: not yet confirmed.
+
+The employee directory lists faculty by department with no subject areas, and the listing is alphabetical and was read through the letter K.
 
 The program page names German Gonzalez as the Symphony's conductor and the Symphony's own page names Joseph Ordaz.
 
 ## Napa Valley College
 
+[music program](https://www.napavalley.edu/programs-and-academics/divisions-and-departments/arts-and-humanities/voice)
+
 | name | role or area | email |
 | --- | --- | --- |
 | Mark Osten | Fundamentals of music and music theory; pianist, conductor, composer, choral and vocal accompanist | not published |
 
-The catalog carries Music Theory I through III with matching aural skills courses. Osten's areas come from the Performing Arts Center's faculty page; no music department faculty page with addresses came back.
+Degrees and certificates: A.A.-T in Music, and A.A. degrees with emphases in instrumental music, vocal music, and musical theater.
+
+Napa Valley describes its music program on the Voice department's page. Osten's areas come from the Performing Arts Center's faculty page, and no music department faculty page with addresses came back.
 
 ## San Joaquin Delta College
 
-No music department faculty roster or addresses came back from the college site or from searches for its music faculty, theory faculty, and department chair.
+[music](https://deltacollege.edu/node/1686)
+
+Degrees and certificates: A.A. in Music, A.A.-T in Music.
+
+No faculty roster or addresses came back from the college site or from searches for its music faculty, theory faculty, and department chair.
 
 ## Santa Rosa Junior College
+
+[music](https://music.santarosa.edu/)
 
 | name | role or area | email |
 | --- | --- | --- |
 | Robert Budginas | Department Chair, Coordinator of Piano and Commercial Music | rbudginas@santarosa.edu |
 | Mark Anderman | Music Theory Coordinator | manderman@santarosa.edu |
 
-SRJC runs the full theory and musicianship core, MUSC 2A through 2D and 3A through 3D, and handles credit by examination for the first level through Anderman.
+Degrees and certificates: not yet confirmed.
+
+SRJC runs the full theory and musicianship core, MUSC 2A through 2D and 3A through 3D, with credit by examination for the first level through Anderman.
