@@ -152,7 +152,6 @@ A Luis Zuniga also directs concert band, jazz band, and pit orchestra at Skyline
 | Eric Hansen | Orchestra, piano | ehansen@peralta.edu |
 | Matthew McLean | Guitar, jazz and popular music, music appreciation | mmclean@peralta.edu |
 | Summer Benton Nickerson | Voice, musicology, musical theatre | snickerson@peralta.edu |
-| [Constance Koo](http://constancekoo.com) | Harp, dual enrollment | ckoo@peralta.edu |
 
 Merritt's faculty table spells the name Colin Chew.
 
@@ -312,7 +311,6 @@ SRJC runs the full theory and musicianship core, MUSC 2A through 2D and 3A throu
 | Michelle Hawkins | Vocal jazz ensemble, concert choir, history of jazz, applied lessons coordinator | hawkinsm@smccd.edu |
 | Luis Zúñiga | Concert band, jazz band, pit orchestra, music fundamentals | not published |
 | Meghan Dibble | Voice, applied voice, music fundamentals; studied at CSU East Bay | dibblem@smccd.edu |
-| Elizabeth Ingber | Piano, violin and viola, applied piano | ingbere@smccd.edu |
 | Pedro Gomez | Music appreciation and fundamentals; also applied clarinet at West Valley | not published |
 
 - A.A. in Music
@@ -355,8 +353,6 @@ Juliano, Acosta, and Holland aren't in the employee directory.
 | Michael Lande | Commercial music | michael.lande@wvm.edu |
 | Jeff Hanson | Commercial music | jeffrey.hanson@wvm.edu |
 | Christopher Nicklin | Commercial music, guitar | christopher.nicklin@wvm.edu |
-| Pedro Gomez | Applied clarinet; also music appreciation and fundamentals at Skyline | not published |
-| Yoka Drion | Class piano; also Instructor, Music at Mission | yoka.drion@wvm.edu |
 
 - A.A. in Music, Professional (68-70 units)
 - A.A.-T in Music (60 units)
