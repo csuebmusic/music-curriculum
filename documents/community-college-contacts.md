@@ -113,10 +113,6 @@ Mobley holds a doctorate in composition and theory and teaches counterpoint and 
 - A.A.-T in Music
 - Certificates in Music Business, Music Technology, Scoring for Film and Multimedia, Jazz Studies, Piano Teaching Fundamentals, Teaching Beginning Piano, Teaching Intermediate Piano, Piano Technology, and, from fall 2026, Music Technology and Production
 
-The LPC site also carries a bio for Leslie La Barre, a different person, a composer and conductor with an M.A. from CSU East Bay who, per Eckerd College, joined its faculty in 2021.
-
-Ian Brekke has left Las Positas. He's Center for the Arts Manager for the City of Bloomington, Minnesota.
-
 ## Los Medanos College
 
 [music](https://www.losmedanos.edu/music/) · [recording arts](https://www.losmedanos.edu/recarts/)
@@ -137,8 +133,6 @@ Ian Brekke has left Las Positas. He's Center for the Arts Manager for the City o
 - A.A. in Recording Arts
 - Certificate of achievement in Recording Arts
 
-The college paper gave Chuah as chair of both departments in November 2024. The Recording Arts contact page, last updated January 2024, gives Shiner as Recording Arts Chair.
-
 A Luis Zuniga also directs concert band, jazz band, and pit orchestra at Skyline.
 
 ## Merritt College
@@ -152,8 +146,6 @@ A Luis Zuniga also directs concert band, jazz band, and pit orchestra at Skyline
 | Eric Hansen | Orchestra, piano | ehansen@peralta.edu |
 | Matthew McLean | Guitar, jazz and popular music, music appreciation | mmclean@peralta.edu |
 | Summer Benton Nickerson | Voice, musicology, musical theatre | snickerson@peralta.edu |
-
-Merritt's faculty table spells the name Colin Chew.
 
 ## Ohlone College
 
@@ -173,8 +165,6 @@ Merritt's faculty table spells the name Colin Chew.
 - Certificates of accomplishment in Commercial Music, Music Theory, Piano Performance, Vocal Music Performance, and Vocal Music Performance: Advanced
 
 Ohlone lists Castro-Lima as adjunct faculty and names Ohlone among his previous appointments, while De Anza names him its Department Chair.
-
-Jim McManus, who taught theory and composition at Ohlone and holds a D.M.A. in composition, is listed as emeritus.
 
 # outside the two counties
 
@@ -235,8 +225,6 @@ Cañada's catalog says the A.A. doesn't prepare students for transfer into most 
 - A.A. in Music
 - A.A.-T in Music
 
-De Anza's faculty page labels Castro-Lima part-time faculty in the heading above a biography that names him department chair.
-
 ## Foothill College
 
 [music](https://foothill.edu/music/) · [music technology](https://foothill.edu/musictech/)
@@ -263,8 +251,6 @@ De Anza's faculty page labels Castro-Lima part-time faculty in the heading above
 | Joseph Ordaz | Director of Symphony Orchestra; Mission faculty since 1997, former Music Department Chair | not published |
 
 - Certificate of achievement in Music Production
-
-The music program page names German Gonzalez as the Symphony's conductor. The Symphony's own pages, its 2024 and 2025 concert listings, and Ordaz's faculty profile all give Joseph Ordaz as its director and conductor.
 
 ## Napa Valley College
 
@@ -298,8 +284,6 @@ The music program page names German Gonzalez as the Symphony's conductor. The Sy
 - A.A. in Commercial Music
 - Commercial Music certificate
 
-SRJC runs the full theory and musicianship core, MUSC 2A through 2D and 3A through 3D, with credit by examination for the first level through Anderman.
-
 ## Skyline College
 
 [music](https://skylinecollege.edu/music/)
@@ -315,8 +299,6 @@ SRJC runs the full theory and musicianship core, MUSC 2A through 2D and 3A throu
 
 - A.A. in Music
 - A.A.-T in Music
-
-Skyline publishes no department chair.
 
 ## Solano Community College
 
@@ -336,8 +318,6 @@ Skyline publishes no department chair.
 - A.A. in Music-Instrumental
 - A.A. in Music-Vocal
 - A.A.-T in Music
-
-Juliano, Acosta, and Holland aren't in the employee directory.
 
 ## West Valley College
 
