@@ -220,4 +220,37 @@ West Valley's full-time faculty use westvalley.edu and its part-time faculty use
 
 Pedro Gomez teaches applied clarinet at West Valley and music appreciation and fundamentals at Skyline. Justin Su'esu'e teaches musical theater and applied voice at West Valley and voice at Chabot.
 
-Not yet combed: Mission, Napa Valley, Santa Rosa, and San Joaquin Delta.
+## Mission College
+
+| name | role or area | email |
+| --- | --- | --- |
+| Phil Hawkins | Instructor, Music | phil.hawkins@missioncollege.edu |
+| Keith Johnson | Instructor, Music | keith.johnson@missioncollege.edu |
+| German Gonzalez | Instructor, Music; conducts the Mission College Symphony | german.gonzalez@wvm.edu |
+| John Ector | Instructor, Music | john.ector@wvm.edu |
+| Yoka Drion | Instructor, Music; also class piano at West Valley | yoka.drion@wvm.edu |
+
+Mission's program covers theory, performance, history, and digital production. Its employee directory lists faculty by department with no subject areas, so no theory or technology assignment is published, and the listing is alphabetical and was read through the letter K.
+
+The program page names German Gonzalez as the Symphony's conductor and the Symphony's own page names Joseph Ordaz.
+
+## Napa Valley College
+
+| name | role or area | email |
+| --- | --- | --- |
+| Mark Osten | Fundamentals of music and music theory; pianist, conductor, composer, choral and vocal accompanist | not published |
+
+The catalog carries Music Theory I through III with matching aural skills courses. Osten's areas come from the Performing Arts Center's faculty page; no music department faculty page with addresses came back.
+
+## San Joaquin Delta College
+
+No music department faculty roster or addresses came back from the college site or from searches for its music faculty, theory faculty, and department chair.
+
+## Santa Rosa Junior College
+
+| name | role or area | email |
+| --- | --- | --- |
+| Robert Budginas | Department Chair, Coordinator of Piano and Commercial Music | rbudginas@santarosa.edu |
+| Mark Anderman | Music Theory Coordinator | manderman@santarosa.edu |
+
+SRJC runs the full theory and musicianship core, MUSC 2A through 2D and 3A through 3D, and handles credit by examination for the first level through Anderman.
