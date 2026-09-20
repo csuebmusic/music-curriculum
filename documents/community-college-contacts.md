@@ -1,6 +1,6 @@
 # community college music contacts
 
-Music faculty at the community colleges that send transfer students to the Department of Music, with the theory and the composition, production, and technology faculty at each. The first group is every college in Alameda and Contra Costa counties, CSUEB's service area, that offers music. The second is the colleges outside those two counties. Verified against the colleges' own directories and program pages, September 19 and 20, 2026. Each college heading links to its music department, or to the college's department listing where it publishes no music page. Names link to a personal or professional site where one exists.
+Music faculty at the community colleges that send transfer students to the Department of Music. Each chart carries the department's chairs and coordinators, its theory, composition, production, and technology faculty, and its ensemble directors, and leaves out faculty who teach only applied lessons or class instruction. The first group is every college in Alameda and Contra Costa counties, CSUEB's service area, that offers music. The second is the colleges outside those two counties. Verified against the colleges' own directories and program pages, September 19 and 20, 2026. Each college heading links to its music department, or to the college's department listing where it publishes no music page. Names link to a personal or professional site where one exists.
 
 ## Berkeley City College
 
