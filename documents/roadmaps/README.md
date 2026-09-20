@@ -1,6 +1,6 @@
 # roadmaps
 
-Student-facing HTML roadmaps for the B.A. in Music, house-styled on
+Student-facing HTML roadmaps for the B.A. in Music, the FAST blended degrees, and the music education certificate, house-styled on
 `../handbooks/handbooks.css`. Generated from the department's 2026-2027
 roadmap PDFs and intended as the editable, linkable home for that content.
 

@@ -4,7 +4,7 @@ Agendas, minutes, papers, and proposal review for the CLASS Curriculum Committee
 
 ## proposals
 
-Curriculog proposals under committee review, recorded in `proposals/` as Markdown from the Curriculog preview, with a review file alongside each one where feedback has been given. None are recorded at present.
+Curriculog proposals under committee review are recorded as Markdown from the Curriculog preview, with a review file alongside each one where feedback has been given. None are recorded at present.
 
 ## papers
 
@@ -12,7 +12,7 @@ Curriculog proposals under committee review, recorded in `proposals/` as Markdow
 
 ## reference
 
-Standing reference for review, in [reference/](reference/): the GEOC faculty guide, the GEOC alignment form, the syllabus policy, and links to the GE Framework and the live GEOC pages.
+Standing reference for review, in [reference/](reference/): the GE Framework starting Fall 2027, the GEOC faculty guide, the GEOC proposal checklist, the GEOC alignment form, and the 25-26 CIC 1 syllabus policy, with a currency file recording what in each is superseded, the curricular deadlines, and links to the live GEOC pages.
 
 ## naming
 

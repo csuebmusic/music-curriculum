@@ -8,6 +8,8 @@ Posted syllabi for individual sections in a given term, one file per section. Ea
 
 - [fall 2026](https://csuebmusic.github.io/music-curriculum/syllabi/fall-2026/)
 
+`assets/` holds `syllabus.css` and `syllabus-tools.js`, which every posted syllabus loads.
+
 ## naming
 
 Term folders are `fall-2026`, `spring-2027`, `summer-2027`. Files are the course code and the section number: `MUS108-01.html`, `MUS118-02.html`.

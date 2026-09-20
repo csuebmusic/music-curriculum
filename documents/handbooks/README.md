@@ -15,4 +15,4 @@ Student-facing HTML handbooks and guides for the Department of Music, house-styl
 ## supporting files
 
 - `handbooks.css`: the shared stylesheet, carrying the house style to screen.
-- `assets/`: images and fonts the handbooks load.
+- `assets/`: the MUS 118, 119, and 218 keyboard exam PDFs the handbooks link.
