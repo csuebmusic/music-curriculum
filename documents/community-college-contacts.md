@@ -10,7 +10,7 @@ Music faculty at the community colleges that send transfer students to the Depar
 | --- | --- | --- |
 | A.D. (Aaron) Mobley | Lead faculty, Music; composer, theorist, musicologist | amobley@peralta.edu |
 | [Clinton Day](http://www.clintondaymusic.com) | Jazz history, American popular music, history of Western music | cday@peralta.edu |
-| Matthew McLean | Music | mmclean@peralta.edu |
+| Matthew McLean | Guitar, jazz and popular music, music appreciation; also at Merritt | mmclean@peralta.edu |
 | [Alfred (Fred) Randolph](https://www.fredrandolph.com/) | Music | arandolph@peralta.edu |
 
 Music at Berkeley City College sits inside the Arts and Cultural Studies area.
@@ -123,8 +123,8 @@ Mobley holds a doctorate in composition and theory and teaches counterpoint and 
 | Aaron Nakaji | Music Laboratory Coordinator; Recording Arts program contact | anakaji@losmedanos.edu |
 | Silvester Henderson | Director of Choral and Vocal Activities; also at College of Alameda | shenderson@losmedanos.edu |
 | Michael Zilber | Jazz Studies | not published |
-| Luis Zuniga | Concert Band | not published |
-| Rick Shiner | Recording Arts Chair; founding faculty of the program | not published |
+| Luis Zúñiga | Concert Band; also at Skyline | not published |
+| Rick Shiner | Recording Arts; founding faculty of the program | not published |
 | Juan Carreon | Recording Arts; drummer and audio engineer, owner of Big Hit Studios | not published |
 | Joan Cifarelli | Piano and Recording Arts; B.A. from CSU East Bay | not published |
 
@@ -132,8 +132,6 @@ Mobley holds a doctorate in composition and theory and teaches counterpoint and 
 - A.A. in Music, inactive for 2026-2027
 - A.A. in Recording Arts
 - Certificate of achievement in Recording Arts
-
-A Luis Zuniga also directs concert band, jazz band, and pit orchestra at Skyline.
 
 ## Merritt College
 
@@ -144,7 +142,7 @@ A Luis Zuniga also directs concert band, jazz band, and pit orchestra at Skyline
 | Monica Ambalal | Department Chair; musicology, ethnomusicology | mambalal@peralta.edu |
 | [Collin Chu](https://www.collinchu.com/) | Composition, theory, music appreciation; also music technology at Skyline | cchu@peralta.edu |
 | Eric Hansen | Orchestra, piano | ehansen@peralta.edu |
-| Matthew McLean | Guitar, jazz and popular music, music appreciation | mmclean@peralta.edu |
+| Matthew McLean | Guitar, jazz and popular music, music appreciation; also at Berkeley City | mmclean@peralta.edu |
 | Summer Benton Nickerson | Voice, musicology, musical theatre | snickerson@peralta.edu |
 
 ## Ohlone College
@@ -163,8 +161,6 @@ A Luis Zuniga also directs concert band, jazz band, and pit orchestra at Skyline
 - A.A.-T in Music
 - A.A. in Fine Arts with a concentration in Music
 - Certificates of accomplishment in Commercial Music, Music Theory, Piano Performance, Vocal Music Performance, and Vocal Music Performance: Advanced
-
-Ohlone lists Castro-Lima as adjunct faculty and names Ohlone among his previous appointments, while De Anza names him its Department Chair.
 
 # outside the two counties
 
@@ -293,7 +289,7 @@ Cañada's catalog says the A.A. doesn't prepare students for transfer into most 
 | Jude Navari | Music theory, musicianship, music fundamentals, composition, music major faculty advisor | navarij@smccd.edu |
 | [Collin Chu](https://www.collinchu.com/) | Music technology; composer for film and games at Ubisoft, M.A. in composition from CSU East Bay; also composition and theory at Merritt, and at University of Silicon Valley and Feather River | cchu@peralta.edu, his Merritt address |
 | Michelle Hawkins | Vocal jazz ensemble, concert choir, history of jazz, applied lessons coordinator | hawkinsm@smccd.edu |
-| Luis Zúñiga | Concert band, jazz band, pit orchestra, music fundamentals | not published |
+| Luis Zúñiga | Concert band, jazz band, pit orchestra, music fundamentals; also at Los Medanos | not published |
 | Meghan Dibble | Voice, applied voice, music fundamentals; studied at CSU East Bay | dibblem@smccd.edu |
 | Pedro Gomez | Music appreciation and fundamentals; also applied clarinet at West Valley | not published |
 
