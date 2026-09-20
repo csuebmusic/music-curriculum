@@ -2,11 +2,11 @@
 
 California State University, East Bay, Department of Music.
 
-Posted syllabi for individual sections in a given term, one file per section. Each file has a permanent web address that can go straight into a Canvas course. The master templates stay in [`curriculum/`](../curriculum/) and are copied here at the start of a term.
+Posted syllabi for individual sections in a given term, one file per section. Each file has a permanent web address that can go straight into a Canvas course. The master templates stay in [`curriculum/`](../../curriculum/) and are copied here at the start of a term.
 
 ## terms
 
-- [fall 2026](https://csuebmusic.github.io/music-curriculum/syllabi/fall-2026/)
+- [fall 2026](https://csuebmusic.github.io/music-curriculum/documents/syllabi/fall-2026/)
 
 `assets/` holds `syllabus.css` and `syllabus-tools.js`, which every posted syllabus loads.
 
@@ -17,7 +17,7 @@ Term folders are `fall-2026`, `spring-2027`, `summer-2027`. Files are the course
 The Canvas link for a posted syllabus follows the same pattern:
 
 ```
-https://csuebmusic.github.io/music-curriculum/syllabi/fall-2026/MUS108-01.html
+https://csuebmusic.github.io/music-curriculum/documents/syllabi/fall-2026/MUS108-01.html
 ```
 
 The address stays fixed once the file exists, and edits appear at it within about a minute.
@@ -25,7 +25,7 @@ The address stays fixed once the file exists, and edits appear at it within abou
 ## posting a syllabus
 
 1. Open the term folder for your course.
-2. Copy the master template from `curriculum/` into it, or copy an existing file from a previous term.
+2. Copy the master template from `../../curriculum/` into it, or copy an existing file from a previous term.
 3. Rename it to the course code and section number.
 4. Fill in the editable block at the top of the file.
 5. Add a row for it in the term's `index.html`.
