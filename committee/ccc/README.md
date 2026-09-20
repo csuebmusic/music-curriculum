@@ -4,9 +4,7 @@ Agendas, minutes, papers, and proposal review for the CLASS Curriculum Committee
 
 ## proposals
 
-Curriculog proposals under committee review, recorded here as Markdown from the Curriculog preview, with a review file alongside each one where feedback has been given.
-
-- [Theatre Arts, B.A., program revision, Fall 2027](proposals/theatre-arts-ba-revision-fall-2027.md), with [review notes](proposals/theatre-arts-ba-revision-fall-2027-review.md)
+Curriculog proposals under committee review, recorded in `proposals/` as Markdown from the Curriculog preview, with a review file alongside each one where feedback has been given. None are recorded at present.
 
 ## papers
 
