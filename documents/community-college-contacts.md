@@ -248,9 +248,9 @@ The music technology faculty directory page returns no entries. Foothill's addre
 | Meghan Dibble | Voice, applied voice, music fundamentals | dibblem@smccd.edu |
 | Elizabeth Ingber | Piano, violin and viola, applied piano | ingbere@smccd.edu |
 
-Degrees and certificates: not yet confirmed.
+Degrees and certificates: A.A. in Music, A.A.-T in Music.
 
-Skyline addresses are surname plus first initial at smccd.edu. The faculty page prints Dibble's in full; Navari's, Hawkins's, and Ingber's are the district directory usernames carried in that page's profile images. Zúñiga and Chu use local photos, so their addresses aren't on the page.
+Skyline publishes no department chair. Skyline addresses are surname plus first initial at smccd.edu. The faculty page prints Dibble's in full; Navari's, Hawkins's, and Ingber's are the district directory usernames carried in that page's profile images. Zúñiga and Chu use local photos, so their addresses aren't on the page.
 
 Collin Chu took his classical composition master's at CSU East Bay and works as a composer at Ubisoft. Skyline publishes no address for him, so the Merritt one above is the route. He also teaches at University of Silicon Valley and Feather River College. Meghan Dibble studied at CSU East Bay.
 
@@ -284,7 +284,7 @@ The department faculty page is on a blog subdomain that refuses automated access
 | Jeff Hanson | Commercial music | jeffrey.hanson@wvm.edu |
 | Christopher Nicklin | Commercial music, guitar | christopher.nicklin@wvm.edu |
 
-Degrees and certificates: not yet confirmed.
+Degrees and certificates: A.A. in Music, Professional (68-70 units), A.A.-T in Music (60 units), and a Certificate of Achievement in Commercial Music (16-18 units) with four pathways: Recording Arts, Music Production, Songwriting, and Creating Music for Film, TV and Gaming.
 
 West Valley's full-time faculty use westvalley.edu and its part-time faculty use wvm.edu. The addresses are obfuscated on the faculty page and decoded here.
 
@@ -292,7 +292,7 @@ Pedro Gomez teaches applied clarinet at West Valley and music appreciation and f
 
 ## Mission College
 
-[music](https://missioncollege.edu/academics/music/)
+[music](https://missioncollege.edu/academics/music/) · [faculty directory](https://missioncollege.edu/-profiles/music/)
 
 | name | role or area | email |
 | --- | --- | --- |
