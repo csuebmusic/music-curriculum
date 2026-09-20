@@ -240,7 +240,7 @@ The music technology faculty directory page returns no entries. Foothill's addre
 | name | role or area | email |
 | --- | --- | --- |
 | Jude Navari | Music theory, musicianship, music fundamentals, composition, music major faculty advisor | navarij@smccd.edu |
-| Collin Chu | Music technology; composer for film and games, M.A. in composition from CSU East Bay | not published |
+| [Collin Chu](https://www.collinchu.com/) | Music technology; composer for film and games, M.A. in composition from CSU East Bay | not published |
 | Michelle Hawkins | Vocal jazz ensemble, concert choir, history of jazz, applied lessons coordinator | hawkinsm@smccd.edu |
 | Luis Zúñiga | Concert band, jazz band, pit orchestra, music fundamentals | not published |
 | Meghan Dibble | Voice, applied voice, music fundamentals | dibblem@smccd.edu |
