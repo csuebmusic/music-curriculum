@@ -102,14 +102,16 @@ Laney lists its other music faculty as Instructor, Music, with no subject area.
 | Andreas Preponis | Music Department Coordinator, Director of Choral and Vocal Studies | apreponis@laspositascollege.edu |
 | Cindy Browne Rosefield | Director of Instrumental Music; music theory, jazz ensemble, applied bass, history of rock | crosefield@laspositascollege.edu |
 | [Dan Marschak](https://www.danmarschak.com/) | Composition, music theory, jazz piano, piano | dmarschak@laspositascollege.edu |
-| [Mario Godoy](https://www.mariogodoy.com/) | Scoring for film and multimedia, composition | not published |
-| Doug Siebum | Music technology | not published |
+| [Mario Godoy](https://www.mariogodoy.com/) | Scoring for film and multimedia, composition | mgodoy@laspositascollege.edu |
+| Doug Siebum | Music technology | dsiebum@laspositascollege.edu |
 | Julie Homi | Composition, jazz and pop piano, improvisation lab | not published |
 | Elisse La Barre | Music business, music in film | not published |
 
 Degrees and certificates: A.A. and A.A.-T in Music, and certificates in Music Business, Music Technology, Scoring for Film and Multimedia, Jazz Studies, Piano Teaching Fundamentals, Teaching Beginning Piano, Teaching Intermediate Piano, Piano Technology, and, from fall 2026, Music Technology and Production.
 
-Las Positas publishes emails for its three full-time faculty only. The adjunct entries above come from the areas of concentration on the music faculty page.
+The music faculty page publishes emails for the three full-time faculty only; Godoy's and Siebum's come from the campus directory, where addresses are first initial plus surname.
+
+William & Mary lists Elisse La Barre as a Visiting Assistant Teaching Professor of Music. The LPC site also carries a bio for Leslie La Barre, a different person, a composer and conductor with an M.A. from CSU East Bay who, per Eckerd College, joined its faculty in 2021.
 
 Dan Marschak is on sabbatical for 2026-2027.
 
