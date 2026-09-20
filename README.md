@@ -36,14 +36,6 @@ Word forms and memos, in `documents/forms/`.
 - [equipment office student assistant agreement](documents/forms/equipment-office-student-assistant-agreement.docx)
 - [key 1838 authorization memo](documents/forms/key-1838-authorization-memo.docx)
 
-## website
-
-Structural HTML pasted into Cascade, named for the live page it fills. Cascade supplies the appearance.
-
-- `website/current/index.html` &rarr; [student resources](https://www.csueastbay.edu/music/current/index.html)
-- `website/prospective/how-to-apply/i-got-in-now-what.html` &rarr; [I got in! Now what?](https://www.csueastbay.edu/music/prospective/how-to-apply/i-got-in-now-what.html)
-- `website/class-curriculum-committee.html` &rarr; [CLASS Curriculum](https://www.csueastbay.edu/class/curriculum/index.html)
-
 ## theory and musicianship curriculum
 
 Three framework documents and the twelve syllabi from MUS 108 through MUS 410. The [subsection README](curriculum/undergraduate-theory-musicianship/README.md) links every syllabus individually.
@@ -58,13 +50,6 @@ The MUS course inventory in the 2026-2027 catalog checked against the Curriculog
 
 - [course inventory](curriculum/catalog-audit/course-inventory.xlsx): 140 courses, their published values and teaching classification, and the technical and content findings for each
 
-## term schedules
-
-Course slates by term with section counts, units, and WTU by catalog course type, in `curriculum/schedule/`. The [subsection README](curriculum/schedule/README.md) carries the standing scheduling rules.
-
-- [spring 2027](curriculum/schedule/spring-2027.md): the Year A spring slate
-- [spring 2027 weekly grid](https://csuebmusic.github.io/music-curriculum/curriculum/schedule/spring-2027-weekly-grid.html): meeting times for that slate
-
 ## semester syllabi
 
 Posted syllabi for individual sections, one file per section per term, with a permanent link for Canvas. The [syllabi README](syllabi/README.md) covers naming, posting, and editing in the browser.
@@ -75,39 +60,5 @@ Posted syllabi for individual sections, one file per section per term, with a pe
 
 Proposals under CLASS Curriculum Committee review, with review notes where feedback has been given, in `committee/ccc/`.
 
-- [CCC README](committee/ccc/README.md), [Theatre Arts, B.A., revision](committee/ccc/proposals/theatre-arts-ba-revision-fall-2027.md), [review notes](committee/ccc/proposals/theatre-arts-ba-revision-fall-2027-review.md)
+- [CCC README](committee/ccc/README.md)
 - [reference](committee/ccc/reference/README.md): the GE Framework starting Fall 2027, the GEOC faculty guide, the GEOC alignment form required in Curriculog, the 25-26 CIC 1 syllabus policy, and the curricular deadlines
-
-## graduate recruitment
-
-Working documents for the graduate recruitment facilitator role, in `committee/grad-facilitator/`.
-
-- [role.md](committee/grad-facilitator/role.md), [recruitment-plan.md](committee/grad-facilitator/recruitment-plan.md), [status.md](committee/grad-facilitator/status.md), [programs.md](committee/grad-facilitator/programs.md), [baseline.md](committee/grad-facilitator/baseline.md), [print-materials.md](committee/grad-facilitator/print-materials.md)
-- [documents/](committee/grad-facilitator/documents/): the graduate program listings and the print materials audit, as workbooks
-
-## conventions
-
-- [house-style.md](conventions/house-style.md) is the canonical style spec, with [house-style-specimen.html](https://csuebmusic.github.io/music-curriculum/conventions/house-style-specimen.html) as its on-screen reference and [house-style-template.docx](conventions/templates/house-style-template.docx) as the document starting point.
-- [grading-scheme.md](conventions/grading-scheme.md) is the canonical 0-4 grade-point model: the conversion chart, the student-facing text, and the Canvas setup that goes with it.
-
-## layout
-
-- `conventions/` holds the house style and the grading scheme.
-- `syllabi/` holds the syllabi posted for individual sections, in one folder per term.
-- `curriculum/` holds course and program proposals and curriculum documentation, organized into subsections, each with its own README: the undergraduate Theory and Musicianship sequence, the catalog audit, and the term schedules.
-- `documents/` holds the handbooks, the roadmaps, the admissions email set, the forms, and program and policy material.
-- `committee/` holds agendas, minutes, and papers for committee service: the CLASS Curriculum Committee in `committee/ccc/`, and the graduate recruitment facilitator role in `committee/grad-facilitator/`.
-- `assessment/` holds program learning outcomes, assessment reports, and review cycles.
-- `website/` holds structural HTML snippets that get pasted into Cascade, which supplies its own styling.
-
-The repository is active, and the folders fill as each workstream produces material. `assessment/` is empty so far.
-
-## channels
-
-Committee papers, proposals, and assessment reports follow `conventions/house-style.md` and go out as Word or PDF from the template.
-
-Student-facing documents are screen-first and ship as finished HTML rather than Word. The handbooks and roadmaps apply the same house style through `documents/handbooks/handbooks.css`, and the Theory and Musicianship set applies it through `curriculum/undergraduate-theory-musicianship/theory-musicianship.css`. Both stylesheets track house-style v1. The roadmaps layer `documents/roadmaps/roadmaps.css` on top for the general-education color and for print.
-
-The website pocket is the one exception. Its markup is structural only, and Cascade supplies the appearance.
-
-The admissions email templates are a third case. They carry inline styles only, with no stylesheet, no tables, and no fixed widths, so the Salesforce wrapper controls layout. The page that presents them is house-styled through `documents/handbooks/handbooks.css`.
