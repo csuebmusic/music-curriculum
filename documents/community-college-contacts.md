@@ -29,7 +29,7 @@ Mobley holds a doctorate in composition and theory and teaches counterpoint and 
 | [Lucas Schwyter](https://lucasschwyter.com/home) | Commercial Music Coordinator, Music Recording Technology | yschwyter@chabotcollege.edu |
 | [Michael Rosen](https://www.eastbayrecorders.com/) | Music Recording Technology; mixing, audio production, recording curriculum | mrosen@chabotcollege.edu, unconfirmed |
 
-Degrees and certificates: not yet confirmed.
+Degrees and certificates: A.A.-T in Music, A.A. in Music Technology and Production, and certificates of achievement in Audio Recording, Harmony and Musicianship, Jazz Studies, and Music Production.
 
 Chabot publishes no email for Michael Rosen on the Music Recording Technology faculty page, the music faculty bios page, or the employee directory. The address above follows the pattern of the other Chabot entries.
 
