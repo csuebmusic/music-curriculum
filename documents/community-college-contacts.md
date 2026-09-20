@@ -1,30 +1,17 @@
 # community college music contacts
 
-Music faculty at the Bay Area community colleges that send transfer students to the Department of Music, with the theory and the composition, production, and technology faculty at each. Verified against the colleges' own directories and program pages, September 19, 2026.
+Music faculty at the community colleges in Alameda and Contra Costa counties, CSUEB's service area, with the theory and the composition, production, and technology faculty at each. Every college in the two counties that offers music is here. Verified against the colleges' own directories and program pages, September 19, 2026.
 
-## Laney College
-
-| name | role or area | email |
-| --- | --- | --- |
-| John Reager | Department Chair, Music | jreager@peralta.edu |
-| Kevin Martin | Director, Commercial Music; electronic music and MIDI, songwriting, music business | kmartin@peralta.edu |
-| Franklin Miller | Commercial Music | fmiller@peralta.edu |
-| Darcee Olson | Commercial Music; contracts, licensing, intellectual property | dolson@peralta.edu |
-| Victor Siu | Commercial Music; Pop Music Ensemble | vsiu@peralta.edu |
-
-Laney lists its other music faculty as Instructor, Music, with no subject area, so no theory assignment is published. The department chair is the route to the theory and musicianship sequence.
-
-## Diablo Valley College
+## Berkeley City College
 
 | name | role or area | email |
 | --- | --- | --- |
-| Kaitlin Bove | Department Chair, Music | kbove@dvc.edu |
-| Nick Vasallo | Program Lead, Music Industry Studies; composition, commercial music, AV technology | nvasallo@dvc.edu |
-| Michael Aczon | Music business, Music Industry Studies, since 1996 | MAczon@dvc.edu |
-| Jon Bendich | Songwriting and music industry | JBendich@dvc.edu |
-| Aaron Shaul | Faculty, Music | ashaul@dvc.edu |
+| A.D. (Aaron) Mobley | Lead faculty, Music; composer, theorist, musicologist | amobley@peralta.edu |
+| Clinton Day | Jazz history, American popular music, history of Western music | cday@peralta.edu |
+| Matthew McLean | Music | mmclean@peralta.edu |
+| Alfred (Fred) Randolph | Music | arandolph@peralta.edu |
 
-The Music Technology Center is the production and recording facility, with Pro Tools certification classes through DVC's AVID partnership. The DVC directory lists its music faculty under Music with no subject area, so no theory assignment is published.
+Berkeley City College's music offerings are history and appreciation courses: blues and jazz, popular music and culture, and surveys of Western music. No theory sequence or technology courses appear on the program page. Mobley holds a doctorate in composition and theory and teaches counterpoint and composition at the California Jazz Conservatory.
 
 ## Chabot College
 
@@ -39,6 +26,48 @@ The Music Technology Center is the production and recording facility, with Pro T
 Chabot publishes no email for Michael Rosen on the Music Recording Technology faculty page, the music faculty bios page, or the employee directory. The address above follows the pattern of the other Chabot entries.
 
 Lucas Schwyter's address uses his legal first name, Young Kwang.
+
+## College of Alameda
+
+| name | role or area | email |
+| --- | --- | --- |
+| Glen Pearson | Department Chair and lead faculty, Music; piano, jazz piano, jazz ensemble, jazz and popular music history | gpearson@peralta.edu |
+| Silvester Henderson | Vocal and choral courses, classical and gospel piano; also full-time at Los Medanos | shenderson@losmedanos.edu |
+
+Henderson teaches at both colleges, and his Los Medanos address is the published one. College of Alameda offers courses in music history and theory and publishes no theory assignment for either name.
+
+## Contra Costa College
+
+| name | role or area | email |
+| --- | --- | --- |
+| Stephanie Austin | Music, co-chair | saustin@contracosta.edu |
+| Jennifer Griest | Music, co-chair | jgriest@contracosta.edu |
+
+Contra Costa College offers an AA and an AA-T in Music covering performance, composition, and theory. The college publishes the department co-chairs and no per-faculty listing, so the co-chairs are the route to the rest.
+
+## Diablo Valley College
+
+| name | role or area | email |
+| --- | --- | --- |
+| Kaitlin Bove | Department Chair, Music | kbove@dvc.edu |
+| Nick Vasallo | Program Lead, Music Industry Studies; composition, commercial music, AV technology | nvasallo@dvc.edu |
+| Michael Aczon | Music business, Music Industry Studies, since 1996 | MAczon@dvc.edu |
+| Jon Bendich | Songwriting and music industry | JBendich@dvc.edu |
+| Aaron Shaul | Faculty, Music | ashaul@dvc.edu |
+
+The Music Technology Center is the production and recording facility, with Pro Tools certification classes through DVC's AVID partnership. The DVC directory lists its music faculty under Music with no subject area, so no theory assignment is published.
+
+## Laney College
+
+| name | role or area | email |
+| --- | --- | --- |
+| John Reager | Department Chair, Music | jreager@peralta.edu |
+| Kevin Martin | Director, Commercial Music; electronic music and MIDI, songwriting, music business | kmartin@peralta.edu |
+| Franklin Miller | Commercial Music | fmiller@peralta.edu |
+| Darcee Olson | Commercial Music; contracts, licensing, intellectual property | dolson@peralta.edu |
+| Victor Siu | Commercial Music; Pop Music Ensemble | vsiu@peralta.edu |
+
+Laney lists its other music faculty as Instructor, Music, with no subject area, so no theory assignment is published. The department chair is the route to the theory and musicianship sequence.
 
 ## Las Positas College
 
@@ -57,3 +86,38 @@ Las Positas publishes emails for its three full-time faculty only. The adjunct e
 Dan Marschak is on sabbatical for 2026-2027.
 
 Ian Brekke has left Las Positas. He's Center for the Arts Manager for the City of Bloomington, Minnesota.
+
+## Los Medanos College
+
+| name | role or area | email |
+| --- | --- | --- |
+| Aaron Nakaji | Music Coordinator | anakaji@losmedanos.edu |
+| Silvester Henderson | Director of Choral and Vocal Activities | shenderson@losmedanos.edu |
+| Rick Shiner | Recording Arts Chair; founding faculty of the program | not published |
+
+Los Medanos runs a Recording Arts program with two recording studios alongside the music AA-T, and the music schedule carries Music Theory I and III and Musicianship I and III.
+
+## Merritt College
+
+| name | role or area | email |
+| --- | --- | --- |
+| Monica Ambalal | Department Chair; musicology, ethnomusicology | mambalal@peralta.edu |
+| Colin Chew | Composition, theory, music appreciation | cchu@peralta.edu |
+| Eric Hansen | Orchestra, piano | ehansen@peralta.edu |
+| Matthew McLean | Guitar, jazz and popular music, music appreciation | mmclean@peralta.edu |
+| Summer Benton Nickerson | Voice, musicology, musical theatre | snickerson@peralta.edu |
+| Constance Koo | Harp, dual enrollment | ckoo@peralta.edu |
+
+The Merritt faculty table names Colin Chew, a photo caption on the same page reads Collin Chu, and the address is cchu@peralta.edu.
+
+## Ohlone College
+
+| name | role or area | email |
+| --- | --- | --- |
+| Tim Roberts | Commercial Music; theory, musicianship, music fundamentals, songwriting, Jazz/Rock Ensemble | troberts@ohlone.edu |
+| Victor De La Cruz | Assistant Professor, Choral Studies | vdelacruz@ohlone.edu |
+| Michael Bang | Songwriting, studio recording, introduction to music technology | mbang@ohlone.edu |
+| Marcel Castro-Lima | Music theory and harmony, world music | not published |
+| Kristal Kim | Piano, music history, music theory | not published |
+
+Jim McManus, who taught theory and composition at Ohlone and holds a D.M.A. in composition, is listed as emeritus.
