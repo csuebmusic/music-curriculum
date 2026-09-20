@@ -126,6 +126,34 @@ De Anza College lists Marcel Castro-Lima as chair of its Music Department and di
 
 # outside the two counties
 
+## Cañada College
+
+| name | role or area | email |
+| --- | --- | --- |
+| David Meckler | Professor, Music | mecklerd@smccd.edu |
+
+Cañada's music page lists one faculty member.
+
+## City College of San Francisco
+
+| name | role or area | email |
+| --- | --- | --- |
+| Madeline Mueller | Department Chair | mmueller@ccsf.edu |
+
+CCSF offers electronic music alongside its core Western curriculum and courses in African, Latin American, Asian, and African-American music. The department page publishes the chair and no other faculty.
+
+## College of San Mateo
+
+| name | role or area | email |
+| --- | --- | --- |
+| Jane Jackson | Professor, harmony, musicianship, piano; M.A. in music theory | jacksonj@smccd.edu |
+| Krys Bobrowski | Professor, electronic music | bobrowski@smccd.edu |
+| Alexa Thanos | Assistant Professor, Program Services Coordinator, general inquiries | thanosa@smccd.edu |
+| Patrick Wolff | Performance ensembles | wolffp@smccd.edu |
+| Brenda Hutchinson | Associate faculty, electronic music; M.A. in composition, UC San Diego | not published |
+
+CSM carries an A.A. in electronic music and a certificate in it, with courses in electronic and computer music, sound design, sampling and synthesis, digital recording, and audio for visual media, and it offers the full lower-division theory and musicianship core.
+
 ## De Anza College
 
 | name | role or area | email |
@@ -148,14 +176,6 @@ De Anza's faculty page labels Castro-Lima part-time faculty in the heading above
 | Eric Kuehnl | Music Technology program contact | kuehnleric@foothill.edu |
 
 Foothill offers an A.A. in Music Technology alongside the A.A. in Music, covering music production, audio engineering, and sound design, and a theory and composition track within the music degree. The music technology faculty directory page returns no entries, and Foothill's addresses follow lastnamefirstname@foothill.edu.
-
-## City College of San Francisco
-
-| name | role or area | email |
-| --- | --- | --- |
-| Madeline Mueller | Department Chair | mmueller@ccsf.edu |
-
-CCSF offers electronic music alongside its core Western curriculum and courses in African, Latin American, Asian, and African-American music. The department page publishes the chair and no other faculty.
 
 ## Skyline College
 
@@ -183,4 +203,21 @@ Collin Chu took his classical composition master's at CSU East Bay and works as 
 
 Solano's AA-T covers theory, musicianship, and performance, and the program description names composition among the specializations it prepares students for. The department faculty page is on a blog subdomain that refuses automated access, so these areas come from its search listing and no addresses were readable.
 
-Not yet combed: College of San Mateo, Cañada, West Valley, Mission, Napa Valley, Santa Rosa, and San Joaquin Delta.
+## West Valley College
+
+| name | role or area | email |
+| --- | --- | --- |
+| Robert Sinclair | Music Theory Coordinator; Director of Creating Music for Film, TV and Gaming; music composition | robert.sinclair@westvalley.edu |
+| Jeff Forehan | Director of Commercial Music | jeff.forehan@westvalley.edu |
+| Lou De La Rosa | Director of Choral and Vocal Studies; Performing Arts Department Chair | lou.delarosa@westvalley.edu |
+| Troy Davis | Director of Instrumental Music and Jazz Studies | troy.davis@westvalley.edu |
+| Ron Dotson | Music theory, music history, history of rock and roll, world music, applied viola | ron.dotson@wvm.edu |
+| Michael Lande | Commercial music | michael.lande@wvm.edu |
+| Jeff Hanson | Commercial music | jeffrey.hanson@wvm.edu |
+| Christopher Nicklin | Commercial music, guitar | christopher.nicklin@wvm.edu |
+
+West Valley's full-time faculty use westvalley.edu and its part-time faculty use wvm.edu. The addresses are obfuscated on the faculty page and decoded here.
+
+Pedro Gomez teaches applied clarinet at West Valley and music appreciation and fundamentals at Skyline. Justin Su'esu'e teaches musical theater and applied voice at West Valley and voice at Chabot.
+
+Not yet combed: Mission, Napa Valley, Santa Rosa, and San Joaquin Delta.
