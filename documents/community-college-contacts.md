@@ -1,6 +1,6 @@
 # community college music contacts
 
-Music faculty at the community colleges that send transfer students to the Department of Music, with the theory and the composition, production, and technology faculty at each. The first group is every college in Alameda and Contra Costa counties, CSUEB's service area, that offers music. The second is the colleges outside those two counties. Verified against the colleges' own directories and program pages, September 19, 2026. Each college heading links to its music department. Names link to a personal or professional site where one exists.
+Music faculty at the community colleges that send transfer students to the Department of Music, with the theory and the composition, production, and technology faculty at each. The first group is every college in Alameda and Contra Costa counties, CSUEB's service area, that offers music. The second is the colleges outside those two counties. Verified against the colleges' own directories and program pages, September 19 and 20, 2026. Each college heading links to its music department. Names link to a personal or professional site where one exists.
 
 ## Berkeley City College
 
@@ -13,7 +13,7 @@ Music faculty at the community colleges that send transfer students to the Depar
 | Matthew McLean | Music | mmclean@peralta.edu |
 | [Alfred (Fred) Randolph](https://www.fredrandolph.com/) | Music | arandolph@peralta.edu |
 
-Degrees and certificates: not yet confirmed.
+Degrees and certificates: none in music. The Peralta district's degree and certificate listing carries no music entry for Berkeley City College.
 
 Mobley holds a doctorate in composition and theory and teaches counterpoint and composition at the California Jazz Conservatory.
 
@@ -44,7 +44,7 @@ Lucas Schwyter's address uses his legal first name, Young Kwang.
 | Glen Pearson | Department Chair and lead faculty, Music; piano, jazz piano, jazz ensemble, jazz and popular music history | gpearson@peralta.edu |
 | Silvester Henderson | Vocal and choral courses, classical and gospel piano; also full-time at Los Medanos | shenderson@losmedanos.edu |
 
-Degrees and certificates: not yet confirmed.
+Degrees and certificates: certificates of achievement in Gospel Music Performance and in Jazz Studies/Popular Music Performance. The Peralta district listing carries no music degree for College of Alameda.
 
 Henderson teaches at both colleges, and his Los Medanos address is the published one.
 
@@ -89,7 +89,7 @@ The DVC directory lists its music faculty under Music with no subject area.
 | Darcee Olson | Commercial Music; contracts, licensing, intellectual property | dolson@peralta.edu |
 | Victor Siu | Commercial Music; Pop Music Ensemble | vsiu@peralta.edu |
 
-Degrees and certificates: A.A. in Chinese Music, A.A. in Jazz, A.A. in Music, A.A.-T in Music, A.A. in Commercial Music, and certificates of achievement in Chinese Music, Jazz, Music, and Commercial Music.
+Degrees and certificates: A.A. in Chinese Music, A.A. in Jazz, A.A. in Music, A.A.-T in Music, A.A. in Commercial Music, and certificates of achievement in Chinese Music, Jazz, Music, Commercial Music, Music History, Music Theory, and Musicianship and Performance.
 
 Laney lists its other music faculty as Instructor, Music, with no subject area.
 
@@ -142,7 +142,7 @@ Degrees and certificates: A.A.-T in Music. The Recording Arts program's degree a
 | Summer Benton Nickerson | Voice, musicology, musical theatre | snickerson@peralta.edu |
 | [Constance Koo](http://constancekoo.com) | Harp, dual enrollment | ckoo@peralta.edu |
 
-Degrees and certificates: not yet confirmed.
+Degrees and certificates: none in music. The Peralta district's degree and certificate listing carries no music entry for Merritt College.
 
 Merritt's faculty table spells the name Colin Chew. A photo caption on the same page reads Collin Chu, the address is cchu@peralta.edu, and Rate My Professors carries a Collin Chu at Merritt.
 
@@ -158,7 +158,7 @@ Merritt's faculty table spells the name Colin Chew. A photo caption on the same 
 | [Marcel Castro-Lima](https://castrolima.com/) | Music theory and harmony, world music | not published |
 | Kristal Kim | Piano, music history, music theory | not published |
 
-Degrees and certificates: not yet confirmed.
+Degrees and certificates: A.A. in Music, A.A.-T in Music, and A.A. in Fine Arts with a concentration in Music. Certificates of accomplishment in Commercial Music, Music Theory, Piano Performance, Vocal Music Performance, and Vocal Music Performance: Advanced.
 
 Jim McManus, who taught theory and composition at Ohlone and holds a D.M.A. in composition, is listed as emeritus.
 
@@ -174,7 +174,7 @@ De Anza College lists Marcel Castro-Lima as chair of its Music Department and di
 | --- | --- | --- |
 | David Meckler | Professor, Music | mecklerd@smccd.edu |
 
-Degrees and certificates: not yet confirmed.
+Degrees and certificates: A.A. in Music. The catalog's program page states that the major doesn't prepare students for transfer into most four-year music degree programs, which ask for ensemble performance experience and other courses offered elsewhere in the district.
 
 Cañada's music page lists one faculty member.
 
