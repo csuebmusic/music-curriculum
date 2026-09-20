@@ -20,16 +20,3 @@ Come visit us to experience the recital hall, the studios, and whatever rehearsa
 
 Department of Music and Performing Arts, CSUEB Music Building, MB 2569
 25800 Carlos Bee Boulevard, Hayward, CA 94542
-
-## this repository
-
-Curriculum, committee, assessment, and webmaster work for the department, maintained by Inés Thiebaut. Each folder carries its own README with the files inside it.
-
-- [curriculum](curriculum/): course and program proposals, the Theory and Musicianship sequence, the catalog audit, and term scheduling.
-- [documents](documents/): handbooks, roadmaps, admissions emails, forms, and transfer contacts.
-- [committee](committee/): CLASS Curriculum Committee work and the graduate facilitator pocket.
-- [syllabi](syllabi/): posted syllabi for individual sections, one file per section per term.
-- [assessment](assessment/): program learning outcomes, assessment reports, and review cycles.
-- [conventions](conventions/): the house style for the documents here.
-
-HTML documents are published at [csuebmusic.github.io/music-curriculum](https://csuebmusic.github.io/music-curriculum/).
