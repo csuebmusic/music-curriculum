@@ -4,7 +4,7 @@ Music faculty at the community colleges that send transfer students to the Depar
 
 ## Berkeley City College
 
-[music studies](https://www.berkeleycitycollege.edu/arts_and_culture/)
+[academic departments](https://www.berkeleycitycollege.edu/academic-departments)
 
 | name | role or area | email |
 | --- | --- | --- |
@@ -13,7 +13,9 @@ Music faculty at the community colleges that send transfer students to the Depar
 | Matthew McLean | Music | mmclean@peralta.edu |
 | [Alfred (Fred) Randolph](https://www.fredrandolph.com/) | Music | arandolph@peralta.edu |
 
-Degrees and certificates: none in music. The Peralta district's degree and certificate listing carries no music entry for Berkeley City College.
+Degrees and certificates: none in music.
+
+Music at Berkeley City College sits inside the Arts and Cultural Studies area.
 
 Mobley holds a doctorate in composition and theory and teaches counterpoint and composition at the California Jazz Conservatory.
 
@@ -127,7 +129,9 @@ Ian Brekke has left Las Positas. He's Center for the Arts Manager for the City o
 | Silvester Henderson | Director of Choral and Vocal Activities | shenderson@losmedanos.edu |
 | Rick Shiner | Recording Arts Chair; founding faculty of the program | not published |
 
-Degrees and certificates: A.A.-T in Music. The Recording Arts program's degree and certificate titles are not yet confirmed.
+Degrees and certificates: A.A.-T in Music and A.A. in Music, the A.A. inactive for 2026-2027. Recording Arts is a separate program with its own A.A. in Recording Arts and a certificate of achievement in Recording Arts.
+
+The Recording Arts pages give Aaron Nakaji as the program contact and coordinator.
 
 ## Merritt College
 
