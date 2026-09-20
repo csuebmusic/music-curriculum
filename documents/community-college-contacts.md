@@ -134,7 +134,7 @@ Degrees and certificates: A.A.-T in Music. The Recording Arts program's degree a
 | name | role or area | email |
 | --- | --- | --- |
 | Monica Ambalal | Department Chair; musicology, ethnomusicology | mambalal@peralta.edu |
-| Colin Chew | Composition, theory, music appreciation | cchu@peralta.edu |
+| [Collin Chu](https://www.collinchu.com/) | Composition, theory, music appreciation; also music technology at Skyline | cchu@peralta.edu |
 | Eric Hansen | Orchestra, piano | ehansen@peralta.edu |
 | Matthew McLean | Guitar, jazz and popular music, music appreciation | mmclean@peralta.edu |
 | Summer Benton Nickerson | Voice, musicology, musical theatre | snickerson@peralta.edu |
@@ -142,7 +142,7 @@ Degrees and certificates: A.A.-T in Music. The Recording Arts program's degree a
 
 Degrees and certificates: not yet confirmed.
 
-The Merritt faculty table names Colin Chew, a photo caption on the same page reads Collin Chu, and the address is cchu@peralta.edu.
+Merritt's faculty table spells the name Colin Chew. A photo caption on the same page reads Collin Chu, the address is cchu@peralta.edu, and Rate My Professors carries a Collin Chu at Merritt.
 
 ## Ohlone College
 
@@ -240,7 +240,7 @@ The music technology faculty directory page returns no entries. Foothill's addre
 | name | role or area | email |
 | --- | --- | --- |
 | Jude Navari | Music theory, musicianship, music fundamentals, composition, music major faculty advisor | navarij@smccd.edu |
-| [Collin Chu](https://www.collinchu.com/) | Music technology; composer for film and games, M.A. in composition from CSU East Bay | not published |
+| [Collin Chu](https://www.collinchu.com/) | Music technology; composer for film and games, M.A. in composition from CSU East Bay; also composition and theory at Merritt | cchu@peralta.edu, his Merritt address |
 | Michelle Hawkins | Vocal jazz ensemble, concert choir, history of jazz, applied lessons coordinator | hawkinsm@smccd.edu |
 | Luis Zúñiga | Concert band, jazz band, pit orchestra, music fundamentals | not published |
 | Meghan Dibble | Voice, applied voice, music fundamentals | dibblem@smccd.edu |
@@ -250,7 +250,7 @@ Degrees and certificates: not yet confirmed.
 
 Skyline addresses are surname plus first initial at smccd.edu. The faculty page prints Dibble's in full; Navari's, Hawkins's, and Ingber's are the district directory usernames carried in that page's profile images. Zúñiga and Chu use local photos, so their addresses aren't on the page.
 
-Collin Chu took his classical composition master's at CSU East Bay and works as a composer at Ubisoft. Meghan Dibble also studied at CSU East Bay.
+Collin Chu took his classical composition master's at CSU East Bay and works as a composer at Ubisoft. Skyline publishes no address for him, so the Merritt one above is the route. He also teaches at University of Silicon Valley and Feather River College. Meghan Dibble studied at CSU East Bay.
 
 ## Solano Community College
 
