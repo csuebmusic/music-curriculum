@@ -1,6 +1,6 @@
 # university house style
 
-version 1.2, september 2026. the on-screen reference is house-style-specimen.html.
+version 1.3, september 2026. the on-screen reference is house-style-specimen.html.
 
 This governs the curriculum and university documents I produce and share through this project: proposals, committee papers, assessment reports, and handbooks. The course projects use their own style. The Cascade website pocket uses none of this one.
 
@@ -55,4 +55,10 @@ Lowercase headings throughout, no title case, no all caps. Flat surfaces: hairli
 
 ## channels
 
-This file is canonical; source-of-truth points here. The screen reference is house-style-specimen.html. For Word or PDF submissions, the matching template applies these same tokens, and the document either uses Courier Prime and Source Serif 4 where installed or falls back to Courier New and Georgia. The Cascade website pocket does not use this style.
+This file is canonical; source-of-truth points here. The screen reference is house-style-specimen.html.
+
+Committee papers, proposals, and assessment reports go out as Word or PDF from templates/house-style-template.docx, which applies these same tokens. The document uses Courier Prime and Source Serif 4 where installed and falls back to Courier New and Georgia.
+
+Student-facing documents are screen-first and ship as finished HTML. The handbooks and roadmaps apply this style through `documents/handbooks/handbooks.css`, and the Theory and Musicianship set through `curriculum/undergraduate-theory-musicianship/theory-musicianship.css`. Both stylesheets track house-style v1. The roadmaps layer `documents/roadmaps/roadmaps.css` on top for the general-education color and for print. The posted semester syllabi use `syllabi/assets/syllabus.css`, tracking the same version.
+
+The admissions email templates carry inline styles only, with no stylesheet, no tables, and no fixed widths, and the Salesforce wrapper controls layout. The page that presents them is house-styled through `documents/handbooks/handbooks.css`.
