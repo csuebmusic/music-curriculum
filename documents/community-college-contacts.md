@@ -149,4 +149,38 @@ De Anza's faculty page labels Castro-Lima part-time faculty in the heading above
 
 Foothill offers an A.A. in Music Technology alongside the A.A. in Music, covering music production, audio engineering, and sound design, and a theory and composition track within the music degree. The music technology faculty directory page returns no entries, and Foothill's addresses follow lastnamefirstname@foothill.edu.
 
-Not yet combed: City College of San Francisco, Skyline, College of San Mateo, Cañada, West Valley, Mission, Solano, Napa Valley, Santa Rosa, and San Joaquin Delta.
+## City College of San Francisco
+
+| name | role or area | email |
+| --- | --- | --- |
+| Madeline Mueller | Department Chair | mmueller@ccsf.edu |
+
+CCSF offers electronic music alongside its core Western curriculum and courses in African, Latin American, Asian, and African-American music. The department page publishes the chair and no other faculty.
+
+## Skyline College
+
+| name | role or area | email |
+| --- | --- | --- |
+| Jude Navari | Music theory, musicianship, music fundamentals, composition, music major faculty advisor | navarij@smccd.edu |
+| Collin Chu | Music technology; composer for film and games, M.A. in composition from CSU East Bay | not published |
+| Michelle Hawkins | Vocal jazz ensemble, concert choir, history of jazz, applied lessons coordinator | hawkinsm@smccd.edu |
+| Luis Zúñiga | Concert band, jazz band, pit orchestra, music fundamentals | not published |
+| Meghan Dibble | Voice, applied voice, music fundamentals | dibblem@smccd.edu |
+| Elizabeth Ingber | Piano, violin and viola, applied piano | ingbere@smccd.edu |
+
+Skyline addresses are surname plus first initial at smccd.edu. The faculty page prints Dibble's in full; Navari's, Hawkins's, and Ingber's are the district directory usernames carried in that page's profile images. Zúñiga and Chu use local photos, so their addresses aren't on the page.
+
+Collin Chu took his classical composition master's at CSU East Bay and works as a composer at Ubisoft. Meghan Dibble also studied at CSU East Bay.
+
+## Solano Community College
+
+| name | role or area | email |
+| --- | --- | --- |
+| Teri Yumae | Piano, theory, music appreciation, orchestra | not published |
+| Kristy Juliano | Fundamentals, collegiate choir, chamber choir, vocal jazz, voice, piano | not published |
+| Tim Acosta | Jazz ensemble, stage band, brass ensemble | not published |
+| Stephen L. Holland | Multicultural music, guitar | not published |
+
+Solano's AA-T covers theory, musicianship, and performance, and the program description names composition among the specializations it prepares students for. The department faculty page is on a blog subdomain that refuses automated access, so these areas come from its search listing and no addresses were readable.
+
+Not yet combed: College of San Mateo, Cañada, West Valley, Mission, Napa Valley, Santa Rosa, and San Joaquin Delta.
