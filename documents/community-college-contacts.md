@@ -9,7 +9,6 @@ Music faculty at the community colleges that send transfer students to the Depar
 | name | role or area | email |
 | --- | --- | --- |
 | A.D. (Aaron) Mobley | Lead faculty, Music; composer, theorist, musicologist | amobley@peralta.edu |
-| [Clinton Day](http://www.clintondaymusic.com) | Jazz history, American popular music, history of Western music | cday@peralta.edu |
 | Matthew McLean | Guitar, jazz and popular music, music appreciation; also at Merritt | mmclean@peralta.edu |
 | [Alfred (Fred) Randolph](https://www.fredrandolph.com/) | Music | arandolph@peralta.edu |
 
