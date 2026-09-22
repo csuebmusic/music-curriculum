@@ -1,0 +1,45 @@
+/* ============================================================
+   csueb-handbook — brand override
+   layers over handbooks.css for the university-level handbook,
+   which follows CSUEB visual identity rather than the project
+   house style. Montserrat carries the structural work, Roboto
+   Serif carries the prose.
+
+   https://www.csueastbay.edu/universitycommunications/brand/fonts-and-colors.html
+
+   --mono keeps its name from the base sheet and its structural
+   role (headings, nav, labels, table headers); the face it
+   resolves to is the brand display face.
+   ============================================================ */
+
+@import url("handbooks.css");
+
+:root {
+  --serif: "Roboto Serif", Georgia, serif;
+  --mono:  "Montserrat", "Helvetica Neue", Arial, sans-serif;
+
+  /* palette — brand hex values pending.
+     Until they're set, these inherit the base sheet's neutrals
+     and its accent. */
+}
+
+/* Roboto Serif carries a larger x-height than Source Serif 4,
+   so the measure and leading come down a little. */
+body { font-size: 16.5px; line-height: 1.65; }
+
+/* Montserrat is proportional; the base sheet's tracking was set
+   for a monospace face and runs loose here. */
+.nav-logo   { letter-spacing: 0.01em; }
+.nav-version{ letter-spacing: 0.03em; }
+h1          { letter-spacing: -0.02em; }
+h2          { letter-spacing: -0.01em; }
+h3, h4      { letter-spacing: 0; }
+.policy-label, .nav-num { letter-spacing: 0.06em; }
+.hb-table thead th { letter-spacing: 0.02em; }
+
+/* Montserrat sits optically larger than Courier Prime at the same
+   size; the chrome steps down to hold the hierarchy. */
+.nav-logo    { font-size: 0.86rem; }
+.nav-version { font-size: 0.7rem; }
+nav a        { font-size: 0.82rem; }
+.c-line      { font-size: 0.78rem; }
