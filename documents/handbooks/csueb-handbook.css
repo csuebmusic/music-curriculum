@@ -54,3 +54,10 @@ h3, h4      { letter-spacing: 0; }
 .nav-version { font-size: 0.7rem; }
 nav a        { font-size: 0.82rem; }
 .c-line      { font-size: 0.78rem; }
+
+/* The base sheet lowercases headings, nav, labels, and table headers
+   for the house style. This handbook sets them as written. */
+h1, h2, h3, h4,
+nav a, .nav-logo, .nav-version,
+.contact h4, .office-pop h4,
+.policy-label, .hb-table thead th { text-transform: none; }
