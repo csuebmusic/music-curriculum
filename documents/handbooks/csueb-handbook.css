@@ -60,7 +60,8 @@ nav a        { font-size: 0.82rem; }
 .page-header h1, .hb-section > h2, .front h2, h3, h4, h5,
 nav a, .nav-logo, .nav-version,
 .contact h4, .office-pop h4,
-.policy-label, .hb-table thead th { text-transform: none; }
+.policy-block .policy-label,
+.hb-table th { text-transform: none; }
 
 /* signature block on the welcome letter */
 .letter-sign { margin-top: 1.6rem; }
