@@ -18,10 +18,21 @@
   --serif: "Roboto Serif", Georgia, serif;
   --mono:  "Montserrat", "Helvetica Neue", Arial, sans-serif;
 
-  /* palette — brand hex values pending.
-     Until they're set, these inherit the base sheet's neutrals
-     and its accent. */
+  /* brand primary palette */
+  --accent:       #D50032;   /* brand red */
+  --gold:         #FDC25A;   /* brand gold */
+  --ink:          #000000;   /* brand black */
+
+  --accent-tint:  #FCE6EA;   /* derived wash for the note block */
+  --ink-soft:     #55575B;   /* derived from brand black for secondary text */
+  --rule:         #E4E4E6;
 }
+
+/* Brand red clears AA on white at 5.4:1 and carries the accent there.
+   Brand gold reaches only 1.7:1 on white, so it stays on the dark
+   sidebar, where it reads at 13:1 against brand black. */
+nav a .nav-num { color: var(--gold); }
+.nav-divider   { border-color: rgba(253, 194, 90, 0.35); }
 
 /* Roboto Serif carries a larger x-height than Source Serif 4,
    so the measure and leading come down a little. */
