@@ -61,3 +61,9 @@ h1, h2, h3, h4,
 nav a, .nav-logo, .nav-version,
 .contact h4, .office-pop h4,
 .policy-label, .hb-table thead th { text-transform: none; }
+
+/* signature block on the welcome letter */
+.letter-sign { margin-top: 1.6rem; }
+.letter-sign p { margin: 0; }
+.letter-sign p + p { margin-top: 0.9rem; }
+.letter-sign strong { font-family: var(--mono); font-weight: 700; }
