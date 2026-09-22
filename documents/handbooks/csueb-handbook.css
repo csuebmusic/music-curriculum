@@ -1,9 +1,8 @@
 /* ============================================================
    csueb-handbook — brand override
-   layers over handbooks.css for the university-level handbook,
-   which follows CSUEB visual identity rather than the project
-   house style. Montserrat carries the structural work, Roboto
-   Serif carries the prose.
+   layers over handbooks.css for the handbooks that follow CSUEB
+   visual identity rather than the project house style. Montserrat
+   carries the structural work, Roboto Serif carries the prose.
 
    https://www.csueastbay.edu/universitycommunications/brand/fonts-and-colors.html
 
@@ -61,7 +60,8 @@ nav a        { font-size: 0.82rem; }
 nav a, .nav-logo, .nav-version,
 .contact h4, .office-pop h4,
 .policy-block .policy-label,
-.hb-table th { text-transform: none; }
+.hb-table th, .hb-table tr.row-accent td,
+.jarea, .jlevel, .jlabel, .cl-group { text-transform: none; }
 
 /* signature block on the welcome letter */
 .letter-sign { margin-top: 1.6rem; }
