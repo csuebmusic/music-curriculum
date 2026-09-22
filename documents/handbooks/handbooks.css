@@ -1,28 +1,30 @@
 /* ============================================================
    handbooks — web stylesheet
-   the house style (conventions/house-style.md) applied to the
-   department handbooks. one sheet, linked by every handbook in
-   documents/handbooks/, so a style change here never touches the
-   curriculum set or the rest of the repo.
+   CSUEB visual identity applied to the handbooks and guides in
+   documents/handbooks/. one sheet, linked by every file here, so a
+   style change never touches the curriculum set or the rest of the
+   repo.
 
-   typed-memo character: Courier Prime does the structural work,
-   Source Serif 4 carries the prose, white page, one oxblood accent.
+   Montserrat does the structural work, Roboto Serif carries the
+   prose, white page, brand red on white and brand gold on the dark
+   sidebar.
 
-   built june 2026, tracking house-style v1.
+   https://www.csueastbay.edu/universitycommunications/brand/fonts-and-colors.html
    ============================================================ */
 
 :root {
-  /* house tokens (conventions/house-style.md is source of truth) */
+  /* CSUEB brand primary palette */
   --paper:        #FFFFFF;
   --canvas:       #F2F2F0;
-  --ink:          #1B1C1E;
-  --ink-soft:     #5E6166;
-  --rule:         #E6E6E3;
-  --accent:       #6E1F2A;   /* oxblood */
-  --accent-tint:  #F7ECED;
+  --ink:          #000000;   /* brand black */
+  --ink-soft:     #55575B;
+  --rule:         #E4E4E6;
+  --accent:       #D50032;   /* brand red, 5.4:1 on white */
+  --gold:         #FDC25A;   /* brand gold, sidebar only: 1.7:1 on white */
+  --accent-tint:  #FCE6EA;
 
-  --serif: "Source Serif 4", Georgia, serif;
-  --mono:  "Courier Prime", ui-monospace, "Courier New", monospace;
+  --serif: "Roboto Serif", Georgia, serif;
+  --mono:  "Montserrat", "Helvetica Neue", Arial, sans-serif;
 
   --sidebar-w: 300px;
   --max-w:     1080px;
@@ -37,8 +39,8 @@ body {
   color: var(--ink);
   font-family: var(--serif);
   font-weight: 400;
-  font-size: 17px;
-  line-height: 1.7;
+  font-size: 16.5px;
+  line-height: 1.65;
   -webkit-font-smoothing: antialiased;
   display: flex;
 }
@@ -60,9 +62,9 @@ nav {
 }
 .nav-logo {
   font-family: var(--mono);
-  font-size: 0.85rem;
+  font-size: 0.86rem;
   font-weight: 700;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.01em;
   line-height: 1.4;
   color: #fff;
   border-bottom: 1px solid rgba(255,255,255,0.18);
@@ -70,8 +72,8 @@ nav {
 }
 .nav-version {
   font-family: var(--mono);
-  font-size: 0.66rem;
-  letter-spacing: 0.06em;
+  font-size: 0.7rem;
+  letter-spacing: 0.03em;
   color: rgba(255,255,255,0.4);
   margin-top: 0.5rem;
   margin-bottom: 1.4rem;
@@ -82,13 +84,13 @@ nav a {
   color: rgba(255,255,255,0.74);
   text-decoration: none;
   border: none;
-  font-size: 0.83rem;
+  font-size: 0.82rem;
   line-height: 1.4;
   padding: 0.32rem 0;
   transition: color 0.15s;
 }
 nav a:hover { color: #fff; }
-nav a .nav-num { color: var(--accent); font-weight: 700; margin-right: 0.5rem; }
+nav a .nav-num { color: var(--gold); font-weight: 700; letter-spacing: 0.06em; margin-right: 0.5rem; }
 .nav-sub {
   font-size: 0.77rem !important;
   color: rgba(255,255,255,0.55) !important;
@@ -103,7 +105,7 @@ nav a .nav-num { color: var(--accent); font-weight: 700; margin-right: 0.5rem; }
 .nav-sub2:hover { color: #fff !important; }
 .nav-divider {
   border: none;
-  border-top: 1px solid rgba(255,255,255,0.14);
+  border-top: 1px solid rgba(253, 194, 90, 0.35);
   margin: 1.1rem 0 0.6rem;
 }
 
@@ -136,9 +138,8 @@ main {
   font-size: 1.7rem;
   font-weight: 700;
   line-height: 1.25;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.02em;
   color: var(--ink);
-  text-transform: lowercase;
   margin-bottom: 0.5rem;
 }
 .page-header .subtitle {
@@ -167,7 +168,6 @@ main { counter-reset: sec; }
   font-family: var(--mono);
   font-size: 1.22rem;
   font-weight: 700;
-  text-transform: lowercase;
   letter-spacing: 0;
   color: var(--ink);
   margin-bottom: 1rem;
@@ -191,7 +191,6 @@ main { counter-reset: sec; }
   font-family: var(--mono);
   font-size: 1.22rem;
   font-weight: 700;
-  text-transform: lowercase;
   color: var(--ink);
   margin-bottom: 0.85rem;
   padding-bottom: 0.5rem;
@@ -203,7 +202,6 @@ h3 {
   font-family: var(--mono);
   font-size: 1.08rem;
   font-weight: 700;
-  text-transform: lowercase;
   color: var(--ink);
   margin: 1.7rem 0 0.6rem;
 }
@@ -211,7 +209,6 @@ h4 {
   font-family: var(--mono);
   font-size: 0.98rem;
   font-weight: 700;
-  text-transform: lowercase;
   letter-spacing: 0.02em;
   color: var(--ink);
   margin: 1.2rem 0 0.5rem;
@@ -220,7 +217,6 @@ h5 {
   font-family: var(--mono);
   font-size: 0.86rem;
   font-weight: 700;
-  text-transform: lowercase;
   letter-spacing: 0.02em;
   color: var(--ink-soft);
   margin: 1.1rem 0 0.4rem;
@@ -291,8 +287,7 @@ ol.num-steps > li::before {
   flex: 0 0 auto; text-align: right; white-space: nowrap; min-width: 4.5rem;
 }
 .cl-group {
-  font-family: var(--mono); font-size: 0.78rem; font-weight: 700;
-  text-transform: lowercase; letter-spacing: 0.03em; color: var(--ink);
+  font-family: var(--mono); font-size: 0.78rem; font-weight: 700; letter-spacing: 0.03em; color: var(--ink);
   margin: 1.2rem 0 0.3rem;
 }
 
@@ -321,8 +316,7 @@ ol.num-steps > li::before {
   background: var(--paper);
 }
 .contact h4 {
-  font-family: var(--mono); font-size: 0.92rem; font-weight: 700;
-  text-transform: lowercase; color: var(--ink); margin: 0 0 0.4rem;
+  font-family: var(--mono); font-size: 0.92rem; font-weight: 700; color: var(--ink); margin: 0 0 0.4rem;
 }
 .c-line { font-family: var(--mono); font-size: 0.82rem; color: var(--ink-soft); line-height: 1.7; overflow-wrap: anywhere; }
 .c-line strong { color: var(--ink); font-weight: 700; }
@@ -340,7 +334,7 @@ ol.num-steps > li::before {
 }
 .policy-block .policy-label {
   font-family: var(--mono); font-size: 0.72rem; font-weight: 700;
-  letter-spacing: 0.04em; text-transform: lowercase; color: var(--accent);
+  letter-spacing: 0.04em; color: var(--accent);
   display: block; margin-bottom: 0.4rem;
 }
 .policy-block p { margin-bottom: 0.5rem; }
@@ -362,8 +356,7 @@ table.hb-table {
   margin: 0.8rem 0 1rem;
 }
 .hb-table th {
-  font-family: var(--mono); font-size: 0.84rem; font-weight: 700;
-  text-transform: lowercase; color: var(--ink);
+  font-family: var(--mono); font-size: 0.84rem; font-weight: 700; color: var(--ink);
   text-align: left; padding: 0 0.7rem 0.55rem;
   border-bottom: 1.5px solid var(--accent);
 }
@@ -377,7 +370,7 @@ table.hb-table {
 }
 .hb-table td.num, .hb-table th.num { text-align: right; font-family: var(--mono); font-size: 0.85rem; }
 .hb-table tr.row-accent td {
-  font-family: var(--mono); font-weight: 700; text-transform: lowercase;
+  font-family: var(--mono); font-weight: 700;
   color: var(--accent); background: var(--accent-tint);
 }
 
@@ -402,7 +395,6 @@ table.hb-table {
   font-family: var(--mono);
   font-size: 1rem;
   font-weight: 700;
-  text-transform: lowercase;
   letter-spacing: 0.02em;
   color: var(--accent);
   background: var(--accent-tint);
@@ -414,7 +406,6 @@ table.hb-table {
   font-family: var(--mono);
   font-size: 0.95rem;
   font-weight: 700;
-  text-transform: lowercase;
   letter-spacing: 0;
   color: var(--ink);
   margin: 1.5rem 0 0.5rem;
@@ -432,7 +423,6 @@ table.hb-table {
   font-family: var(--mono);
   font-size: 0.95rem;
   font-weight: 700;
-  text-transform: lowercase;
   color: var(--ink-soft);
   margin: 0.85rem 0 0.2rem;
 }
@@ -622,3 +612,9 @@ table.tk-table { width: 100%; border-collapse: collapse; font-family: var(--mono
   #print-root tr.pr-total td { border-top: 1.5px solid var(--accent); border-bottom: none; font-weight: 700; }
   #print-root .pr-foot { font-family: var(--mono); font-size: 9px; color: var(--ink-soft); margin-top: 1rem; }
 }
+
+/* signature block on a welcome letter */
+.letter-sign { margin-top: 1.6rem; }
+.letter-sign p { margin: 0; }
+.letter-sign p + p { margin-top: 0.9rem; }
+.letter-sign strong { font-family: var(--mono); font-weight: 700; }

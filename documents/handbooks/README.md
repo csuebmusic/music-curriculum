@@ -1,6 +1,6 @@
 # handbooks
 
-Student-facing HTML handbooks and guides, house-styled on `handbooks.css`. One stylesheet backs every Department of Music file here, so a change to it reaches all of them. The university handbook follows CSUEB visual identity instead, through `csueb-handbook.css`.
+Student-facing HTML handbooks and guides on CSUEB visual identity, Montserrat and Roboto Serif on the brand palette. One stylesheet, `handbooks.css`, backs every file here, so a change to it reaches all of them.
 
 ## student handbooks
 
@@ -18,6 +18,5 @@ Student-facing HTML handbooks and guides, house-styled on `handbooks.css`. One s
 
 ## supporting files
 
-- `handbooks.css`: the shared stylesheet, carrying the house style to screen.
-- `csueb-handbook.css`: the CSUEB brand layer over `handbooks.css`, Montserrat and Roboto Serif on the brand palette, used by the university handbook.
+- `handbooks.css`: the shared stylesheet, carrying CSUEB visual identity to screen.
 - `assets/`: the MUS 118, 119, and 218 keyboard exam PDFs the handbooks link.
