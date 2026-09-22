@@ -39,7 +39,7 @@ Mobley holds a doctorate in composition and theory and teaches counterpoint and 
 | name | role or area | email |
 | --- | --- | --- |
 | Glen Pearson | Department Chair and lead faculty, Music; piano, jazz piano, jazz ensemble, jazz and popular music history | gpearson@peralta.edu |
-| Silvester Henderson | Vocal and choral courses, classical and gospel piano; also full-time at Los Medanos | shenderson@losmedanos.edu |
+| Silvester Henderson | Vocal and choral courses, classical and gospel piano; retired from Los Medanos, January 2024 | shenderson@losmedanos.edu |
 
 - Certificates of achievement in Gospel Music Performance and in Jazz Studies/Popular Music Performance
 
@@ -118,9 +118,8 @@ Mobley holds a doctorate in composition and theory and teaches counterpoint and 
 
 | name | role or area | email |
 | --- | --- | --- |
-| Kyle Chuah | Department Chair, Music and Recording Arts; MIDI | not published |
+| Kyle Chuah | Department Chair, Music and Recording Arts; MIDI | kchuah@losmedanos.edu |
 | Aaron Nakaji | Music Laboratory Coordinator; Recording Arts program contact | anakaji@losmedanos.edu |
-| Silvester Henderson | Director of Choral and Vocal Activities; also at College of Alameda | shenderson@losmedanos.edu |
 | Michael Zilber | Jazz Studies | not published |
 | Luis Zúñiga | Concert Band; also at Skyline | not published |
 | Rick Shiner | Recording Arts; founding faculty of the program | not published |
