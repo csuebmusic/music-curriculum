@@ -289,7 +289,7 @@ Cañada's catalog says the A.A. doesn't prepare students for transfer into most 
 | [Collin Chu](https://www.collinchu.com/) | Music technology; composer for film and games at Ubisoft, M.A. in composition from CSU East Bay; also composition and theory at Merritt, and at University of Silicon Valley and Feather River | cchu@peralta.edu, his Merritt address |
 | Michelle Hawkins | Full-time; vocal jazz ensemble, concert choir, history of jazz, applied lessons coordinator | hawkinsm@smccd.edu |
 | Luis Zúñiga | Full-time; concert band, jazz band, pit orchestra, music fundamentals; also at Los Medanos | not published |
-| Meghan Dibble | Adjunct; voice, applied voice, music fundamentals, music appreciation; B.A., Cal State Hayward, 2000 | dibblem@smccd.edu |
+| Meghan Dibble | Adjunct; voice, applied voice, music fundamentals, music appreciation; Cal State Hayward alum, 2000 | dibblem@smccd.edu |
 | Pedro Gomez | Music appreciation and fundamentals; also applied clarinet at West Valley | not published |
 
 - A.A. in Music
