@@ -1,0 +1,90 @@
+/* print sheets: US Letter, house style v2.0 (conventions/house-style.md) */
+
+:root {
+  --paper: #FFFFFF;
+  --ink: #000000;
+  --ink-soft: #55575B;
+  --rule: #E4E4E6;
+  --accent: #D50032;
+  --accent-tint: #FCE6EA;
+}
+
+@page {
+  size: letter;
+  margin: 0.45in 0.6in 0.55in;
+  @bottom-left {
+    content: string(docid);
+    font-family: "Montserrat", Arial, sans-serif; font-size: 7pt; color: var(--ink-soft);
+    border-top: 0.5pt solid var(--rule); padding-top: 5pt; vertical-align: top;
+  }
+  @bottom-right {
+    content: counter(page) " / " counter(pages);
+    font-family: "Montserrat", Arial, sans-serif; font-size: 7pt; color: var(--ink-soft);
+    border-top: 0.5pt solid var(--rule); padding-top: 5pt; vertical-align: top;
+  }
+}
+
+html { background: var(--paper); }
+body { margin: 0; font-family: "Roboto Serif", Georgia, serif; font-size: 9.2pt; line-height: 1.45; color: var(--ink); }
+.docid { string-set: docid content(); display: block; height: 0; overflow: hidden; font-size: 0; }
+
+a { color: var(--accent); text-decoration: none; }
+p { margin: 0 0 5pt; }
+
+/* record header */
+.eyebrow { font-family: "Montserrat", Arial, sans-serif; font-size: 7.5pt; font-weight: 600; color: var(--ink-soft); margin-bottom: 4pt; }
+h1 { font-family: "Montserrat", Arial, sans-serif; font-weight: 700; font-size: 21pt; line-height: 1.15; margin: 0 0 3pt; }
+.meta { font-family: "Montserrat", Arial, sans-serif; font-size: 8.5pt; color: var(--ink-soft); margin-bottom: 7pt; }
+.record { display: grid; grid-template-columns: repeat(4, auto); gap: 0 16pt; border-bottom: 1.5px solid var(--accent); padding-bottom: 6pt; margin-bottom: 9pt; }
+.record div { font-family: "Montserrat", Arial, sans-serif; font-size: 8.5pt; }
+.record span { display: block; font-size: 6.8pt; color: var(--ink-soft); font-weight: 600; margin-bottom: 1pt; }
+.head-row { display: flex; justify-content: space-between; align-items: flex-start; gap: 14pt; }
+.head-row > div:first-child { flex: 1; }
+
+/* sections */
+section { margin-bottom: 7pt; }
+h2 { font-family: "Montserrat", Arial, sans-serif; font-weight: 700; font-size: 11.5pt; margin: 0 0 4pt; }
+h2 .num { color: var(--accent); margin-right: 7pt; }
+h3 { font-family: "Montserrat", Arial, sans-serif; font-weight: 700; font-size: 9pt; margin: 0 0 3pt; }
+.with-qr { display: flex; gap: 14pt; align-items: flex-start; }
+.with-qr > .text { flex: 1; }
+
+/* qr placeholders */
+.qr { width: 0.85in; flex: none; text-align: center; }
+.qr .box { width: 0.85in; height: 0.85in; border: 0.75pt solid var(--rule); box-sizing: border-box; }
+.qr .cap { font-family: "Montserrat", Arial, sans-serif; font-size: 6.5pt; color: var(--ink-soft); margin-top: 2pt; line-height: 1.25; }
+.qr-row { display: flex; gap: 18pt; margin-top: 6pt; }
+
+/* tables */
+table { width: 100%; border-collapse: collapse; margin: 2pt 0 6pt; }
+th { font-family: "Montserrat", Arial, sans-serif; font-weight: 600; font-size: 7.5pt; text-align: left; padding: 3pt 5pt 3pt 0; border-bottom: 1.5px solid var(--accent); }
+td { padding: 2.6pt 5pt 2.6pt 0; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th:last-child, td:last-child { text-align: right; padding-right: 0; }
+td.code { font-family: "Montserrat", Arial, sans-serif; font-size: 8.2pt; white-space: nowrap; width: 1%; padding-right: 9pt; }
+tr.total td { font-family: "Montserrat", Arial, sans-serif; font-weight: 700; font-size: 8.5pt; border-bottom: none; }
+
+/* steps */
+ol.steps { margin: 2pt 0 0; padding-left: 15pt; }
+ol.steps li { margin-bottom: 4pt; padding-left: 2pt; }
+ol.steps li::marker { font-family: "Montserrat", Arial, sans-serif; font-weight: 700; color: var(--accent); }
+ul.plain { margin: 2pt 0 4pt; padding-left: 13pt; }
+ul.plain li { margin-bottom: 1.5pt; }
+
+/* note block */
+.note { background: var(--accent-tint); border-left: 3px solid var(--accent); padding: 6pt 9pt; margin: 6pt 0; }
+.note .label { font-family: "Montserrat", Arial, sans-serif; font-weight: 700; font-size: 7.5pt; display: block; margin-bottom: 2pt; }
+.note p:last-child { margin-bottom: 0; }
+
+/* roadmap grid */
+.semesters { display: grid; grid-template-columns: 1fr 1fr; gap: 6pt 22pt; margin-top: 4pt; }
+.semesters table { table-layout: fixed; font-size: 8.5pt; line-height: 1.28; margin-bottom: 2pt; }
+.semesters col.c-code { width: 27%; }
+.semesters col.c-units { width: 9%; }
+.semesters td.code { white-space: normal; width: auto; font-size: 7.6pt; padding-right: 6pt; }
+.semesters td { padding: 1.6pt 4pt 1.6pt 0; }
+.contacts td { font-size: 8.8pt; }
+.contacts th:last-child, .contacts td:last-child { text-align: left; }
+.contacts td:first-child { font-family: "Montserrat", Arial, sans-serif; font-weight: 600; font-size: 8.2pt; }
+.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0 22pt; }
+.pagebreak { break-before: page; }
+.address { font-family: "Montserrat", Arial, sans-serif; font-size: 7.8pt; color: var(--ink-soft); margin-top: 6pt; }
