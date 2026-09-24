@@ -22,7 +22,7 @@ Each is edited separately. The coordinators page is built for advising and carri
 
 Grad Slam has four pages, all four in the left navigation: `grad-slam-competition.html` at 1,455 words, and 2025, 2024, and 2023 at 1,392, 1,298, and 1,201.
 
-FAST has two pages, `fast-programs.html` at 1,870 words and `fast-program-details.html` at 9,641, and 24 pairing sheets in `files/docs/fast-catalog/`, most pairings carrying both a 25-26 and a 26-27 file with the old year live.
+FAST is on one page, `fast-programs.html`. Removal of `fast-program-details.html` is with IT. The 24 pairing sheets in `files/docs/fast-catalog/` remain, most pairings carrying both a 25-26 and a 26-27 file with the old year live.
 
 The graduate student handbook runs to six pages. Four are under 300 words: introduction 269, admission and enrollment 519, additional information 111, contact information 129. The requirements page is 6,931.
 
@@ -40,7 +40,7 @@ Four category tiles. The landing page carries one tile each for master's, doctor
 
 Single list on the coordinators page. Each row carries program name, department page link, catalog link, and coordinator. The landing page and the prospective page point to it, and the program tiles come down. Settle first whether a prospective student should arrive at a coordinator table, or whether the single list belongs on a new graduate programs page with the coordinator as one column.
 
-Beyond the program listings: Grad Slam to one page with the past years as an archive section, FAST to one page with current-year sheets only, the four short handbook pages folded into the requirements page, one contact page that the others link to, and the alternate landing paths retired or redirected.
+Beyond the program listings: Grad Slam to one page with the past years as an archive section, the FAST catalog sheets cut to the current year, the four short handbook pages folded into the requirements page, one contact page that the others link to, and the alternate landing paths retired or redirected.
 
 ## open questions
 

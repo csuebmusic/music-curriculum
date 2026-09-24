@@ -29,7 +29,7 @@ On the public site:
 - Graduate program directory and program coordinators directory.
 - Grad Slam research presentation competition.
 - Graduate Opportunities and Financial Resources, and Next Step CSU Graduate Career Readiness.
-- [FAST programs page](https://www.csueastbay.edu/graduate-studies/fast-programs.html), addressed to juniors and transfer students with 70 to 90 units.
+- [FAST programs page](https://www.csueastbay.edu/graduate-studies/fast-programs.html), the general FAST information for students and faculty: eligibility at 60 to 90 program-applicable units, the application, international students, tuition and aid, graduate status, standing, and graduation.
 - [College of Business and Economics graduate events](https://www.csueastbay.edu/cbegrad/events.html), run by the college.
 - International Admissions Office, for international applicants.
 
