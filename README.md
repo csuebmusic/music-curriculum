@@ -9,7 +9,7 @@ We're a small department inside a large and unusually mixed university, and we t
 - [B.A. in Music](https://www.csueastbay.edu/music/prospective/ba.html): 120 units of applied lessons, ensembles, and coursework across performance, composition, music technology, jazz, and music education.
 - [M.A. in Music](https://www.csueastbay.edu/music/prospective/ma.html): 32 units, in Performance (Classical or Jazz), Choral Conducting, or Composition.
 - [Single Subject Matter Preparation Certificate in Music](https://www.csueastbay.edu/music/prospective/music-ed.html): preparation for the California Single Subject Teaching Credential in Music. Add it to the B.A., add it to the M.A., or take it on its own if you already hold a bachelor's.
-- [FAST 4+1 B.A./M.A.](https://www.csueastbay.edu/music/prospective/blended-b.a-m.a-4+1.html): both degrees in five years, for students already in the B.A. here, who apply in the junior year. Second-bachelor's students aren't eligible.
+- [FAST 4+1 B.A./M.A.](https://www.csueastbay.edu/music/prospective/blended-b.a-m.a-4+1.html): both degrees in five years, for students already in the B.A. here, who apply in the junior year. Second-bachelor's students and double majors aren't eligible.
 - [Music Minor](https://www.csueastbay.edu/music/prospective/music-minor.html): 21 units, open to any major.
 
 ## applying
