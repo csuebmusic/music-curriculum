@@ -1,8 +1,7 @@
 # roadmaps
 
-Student-facing HTML roadmaps for the B.A. in Music, the FAST blended degrees, and the music education certificate, house-styled on
-`../handbooks/handbooks.css`. Generated from the department's 2026-2027
-roadmap PDFs and intended as the editable, linkable home for that content.
+Student-facing HTML roadmaps for the B.A. in Music, the FAST blended degrees, and the music education certificate, catalog 2027–2028, house-styled on
+`../handbooks/handbooks.css`.
 
 - [ba-roadmap-4-year.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-roadmap-4-year.html): first-year entry, 120 units.
 - [ba-roadmap-2-year-transfer.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-roadmap-2-year-transfer.html): Music ADT transfer entry, 60 units in residence.
