@@ -6,6 +6,10 @@ Agendas, minutes, papers, and proposal review for the CLASS Curriculum Committee
 
 Curriculog proposals under committee review are recorded as Markdown from the Curriculog preview, with a review file alongside each one where feedback has been given. None are recorded at present.
 
+## agendas
+
+- [September 29, 2026](agendas/2026-09-29-agenda.docx): 45 course proposals for the 2027–2028 catalog and the Philosophy Minor revision.
+
 ## papers
 
 - [geoc alignment form, draft](papers/geoc-alignment-form-proposed.docx): a one-page replacement for the 2026/2027 alignment form, keyed to the attached syllabus rather than reproducing it. It follows the formatting of the GEOC form it would replace, not `conventions/house-style.md`.
@@ -16,4 +20,4 @@ Standing reference for review, in [reference/](reference/): the GE Framework sta
 
 ## naming
 
-One file per proposal, named for the program, the proposal type, and the proposed effective term. The review file carries the same stem with `-review` appended.
+One file per proposal, named for the program, the proposal type, and the proposed effective term. The review file carries the same stem with `-review` appended. Agendas are named for the meeting date, `YYYY-MM-DD-agenda.docx`.
