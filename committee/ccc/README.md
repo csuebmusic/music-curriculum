@@ -22,6 +22,13 @@ Working notes ahead of meetings, in [notes/](notes/): the CRJ proposals at the C
 
 Standing reference for review, in [reference/](reference/): the GE Framework starting Fall 2027, the GEOC faculty guide, the GEOC proposal checklist, the GEOC alignment form, and the 25-26 CIC 1 syllabus policy, with a currency file recording what in each is superseded, the curricular deadlines, and links to the live GEOC pages.
 
+## review
+
+- Confirm the GEOC alignment form is attached. The committee doesn't review its content; GEOC reviews alignment at its step.
+- Check the syllabus against the syllabus policy (25-26 CIC 1), and the proposal fields against the syllabus.
+- Review notes carry anything about SLO content. SLO format stays out.
+- Review notes leave out small items such as a missing classroom location or telephone number.
+
 ## naming
 
 One file per proposal, named for the program, the proposal type, and the proposed effective term. The review file carries the same stem with `-review` appended. Agendas are named for the meeting date, `YYYY-MM-DD-agenda.docx`.
