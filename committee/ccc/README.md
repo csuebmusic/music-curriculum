@@ -27,7 +27,8 @@ Standing reference for review, in [reference/](reference/): the GE Framework sta
 - Confirm the GEOC alignment form is attached. The committee doesn't review its content; GEOC reviews alignment at its step.
 - Check the syllabus against the syllabus policy (25-26 CIC 1), and the proposal fields against the syllabus.
 - Review notes carry anything about SLO content. SLO format stays out.
-- Review notes leave out small items such as a missing classroom location or telephone number.
+- Syllabi attached to proposals are templates. Review notes leave out the sections the instructor completes when the course is offered: contact details, classroom location, meeting times, and term dates.
+- The required statements in 25-26 CIC 1 (generative AI use, student services, grade appeal and academic grievances) go in review notes when missing.
 
 ## naming
 
