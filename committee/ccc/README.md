@@ -29,6 +29,7 @@ Standing reference for review, in [reference/](reference/): the GE Framework sta
 - Review notes carry anything about SLO content. SLO format stays out.
 - Syllabi attached to proposals are templates. Review notes leave out the sections the instructor completes when the course is offered: contact details, classroom location, meeting times, and term dates.
 - The required statements in 25-26 CIC 1 (generative AI use, student services, grade appeal and academic grievances) go in review notes when missing.
+- Recommend Approve with edits when the changes are to the syllabus only; the chair collects the revised syllabus from the originator and attaches it. Recommend a roll back only for substantial revisions within the proposal.
 
 ## naming
 
