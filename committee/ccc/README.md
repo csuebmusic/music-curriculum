@@ -25,11 +25,12 @@ Standing reference for review, in [reference/](reference/): the GE Framework sta
 ## review
 
 - Confirm the GEOC alignment form is attached. The committee doesn't review its content; GEOC reviews alignment at its step.
-- Check the syllabus against the syllabus policy (25-26 CIC 1), and the proposal fields against the syllabus.
-- Review notes carry anything about SLO content. SLO format stays out.
-- Syllabi attached to proposals are templates. Review notes leave out the sections the instructor completes when the course is offered: contact details, classroom location, meeting times, and term dates.
-- The required statements in 25-26 CIC 1 (generative AI use, student services, grade appeal and academic grievances) go in review notes when missing.
-- Recommend Approve with edits when the changes are to the syllabus only; the chair collects the revised syllabus from the originator and attaches it. Recommend a roll back only for substantial revisions within the proposal.
+- Check the proposal fields and the syllabus against the syllabus policy (25-26 CIC 1) and against each other.
+- Review notes don't restate what the proposal does. Each item is marked EDIT (required before the proposal moves forward) or Suggestion (optional).
+- EDIT: a missing required attachment; a proposal field in error (breadth area, units, SLOs when the SLOs are under revision); syllabus text that contradicts Curriculog (title, catalog description, prerequisites); a missing generative AI use or grade appeal and academic grievances statement. A statement the syllabus defers to the Canvas shell or to the instructor counts as present.
+- Suggestion: grading arithmetic, modality descriptions, GE outcome wording on the syllabus, verbs in unchanged SLOs, syllabus organization, consultation questions.
+- Syllabi attached to proposals are templates. Review notes leave out contact details, classroom location, meeting times, term dates, and SLO format.
+- Recommend Approve when the notes carry suggestions only; Approve with edits when the edits are to the syllabus or to proposal fields the chair can correct at the CCC step (the chair collects the revised syllabus from the originator and attaches it); a roll back when the originator has to revise the proposal.
 
 ## naming
 
