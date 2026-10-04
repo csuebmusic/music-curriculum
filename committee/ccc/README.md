@@ -43,6 +43,8 @@ Each proposal gets four checks, in this order.
      - for an overlay course, the overlay topic across the readings, assignments, and assessments, beyond a single week
      - for an online or asynchronous section, how students meet requirements such as oral presentations
 
+Leave out differences that don't change meaning: a typo, a word, or a punctuation mark that leaves an SLO or the catalog description saying the same thing, and a course title on the syllabus that differs from the proposal's. These go in neither the review notes nor the workbook.
+
 ## recommendation
 
 An item found under checks 1 to 4.1 is an edit. An item under 4.2 is a suggestion.
