@@ -30,14 +30,23 @@ Each proposal gets four checks, in this order.
 1. Attachments. Every proposal has the syllabus. A GEOC proposal has the GEOC alignment form. A proposal for an existing course has the impact report. The committee doesn't review the alignment form's content; GEOC reviews alignment at its step.
 2. Proposal fields. Each field is consistent with the course. Check in particular the catalog description (40 words at most), the unit classification, and course repeatability.
 3. Proposal against syllabus. The catalog description and the SLOs match between the proposal and the syllabus. Check in particular for SLOs missing from the syllabus, most often GE SLOs, and for GE SLOs from before Fall 2027. Current GE SLOs are in the [GE Framework](reference/ge-framework-fall-2027.pdf).
-4. Syllabus. The syllabus has the elements the syllabus policy (25-26 CIC 1) requires. Syllabi attached to proposals are templates: classroom location, meeting times, term dates, and faculty contact details can be blank. A policy or statement the syllabus refers to the Canvas shell or to the instructor counts as present. For modality, flag only major problems: a syllabus that describes a modality the proposal doesn't carry, such as an online course, or that names a platform the campus no longer uses, such as Blackboard.
+4. Syllabus. The syllabus has the elements the syllabus policy (25-26 CIC 1) requires. Syllabi attached to proposals are templates: classroom location, meeting times, term dates, and faculty contact details can be blank. A policy or statement the syllabus refers to the Canvas shell or to the instructor counts as present.
+   - 4.1 Modality. Flag only major problems: a syllabus that describes a modality the proposal doesn't carry, such as an online course, or that names a platform the campus no longer uses, such as Blackboard.
+   - 4.2 GEOC readiness. The committee doesn't review the alignment form's content, and it helps colleagues move proposals forward with solid syllabi. On a GEOC proposal, read the syllabus for what GEOC looks for when it checks the syllabus against the alignment form and the [GE Framework](reference/ge-framework-fall-2027.pdf):
+     - a week-by-week course outline with due dates for key assignments
+     - at least one assignment that assesses each GE, overlay, and code outcome
+     - the same assignments on the syllabus, in Curriculog, and on the alignment form
+     - word counts for every written assignment, adding up to the area's writing minimum where the framework sets one
+     - the course characteristics in the assignments: collaboration means students working toward a common goal (a discussion post and reply doesn't count), and critical feedback comes from the instructor during the term (feedback only on a final exam or a last-day essay doesn't count)
+     - for an overlay, the overlay topic across the readings, assignments, and assessments, beyond a single week
+     - for an online or asynchronous section, how students meet requirements such as oral presentations
 
 ## review notes
 
 Review notes don't restate what the proposal does, and leave out SLO format. Each item is marked EDIT (required before the proposal moves forward) or Suggestion (optional).
 
-- EDIT: a missing attachment; a proposal field in error (catalog description over 40 words, unit classification, repeatability, breadth area, units, SLOs under revision); a catalog description, title, prerequisite, or SLO that doesn't match between the proposal and the syllabus; GE SLOs from before Fall 2027 on the syllabus; a missing generative AI use or grade appeal and academic grievances statement; a major modality problem under check 4.
-- Suggestion: grading arithmetic, modality wording, verbs in unchanged SLOs, syllabus organization, consultation questions.
+- EDIT: a missing attachment; a proposal field in error (catalog description over 40 words, unit classification, repeatability, breadth area, units, SLOs under revision); a catalog description, title, prerequisite, or SLO that doesn't match between the proposal and the syllabus; GE SLOs from before Fall 2027 on the syllabus; a missing generative AI use or grade appeal and academic grievances statement; a major modality problem under 4.1.
+- Suggestion: anything under 4.2, grading arithmetic, modality wording, verbs in unchanged SLOs, syllabus organization, consultation questions.
 
 ## recommendation
 
