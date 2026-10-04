@@ -35,7 +35,7 @@ Each proposal gets four checks, in this order.
    - 4.2 GEOC readiness. The committee doesn't review the alignment form's content, and it helps colleagues move proposals forward with solid syllabi. On a GEOC proposal, read the syllabus for what GEOC looks for when it checks the syllabus against the alignment form and the [GE Framework](reference/ge-framework-fall-2027.pdf):
      - a week-by-week course outline with due dates for key assignments
      - at least one assignment that assesses each GE, overlay, and code outcome
-     - the same assignments on the syllabus, in Curriculog, and on the alignment form
+     - the same assignments on the syllabus and on the alignment form
      - word counts for every written assignment, adding up to the area's writing minimum where the framework sets one
      - the course characteristics in the assignments: collaboration means students working toward a common goal (a discussion post and reply doesn't count), and critical feedback comes from the instructor during the term (feedback only on a final exam or a last-day essay doesn't count)
      - for an overlay, the overlay topic across the readings, assignments, and assessments, beyond a single week
