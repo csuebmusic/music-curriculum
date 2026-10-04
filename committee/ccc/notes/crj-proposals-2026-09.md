@@ -1,6 +1,6 @@
 # crj proposals at the ccc step
 
-Status as of September 28, 2026, from email between Catalog (Rick Rader), Michelle Rippy, Nicholas Baham, and Danika LeDuc, September 23–25. Not on the September 29 agenda. For the next meeting.
+Closed October 4, 2026. From email between Catalog (Rick Rader), Michelle Rippy, Nicholas Baham, and Danika LeDuc, September 23–25.
 
 ## status
 
@@ -47,16 +47,4 @@ Michelle sent Catalog an earlier list of changes on September 25 that differs fr
 - CRJ 450: "Update to C02" on the earlier list; overlay addition only on the final list.
 - CRJ 355: "Update to C02" on the earlier list; new course on the final list.
 - CRJ 310 and 480: C03 on the final list, absent from the earlier list.
-- CRJ 350: "Update to C03 (pending approval from the Dean's Office)" on the earlier list; "Request for deletion" on the final list. Catalog deleted the proposal. The emails don't say whether Michelle meant withdrawing the revision or deleting the course from the catalog, which needs its own course deletion proposal.
-
-## to check in curriculog
-
-- Current and proposed classification on CRJ 355, 370, and 450.
-- Discussion notes describing the changes on each proposal (Catalog's instruction to Michelle).
-
-## open
-
-- CCC action on the classification changes: approval as part of each proposal, or recorded consultation.
-- Whether any CRJ GE or overlay proposal (101, 220, 230, 370, 435, 450) is in the 2026–2027 recertification cohort, with the October 15 college-step deadline.
-- Reviewer assignment for 18 proposals from one department.
-- CRJ 350: withdrawal of the revision or course deletion. Ask Michelle and Rick.
+- CRJ 350: "Update to C03 (pending approval from the Dean's Office)" on the earlier list; "Request for deletion" on the final list. Catalog deleted the proposal.
