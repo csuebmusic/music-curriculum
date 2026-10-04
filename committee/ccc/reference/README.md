@@ -12,11 +12,12 @@ Outcomes, course characteristics, and course caps come from the framework. Routi
 - [GEOC faculty guide](geoc-faculty-guide-2024.pdf), revised July 2024, the edition posted on the GEOC for Faculty page: approval steps and timeline, which Curriculog form matches which action, the problems that delay proposals, and in Appendix II the sorting of course revisions into action items for CIC, information items for CIC, and items that stop at the GEOC Subcommittee. Much of it is superseded, and [currency.md](currency.md) says which parts still hold.
 - [GEOC proposal checklist](geoc-proposal-checklist.pdf): what GEOC checks item by item, with the decision each failure draws and what happens if it goes uncorrected. Four items name the college curriculum committee as the step that should catch the error before it reaches GEOC.
 - [GEOC alignment form](geoc-alignment-form-2026-2027.docx), 2026/2027: required Curriculog attachment for every new course, every revision not up for recertification, and every GEOC recertification. A week-by-week outline of subject matter mapped to GEOC learning outcomes, and every assignment on the syllabus mapped to outcomes and course characteristics.
+- [CCC website](ccc-website.md): the 2026–2027 meeting dates, the committee roster, the launch deadlines, and the APS campus deadlines.
 - [syllabus policy](syllabus-policy-25-26-cic-1.pdf), 25-26 CIC 1, Senate approved September 23, 2025, President approved October 2, 2025: the required elements of an individual course syllabus, the three generative AI use statements, and the university resources the campus loads into every course shell.
 
 ## deadlines
 
-Proposals launch in Curriculog by September 15. Revision and recertification requests pass the College Curriculum Committee step and reach the Academic Affairs step by October 15. Proposals reach Senate by March 1 to appear in the following year's catalog. A proposal that misses October 15 goes back on the next catalog year's form.
+Meeting dates and campus deadlines are in [ccc-website.md](ccc-website.md). A course proposal that misses October 15 goes back on the next catalog year's form.
 
 ## this cycle
 
@@ -27,6 +28,7 @@ Recertification in 2026-2027 covers UD-2/5 Upper-division Science or Mathematica
 - [GE Guide](https://www.csueastbay.edu/ge/breadth-semesters.html): the student-facing account of the areas and the unit and grade rules. Its outcomes lag the framework for Area 6 and UD-3.
 - [GEOC for Faculty](https://www.csueastbay.edu/ge/geoc-for-faculty.html): the recertification cycle figure beginning with 2026-2027, and the current review criteria.
 - [Curricular Procedures Manual](https://www.csueastbay.edu/aps/academic-programs/curriculum-development-new/cpm/index.html).
+- [CLASS Curriculum](https://www.csueastbay.edu/class/curriculum/index.html) and the [Curriculum Calendar](https://www.csueastbay.edu/aps/academic-programs/curriculum-development-new/upcoming-deadlines.html), recorded in [ccc-website.md](ccc-website.md).
 
 ## contacts
 

@@ -20,7 +20,7 @@ Working notes ahead of meetings, in [notes/](notes/): the CRJ proposals at the C
 
 ## reference
 
-Standing reference for review, in [reference/](reference/): the GE Framework starting Fall 2027, the GEOC faculty guide, the GEOC proposal checklist, the GEOC alignment form, and the 25-26 CIC 1 syllabus policy, with a currency file recording what in each is superseded, the curricular deadlines, and links to the live GEOC pages.
+Standing reference for review, in [reference/](reference/): the GE Framework starting Fall 2027, the GEOC faculty guide, the GEOC proposal checklist, the GEOC alignment form, the 25-26 CIC 1 syllabus policy, and the CCC website (meeting dates, roster, and campus deadlines), with a currency file recording what in each is superseded, the curricular deadlines, and links to the live GEOC pages.
 
 ## review
 

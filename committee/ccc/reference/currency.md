@@ -67,8 +67,12 @@ Current as of 2026-09-02. The GEOC page links this file and requires it as an at
 
 Current as of 2026-09-02. 25-26 CIC 1 is the most recent entry in the policy's own history. GEOC reads the Course Information section strictly: the catalog course description, and student learning outcomes for the course together with those of every GEOC area the course carries.
 
+## ccc-website.md
+
+Checked 2026-10-04 against the CLASS Curriculum page and the APS Curriculum Calendar. Check again when the committee posts a new meeting calendar or roster.
+
+The Curriculum Calendar has course proposals approved by the Academic Senate by February 1 for the next catalog. That date replaces the guide's March 1 Senate date and the checklist's February 1 President date.
+
 ## open
 
 The Curriculog form names in the guide carry a 2024-25 AY stamp. Confirm the current names in Curriculog.
-
-The end of the timeline. The guide has proposals reaching Senate by March 1; the checklist has them reaching the President by February 1.
