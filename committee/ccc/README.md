@@ -25,6 +25,8 @@ Standing reference for review, in [reference/](reference/): the GE Framework sta
 
 ## review
 
+Recertification-only proposals go directly to GEOC. The committee reviews new courses, revisions, revisions with recertification, and program proposals.
+
 Each proposal gets four checks, in this order.
 
 1. Attachments. Every proposal has the syllabus. A GEOC proposal has the GEOC alignment form. A proposal for an existing course has the impact report. The committee doesn't review the alignment form's content; GEOC reviews alignment at its step.
