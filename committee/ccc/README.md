@@ -25,13 +25,24 @@ Standing reference for review, in [reference/](reference/): the GE Framework sta
 
 ## review
 
-- Confirm the GEOC alignment form is attached. The committee doesn't review its content; GEOC reviews alignment at its step.
-- Check the proposal fields and the syllabus against the syllabus policy (25-26 CIC 1) and against each other.
-- Review notes don't restate what the proposal does. Each item is marked EDIT (required before the proposal moves forward) or Suggestion (optional).
-- EDIT: a missing required attachment; a proposal field in error (breadth area, units, SLOs when the SLOs are under revision); syllabus text that contradicts Curriculog (title, catalog description, prerequisites); a missing generative AI use or grade appeal and academic grievances statement. A statement the syllabus defers to the Canvas shell or to the instructor counts as present.
-- Suggestion: grading arithmetic, modality descriptions, GE outcome wording on the syllabus, verbs in unchanged SLOs, syllabus organization, consultation questions.
-- Syllabi attached to proposals are templates. Review notes leave out contact details, classroom location, meeting times, term dates, and SLO format.
-- Recommend Approve when the notes carry suggestions only; Approve with edits when the edits are to the syllabus or to proposal fields the chair can correct at the CCC step (the chair collects the revised syllabus from the originator and attaches it); a roll back when the originator has to revise the proposal.
+Each proposal gets five checks, in this order.
+
+1. Attachments. Every proposal has the syllabus. A GEOC proposal has the GEOC alignment form. A proposal for an existing course has the impact report. The committee doesn't review the alignment form's content; GEOC reviews alignment at its step.
+2. Proposal fields. Each field is consistent with the course. Check in particular the catalog description (40 words at most), the unit classification, and course repeatability.
+3. Proposal against syllabus. The catalog description and the SLOs match between the proposal and the syllabus. Check in particular for SLOs missing from the syllabus, most often GE SLOs, and for GE SLOs from before Fall 2027. Current GE SLOs are in the [GE Framework](reference/ge-framework-fall-2027.pdf).
+4. Syllabus. The syllabus has the elements the syllabus policy (25-26 CIC 1) requires. Syllabi attached to proposals are templates: classroom location, meeting times, term dates, and faculty contact details can be blank. A policy or statement the syllabus refers to the Canvas shell or to the instructor counts as present.
+5. Modality. Flag only major problems: a syllabus that describes a modality the proposal doesn't carry, such as an online course, or that names a platform the campus no longer uses, such as Blackboard.
+
+## review notes
+
+Review notes don't restate what the proposal does, and leave out SLO format. Each item is marked EDIT (required before the proposal moves forward) or Suggestion (optional).
+
+- EDIT: a missing attachment; a proposal field in error (catalog description over 40 words, unit classification, repeatability, breadth area, units, SLOs under revision); a catalog description, title, prerequisite, or SLO that doesn't match between the proposal and the syllabus; GE SLOs from before Fall 2027 on the syllabus; a missing generative AI use or grade appeal and academic grievances statement; a modality problem under check 5.
+- Suggestion: grading arithmetic, modality wording, verbs in unchanged SLOs, syllabus organization, consultation questions.
+
+## recommendation
+
+Approve when the notes carry suggestions only. Approve with edits when the edits are to the syllabus or to proposal fields the chair can correct at the CCC step; the chair collects the revised syllabus from the originator and attaches it. Roll back when the originator has to revise the proposal; the chair files a custom route request.
 
 ## naming
 
