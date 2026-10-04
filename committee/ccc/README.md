@@ -29,18 +29,18 @@ Recertification-only proposals go directly to GEOC. The committee reviews new co
 
 Each proposal gets four checks, in this order.
 
-1. Attachments. Every proposal has the syllabus. A GEOC proposal has the GEOC alignment form. A proposal for an existing course has the impact report. The committee doesn't review the alignment form's content; GEOC reviews alignment at its step.
-2. Proposal fields. Each field is consistent with the course. Check in particular the catalog description (40 words at most), the unit classification, and course repeatability.
-3. Proposal against syllabus. The catalog description and the SLOs match between the proposal and the syllabus. Check in particular for SLOs missing from the syllabus, most often GE SLOs, and for GE SLOs from before Fall 2027. Current GE SLOs are in the [GE Framework](reference/ge-framework-fall-2027.pdf).
-4. Syllabus. The syllabus has the elements the [syllabus policy (25-26 CIC 1)](reference/syllabus-policy-25-26-cic-1.pdf) requires. Syllabi attached to proposals are templates: classroom location, meeting times, term dates, and faculty contact details can be blank. A policy or statement the syllabus refers to the Canvas shell or to the instructor counts as present.
-   - 4.1 Modality. Flag only major problems: a syllabus that describes a modality the proposal doesn't carry, such as an online course, or that names a platform the campus no longer uses, such as Blackboard.
-   - 4.2 GEOC readiness (suggestions only). The committee doesn't review the alignment form's content, yet it strives to help colleagues move proposals forward with solid syllabi. On a GEOC proposal, read the syllabus for what GEOC looks for when it checks the syllabus against the alignment form and the [GE Framework](reference/ge-framework-fall-2027.pdf):
+1. Attachments. Confirm that the syllabus is attached to every proposal, the GEOC alignment form to every GEOC proposal, and the impact report to every proposal for an existing course. Don't review the alignment form's content; GEOC reviews alignment at its step.
+2. Proposal fields. Check that each field is consistent with the course, in particular the catalog description (40 words at most), the unit classification, and course repeatability.
+3. Proposal against syllabus. Check that the catalog description and the SLOs match between the proposal and the syllabus. Look in particular for SLOs missing from the syllabus (most often GE SLOs) and for GE SLOs from before Fall 2027. Current GE SLOs are in the [GE Framework](reference/ge-framework-fall-2027.pdf).
+4. Syllabus. Check that the syllabus has the elements the [syllabus policy (25-26 CIC 1)](reference/syllabus-policy-25-26-cic-1.pdf) requires. Syllabi attached to proposals are templates: classroom location, meeting times, term dates, and faculty contact details can be blank. Count a policy or statement as present when the syllabus refers it to the Canvas shell or to the instructor.
+   - 4.1 Modality. Flag only major problems: a syllabus that describes a modality the proposal doesn't carry (an online course, for example) or that names a platform the campus no longer uses (Blackboard, for example).
+   - 4.2 GEOC readiness (suggestions only). The committee doesn't review the alignment form's content, yet it strives to help colleagues move proposals forward with solid syllabi. On a GEOC proposal, read the syllabus for what GEOC looks for when it compares the syllabus with the alignment form and the [GE Framework](reference/ge-framework-fall-2027.pdf):
      - a week-by-week course outline with due dates for key assignments
      - at least one assignment that assesses each GE, overlay, and code outcome
-     - the same assignments on the syllabus and on the alignment form
-     - word counts for every written assignment, adding up to the area's writing minimum where the framework sets one
-     - the course characteristics in the assignments: collaboration means students working toward a common goal (a discussion post and reply doesn't count), and critical feedback comes from the instructor during the term (feedback only on a final exam or a last-day essay doesn't count)
-     - for an overlay, the overlay topic across the readings, assignments, and assessments, beyond a single week
+     - the same assignments on the syllabus and the alignment form
+     - a word count for every written assignment, with a total that meets the area's writing minimum where the framework sets one
+     - course characteristics visible in the assignments: collaboration means students working toward a common goal (a discussion post and reply doesn't count), and critical feedback comes from the instructor during the term (feedback only on a final exam or a last-day essay doesn't count)
+     - for an overlay course, the overlay topic across the readings, assignments, and assessments, beyond a single week
      - for an online or asynchronous section, how students meet requirements such as oral presentations
 
 ## recommendation
