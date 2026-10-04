@@ -41,9 +41,9 @@ It drops the week-by-week grid and the full assignment list from the existing fo
 
 ## committee letter
 
-Jessica Santone reported to the committee, before the September 29 meeting, that the CLASS Council of Chairs recommended the CCC send an official response to the alignment form. She wants the committee to write it this year and doesn't expect there to be time this week.
+The committee will write an official letter stating its position on the alignment form, as the CLASS Council of Chairs recommended (reported by Jessica Santone). Drafting the letter is the next action.
 
-Her concerns:
+Jessica's concerns:
 
 - The form adds to reviewer workload.
 - Its granularity lengthens syllabi. She recalls that the earlier syllabus policy, from her CIC service in 2020–2022, aimed to shorten syllabi.
