@@ -9,6 +9,7 @@ Curriculog proposals under committee review are recorded as Markdown from the Cu
 ## agendas
 
 - [September 29, 2026](agendas/2026-09-29-agenda.docx): 45 course proposals for the 2027–2028 catalog and the Philosophy Minor revision.
+- [October 6, 2026](agendas/2026-10-06-agenda.docx): 63 course proposals for the 2027–2028 catalog and the Philosophy B.A. revision.
 
 ## papers
 
