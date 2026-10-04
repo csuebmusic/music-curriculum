@@ -45,6 +45,8 @@ Each proposal gets four checks, in this order.
 
 ## recommendation
 
+An item found under checks 1 to 4.1 is an edit. An item under 4.2 is a suggestion.
+
 Approve when the notes carry suggestions only. Approve with edits when the edits are to the syllabus or to proposal fields the chair can correct at the CCC step; the chair collects the revised syllabus from the originator and attaches it. Roll back when the originator has to revise the proposal; the chair files a custom route request.
 
 ## naming
