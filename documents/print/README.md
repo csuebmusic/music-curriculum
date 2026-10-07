@@ -34,7 +34,7 @@ Stylesheet and script:
 
 ## QR codes
 
-Each sheet carries 0.85-inch QR codes, captioned with the destination. A square is written as `<div class="qr" data-href="URL">`, and [qr.py](qr.py) draws the code for that URL inside it as inline SVG. A caption that appears on several sheets takes the same code everywhere.
+Each sheet has 0.85-inch QR codes, captioned with the destination. A square is written as `<div class="qr" data-href="URL">`, and [qr.py](qr.py) draws the code for that URL inside it as inline SVG. A caption that appears on several sheets takes the same code everywhere.
 
 | caption | sheets | destination |
 | --- | --- | --- |

@@ -17,9 +17,9 @@ Student-facing HTML roadmaps for the B.A. in Music, the M.A. in Music, the FAST 
 
 Keep course titles and units in sync with the University Catalog and the
 undergraduate handbook (`../handbooks/undergraduate-handbook.html`). Each
-semester carries an anchored id (`sem1` to `sem8`) for deep linking.
+semester has an anchored id (`sem1` to `sem8`) for deep linking.
 
-Certificate rows carry the `cert` class and an ochre tint. On the combined
+Certificate rows have the `cert` class and an ochre tint. On the combined
 roadmaps, certificate courses sit in the Year A and Year B rotation slots the
 certificate cycle allows: fall A semesters take Year A fall courses, spring A
 semesters take Year A spring courses, and so on.
@@ -28,7 +28,7 @@ semesters take Year A spring courses, and so on.
 over the handbook style. It applies to the roadmaps alone: the handbooks keep
 the single-accent house style.
 
-Each roadmap carries a download pdf button, built by `roadmap-tools.js` and
+Each roadmap has a download pdf button, built by `roadmap-tools.js` and
 included once per roadmap just before `</body>`. The button downloads the print
 sheet named in the roadmap's `<link rel="alternate" type="application/pdf">`,
 which points to its PDF in `../print/`. A change to a roadmap's courses or units
