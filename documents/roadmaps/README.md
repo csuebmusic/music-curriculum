@@ -26,3 +26,10 @@ semesters take Year A spring courses, and so on.
 `roadmaps.css` layers row colors, a narrower centered column, and print rules
 over the handbook style. It applies to the roadmaps alone: the handbooks keep
 the single-accent house style.
+
+Each roadmap carries a download pdf button, built by `roadmap-tools.js` and
+included once per roadmap just before `</body>`. The button opens the browser's
+print dialog, where "Save as PDF" writes the file. The print rules in
+`roadmaps.css` set US Letter pages with the semesters two to a row
+(`div.sems` holding one `div.sem` per semester) and keep each semester's table
+on one page.
