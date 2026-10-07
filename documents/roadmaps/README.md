@@ -28,8 +28,11 @@ over the handbook style. It applies to the roadmaps alone: the handbooks keep
 the single-accent house style.
 
 Each roadmap carries a download pdf button, built by `roadmap-tools.js` and
-included once per roadmap just before `</body>`. The button opens the browser's
-print dialog, where "Save as PDF" writes the file. The print rules in
-`roadmaps.css` set US Letter pages with the semesters two to a row
-(`div.sems` holding one `div.sem` per semester) and keep each semester's table
-on one page.
+included once per roadmap just before `</body>`. The button downloads the print
+sheet named in the roadmap's `<link rel="alternate" type="application/pdf">`,
+which points to its PDF in `../print/`. A change to a roadmap's courses or units
+goes into its print sheet too.
+
+The print rules in `roadmaps.css` apply when a roadmap page is printed from the
+browser: US Letter pages with the semesters two to a row (`div.sems` holding
+one `div.sem` per semester), each semester's table kept on one page.

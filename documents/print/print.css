@@ -45,13 +45,16 @@ h1 { font-family: "Montserrat", Arial, sans-serif; font-weight: 700; font-size: 
 section { margin-bottom: 7pt; }
 h2 { font-family: "Montserrat", Arial, sans-serif; font-weight: 700; font-size: 11.5pt; margin: 0 0 4pt; }
 h2 .num { color: var(--accent); margin-right: 7pt; }
+h2, .legend { break-after: avoid; }
 h3 { font-family: "Montserrat", Arial, sans-serif; font-weight: 700; font-size: 9pt; margin: 0 0 3pt; }
 .with-qr { display: flex; gap: 14pt; align-items: flex-start; }
 .with-qr > .text { flex: 1; }
 
-/* qr placeholders */
+/* qr codes */
 .qr { width: 0.85in; flex: none; text-align: center; }
 .qr .box { width: 0.85in; height: 0.85in; border: 0.75pt solid var(--rule); box-sizing: border-box; }
+.qr .box.code { border: none; }
+.qr .box svg { display: block; width: 100%; height: 100%; }
 .qr .cap { font-family: "Montserrat", Arial, sans-serif; font-size: 6.5pt; color: var(--ink-soft); margin-top: 2pt; line-height: 1.25; }
 .qr-row { display: flex; gap: 18pt; margin-top: 6pt; }
 .qr-col { flex: none; }
