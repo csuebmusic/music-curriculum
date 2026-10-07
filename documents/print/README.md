@@ -56,12 +56,12 @@ Each sheet carries 0.85-inch QR codes, captioned with the destination. A square 
 | Certificate roadmap | music education infosheet | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/music-education-certificate-roadmap.html |
 | Single Subject Credential | music education infosheet | https://www.csueastbay.edu/cssc/prospective-cred-student/single-subject.html |
 | Roadmap and graduate handbook | M.A. infosheet | https://csuebmusic.github.io/music-curriculum/documents/handbooks/graduate-handbook.html#roadmap |
-| Graduate handbook | M.A. roadmap | https://csuebmusic.github.io/music-curriculum/documents/handbooks/graduate-handbook.html#roadmap |
 | This roadmap online | B.A. 4-year roadmap | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-roadmap-4-year.html |
 | This roadmap online | B.A. transfer roadmap | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-roadmap-2-year-transfer.html |
 | This roadmap online | FAST 4+1 roadmap | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/fast-ba-ma-roadmap.html |
 | This roadmap online | FAST 2+1 transfer roadmap | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/fast-transfer-ba-ma-roadmap.html |
 | This roadmap online | music education roadmap | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/music-education-certificate-roadmap.html |
+| This roadmap online | M.A. roadmap | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ma-roadmap.html |
 | This roadmap online | B.A. transfer roadmap, composition and production | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-composition-roadmap-2-year-transfer.html |
 | This roadmap online | B.A. with certificate 4-year roadmap | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-certificate-roadmap-4-year.html |
 | This roadmap online | B.A. with certificate transfer roadmap | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-certificate-roadmap-2-year-transfer.html |
