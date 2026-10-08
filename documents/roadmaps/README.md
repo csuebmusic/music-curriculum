@@ -7,8 +7,8 @@ Student-facing HTML roadmaps for the B.A. in Music, the M.A. in Music, the FAST 
 - [ba-roadmap-2-year-transfer.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-roadmap-2-year-transfer.html): Music ADT transfer entry, 60 units in residence.
 - [fast-ba-ma-roadmap.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/fast-ba-ma-roadmap.html): FAST 4+1 blended B.A. and M.A., ten semesters, 120 and 32 units.
 - [fast-ba-ma-certificate-roadmap.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/fast-ba-ma-certificate-roadmap.html): FAST 4+1 with the Music Education Certificate, 155 units across five years.
-- [fast-transfer-ba-ma-roadmap.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/fast-transfer-ba-ma-roadmap.html): FAST 2+1 transfer entry through both degrees, with fall a and fall b entry plans, 81 units in residence.
-- [fast-transfer-ba-ma-certificate-roadmap.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/fast-transfer-ba-ma-certificate-roadmap.html): FAST 2+1 transfer entry with the Music Education Certificate, with fall a and fall b entry plans, 90 units in residence.
+- [fast-transfer-ba-ma-roadmap.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/fast-transfer-ba-ma-roadmap.html): FAST 2+1 transfer entry through both degrees, with fall A and fall B entry plans, 81 units in residence.
+- [fast-transfer-ba-ma-certificate-roadmap.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/fast-transfer-ba-ma-certificate-roadmap.html): FAST 2+1 transfer entry with the Music Education Certificate, with fall A and fall B entry plans, 90 units in residence.
 - [ba-composition-roadmap-2-year-transfer.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-composition-roadmap-2-year-transfer.html): Music ADT transfer entry with the music electives filled from composition, production, and music business courses, 60 units in residence.
 - [ba-certificate-roadmap-4-year.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-certificate-roadmap-4-year.html): first-year B.A. entry with the Music Education Certificate, 134 units across eight semesters.
 - [ba-certificate-roadmap-2-year-transfer.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-certificate-roadmap-2-year-transfer.html): Music ADT transfer entry with the Music Education Certificate, four semesters, 62 units in residence.
@@ -24,7 +24,7 @@ by petition in the last B.A. semester. They count toward the M.A. only.
 
 A roadmap with more than one entry term wraps each plan in
 `<div class="entry-option" data-entry="fall-a" id="fall-a">` (and `fall-b`), and
-the fall b plan has the same semester and section ids with a `b` suffix
+the fall B plan has the same semester and section ids with a `b` suffix
 (`sem5b`, `blended-b`). Each plan has its own
 `<link rel="alternate" type="application/pdf" data-entry="...">`.
 `roadmap-tools.js` adds the entry switch, shows one plan at a time, and points
@@ -41,7 +41,9 @@ over the handbook style. It applies to the roadmaps alone: the handbooks keep
 the single-accent house style.
 
 Each roadmap has a download pdf button, built by `roadmap-tools.js` and
-included once per roadmap just before `</body>`. The button downloads the print
+included once per roadmap just before `</body>`. The roadmaps link
+`roadmaps.css` and `roadmap-tools.js` with a `?v=` value (`?v=20261007`). When
+either file changes, change the value on every roadmap. The button downloads the print
 sheet named in the roadmap's `<link rel="alternate" type="application/pdf">`,
 which points to its PDF in `../print/`. A change to a roadmap's courses or units
 goes into its print sheet too.

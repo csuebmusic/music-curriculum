@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400&family=Roboto+Serif:ital,opsz,wght@0,8..144,400;0,8..144,600;1,8..144,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../handbooks/handbooks.css">
-<link rel="stylesheet" href="roadmaps.css">
+<link rel="stylesheet" href="roadmaps.css?v=20261007">
 <link rel="alternate" type="application/pdf" href="../print/fast-transfer-roadmap.pdf" data-entry="fall-a">
 <link rel="alternate" type="application/pdf" href="../print/fast-transfer-roadmap-fall-b.pdf" data-entry="fall-b">
 </head>
@@ -19,11 +19,11 @@
   <a href="#transfer">notes for transfer students</a>
   <a href="#summary">unit summary</a>
   <a href="#entry">entry term</a>
-  <a href="#fall-a">entering in fall a</a>
+  <a href="#fall-a">entering in fall A</a>
   <a class="nav-sub" href="#upper">upper division</a>
   <a class="nav-sub" href="#blended">blended year</a>
   <a class="nav-sub" href="#graduate">graduate year</a>
-  <a href="#fall-b">entering in fall b</a>
+  <a href="#fall-b">entering in fall B</a>
   <a class="nav-sub" href="#upper-b">upper division</a>
   <a class="nav-sub" href="#blended-b">blended year</a>
   <a class="nav-sub" href="#graduate-b">graduate year</a>
@@ -103,21 +103,21 @@
 
 <section class="front" id="entry">
 <h2>entry term</h2>
-<p class="measure">Department courses are offered on a two-year rotation of fall a, spring a, fall b, and spring b. A fall a is a fall in which MUS 312 Form and Analysis and MUS 601 Analysis of Musical Styles I are offered. The plan depends on whether you enter in a fall a or a fall b. Choose your entry term.</p>
-<div class="entry-switch" role="group" aria-label="entry term">
-<button type="button" data-entry="fall-a" aria-pressed="true">entering in fall a</button>
-<button type="button" data-entry="fall-b" aria-pressed="false">entering in fall b</button>
+<p class="measure">Department courses are offered on a two-year rotation of fall A, spring A, fall B, and spring B. Fall A is in even years (2026, 2028, and so on), when MUS 312 Form and Analysis and MUS 601 Analysis of Musical Styles I are offered, and fall B is in odd years (2027, 2029, and so on). The plan depends on whether you enter in a fall A or a fall B. Choose your entry term.</p>
+<div class="entry-switch" role="group" aria-label="entry term" hidden>
+<button type="button" data-entry="fall-a" aria-pressed="true">entering in fall A (even years: 2026, 2028, &hellip;)</button>
+<button type="button" data-entry="fall-b" aria-pressed="false">entering in fall B (odd years: 2027, 2029, &hellip;)</button>
 </div>
 </section>
 
 <div class="entry-option" data-entry="fall-a" id="fall-a">
-<h2 class="option-title">entering in fall a</h2>
+<h2 class="option-title">entering in fall A (even years)</h2>
 <section class="front" id="upper">
 <h2>upper division</h2>
 
 <div class="sems">
 <div class="sem">
-<h3 id="sem5">first semester in residence (fall a)</h3>
+<h3 id="sem5">first semester in residence (fall A)</h3>
 <table class="hb-table">
 <thead><tr><th class="col-code">requirement</th><th class="col-code">course</th><th>title</th><th class="num">units</th></tr></thead>
 <tbody>
@@ -131,7 +131,7 @@
 </tbody></table>
 </div>
 <div class="sem">
-<h3 id="sem6">second semester in residence (spring a)</h3>
+<h3 id="sem6">second semester in residence (spring A)</h3>
 <table class="hb-table">
 <thead><tr><th class="col-code">requirement</th><th class="col-code">course</th><th>title</th><th class="num">units</th></tr></thead>
 <tbody>
@@ -155,7 +155,7 @@
 
 <div class="sems">
 <div class="sem">
-<h3 id="sem7">third semester in residence (fall b) &middot; m.a. first semester</h3>
+<h3 id="sem7">third semester in residence (fall B) &middot; m.a. first semester</h3>
 <table class="hb-table">
 <thead><tr><th class="col-code">requirement</th><th class="col-code">course</th><th>title</th><th class="num">units</th></tr></thead>
 <tbody>
@@ -174,7 +174,7 @@
 </tbody></table>
 </div>
 <div class="sem">
-<h3 id="sem8">fourth semester in residence (spring b) &middot; m.a. second semester</h3>
+<h3 id="sem8">fourth semester in residence (spring B) &middot; m.a. second semester</h3>
 <table class="hb-table">
 <thead><tr><th class="col-code">requirement</th><th class="col-code">course</th><th>title</th><th class="num">units</th></tr></thead>
 <tbody>
@@ -203,7 +203,7 @@
 
 <div class="sems">
 <div class="sem">
-<h3 id="sem9">m.a. third semester (fall a)</h3>
+<h3 id="sem9">m.a. third semester (fall A)</h3>
 <table class="hb-table">
 <thead><tr><th class="col-code">requirement</th><th class="col-code">course</th><th>title</th><th class="num">units</th></tr></thead>
 <tbody>
@@ -216,7 +216,7 @@
 </tbody></table>
 </div>
 <div class="sem">
-<h3 id="sem10">m.a. fourth semester (spring a)</h3>
+<h3 id="sem10">m.a. fourth semester (spring A)</h3>
 <table class="hb-table">
 <thead><tr><th class="col-code">requirement</th><th class="col-code">course</th><th>title</th><th class="num">units</th></tr></thead>
 <tbody>
@@ -234,13 +234,13 @@
 </div>
 
 <div class="entry-option" data-entry="fall-b" id="fall-b">
-<h2 class="option-title">entering in fall b</h2>
+<h2 class="option-title">entering in fall B (odd years)</h2>
 <section class="front" id="upper-b">
 <h2>upper division</h2>
 
 <div class="sems">
 <div class="sem">
-<h3 id="sem5b">first semester in residence (fall b)</h3>
+<h3 id="sem5b">first semester in residence (fall B)</h3>
 <table class="hb-table">
 <thead><tr><th class="col-code">requirement</th><th class="col-code">course</th><th>title</th><th class="num">units</th></tr></thead>
 <tbody>
@@ -255,7 +255,7 @@
 </tbody></table>
 </div>
 <div class="sem">
-<h3 id="sem6b">second semester in residence (spring b)</h3>
+<h3 id="sem6b">second semester in residence (spring B)</h3>
 <table class="hb-table">
 <thead><tr><th class="col-code">requirement</th><th class="col-code">course</th><th>title</th><th class="num">units</th></tr></thead>
 <tbody>
@@ -279,7 +279,7 @@
 
 <div class="sems">
 <div class="sem">
-<h3 id="sem7b">third semester in residence (fall a) &middot; m.a. first semester</h3>
+<h3 id="sem7b">third semester in residence (fall A) &middot; m.a. first semester</h3>
 <table class="hb-table">
 <thead><tr><th class="col-code">requirement</th><th class="col-code">course</th><th>title</th><th class="num">units</th></tr></thead>
 <tbody>
@@ -297,7 +297,7 @@
 </tbody></table>
 </div>
 <div class="sem">
-<h3 id="sem8b">fourth semester in residence (spring a) &middot; m.a. second semester</h3>
+<h3 id="sem8b">fourth semester in residence (spring A) &middot; m.a. second semester</h3>
 <table class="hb-table">
 <thead><tr><th class="col-code">requirement</th><th class="col-code">course</th><th>title</th><th class="num">units</th></tr></thead>
 <tbody>
@@ -326,7 +326,7 @@
 
 <div class="sems">
 <div class="sem">
-<h3 id="sem9b">m.a. third semester (fall b)</h3>
+<h3 id="sem9b">m.a. third semester (fall B)</h3>
 <table class="hb-table">
 <thead><tr><th class="col-code">requirement</th><th class="col-code">course</th><th>title</th><th class="num">units</th></tr></thead>
 <tbody>
@@ -339,7 +339,7 @@
 </tbody></table>
 </div>
 <div class="sem">
-<h3 id="sem10b">m.a. fourth semester (spring b)</h3>
+<h3 id="sem10b">m.a. fourth semester (spring B)</h3>
 <table class="hb-table">
 <thead><tr><th class="col-code">requirement</th><th class="col-code">course</th><th>title</th><th class="num">units</th></tr></thead>
 <tbody>
@@ -376,6 +376,6 @@
     <span>catalog 2027&ndash;2028 &middot; source of record: university catalog and department course rotation &middot; updated fall 2026</span>
   </footer>
 </main>
-<script src="roadmap-tools.js" defer></script>
+<script src="roadmap-tools.js?v=20261007" defer></script>
 </body>
 </html>

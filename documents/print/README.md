@@ -16,8 +16,8 @@ Roadmaps, catalog 2027–2028:
 - [ba-roadmap-4-year.pdf](ba-roadmap-4-year.pdf), from [ba-roadmap-4-year.html](ba-roadmap-4-year.html): the B.A. in Music from first-year entry, eight semesters, with the music electives list, two pages.
 - [ba-roadmap-transfer.pdf](ba-roadmap-transfer.pdf), from [ba-roadmap-transfer.html](ba-roadmap-transfer.html): the B.A. in Music from Music ADT transfer entry, four semesters, with the music electives list, two pages.
 - [fast-roadmap.pdf](fast-roadmap.pdf), from [fast-roadmap.html](fast-roadmap.html): FAST 4+1 from first-year entry, ten semesters, three pages.
-- [fast-transfer-roadmap.pdf](fast-transfer-roadmap.pdf), from [fast-transfer-roadmap.html](fast-transfer-roadmap.html): FAST 2+1 from Music ADT transfer entry in a fall a, six semesters, with the music electives list, two pages.
-- [fast-transfer-roadmap-fall-b.pdf](fast-transfer-roadmap-fall-b.pdf), from [fast-transfer-roadmap-fall-b.html](fast-transfer-roadmap-fall-b.html): FAST 2+1 from Music ADT transfer entry in a fall b, six semesters, with the music electives list, two pages.
+- [fast-transfer-roadmap.pdf](fast-transfer-roadmap.pdf), from [fast-transfer-roadmap.html](fast-transfer-roadmap.html): FAST 2+1 from Music ADT transfer entry in a fall A, six semesters, with the music electives list, two pages.
+- [fast-transfer-roadmap-fall-b.pdf](fast-transfer-roadmap-fall-b.pdf), from [fast-transfer-roadmap-fall-b.html](fast-transfer-roadmap-fall-b.html): FAST 2+1 from Music ADT transfer entry in a fall B, six semesters, with the music electives list, two pages.
 - [music-ed-roadmap.pdf](music-ed-roadmap.pdf), from [music-ed-roadmap.html](music-ed-roadmap.html): the certificate's two-year course rotation, one page.
 - [ma-roadmap.pdf](ma-roadmap.pdf), from [ma-roadmap.html](ma-roadmap.html): the M.A. in Music four-semester sequence, one page.
 - [ba-composition-roadmap-transfer.pdf](ba-composition-roadmap-transfer.pdf), from [ba-composition-roadmap-transfer.html](ba-composition-roadmap-transfer.html): the B.A. in Music from Music ADT transfer entry with the music electives filled from composition, production, and music business courses, four semesters, with the music electives list, two pages.
@@ -60,8 +60,8 @@ Each sheet has 0.85-inch QR codes, captioned with the destination. A square is w
 | This roadmap online | B.A. 4-year roadmap | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-roadmap-4-year.html |
 | This roadmap online | B.A. transfer roadmap | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-roadmap-2-year-transfer.html |
 | This roadmap online | FAST 4+1 roadmap | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/fast-ba-ma-roadmap.html |
-| This roadmap online | FAST 2+1 transfer roadmap, fall a | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/fast-transfer-ba-ma-roadmap.html |
-| This roadmap online | FAST 2+1 transfer roadmap, fall b | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/fast-transfer-ba-ma-roadmap.html#fall-b |
+| This roadmap online | FAST 2+1 transfer roadmap, fall A | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/fast-transfer-ba-ma-roadmap.html |
+| This roadmap online | FAST 2+1 transfer roadmap, fall B | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/fast-transfer-ba-ma-roadmap.html#fall-b |
 | This roadmap online | music education roadmap | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/music-education-certificate-roadmap.html |
 | This roadmap online | M.A. roadmap | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ma-roadmap.html |
 | This roadmap online | B.A. transfer roadmap, composition and production | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-composition-roadmap-2-year-transfer.html |

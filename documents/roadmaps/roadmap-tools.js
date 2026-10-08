@@ -12,11 +12,13 @@
      <div class="entry-option" data-entry="fall-a">
    and gives each one its own alternate link with the same
    data-entry value. the switch shows one plan at a time and the
-   button downloads that plan's sheet. without the script, every
-   plan shows.
+   button downloads that plan's sheet. the switch has the hidden
+   attribute in the markup; without the script, it stays
+   hidden and every plan shows.
 
-   one include per roadmap, just before </body>:
-     <script src="roadmap-tools.js" defer></script>
+   one include per roadmap, just before </body>, with the same
+   ?v= value as the roadmaps.css link:
+     <script src="roadmap-tools.js?v=20261007" defer></script>
    ============================================================ */
 (function () {
   function init() {
@@ -68,6 +70,7 @@
     }
 
     root.classList.add('has-entry-options');
+    [].slice.call(document.querySelectorAll('.entry-switch')).forEach(function (el) { el.hidden = false; });
     buttons.forEach(function (b) {
       b.addEventListener('click', function () { select(b.getAttribute('data-entry')); });
     });
