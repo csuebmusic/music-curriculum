@@ -3,8 +3,8 @@
 Student-facing HTML roadmaps for the B.A. in Music, the M.A. in Music, the FAST blended degrees, and the Certificate in Music Education, catalog 2027–2028, house-styled on
 `../handbooks/handbooks.css`.
 
-- [ba-roadmap-4-year.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-roadmap-4-year.html): first-year entry, 120 units.
-- [ba-roadmap-2-year-transfer.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-roadmap-2-year-transfer.html): Music ADT transfer entry, 60 units in residence.
+- [ba-roadmap-4-year.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-roadmap-4-year.html): first-year entry, with fall A and fall B entry plans, 120 units.
+- [ba-roadmap-2-year-transfer.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-roadmap-2-year-transfer.html): AA-T transfer entry, with fall A and fall B entry plans, 60 units in residence.
 - [fast-ba-ma-roadmap.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/fast-ba-ma-roadmap.html): FAST 4+1 blended B.A. and M.A., ten semesters, with fall A and fall B entry plans, 120 and 32 units.
 - [fast-ba-ma-certificate-roadmap.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/fast-ba-ma-certificate-roadmap.html): FAST 4+1 with the Certificate in Music Education, 155 units across five years.
 - [fast-transfer-ba-ma-roadmap.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/fast-transfer-ba-ma-roadmap.html): FAST 2+1 transfer entry through both degrees, with fall A and fall B entry plans: 60 B.A. units in residence and 32 M.A. units.

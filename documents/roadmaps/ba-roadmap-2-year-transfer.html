@@ -9,7 +9,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400&family=Roboto+Serif:ital,opsz,wght@0,8..144,400;0,8..144,600;1,8..144,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../handbooks/handbooks.css">
 <link rel="stylesheet" href="roadmaps.css?v=20261008c">
-<link rel="alternate" type="application/pdf" href="../print/ba-roadmap-transfer.pdf">
+<link rel="alternate" type="application/pdf" href="../print/ba-roadmap-transfer.pdf" data-entry="fall-a">
+<link rel="alternate" type="application/pdf" href="../print/ba-roadmap-transfer-fall-b.pdf" data-entry="fall-b">
 </head>
 <body>
 <nav>
@@ -17,11 +18,11 @@
   <div class="nav-version">Catalog 2027–2028</div>
   <a href="#transfer-notes">notes for transfer students</a>
   <a href="#summary">unit summary</a>
-  <a href="#upper">upper division</a>
-  <a class="nav-sub" href="#sem5">fall A</a>
-  <a class="nav-sub" href="#sem6">spring A</a>
-  <a class="nav-sub" href="#sem7">fall B</a>
-  <a class="nav-sub" href="#sem8">spring B</a>
+  <a href="#entry">entry term</a>
+  <a href="#fall-a">entering in fall A</a>
+  <a class="nav-sub" href="#upper">upper division</a>
+  <a href="#fall-b">entering in fall B</a>
+  <a class="nav-sub" href="#upper-b">upper division</a>
   <a href="#certificate">certificate in music education</a>
   <a href="#electives">music electives</a>
   <a href="#unit-count">unit count</a>
@@ -76,6 +77,17 @@
 <span><i class="sw-ge"></i>general education</span>
 </div>
 </section>
+<section class="front" id="entry">
+<h2>entry term</h2>
+<p class="measure">Department courses are offered on a two-year rotation of fall A, spring A, fall B, and spring B. Fall A is in even years (2026, 2028, and so on), and fall B is in odd years (2027, 2029, and so on). Each entry term has its own plan.</p>
+<div class="entry-switch" role="group" aria-label="entry term" hidden>
+<button type="button" data-entry="fall-a" aria-pressed="true">entering in fall A (even years: 2026, 2028, &hellip;)</button>
+<button type="button" data-entry="fall-b" aria-pressed="false">entering in fall B (odd years: 2027, 2029, &hellip;)</button>
+</div>
+</section>
+
+<div class="entry-option" data-entry="fall-a" id="fall-a">
+<h2 class="option-title">entering in fall A (even years)</h2>
 <section class="front" id="upper">
 <h2>upper division</h2>
 <div class="sems">
@@ -101,10 +113,10 @@
 <tr class="ge"><td class="col-code">UD Area 5 / SUS</td><td class="col-code"></td><td>UD Science/Quantitative Reasoning <span class="cl-ge">(completion of Areas 1 &amp; 2)</span></td><td class="num">3</td></tr>
 <tr class="ge"><td class="col-code">UWR</td><td class="col-code"></td><td>University Writing Requirement</td><td class="num">3</td></tr>
 <tr><td class="col-code">UD music major / DIV</td><td class="col-code">MUS 324</td><td>History of American Music</td><td class="num">3</td></tr>
-<tr><td class="col-code">UD music major</td><td class="col-code">MUS 410</td><td>20th and 21st C Styles and Techniques</td><td class="num">3</td></tr>
 <tr><td class="col-code">applied studies</td><td class="col-code">MUS 461&ndash;469</td><td>Applied Music Study <span class="cl-ge">(jury)</span></td><td class="num">1</td></tr>
 <tr><td class="col-code">large ensemble</td><td class="col-code">MUS 351&ndash;359</td><td>Major Performing Ensemble</td><td class="num">1</td></tr>
 <tr><td class="col-code">music elective</td><td class="col-code"></td><td>Music Electives</td><td class="num">3</td></tr>
+<tr class="free"><td class="col-code">free elective</td><td class="col-code"></td><td>Free Elective Units / Other</td><td class="num">3</td></tr>
 <tr class="row-accent"><td></td><td></td><td>semester total</td><td class="num">17</td></tr>
 </tbody></table>
 </div>
@@ -114,11 +126,12 @@
 <thead><tr><th class="col-code">requirement</th><th class="col-code">course</th><th>title</th><th class="num">units</th></tr></thead>
 <tbody>
 <tr><td class="col-code">UD music major / UD Area 3</td><td class="col-code">MUS 304</td><td>World Music &amp; Culture <span class="cl-ge">(completion of Areas 1 &amp; 2)</span></td><td class="num">3</td></tr>
+<tr><td class="col-code">UD music major</td><td class="col-code">MUS 410</td><td>20th and 21st C Styles and Techniques</td><td class="num">3</td></tr>
 <tr><td class="col-code">applied studies</td><td class="col-code">MUS 461&ndash;469</td><td>Applied Music Study <span class="cl-ge">(jury)</span></td><td class="num">1</td></tr>
 <tr><td class="col-code">large ensemble</td><td class="col-code">MUS 351&ndash;359</td><td>Major Performing Ensemble</td><td class="num">1</td></tr>
 <tr><td class="col-code">chamber ensemble</td><td class="col-code">MUS 360&ndash;369</td><td>Chamber Ensemble</td><td class="num">1</td></tr>
 <tr><td class="col-code">music elective</td><td class="col-code"></td><td>Music Electives</td><td class="num">3</td></tr>
-<tr class="free"><td class="col-code">free elective</td><td class="col-code"></td><td>Free Elective Units / Other</td><td class="num">6</td></tr>
+<tr class="free"><td class="col-code">free elective</td><td class="col-code"></td><td>Free Elective Units / Other</td><td class="num">3</td></tr>
 <tr class="row-accent"><td></td><td></td><td>semester total</td><td class="num">15</td></tr>
 </tbody></table>
 </div>
@@ -135,7 +148,75 @@
 </tbody></table>
 </div>
 </div>
-</section><section class="front" id="certificate">
+</section>
+</div>
+
+<div class="entry-option" data-entry="fall-b" id="fall-b">
+<h2 class="option-title">entering in fall B (odd years)</h2>
+<section class="front" id="upper-b">
+<h2>upper division</h2>
+<div class="sems">
+<div class="sem">
+<h3 id="sem5b">fifth semester (fall B)</h3>
+<table class="hb-table">
+<thead><tr><th class="col-code">requirement</th><th class="col-code">course</th><th>title</th><th class="num">units</th></tr></thead>
+<tbody>
+<tr class="ge"><td class="col-code">UD Area 4 / SJ</td><td class="col-code"></td><td>UD Social and Behavioral Sciences <span class="cl-ge">(completion of Areas 1 &amp; 2)</span></td><td class="num">3</td></tr>
+<tr><td class="col-code">UD music major / UD Area 3</td><td class="col-code">MUS 304</td><td>World Music &amp; Culture <span class="cl-ge">(completion of Areas 1 &amp; 2)</span></td><td class="num">3</td></tr>
+<tr><td class="col-code">UD music major</td><td class="col-code">MUS 410</td><td>20th and 21st C Styles and Techniques</td><td class="num">3</td></tr>
+<tr><td class="col-code">applied studies</td><td class="col-code">MUS 461&ndash;469</td><td>Applied Music Study <span class="cl-ge">(applied area placement)</span></td><td class="num">1</td></tr>
+<tr><td class="col-code">large ensemble</td><td class="col-code">MUS 351&ndash;359</td><td>Major Performing Ensemble</td><td class="num">1</td></tr>
+<tr><td class="col-code">music elective</td><td class="col-code"></td><td>Music Electives</td><td class="num">3</td></tr>
+<tr class="row-accent"><td></td><td></td><td>semester total</td><td class="num">14</td></tr>
+</tbody></table>
+</div>
+<div class="sem">
+<h3 id="sem6b">sixth semester (spring B)</h3>
+<table class="hb-table">
+<thead><tr><th class="col-code">requirement</th><th class="col-code">course</th><th>title</th><th class="num">units</th></tr></thead>
+<tbody>
+<tr class="ge"><td class="col-code">UD Area 5 / SUS</td><td class="col-code"></td><td>UD Science/Quantitative Reasoning <span class="cl-ge">(completion of Areas 1 &amp; 2)</span></td><td class="num">3</td></tr>
+<tr class="ge"><td class="col-code">UWR</td><td class="col-code"></td><td>University Writing Requirement</td><td class="num">3</td></tr>
+<tr><td class="col-code">applied studies</td><td class="col-code">MUS 461&ndash;469</td><td>Applied Music Study <span class="cl-ge">(jury)</span></td><td class="num">1</td></tr>
+<tr><td class="col-code">large ensemble</td><td class="col-code">MUS 351&ndash;359</td><td>Major Performing Ensemble</td><td class="num">1</td></tr>
+<tr><td class="col-code">music elective</td><td class="col-code"></td><td>Music Electives</td><td class="num">3</td></tr>
+<tr class="free"><td class="col-code">free elective</td><td class="col-code"></td><td>Free Elective Units / Other</td><td class="num">6</td></tr>
+<tr class="row-accent"><td></td><td></td><td>semester total</td><td class="num">17</td></tr>
+</tbody></table>
+</div>
+<div class="sem">
+<h3 id="sem7b">seventh semester (fall A)</h3>
+<table class="hb-table">
+<thead><tr><th class="col-code">requirement</th><th class="col-code">course</th><th>title</th><th class="num">units</th></tr></thead>
+<tbody>
+<tr><td class="col-code">UD music major</td><td class="col-code">MUS 323</td><td>Topics in Western Music History</td><td class="num">3</td></tr>
+<tr><td class="col-code">UD music major</td><td class="col-code">MUS 312</td><td>Form and Analysis</td><td class="num">3</td></tr>
+<tr><td class="col-code">applied studies</td><td class="col-code">MUS 461&ndash;469</td><td>Applied Music Study <span class="cl-ge">(jury)</span></td><td class="num">1</td></tr>
+<tr><td class="col-code">large ensemble</td><td class="col-code">MUS 351&ndash;359</td><td>Major Performing Ensemble</td><td class="num">1</td></tr>
+<tr><td class="col-code">chamber ensemble</td><td class="col-code">MUS 360&ndash;369</td><td>Chamber Ensemble</td><td class="num">1</td></tr>
+<tr><td class="col-code">music elective</td><td class="col-code"></td><td>Music Electives</td><td class="num">3</td></tr>
+<tr class="free"><td class="col-code">free elective</td><td class="col-code"></td><td>Free Elective Units / Other</td><td class="num">3</td></tr>
+<tr class="row-accent"><td></td><td></td><td>semester total</td><td class="num">15</td></tr>
+</tbody></table>
+</div>
+<div class="sem">
+<h3 id="sem8b">eighth semester (spring A)</h3>
+<table class="hb-table">
+<thead><tr><th class="col-code">requirement</th><th class="col-code">course</th><th>title</th><th class="num">units</th></tr></thead>
+<tbody>
+<tr><td class="col-code">UD music major / DIV</td><td class="col-code">MUS 324</td><td>History of American Music</td><td class="num">3</td></tr>
+<tr><td class="col-code">applied studies</td><td class="col-code">MUS 461&ndash;469</td><td>Applied Music Study <span class="cl-ge">(jury)</span></td><td class="num">1</td></tr>
+<tr><td class="col-code">large ensemble</td><td class="col-code">MUS 351&ndash;359</td><td>Major Performing Ensemble</td><td class="num">1</td></tr>
+<tr><td class="col-code">music elective</td><td class="col-code"></td><td>Music Electives</td><td class="num">3</td></tr>
+<tr class="free"><td class="col-code">free elective</td><td class="col-code"></td><td>Free Elective Units / Other</td><td class="num">6</td></tr>
+<tr class="row-accent"><td></td><td></td><td>semester total</td><td class="num">14</td></tr>
+</tbody></table>
+</div>
+</div>
+</section>
+</div>
+
+<section class="front" id="certificate">
 <h2>Certificate in Music Education (add-on)</h2>
 <p class="lead">The Certificate in Music Education adds 31 units to the B.A. Its courses, semester placement, and unit totals are in the <a href="music-education-certificate-roadmap.html">Certificate in Music Education roadmap</a>.</p>
 </section><section class="front" id="electives">
