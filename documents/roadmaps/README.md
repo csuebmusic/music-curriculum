@@ -17,7 +17,7 @@ Student-facing HTML roadmaps for the B.A. in Music, the M.A. in Music, the FAST 
 
 Keep course titles and units in sync with the University Catalog and the
 undergraduate handbook (`../handbooks/undergraduate-handbook.html`). Each
-semester has an anchored id (`sem1` to `sem8`) for deep linking.
+semester has an anchored id (`sem1`, `sem2`, and so on) for deep linking.
 
 Rows with the `petition` class are graduate courses taken for graduate credit
 by petition in the last B.A. semester. They count toward the M.A. only.
@@ -42,7 +42,7 @@ the single-accent house style.
 
 Each roadmap has a download pdf button, built by `roadmap-tools.js` and
 included once per roadmap just before `</body>`. The roadmaps link
-`roadmaps.css` and `roadmap-tools.js` with a `?v=` value (`?v=20261007`). When
+`roadmaps.css` and `roadmap-tools.js` with a `?v=` value (`?v=20261008`). When
 either file changes, change the value on every roadmap. The button downloads the print
 sheet named in the roadmap's `<link rel="alternate" type="application/pdf">`,
 which points to its PDF in `../print/`. A change to a roadmap's courses or units

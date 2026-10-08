@@ -18,7 +18,7 @@
 
    one include per roadmap, just before </body>, with the same
    ?v= value as the roadmaps.css link:
-     <script src="roadmap-tools.js?v=20261007" defer></script>
+     <script src="roadmap-tools.js?v=20261008" defer></script>
    ============================================================ */
 (function () {
   function init() {
@@ -73,6 +73,13 @@
     [].slice.call(document.querySelectorAll('.entry-switch')).forEach(function (el) { el.hidden = false; });
     buttons.forEach(function (b) {
       b.addEventListener('click', function () { select(b.getAttribute('data-entry')); });
+    });
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest && e.target.closest('a[href^="#"]');
+      if (!a) return;
+      var target = document.getElementById(decodeURIComponent(a.getAttribute('href').slice(1)));
+      var name = target && optionFor(target);
+      if (name) select(name);
     });
     window.addEventListener('hashchange', fromHash);
     if (!fromHash()) select(options[0].getAttribute('data-entry'));
