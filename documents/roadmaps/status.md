@@ -1,6 +1,6 @@
 # status
 
-Updated October 7, 2026.
+Updated October 8, 2026.
 
 ## on hold
 
@@ -11,6 +11,7 @@ The roadmaps with the Certificate in Music Education are due for revision: B.A. 
 - FAST 4+1 + certificate: the semester rows hold 125 B.A. units, and the unit count reports 120.
 - FAST 2+1 + certificate: the published page and sheet are the 2026–2027 version (MUS 603 at 3 units, MUS 693 three times, no graduate credit by petition). For fall B entry, the Year A certificate courses are in the two blended semesters, about 21 units each.
 - B.A. + certificate, 4-year: MUS 331, 341, 433, and 441 are marked "also a music elective," and the summary credits 7 certificate units to the B.A.
+- B.A. + certificate, transfer: the unit summary rows add to 39 under a total of 60, in the layout the B.A. transfer page had before October 8.
 - Certificate rotation print sheet: it says certificate units beyond the 12 music elective units count toward the certificate alone. The B.A. + certificate plans count them as free electives.
 
 ### MUS 630
@@ -19,4 +20,4 @@ MUS 630 Advanced Conducting is in the first blended semester of the fall A plans
 
 ## open
 
-- Transfer unit summaries (B.A. transfer, B.A. composition transfer, B.A. + certificate transfer, both FAST 2+1 pages): the rows (upper division required 18, applied and ensembles 9, music electives 12) add to 39 under a total of 60. The footnote says MUS 351 units may transfer; the handbook has applied study and ensembles completed in residence.
+- B.A. composition transfer: the unit summary rows add to 39 under a total of 60, in the layout the B.A. transfer page had before October 8.

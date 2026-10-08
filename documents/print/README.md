@@ -76,4 +76,4 @@ Each sheet has 0.85-inch QR codes, captioned with the destination. A square is w
 
 ## rendering
 
-Run `python3 qr.py` in this folder after adding or changing a QR square. Render with WeasyPrint, with Montserrat (400, 600, 700) and Roboto Serif (400, 600) available to it. Application deadlines stay off the sheets.
+Run `python3 qr.py` in this folder after adding or changing a QR square. Render with WeasyPrint, with Montserrat (400, 600, 700) and Roboto Serif (400, 600) available to it. University admission deadlines stay off the sheets.
