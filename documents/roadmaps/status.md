@@ -15,7 +15,7 @@ The roadmaps with the Certificate in Music Education are due for revision: B.A. 
 
 ### MUS 630
 
-MUS 630 Advanced Conducting is in the first blended semester of the FAST 4+1 plan and the FAST 2+1 fall A plan. The graduate handbook's conducting placement note can require MUS 341 and MUS 441 first.
+MUS 630 Advanced Conducting is in the first blended semester of the fall A plans of FAST 4+1 and FAST 2+1. The graduate handbook's conducting placement note can require MUS 341 and MUS 441 first.
 
 ## open
 
