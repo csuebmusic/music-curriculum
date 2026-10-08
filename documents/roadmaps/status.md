@@ -27,6 +27,7 @@ The print sheets wait until the online roadmaps are final. Changes the B.A. 4-ye
 - FAST 2+1 sheets: the MUS 202 note ends "before they're eligible for FAST."
 - Associate Degree for Transfer (AA-T) on first mention, then AA-T; CSU East Bay in prose.
 - Semester rows as on the online fall A and fall B plans: MUS 312 and MUS 323 in fall A, MUS 324 in spring A, MUS 304 and MUS 410 in fall B.
+- FAST sheets: Capstone 2 of 4 is blended; 12 blended units and 4 units of graduate credit by petition.
 - New fall B sheets for the B.A. 4-year (ba-roadmap-4-year-fall-b) and B.A. transfer (ba-roadmap-transfer-fall-b). The online pages already link to both PDFs.
 
 ## open
