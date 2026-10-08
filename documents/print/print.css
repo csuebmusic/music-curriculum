@@ -111,6 +111,7 @@ tr.cert td { background: var(--cert-tint); }
 tr.ge td.code { color: var(--ge); }
 tr.blend td.code { color: var(--blend); }
 tr.cert td.code { color: var(--cert); }
+tr.petition td.code { color: var(--accent); }
 tr.sub td { font-family: "Montserrat", Arial, sans-serif; font-size: 7.4pt; color: var(--ink-soft); border-bottom: none; padding-top: 1pt; padding-bottom: 1pt; }
 .legend { display: flex; flex-wrap: wrap; gap: 3pt 14pt; font-family: "Montserrat", Arial, sans-serif; font-size: 7.2pt; color: var(--ink-soft); margin: 2pt 0 5pt; }
 .legend span::before { content: ""; display: inline-block; width: 8pt; height: 8pt; margin-right: 4pt; vertical-align: -1pt; border: 0.5pt solid var(--rule); }
@@ -119,6 +120,7 @@ tr.sub td { font-family: "Montserrat", Arial, sans-serif; font-size: 7.4pt; colo
 .legend .k-free::before { background: var(--free-tint); }
 .legend .k-blend::before { background: var(--blend-tint); }
 .legend .k-cert::before { background: var(--cert-tint); }
+.legend .k-petition::before { background: var(--paper); border-color: var(--accent); }
 .pairs { margin-top: 4pt; }
 .pair { break-inside: avoid; margin-bottom: 5pt; }
 .pair::after { content: ""; display: block; clear: both; }
