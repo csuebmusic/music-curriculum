@@ -72,6 +72,9 @@ main > .row-key { max-width: 900px; margin-left: auto; margin-right: auto; }
 .row-key .sw-petition { background: var(--paper); border-color: var(--accent); }
 
 
+/* the current roadmap in the sidebar list */
+nav a[aria-current="page"] { color: #fff !important; font-weight: 600; }
+
 /* ── entry options (roadmap-tools.js): one plan shown at a time ── */
 .entry-switch { display: none; gap: 0.5rem; margin: 0.4rem 0 1.4rem; flex-wrap: wrap; }
 main > .entry-switch { max-width: 900px; margin-left: auto; margin-right: auto; }

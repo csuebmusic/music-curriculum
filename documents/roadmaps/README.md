@@ -43,7 +43,7 @@ the single-accent house style.
 
 Each roadmap has a download pdf button, built by `roadmap-tools.js` and
 included once per roadmap just before `</body>`. The roadmaps link
-`roadmaps.css` and `roadmap-tools.js` with a `?v=` value (`?v=20261008`). When
+`roadmaps.css` and `roadmap-tools.js` with a `?v=` value (`?v=20261008b`). When
 either file changes, change the value on every roadmap. The button downloads the print
 sheet named in the roadmap's `<link rel="alternate" type="application/pdf">`,
 which points to its PDF in `../print/`. A change to a roadmap's courses or units

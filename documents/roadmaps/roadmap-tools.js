@@ -18,7 +18,7 @@
 
    one include per roadmap, just before </body>, with the same
    ?v= value as the roadmaps.css link:
-     <script src="roadmap-tools.js?v=20261008" defer></script>
+     <script src="roadmap-tools.js?v=20261008b" defer></script>
    ============================================================ */
 (function () {
   function init() {
