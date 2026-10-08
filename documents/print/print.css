@@ -134,3 +134,6 @@ tr.sub td { font-family: "Montserrat", Arial, sans-serif; font-size: 7.4pt; colo
 .cols3 h3 { font-size: 7.8pt; margin: 3pt 0 1pt; break-after: avoid; }
 .cols3 p { margin: 0 0 1pt; padding-left: 36pt; text-indent: -36pt; }
 .cols3 .c { font-family: "Montserrat", Arial, sans-serif; font-size: 7.2pt; display: inline-block; width: 36pt; text-indent: 0; }
+
+p.fn { font-size: 7.2pt; color: var(--ink-soft); margin: 3pt 0 0; line-height: 1.35; }
+tr.group td { font-family: "Montserrat", Arial, sans-serif; font-weight: 700; font-size: 7.6pt; padding-top: 5pt; border-bottom: none; }
