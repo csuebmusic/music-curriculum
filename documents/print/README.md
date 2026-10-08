@@ -8,7 +8,7 @@ Information sheets:
 
 - [ba-infosheet.pdf](ba-infosheet.pdf), from [ba-infosheet.html](ba-infosheet.html): the B.A. in Music starting sheet for prospective first-year, transfer, and second-bachelor's students, two pages.
 - [fast-infosheet.pdf](fast-infosheet.pdf), from [fast-infosheet.html](fast-infosheet.html): the FAST 4+1 B.A./M.A. starting sheet, two pages.
-- [music-ed-infosheet.pdf](music-ed-infosheet.pdf), from [music-ed-infosheet.html](music-ed-infosheet.html): the Single Subject Matter Preparation Certificate in Music starting sheet, two pages.
+- [music-ed-infosheet.pdf](music-ed-infosheet.pdf), from [music-ed-infosheet.html](music-ed-infosheet.html): the Certificate in Music Education starting sheet, two pages.
 - [ma-infosheet.pdf](ma-infosheet.pdf), from [ma-infosheet.html](ma-infosheet.html): the M.A. in Music starting sheet for prospective students, two pages.
 
 Roadmaps, catalog 2027–2028:
@@ -22,10 +22,10 @@ Roadmaps, catalog 2027–2028:
 - [ma-roadmap.pdf](ma-roadmap.pdf), from [ma-roadmap.html](ma-roadmap.html): the M.A. in Music four-semester sequence from fall A entry, one page.
 - [ma-roadmap-fall-b.pdf](ma-roadmap-fall-b.pdf), from [ma-roadmap-fall-b.html](ma-roadmap-fall-b.html): the M.A. in Music four-semester sequence from fall B entry, one page.
 - [ba-composition-roadmap-transfer.pdf](ba-composition-roadmap-transfer.pdf), from [ba-composition-roadmap-transfer.html](ba-composition-roadmap-transfer.html): the B.A. in Music from Music ADT transfer entry with the music electives filled from composition, production, and music business courses, four semesters, with the music electives list, two pages.
-- [ba-certificate-roadmap-4-year.pdf](ba-certificate-roadmap-4-year.pdf), from [ba-certificate-roadmap-4-year.html](ba-certificate-roadmap-4-year.html): the B.A. in Music with the music education certificate from first-year entry, eight semesters, two pages.
-- [ba-certificate-roadmap-transfer.pdf](ba-certificate-roadmap-transfer.pdf), from [ba-certificate-roadmap-transfer.html](ba-certificate-roadmap-transfer.html): the B.A. in Music with the music education certificate from Music ADT transfer entry, four semesters, two pages.
-- [fast-certificate-roadmap.pdf](fast-certificate-roadmap.pdf), from [fast-certificate-roadmap.html](fast-certificate-roadmap.html): FAST 4+1 with the music education certificate from first-year entry, ten semesters, three pages.
-- [fast-transfer-certificate-roadmap.pdf](fast-transfer-certificate-roadmap.pdf), from [fast-transfer-certificate-roadmap.html](fast-transfer-certificate-roadmap.html): FAST 2+1 with the music education certificate from Music ADT transfer entry, six semesters, two pages.
+- [ba-certificate-roadmap-4-year.pdf](ba-certificate-roadmap-4-year.pdf), from [ba-certificate-roadmap-4-year.html](ba-certificate-roadmap-4-year.html): the B.A. in Music with the Certificate in Music Education from first-year entry, eight semesters, two pages.
+- [ba-certificate-roadmap-transfer.pdf](ba-certificate-roadmap-transfer.pdf), from [ba-certificate-roadmap-transfer.html](ba-certificate-roadmap-transfer.html): the B.A. in Music with the Certificate in Music Education from Music ADT transfer entry, four semesters, two pages.
+- [fast-certificate-roadmap.pdf](fast-certificate-roadmap.pdf), from [fast-certificate-roadmap.html](fast-certificate-roadmap.html): FAST 4+1 with the Certificate in Music Education from first-year entry, ten semesters, three pages.
+- [fast-transfer-certificate-roadmap.pdf](fast-transfer-certificate-roadmap.pdf), from [fast-transfer-certificate-roadmap.html](fast-transfer-certificate-roadmap.html): FAST 2+1 with the Certificate in Music Education from Music ADT transfer entry, six semesters, two pages.
 
 Each roadmap sheet is the download behind the download pdf button on its online roadmap in `../roadmaps/`. The semester tables match the online roadmaps row for row.
 
