@@ -18,6 +18,20 @@ The roadmaps with the Certificate in Music Education are due for revision: B.A. 
 
 MUS 630 Advanced Conducting is in the first blended semester of the fall A plans of FAST 4+1 and FAST 2+1. The graduate handbook's conducting placement note can require MUS 341 and MUS 441 first.
 
+### MUS 323 and MUS 202 rotation
+
+- MUS 323 is in a fall B semester on the fall B plans of FAST 4+1 (fifth semester) and FAST 2+1 (first semester in residence). The B.A. 4-year plan has MUS 323 in a fall A semester and MUS 304 in a fall B semester, which holds only for a fall A entry.
+- MUS 202 is in spring B on the fall A plans and in spring A on the FAST 4+1 fall B plan; the transfer notes call it a 2-year sequence. MUS 211, 215, and 218 shift the same way.
+
+### print sheets
+
+The print sheets wait until the online roadmaps are final. Changes the B.A. 4-year, B.A. transfer, FAST 4+1, and FAST 2+1 sheets need:
+
+- Unit summary and unit count as on the online pages, with their footnotes.
+- First semester applied rows: "(applied area placement)".
+- FAST 2+1 sheets: the MUS 202 note ends "before they're eligible for FAST."
+- Associate Degree for Transfer (AA-T) on first mention, then AA-T; CSU East Bay in prose.
+
 ## open
 
-- B.A. composition transfer: the unit summary rows add to 39 under a total of 60, in the layout the B.A. transfer page had before October 8.
+- B.A. composition transfer: the unit summary rows add to 39 under a total of 60, in the layout the B.A. transfer page had before October 8. The page also has "music adt" and "CSUEB".
