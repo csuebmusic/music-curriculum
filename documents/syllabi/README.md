@@ -1,6 +1,6 @@
 # semester syllabi
 
-California State University, East Bay, Department of Music.
+California State University, East Bay, Department of Music and Performing Arts.
 
 Posted syllabi for individual sections in a given term, one file per section. Each file has a permanent web address that can go straight into a Canvas course. The master templates stay in [`curriculum/`](../../curriculum/) and are copied here at the start of a term.
 

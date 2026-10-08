@@ -1,6 +1,6 @@
 # documents
 
-Handbooks, roadmaps, admissions information, forms, and transfer contacts for the Department of Music. Each subsection carries its own README.
+Handbooks, roadmaps, admissions information, forms, and transfer contacts for the Department of Music and Performing Arts. Each subsection carries its own README.
 
 ## subsections
 

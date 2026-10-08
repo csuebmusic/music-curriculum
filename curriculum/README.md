@@ -1,6 +1,6 @@
 # curriculum
 
-Course and program proposals and curriculum documentation for the Department of Music, organized into subsections. Each subsection carries its own README.
+Course and program proposals and curriculum documentation for the Department of Music and Performing Arts, organized into subsections. Each subsection carries its own README.
 
 ## subsections
 

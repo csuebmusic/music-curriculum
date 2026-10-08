@@ -1,6 +1,6 @@
 # graduate recruitment facilitator
 
-Appointment accepted August 2026 for a two-year term, carrying a stipend. Added to existing duties (Associate Professor, Department of Music; Graduate Coordinator; composition and music production area coordinator; CLASS Curriculum Committee chair), with no reduction in any of them.
+Appointment accepted August 2026 for a two-year term, carrying a stipend. Added to existing duties (Associate Professor, Department of Music and Performing Arts; Graduate Coordinator; composition and music production area coordinator; CLASS Curriculum Committee chair), with no reduction in any of them.
 
 The role sits in the Office of Graduate Studies and has no standing committee. The work is ongoing rather than tied to set deliverable dates. Promotion and recruitment across the graduate programs is this position's portfolio; the other Graduate Studies facilitators cover other areas.
 

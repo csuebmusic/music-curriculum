@@ -1,6 +1,6 @@
 # catalog audit
 
-California State University, East Bay, Department of Music.
+California State University, East Bay, Department of Music and Performing Arts.
 
 Audit of the MUS course inventory in the 2026-2027 catalog against the Curriculog proposal archive, and the queue of Curriculog proposals arising from it. Revisions target the 2027-2028 catalog. Course proposals launch by September 15, 2026 and reach APS with college committee approval by October 15, 2026. Program revisions launch by October 15, 2026 and reach APS with college committee approval by November 15, 2026. CLASS sets earlier dates. Approved revisions take effect fall 2027.
 

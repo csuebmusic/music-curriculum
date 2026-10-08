@@ -1,6 +1,6 @@
 # theory and musicianship
 
-California State University, East Bay, Department of Music.
+California State University, East Bay, Department of Music and Performing Arts.
 
 Curriculum documentation for the Theory and Musicianship sequence leading to the B.A. in Music: three framework documents and twelve course syllabi covering MUS 108 through MUS 410.
 

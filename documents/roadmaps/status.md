@@ -20,4 +20,3 @@ MUS 630 Advanced Conducting is in the first blended semester of the FAST 4+1 pla
 ## open
 
 - Transfer unit summaries (B.A. transfer, B.A. composition transfer, B.A. + certificate transfer, both FAST 2+1 pages): the rows (upper division required 18, applied and ensembles 9, music electives 12) add to 39 under a total of 60. The footnote says MUS 351 units may transfer; the handbook has applied study and ensembles completed in residence.
-- The handbooks still say "Department of Music." The roadmaps say "Department of Music and Performing Arts."

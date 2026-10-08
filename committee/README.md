@@ -1,6 +1,6 @@
 # committee
 
-Committee work Inés Thiebaut carries for the Department of Music and the College of Letters, Arts, and Social Sciences. Each subsection carries its own README.
+Committee work Inés Thiebaut carries for the Department of Music and Performing Arts and the College of Letters, Arts, and Social Sciences. Each subsection carries its own README.
 
 ## subsections
 

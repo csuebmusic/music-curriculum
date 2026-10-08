@@ -1,6 +1,6 @@
 # schedule
 
-California State University, East Bay, Department of Music.
+California State University, East Bay, Department of Music and Performing Arts.
 
 Term course slates with section counts, units, and WTU by catalog course type.
 
