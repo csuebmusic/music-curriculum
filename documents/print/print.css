@@ -94,18 +94,16 @@ ul.plain li { margin-bottom: 1.5pt; }
 .pagebreak { break-before: page; }
 .address { font-family: "Montserrat", Arial, sans-serif; font-size: 7.8pt; color: var(--ink-soft); margin-top: 6pt; }
 
-/* roadmap row types: general education, free elective, blended (counts toward both degrees), certificate */
+/* roadmap row types: general education, blended (counts toward both degrees), certificate */
 :root {
   --ge: #2E5A72;
   --ge-tint: #EAF1F4;
-  --free-tint: #F2F2F0;
   --blend: #4A6741;
   --blend-tint: #ECF1EA;
   --cert: #7A5C2E;
   --cert-tint: #F6F0E4;
 }
 tr.ge td { background: var(--ge-tint); }
-tr.free td { background: var(--free-tint); }
 tr.blend td { background: var(--blend-tint); }
 tr.cert td { background: var(--cert-tint); }
 tr.ge td.code { color: var(--ge); }
@@ -117,7 +115,6 @@ tr.sub td { font-family: "Montserrat", Arial, sans-serif; font-size: 7.4pt; colo
 .legend span::before { content: ""; display: inline-block; width: 8pt; height: 8pt; margin-right: 4pt; vertical-align: -1pt; border: 0.5pt solid var(--rule); }
 .legend .k-major::before { background: var(--paper); }
 .legend .k-ge::before { background: var(--ge-tint); }
-.legend .k-free::before { background: var(--free-tint); }
 .legend .k-blend::before { background: var(--blend-tint); }
 .legend .k-cert::before { background: var(--cert-tint); }
 .legend .k-petition::before { background: var(--paper); border-color: var(--accent); }

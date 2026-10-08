@@ -10,7 +10,6 @@
 :root {
   --ge:           #2E5A72;   /* slate blue, general education */
   --ge-tint:      #EAF1F4;
-  --free-tint:    #F2F2F0;   /* free elective and open units */
   --blend:        #4A6741;   /* moss, units counting toward both degrees */
   --blend-tint:   #ECF1EA;
   --cert:         #7A5C2E;   /* ochre, music education certificate */
@@ -34,7 +33,6 @@ main > footer { max-width: 900px; }
 /* row types in the semester tables */
 .hb-table tr.ge td { background: var(--ge-tint); }
 .hb-table tr.ge td.col-code { color: var(--ge); }
-.hb-table tr.free td { background: var(--free-tint); color: var(--ink-soft); }
 .hb-table tr.blended td { background: var(--blend-tint); }
 .hb-table tr.row-accent.blend-total td { color: var(--blend); background: var(--blend-tint); }
 .blend-note { color: var(--blend); }
@@ -66,7 +64,6 @@ main > .row-key { max-width: 900px; margin-left: auto; margin-right: auto; }
 }
 .row-key .sw-major { background: var(--paper); }
 .row-key .sw-ge { background: var(--ge-tint); border-color: var(--ge); }
-.row-key .sw-free { background: var(--free-tint); }
 .row-key .sw-blend { background: var(--blend-tint); border-color: var(--blend); }
 .row-key .sw-cert { background: var(--cert-tint); border-color: var(--cert); }
 .row-key .sw-petition { background: var(--paper); border-color: var(--accent); }

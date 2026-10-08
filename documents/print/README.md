@@ -31,7 +31,7 @@ Each roadmap sheet is the download behind the download pdf button on its online 
 
 Stylesheet and script:
 
-- [print.css](print.css): the shared print stylesheet. Roadmap rows are tinted by type: general education, free elective, units counting toward both degrees, graduate credit by petition, and certificate.
+- [print.css](print.css): the shared print stylesheet. Roadmap rows are tinted by type: general education, units counting toward both degrees, graduate credit by petition, and certificate.
 - [qr.py](qr.py): draws the QR codes into the sheets.
 
 ## QR codes
