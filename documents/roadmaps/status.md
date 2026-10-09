@@ -10,7 +10,6 @@ The roadmaps with the Certificate in Music Education are under revision: B.A. + 
 
 - FAST 4+1 + certificate: the semester rows hold 125 B.A. units, and the unit count reports 120.
 - FAST 2+1 + certificate: the published page and sheet are the 2026–2027 version (MUS 603 at 3 units, MUS 693 three times, no graduate credit by petition). For fall B entry, the Year A certificate courses are in the two blended semesters, about 21 units each.
-- B.A. + certificate, 4-year: the online page is revised (fall A and fall B plans, certificate in years 3 and 4, within the 120). Its print sheet still has the earlier plan, and the fall B sheet (ba-certificate-roadmap-4-year-fall-b) doesn't exist yet.
 - B.A. + certificate, transfer: the unit summary rows add to 39 under a total of 60, in the layout the B.A. transfer page had before October 8.
 - Certificate rotation print sheet: it says certificate units beyond the 12 music elective units count toward the certificate alone. The B.A. + certificate plans count them as free electives.
 
