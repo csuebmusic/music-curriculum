@@ -5,10 +5,10 @@ Handbooks, roadmaps, admissions information, forms, and transfer contacts for th
 ## subsections
 
 - [handbooks](handbooks/): the undergraduate and graduate handbooks and the student assistant guides, screen-first HTML on one shared stylesheet.
-- [roadmaps](roadmaps/): student-facing HTML roadmaps for the B.A., the FAST blended degrees, and the Certificate in Music Education.
+- [roadmaps](roadmaps/): student-facing HTML roadmaps for the B.A., the M.A., the FAST blended degrees, and the Certificate in Music Education.
 - [admissions-emails](admissions-emails/): the sixteen automated messages Salesforce sends to applicants, admits, and new students, with the flow that triggers them.
 - [forms](forms/): Word forms and memos.
-- [print](print/): printed handouts for graduate fairs, with HTML sources and PDFs.
+- [print](print/): printed handouts for recruiting events and graduate fairs, with HTML sources and PDFs.
 - [syllabi](syllabi/): posted syllabi for individual sections, one file per section per term, each with a permanent address for Canvas.
 
 ## files
