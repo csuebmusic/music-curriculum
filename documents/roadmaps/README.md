@@ -7,7 +7,7 @@ Student-facing HTML roadmaps for the B.A. in Music, the M.A. in Music, the FAST 
 - [ba-roadmap-2-year-transfer.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-roadmap-2-year-transfer.html): AA-T transfer entry, with fall A and fall B entry plans, 60 units in residence.
 - [fast-ba-ma-roadmap.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/fast-ba-ma-roadmap.html): FAST 4+1 blended B.A. and M.A., ten semesters, with fall A and fall B entry plans, 120 and 32 units.
 - [fast-transfer-ba-ma-roadmap.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/fast-transfer-ba-ma-roadmap.html): FAST 2+1 transfer entry through both degrees, with fall A and fall B entry plans: 60 B.A. units in residence and 32 M.A. units.
-- [ba-composition-roadmap-2-year-transfer.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-composition-roadmap-2-year-transfer.html): Music ADT transfer entry with the music electives filled from composition, production, and music business courses, 60 units in residence.
+- [ba-composition-roadmap-2-year-transfer.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-composition-roadmap-2-year-transfer.html): AA-T transfer entry with the music electives filled from composition, production, and music business courses, 60 units in residence.
 - [ba-certificate-roadmap-4-year.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-certificate-roadmap-4-year.html): first-year B.A. entry with the Certificate in Music Education, with fall A and fall B entry plans; the certificate counts within the 120 units.
 - [ba-certificate-roadmap-2-year-transfer.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-certificate-roadmap-2-year-transfer.html): AA-T transfer entry with the Certificate in Music Education, with fall A and fall B entry plans; up to 4 certificate units beyond the 60 in residence.
 - [ma-roadmap.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ma-roadmap.html): M.A. in Music, four semesters, with fall A and fall B entry plans, 32 units.
@@ -32,9 +32,9 @@ the download pdf button at that plan's sheet. A link to an id inside a plan
 opens that plan. Without the script, both plans show.
 
 Certificate rows have the `cert` class and an ochre tint. On the combined
-roadmaps, certificate courses are in the Year A and Year B rotation slots the
-certificate cycle allows: fall A semesters take Year A fall courses, spring A
-semesters take Year A spring courses, and so on.
+roadmaps, certificate courses are in the rotation slots the certificate cycle allows:
+fall A semesters take the fall A certificate courses, spring A semesters take
+the spring A certificate courses, and so on.
 
 `roadmaps.css` layers row colors, a narrower centered column, and print rules
 over the handbook style. It applies to the roadmaps alone: the handbooks keep
