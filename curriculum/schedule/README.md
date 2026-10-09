@@ -2,18 +2,11 @@
 
 California State University, East Bay, Department of Music and Performing Arts.
 
-Term course slates with section counts, units, and WTU by catalog course type.
-
-## files
-
-- [spring 2027](spring-2027.md): spring A slate
-- [spring 2027 weekly grid](https://csuebmusic.github.io/music-curriculum/curriculum/schedule/spring-2027-weekly-grid.html): meeting times for the spring 2027 slate
+Course rotation and scheduling rules for the department, on the two-year cycle of fall A, spring A, fall B, and spring B. Fall A is in even years and fall B in odd years.
 
 ## standing rules
 
-MUS 118 and MUS 218 run after the upper-division band and the ensemble block, so they clear MUS 324, MUS 410, and the major ensemble in any term. Transfer students arrive with theory and aural skills and without keyboard.
-
-On Monday and Wednesday the grid columns are ordered by level: level 1, then level 3, then upper division and everything else.
+MUS 118 and MUS 218 run after the upper-division band and the ensemble block, so they clear the upper-division courses and the major ensemble in any term. Transfer students arrive with theory and aural skills and without keyboard.
 
 Music education meets Tuesday and Thursday mornings. Musicianship meets Monday and Wednesday.
 
