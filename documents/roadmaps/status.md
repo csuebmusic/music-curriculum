@@ -8,7 +8,8 @@ Updated October 8, 2026.
 
 The certificate rotation page and print sheet are due for revision. Known problems:
 
-- Certificate rotation print sheet: it says certificate units beyond the 12 music elective units count toward the certificate alone. The B.A. + certificate plans count them as free electives.
+- The rotation page and its print sheet state how certificate units count toward the B.A. (the page's double-count list and unit count; the sheet's line that units beyond the 12 music elective units count toward the certificate alone). That counting is internal and comes off both.
+- MUS 495 is listed under spring B; it comes at the end of the certificate.
 
 ### MUS 630
 
