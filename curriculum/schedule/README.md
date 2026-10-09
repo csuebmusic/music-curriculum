@@ -8,8 +8,9 @@ Course rotation and scheduling rules for the department, on the two-year cycle o
 
 | | fall A | spring A | fall B | spring B |
 |---|---|---|---|---|
-| B.A. upper division | MUS 312, 323 | MUS 324 | MUS 304, 410 | |
-| every year | MUS 381 (fall) | MUS 202 (spring) | MUS 381 (fall) | MUS 202 (spring) |
+| theory | MUS 312 | | MUS 410 | |
+| history | MUS 323 | MUS 324 | MUS 304 | |
+| every year | MUS 381 | MUS 202 | MUS 381 | MUS 202 |
 | composition | | MUS 414, 485 | | MUS 412, 486 |
 | conducting | MUS 341 | MUS 441 | | |
 | certificate | MUS 233, 331, 341 | MUS 231, 433, 441 | MUS 232, 236, 304, 431 | MUS 234, 235, 335, 432 |
