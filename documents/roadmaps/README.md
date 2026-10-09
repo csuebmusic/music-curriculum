@@ -12,7 +12,7 @@ Student-facing HTML roadmaps for the B.A. in Music, the M.A. in Music, the FAST 
 - [ba-certificate-roadmap-2-year-transfer.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-certificate-roadmap-2-year-transfer.html): AA-T transfer entry with the Certificate in Music Education, with fall A and fall B entry plans; up to 4 certificate units beyond the 60 in residence.
 - [ma-roadmap.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ma-roadmap.html): M.A. in Music, four semesters, with fall A and fall B entry plans, 32 units.
 - [ma-certificate-roadmap.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ma-certificate-roadmap.html): the M.A. in Music with the Certificate in Music Education, with fall A and fall B entry plans, 63 units across four semesters.
-- [music-education-certificate-roadmap.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/music-education-certificate-roadmap.html): certificate course rotation across a two-year cycle, 31 units.
+- [music-education-certificate-roadmap.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/music-education-certificate-roadmap.html): certificate course rotation across fall A, spring A, fall B, and spring B, with MUS 495 in the last semester, 31 units.
 - [status.md](status.md): items on hold and open questions.
 
 Keep course titles and units in sync with the University Catalog and the
