@@ -16,4 +16,6 @@ MUS 630 Advanced Conducting is in the first blended semester of the fall A plans
 
 ## open
 
+- M.A. + certificate: the online page has no print sheets yet (ma-certificate-roadmap and ma-certificate-roadmap-fall-b); its download button points to both. MUS 630 is in the first semester of the fall B plan, before MUS 341 and MUS 441.
+
 - B.A. composition transfer: the unit summary rows add to 39 under a total of 60, in the layout the B.A. transfer page had before October 8. The page also has "music adt" and "CSUEB".
