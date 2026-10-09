@@ -4,12 +4,10 @@ Updated October 8, 2026.
 
 ## on hold
 
-### certificate roadmaps
+### certificate rotation
 
-The roadmaps with the Certificate in Music Education are under revision: B.A. + certificate (4-year and transfer), FAST 4+1 + certificate, FAST 2+1 + certificate, and the certificate rotation. Known problems:
+The certificate rotation page and print sheet are due for revision. Known problems:
 
-- FAST 4+1 + certificate: the semester rows hold 125 B.A. units, and the unit count reports 120.
-- FAST 2+1 + certificate: the published page and sheet are the 2026–2027 version (MUS 603 at 3 units, MUS 693 three times, no graduate credit by petition). For fall B entry, the Year A certificate courses are in the two blended semesters, about 21 units each.
 - Certificate rotation print sheet: it says certificate units beyond the 12 music elective units count toward the certificate alone. The B.A. + certificate plans count them as free electives.
 
 ### MUS 630

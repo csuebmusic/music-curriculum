@@ -29,8 +29,6 @@ Roadmaps, catalog 2027–2028:
 - [ba-certificate-roadmap-4-year-fall-b.pdf](ba-certificate-roadmap-4-year-fall-b.pdf), from [ba-certificate-roadmap-4-year-fall-b.html](ba-certificate-roadmap-4-year-fall-b.html): the B.A. in Music with the Certificate in Music Education from first-year entry in a fall B, eight semesters, two pages.
 - [ba-certificate-roadmap-transfer.pdf](ba-certificate-roadmap-transfer.pdf), from [ba-certificate-roadmap-transfer.html](ba-certificate-roadmap-transfer.html): the B.A. in Music with the Certificate in Music Education from AA-T transfer entry in a fall A, four semesters, with the music electives list, two pages.
 - [ba-certificate-roadmap-transfer-fall-b.pdf](ba-certificate-roadmap-transfer-fall-b.pdf), from [ba-certificate-roadmap-transfer-fall-b.html](ba-certificate-roadmap-transfer-fall-b.html): the B.A. in Music with the Certificate in Music Education from AA-T transfer entry in a fall B, four semesters, with the music electives list, two pages.
-- [fast-certificate-roadmap.pdf](fast-certificate-roadmap.pdf), from [fast-certificate-roadmap.html](fast-certificate-roadmap.html): FAST 4+1 with the Certificate in Music Education from first-year entry, ten semesters, three pages.
-- [fast-transfer-certificate-roadmap.pdf](fast-transfer-certificate-roadmap.pdf), from [fast-transfer-certificate-roadmap.html](fast-transfer-certificate-roadmap.html): FAST 2+1 with the Certificate in Music Education from Music ADT transfer entry, six semesters, two pages.
 
 Each roadmap sheet is the download behind the download pdf button on its online roadmap in `../roadmaps/`. The semester tables match the online roadmaps row for row.
 
@@ -79,8 +77,6 @@ Each sheet has 0.85-inch QR codes, captioned with the destination. A square is w
 | This roadmap online | B.A. with certificate 4-year roadmap, fall B | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-certificate-roadmap-4-year.html#fall-b |
 | This roadmap online | B.A. with certificate transfer roadmap, fall A | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-certificate-roadmap-2-year-transfer.html |
 | This roadmap online | B.A. with certificate transfer roadmap, fall B | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-certificate-roadmap-2-year-transfer.html#fall-b |
-| This roadmap online | FAST 4+1 with certificate roadmap | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/fast-ba-ma-certificate-roadmap.html |
-| This roadmap online | FAST 2+1 transfer with certificate roadmap | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/fast-transfer-ba-ma-certificate-roadmap.html |
 
 ## rendering
 
