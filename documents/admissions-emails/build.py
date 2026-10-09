@@ -135,7 +135,7 @@ def funding(items):
 add("00-inquiry", "all", "Inquired",
   "Music at East Bay", [
   P("Hi {{FIRST_NAME}},"),
-  P("Thank you for your interest in the " + A(U["home"], "Department of Music and Performing Arts") + " and Performing Arts at Cal State East Bay. "
+  P("Thank you for your interest in the " + A(U["home"], "Department of Music and Performing Arts") + " at CSU East Bay. "
     "We&rsquo;re a small department "
     "inside a large and unusually mixed university, and we take our students seriously as the musicians "
     "they already are. They perform and record, compose and arrange, score for film and games, produce "
@@ -145,7 +145,7 @@ add("00-inquiry", "all", "Inquired",
   UL([
     A(U["ba"], "<strong>B.A. in Music</strong>") + ". 120 units of applied lessons, ensembles, and coursework across performance, composition, music technology, jazz, and music education.",
     A(U["ma"], "<strong>M.A. in Music</strong>") + ". 32 units, in Performance (Classical or Jazz), Choral Conducting, or Composition.",
-    A(U["cert"], "<strong>Single Subject Matter Preparation Certificate in Music</strong>") + ". Preparation for the California Single Subject Teaching Credential in Music. Add it to the B.A., add it to the M.A., or take it on its own if you already hold a bachelor&rsquo;s.",
+    A(U["cert"], "<strong>Certificate in Music Education</strong>") + ". Preparation for the California Single Subject Teaching Credential in Music. Add it to the B.A., add it to the M.A., or take it on its own if you already hold a bachelor&rsquo;s.",
     A(U["fast"], "<strong>FAST 4+1 B.A./M.A.</strong>") + " gets you both degrees in five years, for students already in the B.A. here, who apply in the junior year. Second-bachelor&rsquo;s students and double majors aren&rsquo;t eligible.",
     A(U["minor"], "<strong>Music Minor</strong>") + ". 21 units, open to any major."]),
   P(A(U["apply"], "How to apply") + " &middot; " + A(U["schol"], "Music scholarships")),
@@ -158,7 +158,7 @@ add("00-inquiry", "all", "Inquired",
 add("ba-1-application-in-progress", "ba", "Application in Progress",
   "Your Music application", [
   P("Hi {{FIRST_NAME}},"),
-  P("Thank you for starting an application to the " + A(U["ba"], "B.A. in Music") + " at Cal State East Bay."),
+  P("Thank you for starting an application to the " + A(U["ba"], "B.A. in Music") + " at CSU East Bay."),
   P("If anything in the application is unclear, don&rsquo;t hesitate to reach out, we are here to help. " + CALL),
   P("We also want you to consider auditioning in your applied area for lessons and scholarships. We award "
     "scholarships to incoming students every year, and the same materials serve as the applied area "
@@ -210,7 +210,7 @@ add("ba-3-conditionally-admitted", "ba", "Conditionally Admitted",
 add("ba-4-fully-admitted", "ba", "Fully Admitted",
   "Your offer of admission", [
   P("Hi {{FIRST_NAME}},"),
-  P("Congratulations, and welcome! You have been admitted to the B.A. in Music at Cal State East Bay!"),
+  P("Congratulations, and welcome! You have been admitted to the B.A. in Music at CSU East Bay!"),
   H("First, accept your offer"),
   P("Log in to " + MYCSUEB + ", choose the Admissions tile, select Accept Admission, and pay the $110 "
     "non-refundable " + A(U["fee"], "pre-enrollment fee") + ", which is applied toward orientation. The Office "
@@ -219,7 +219,7 @@ add("ba-4-fully-admitted", "ba", "Fully Admitted",
   H("To help you decide if CSU East Bay is the right place for you"),
   UL([
     "<strong>What the four years hold.</strong> 120 units built on applied lessons and ensembles from your first semester to your last, alongside theory, history, conducting, and technology. The coursework spans performance, composition, production, jazz, and music education. Our students play across the Bay Area and abroad, write and record their own work, and leave ready for the stage, the studio, the classroom, or graduate school. The roadmaps show the degree term by term, " + A(U["rm4"], "four years") + " or " + A(U["rm2"], "two years for transfer students") + ".",
-    "<strong>The music education add-on.</strong> You can earn the " + A(U["cert"], "Single Subject Matter Preparation Certificate in Music") + " alongside the B.A., which prepares you to apply for the California Single Subject Teaching Credential in Music and complete it successfully. John Eros coordinates music education: " + A("mailto:john.eros@csueastbay.edu", "john.eros@csueastbay.edu") + ".",
+    "<strong>The music education add-on.</strong> You can earn the " + A(U["cert"], "Certificate in Music Education") + " alongside the B.A., which prepares you to apply for the California Single Subject Teaching Credential in Music and complete it successfully. John Eros coordinates music education: " + A("mailto:john.eros@csueastbay.edu", "john.eros@csueastbay.edu") + ".",
     "<strong>The FAST 4+1 B.A./M.A.</strong> gets you both degrees in five years. You apply in your junior year, by the end of week 7 of the Fall or Spring semester, with 60 to 90 program-applicable units and a 3.0 cumulative GPA. Second-bachelor&rsquo;s students and double majors aren&rsquo;t eligible. " + A(U["fast"], "More about the program") + ", and the roadmaps lay out the whole sequence: " + A(U["fastrm"], "4+1") + " and " + A(U["fastrm2"], "2+1 for transfer students") + ".",
     "<strong>Come and see us.</strong> Sit in on a class, hear a rehearsal, meet the faculty you would study with, and talk to the students already doing it. Write or call and we will arrange a visit around your schedule.",
     "<strong>Complete your applied area placement.</strong> You need one to begin lessons in your principal area (if you submitted a scholarship audition, that already counts!) If you have not auditioned, sign up on the " + A(U["aud"], "scholarship auditions and applied area placements") + " page, any time up to the second Tuesday of the semester."]),
@@ -254,7 +254,7 @@ add("ba-5-admission-accepted", "ba", "Admission Accepted",
     "The concert calendar is on " + A(U["events"], "News &amp; Events") + "."]),
   H("Two other paths, when you are ready"),
   UL([
-    "For the " + A(U["cert"], "Single Subject Matter Preparation Certificate in Music") + ", write to John Eros at " + A("mailto:john.eros@csueastbay.edu", "john.eros@csueastbay.edu") + " to set up an advising session. Its " + A(U["certrm"], "roadmap") + " shows how the coursework fits alongside the degree.",
+    "For the " + A(U["cert"], "Certificate in Music Education") + ", write to John Eros at " + A("mailto:john.eros@csueastbay.edu", "john.eros@csueastbay.edu") + " to set up an advising session. Its " + A(U["certrm"], "roadmap") + " shows how the coursework fits alongside the degree.",
     "For the " + A(U["fast"], "FAST 4+1 B.A./M.A.") + ", you apply in your junior year, by the end of week 7 of the Fall or Spring semester. Second-bachelor&rsquo;s students and double majors aren&rsquo;t eligible. Roadmaps: " + A(U["fastrm"], "4+1") + " and " + A(U["fastrm2"], "2+1 for transfer students") + "."]),
   P("Questions about any of it? " + CALL),
   FOOTER("Welcome!")])
@@ -305,8 +305,7 @@ add("ma-3-conditionally-admitted", "ma", "Conditionally Admitted",
 add("ma-4-fully-admitted", "ma", "Fully Admitted",
   "Your M.A. offer", [
   P("Hi {{FIRST_NAME}},"),
-  P("Congratulations, and welcome!! You have been admitted to the Master of Arts in Music at Cal State East "
-    "Bay!"),
+  P("Congratulations, and welcome! You have been admitted to the Master of Arts in Music at CSU East Bay!"),
   H("First, accept your offer"),
   P("Log in to " + MYCSUEB + ", choose the Admissions tile, and select Accept Admission. The Office of "
     "Admissions covers the rest of the university side, from housing to student life, on its "
@@ -314,7 +313,7 @@ add("ma-4-fully-admitted", "ma", "Fully Admitted",
   H("To help you decide if CSU East Bay is the right place for you"),
   UL([
     "<strong>What the two years hold.</strong> 32 units across four semesters, built on a seminar core in analysis, jazz, conducting, entrepreneurship, interdisciplinary collaboration, and teaching in higher education, with applied lessons and ensembles running throughout. You finish the degree with a public capstone of your own making: a recital, a portfolio, a project you argue for. Our graduate students perform across the Bay Area, premiere new work, conduct, record, and walk out ready to teach at the college level. All this information and more, including the roadmap, is in our " + A(U["grhb"], "Graduate Handbook") + ".",
-    "<strong>The music education add-on.</strong> You can earn the " + A(U["cert"], "Single Subject Matter Preparation Certificate in Music") + " alongside the M.A. Admission to the M.A. means you&rsquo;re automatically eligible to begin this program, and the certificate covers the coursework that prepares you to apply for the California Single Subject Teaching Credential in Music and complete it successfully. John Eros coordinates music education: " + A("mailto:john.eros@csueastbay.edu", "john.eros@csueastbay.edu") + ". The Graduate Coordinator can advise on fitting it to the graduate sequence.",
+    "<strong>The music education add-on.</strong> You can earn the " + A(U["cert"], "Certificate in Music Education") + " alongside the M.A. Admission to the M.A. means you&rsquo;re automatically eligible to begin this program, and the certificate covers the coursework that prepares you to apply for the California Single Subject Teaching Credential in Music and complete it successfully. John Eros coordinates music education: " + A("mailto:john.eros@csueastbay.edu", "john.eros@csueastbay.edu") + ". The Graduate Coordinator can advise on fitting it to the graduate sequence.",
     "<strong>Come and see us.</strong> Sit in on a seminar, hear a rehearsal, meet the faculty you would work with, and talk to the students already doing it. Write to the Graduate Coordinator and we will arrange a visit around your schedule.",
     "<strong>Paid teaching work.</strong> Graduate Teaching Associates lead their own sections and are paid per course-unit; Instructional Student Assistants support teaching by the hour. Both are limited, with opportunities opening before the semester, so be sure to express your interest early."]),
   H("Check in with the offices that handle the rest"),
@@ -354,7 +353,7 @@ add("cert-1-application-in-progress", "cert", "Application in Progress",
   "Starting your certificate", [
   P("Hi {{FIRST_NAME}},"),
   P("Thank you for starting an application to the "
-    + A(U["cert"], "Single Subject Matter Preparation Certificate in Music") + ". The certificate is the "
+    + A(U["cert"], "Certificate in Music Education") + ". The certificate is the "
     "subject matter portion of becoming a music teacher in California. It establishes that you know the "
     "discipline you intend to teach, including theory, history, conducting, and performance, at the depth "
     "the state expects of someone standing in front of a classroom. Completing it satisfies the subject "
@@ -387,7 +386,7 @@ add("cert-1-application-in-progress", "cert", "Application in Progress",
 add("cert-2-application-received", "cert", "Application Received",
   "Your certificate application", [
   P("Hi {{FIRST_NAME}},"),
-  P("Congratulations, your application to the Single Subject Matter Preparation Certificate in Music is "
+  P("Congratulations, your application to the Certificate in Music Education is "
     "complete."),
   P("We read the materials you sent us, your CV, your letters, and your statement of purpose, as they come "
     "in. The Office of Graduate Admissions verifies your transcripts and official documents separately, and "
@@ -402,7 +401,7 @@ add("cert-2-application-received", "cert", "Application Received",
 add("cert-3-conditionally-admitted", "cert", "Conditionally Admitted",
   "Conditionally admitted, certificate", [
   P("Hi {{FIRST_NAME}},"),
-  P("You have been conditionally admitted to the Single Subject Matter Preparation Certificate in Music. The "
+  P("You have been conditionally admitted to the Certificate in Music Education. The "
     "Office of Graduate Admissions makes the offer final once the outstanding items on your record are "
     "cleared."),
   H("What is outstanding"),
@@ -416,8 +415,8 @@ add("cert-3-conditionally-admitted", "cert", "Conditionally Admitted",
 add("cert-4-fully-admitted", "cert", "Fully Admitted",
   "Your certificate offer", [
   P("Hi {{FIRST_NAME}},"),
-  P("Congratulations, and welcome! You have been admitted to the Single Subject Matter Preparation Certificate "
-    "in Music at Cal State East Bay!"),
+  P("Congratulations, and welcome! You have been admitted to the Certificate in Music Education "
+    "at CSU East Bay!"),
   H("First, accept your offer"),
   P("Log in to " + MYCSUEB + ", choose the Admissions tile, and select Accept Admission. The Office of "
     "Admissions covers the rest of the university side on its " + A(U["gradmit"], "after you&rsquo;re accepted")
