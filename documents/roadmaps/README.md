@@ -19,9 +19,6 @@ Keep course titles and units in sync with the University Catalog and the
 undergraduate handbook (`../handbooks/undergraduate-handbook.html`). Each
 semester has an anchored id (`sem1`, `sem2`, and so on) for deep linking.
 
-Rows with the `petition` class are graduate courses taken for graduate credit
-by petition in the last B.A. semester. They count toward the M.A. only.
-
 A roadmap with more than one entry term wraps each plan in
 `<div class="entry-option" data-entry="fall-a" id="fall-a">` (and `fall-b`), and
 the fall B plan has the same semester and section ids with a `b` suffix

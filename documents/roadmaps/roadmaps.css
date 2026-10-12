@@ -41,8 +41,6 @@ main > footer { max-width: 900px; }
 .hb-table tr.cert td.col-code { color: var(--cert); }
 .hb-table tr.row-accent.cert-total td { color: var(--cert); background: var(--cert-tint); }
 .cert-note { color: var(--cert); }
-.hb-table tr.petition td.col-code { color: var(--accent); }
-.hb-table tr.petition td { border-left: 0; }
 
 /* key to the row colors */
 .row-key {
@@ -66,7 +64,6 @@ main > .row-key { max-width: 900px; margin-left: auto; margin-right: auto; }
 .row-key .sw-ge { background: var(--ge-tint); border-color: var(--ge); }
 .row-key .sw-blend { background: var(--blend-tint); border-color: var(--blend); }
 .row-key .sw-cert { background: var(--cert-tint); border-color: var(--cert); }
-.row-key .sw-petition { background: var(--paper); border-color: var(--accent); }
 
 
 /* the current roadmap in the sidebar list */
