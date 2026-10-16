@@ -129,13 +129,3 @@ English TESOL, M.A. The coordinators page lists it as suspended, with University
 ## pages carrying stale content
 
 The International Programs [admission requirements document](https://www.csueastbay.edu/ip/files/docs/grad-program-requirements.pdf) is stamped "Information verified 7/15/2025" and is a cycle behind on every dated claim: the English M.A. suspended until Fall 2026, the Global Innovators M.B.A. not accepting applications for Fall 2026, the Computer Science GRE waived for Fall 2025 and Spring 2026. It omits Nursing, Public Administration, Health Care Administration, Hospitality Recreation and Tourism, Special Education, Teacher Education, and all credentials. International applicants for Fall 2027 read this document.
-
-## open questions
-
-Each names where the answer comes from.
-
-- Fall 2027 status of the Communication, M.A., the English, M.A., and the English TESOL, M.A. Departments.
-- Whether the seven catalog programs missing from the coordinators page admit for Fall 2027 and belong on it. Departments, through Graduate Studies.
-- Whether the English TESOL, M.A., the Finance, M.S., and the Educational Leadership (Online), M.S. are in the 2026-2027 catalog. Catalog.
-- Who owns the International Programs admission requirements document, and on what cycle it is reverified. International Admissions.
-- The Fall 2027 graduate filing window. Admissions.

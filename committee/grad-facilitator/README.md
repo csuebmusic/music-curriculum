@@ -4,7 +4,7 @@ Working documents for the graduate recruitment facilitator role in the Office of
 
 ## files
 
-Each working file records current state, open questions, and next actions. Resolved items come out.
+Each working file records current state. Open questions and next actions are in `status.md`. Resolved items come out.
 
 - [role.md](role.md): the appointment, the charge, the scope, and the office contacts.
 - [status.md](status.md): the recruitment channels in use, who runs what, next actions, open questions, and decisions taken.

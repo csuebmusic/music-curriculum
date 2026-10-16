@@ -9,7 +9,7 @@ Sent by Joshua Kerr:
 - Direct email to students, via BaySync or Salesforce.
 - Massmail.
 - Email to graduate coordinators.
-- Distribution to department chairs through associate deans (routing to confirm).
+- Distribution to department chairs through associate deans.
 - A-frame posters and flyers posted around campus.
 - Campus LED screens (starting).
 - Graduate Studies and university social media, including the Office of Graduate Studies [Instagram](https://www.instagram.com/graduatestudiescsueb/) and [LinkedIn](https://www.linkedin.com/in/graduate-studies-csueb-75b793328/).
@@ -74,7 +74,6 @@ CBE runs its own marketing and it performs well. The methods are not documented 
 - Meet with department chairs and associate deans about outreach and advertisement, including the content standard for the program pages Graduate Studies does not own.
 - Meet with CBE about outreach and marketing strategies transferable to other programs, and record the methods above.
 - Ask Institutional Effectiveness and Research for the Non-US prior-institution figures, absent from the exports, and for whether the enrollment dashboard carries anything later than Fall 2025.
-- Take the open questions in `programs.md` to Graduate Studies and to the departments they name.
 
 ## open questions
 
@@ -89,6 +88,11 @@ Each names where the answer comes from.
 - What the associate deans currently do with material distributed to them for department chairs. Joshua Kerr.
 - Which colleges and departments have already been approached about graduate outreach. Joshua Kerr.
 - What has been tried and set aside. Joshua Kerr.
+- Fall 2027 status of the Communication, M.A., the English, M.A., and the English TESOL, M.A. Departments.
+- Whether the seven catalog programs missing from the coordinators page admit for Fall 2027 and belong on it. Departments, through Graduate Studies.
+- Whether the English TESOL, M.A., the Finance, M.S., and the Educational Leadership (Online), M.S. are in the 2026-2027 catalog. Catalog.
+- Who owns the International Programs admission requirements document, and on what cycle it is reverified. International Admissions.
+- The Fall 2027 graduate filing window. Admissions.
 
 ## decisions
 
