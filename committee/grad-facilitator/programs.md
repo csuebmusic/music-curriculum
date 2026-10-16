@@ -47,7 +47,7 @@ The [2026-2027 catalog](https://catalog.csueastbay.edu/content.php?catoid=44&nav
 | [Music, M.A.](https://www.csueastbay.edu/music/prospective/ma.html) | Fall | University Admissions |
 | [Public Administration, M.P.A.](https://www.csueastbay.edu/paa/public-admin/index.html): Public Management and Policy Analysis; Health Care Administration | Fall | University Admissions |
 | [Interaction and User Experience Design Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20693&returnto=42139) | Fall | May 15 |
-| [Single Subject Matter Preparation Certificate Program in Music](https://www.csueastbay.edu/music/prospective/music-ed.html) | Fall, Spring | University Admissions |
+| [Music Single Subject Matter Preparation Certificate](https://www.csueastbay.edu/music/prospective/music-ed.html) | Fall, Spring | University Admissions |
 
 #### Graduate School of Education
 
@@ -85,24 +85,18 @@ The [2026-2027 catalog](https://catalog.csueastbay.edu/content.php?catoid=44&nav
 | [Statistics, M.S.](https://www.csueastbay.edu/statistics/degrees-programs/index.html): Actuarial Science; Applied Statistics; Biostatistics; Data Science; Mathematical Statistics | Fall, Spring | University Admissions |
 | [Applied Statistics Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20621&returnto=42139) | Summer, Fall, Spring | University Admissions |
 | [Biotechnology Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20599&returnto=42139) | Fall, Spring | University Admissions |
-| [Mathematics Single Subject Matter Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20624&returnto=42139) | Summer, Fall, Spring | University Admissions |
+| [Mathematics, Single Subject Matter Certificate Program](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20624&returnto=42139) | Summer, Fall, Spring | University Admissions |
 | [Theoretical Statistics Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20622&returnto=42139) | Summer, Fall, Spring | University Admissions |
 
 ### Continuing Education
 
 | program | terms open | deadline |
 | --- | --- | --- |
-| [Post-Baccalaureate Health Academic Program (PHAP)](https://ce.csueastbay.edu/programs/pre-professional-health/): Academic Enhancer track; Career Changer track; both University Extension | Academic Enhancer: Fall, Spring, Summer. Career Changer: Fall | University Admissions |
+| [Post-baccalaureate Health Professions Academic Program Certificate (self-support only)](https://ce.csueastbay.edu/programs/pre-professional-health/): Academic Enhancer track; Career Changer track; both University Extension | Academic Enhancer: Fall, Spring, Summer. Career Changer: Fall | University Admissions |
 
-## the roster against the catalog and Cal State Apply
+## the roster against Cal State Apply
 
 In Cal State Apply and not on the coordinators page: the Applied Spanish in Speech-Language Pathology Certificate.
-
-Named differently on the coordinators page than in the catalog:
-
-- The catalog's Post-baccalaureate Health Professions Academic Program Certificate is the page's Post-Baccalaureate Health Academic Program (PHAP).
-- The catalog's Mathematics, Single Subject Matter Certificate Program is the page's Mathematics Single Subject Matter.
-- The catalog's Music Single Subject Matter Preparation Certificate is the page's Single Subject Matter Preparation Certificate Program in Music.
 
 ## programs not accepting applications
 

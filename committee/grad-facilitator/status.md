@@ -41,7 +41,7 @@ These channels are mapped against the 2024 plan section by section in `recruitme
 
 ## program status
 
-The roster, the discrepancies against the catalog and Cal State Apply, and the programs not accepting applications are in `programs.md`.
+The roster, the discrepancies against Cal State Apply, and the programs not accepting applications are in `programs.md`.
 
 ## information session coverage
 
@@ -91,7 +91,6 @@ Each names where the answer comes from.
 - What has been tried and set aside. Joshua Kerr.
 - Fall 2027 status of the Communication, M.A., the English, M.A., and the Quantitative Economics, M.S. Departments.
 - Coordinator, terms, and deadline for the Applied Spanish in Speech-Language Pathology Certificate, listed in Cal State Apply and absent from the catalog and the department site. Speech, Language, and Hearing Sciences.
-- Whether the coordinators page takes the catalog names for the three programs named differently in `programs.md`. Inés Thiebaut.
 - The Fall 2027 graduate filing window. Admissions.
 
 ## decisions
