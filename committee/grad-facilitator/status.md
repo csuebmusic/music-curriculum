@@ -77,10 +77,7 @@ CBE runs its own marketing and it performs well. The methods are not documented 
 - Meet with department chairs and associate deans about outreach and advertisement, including the content standard for the program pages Graduate Studies does not own.
 - Meet with CBE about outreach and marketing strategies transferable to other programs, and record the methods above.
 - Ask Institutional Effectiveness and Research for the Non-US prior-institution figures, absent from the exports, and for whether the enrollment dashboard carries anything later than Fall 2025.
-- Ask Graduate Studies or Admissions for applications and admits by program, which appear in no dashboard read so far.
-- Request Salesforce Marketing Cloud access through Joshua Kerr, who runs the central communications.
 - Take the open questions in `programs.md` to Graduate Studies and to the departments they name.
-- Ask Graduate Studies to retitle the graduate recruitment facilitator in the contact block on the [Office of Graduate Studies page](https://www.csueastbay.edu/graduate-studies/), where it still reads Graduate Student Success Facilitator. Dr. Divya Sitaraman's email was corrected on or before September 14, 2026.
 - Ask for the Program Coordinator link on the [prospective graduate students page](https://www.csueastbay.edu/graduate-studies/prospective-grad-students.html), under Departmental Admission Requirements, to point at /graduate-studies/graduate-program-coordinators.html. It points at the retired directory page, which now returns 404.
 
 ## open questions
