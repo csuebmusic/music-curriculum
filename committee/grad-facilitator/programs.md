@@ -8,19 +8,20 @@ The [2026-2027 catalog](https://catalog.csueastbay.edu/content.php?catoid=44&nav
 
 ## the roster
 
-57 rows: 40 degree programs, five credentials, and 12 certificates. Concentrations are named with their program.
+53 rows: 40 degree programs, five credentials, and eight certificates. Concentrations, tracks, and embedded credentials are named with their program.
 
 ### College of Business and Economics
 
 | program | terms open | deadline |
 | --- | --- | --- |
-| [Accountancy, M.S.](https://www.csueastbay.edu/msa/), self-support only | Fall | University Admissions |
-| [Business Administration, M.B.A.](https://www.csueastbay.edu/mba/): Analytics for Managers; Finance; General Business; Human Resources Management and Organizational Behavior; Marketing Management; Operations and Supply Chain Management; Strategy and Innovation | Fall, Spring | University Admissions |
-| [Business Administration, M.B.A.: Global Innovators](https://www.csueastbay.edu/mba/), self-support only | Fall | University Admissions |
-| [Business Administration, M.B.A.: One Year Accelerated](https://www.csueastbay.edu/mba/), self-support only | Fall | University Admissions |
+| [Accountancy, M.S. (self-support only)](https://www.csueastbay.edu/msa/) | Fall | University Admissions |
+| [Business Administration, M.B.A.](https://www.csueastbay.edu/mba/): Finance; General Business, hybrid or fully online; Human Resources Management and Organizational Behavior; Marketing Management; Operations and Supply Chain Management | Fall, Spring | University Admissions |
+| [Business Administration, M.B.A.: Global Innovators concentration (self-support only)](https://www.csueastbay.edu/mba/) | Fall | University Admissions |
+| [Business Administration, M.B.A.: One Year Accelerated (self-support only)](https://www.csueastbay.edu/mba/) | Fall | University Admissions |
 | [Business Analytics, M.S.](https://www.csueastbay.edu/msba/) | Fall, Spring | University Admissions |
 | [Finance, M.S.](https://www.csueastbay.edu/acct-fin/graduate-program.html) | Fall, Spring | University Admissions |
 | [Marketing Analytics, M.S.](https://www.csueastbay.edu/msma/) | Fall, Spring | University Admissions |
+| [Quantitative Economics, M.S.](https://www.csueastbay.edu/economics/ms-economics/index.html) | In transition | Not accepting applications |
 
 ### College of Health
 
@@ -38,39 +39,36 @@ The [2026-2027 catalog](https://catalog.csueastbay.edu/content.php?catoid=44&nav
 
 | program | terms open | deadline |
 | --- | --- | --- |
-| [Communication, M.A.](https://www.csueastbay.edu/communication/ma/index.html) | Suspended | Not accepting applications |
+| Communication, M.A. | Suspended | Not accepting applications |
 | English, M.A. | Suspended | Not accepting applications |
-| [English TESOL, M.A.](https://www.csueastbay.edu/english/englgrad/ma-tesol/index.html) | Suspended | University Admissions |
 | [Health Care Administration, M.S.](https://www.csueastbay.edu/paa/healthcare/index.html) | Fall | University Admissions |
 | [History, M.A.](https://www.csueastbay.edu/history/degree-programs/ma-degree-programs_new.html): Generalist; Public History; Teaching History; University Thesis | Fall | University Admissions |
-| [Hospitality, Recreation and Tourism, M.S.](https://www.csueastbay.edu/hrt/grad/index.html), online | Fall, Spring | University Admissions |
+| [Hospitality, Recreation and Tourism, M.S. (online)](https://www.csueastbay.edu/hrt/grad/index.html) | Fall, Spring | University Admissions |
 | [Interaction Design and Interactive Art, M.A.](https://ixdia.csueastbay.edu/) | Fall | May 15 |
 | [Music, M.A.](https://www.csueastbay.edu/music/prospective/ma.html) | Fall | University Admissions |
 | [Public Administration, M.P.A.](https://www.csueastbay.edu/paa/public-admin/index.html): Public Management and Policy Analysis; Health Care Administration | Fall | University Admissions |
-| [Crime Scene Investigation Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20700&returnto=42139) | Fall, Spring | University Admissions |
-| [Inclusive Performance and Dance Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20692&returnto=42139) | Fall, Spring | University Admissions |
+| [Interaction and User Experience Design Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20693&returnto=42139) | Fall | May 15 |
 | [Single Subject Matter Preparation Certificate Program in Music](https://www.csueastbay.edu/music/prospective/music-ed.html) | Fall, Spring | University Admissions |
-| [Public History and Cultural Heritage Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20596&returnto=42139) | Fall, Spring | University Admissions |
 
 #### Graduate School of Education
 
 | program | terms open | deadline |
 | --- | --- | --- |
 | [Counseling Psychology, M.S.: Marriage and Family Therapy](https://www.csueastbay.edu/epsy/graduate-programs/marriage-family-therapy.html) | Fall | March 1 |
-| [Counseling Psychology, M.S.: School Counseling](https://www.csueastbay.edu/epsy/graduate-programs/school-counseling.html) | Fall | March 1 |
-| [Counseling Psychology, M.S.: School Psychology](https://www.csueastbay.edu/school-psychology/prospective-students.html) | Fall | March 1 |
+| [Counseling Psychology, M.S.: School Counseling](https://www.csueastbay.edu/epsy/graduate-programs/school-counseling.html), with the [Pupil Personnel Services Credential: School Counseling Specialization](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20509&returnto=42139) | Fall | March 1 |
+| [Counseling Psychology, M.S.: School Psychology](https://www.csueastbay.edu/school-psychology/prospective-students.html), with the [Pupil Personnel Services Credential: School Psychology Specialization](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20508&returnto=42139) | Fall | March 1 |
 | [Curriculum and Instruction, M.S.](https://www.csueastbay.edu/ted/programs-admissions/masters/curriculum-and-instruction.html) | Summer | April 15 |
 | [Early Childhood Education, M.S.](https://www.csueastbay.edu/ted/programs-admissions/masters/early-childhood-ed.html) | Fall of odd-numbered years, next Fall 2027 | University Admissions |
 | [Educational Leadership, M.S.](https://www.csueastbay.edu/el/programs/master-in-el.html) | Fall | University Admissions |
 | [Educational Leadership (Online), M.S.](https://ce.csueastbay.edu/ce/programs/educational-leadership/) | Spring | University Admissions |
 | [Educational Leadership, Ed.D.](https://www.csueastbay.edu/edd/index.html) | Summer | University Admissions |
 | [Educational Technology, M.S.](https://www.csueastbay.edu/ted/programs-admissions/masters/ed-tech1.html) | Fall | University Admissions |
-| [Reading and Literacy, M.S.](https://www.csueastbay.edu/ted/programs-admissions/masters/reading-cert1.html), self-support only, online | Summer | University Admissions |
-| [Special Education, M.S.](https://www.csueastbay.edu/sped/): Mild Moderate Support Needs; Extensive Support Needs | Fall, Summer | May 1 for Fall, March 15 for Summer |
-| [Education Specialist Credential](https://www.csueastbay.edu/sped/) | Fall, Summer | May 1 for Fall, March 15 for Summer |
-| [Multiple Subject Credential](https://www.csueastbay.edu/cssc/prospective-cred-student/multiple-subject.html) | Summer | University Admissions |
+| [Reading and Literacy, M.S. (self-support only, online)](https://www.csueastbay.edu/ted/programs-admissions/masters/reading-cert1.html) | Summer | University Admissions |
+| [Special Education, M.S.](https://www.csueastbay.edu/sped/): Mild Moderate Support Needs (MMSN); Extensive Support Needs (ESN) | Fall, Summer | May 1 for Fall, March 15 for Summer |
+| [Education Specialist Credential Program](https://www.csueastbay.edu/sped/) | Fall, Summer | May 1 for Fall, March 15 for Summer |
+| [Multiple Subject Credential Program](https://www.csueastbay.edu/cssc/prospective-cred-student/multiple-subject.html) | Summer | University Admissions |
 | [Preliminary Administrative Services Credential](https://www.csueastbay.edu/el/programs/prelim-admin-services.html) | Fall | University Admissions |
-| [Single Subject Credential](https://www.csueastbay.edu/cssc/prospective-cred-student/single-subject.html) | Summer | University Admissions |
+| [Single Subject Credential Program](https://www.csueastbay.edu/cssc/prospective-cred-student/single-subject.html) | Summer | March 15 |
 | [Educational Technology Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20610&returnto=42139) | Fall | University Admissions |
 
 ### College of Science
@@ -83,14 +81,12 @@ The [2026-2027 catalog](https://catalog.csueastbay.edu/content.php?catoid=44&nav
 | [Construction Management, M.S.](https://www.csueastbay.edu/engineering/programs-degrees/graduate-degrees.html) | Fall, Spring | University Admissions |
 | [Engineering Management, M.S.](https://www.csueastbay.edu/engineering/programs-degrees/graduate-degrees.html) | Fall, Spring | University Admissions |
 | [Environmental Geosciences, M.S.](https://www.csueastbay.edu/earth/graduate-program/index.html) | Fall, Spring | University Admissions |
-| [Marine Science, M.S.](https://www.csueastbay.edu/biology/graduate-program/ms-in-marine-sciences.html), Moss Landing Marine Laboratories | Fall | Early deadline, check with the department |
+| [Marine Science, M.S.](https://www.csueastbay.edu/biology/graduate-program/ms-in-marine-sciences.html) | Fall | Early deadline, check with the department |
 | [Mathematics, M.S.](https://www.csueastbay.edu/math/degrees-and-programs/index.html) | Fall, Spring | University Admissions |
 | [Statistics, M.S.](https://www.csueastbay.edu/statistics/degrees-programs/index.html): Actuarial Science; Applied Statistics; Biostatistics; Data Science; Mathematical Statistics | Fall, Spring | University Admissions |
 | [Applied Statistics Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20621&returnto=42139) | Summer, Fall, Spring | University Admissions |
 | [Biotechnology Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20599&returnto=42139) | Fall, Spring | University Admissions |
-| [GIS and Remote Sensing Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20594&returnto=42139) | Fall, Spring | University Admissions |
 | [Mathematics Single Subject Matter Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20624&returnto=42139) | Summer, Fall, Spring | University Admissions |
-| [Public Health Informatics and Technology (PHIT) Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20688&returnto=42139) | Fall, Spring | University Admissions |
 | [Theoretical Statistics Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20622&returnto=42139) | Summer, Fall, Spring | University Admissions |
 
 ### Continuing Education
@@ -99,32 +95,38 @@ The [2026-2027 catalog](https://catalog.csueastbay.edu/content.php?catoid=44&nav
 | --- | --- | --- |
 | [Post-Baccalaureate Health Academic Program (PHAP)](https://ce.csueastbay.edu/programs/pre-professional-health/): Academic Enhancer track; Career Changer track; both University Extension | Academic Enhancer: Fall, Spring, Summer. Career Changer: Fall | University Admissions |
 
-## the roster against the catalog
+## the roster against the catalog and Cal State Apply
 
-In the 2026-2027 catalog and not on the coordinators page:
+In the 2026-2027 catalog and not on the coordinators page: the three programs the catalog lists under Single Subject Matter Preparation Program, separate from its Single Subject Matter Preparation Certificate Programs.
 
-- PPS Credential, School Counseling.
-- PPS Credential, School Psychology.
-- Interaction and User Experience Design Certificate.
 - Mathematics, Single Subject Matter Preparation.
 - Physical Education Single Subject Matter Preparation.
-- Social Science Single Subject Matter Preparation.
-- Quantitative Economics, M.S.
+- Social Science Single Subject Matter Preparation Program.
 
 On the coordinators page and not in the catalog:
 
 - English, M.A.
-- The M.B.A. concentrations in Analytics for Managers, Strategy and Innovation, and Global Innovators.
+- Finance, M.S. Cal State Apply lists it for Fall 2027, face to face, with a June 1, 2027 deadline.
 
-Named differently: the catalog's Post-baccalaureate Health Professions Academic Program Certificate is the page's Post-Baccalaureate Health Academic Program (PHAP).
+In Cal State Apply and not on the coordinators page: the Applied Spanish in Speech-Language Pathology Certificate.
 
-## suspended programs
+One catalog program, two rows: the Educational Leadership, M.S. is hybrid through the department and fully online through University Extension. Cal State Apply lists the hybrid program as Ed Leadership - Prelim Admin Credential/Optional MS.
 
-Communication, M.A. In the catalog. The coordinators page lists it as suspended and not accepting applications.
+Named differently:
+
+- The catalog's Post-baccalaureate Health Professions Academic Program Certificate is the page's Post-Baccalaureate Health Academic Program (PHAP).
+- Cal State Apply's Mathematical Statistics Certificate is the catalog's and the page's Theoretical Statistics Certificate.
+- Cal State Apply's Operations Management Analytics is the catalog's and the page's Operations and Supply Chain Management concentration of the M.B.A.
+- The catalog's Mathematics, Single Subject Matter Certificate Program is the page's Mathematics Single Subject Matter.
+- The catalog's Music Single Subject Matter Preparation Certificate is the page's Single Subject Matter Preparation Certificate Program in Music.
+
+## programs not accepting applications
+
+Communication, M.A. In the catalog. The coordinators page lists it as suspended and not accepting applications, with no program link.
 
 English, M.A. Absent from the catalog. The coordinators page lists it as suspended and not accepting applications, with no program link. The department's [graduate page](https://www.csueastbay.edu/english/englgrad/index.html) is live under the heading "The Master's Degree in English," advertises applications for Fall 2024 through CSUapply, and offers concentrations in Literature and Pedagogy and in TESOL.
 
-English TESOL, M.A. The coordinators page lists it as suspended, with University Admissions in the deadline column where the other two suspended programs read "Not accepting applications."
+Quantitative Economics, M.S. In the catalog. The department page states the program is in transition and not accepting applications.
 
 ## pages carrying stale content
 
