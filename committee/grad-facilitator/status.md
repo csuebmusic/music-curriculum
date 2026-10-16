@@ -88,9 +88,10 @@ Each names where the answer comes from.
 - What the associate deans currently do with material distributed to them for department chairs. Joshua Kerr.
 - Which colleges and departments have already been approached about graduate outreach. Joshua Kerr.
 - What has been tried and set aside. Joshua Kerr.
-- Fall 2027 status of the Communication, M.A., the English, M.A., and the English TESOL, M.A. Departments.
+- Fall 2027 status of the Communication, M.A. and the English, M.A. Departments.
 - Whether the seven catalog programs missing from the coordinators page admit for Fall 2027 and belong on it. Departments, through Graduate Studies.
-- Whether the English TESOL, M.A., the Finance, M.S., and the Educational Leadership (Online), M.S. are in the 2026-2027 catalog. Catalog.
+- Whether the Educational Leadership (Online), M.S. admits through Continuing Education for Fall 2027, and whether it stays on the coordinators page. Continuing Education.
+- Coordinator, terms, and deadline for the Applied Spanish in Speech-Language Pathology Certificate, listed in Cal State Apply and absent from the catalog and the department site. Speech, Language, and Hearing Sciences.
 - Who owns the International Programs admission requirements document, and on what cycle it is reverified. International Admissions.
 - The Fall 2027 graduate filing window. Admissions.
 
