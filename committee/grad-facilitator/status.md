@@ -41,7 +41,7 @@ These channels are mapped against the 2024 plan section by section in `recruitme
 
 ## program status
 
-The roster, the programs with no settled status, the discrepancies against the Graduate Studies tiles, and the program pages and documents that need correcting are in `programs.md`.
+The roster, the discrepancies against the catalog, the suspended programs, and the documents that need correcting are in `programs.md`.
 
 ## information session coverage
 

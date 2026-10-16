@@ -1,6 +1,6 @@
-# graduate programs inventory
+# graduate programs
 
-Working file for the graduate program roster and for what needs correcting in how the programs are listed and represented. The roster is the catalog record. The sections after it hold the discrepancies, the programs with no settled status, and the site and document problems.
+Working file for the graduate program roster and for what needs correcting in how the programs are listed. The roster is the [graduate program coordinators page](https://www.csueastbay.edu/graduate-studies/graduate-program-coordinators.html), the hub for program links, coordinator contacts, terms open for application, and deadlines. Coordinator names and contacts are on that page.
 
 ## catalog and cycle
 
@@ -8,262 +8,134 @@ The [2026-2027 catalog](https://catalog.csueastbay.edu/content.php?catoid=44&nav
 
 ## the roster
 
-Fifty entries: 31 master's programs, the Ed.D., seven credentials, and eleven certificate and subject matter preparation programs. The catalog lists each concentration as a separate entry. Programs are listed once here, with their concentrations named in the note.
-
-College placement comes from the [Graduate School of Education](https://www.csueastbay.edu/gse/masters.html) and [College of Health](https://www.csueastbay.edu/coh/graduate-programs.html) listings and from the International Programs [admission requirements document](https://www.csueastbay.edu/ip/files/docs/grad-program-requirements.pdf) of July 2025.
-
-## College of Letters, Arts, and Social Sciences
-
-### Graduate School of Education
-
-A sub-school within the college since the merger of the former College of Education and Allied Studies.
-
-| program | tile link | link issue | note |
-| --- | --- | --- | --- |
-| [Post-baccalaureate Health Professions Academic Program Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20603&returnto=42138) | https://www.csueastbay.edu/phaprogram/ | tile is named Pre-Professional Health Academic Program (PHAP) | self-support only, delivered through university extension, placed here provisionally, department to confirm |
-
-#### Educational Leadership
-
-| program | tile link | link issue | note |
-| --- | --- | --- | --- |
-| [Educational Leadership, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20452&returnto=42138) | https://www.csueastbay.edu/el/programs/master-in-el.html |  | tracks: with PASC, with optional PASC |
-| [Educational Leadership, Ed.D.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20451&returnto=42138) | https://www.csueastbay.edu/edd/index.html |  | summer admission |
-| [Preliminary Administrative Services Credential](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20497&returnto=42138) | https://www.csueastbay.edu/el/programs/prelim-admin-services.html |  | available self-support |
-| Administrative Services Credential, Clear Induction | https://www.csueastbay.edu/el/programs/clear-admin-services-cred.html | tile only | not in the catalog |
-
-#### Educational Psychology
-
-| program | tile link | link issue | note |
-| --- | --- | --- | --- |
-| [Counseling Psychology, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20476&returnto=42138) | https://www.csueastbay.edu/epsy/graduate-programs/index.html | one tile, named Counseling, for all three concentrations | concentrations: Marriage and Family Therapy, School Counseling, School Psychology |
-| [PPS Credential, School Counseling](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20509&returnto=42138) | https://www.csueastbay.edu/epsy/graduate-programs/school-counseling.html |  |  |
-| [PPS Credential, School Psychology](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20508&returnto=42138) | https://www.csueastbay.edu/school-psychology/prospective-students.html |  |  |
-
-#### Teacher Education
-
-| program | tile link | link issue | note |
-| --- | --- | --- | --- |
-| [Curriculum and Instruction, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20641&returnto=42138) | https://www.csueastbay.edu/ted/programs-admissions/masters/index.html |  | department page shared with Early Childhood Education and Educational Technology |
-| [Early Childhood Education, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20502&returnto=42138) | https://www.csueastbay.edu/ted/programs-admissions/masters/index.html |  | department page shared with Curriculum and Instruction and Educational Technology |
-| [Educational Technology, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20565&returnto=42138) | https://www.csueastbay.edu/ted/programs-admissions/masters/index.html |  | department page shared with Curriculum and Instruction and Early Childhood Education |
-| [Reading and Literacy, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20600&returnto=42138) | https://www.csueastbay.edu/ted/programs-admissions/masters/reading-cert1.html |  | self-support only |
-| [Multiple Subject Credential](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20499&returnto=42138) | https://www.csueastbay.edu/cssc/prospective-cred-student/multiple-subject.html | tile is named Multi-subject Teaching |  |
-| [Single Subject Credential](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20503&returnto=42138) | https://www.csueastbay.edu/cssc/prospective-cred-student/single-subject.html | tile is named Single-subject Teaching |  |
-| [Educational Technology Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20610&returnto=42138) | https://catalog.csueastbay.edu/preview_program.php?catoid=39&poid=18263&returnto=36991 | points into catalog year 39; the current catalog is 44 |  |
-
-#### Special Education
-
-| program | tile link | link issue | note |
-| --- | --- | --- | --- |
-| [Special Education, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20561&returnto=42138) | https://www.csueastbay.edu/cssc/prospective-cred-student/special-education.html |  | concentrations: Extensive Support Needs, Mild/Moderate Support Needs; department page shared with the Education Specialist Credential |
-| [Education Specialist Credential](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20601&returnto=42138) | https://www.csueastbay.edu/cssc/prospective-cred-student/special-education.html |  | department page shared with Special Education, M.S. |
-
-### Art
-
-| program | tile link | link issue | note |
-| --- | --- | --- | --- |
-| [Interaction Design and Interactive Art, M.A.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20423&returnto=42138) | https://ixdia.org | off site; tile is named Interaction Design |  |
-| [Interaction and User Experience Design Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20693&returnto=42138) | none | no tile |  |
-
-### History
-
-| program | tile link | link issue | note |
-| --- | --- | --- | --- |
-| [History, M.A.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20697&returnto=42138) | https://www.csueastbay.edu/history/degree-programs/ma-degree-programs_new.html |  |  |
-| [Social Science Single Subject Matter Preparation](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20612&returnto=42138) | none | no tile |  |
-
-### Hospitality, Recreation and Tourism
-
-| program | tile link | link issue | note |
-| --- | --- | --- | --- |
-| [Hospitality, Recreation and Tourism, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20485&returnto=42138) | https://www.csueastbay.edu/hrt/grad/index.html |  |  |
-
-### Music
-
-| program | tile link | link issue | note |
-| --- | --- | --- | --- |
-| [Music, M.A.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20498&returnto=42138) | https://www.csueastbay.edu/music/prospective/ma.html |  |  |
-| [Music Single Subject Matter Preparation Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20615&returnto=42138) | https://www.csueastbay.edu/music/prospective/music-ed.html |  |  |
-
-### Public Affairs and Administration
-
-| program | tile link | link issue | note |
-| --- | --- | --- | --- |
-| [Health Care Administration, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20664&returnto=42138) | https://www.csueastbay.edu/paa/healthcare/index.html |  |  |
-| [Public Administration, M.P.A.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20490&returnto=42138) | https://www.csueastbay.edu/paa/public-admin/index.html |  | concentrations: Health Care Administration, Public Management and Policy Analysis |
-
-## College of Science
-
-### Biological Sciences
-
-| program | tile link | link issue | note |
-| --- | --- | --- | --- |
-| [Biological Science, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20488&returnto=42138) | https://www.csueastbay.edu/biology/graduate-program/biology-ms-program/index.html |  |  |
-| [Marine Science, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20542&returnto=42138) | https://www.csueastbay.edu/biology/graduate-program/ms-in-marine-sciences.html |  | administered by Moss Landing Marine Laboratories |
-| [Biotechnology Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20599&returnto=42138) | https://www.csueastbay.edu/biology/graduate-program/biotechnology-certificate-program-bcp/index.html |  |  |
-
-### Chemistry and Biochemistry
-
-| program | tile link | link issue | note |
-| --- | --- | --- | --- |
-| [Chemistry, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20540&returnto=42138) | https://www.csueastbay.edu/chemistry/graduate/index.html |  | concentrations: Chemistry, Biochemistry |
-
-### Computer Science
-
-| program | tile link | link issue | note |
-| --- | --- | --- | --- |
-| [Computer Science, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20563&returnto=42138) | https://www.csueastbay.edu/cs/degrees-programs1/index.html |  | concentrations: Artificial Intelligence and Machine Learning, Computer Networks, Computer Science |
-
-### Earth and Environmental Sciences
-
-| program | tile link | link issue | note |
-| --- | --- | --- | --- |
-| [Environmental Geosciences, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20479&returnto=42138) | https://www.csueastbay.edu/earth/graduate-program/index.html |  |  |
-
-### Engineering
-
-| program | tile link | link issue | note |
-| --- | --- | --- | --- |
-| [Construction Management, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20474&returnto=42138) | https://www.csueastbay.edu/engineering/programs-degrees/graduate-degrees.html |  | department page shared with Engineering Management |
-| [Engineering Management, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20475&returnto=42138) | https://www.csueastbay.edu/engineering/programs-degrees/graduate-degrees.html |  | department page shared with Construction Management |
-
-### Mathematics
-
-| program | tile link | link issue | note |
-| --- | --- | --- | --- |
-| [Mathematics, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20496&returnto=42138) | https://www.csueastbay.edu/math/degrees-and-programs/index.html |  | department page shared with the Mathematics Single Subject Matter certificate |
-| [Mathematics, Single Subject Matter Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20624&returnto=42138) | https://www.csueastbay.edu/math/degrees-and-programs/index.html | tile is named Mathematics, Single Subject Matter | department page shared with Mathematics, M.S. |
-| [Mathematics, Single Subject Matter Preparation](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20623&returnto=42138) | none | no tile; the one Math single subject matter tile is named Mathematics, Single Subject Matter and matches the certificate |  |
-
-### Statistics and Biostatistics
-
-| program | tile link | link issue | note |
-| --- | --- | --- | --- |
-| [Statistics, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20604&returnto=42138) | https://www.csueastbay.edu/statistics/degrees-programs/index.html |  | concentrations: Actuarial Science, Applied Statistics, Biostatistics, Data Science, Mathematical Statistics; department page shared with the Applied Statistics and Theoretical Statistics certificates |
-| [Applied Statistics Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20621&returnto=42138) | https://www.csueastbay.edu/statistics/degrees-programs/index.html |  | department page shared with Statistics, M.S. and the Theoretical Statistics certificate |
-| [Theoretical Statistics Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20622&returnto=42138) | https://www.csueastbay.edu/statistics/degrees-programs/index.html |  | department page shared with Statistics, M.S. and the Applied Statistics certificate |
-
-## College of Business and Economics
-
-### Accounting and Finance
-
-| program | tile link | link issue | note |
-| --- | --- | --- | --- |
-| [Accountancy, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20440&returnto=42138) | https://www.csueastbay.edu/msa/index.html | opened; reaches the MS in Accountancy program page | self-support only |
-
-### Economics
-
-| program | tile link | link issue | note |
-| --- | --- | --- | --- |
-| [Quantitative Economics, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20653&returnto=42138) | none | no tile |  |
-
-### Management
-
-| program | tile link | link issue | note |
-| --- | --- | --- | --- |
-| [Business Analytics, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20441&returnto=42138) | https://www.csueastbay.edu/msba/index.html |  |  |
-
-### Marketing
-
-| program | tile link | link issue | note |
-| --- | --- | --- | --- |
-| [Marketing Analytics, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20675&returnto=42138) | https://www.csueastbay.edu/msma/index.html |  |  |
-
-### college-wide
-
-| program | tile link | link issue | note |
-| --- | --- | --- | --- |
-| [Business Administration, M.B.A.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20559&returnto=42138) | https://www.csueastbay.edu/mba/index.html |  | concentrations delivered across departments: Finance, General Business, General Business One-Year Accelerated (self-support), Human Resources Management and Organizational Behavior, Marketing Management, Operations and Supply Chain Management |
-
-## College of Health
-
-### Kinesiology
-
-| program | tile link | link issue | note |
-| --- | --- | --- | --- |
-| [Kinesiology, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20504&returnto=42138) | https://www.csueastbay.edu/kin/programs/ms-kinesiology.html |  | concentrations: Human Movement and Sport Science, Physical Activity and Exercise |
-| [Physical Education Single Subject Matter Preparation](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20597&returnto=42138) | none | no tile |  |
-
-### Nursing
-
-| program | tile link | link issue | note |
-| --- | --- | --- | --- |
-| [Nursing, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20687&returnto=42138) | https://www.csueastbay.edu/nursing/msn-programs/index.html |  |  |
-
-### Social Work
-
-| program | tile link | link issue | note |
-| --- | --- | --- | --- |
-| [Social Work, M.S.W.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20686&returnto=42138) | https://www.csueastbay.edu/sw/apply-to-msw.html |  | tracks: standard, advanced standing |
-
-### Speech, Language, and Hearing Sciences
-
-| program | tile link | link issue | note |
-| --- | --- | --- | --- |
-| [Speech-Language Pathology, M.S.](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20533&returnto=42138) | https://www.csueastbay.edu/slhs/masters-in-speech-language-pathology/index.html |  | department page shared with the Speech Language Pathology Services credential |
-| [Speech-Language Pathology Services Credential](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20598&returnto=42138) | https://www.csueastbay.edu/slhs/masters-in-speech-language-pathology/index.html |  | department page shared with Speech-Language Pathology, M.S. |
-
-## the roster against the Graduate Studies tiles
-
-The [tiles](https://www.csueastbay.edu/graduate-studies/) carry 46 entries: 30 master's programs, the Ed.D., eight credentials, and seven certificates. The two lists disagree in both directions.
-
-On the tiles and not in the catalog:
-
-- Administrative Services Credential, Clear Induction.
-
-In the catalog and not on the tiles:
-
-- Communication, M.A.
-- Quantitative Economics, M.S.
+57 rows: 40 degree programs, five credentials, and 12 certificates. Concentrations are named with their program.
+
+### College of Business and Economics
+
+| program | terms open | deadline |
+| --- | --- | --- |
+| [Accountancy, M.S.](https://www.csueastbay.edu/msa/), self-support only | Fall | University Admissions |
+| [Business Administration, M.B.A.](https://www.csueastbay.edu/mba/): Analytics for Managers; Finance; General Business; Human Resources Management and Organizational Behavior; Marketing Management; Operations and Supply Chain Management; Strategy and Innovation | Fall, Spring | University Admissions |
+| [Business Administration, M.B.A.: Global Innovators](https://www.csueastbay.edu/mba/), self-support only | Fall | University Admissions |
+| [Business Administration, M.B.A.: One Year Accelerated](https://www.csueastbay.edu/mba/), self-support only | Fall | University Admissions |
+| [Business Analytics, M.S.](https://www.csueastbay.edu/msba/) | Fall, Spring | University Admissions |
+| [Finance, M.S.](https://www.csueastbay.edu/acct-fin/graduate-program.html) | Fall, Spring | University Admissions |
+| [Marketing Analytics, M.S.](https://www.csueastbay.edu/msma/) | Fall, Spring | University Admissions |
+
+### College of Health
+
+| program | terms open | deadline |
+| --- | --- | --- |
+| [Kinesiology, M.S.](https://www.csueastbay.edu/kin/programs/ms-kinesiology.html): Human Movement and Sport Science; Physical Activity and Exercise: An International Perspective on Programming for Health and Wellness | Human Movement and Sport Science: Fall, Spring. Physical Activity and Exercise: Fall | University Admissions |
+| [Nursing, M.S.](https://www.csueastbay.edu/nursing/msn-programs/index.html) | Fall | University Admissions |
+| [Social Work, M.S.W.](https://www.csueastbay.edu/sw/apply-to-msw.html): Advanced Standing | Fall | December 15 |
+| [Speech-Language Pathology, M.S.](https://www.csueastbay.edu/slhs/masters-in-speech-language-pathology/index.html) | Fall | February 1, state-side program only |
+| [Speech Language Pathology Services Credential](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20598&returnto=42139) | Fall | University Admissions |
+
+### College of Letters, Arts, and Social Sciences
+
+#### arts, humanities, and social sciences
+
+| program | terms open | deadline |
+| --- | --- | --- |
+| [Communication, M.A.](https://www.csueastbay.edu/communication/ma/index.html) | Suspended | Not accepting applications |
+| English, M.A. | Suspended | Not accepting applications |
+| [English TESOL, M.A.](https://www.csueastbay.edu/english/englgrad/ma-tesol/index.html) | Suspended | University Admissions |
+| [Health Care Administration, M.S.](https://www.csueastbay.edu/paa/healthcare/index.html) | Fall | University Admissions |
+| [History, M.A.](https://www.csueastbay.edu/history/degree-programs/ma-degree-programs_new.html): Generalist; Public History; Teaching History; University Thesis | Fall | University Admissions |
+| [Hospitality, Recreation and Tourism, M.S.](https://www.csueastbay.edu/hrt/grad/index.html), online | Fall, Spring | University Admissions |
+| [Interaction Design and Interactive Art, M.A.](https://ixdia.csueastbay.edu/) | Fall | May 15 |
+| [Music, M.A.](https://www.csueastbay.edu/music/prospective/ma.html) | Fall | University Admissions |
+| [Public Administration, M.P.A.](https://www.csueastbay.edu/paa/public-admin/index.html): Public Management and Policy Analysis; Health Care Administration | Fall | University Admissions |
+| [Crime Scene Investigation Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20700&returnto=42139) | Fall, Spring | University Admissions |
+| [Inclusive Performance and Dance Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20692&returnto=42139) | Fall, Spring | University Admissions |
+| [Single Subject Matter Preparation Certificate Program in Music](https://www.csueastbay.edu/music/prospective/music-ed.html) | Fall, Spring | University Admissions |
+| [Public History and Cultural Heritage Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20596&returnto=42139) | Fall, Spring | University Admissions |
+
+#### Graduate School of Education
+
+| program | terms open | deadline |
+| --- | --- | --- |
+| [Counseling Psychology, M.S.: Marriage and Family Therapy](https://www.csueastbay.edu/epsy/graduate-programs/marriage-family-therapy.html) | Fall | March 1 |
+| [Counseling Psychology, M.S.: School Counseling](https://www.csueastbay.edu/epsy/graduate-programs/school-counseling.html) | Fall | March 1 |
+| [Counseling Psychology, M.S.: School Psychology](https://www.csueastbay.edu/school-psychology/prospective-students.html) | Fall | March 1 |
+| [Curriculum and Instruction, M.S.](https://www.csueastbay.edu/ted/programs-admissions/masters/curriculum-and-instruction.html) | Summer | April 15 |
+| [Early Childhood Education, M.S.](https://www.csueastbay.edu/ted/programs-admissions/masters/early-childhood-ed.html) | Fall of odd-numbered years, next Fall 2027 | University Admissions |
+| [Educational Leadership, M.S.](https://www.csueastbay.edu/el/programs/master-in-el.html) | Fall | University Admissions |
+| [Educational Leadership (Online), M.S.](https://ce.csueastbay.edu/ce/programs/educational-leadership/) | Spring | University Admissions |
+| [Educational Leadership, Ed.D.](https://www.csueastbay.edu/edd/index.html) | Summer | University Admissions |
+| [Educational Technology, M.S.](https://www.csueastbay.edu/ted/programs-admissions/masters/ed-tech1.html) | Fall | University Admissions |
+| [Reading and Literacy, M.S.](https://www.csueastbay.edu/ted/programs-admissions/masters/reading-cert1.html), self-support only, online | Summer | University Admissions |
+| [Special Education, M.S.](https://www.csueastbay.edu/sped/): Mild Moderate Support Needs; Extensive Support Needs | Fall, Summer | May 1 for Fall, March 15 for Summer |
+| [Education Specialist Credential](https://www.csueastbay.edu/sped/) | Fall, Summer | May 1 for Fall, March 15 for Summer |
+| [Multiple Subject Credential](https://www.csueastbay.edu/cssc/prospective-cred-student/multiple-subject.html) | Summer | University Admissions |
+| [Preliminary Administrative Services Credential](https://www.csueastbay.edu/el/programs/prelim-admin-services.html) | Fall | University Admissions |
+| [Single Subject Credential](https://www.csueastbay.edu/cssc/prospective-cred-student/single-subject.html) | Summer | University Admissions |
+| [Educational Technology Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20610&returnto=42139) | Fall | University Admissions |
+
+### College of Science
+
+| program | terms open | deadline |
+| --- | --- | --- |
+| [Biological Science, M.S.](https://www.csueastbay.edu/biology/graduate-program/biology-ms-program/index.html) | Fall | University Admissions |
+| [Chemistry, M.S.](https://www.csueastbay.edu/chemistry/graduate/index.html): Biochemistry | Fall, Spring | University Admissions |
+| [Computer Science, M.S.](https://www.csueastbay.edu/cs/degrees-programs1/index.html): Artificial Intelligence and Machine Learning; Computer Networks; Computer Science | Fall, Spring | University Admissions |
+| [Construction Management, M.S.](https://www.csueastbay.edu/engineering/programs-degrees/graduate-degrees.html) | Fall, Spring | University Admissions |
+| [Engineering Management, M.S.](https://www.csueastbay.edu/engineering/programs-degrees/graduate-degrees.html) | Fall, Spring | University Admissions |
+| [Environmental Geosciences, M.S.](https://www.csueastbay.edu/earth/graduate-program/index.html) | Fall, Spring | University Admissions |
+| [Marine Science, M.S.](https://www.csueastbay.edu/biology/graduate-program/ms-in-marine-sciences.html), Moss Landing Marine Laboratories | Fall | Early deadline, check with the department |
+| [Mathematics, M.S.](https://www.csueastbay.edu/math/degrees-and-programs/index.html) | Fall, Spring | University Admissions |
+| [Statistics, M.S.](https://www.csueastbay.edu/statistics/degrees-programs/index.html): Actuarial Science; Applied Statistics; Biostatistics; Data Science; Mathematical Statistics | Fall, Spring | University Admissions |
+| [Applied Statistics Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20621&returnto=42139) | Summer, Fall, Spring | University Admissions |
+| [Biotechnology Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20599&returnto=42139) | Fall, Spring | University Admissions |
+| [GIS and Remote Sensing Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20594&returnto=42139) | Fall, Spring | University Admissions |
+| [Mathematics Single Subject Matter Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20624&returnto=42139) | Summer, Fall, Spring | University Admissions |
+| [Public Health Informatics and Technology (PHIT) Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20688&returnto=42139) | Fall, Spring | University Admissions |
+| [Theoretical Statistics Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20622&returnto=42139) | Summer, Fall, Spring | University Admissions |
+
+### Continuing Education
+
+| program | terms open | deadline |
+| --- | --- | --- |
+| [Post-Baccalaureate Health Academic Program (PHAP)](https://ce.csueastbay.edu/programs/pre-professional-health/): Academic Enhancer track; Career Changer track; both University Extension | Academic Enhancer: Fall, Spring, Summer. Career Changer: Fall | University Admissions |
+
+## the roster against the catalog
+
+In the 2026-2027 catalog and not on the coordinators page:
+
+- PPS Credential, School Counseling.
+- PPS Credential, School Psychology.
 - Interaction and User Experience Design Certificate.
+- Mathematics, Single Subject Matter Preparation.
 - Physical Education Single Subject Matter Preparation.
 - Social Science Single Subject Matter Preparation.
-- Mathematics, Single Subject Matter Preparation. The one Math single subject matter tile is named Mathematics, Single Subject Matter, which matches the certificate.
+- Quantitative Economics, M.S.
 
-Named differently: the catalog's Post-baccalaureate Health Professions Academic Program Certificate is the tiles' Pre-Professional Health Academic Program (PHAP).
+On the coordinators page and not in the catalog:
 
-The tiles carry Counseling as one program where the catalog has three concentrations, and name the doctorate Ed.D. Educational Leadership where the International Programs document calls it Educational Leadership for Social Justice.
+- English, M.A.
+- The M.B.A. concentrations in Analytics for Managers, Strategy and Innovation, and Global Innovators.
 
-## programs with no settled status
+Named differently: the catalog's Post-baccalaureate Health Professions Academic Program Certificate is the page's Post-Baccalaureate Health Academic Program (PHAP).
 
-Each is advertised somewhere and absent from the catalog, the tiles, or both. Fall 2027 status needs a department answer for all of them.
+## suspended programs
 
-English, M.A. Absent from the 2026-2027 catalog and from the tiles. The International Programs document of July 2025 records it as suspended until Fall 2026 across all four options. The department's [graduate page](https://www.csueastbay.edu/english/englgrad/index.html) is live under the heading "New M.A. in English at CSU East Bay" and advertises applications for Fall 2024 through Cal State Apply, with concentrations in Literature and Pedagogy and in TESOL. The department's 2026-2027 lecturer pool posting describes the department as offering the B.A. in English.
+Communication, M.A. In the catalog. The coordinators page lists it as suspended and not accepting applications.
 
-Communication, M.A. Suspended, in the catalog, absent from the tiles.
+English, M.A. Absent from the catalog. The coordinators page lists it as suspended and not accepting applications, with no program link. The department's [graduate page](https://www.csueastbay.edu/english/englgrad/index.html) is live under the heading "The Master's Degree in English," advertises applications for Fall 2024 through CSUapply, and offers concentrations in Literature and Pedagogy and in TESOL.
 
-Business Administration, M.B.A., Global Innovators Concentration. Recorded in the International Programs document as not accepting applications for Fall 2026.
-
-eLearning Administration, eLearning Design, and eLearning Technology certificates. On the unpublished graduate program directory page and nowhere else, with links into catalog years 33 and 39.
-
-## link targets
-
-Every tile destination resolves, and none redirects. Per-tile results sit in `documents/tile-link-check.tsv` and in the destination page and destination note columns of `documents/graduate-program-listings.xlsx`. Regenerate with the link check workflow, `.github/workflows/link-check.yml`, whose URL list is `tools/tile-urls.tsv`.
-
-Six destinations serve more than one tile, each the department page holding the information for those programs: engineering graduate degrees for Construction Management and Engineering Management, Teacher Education master's for Curriculum and Instruction, Early Childhood Education, and Educational Technology, Mathematics degrees and programs for Mathematics and the Mathematics Single Subject Matter certificate, the CSSC special education page for Special Education and the Education Specialist credential, the SLHS master's page for Speech-Language Pathology and the Speech Language Pathology Services credential, and Statistics degrees and programs for Statistics and the Applied Statistics and Theoretical Statistics certificates.
-
-Destinations that carry a different name or form than the tile:
-
-- Educational Technology Certificate is the only tile reaching the catalog rather than a program page, at catalog year 39. The page returned no content to an automated request.
-- History reaches `/history/degree-programs/ma-degree-programs_new.html`, a page with no title element.
-- Interaction Design leaves the university domain for ixdia.org.
-- Pre-Professional Health Academic Program (PHAP) reaches a page headed Post-Baccalaureate Health Professions Academic Program, the catalog's name for it.
-- Ed.D. Educational Leadership reaches a page titled Doctorate in Educational Leadership for Social Justice, the name the infosheet prints and not the catalog's.
-- Counseling reaches the Educational Psychology graduate programs index, which covers all three concentrations.
-- Kinesiology reaches a page titled M.S. Kinesiology: Sport, exercise, and human movement.
+English TESOL, M.A. The coordinators page lists it as suspended, with University Admissions in the deadline column where the other two suspended programs read "Not accepting applications."
 
 ## pages carrying stale content
 
-The International Programs [admission requirements document](https://www.csueastbay.edu/ip/files/docs/grad-program-requirements.pdf) is stamped "Information verified 7/15/2025" and is a cycle behind on every dated claim: the English M.A. suspended until Fall 2026, the Global Innovators M.B.A. not accepting applications for Fall 2026, the Computer Science GRE waived for Fall 2025 and Spring 2026. It gives MBA concentrations in Analytics for Managers and in Strategy and Innovation, neither of which is in the catalog, and omits Nursing, Public Administration, Health Care Administration, Hospitality Recreation and Tourism, Special Education, Teacher Education, and all credentials. International applicants for Fall 2027 read this document.
+The International Programs [admission requirements document](https://www.csueastbay.edu/ip/files/docs/grad-program-requirements.pdf) is stamped "Information verified 7/15/2025" and is a cycle behind on every dated claim: the English M.A. suspended until Fall 2026, the Global Innovators M.B.A. not accepting applications for Fall 2026, the Computer Science GRE waived for Fall 2025 and Spring 2026. It omits Nursing, Public Administration, Health Care Administration, Hospitality Recreation and Tourism, Special Education, Teacher Education, and all credentials. International applicants for Fall 2027 read this document.
 
 ## open questions
 
 Each names where the answer comes from.
 
-- Fall 2027 status of the English, M.A. Department chair, through Graduate Studies.
-- Whether the Communication, M.A. and the Global Innovators M.B.A. reopen for Fall 2027. Departments.
-- Whether the three eLearning certificates are current programs. Continuing Education.
-- Whether Biostatistics admits separately from the Statistics, M.S. Statistics and Biostatistics. There's no Biostatistics tile, and the MS Statistics infosheet sends readers to a Biostatistics chapter.
+- Fall 2027 status of the Communication, M.A., the English, M.A., and the English TESOL, M.A. Departments.
+- Whether the seven catalog programs missing from the coordinators page admit for Fall 2027 and belong on it. Departments, through Graduate Studies.
+- Whether the English TESOL, M.A., the Finance, M.S., and the Educational Leadership (Online), M.S. are in the 2026-2027 catalog. Catalog.
 - Who owns the International Programs admission requirements document, and on what cycle it is reverified. International Admissions.
-- Who reconciles the tiles against the catalog each year. Graduate Studies.
 - The Fall 2027 graduate filing window. Admissions.
