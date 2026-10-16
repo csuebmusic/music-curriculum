@@ -16,7 +16,7 @@ Curriculog proposals under committee review are recorded as Markdown from the Cu
 
 - [geoc alignment form, draft](papers/geoc-alignment-form-proposed.docx): a one-page replacement for the 2026/2027 alignment form, keyed to the attached syllabus rather than reproducing it. It follows the formatting of the GEOC form it would replace, not `conventions/house-style.md`.
 - [policies and procedures, proposed revision](papers/ccc-policies-procedures-proposed.docx): a revision of the [current version](reference/ccc-policies-procedures.docx) with a review standard (section 07), submission and the agenda in section 05, and the dean's office in place of the curriculum coordinator.
-- [geoc alignment form letter, draft](papers/geoc-alignment-form-letter.docx): the committee's position on the GEOC alignment form, addressed to the GEOC Subcommittee, with the short form as its attachment. For committee review on October 20.
+- [geoc alignment form letter, draft](papers/geoc-alignment-form-letter.docx): the committee's letter to the GEOC Subcommittee on the alignment form: the committee's review process, its workload under the current form, and the short form as an enclosure. For committee review on October 20.
 
 ## notes
 
