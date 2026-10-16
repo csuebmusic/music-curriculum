@@ -85,7 +85,7 @@ The [2026-2027 catalog](https://catalog.csueastbay.edu/content.php?catoid=44&nav
 | [Statistics, M.S.](https://www.csueastbay.edu/statistics/degrees-programs/index.html): Actuarial Science; Applied Statistics; Biostatistics; Data Science; Mathematical Statistics | Fall, Spring | University Admissions |
 | [Applied Statistics Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20621&returnto=42139) | Summer, Fall, Spring | University Admissions |
 | [Biotechnology Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20599&returnto=42139) | Fall, Spring | University Admissions |
-| [Mathematics, Single Subject Matter Preparation Certificate Program](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20624&returnto=42139) | Summer, Fall, Spring | University Admissions |
+| [Mathematics, Single Subject Matter Preparation Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20624&returnto=42139) | Summer, Fall, Spring | University Admissions |
 | [Theoretical Statistics Certificate](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20622&returnto=42139) | Summer, Fall, Spring | University Admissions |
 
 ### Continuing Education
