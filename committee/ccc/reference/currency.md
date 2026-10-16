@@ -67,6 +67,10 @@ Current as of 2026-09-02. The GEOC page links this file and requires it as an at
 
 Current as of 2026-09-02. 25-26 CIC 1 is the most recent entry in the policy's own history. GEOC reads the Course Information section strictly: the catalog course description, and student learning outcomes for the course together with those of every GEOC area the course carries.
 
+## ccc-policies-procedures.docx
+
+The revision pending CLASS Council approval in fall 2026. The version in force is the fall 2018 amendment, which isn't stored here. The review standard the committee applies to each proposal is in the [committee README](../README.md), under review and recommendation.
+
 ## ccc-website.md
 
 Checked 2026-10-04 against the CLASS Curriculum page and the APS Curriculum Calendar. Check again when the committee posts a new meeting calendar or roster.
