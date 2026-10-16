@@ -1,7 +1,5 @@
 # status and current practice
 
-Updated September 10, 2026.
-
 ## channels in use
 
 The inventory is assembled from two sources and is not closed. Joshua Kerr's list is the first source; the second is what appears on the public site. Absence from either one is not evidence that something is not happening.
@@ -24,9 +22,9 @@ On the public site:
 - [Graduate Program Info Sessions](https://www.csueastbay.edu/graduate-studies/graduate-program-infosessions.html), an index by term. Seven entries across the Fall 2025 and Spring 2026 tabs: College of Business and Economics, Master of Social Work, MS in Reading and Literacy, School Psychology, the Credential Student Service Center with Educational Psychology and Educational Leadership, and MS in Speech-Language Pathology.
 - [Graduate Student Ambassador Program](https://www.csueastbay.edu/graduate-studies/graduate-student-ambassadors.html), cohorts posted for Spring 2025 and Fall 2025, interest survey open. Ambassadors post about Graduate Studies events on their own accounts and record a video interview for the site.
 - Graduate School Fair, hosted by the Office of Academic Programs and Services, with Zoom rooms for more than fifty programs. Virtual in Spring 2026.
-- [Pathway to Graduate School Workshops](https://www.csueastbay.edu/graduate-studies/prospective-grad-students.html), Fall 2024, posted as video and slides: choosing East Bay, whether graduate school is right for you, Cal State Apply, financial aid, and the Career Empowerment Center on the application essay.
+- [Pathway to Graduate School Workshops](https://www.csueastbay.edu/graduate-studies/graduate-events.html), Fall 2026, posted as recordings and slides: whether graduate school is right for you and the value of graduate degrees, graduate programs at East Bay and how to apply, cost of attendance and financial aid, and the Office of Career Empowerment on the personal statement.
 - [Request for Information form](https://www.csueastbay.edu/futurestudents/request-info.html).
-- Graduate program directory and program coordinators directory.
+- Graduate program coordinators page, which the site also calls the graduate program directory.
 - Grad Slam research presentation competition.
 - Graduate Opportunities and Financial Resources, and Next Step CSU Graduate Career Readiness.
 - [FAST programs page](https://www.csueastbay.edu/graduate-studies/fast-programs.html), the general FAST information for students and faculty: eligibility at 60 to 90 program-applicable units with second-bachelor's students and double majors excluded, the application, international students, tuition and aid, graduate status, standing, and graduation.
@@ -37,8 +35,7 @@ Out of date as posted:
 
 - The info sessions index stops at Spring 2026.
 - The ambassador page stops at the Fall 2025 cohort, and its eligibility text still names a Spring 2025 start.
-- The Pathway workshop materials are from Fall 2024, and the GRE and GMAT slides from 2020.
-- The prospective graduate students page routes to graduate events at /aps/graduate-studies/graduate-events.html where the site navigation uses /graduate-studies/graduate-events.html.
+- The Fall 2025 Pathway workshops entry on the graduate events page sends readers to the prospective graduate students page for its recordings, and that page doesn't carry them.
 
 These channels are mapped against the 2024 plan section by section in `recruitment-plan.md`. The plan's recommendations largely exist in some form. What is missing is coverage and currency: seven programs of fifty-plus appear on the info sessions index, and no lead nurturing or source attribution is visible anywhere.
 
@@ -58,7 +55,7 @@ Six of the twenty-four departments in `programs.md` are reachable through the in
 
 ## who runs what
 
-Three people, as of August 2026.
+Three people.
 
 - Monica Zango, Graduate Studies administrator: Handshake and BaySync.
 - Joshua Kerr, Faculty Director: Graduate Studies web pages, Salesforce and Canvas communications, and ordering of LED ads, posters, and flyers.
@@ -78,7 +75,6 @@ CBE runs its own marketing and it performs well. The methods are not documented 
 - Meet with CBE about outreach and marketing strategies transferable to other programs, and record the methods above.
 - Ask Institutional Effectiveness and Research for the Non-US prior-institution figures, absent from the exports, and for whether the enrollment dashboard carries anything later than Fall 2025.
 - Take the open questions in `programs.md` to Graduate Studies and to the departments they name.
-- Ask for the Program Coordinator link on the [prospective graduate students page](https://www.csueastbay.edu/graduate-studies/prospective-grad-students.html), under Departmental Admission Requirements, to point at /graduate-studies/graduate-program-coordinators.html. It points at the retired directory page, which now returns 404.
 
 ## open questions
 

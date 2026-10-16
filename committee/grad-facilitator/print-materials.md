@@ -1,8 +1,8 @@
 # graduate fair print materials
 
-Working file for the printed program materials taken to graduate fairs. Source set: `OneDrive_2026-09-10.zip`, folder `Grad Program Infosheets`, 49 PDFs and one QR master workbook. Scanned 10 September 2026.
+Working file for the printed program materials taken to graduate fairs. Source set: `OneDrive_2026-09-10.zip`, folder `Grad Program Infosheets`, 49 PDFs and one QR master workbook.
 
-Text read with Ghostscript txtwrite. Catalog links read from the PDF link annotations. The QR code destinations are encoded in the code images and have not been decoded.
+The QR code destinations haven't been decoded.
 
 ## currency
 

@@ -22,7 +22,7 @@ Action Steps:
 
 
 
-> **note, August 2026.** Direct email through BaySync or Salesforce, Massmail, A-frames, flyers, and the LED screens reach people already enrolled at East Bay. The FAST programs page addresses juniors and transfer students holding 70 to 90 units, the one segment with a page written for it. International applicants route through the International Admissions Office, and Continuing Education carries the self-support and Open University paths. Mid-career professionals and students returning after a gap have no page or channel addressed to them. Feeder-school students appear in the Pioneer Insights origin-institute data and in no outreach channel.
+> **note.** Direct email through BaySync or Salesforce, Massmail, A-frames, flyers, and the LED screens reach people already enrolled at East Bay. The FAST programs page addresses juniors and transfer students holding 70 to 90 units, the one segment with a page written for it. International applicants route through the International Admissions Office, and Continuing Education carries the self-support and Open University paths. Mid-career professionals and students returning after a gap have no page or channel addressed to them. Feeder-school students appear in the Pioneer Insights origin-institute data and in no outreach channel.
 >
 > **moves.** Rank feeder institutions by program from the origin-institute data, and give the top ones a named contact rather than general broadcast. Treat East Bay undergraduates as a defined segment with FAST as its instrument, since that pipeline already produces applicants without being described as a segment. Identify the programs where mid-career applicants dominate, and write for that reader on those program pages. Ask Institutional Research for the application-to-enrollment funnel broken out by segment, so the four student types carry numbers instead of descriptions.
 
@@ -47,7 +47,7 @@ Best Practice: Student Outreach suggested posting to social media accounts 2-3 t
 
 
 
-> **note, August 2026.** Social media runs through the Office of Graduate Studies Instagram and LinkedIn accounts and the university accounts. The Graduate Studies site carries the program directory, the coordinator directory, the Request for Information form, the FAST page, the graduate student handbook, and the financial resources page. Program pages themselves are maintained department by department, and the prospective students page links out to each college's own admissions pages. Search terms, testimonials, and a consistent call to action have no owner across those pages.
+> **note.** Social media runs through the Office of Graduate Studies Instagram and LinkedIn accounts and the university accounts. The Graduate Studies site carries the program coordinators page, the Request for Information form, the FAST page, the graduate student handbook, and the financial resources page. Program pages themselves are maintained department by department, and the prospective students page sends readers to the coordinators page for them. Search terms, testimonials, and a consistent call to action have no owner across those pages.
 >
 > **moves.** Set a content standard for program pages: admission requirements, application deadline, cost, coordinator contact, an apply button, a request-info button, and one current student or alumni profile. Audit every graduate program page against it and publish the result by program. Supply a page template so programs adopt the standard rather than build to it. For search, the realistic targets are program name paired with Bay Area or Cal State rather than generic degree terms.
 
@@ -72,7 +72,7 @@ Best Practice: Despite little to no external marketing of information sessions, 
 
 
 
-> **note, August 2026.** The index this section anticipated exists as [Graduate Program Info Sessions](https://www.csueastbay.edu/graduate-studies/graduate-program-infosessions.html), with tabs by term. Its most recent tab is Spring 2026, and seven entries appear across both tabs: College of Business and Economics, Master of Social Work, MS in Reading and Literacy, School Psychology, the Credential Student Service Center with Educational Psychology and Educational Leadership alongside it, and MS in Speech-Language Pathology. The rest of the fifty-plus programs do not appear.
+> **note.** The index this section anticipated exists as [Graduate Program Info Sessions](https://www.csueastbay.edu/graduate-studies/graduate-program-infosessions.html), with tabs by term. Its most recent tab is Spring 2026, and seven entries appear across both tabs: College of Business and Economics, Master of Social Work, MS in Reading and Literacy, School Psychology, the Credential Student Service Center with Educational Psychology and Educational Leadership alongside it, and MS in Speech-Language Pathology. The rest of the fifty-plus programs do not appear.
 >
 > The Graduate School Fair runs through the Office of Academic Programs and Services with Zoom rooms for more than fifty programs, virtual in Spring 2026. The Fall 2024 Pathway to Graduate School Workshops are posted as video and slides: choosing East Bay, whether graduate school is right for you, Cal State Apply, financial aid, and the Career Empowerment Center on the application essay. The GRE and GMAT preparation slides date from 2020.
 >
@@ -96,7 +96,7 @@ Best Practice: Hosting Collaborative information sessions, webinars, or panels c
 
 
 
-> **note, August 2026.** The [Graduate Student Ambassador Program](https://www.csueastbay.edu/graduate-studies/graduate-student-ambassadors.html) is running, with cohorts posted for Spring 2025 and Fall 2025 and an interest survey open. Ambassadors attend at least two graduate events a semester, post about Graduate Studies events on their own accounts, and record a video interview for the site, in exchange for a feature on the site and social channels, a sweatshirt, and input to the Graduate Advisory Council. No cohort is posted after Fall 2025, and the eligibility text still names a Spring 2025 start.
+> **note.** The [Graduate Student Ambassador Program](https://www.csueastbay.edu/graduate-studies/graduate-student-ambassadors.html) is running, with cohorts posted for Spring 2025 and Fall 2025 and an interest survey open. Ambassadors attend at least two graduate events a semester, post about Graduate Studies events on their own accounts, and record a video interview for the site, in exchange for a feature on the site and social channels, a sweatshirt, and input to the Graduate Advisory Council. No cohort is posted after Fall 2025, and the eligibility text still names a Spring 2025 start.
 >
 > Industry associations, advisory boards, and co-hosted events with external organizations appear nowhere on the site.
 >
@@ -121,7 +121,7 @@ The former MBA program coordinator related that he would call each participant w
 
 
 
-> **note, August 2026.** The Request for Information form is the visible entry point, and what follows it is not visible from outside. Salesforce appears in the inventory as a send mechanism for direct email to enrolled students. Follow-up after an event, personal outreach to engaged leads, and application assistance beyond the posted Cal State Apply materials are unstaffed.
+> **note.** The Request for Information form is the visible entry point, and what follows it is not visible from outside. Salesforce appears in the inventory as a send mechanism for direct email to enrolled students. Follow-up after an event, personal outreach to engaged leads, and application assistance beyond the posted Cal State Apply materials are unstaffed.
 >
 > **moves.** This is where the 9 percent yield and the MBA coordinator's 30 percent both sit, so it takes priority over the broadcast channels. Build one post-event follow-up sequence in Salesforce Marketing Cloud and run it for the programs that already hold sessions, since they are the only ones holding lists. Name a person per program who contacts high-intent leads directly, which is what produced the MBA figure. Establish what Admissions already sends after a Request for Information before building anything, so the sequences do not duplicate it. Measure one program running the sequence against one that does not.
 
@@ -141,7 +141,7 @@ Action Steps:
 
 
 
-> **note, August 2026.** Nothing visible attributes a lead to a source. Pre-registration is already in use for the connections event and the graduate school fair, and the ambassador interest survey runs through a Google form, so collection points exist without attribution running through them.
+> **note.** Nothing visible attributes a lead to a source. Pre-registration is already in use for the connections event and the graduate school fair, and the ambassador interest survey runs through a Google form, so collection points exist without attribution running through them.
 >
 > **moves.** Define the funnel as request for information, session registration, session attendance, application started, application submitted, admitted, enrolled, and report it by program each cycle. Capture source at registration rather than reconstructing it later. A single registration form across all sessions supplies attribution as a by-product. Set the baseline before changing any channel, so the effect of a change is readable.
 
@@ -156,7 +156,7 @@ Action Steps:
 - Career Services:
   - Promote the university's Career Empowerment Center. Highlight any partnerships with companies, internships, or job placement programs that may be available to students.
 
-> **note, August 2026.** The Graduate Opportunities and Financial Resources page and the Next Step CSU Graduate Career Readiness page both sit in the Graduate Studies navigation, and the Career Empowerment Center presented on application essays at the Fall 2024 workshops. Graduate Equity Fellowships appear in no outreach channel. This material reaches prospective students through the site and through nothing else.
+> **note.** The Graduate Opportunities and Financial Resources page and the Next Step CSU Graduate Career Readiness page both sit in the Graduate Studies navigation, and the Office of Career Empowerment presents on the personal statement at the Pathway to Graduate School workshops. Graduate Equity Fellowships appear in no outreach channel. This material reaches prospective students through the site and through nothing else.
 >
 > **moves.** Cost surfaces early in a prospective student's decision, so put the fellowship, assistantship, and cost figures into the session materials and the admission-offer message rather than leaving them on a page to be found. Ask the Career Empowerment Center for placement and outcomes data by program. Where a program has employer partnerships or internship placements, name the employers.
 
@@ -164,13 +164,13 @@ Action Steps:
 
 ---
 
-## proposed additions, August 2026
+## proposed additions
 
 Seven candidate sections, not yet agreed. Each names something the 2024 plan assumes rather than states.
 
 ### A. ownership, cadence, and maintenance
 
-The plan addresses "you" throughout and never says who. Assign each recommendation to Graduate Studies, the college, or the program, and name the point in the application cycle at which it happens. Name who keeps published material current and on what schedule. Seven of fifty-plus programs on the info sessions index, an ambassador page a year behind, and workshop materials from 2024 are all the same gap.
+The plan addresses "you" throughout and never says who. Assign each recommendation to Graduate Studies, the college, or the program, and name the point in the application cycle at which it happens. Name who keeps published material current and on what schedule. Seven of fifty-plus programs on the info sessions index and an ambassador page a year behind are the same gap.
 
 Central execution runs on the people and assignments in `status.md`. Any recommendation in this plan that assumes central capacity has to be read against them.
 
