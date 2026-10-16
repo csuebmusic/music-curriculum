@@ -10,7 +10,7 @@ Curriculog proposals under committee review are recorded as Markdown from the Cu
 
 - [September 29, 2026](agendas/2026-09-29-agenda.docx): 45 course proposals for the 2027–2028 catalog and the Philosophy Minor revision.
 - [October 6, 2026](agendas/2026-10-06-agenda.docx): 63 course proposals for the 2027–2028 catalog and the Philosophy B.A. revision.
-- [October 20, 2026](agendas/2026-10-20-agenda.docx): 4 course proposals for the 2027–2028 catalog, the Philosophy B.A. revision, and the Policing Studies BPS projected degree proposal.
+- [October 20, 2026](agendas/2026-10-20-agenda.docx): 4 course proposals for the 2027–2028 catalog, the Philosophy B.A. revision, the Policing Studies BPS projected degree proposal, and discussion of the GEOC alignment form letter, the proposal submission timeline, and the committee's Policies and Procedures.
 
 ## papers
 
