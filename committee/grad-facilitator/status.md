@@ -73,6 +73,7 @@ CBE runs its own marketing and it performs well. The methods are not documented 
 
 - Meet with department chairs and associate deans about outreach and advertisement, including the content standard for the program pages Graduate Studies does not own.
 - Meet with CBE about outreach and marketing strategies transferable to other programs, and record the methods above.
+- Ask the English department to update or take down its [graduate page](https://www.csueastbay.edu/english/englgrad/index.html), which advertises Fall 2024 applications for the suspended M.A.
 - Ask Institutional Effectiveness and Research for the Non-US prior-institution figures, absent from the exports, and for whether the enrollment dashboard carries anything later than Fall 2025.
 
 ## open questions
@@ -91,6 +92,8 @@ Each names where the answer comes from.
 - Fall 2027 status of the Communication, M.A., the English, M.A., and the Quantitative Economics, M.S. Departments.
 - Whether the Mathematics, Physical Education, and Social Science single subject matter preparation programs admit graduate students and belong on the coordinators page. Departments, through Graduate Studies.
 - Coordinator, terms, and deadline for the Applied Spanish in Speech-Language Pathology Certificate, listed in Cal State Apply and absent from the catalog and the department site. Speech, Language, and Hearing Sciences.
+- Whether the Finance, M.S. enters the 2027-2028 catalog. Department of Accounting and Finance, or Catalog.
+- Whether the coordinators page takes the catalog names for the three programs named differently in `programs.md`. Inés Thiebaut.
 - Who owns the International Programs admission requirements document, and on what cycle it is reverified. International Admissions.
 - The Fall 2027 graduate filing window. Admissions.
 

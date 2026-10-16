@@ -103,20 +103,13 @@ In the 2026-2027 catalog and not on the coordinators page: the three programs th
 - Physical Education Single Subject Matter Preparation.
 - Social Science Single Subject Matter Preparation Program.
 
-On the coordinators page and not in the catalog:
-
-- English, M.A.
-- Finance, M.S. Cal State Apply lists it for Fall 2027, face to face, with a June 1, 2027 deadline.
+On the coordinators page and not in the catalog: Finance, M.S. Cal State Apply lists it for Fall 2027, face to face, with a June 1, 2027 deadline.
 
 In Cal State Apply and not on the coordinators page: the Applied Spanish in Speech-Language Pathology Certificate.
 
-One catalog program, two rows: the Educational Leadership, M.S. is hybrid through the department and fully online through University Extension. Cal State Apply lists the hybrid program as Ed Leadership - Prelim Admin Credential/Optional MS.
-
-Named differently:
+Named differently on the coordinators page than in the catalog:
 
 - The catalog's Post-baccalaureate Health Professions Academic Program Certificate is the page's Post-Baccalaureate Health Academic Program (PHAP).
-- Cal State Apply's Mathematical Statistics Certificate is the catalog's and the page's Theoretical Statistics Certificate.
-- Cal State Apply's Operations Management Analytics is the catalog's and the page's Operations and Supply Chain Management concentration of the M.B.A.
 - The catalog's Mathematics, Single Subject Matter Certificate Program is the page's Mathematics Single Subject Matter.
 - The catalog's Music Single Subject Matter Preparation Certificate is the page's Single Subject Matter Preparation Certificate Program in Music.
 
