@@ -90,7 +90,6 @@ Each names where the answer comes from.
 - Which colleges and departments have already been approached about graduate outreach. Joshua Kerr.
 - What has been tried and set aside. Joshua Kerr.
 - Fall 2027 status of the Communication, M.A., the English, M.A., and the Quantitative Economics, M.S. Departments.
-- Whether the Mathematics, Physical Education, and Social Science single subject matter preparation programs admit graduate students and belong on the coordinators page. Departments, through Graduate Studies.
 - Coordinator, terms, and deadline for the Applied Spanish in Speech-Language Pathology Certificate, listed in Cal State Apply and absent from the catalog and the department site. Speech, Language, and Hearing Sciences.
 - Whether the Finance, M.S. enters the 2027-2028 catalog. Department of Accounting and Finance, or Catalog.
 - Whether the coordinators page takes the catalog names for the three programs named differently in `programs.md`. Inés Thiebaut.

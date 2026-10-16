@@ -97,12 +97,6 @@ The [2026-2027 catalog](https://catalog.csueastbay.edu/content.php?catoid=44&nav
 
 ## the roster against the catalog and Cal State Apply
 
-In the 2026-2027 catalog and not on the coordinators page: the three programs the catalog lists under Single Subject Matter Preparation Program, separate from its Single Subject Matter Preparation Certificate Programs.
-
-- Mathematics, Single Subject Matter Preparation.
-- Physical Education Single Subject Matter Preparation.
-- Social Science Single Subject Matter Preparation Program.
-
 On the coordinators page and not in the catalog: Finance, M.S. Cal State Apply lists it for Fall 2027, face to face, with a June 1, 2027 deadline.
 
 In Cal State Apply and not on the coordinators page: the Applied Spanish in Speech-Language Pathology Certificate.
