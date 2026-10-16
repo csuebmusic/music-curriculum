@@ -90,7 +90,6 @@ Each names where the answer comes from.
 - What has been tried and set aside. Joshua Kerr.
 - Fall 2027 status of the Communication, M.A. and the English, M.A. Departments.
 - Whether the seven catalog programs missing from the coordinators page admit for Fall 2027 and belong on it. Departments, through Graduate Studies.
-- Whether the Educational Leadership (Online), M.S. admits through Continuing Education for Fall 2027, and whether it stays on the coordinators page. Continuing Education.
 - Coordinator, terms, and deadline for the Applied Spanish in Speech-Language Pathology Certificate, listed in Cal State Apply and absent from the catalog and the department site. Speech, Language, and Hearing Sciences.
 - Who owns the International Programs admission requirements document, and on what cycle it is reverified. International Admissions.
 - The Fall 2027 graduate filing window. Admissions.
