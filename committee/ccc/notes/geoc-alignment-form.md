@@ -41,7 +41,7 @@ It drops the week-by-week grid and the full assignment list from the existing fo
 
 ## committee letter
 
-The committee will write an official letter stating its position on the alignment form, as the CLASS Council of Chairs recommended (reported by Jessica Santone). Drafting the letter is the next action.
+The committee will write an official letter stating its position on the alignment form, as the CLASS Council of Chairs recommended (reported by Jessica Santone). The draft is [papers/geoc-alignment-form-letter.docx](../papers/geoc-alignment-form-letter.docx), on the October 20 agenda for committee review.
 
 Jessica's concerns:
 
