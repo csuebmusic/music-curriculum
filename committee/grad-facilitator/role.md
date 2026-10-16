@@ -55,7 +55,6 @@ Others.
 - `status.md`: channels currently in use, who runs them, next actions, open questions.
 - `documents/`: documents sent out from this role.
 - `programs.md`: the graduate program roster by college and department, and the working list of what needs correcting across the catalog, the tiles, and the program pages.
-- `baseline.md`: graduate enrollment, new students, and prior institution, from Pioneer Insights.
 - [Enrollment by graduate major, Pioneer Insights](https://data.csueastbay.edu/#/enrollment/majors/graduate). Feeder schools by program under the Enrollment by Origin Institute tab.
 - [University digital marketing campaign materials](https://drive.google.com/drive/folders/1ymIy8OEcxhVBCpKeQR2QmCLozCPCAuWv).
 - [Office of Graduate Studies](https://www.csueastbay.edu/graduate-studies/), and its [page for graduate program coordinators](https://www.csueastbay.edu/graduate-studies/graduate-program-coordinators.html).

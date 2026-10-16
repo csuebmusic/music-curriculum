@@ -10,7 +10,6 @@ Each working file records current state, open questions, and next actions. Resol
 - [status.md](status.md): the recruitment channels in use, who runs what, next actions, open questions, and decisions taken.
 - [recruitment-plan.md](recruitment-plan.md): the November 2024 GAC recruitment plan, verbatim, with annotations and proposed moves inline.
 - [programs.md](programs.md): the graduate program roster from the catalog, the discrepancies against the Graduate Studies tiles, and the programs with no settled status.
-- [baseline.md](baseline.md): graduate enrollment by program from the two Pioneer Insights sources, pulled August 2026.
 
 ## documents
 
