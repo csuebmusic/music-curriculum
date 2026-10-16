@@ -8,7 +8,7 @@ The [2026-2027 catalog](https://catalog.csueastbay.edu/content.php?catoid=44&nav
 
 ## the roster
 
-53 rows: 40 degree programs, five credentials, and eight certificates. Concentrations, tracks, and embedded credentials are named with their program.
+52 rows: 39 degree programs, five credentials, and eight certificates. Concentrations, tracks, and embedded credentials are named with their program.
 
 ### College of Business and Economics
 
@@ -19,7 +19,6 @@ The [2026-2027 catalog](https://catalog.csueastbay.edu/content.php?catoid=44&nav
 | [Business Administration, M.B.A.: Global Innovators concentration (self-support only)](https://www.csueastbay.edu/mba/) | Fall | University Admissions |
 | [Business Administration, M.B.A.: One Year Accelerated (self-support only)](https://www.csueastbay.edu/mba/) | Fall | University Admissions |
 | [Business Analytics, M.S.](https://www.csueastbay.edu/msba/) | Fall, Spring | University Admissions |
-| [Finance, M.S.](https://www.csueastbay.edu/acct-fin/graduate-program.html) | Fall, Spring | University Admissions |
 | [Marketing Analytics, M.S.](https://www.csueastbay.edu/msma/) | Fall, Spring | University Admissions |
 | [Quantitative Economics, M.S.](https://www.csueastbay.edu/economics/ms-economics/index.html) | In transition | Not accepting applications |
 
@@ -97,8 +96,6 @@ The [2026-2027 catalog](https://catalog.csueastbay.edu/content.php?catoid=44&nav
 
 ## the roster against the catalog and Cal State Apply
 
-On the coordinators page and not in the catalog: Finance, M.S. Cal State Apply lists it for Fall 2027, face to face, with a June 1, 2027 deadline.
-
 In Cal State Apply and not on the coordinators page: the Applied Spanish in Speech-Language Pathology Certificate.
 
 Named differently on the coordinators page than in the catalog:
@@ -114,7 +111,3 @@ Communication, M.A. In the catalog. The coordinators page lists it as suspended 
 English, M.A. Absent from the catalog. The coordinators page lists it as suspended and not accepting applications, with no program link. The department's [graduate page](https://www.csueastbay.edu/english/englgrad/index.html) is live under the heading "The Master's Degree in English," advertises applications for Fall 2024 through CSUapply, and offers concentrations in Literature and Pedagogy and in TESOL.
 
 Quantitative Economics, M.S. In the catalog. The department page states the program is in transition and not accepting applications.
-
-## pages carrying stale content
-
-The International Programs [admission requirements document](https://www.csueastbay.edu/ip/files/docs/grad-program-requirements.pdf) is stamped "Information verified 7/15/2025" and is a cycle behind on every dated claim: the English M.A. suspended until Fall 2026, the Global Innovators M.B.A. not accepting applications for Fall 2026, the Computer Science GRE waived for Fall 2025 and Spring 2026. It omits Nursing, Public Administration, Health Care Administration, Hospitality Recreation and Tourism, Special Education, Teacher Education, and all credentials. International applicants for Fall 2027 read this document.

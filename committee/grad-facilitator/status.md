@@ -41,7 +41,7 @@ These channels are mapped against the 2024 plan section by section in `recruitme
 
 ## program status
 
-The roster, the discrepancies against the catalog and Cal State Apply, the programs not accepting applications, and the documents that need correcting are in `programs.md`.
+The roster, the discrepancies against the catalog and Cal State Apply, and the programs not accepting applications are in `programs.md`.
 
 ## information session coverage
 
@@ -51,7 +51,7 @@ Fall 2025 carried six entries: College of Business and Economics, Master of Soci
 
 The Credential Student Service Center entry links out to Educational Psychology and Educational Leadership sessions, which have no rows of their own.
 
-Six of the twenty-four departments in `programs.md` are reachable through the index: Educational Leadership, Educational Psychology, Teacher Education, Special Education, Social Work, and Speech, Language, and Hearing Sciences. The College of Business and Economics runs its own [graduate events page](https://www.csueastbay.edu/cbegrad/events.html) covering its five programs. No department in the College of Science appears, and in Letters, Arts, and Social Sciences only the education sub-school does.
+Six departments are reachable through the index: Educational Leadership, Educational Psychology, Teacher Education, Special Education, Social Work, and Speech, Language, and Hearing Sciences. The College of Business and Economics runs its own [graduate events page](https://www.csueastbay.edu/cbegrad/events.html) covering its five programs. No department in the College of Science appears, and in Letters, Arts, and Social Sciences only the education sub-school does.
 
 ## who runs what
 
@@ -91,9 +91,7 @@ Each names where the answer comes from.
 - What has been tried and set aside. Joshua Kerr.
 - Fall 2027 status of the Communication, M.A., the English, M.A., and the Quantitative Economics, M.S. Departments.
 - Coordinator, terms, and deadline for the Applied Spanish in Speech-Language Pathology Certificate, listed in Cal State Apply and absent from the catalog and the department site. Speech, Language, and Hearing Sciences.
-- Whether the Finance, M.S. enters the 2027-2028 catalog. Department of Accounting and Finance, or Catalog.
 - Whether the coordinators page takes the catalog names for the three programs named differently in `programs.md`. Inés Thiebaut.
-- Who owns the International Programs admission requirements document, and on what cycle it is reverified. International Admissions.
 - The Fall 2027 graduate filing window. Admissions.
 
 ## decisions
