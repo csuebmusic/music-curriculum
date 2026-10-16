@@ -13,4 +13,4 @@ Each working file records current state. Open questions and next actions are in 
 
 ## documents
 
-Workbooks in [documents/](documents/): the graduate program listings and the print materials audit.
+Workbook in [documents/](documents/): the print materials audit.
