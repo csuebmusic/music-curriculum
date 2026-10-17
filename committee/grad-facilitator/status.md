@@ -2,10 +2,6 @@
 
 ## channels in use
 
-The inventory is assembled from two sources and is not closed. Joshua Kerr's list is the first source; the second is what appears on the public site. Absence from either one is not evidence that something is not happening.
-
-Sent by Joshua Kerr:
-
 - Direct email to students, via BaySync or Salesforce.
 - Massmail.
 - Email to graduate coordinators.
@@ -50,9 +46,7 @@ CBE runs its own marketing and it performs well. The methods are not documented 
 
 Each names where the answer comes from.
 
-- What has been tried and set aside. Joshua Kerr.
 - Fall 2027 status of the Communication, M.A., the English, M.A., and the Quantitative Economics, M.S. Departments.
-- The Fall 2027 graduate filing window. Admissions.
 
 ## decisions
 
