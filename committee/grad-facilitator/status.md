@@ -47,8 +47,3 @@ CBE runs its own marketing and it performs well. The methods are not documented 
 Each names where the answer comes from.
 
 - Fall 2028 status of the Communication, M.A., the English, M.A., and the Quantitative Economics, M.S. Departments.
-
-## decisions
-
-- Every graduate program is treated at equal priority. No triage by yield gap or by college.
-- The appointment runs two years, ongoing, with promotion and recruitment as the portfolio.
