@@ -31,8 +31,6 @@ On the public site:
 - [College of Business and Economics graduate events](https://www.csueastbay.edu/cbegrad/events.html), run by the college.
 - International Admissions Office, for international applicants.
 
-Out of date as posted: the Fall 2025 Pathway workshops entry on the graduate events page sends readers to the prospective graduate students page for its recordings, and that page doesn't carry them.
-
 These channels are mapped against the 2024 plan section by section in `recruitment-plan.md`.
 
 ## program status
