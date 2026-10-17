@@ -47,7 +47,7 @@ CBE runs its own marketing and it performs well. The methods are not documented 
 
 - Meet with department chairs and associate deans about outreach and advertisement, including the content standard for the program pages Graduate Studies does not own.
 - Meet with CBE about outreach and marketing strategies transferable to other programs, and record the methods above.
-- Ask Matthew to take the Finance, M.S. and the Applied Spanish in Speech-Language Pathology Certificate out of Cal State Apply.
+- Ask Matthew Perry, who runs East Bay's Cal State Apply listings, to take the Finance, M.S. and the Applied Spanish in Speech-Language Pathology Certificate out of Cal State Apply.
 - Ask the English department to update or take down its [graduate page](https://www.csueastbay.edu/english/englgrad/index.html), which advertises Fall 2024 applications for the suspended M.A.
 
 ## open questions
