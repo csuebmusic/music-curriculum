@@ -50,7 +50,7 @@ Others.
 ## reference
 
 - `recruitment-plan.md`: the GAC Consultative Committee action plan of November 11, 2024, the working document for this role. [Original on SharePoint](https://csueastbayedu.sharepoint.com/:w:/r/sites/GraduateAdvisoryCouncil/Shared%20Documents/General/GAC-Graduate%20Advisory%20Council/GAC%20Consultative%20Committee/Documents/Recruitment%20Plan%2011-11-24.docx?d=w590abcfce1e94f2684b4739ba4e2098e&csf=1&web=1&e=JfrNob).
-- `status.md`: channels currently in use, next actions, open questions.
+- `status.md`: Graduate Studies website status, next actions, open questions.
 - `documents/`: documents sent out from this role.
 - `programs.md`: the graduate program roster from the coordinators page, and what needs correcting against the catalog and the program pages.
 - [Enrollment by graduate major, Pioneer Insights](https://data.csueastbay.edu/#/enrollment/majors/graduate). Feeder schools by program under the Enrollment by Origin Institute tab.

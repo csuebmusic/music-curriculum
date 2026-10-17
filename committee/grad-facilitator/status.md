@@ -1,19 +1,6 @@
 # status and current practice
 
-## channels in use
-
-- Direct email to students, via BaySync or Salesforce.
-- Massmail.
-- Email to graduate coordinators.
-- Distribution to department chairs through associate deans.
-- A-frame posters and flyers posted around campus.
-- Campus LED screens (starting).
-- Graduate Studies and university social media, including the Office of Graduate Studies [Instagram](https://www.instagram.com/graduatestudiescsueb/) and [LinkedIn](https://www.linkedin.com/in/graduate-studies-csueb-75b793328/).
-- Grad Events page.
-- Handshake postings.
-- Alumni messaging where appropriate.
-
-On the public site:
+## website status
 
 - [Graduate Programs & Coordinators](https://www.csueastbay.edu/graduate-studies/graduate-program-coordinators.html): program links, graduate coordinators, terms open for application, and deadlines.
 - [Prospective graduate students](https://www.csueastbay.edu/graduate-studies/prospective-grad-students.html): how to apply, admission requirements, international applicants, and cost and financial aid, with the [Request for Information form](https://www.csueastbay.edu/futurestudents/request-info.html).
@@ -26,7 +13,7 @@ On the public site:
 - [Graduate Student Handbook](https://www.csueastbay.edu/graduate-studies/graduate-student-handbook.html): the handbook, thesis and capstone deadlines, forms and guides, and who to contact.
 - International Admissions Office, for international applicants.
 
-These channels are mapped against the 2024 plan section by section in `recruitment-plan.md`.
+Recruitment channels are mapped against the 2024 plan section by section in `recruitment-plan.md`.
 
 ## program status
 
