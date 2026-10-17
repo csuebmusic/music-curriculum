@@ -32,14 +32,10 @@ These channels are mapped against the 2024 plan section by section in `recruitme
 
 The roster, the discrepancies against Cal State Apply, and the programs not accepting applications are in `programs.md`.
 
-## College of Business and Economics
-
-CBE runs its own marketing and it performs well. The methods are not documented here yet.
-
 ## next actions
 
 - Meet with department chairs and associate deans about outreach and advertisement, including the content standard for the program pages Graduate Studies does not own.
-- Meet with CBE about outreach and marketing strategies transferable to other programs, and record the methods above.
+- Meet with CBE about outreach and marketing strategies transferable to other programs.
 - Ask the English department to update or take down its [graduate page](https://www.csueastbay.edu/english/englgrad/index.html), which advertises Fall 2024 applications for the suspended M.A.
 
 ## open questions
