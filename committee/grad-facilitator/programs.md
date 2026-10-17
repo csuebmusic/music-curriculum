@@ -96,7 +96,10 @@ The [2026-2027 catalog](https://catalog.csueastbay.edu/content.php?catoid=44&nav
 
 ## the roster against Cal State Apply
 
-In Cal State Apply and not on the coordinators page: the Applied Spanish in Speech-Language Pathology Certificate.
+In Cal State Apply and not on the coordinators page:
+
+- Finance, M.S. Absent from the catalog, where finance is a concentration of the M.B.A. The Cal State Apply listing carries no program information.
+- Applied Spanish in Speech-Language Pathology Certificate. Absent from the catalog and the department site.
 
 ## programs not accepting applications
 
