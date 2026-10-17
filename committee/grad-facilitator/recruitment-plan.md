@@ -2,7 +2,7 @@
 
 GAC Consultative Committee, November 11, 2024. [Original on SharePoint](https://csueastbayedu.sharepoint.com/:w:/r/sites/GraduateAdvisoryCouncil/Shared%20Documents/General/GAC-Graduate%20Advisory%20Council/GAC%20Consultative%20Committee/Documents/Recruitment%20Plan%2011-11-24.docx?d=w590abcfce1e94f2684b4739ba4e2098e&csf=1&web=1&e=JfrNob).
 
-Working document. The 2024 text below is verbatim. Annotations go inline as blockquotes labeled `note` and dated, immediately under the passage they address, with proposed changes under a `moves` label in the same block. Revisions to the text itself get made in place once agreed, with the superseded wording removed. Proposed new sections sit under a dated heading at the end until agreed, then fold in and the plan renumbers.
+Working document. The 2024 text below is verbatim. Annotations are blockquotes under the passage they address: `note` for the current state, `moves` for proposed actions. Proposed new sections are at the end.
 
 ---
 
@@ -22,9 +22,9 @@ Action Steps:
 
 
 
-> **note.** Direct email through BaySync or Salesforce, Massmail, A-frames, flyers, and the LED screens reach people already enrolled at East Bay. The FAST programs page addresses juniors and transfer students holding 70 to 90 units, the one segment with a page written for it. International applicants route through the International Admissions Office, and Continuing Education carries the self-support and Open University paths. Mid-career professionals and students returning after a gap have no page or channel addressed to them. Feeder-school students appear in the Pioneer Insights origin-institute data and in no outreach channel.
+> **note.** The FAST programs page addresses East Bay undergraduates with 60 to 90 program-applicable units, the one segment with a page written for it. The prospective graduate students page links the International Admissions Office for international applicants and Continuing Education for the self-support and Open University paths. Mid-career professionals and students returning after a gap have no page addressed to them. Feeder-school students appear in the Pioneer Insights origin-institute data, and no page addresses them.
 >
-> **moves.** Rank feeder institutions by program from the origin-institute data, and give the top ones a named contact rather than general broadcast. Treat East Bay undergraduates as a defined segment with FAST as its instrument, since that pipeline already produces applicants without being described as a segment. Identify the programs where mid-career applicants dominate, and write for that reader on those program pages. Ask Institutional Research for the application-to-enrollment funnel broken out by segment, so the four student types carry numbers instead of descriptions.
+> **moves.** Rank feeder institutions by program from the origin-institute data, and give the top ones a named contact. Treat East Bay undergraduates as a defined segment, with FAST as its route into graduate study. Identify the programs where mid-career applicants are the majority, and write for that reader on those program pages.
 
 ## 2. Strengthen Online Presence
 
@@ -47,9 +47,9 @@ Best Practice: Student Outreach suggested posting to social media accounts 2-3 t
 
 
 
-> **note.** Social media runs through the Office of Graduate Studies Instagram and LinkedIn accounts and the university accounts. The Graduate Studies site carries the program coordinators page, the Request for Information form, the FAST page, the graduate student handbook, and the financial resources page. Program pages themselves are maintained department by department, and the prospective students page sends readers to the coordinators page for them. Search terms, testimonials, and a consistent call to action have no owner across those pages.
+> **note.** Social media runs through the Office of Graduate Studies Instagram and LinkedIn accounts and the university accounts. The Graduate Studies site has the Graduate Programs & Coordinators page, the prospective and admitted graduate student pages, the FAST programs page, the Graduate Student Handbook, and the Graduate Opportunities and Financial Resources page. The prospective graduate students page links the Request More Information form. Program pages are maintained department by department, and the Graduate Programs & Coordinators page links to each. Search terms, testimonials, and a consistent call to action have no owner across the program pages.
 >
-> **moves.** Set a content standard for program pages: admission requirements, application deadline, cost, coordinator contact, an apply button, a request-info button, and one current student or alumni profile. Audit every graduate program page against it and publish the result by program. Supply a page template so programs adopt the standard rather than build to it. For search, the realistic targets are program name paired with Bay Area or Cal State rather than generic degree terms.
+> **moves.** Set a content standard for program pages: admission requirements, application deadline, cost, coordinator contact, an apply button, a request-info button, and one current student or alumni profile. Audit every graduate program page against it and publish the result by program. Supply a page template that meets the standard. For search, target program names paired with Bay Area or Cal State.
 
 ## 3. Host Virtual Information Sessions and Webinars
 
@@ -72,11 +72,11 @@ Best Practice: Despite little to no external marketing of information sessions, 
 
 
 
-> **note.** The index this section anticipated exists as [Graduate Program Info Sessions](https://www.csueastbay.edu/graduate-studies/graduate-program-infosessions.html), with tabs by term. Its most recent tab is Spring 2026, and seven entries appear across both tabs: College of Business and Economics, Master of Social Work, MS in Reading and Literacy, School Psychology, the Credential Student Service Center with Educational Psychology and Educational Leadership alongside it, and MS in Speech-Language Pathology. The rest of the fifty-plus programs do not appear.
+> **note.** The graduate events page has a Graduate Program Information Sessions section. It names the MBA, the M.S. in Business Analytics, the teaching credentials, and Speech-Language Pathology among the programs holding sessions, and sends readers to each program's website through the Graduate Programs & Coordinators page. No page lists session dates across programs.
 >
-> The Graduate School Fair runs through the Office of Academic Programs and Services with Zoom rooms for more than fifty programs, virtual in Spring 2026. The Fall 2024 Pathway to Graduate School Workshops are posted as video and slides: choosing East Bay, whether graduate school is right for you, Cal State Apply, financial aid, and the Career Empowerment Center on the application essay. The GRE and GMAT preparation slides date from 2020.
+> The Office of Graduate Studies runs the Graduate School Fair. The Fall 2026 fair was in person in the University Union MPR, with representatives from over 50 East Bay graduate programs and from other CSUs, UCs, and private universities, and registration through the fair's website. The Fall 2026 Pathway to Graduate School Workshops are posted on the graduate events page as recordings and slides: whether graduate school is right for you, graduate programs and how to apply, cost of attendance and financial aid, and the personal statement with the Office of Career Empowerment.
 >
-> **moves.** Coverage is the lever here. Ask every program for one session per application cycle, and cover the programs that decline with a Graduate Studies session grouped by college. Put a single registration form on the index page so every session feeds one list. Post recordings, since a recorded session serves the applicant who finds the page after the date has passed. Add the fall term tab, refresh the Pathway materials annually, and retire the 2020 test preparation slides.
+> **moves.** Ask every program for one session per application cycle, and cover the programs that decline with a Graduate Studies session grouped by college. List session dates across programs on the graduate events page, with one registration form. Post recordings of each session. Refresh the Pathway materials each fall.
 
 ## 4. Partner with External Organizations and Networks
 
@@ -96,11 +96,11 @@ Best Practice: Hosting Collaborative information sessions, webinars, or panels c
 
 
 
-> **note.** The [Graduate Student Ambassador Program](https://www.csueastbay.edu/graduate-studies/graduate-student-ambassadors.html) is running, with cohorts posted for Spring 2025 and Fall 2025 and an interest survey open. Ambassadors attend at least two graduate events a semester, post about Graduate Studies events on their own accounts, and record a video interview for the site, in exchange for a feature on the site and social channels, a sweatshirt, and input to the Graduate Advisory Council. No cohort is posted after Fall 2025, and the eligibility text still names a Spring 2025 start.
+> **note.** The [Graduate Student Ambassador Program](https://www.csueastbay.edu/graduate-studies/graduate-student-ambassadors.html) has its Fall 2026 cohort posted and the interest survey open. Ambassadors attend at least two graduate student events each semester, promote Graduate Studies events on their own social media, and complete a video interview for the Graduate Studies website. They're featured on the site and social media, receive a sweatshirt, and give input to the Graduate Advisory Council.
 >
-> Industry associations, advisory boards, and co-hosted events with external organizations appear nowhere on the site.
+> Industry associations, advisory boards, and co-hosted events with external organizations appear nowhere on the Graduate Studies site.
 >
-> **moves.** The ambassador program is the strongest asset in this section and it is underused. Route each ambassador's video interview onto their own program's page, give ambassadors a one-page brief on their program so they answer admissions questions consistently, and staff the graduate fair with them. Refresh the cohort and the eligibility text each term. For alumni, ask each program for five graduates willing to speak at a session or take a prospective student's call. Ask which programs hold industry advisory boards, starting with Business and Engineering, and what internal channels those boards can carry.
+> **moves.** Route each ambassador's video interview onto their own program's page, give ambassadors a one-page brief on their program, and staff the Graduate School Fair with them. For alumni, ask each program for five graduates willing to speak at a session or take a prospective student's call. Ask which programs hold industry advisory boards, starting with the College of Business and Economics and the engineering programs, and what internal channels those boards can carry.
 
 ## 5. Nurture Leads and Maintain Relationships
 
@@ -121,9 +121,9 @@ The former MBA program coordinator related that he would call each participant w
 
 
 
-> **note.** The Request for Information form is the visible entry point, and what follows it is not visible from outside. Salesforce appears in the inventory as a send mechanism for direct email to enrolled students. Follow-up after an event, personal outreach to engaged leads, and application assistance beyond the posted Cal State Apply materials are unstaffed.
+> **note.** The Request More Information form is the visible entry point, and what follows it isn't visible from outside. Follow-up after an event, personal outreach to engaged leads, and application assistance beyond the posted Cal State Apply materials have no owner.
 >
-> **moves.** This is where the 9 percent yield and the MBA coordinator's 30 percent both sit, so it takes priority over the broadcast channels. Build one post-event follow-up sequence in Salesforce Marketing Cloud and run it for the programs that already hold sessions, since they are the only ones holding lists. Name a person per program who contacts high-intent leads directly, which is what produced the MBA figure. Establish what Admissions already sends after a Request for Information before building anything, so the sequences do not duplicate it. Measure one program running the sequence against one that does not.
+> **moves.** Build one post-event follow-up sequence in Salesforce Marketing Cloud and run it for the programs that hold sessions. Name a person per program who contacts high-intent leads directly, as the former MBA coordinator did. Find out what Admissions sends after a Request More Information submission before building a sequence. Measure one program running the sequence against one that doesn't.
 
 ## 6. Track Metrics and Optimize
 
@@ -141,9 +141,9 @@ Action Steps:
 
 
 
-> **note.** Nothing visible attributes a lead to a source. Pre-registration is already in use for the connections event and the graduate school fair, and the ambassador interest survey runs through a Google form, so collection points exist without attribution running through them.
+> **note.** Nothing on the Graduate Studies site attributes a lead to a source. Collection points exist: registration for the Graduate School Fair and the ambassador interest survey.
 >
-> **moves.** Define the funnel as request for information, session registration, session attendance, application started, application submitted, admitted, enrolled, and report it by program each cycle. Capture source at registration rather than reconstructing it later. A single registration form across all sessions supplies attribution as a by-product. Set the baseline before changing any channel, so the effect of a change is readable.
+> **moves.** Define the funnel as request for information, session registration, session attendance, application started, application submitted, admitted, enrolled, and report it by program each cycle. Capture source at registration. Use a single registration form across all sessions. Set the baseline before changing any channel.
 
 ## 7. Provide Financial and Career Support Information
 
@@ -156,9 +156,9 @@ Action Steps:
 - Career Services:
   - Promote the university's Career Empowerment Center. Highlight any partnerships with companies, internships, or job placement programs that may be available to students.
 
-> **note.** The Graduate Opportunities and Financial Resources page and the Next Step CSU Graduate Career Readiness page both sit in the Graduate Studies navigation, and the Office of Career Empowerment presents on the personal statement at the Pathway to Graduate School workshops. Graduate Equity Fellowships appear in no outreach channel. This material reaches prospective students through the site and through nothing else.
+> **note.** The [Graduate Opportunities and Financial Resources](https://www.csueastbay.edu/graduate-studies/graduate-opportunities.html) page covers grants, loans, work study, the Graduate Equity Fellowship, the California Pre-Doctoral Program, the Chancellor's Doctoral Incentive Program, and other awards. Information sessions on the fellowships are posted on the graduate events page. The Office of Career Empowerment presents on the personal statement at the Pathway to Graduate School Workshops.
 >
-> **moves.** Cost surfaces early in a prospective student's decision, so put the fellowship, assistantship, and cost figures into the session materials and the admission-offer message rather than leaving them on a page to be found. Ask the Career Empowerment Center for placement and outcomes data by program. Where a program has employer partnerships or internship placements, name the employers.
+> **moves.** Put the fellowship, assistantship, and cost figures into the session materials and the admission-offer message. Ask the Office of Career Empowerment for placement and outcomes data by program. Where a program has employer partnerships or internship placements, name the employers.
 
 
 
@@ -166,13 +166,11 @@ Action Steps:
 
 ## proposed additions
 
-Seven candidate sections, not yet agreed. Each names something the 2024 plan assumes rather than states.
+Seven proposed sections, each naming something the 2024 plan assumes rather than states.
 
 ### A. ownership, cadence, and maintenance
 
-The plan addresses "you" throughout and never says who. Assign each recommendation to Graduate Studies, the college, or the program, and name the point in the application cycle at which it happens. Name who keeps published material current and on what schedule. Seven of fifty-plus programs on the info sessions index and an ambassador page a year behind are the same gap.
-
-Central execution runs on the people and assignments in `status.md`. Any recommendation in this plan that assumes central capacity has to be read against them.
+The plan addresses "you" throughout and never says who. Assign each recommendation to Graduate Studies, the college, or the program, and name the point in the application cycle at which it happens. Name who keeps published material current and on what schedule.
 
 ### B. the recruitment calendar
 
@@ -180,7 +178,7 @@ Recruitment is keyed to the Cal State Apply deadlines and the plan has no dates 
 
 ### C. international recruitment
 
-International students are named as one of four audiences in section 1 and appear in no later section. The International Admissions Office holds the requirements, the English proficiency thresholds, and the separate filing dates. Whether East Bay works with agents, partner institutions, or CSU-wide international channels is not stated anywhere.
+International students are named as one of four audiences in section 1 and appear in no later section. The International Admissions Office holds the requirements, the English proficiency thresholds, and the separate filing dates. Find out whether East Bay works with agents, partner institutions, or CSU-wide international channels.
 
 ### D. the application experience
 
@@ -196,4 +194,4 @@ Completion rates, time to degree, and placement by program. Prospective graduate
 
 ### G. resourcing
 
-Sessions, an ambassador program, fairs at other universities, Salesforce sequences, and a website audit each cost staff time. The plan names no budget, no assigned time, and no staffing. Read it against the central staffing in `status.md`.
+Sessions, an ambassador program, fairs at other universities, Salesforce sequences, and a program page audit each cost staff time. The plan names no budget, no assigned time, and no staffing. The Office of Graduate Studies staff are in `role.md`.
