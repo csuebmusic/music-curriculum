@@ -16,7 +16,7 @@ Coordinate, develop, and lead all aspects of graduate program promotion and recr
 
 ## scope
 
-Every graduate program, at equal priority. The Office of Graduate Studies page carries the canonical list: 31 master's programs, the Ed.D. in Educational Leadership, eight credentials, eight certificates, and the FAST accelerated tracks.
+Every graduate program, at equal priority. The roster is in `programs.md`.
 
 Separate from the Music Department graduate coordinator role, which covers the M.A. in Music alone. Recruitment work for the M.A. in Music runs through this charge like any other program.
 
