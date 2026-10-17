@@ -26,8 +26,8 @@ On the public site:
 - [Graduate Student Ambassador Program](https://www.csueastbay.edu/graduate-studies/graduate-student-ambassadors.html), with the Fall 2026 cohort posted and the interest survey open.
 - [Grad Slam](https://www.csueastbay.edu/graduate-studies/grad-slam/index.html), with the 2023 to 2025 competitions on their own pages.
 - [Graduate Opportunities and Financial Resources](https://www.csueastbay.edu/graduate-studies/graduate-opportunities.html).
-- [FAST programs page](https://www.csueastbay.edu/graduate-studies/fast-programs.html), the general FAST information for students and faculty: eligibility at 60 to 90 program-applicable units with second-bachelor's students and double majors excluded, the application, international students, tuition and aid, graduate status, standing, and graduation.
-- [Graduate Student Handbook](https://www.csueastbay.edu/graduate-studies/graduate-student-handbook.html).
+- [FAST programs](https://www.csueastbay.edu/graduate-studies/fast-programs.html): eligibility (60 to 90 program-applicable units, lower-division general education and major courses complete, a 2.5 cumulative GPA), how to apply, international students, tuition and aid, moving to graduate status, standing, courses and grades, graduation and catalog rights, advising, and a section for faculty and departments.
+- [Graduate Student Handbook](https://www.csueastbay.edu/graduate-studies/graduate-student-handbook.html): the handbook, thesis and capstone deadlines, forms and guides, and who to contact.
 - International Admissions Office, for international applicants.
 
 These channels are mapped against the 2024 plan section by section in `recruitment-plan.md`.
