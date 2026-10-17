@@ -8,7 +8,7 @@ The [2026-2027 catalog](https://catalog.csueastbay.edu/content.php?catoid=44&nav
 
 ## the roster
 
-52 rows: 39 degree programs, five credentials, and eight certificates. Concentrations, tracks, and embedded credentials are named with their program.
+52 rows: 39 degree programs, five credentials, and eight certificates. Concentrations, tracks, and embedded credentials are named with their program, as on the page. University Admissions in the deadline column is the university deadline on the Admissions site.
 
 ### College of Business and Economics
 
@@ -96,15 +96,15 @@ The [2026-2027 catalog](https://catalog.csueastbay.edu/content.php?catoid=44&nav
 
 ## the roster against Cal State Apply
 
-In Cal State Apply and not on the coordinators page:
+In Cal State Apply and not on the Graduate Programs & Coordinators page:
 
 - Finance, M.S. Absent from the catalog, where finance is a concentration of the M.B.A. The Cal State Apply listing carries no program information.
 - Applied Spanish in Speech-Language Pathology Certificate. Absent from the catalog and the department site.
 
 ## programs not accepting applications
 
-Communication, M.A. In the catalog. The coordinators page lists it as suspended and not accepting applications, with no program link.
+Communication, M.A. In the catalog. The Graduate Programs & Coordinators page lists it as suspended and not accepting applications, with no program link.
 
-English, M.A. Absent from the catalog. The coordinators page lists it as suspended and not accepting applications, with no program link. The department's [graduate page](https://www.csueastbay.edu/english/englgrad/index.html) is live under the heading "The Master's Degree in English," advertises applications for Fall 2024 through CSUapply, and offers concentrations in Literature and Pedagogy and in TESOL.
+English, M.A. Absent from the catalog. The Graduate Programs & Coordinators page lists it as suspended and not accepting applications, with no program link. The department's [graduate page](https://www.csueastbay.edu/english/englgrad/index.html) is live under the heading "The Master's Degree in English," advertises applications for Fall 2024 through CSUapply, and offers concentrations in Literature and Pedagogy and in TESOL.
 
 Quantitative Economics, M.S. In the catalog. The department page states the program is in transition and not accepting applications.

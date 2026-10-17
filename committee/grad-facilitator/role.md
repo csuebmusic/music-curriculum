@@ -26,7 +26,7 @@ Office of Graduate Studies, SA 4500, 510-885-3716, gradstudies@csueastbay.edu.
 - Dr. Joshua Kerr, Faculty Director of Graduate Studies. joshua.kerr@csueastbay.edu, 510-885-3626
 - Dr. Emilio Grande, Graduate Student Success Facilitator. emilio.grande@csueastbay.edu, 510-885-3486
 - Dr. Michelle Gravier, Graduate Student Success Facilitator. michelle.gravier@csueastbay.edu, 510-885-3215
-- Dr. Divya Sitaraman, Graduate Student Success Facilitator. 510-885-3484
+- Dr. Divya Sitaraman, Graduate Student Success Facilitator. divya.sitaraman@csueastbay.edu, 510-885-3484
 - Ms. Monica Zango, Graduate Studies Coordinator. gradstudies@csueastbay.edu, 510-885-3716
 - Risha Rohilla, student assistant.
 
@@ -39,7 +39,7 @@ University Communications and Marketing, within University Advancement, under Vi
 - Gus Yoo, Senior Graphic Designer. gus.yoo@csueastbay.edu, 510-885-2360
 - Kimberly Hawkins, Senior News and Information Manager. kimberly.hawkins@csueastbay.edu, 510-885-2878
 
-Others.
+Other offices.
 
 - Clark Boothby, Director of Career Education, Career Services. clark.boothby@csueastbay.edu, 510-885-3588
 - Admissions: personalized messaging to leads.
@@ -47,7 +47,7 @@ Others.
 
 ## reference
 
-- `recruitment-plan.md`: the GAC Consultative Committee action plan of November 11, 2024, the working document for this role. [Original on SharePoint](https://csueastbayedu.sharepoint.com/:w:/r/sites/GraduateAdvisoryCouncil/Shared%20Documents/General/GAC-Graduate%20Advisory%20Council/GAC%20Consultative%20Committee/Documents/Recruitment%20Plan%2011-11-24.docx?d=w590abcfce1e94f2684b4739ba4e2098e&csf=1&web=1&e=JfrNob).
+- `recruitment-plan.md`: the Graduate Advisory Council (GAC) Consultative Committee recruitment plan of November 11, 2024, the working document for this role. [Original on SharePoint](https://csueastbayedu.sharepoint.com/:w:/r/sites/GraduateAdvisoryCouncil/Shared%20Documents/General/GAC-Graduate%20Advisory%20Council/GAC%20Consultative%20Committee/Documents/Recruitment%20Plan%2011-11-24.docx?d=w590abcfce1e94f2684b4739ba4e2098e&csf=1&web=1&e=JfrNob).
 - `status.md`: Graduate Studies website status, PR strategies, program status, next actions, open questions.
 - `documents/`: the print materials audit workbook.
 - `programs.md`: the graduate program roster from the Graduate Programs & Coordinators page, the discrepancies against Cal State Apply, and the programs not accepting applications.
