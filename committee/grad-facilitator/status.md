@@ -28,7 +28,6 @@ On the public site:
 - [Graduate Opportunities and Financial Resources](https://www.csueastbay.edu/graduate-studies/graduate-opportunities.html).
 - [FAST programs page](https://www.csueastbay.edu/graduate-studies/fast-programs.html), the general FAST information for students and faculty: eligibility at 60 to 90 program-applicable units with second-bachelor's students and double majors excluded, the application, international students, tuition and aid, graduate status, standing, and graduation.
 - [Graduate Student Handbook](https://www.csueastbay.edu/graduate-studies/graduate-student-handbook.html).
-- [College of Business and Economics graduate events](https://www.csueastbay.edu/cbegrad/events.html), run by the college.
 - International Admissions Office, for international applicants.
 
 These channels are mapped against the 2024 plan section by section in `recruitment-plan.md`.
