@@ -13,6 +13,8 @@
 - [Graduate Student Handbook](https://www.csueastbay.edu/graduate-studies/graduate-student-handbook.html): the handbook, thesis and capstone deadlines, forms and guides, and who to contact.
 - International Admissions Office, for international applicants.
 
+## PR strategies
+
 Recruitment channels are mapped against the 2024 plan section by section in `recruitment-plan.md`.
 
 ## program status
