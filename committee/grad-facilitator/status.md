@@ -28,4 +28,4 @@ The roster, the discrepancies against Cal State Apply, and the programs not acce
 
 ## open questions
 
-- Fall 2028 status of the Communication, M.A., the English, M.A., and the Quantitative Economics, M.S. Departments.
+- Fall 2028 status of the Communication, M.A., the English, M.A., and the Quantitative Economics, M.S., from each department.
