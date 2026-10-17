@@ -1,10 +1,10 @@
 # graduate programs
 
-Working file for the graduate program roster and for what needs correcting in how the programs are listed. The roster is the [graduate program coordinators page](https://www.csueastbay.edu/graduate-studies/graduate-program-coordinators.html), the hub for program links, coordinator contacts, terms open for application, and deadlines. Coordinator names and contacts are on that page.
+Working file for the graduate program roster and for what needs correcting in how the programs are listed. The roster is the [Graduate Programs & Coordinators page](https://www.csueastbay.edu/graduate-studies/graduate-program-coordinators.html), the hub for program links, coordinator contacts, terms open for application, and deadlines. Coordinator names and contacts are on that page.
 
 ## catalog and cycle
 
-The [2026-2027 catalog](https://catalog.csueastbay.edu/content.php?catoid=44&navoid=42138) is current, with content approved on or before May 26, 2026. There is no 2027-2028 catalog. Students recruited this fair season enter in Fall 2027 under the 2027-2028 catalog, so program status for that round comes from the departments and from Cal State Apply rather than from the published catalog.
+The [2026-2027 catalog](https://catalog.csueastbay.edu/content.php?catoid=44&navoid=42138) is current, with content approved on or before May 26, 2026. There is no 2027-2028 catalog. Program status for Fall 2027 entry comes from the departments and Cal State Apply.
 
 ## the roster
 

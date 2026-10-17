@@ -3,7 +3,7 @@
 ## website status
 
 - [Graduate Programs & Coordinators](https://www.csueastbay.edu/graduate-studies/graduate-program-coordinators.html): program links, graduate coordinators, terms open for application, and deadlines.
-- [Prospective graduate students](https://www.csueastbay.edu/graduate-studies/prospective-grad-students.html): how to apply, admission requirements, international applicants, and cost and financial aid, with the [Request for Information form](https://www.csueastbay.edu/futurestudents/request-info.html).
+- [Prospective graduate students](https://www.csueastbay.edu/graduate-studies/prospective-grad-students.html): how to apply, admission requirements, international applicants with a link to the [International Admissions Office](https://www.csueastbay.edu/iao/index.html), and cost and financial aid, with the [Request More Information form](https://www.csueastbay.edu/futurestudents/request-info.html).
 - [Admitted and new graduate students](https://www.csueastbay.edu/graduate-studies/admitted-grad-students.html): next steps, orientation, advising, and campus services.
 - [Graduate events](https://www.csueastbay.edu/graduate-studies/graduate-events.html): upcoming events, the CSU STEM-NET research talks, and a Graduate Program Information Sessions section that sends readers to program websites through the coordinators page. Past events include the Fall 2026 Graduate School Fair and the Fall 2026 Pathway to Graduate School Workshops, posted as recordings and slides.
 - [Graduate Student Ambassador Program](https://www.csueastbay.edu/graduate-studies/graduate-student-ambassadors.html), with the Fall 2026 cohort posted and the interest survey open.
@@ -11,7 +11,6 @@
 - [Graduate Opportunities and Financial Resources](https://www.csueastbay.edu/graduate-studies/graduate-opportunities.html).
 - [FAST programs](https://www.csueastbay.edu/graduate-studies/fast-programs.html): eligibility (60 to 90 program-applicable units, lower-division general education and major courses complete, a 2.5 cumulative GPA), how to apply, international students, tuition and aid, moving to graduate status, standing, courses and grades, graduation and catalog rights, advising, and a section for faculty and departments.
 - [Graduate Student Handbook](https://www.csueastbay.edu/graduate-studies/graduate-student-handbook.html): the handbook, thesis and capstone deadlines, forms and guides, and who to contact.
-- International Admissions Office, for international applicants.
 
 ## PR strategies
 
