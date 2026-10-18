@@ -14,7 +14,7 @@
 
 ## PR strategies
 
-Notes and proposed actions for each section of the 2024 plan are in `recruitment-plan.md`.
+The 2024 recruitment plan is in `recruitment-plan.md`.
 
 ## program status
 
