@@ -35,7 +35,7 @@ Music courses for music majors in Spring 2027 (spring A). All sections meet 01/1
 
 ## graduate seminars
 
-| course | title | days and times |
-|---|---|---|
-| MUS 605 | History and Theory of Jazz | Tu 7:00–9:00 PM |
-| MUS 606 | Interdisciplinary Collaboration in Music | Mo 6:30–9:00 PM |
+| course | title | days and times | room |
+|---|---|---|---|
+| MUS 605 | History and Theory of Jazz | Tu 7:00–9:00 PM | MB 2089 |
+| MUS 606 | Interdisciplinary Collaboration in Music | Mo 6:30–9:00 PM | MB 1055 |
