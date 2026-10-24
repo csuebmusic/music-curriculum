@@ -2,8 +2,6 @@
 
 updated fall 2026.
 
-The grading model used across the Theory and Musicianship syllabi and MUS 601. Apply it as written.
-
 ## the core idea
 
 Each graded assignment is scored 0 to 4, and that score is its grade-point value: 4 is an A, 3 a B, 2 a C, 1 a D, 0 an F. The course grade is the average of the assignment scores (weighted if the assignments carry different weights), which is the course GPA, converted to a letter.
@@ -74,12 +72,7 @@ Replace the default Canvas scheme with these bounds, which are the midpoints the
 | D | 1.0 | 25% | 25 |
 | F | below 1.0 | below 25% | 0 |
 
-## decisions to settle per course
-
-- Graduate versus undergraduate standing. The MUS 601 syllabus adds graduate rules from the Graduate Student Handbook: only C or better counts toward the degree, a C- or below must be repeated, and a cumulative 3.0 GPA is required to stay in good standing (below it triggers academic probation). Those are graduate rules. The lower-division courses are undergraduate, so use the undergraduate standing and minimum-grade rules instead.
-- Weighting. In 601 the five papers weigh equally, so the course average is a straight mean. If a course weights assignments differently, use the weighted average of the 0 to 4 scores. The conversion chart does not change.
-
-## style, to match across syllabi
+## chart layout
 
 - The chart carries two columns, grade and course average / GPA, one row per grade, high to low, A through F.
 - The numeric column is right-aligned, per the table treatment in house-style.md.
