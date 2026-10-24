@@ -8,4 +8,5 @@ The canonical specifications for the documents in this repository, and the worki
 - [house-style-specimen.html](https://csuebmusic.github.io/music-curriculum/conventions/house-style-specimen.html): the on-screen reference for that spec.
 - [templates/house-style-template.docx](templates/house-style-template.docx): the starting point for Word and PDF documents, carrying the same tokens.
 - [workflow.md](workflow.md): scope, source of truth, the git workflow, and what stays out of the repository.
+- [terminology.md](terminology.md): names and wording for department materials.
 - [grading-scheme.md](grading-scheme.md): the 0-4 grade-point model, with the conversion chart, the student-facing text, and the Canvas setup.
