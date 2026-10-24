@@ -4,6 +4,8 @@ version 2.0, september 2026. the on-screen reference is house-style-specimen.htm
 
 This governs the curriculum and university documents I produce and share through this project: proposals, committee papers, assessment reports, and handbooks. It follows CSUEB visual identity, published at https://www.csueastbay.edu/universitycommunications/brand/fonts-and-colors.html. The course projects use their own style. The Cascade website pocket uses none of this one.
 
+This spec covers document form. Prose style and register follow the "how I want you to communicate" section of Inés Thiebaut's profile.
+
 ## palette
 
 Reference these by name. Hex is the source of truth.
@@ -54,7 +56,7 @@ Every link opens in a new tab, set with `target="_blank" rel="noopener noreferre
 
 ## capitalization
 
-Sentence case throughout: capitalize the first word and any proper noun, nothing else. No title case, no all caps, no lowercase styling. Set capitalization in the markup rather than through `text-transform`.
+Sentence case throughout: capitalize the first word and any proper noun. Set capitalization in the markup rather than through `text-transform`.
 
 ## restraint
 
@@ -62,10 +64,14 @@ Flat surfaces: hairline rules, no shadow, white page. Whitespace generous by def
 
 ## channels
 
-This file is canonical; source-of-truth points here. The screen reference is house-style-specimen.html.
+This file is canonical, and the screen reference is house-style-specimen.html. Documents match the spec as written. When the spec changes, the template, the specimen, and the stylesheets change with it.
 
-Committee papers, proposals, and assessment reports go out as Word or PDF from templates/house-style-template.docx, which applies these same tokens. The document uses Montserrat and Roboto Serif where installed and falls back to Arial and Georgia.
+Committee papers, proposals, and assessment reports go out as Word or PDF from templates/house-style-template.docx, which applies these same tokens. The document uses Montserrat and Roboto Serif where installed and falls back to Arial and Georgia. PDFs are exported from Word so the fonts embed.
 
-Student-facing documents are screen-first and ship as finished HTML. The handbooks and guides apply this style through `documents/handbooks/handbooks.css`, and the Theory and Musicianship set through `curriculum/undergraduate-theory-musicianship/theory-musicianship.css`. The roadmaps layer `documents/roadmaps/roadmaps.css` on top for the general-education color and for print. The posted semester syllabi use `documents/syllabi/assets/syllabus.css`.
+Student-facing documents are screen-first and ship as finished HTML. The handbooks and guides apply this style through `documents/handbooks/handbooks.css`, and the Theory and Musicianship set through `curriculum/undergraduate-theory-musicianship/theory-musicianship.css`. The roadmaps layer `documents/roadmaps/roadmaps.css` on top for the general-education color and for print. The posted semester syllabi use `documents/syllabi/assets/syllabus.css`. These pages load the house fonts as web fonts. The handbooks add a fixed sidebar table of contents, anchored sections, and inline office popovers, and they're published as finished HTML on GitHub Pages, with Cascade linking to them.
+
+The printed handouts in `documents/print/` are HTML rendered to PDF with WeasyPrint through `documents/print/print.css`.
 
 The admissions email templates carry inline styles only, with no stylesheet, no tables, and no fixed widths, and the Salesforce wrapper controls layout. The page that presents them is house-styled through `documents/handbooks/handbooks.css`.
+
+The Cascade website takes structural markup only (headings, paragraphs, tables, links), and Cascade supplies the appearance. The markup is given in chat for pasting into Cascade and isn't kept in this repository. When Cascade strips or changes a tag, the markup is adjusted.
