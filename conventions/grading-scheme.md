@@ -24,7 +24,7 @@ The 0 to 4 score is grade points. A student who does consistently good work (3s)
 | D | 1.0 |
 | F | below 1.0 |
 
-The values are grade-point anchors. The rounding rule resolves an average falling between two of them, so the chart and the rule travel together.
+The values are grade-point anchors. The rounding rule resolves an average falling between two of them, and the chart and the rule are always given together.
 
 The anchors are the CSUEB standard: A 4.0, A- 3.7, B+ 3.3, B 3.0, B- 2.7, C+ 2.3, C 2.0, C- 1.7, D+ 1.3, D 1.0, F 0.0. Source: the GPA computation policy, https://www.csueastbay.edu/aps/academic-services/academic-policies/gpa-computation.html
 
@@ -32,7 +32,7 @@ The anchors are the CSUEB standard: A 4.0, A- 3.7, B+ 3.3, B 3.0, B- 2.7, C+ 2.3
 
 Two paragraphs, in this order and close to this wording:
 
-> An average that falls between two grades is rounded to the nearest one, and an exact midpoint is rounded up in your favor. A term of steady 3s averages 3.0 and posts as a B. Mostly 3s with a few 4s lands near 3.2, which rounds to 3.3 and posts as a B+.
+> An average that falls between two grades is rounded to the nearest one, and an exact midpoint is rounded up in your favor. A term of steady 3s averages 3.0 and posts as a B. Mostly 3s with a few 4s averages about 3.2, which rounds to 3.3 and posts as a B+.
 
 > Canvas displays a running percentage of the points you have earned out of the points available, so a 3.0 average appears there as 75% and posts as a B under the scale above.
 
@@ -50,7 +50,7 @@ Score each assignment 0 to 4. The level names and descriptions are course-specif
 
 No letter tags in the level column, and keep the 5 integer levels tied to 4/3/2/1/0 = A/B/C/D/F.
 
-Writing the score-of-2 description: a 2 is a C, which passes and sits above the C- undergraduate majors and minors need for a course to count. Describe what the work lacks, and leave the consequence to the minimum-grade block, where C- is named.
+Writing the score-of-2 description: a 2 is a C, which passes and is above the C- that undergraduate majors and minors need for a course to count. Describe what the work lacks, and leave the consequence to the minimum-grade block, where C- is named.
 
 ## canvas setup
 
@@ -76,4 +76,4 @@ Replace the default Canvas scheme with these bounds, which are the midpoints the
 
 - The chart carries two columns, grade and course average / GPA, one row per grade, high to low, A through F.
 - The numeric column is right-aligned, per the table treatment in house-style.md.
-- The rounding rule, the worked example, and the Canvas sentence sit below the chart as prose, in the wording given above.
+- The rounding rule, the worked example, and the Canvas sentence are prose below the chart, in the wording given above.
