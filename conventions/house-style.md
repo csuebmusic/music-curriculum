@@ -1,12 +1,12 @@
-# university house style
+# University house style
 
-version 2.0, september 2026. the on-screen reference is house-style-specimen.html.
+Version 2.0, September 2026. The on-screen reference is house-style-specimen.html.
 
 This governs the curriculum and university documents I produce and share through this project: proposals, committee papers, assessment reports, and handbooks. It follows CSUEB visual identity, published at https://www.csueastbay.edu/universitycommunications/brand/fonts-and-colors.html. The course projects use their own style. The Cascade website pocket uses none of this one.
 
 This spec covers document form. Prose style and register follow the "how I want you to communicate" section of Inés Thiebaut's profile.
 
-## palette
+## Palette
 
 Reference these by name. Hex is the source of truth.
 
@@ -21,7 +21,7 @@ Reference these by name. Hex is the source of truth.
 
 Brand red reaches 5.4:1 on white and carries text there. Brand gold reaches 1.7:1 on white and 13:1 on brand black, so it appears only on a dark ground. Brand red on brand black reaches 3.9:1 and doesn't carry text.
 
-## type
+## Type
 
 Two families, fixed roles.
 
@@ -30,39 +30,39 @@ Two families, fixed roles.
 
 Both are open source and load from Google Fonts on screen.
 
-## structure
+## Structure
 
-record header. The document opens with a labeled grid (committee, document, effective term, status) set in Montserrat, closed by a 1.5px brand red rule.
+Record header. The document opens with a labeled grid (committee, document, effective term, status) set in Montserrat, closed by a 1.5px brand red rule.
 
-title. Montserrat, 700, around 26px.
+Title. Montserrat, 700, around 26px.
 
-metadata line. Montserrat, ink-soft, with any routing id set in ink.
+Metadata line. Montserrat, ink-soft, with any routing id set in ink.
 
-section headings. Montserrat, 700, around 17px, preceded by a two-digit Montserrat section number in brand red. Number sections in formal proposals and other ordered documents.
+Section headings. Montserrat, 700, around 17px, preceded by a two-digit Montserrat section number in brand red. Number sections in formal proposals and other ordered documents.
 
-body. Roboto Serif, generous leading.
+Body. Roboto Serif, generous leading.
 
-defined terms. A brand red underline on the term, followed by a short Montserrat gloss in parentheses, ink-soft.
+Defined terms. A brand red underline on the term, followed by a short Montserrat gloss in parentheses, ink-soft.
 
-tables. Montserrat header row, closed by a 1.5px brand red bottom rule. Roboto Serif cells, 1px hairline row rules, the rightmost column right-aligned. Unit changes set in Montserrat (3 → 4).
+Tables. Montserrat header row, closed by a 1.5px brand red bottom rule. Roboto Serif cells, 1px hairline row rules, the rightmost column right-aligned. Unit changes set in Montserrat (3 → 4).
 
-note block. A faint brand red tint, a 3px brand red left border, a Montserrat label, Roboto Serif text. Square corners.
+Note block. A faint brand red tint, a 3px brand red left border, a Montserrat label, Roboto Serif text. Square corners.
 
-footer. A top hairline, then Montserrat ink-soft: document id on the left, page on the right.
+Footer. A top hairline, then Montserrat ink-soft: document id on the left, page on the right.
 
-## links
+## Links
 
 Every link opens in a new tab, set with `target="_blank" rel="noopener noreferrer"`. This covers external URLs, links to other documents in the repository, and mailto links. An anchor to a section of the same document takes no target and no rel.
 
-## capitalization
+## Capitalization
 
 Sentence case throughout: capitalize the first word and any proper noun. Set capitalization in the markup rather than through `text-transform`.
 
-## restraint
+## Restraint
 
 Flat surfaces: hairline rules, no shadow, white page. Whitespace generous by default and tighter in multi-page proposals.
 
-## channels
+## Channels
 
 This file is canonical, and the screen reference is house-style-specimen.html. Documents match the spec as written. When the spec changes, the template, the specimen, and the stylesheets change with it.
 

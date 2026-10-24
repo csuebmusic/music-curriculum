@@ -2,32 +2,32 @@
 
 Agendas, minutes, papers, and proposal review for the CLASS Curriculum Committee, chaired by Inés Thiebaut.
 
-## proposals
+## Proposals
 
 Curriculog proposals under committee review are recorded as Markdown from the Curriculog preview, with a review file alongside each one where feedback has been given. None are recorded at present.
 
-## agendas
+## Agendas
 
 - [September 29, 2026](agendas/2026-09-29-agenda.docx): 45 course proposals for the 2027–2028 catalog and the Philosophy Minor revision.
 - [October 6, 2026](agendas/2026-10-06-agenda.docx): 63 course proposals for the 2027–2028 catalog and the Philosophy B.A. revision.
 - [October 20, 2026](agendas/2026-10-20-agenda.docx): 4 course proposals for the 2027–2028 catalog, the Philosophy B.A. revision, the Policing Studies BPS projected degree proposal, and discussion of the GEOC alignment form letter, the proposal submission timeline, and the committee's Policies and Procedures.
 - [October 27, 2026](agendas/2026-10-27-agenda.docx): 21 course proposals for the 2027–2028 catalog, the Anthropology B.A. and Theatre Arts B.A. revisions, and the French B.A. discontinuance.
 
-## papers
+## Papers
 
 - [geoc alignment form, draft](papers/geoc-alignment-form-proposed.docx): a one-page replacement for the 2026/2027 alignment form, keyed to the attached syllabus rather than reproducing it. It follows the formatting of the GEOC form it would replace, not `conventions/house-style.md`.
 - [policies and procedures, proposed revision](papers/ccc-policies-procedures-proposed.docx): a revision of the [current version](reference/ccc-policies-procedures.docx) with a review standard (section 07), submission and the agenda in section 05, and the dean's office in place of the curriculum coordinator.
 - [geoc alignment form letter, draft](papers/geoc-alignment-form-letter.docx): the committee's letter to the GEOC Subcommittee on the alignment form: the committee's review process, its workload under the current form, and the short form as an enclosure. For committee review on October 20.
 
-## notes
+## Notes
 
 Working notes ahead of meetings, in [notes/](notes/): the CRJ proposals at the CCC step, the GEOC alignment form, and the proposal submission timeline.
 
-## reference
+## Reference
 
 Standing reference for review, in [reference/](reference/): the GE Framework starting Fall 2027, the GEOC faculty guide, the GEOC proposal checklist, the GEOC alignment form, the 25-26 CIC 1 syllabus policy, the committee's Policies and Procedures, and the CCC website (meeting dates, roster, and campus deadlines), with a currency file recording what in each is superseded, the curricular deadlines, and links to the live GEOC pages.
 
-## review
+## Review
 
 Recertification-only proposals go directly to GEOC. The committee reviews new courses, revisions, revisions with recertification, and program proposals.
 
@@ -49,12 +49,12 @@ Each proposal gets four checks, in this order.
 
 Leave out differences that don't change meaning: a typo, a word, or a punctuation mark that leaves an SLO or the catalog description saying the same thing, and a course title on the syllabus that differs from the proposal's. These go in neither the review notes nor the workbook.
 
-## recommendation
+## Recommendation
 
 An item found under checks 1 to 4.1 is an edit. An item under 4.2 is a suggestion.
 
 Approve when the notes carry suggestions only. Approve with edits when the edits are to the syllabus or to proposal fields the chair can correct at the CCC step; the chair collects the revised syllabus from the originator and attaches it. Roll back when the originator has to revise the proposal; the chair files a custom route request.
 
-## naming
+## Naming
 
 One file per proposal, named for the program, the proposal type, and the proposed effective term. The review file carries the same stem with `-review` appended. Agendas are named for the meeting date, `YYYY-MM-DD-agenda.docx`.

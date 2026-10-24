@@ -1,8 +1,8 @@
-# geoc alignment form
+# GEOC alignment form
 
 Status as of September 28, 2026.
 
-## status
+## Status
 
 The 2026/2027 GEOC alignment form ([reference/geoc-alignment-form-2026-2027.docx](../reference/geoc-alignment-form-2026-2027.docx)) is a required Curriculog attachment for all new courses, revisions, and recertifications as of Fall 2026.
 
@@ -24,7 +24,7 @@ Inés replied after that (the date isn't recorded here), asking GEOC to do one o
 
 Jennifer hasn't replied as of September 28.
 
-## proposed short form
+## Proposed short form
 
 The short form has:
 
@@ -39,7 +39,7 @@ The short form has:
 
 It drops the week-by-week grid and the full assignment list from the existing form. Both are already on the syllabus under the syllabus policy.
 
-## committee letter
+## Committee letter
 
 The committee will write an official letter stating its position on the alignment form, as the CLASS Council of Chairs recommended (reported by Jessica Santone). The draft is [papers/geoc-alignment-form-letter.docx](../papers/geoc-alignment-form-letter.docx), on the October 20 agenda for committee review.
 
@@ -50,7 +50,7 @@ Jessica's concerns:
 
 The GEOC checklist requires word counts for all written assignments on the syllabus. The syllabus policy doesn't ([reference/currency.md](../reference/currency.md)).
 
-## open
+## Open
 
 - Follow-up with Jennifer on either form this cycle, or the short form at GEOC for the next cycle.
 - Letter addressee: GEOC, CIC, or the Senate.

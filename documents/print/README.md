@@ -1,8 +1,8 @@
-# print
+# Print
 
 Printed handouts for recruiting events and graduate fairs, US Letter, in the house style (`../../conventions/house-style.md`). Each sheet has an HTML source and the PDF rendered from it. Two-page sheets print front and back.
 
-## files
+## Files
 
 Information sheets:
 
@@ -44,7 +44,7 @@ Stylesheet and script:
 
 Each sheet has 0.85-inch QR codes, captioned with the destination. A square is written as `<div class="qr" data-href="URL">`, and [qr.py](qr.py) draws the code for that URL inside it as inline SVG. A caption that appears on several sheets takes the same code everywhere.
 
-| caption | sheets | destination |
+| Caption | Sheets | Destination |
 | --- | --- | --- |
 | B.A. in Music page | B.A. infosheet, FAST infosheet, music education infosheet | https://www.csueastbay.edu/music/prospective/ba.html |
 | M.A. in Music page | M.A. infosheet, music education infosheet | https://www.csueastbay.edu/music/prospective/ma.html |
@@ -84,6 +84,6 @@ Each sheet has 0.85-inch QR codes, captioned with the destination. A square is w
 | This roadmap online | B.A. with certificate transfer roadmap, fall A | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-certificate-roadmap-2-year-transfer.html |
 | This roadmap online | B.A. with certificate transfer roadmap, fall B | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-certificate-roadmap-2-year-transfer.html#fall-b |
 
-## rendering
+## Rendering
 
 Run `python3 qr.py` in this folder after adding or changing a QR square. Render with WeasyPrint, with Montserrat (400, 600, 700) and Roboto Serif (400, 600) available to it. University admission deadlines stay off the sheets.

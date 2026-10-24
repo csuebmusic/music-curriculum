@@ -1,12 +1,12 @@
-# schedule
+# Schedule
 
 California State University, East Bay, Department of Music and Performing Arts.
 
 Course rotation and scheduling rules for the department, on the two-year cycle of fall A, spring A, fall B, and spring B. Fall A is in even years and fall B in odd years.
 
-## rotation
+## Rotation
 
-| | fall A | spring A | fall B | spring B |
+| | Fall A | Spring A | Fall B | Spring B |
 |---|---|---|---|---|
 | theory | MUS 312 | | MUS 410 | |
 | history | MUS 323 | MUS 324 | MUS 304 | |
@@ -16,6 +16,6 @@ Course rotation and scheduling rules for the department, on the two-year cycle o
 | certificate | MUS 233, 331, 341 | MUS 231, 433, 441 | MUS 232, 236, 304, 431 | MUS 234, 235, 335, 432 |
 | M.A. seminars | MUS 601, 603 | MUS 605, 606 | MUS 602, 630 | MUS 604, 631 |
 
-## standing rules
+## Standing rules
 
 University hour runs Tuesday and Thursday 12:15 to 1:15. No class meets in that band.

@@ -1,4 +1,4 @@
-# roadmaps
+# Roadmaps
 
 Student-facing HTML roadmaps for the B.A. in Music, the M.A. in Music, the FAST blended degrees, and the Certificate in Music Education, catalog 2027–2028, house-styled on
 `../handbooks/handbooks.css`.

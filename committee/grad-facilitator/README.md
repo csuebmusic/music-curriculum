@@ -1,8 +1,8 @@
-# graduate recruitment facilitator
+# Graduate recruitment facilitator
 
 Working documents for the graduate recruitment facilitator role in the Office of Graduate Studies, held by Inés Thiebaut.
 
-## files
+## Files
 
 `role.md`, `status.md`, and `programs.md` record current state. `recruitment-plan.md` is the 2024 plan, verbatim. Open questions and next actions are in `status.md`. Resolved items come out.
 
@@ -11,6 +11,6 @@ Working documents for the graduate recruitment facilitator role in the Office of
 - [recruitment-plan.md](recruitment-plan.md): the Graduate Advisory Council (GAC) Consultative Committee recruitment plan of November 11, 2024, verbatim.
 - [programs.md](programs.md): the graduate program roster from the Graduate Programs & Coordinators page, the discrepancies against Cal State Apply, and the programs not accepting applications.
 
-## documents
+## Documents
 
 Workbook in [documents/](documents/): the print materials audit.

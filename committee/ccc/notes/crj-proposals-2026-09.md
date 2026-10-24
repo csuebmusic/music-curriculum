@@ -1,14 +1,14 @@
-# crj proposals at the ccc step
+# CRJ proposals at the CCC step
 
 Closed October 4, 2026. Sources: email between Catalog (Rick Rader), Michelle Rippy, Nicholas Baham, and Danika LeDuc, September 23–25; Curriculog comments on each proposal; the department's tracking spreadsheet, "Fall 2026 GE, C03, and SLO Update Completion - For Dean.xlsx" (Michelle Rippy's SharePoint).
 
-## status
+## Status
 
 Catalog advanced 22 CRJ course proposals to the CCC step in Curriculog on September 24. Catalog deleted CRJ 375, 387, and 485 at the department's request, and CRJ 350, whose C03 change the college didn't approve. Michelle edited the remaining 18 at the CCC step with temporary System Administrator access and reported them ready for review on September 25. Catalog attached a copy of her email to each proposal. All 18 are on the [October 6 agenda](../agendas/2026-10-06-agenda.docx).
 
 Rick: component changes require CCC approval or consultation. Keep Danika LeDuc in the loop on them.
 
-## classification
+## Classification
 
 Classification follows the cap the college proposed for each course (spreadsheet column D, "CLASS Proposed Cap"). A course stays at C03 where the proposed cap is 35 or lower and returns to C02 where it is 50 or 60 (column G, "Remove C03"). The department's proposed caps of September 24 match the college's. The spreadsheet records the caps and not the reasons for them.
 
@@ -18,7 +18,7 @@ Classification in Curriculog matches the spreadsheet for all 18 proposals. The r
 
 C03 is lecture/composition, lecture/counseling, lecture/case study: 1 class hour per unit, K-factor 1.0, normal class size 35. C02 (lecture and/or discussion) has the same hours and K-factor with a normal class size of 50. Source: [CSUEB course classification table](https://www.csueastbay.edu/aps/academic-programs/curriculum-development-new/cpm/class-table.html).
 
-## queue (18 proposals)
+## Queue (18 proposals)
 
 Changes as entered in Curriculog. Current cap 50 for all.
 

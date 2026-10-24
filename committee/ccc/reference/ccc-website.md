@@ -1,4 +1,4 @@
-# ccc website
+# CCC website
 
 The CLASS Curriculum Committee page and the APS curriculum calendar as of October 4, 2026. [currency.md](currency.md) records when this was last checked.
 
@@ -7,7 +7,7 @@ The CLASS Curriculum Committee page and the APS curriculum calendar as of Octobe
 - [Agendas & Minutes](https://www.csueastbay.edu/class/curriculum/minutes-agendas.html): the meeting archive, 2013–2014 through 2024–2025
 - [Curriculum Development](https://www.csueastbay.edu/aps/academic-programs/curriculum-development-new/cpm/index.html) and the [Curricular Procedures Manual](https://www.csueastbay.edu/aps/curriculum-development/cpm/index.html)
 
-## meetings 2026–2027
+## Meetings 2026–2027
 
 Tuesdays, 10:00 a.m. to 12:00 p.m., on [Zoom](https://csueb.zoom.us/j/5108853126).
 
@@ -23,11 +23,11 @@ Tuesdays, 10:00 a.m. to 12:00 p.m., on [Zoom](https://csueb.zoom.us/j/5108853126
 | December 1, 2026 | November 15 launch |
 | January 26, 2027 | December 1 launch |
 
-## launch deadlines
+## Launch deadlines
 
 The launch deadline is the date faculty submit a proposal in Curriculog. A proposal is ready for committee review about two weeks after submission. A proposal submitted on the final deadline instead of the launch deadline doesn't move forward in time.
 
-## members
+## Members
 
 | Department | Member | Email | Terms |
 | --- | --- | --- | --- |
@@ -45,7 +45,7 @@ The committee has five to seven members: the CLASS associate dean and, where pos
 
 Communication in and around the committee is cordial and professional. A member or guest who departs from this may be excused, with required follow-up meetings with the Associate Dean and the Chair.
 
-## campus deadlines
+## Campus deadlines
 
 College deadlines are earlier than these. The CLASS meeting dates above set the college step.
 

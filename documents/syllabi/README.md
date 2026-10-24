@@ -1,16 +1,16 @@
-# semester syllabi
+# Semester syllabi
 
 California State University, East Bay, Department of Music and Performing Arts.
 
 Posted syllabi for individual sections in a given term, one file per section. Each file has a permanent web address that can go straight into a Canvas course. The master templates stay in [`curriculum/`](../../curriculum/) and are copied here at the start of a term.
 
-## terms
+## Terms
 
 - [fall 2026](https://csuebmusic.github.io/music-curriculum/documents/syllabi/fall-2026/)
 
 `assets/` holds `syllabus.css` and `syllabus-tools.js`, which every posted syllabus loads.
 
-## naming
+## Naming
 
 Term folders are `fall-2026`, `spring-2027`, `summer-2027`. Files are the course code and the section number: `MUS108-01.html`, `MUS118-02.html`.
 
@@ -22,7 +22,7 @@ https://csuebmusic.github.io/music-curriculum/documents/syllabi/fall-2026/MUS108
 
 The address stays fixed once the file exists, and edits appear at it within about a minute.
 
-## posting a syllabus
+## Posting a syllabus
 
 1. Open the term folder for your course.
 2. Copy the master template from `../../curriculum/` into it, or copy an existing file from a previous term.
@@ -31,7 +31,7 @@ The address stays fixed once the file exists, and edits appear at it within abou
 5. Add a row for it in the term's `index.html`.
 6. Paste the link into your Canvas course.
 
-## editing a file in the browser
+## Editing a file in the browser
 
 A GitHub account with collaborator access on this repository is all that is required. Ask Inés for an invitation.
 
@@ -42,7 +42,7 @@ A GitHub account with collaborator access on this repository is all that is requ
 
 Pressing the period key anywhere in the repository opens a full editor in the browser tab, with search and replace across the file. Commits happen in the source control panel on the left.
 
-## what to edit
+## What to edit
 
 Every file marks one block near the top, between comment rules, holding the term, section, class number, meeting days and times, room, final exam slot, and instructor contact details. Replace the text between the tags and leave the tags themselves in place.
 

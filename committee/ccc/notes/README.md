@@ -1,4 +1,4 @@
-# notes
+# Notes
 
 Working notes on proposals and correspondence ahead of committee meetings.
 

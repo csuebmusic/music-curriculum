@@ -1,4 +1,4 @@
-# forms
+# Forms
 
 Word forms and memos for the Department of Music and Performing Arts, built from the house-style template in [`conventions/templates/`](../../conventions/templates/).
 

@@ -1,4 +1,4 @@
-# community college music contacts
+# Community college music contacts
 
 Music faculty at the community colleges that send transfer students to the Department of Music and Performing Arts. Each chart carries the department's chairs and coordinators, its theory, composition, production, and technology faculty, and its ensemble directors, and leaves out faculty who teach only applied lessons or class instruction. The first group is every college in Alameda and Contra Costa counties, CSUEB's service area, that offers music. The second is the colleges outside those two counties. Verified against the colleges' own directories and program pages, September 19 and 20, 2026. Each college heading links to its music department, or to the college's department listing where it publishes no music page. Names link to a personal or professional site where one exists.
 
@@ -6,7 +6,7 @@ Music faculty at the community colleges that send transfer students to the Depar
 
 [academic departments](https://www.berkeleycitycollege.edu/academic-departments)
 
-| name | role or area | email |
+| Name | Role or area | Email |
 | --- | --- | --- |
 | A.D. (Aaron) Mobley | Lead faculty, Music; composer, theorist, musicologist | amobley@peralta.edu |
 | Matthew McLean | Guitar, jazz and popular music, music appreciation; also at Merritt | mmclean@peralta.edu |
@@ -20,7 +20,7 @@ Mobley holds a doctorate in composition and theory and teaches counterpoint and 
 
 [music](https://www.chabotcollege.edu/academics/arts-media-communications/music/) · [music recording technology](https://www.chabotcollege.edu/academics/arts-media-communications/music-recording-technology/)
 
-| name | role or area | email |
+| Name | Role or area | Email |
 | --- | --- | --- |
 | Timothy Harris | Music Department Coordinator and Director of Bands | tharris@chabotcollege.edu |
 | Richard Flores | Harmony and musicianship, guitar, guitar ensemble | rflores@chabotcollege.edu |
@@ -36,7 +36,7 @@ Mobley holds a doctorate in composition and theory and teaches counterpoint and 
 
 [music](https://alameda.peralta.edu/academic-program/music/)
 
-| name | role or area | email |
+| Name | Role or area | Email |
 | --- | --- | --- |
 | Glen Pearson | Department Chair and lead faculty, Music; piano, jazz piano, jazz ensemble, jazz and popular music history | gpearson@peralta.edu |
 | Silvester Henderson | Vocal and choral courses, classical and gospel piano; retired from Los Medanos, January 2024 | shenderson@losmedanos.edu |
@@ -47,7 +47,7 @@ Mobley holds a doctorate in composition and theory and teaches counterpoint and 
 
 [music](https://www.contracosta.edu/classes/academic-departments/music/)
 
-| name | role or area | email |
+| Name | Role or area | Email |
 | --- | --- | --- |
 | Stephanie Austin | Music, co-chair | saustin@contracosta.edu |
 | Jennifer Griest | Music, co-chair | jgriest@contracosta.edu |
@@ -59,7 +59,7 @@ Mobley holds a doctorate in composition and theory and teaches counterpoint and 
 
 [music](https://www.dvc.edu/academics/explore-our-programs/music) · [music industry studies](https://www.dvc.edu/academics/explore-our-programs/music-industry-studies)
 
-| name | role or area | email |
+| Name | Role or area | Email |
 | --- | --- | --- |
 | Kaitlin Bove | Department Chair, Music | kbove@dvc.edu |
 | [Nick Vasallo](https://nickvasallo.com/) | Program Lead, Music Industry Studies; composition, commercial music, AV technology | nvasallo@dvc.edu |
@@ -79,7 +79,7 @@ Mobley holds a doctorate in composition and theory and teaches counterpoint and 
 
 [music](https://laney.edu/music/) · [commercial music](https://laney.edu/commercial-music)
 
-| name | role or area | email |
+| Name | Role or area | Email |
 | --- | --- | --- |
 | [John Reager](https://www.johnreager.com/) | Department Chair, Music | jreager@peralta.edu |
 | Kevin Martin | Director, Commercial Music; electronic music and MIDI, songwriting, music business | kmartin@peralta.edu |
@@ -98,7 +98,7 @@ Mobley holds a doctorate in composition and theory and teaches counterpoint and 
 
 [music](https://www.laspositascollege.edu/music/)
 
-| name | role or area | email |
+| Name | Role or area | Email |
 | --- | --- | --- |
 | Andreas Preponis | Music Department Coordinator, Director of Choral and Vocal Studies | apreponis@laspositascollege.edu |
 | Cindy Browne Rosefield | Director of Instrumental Music; music theory, jazz ensemble, applied bass, history of rock | crosefield@laspositascollege.edu |
@@ -116,7 +116,7 @@ Mobley holds a doctorate in composition and theory and teaches counterpoint and 
 
 [music](https://www.losmedanos.edu/music/) · [recording arts](https://www.losmedanos.edu/recarts/)
 
-| name | role or area | email |
+| Name | Role or area | Email |
 | --- | --- | --- |
 | Kyle Chuah | Department Chair, Music and Recording Arts; MIDI | kchuah@losmedanos.edu |
 | Aaron Nakaji | Music Laboratory Coordinator; Recording Arts program contact | anakaji@losmedanos.edu |
@@ -135,7 +135,7 @@ Mobley holds a doctorate in composition and theory and teaches counterpoint and 
 
 [music](https://merritt.edu/music)
 
-| name | role or area | email |
+| Name | Role or area | Email |
 | --- | --- | --- |
 | Monica Ambalal | Department Chair; musicology, ethnomusicology | mambalal@peralta.edu |
 | [Collin Chu](https://www.collinchu.com/) | Composition, theory, music appreciation; also music technology at Skyline | cchu@peralta.edu |
@@ -147,7 +147,7 @@ Mobley holds a doctorate in composition and theory and teaches counterpoint and 
 
 [music](https://www.ohlone.edu/music)
 
-| name | role or area | email |
+| Name | Role or area | Email |
 | --- | --- | --- |
 | [Tim Roberts](http://www.phretz.com) | Commercial Music; theory, musicianship, music fundamentals, songwriting, Jazz/Rock Ensemble | troberts@ohlone.edu |
 | Victor De La Cruz | Assistant Professor, Choral Studies | vdelacruz@ohlone.edu |
@@ -160,13 +160,13 @@ Mobley holds a doctorate in composition and theory and teaches counterpoint and 
 - A.A. in Fine Arts with a concentration in Music
 - Certificates of accomplishment in Commercial Music, Music Theory, Piano Performance, Vocal Music Performance, and Vocal Music Performance: Advanced
 
-# outside the two counties
+# Outside the two counties
 
 ## Cañada College
 
 [music](https://canadacollege.edu/music/)
 
-| name | role or area | email |
+| Name | Role or area | Email |
 | --- | --- | --- |
 | David Meckler | Professor, Music | mecklerd@smccd.edu |
 
@@ -178,7 +178,7 @@ Cañada's catalog says the A.A. doesn't prepare students for transfer into most 
 
 [music](https://www.ccsf.edu/academics/schools/school-arts-communication-and-languages/music-department)
 
-| name | role or area | email |
+| Name | Role or area | Email |
 | --- | --- | --- |
 | Madeline Mueller | Department Chair | mmueller@ccsf.edu |
 
@@ -188,7 +188,7 @@ Cañada's catalog says the A.A. doesn't prepare students for transfer into most 
 
 [music](https://collegeofsanmateo.edu/music/)
 
-| name | role or area | email |
+| Name | Role or area | Email |
 | --- | --- | --- |
 | Jane Jackson | Professor, harmony, musicianship, piano; M.A. in music theory | jacksonj@smccd.edu |
 | Krys Bobrowski | Professor, electronic music | bobrowski@smccd.edu |
@@ -206,7 +206,7 @@ Cañada's catalog says the A.A. doesn't prepare students for transfer into most 
 
 [music](https://www.deanza.edu/music/)
 
-| name | role or area | email |
+| Name | Role or area | Email |
 | --- | --- | --- |
 | [Marcel Castro-Lima](https://castrolima.com/) | Department Chair and director of instrumental ensembles; composition, theory, form and analysis, ear training, electronic music, orchestration | castrolimamarcel@deanza.edu |
 | Jordan Mitchell | Composition, theory, Afro-Latin jazz, mariachi | mitchelljordan@deanza.edu |
@@ -223,7 +223,7 @@ Cañada's catalog says the A.A. doesn't prepare students for transfer into most 
 
 [music](https://foothill.edu/music/) · [music technology](https://foothill.edu/musictech/)
 
-| name | role or area | email |
+| Name | Role or area | Email |
 | --- | --- | --- |
 | Eric Kuehnl | Music Technology program contact | kuehnleric@foothill.edu |
 
@@ -235,7 +235,7 @@ Cañada's catalog says the A.A. doesn't prepare students for transfer into most 
 
 [music](https://missioncollege.edu/academics/music/) · [faculty directory](https://missioncollege.edu/-profiles/music/)
 
-| name | role or area | email |
+| Name | Role or area | Email |
 | --- | --- | --- |
 | Phillip Hawkins | Instructor, Music | phillip.hawkins@missioncollege.edu |
 | Keith Johnson | Department Chair, Music | keith.johnson@missioncollege.edu |
@@ -250,7 +250,7 @@ Cañada's catalog says the A.A. doesn't prepare students for transfer into most 
 
 [music program](https://www.napavalley.edu/programs-and-academics/divisions-and-departments/arts-and-humanities/voice)
 
-| name | role or area | email |
+| Name | Role or area | Email |
 | --- | --- | --- |
 | Mark Osten | Fundamentals of music and music theory; pianist, conductor, composer, choral and vocal accompanist | not published |
 
@@ -268,7 +268,7 @@ Cañada's catalog says the A.A. doesn't prepare students for transfer into most 
 
 [music](https://music.santarosa.edu/)
 
-| name | role or area | email |
+| Name | Role or area | Email |
 | --- | --- | --- |
 | Robert Budginas | Department Chair, Coordinator of Piano and Commercial Music | rbudginas@santarosa.edu |
 | Mark Anderman | Music Theory Coordinator | manderman@santarosa.edu |
@@ -282,7 +282,7 @@ Cañada's catalog says the A.A. doesn't prepare students for transfer into most 
 
 [music](https://skylinecollege.edu/music/)
 
-| name | role or area | email |
+| Name | Role or area | Email |
 | --- | --- | --- |
 | Jude Navari | Full-time; music theory, musicianship, music fundamentals, composition, music major faculty advisor | navarij@smccd.edu |
 | [Collin Chu](https://www.collinchu.com/) | Music technology; composer for film and games at Ubisoft, M.A. in composition from CSU East Bay; also composition and theory at Merritt, and at University of Silicon Valley and Feather River | cchu@peralta.edu, his Merritt address |
@@ -298,7 +298,7 @@ Cañada's catalog says the A.A. doesn't prepare students for transfer into most 
 
 [music](https://solano.edu/academic-programs/music.php)
 
-| name | role or area | email |
+| Name | Role or area | Email |
 | --- | --- | --- |
 | Teri Yumae | Piano, theory, music appreciation, orchestra | teri.yumae@solano.edu |
 | Kristy Juliano | Fundamentals, collegiate choir, chamber choir, vocal jazz, voice, piano | not published |
@@ -317,7 +317,7 @@ Cañada's catalog says the A.A. doesn't prepare students for transfer into most 
 
 [music](https://www.westvalley.edu/academics/music/)
 
-| name | role or area | email |
+| Name | Role or area | Email |
 | --- | --- | --- |
 | Robert Sinclair | Music Theory Coordinator; Director of Creating Music for Film, TV and Gaming; music composition | robert.sinclair@westvalley.edu |
 | Jeff Forehan | Director of Commercial Music | jeff.forehan@westvalley.edu |

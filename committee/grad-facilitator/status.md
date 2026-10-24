@@ -1,6 +1,6 @@
-# status
+# Status
 
-## website status
+## Website status
 
 - [Graduate Programs & Coordinators](https://www.csueastbay.edu/graduate-studies/graduate-program-coordinators.html): program links, graduate coordinators, terms open for application, and deadlines.
 - [Prospective graduate students](https://www.csueastbay.edu/graduate-studies/prospective-grad-students.html): how to apply, admission requirements, international applicants with a link to the [International Admissions Office](https://www.csueastbay.edu/iao/index.html), Continuing Education for self-support and Open University programs, and cost and financial aid, with the [Request More Information form](https://www.csueastbay.edu/futurestudents/request-info.html).
@@ -16,16 +16,16 @@
 
 The 2024 recruitment plan is in `recruitment-plan.md`.
 
-## program status
+## Program status
 
 The roster, the discrepancies against Cal State Apply, and the programs not accepting applications are in `programs.md`.
 
-## next actions
+## Next actions
 
 - Meet with department chairs and associate deans about outreach and advertisement, including a content standard for department program pages (`recruitment-plan.md`, section 2).
 - Meet with the College of Business and Economics about outreach and marketing strategies transferable to other programs.
 - Ask the English department to update or take down its [graduate page](https://www.csueastbay.edu/english/englgrad/index.html), which advertises Fall 2024 applications for the suspended M.A.
 
-## open questions
+## Open questions
 
 - Fall 2028 status of the Communication, M.A., the English, M.A., and the Quantitative Economics, M.S., from each department.

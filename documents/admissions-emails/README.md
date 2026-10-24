@@ -1,4 +1,4 @@
-# admissions emails
+# Admissions emails
 
 The automated messages Salesforce sends to Music applicants, admits, and new students, with the flow that triggers them.
 

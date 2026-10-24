@@ -1,8 +1,8 @@
-# graduate recruitment facilitator
+# Graduate recruitment facilitator
 
 The role sits in the Office of Graduate Studies and has no standing committee. The work is ongoing rather than tied to set deliverable dates. Promotion and recruitment across the graduate programs is this position's portfolio; the other Graduate Studies facilitators cover other areas.
 
-## description
+## Description
 
 Coordinate, develop, and lead all aspects of graduate program promotion and recruitment.
 
@@ -12,13 +12,13 @@ Coordinate, develop, and lead all aspects of graduate program promotion and recr
 - Configure messaging to prospective students in Salesforce Marketing Cloud.
 - Attend graduate school fairs at other universities to promote East Bay graduate programs.
 
-## scope
+## Scope
 
 Every graduate program, at equal priority. The roster is in `programs.md`.
 
 Separate from the Music Department graduate coordinator role, which covers the M.A. in Music alone. Recruitment work for the M.A. in Music runs through this charge like any other program.
 
-## people
+## People
 
 Office of Graduate Studies, SA 4500, 510-885-3716, gradstudies@csueastbay.edu.
 
@@ -45,7 +45,7 @@ Other offices.
 - Admissions: personalized messaging to leads.
 - ITS: Salesforce Marketing Cloud access for departmental messaging.
 
-## reference
+## Reference
 
 - `recruitment-plan.md`: the Graduate Advisory Council (GAC) Consultative Committee recruitment plan of November 11, 2024, the working document for this role. [Original on SharePoint](https://csueastbayedu.sharepoint.com/:w:/r/sites/GraduateAdvisoryCouncil/Shared%20Documents/General/GAC-Graduate%20Advisory%20Council/GAC%20Consultative%20Committee/Documents/Recruitment%20Plan%2011-11-24.docx?d=w590abcfce1e94f2684b4739ba4e2098e&csf=1&web=1&e=JfrNob).
 - `status.md`: Graduate Studies website status, PR strategies, program status, next actions, open questions.

@@ -1,18 +1,18 @@
-# graduate programs
+# Graduate programs
 
 Working file for the graduate program roster and for what needs correcting in how the programs are listed. The roster is the [Graduate Programs & Coordinators page](https://www.csueastbay.edu/graduate-studies/graduate-program-coordinators.html), the hub for program links, coordinator contacts, terms open for application, and deadlines. Coordinator names and contacts are on that page.
 
-## catalog and cycle
+## Catalog and cycle
 
 The [2026-2027 catalog](https://catalog.csueastbay.edu/content.php?catoid=44&navoid=42138) is current, with content approved on or before May 26, 2026. There is no 2027-2028 catalog. Program status for Fall 2027 entry comes from the departments and Cal State Apply.
 
-## the roster
+## The roster
 
 52 rows: 39 degree programs, five credentials, and eight certificates. Concentrations, tracks, and embedded credentials are named with their program, as on the page. University Admissions in the deadline column is the university deadline on the Admissions site.
 
 ### College of Business and Economics
 
-| program | terms open | deadline |
+| Program | Terms open | Deadline |
 | --- | --- | --- |
 | [Accountancy, M.S. (self-support only)](https://www.csueastbay.edu/msa/) | Fall | University Admissions |
 | [Business Administration, M.B.A.](https://www.csueastbay.edu/mba/): Finance; General Business, hybrid or fully online; Human Resources Management and Organizational Behavior; Marketing Management; Operations and Supply Chain Management | Fall, Spring | University Admissions |
@@ -24,7 +24,7 @@ The [2026-2027 catalog](https://catalog.csueastbay.edu/content.php?catoid=44&nav
 
 ### College of Health
 
-| program | terms open | deadline |
+| Program | Terms open | Deadline |
 | --- | --- | --- |
 | [Kinesiology, M.S.](https://www.csueastbay.edu/kin/programs/ms-kinesiology.html): Human Movement and Sport Science; Physical Activity and Exercise: An International Perspective on Programming for Health and Wellness | Human Movement and Sport Science: Fall, Spring. Physical Activity and Exercise: Fall | University Admissions |
 | [Nursing, M.S.](https://www.csueastbay.edu/nursing/msn-programs/index.html) | Fall | University Admissions |
@@ -34,9 +34,9 @@ The [2026-2027 catalog](https://catalog.csueastbay.edu/content.php?catoid=44&nav
 
 ### College of Letters, Arts, and Social Sciences
 
-#### arts, humanities, and social sciences
+#### Arts, humanities, and social sciences
 
-| program | terms open | deadline |
+| Program | Terms open | Deadline |
 | --- | --- | --- |
 | Communication, M.A. | Suspended | Not accepting applications |
 | English, M.A. | Suspended | Not accepting applications |
@@ -51,7 +51,7 @@ The [2026-2027 catalog](https://catalog.csueastbay.edu/content.php?catoid=44&nav
 
 #### Graduate School of Education
 
-| program | terms open | deadline |
+| Program | Terms open | Deadline |
 | --- | --- | --- |
 | [Counseling Psychology, M.S.: Marriage and Family Therapy](https://www.csueastbay.edu/epsy/graduate-programs/marriage-family-therapy.html) | Fall | March 1 |
 | [Counseling Psychology, M.S.: School Counseling](https://www.csueastbay.edu/epsy/graduate-programs/school-counseling.html), with the [Pupil Personnel Services Credential: School Counseling Specialization](https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20509&returnto=42139) | Fall | March 1 |
@@ -72,7 +72,7 @@ The [2026-2027 catalog](https://catalog.csueastbay.edu/content.php?catoid=44&nav
 
 ### College of Science
 
-| program | terms open | deadline |
+| Program | Terms open | Deadline |
 | --- | --- | --- |
 | [Biological Science, M.S.](https://www.csueastbay.edu/biology/graduate-program/biology-ms-program/index.html) | Fall | University Admissions |
 | [Chemistry, M.S.](https://www.csueastbay.edu/chemistry/graduate/index.html): Biochemistry | Fall, Spring | University Admissions |
@@ -90,18 +90,18 @@ The [2026-2027 catalog](https://catalog.csueastbay.edu/content.php?catoid=44&nav
 
 ### Continuing Education
 
-| program | terms open | deadline |
+| Program | Terms open | Deadline |
 | --- | --- | --- |
 | [Post-baccalaureate Health Professions Academic Program Certificate (self-support only)](https://ce.csueastbay.edu/programs/pre-professional-health/): Academic Enhancer track; Career Changer track; both University Extension | Academic Enhancer: Fall, Spring, Summer. Career Changer: Fall | University Admissions |
 
-## the roster against Cal State Apply
+## The roster against Cal State Apply
 
 In Cal State Apply and not on the Graduate Programs & Coordinators page:
 
 - Finance, M.S. Absent from the catalog, where finance is a concentration of the M.B.A. The Cal State Apply listing carries no program information.
 - Applied Spanish in Speech-Language Pathology Certificate. Absent from the catalog and the department site.
 
-## programs not accepting applications
+## Programs not accepting applications
 
 Communication, M.A. In the catalog. The Graduate Programs & Coordinators page lists it as suspended and not accepting applications, with no program link.
 

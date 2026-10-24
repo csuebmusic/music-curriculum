@@ -1,4 +1,4 @@
-# currency
+# Currency
 
 What in each stored document is superseded, and the date each was last checked against its live source. Check again at the start of each fall cycle and update the date.
 
@@ -28,7 +28,7 @@ Everything else in the guide is superseded:
 
 The GE Director and chair of the GEOC Subcommittee is Jennifer Zenovich.
 
-## label crosswalk
+## Label crosswalk
 
 Proposals, Curriculog records, and syllabi written before the CAL-GETC relabeling use the old labels:
 
@@ -77,6 +77,6 @@ Checked 2026-10-04 against the CLASS Curriculum page and the APS Curriculum Cale
 
 The Curriculum Calendar has course proposals approved by the Academic Senate by February 1 for the next catalog. That date replaces the guide's March 1 Senate date and the checklist's February 1 President date.
 
-## open
+## Open
 
 The Curriculog form names in the guide carry a 2024-25 AY stamp. Confirm the current names in Curriculog.
