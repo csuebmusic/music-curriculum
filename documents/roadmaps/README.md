@@ -1,6 +1,6 @@
 # Roadmaps
 
-Student-facing HTML roadmaps for the B.A. in Music, the M.A. in Music, the FAST blended degrees, and the Certificate in Music Education, catalog 2027–2028, house-styled on
+Student-facing HTML roadmaps for the B.A. in Music, the M.A. in Music, the FAST blended degrees, the Certificate in Music Education, and the B.A. in Theatre Arts, catalog 2027–2028, house-styled on
 `../handbooks/handbooks.css`.
 
 - [ba-roadmap-4-year.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-roadmap-4-year.html): first-year entry, with fall A and fall B entry plans, 120 units.
@@ -13,6 +13,8 @@ Student-facing HTML roadmaps for the B.A. in Music, the M.A. in Music, the FAST 
 - [ma-roadmap.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ma-roadmap.html): M.A. in Music, four semesters, with fall A and fall B entry plans, 32 units.
 - [ma-certificate-roadmap.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ma-certificate-roadmap.html): the M.A. in Music with the Certificate in Music Education, with fall A and fall B entry plans, 63 units across four semesters.
 - [music-education-certificate-roadmap.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/music-education-certificate-roadmap.html): certificate course rotation across fall A, spring A, fall B, and spring B, with MUS 495 in the last semester, 31 units.
+- [theatre-ba-roadmap-4-year.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/theatre-ba-roadmap-4-year.html): the B.A. in Theatre Arts from first-year entry, one plan, 120 units. Proposed in the 2027–2028 program revision.
+- [theatre-ba-roadmap-2-year-transfer.html](https://csuebmusic.github.io/music-curriculum/documents/roadmaps/theatre-ba-roadmap-2-year-transfer.html): the B.A. in Theatre Arts from AA-T transfer entry, one plan, 60 units in residence. Proposed in the 2027–2028 program revision.
 - [status.md](status.md): items on hold and open questions.
 
 Keep course titles and units in sync with the University Catalog and the

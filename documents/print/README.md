@@ -32,6 +32,8 @@ Roadmaps, catalog 2027–2028:
 - [ba-certificate-roadmap-4-year-fall-b.pdf](ba-certificate-roadmap-4-year-fall-b.pdf), from [ba-certificate-roadmap-4-year-fall-b.html](ba-certificate-roadmap-4-year-fall-b.html): the B.A. in Music with the Certificate in Music Education from first-year entry in a fall B, eight semesters, with the music electives list, three pages.
 - [ba-certificate-roadmap-transfer.pdf](ba-certificate-roadmap-transfer.pdf), from [ba-certificate-roadmap-transfer.html](ba-certificate-roadmap-transfer.html): the B.A. in Music with the Certificate in Music Education from AA-T transfer entry in a fall A, four semesters, with the music electives list, two pages.
 - [ba-certificate-roadmap-transfer-fall-b.pdf](ba-certificate-roadmap-transfer-fall-b.pdf), from [ba-certificate-roadmap-transfer-fall-b.html](ba-certificate-roadmap-transfer-fall-b.html): the B.A. in Music with the Certificate in Music Education from AA-T transfer entry in a fall B, four semesters, with the music electives list, two pages.
+- [theatre-ba-roadmap-4-year.pdf](theatre-ba-roadmap-4-year.pdf), from [theatre-ba-roadmap-4-year.html](theatre-ba-roadmap-4-year.html): the B.A. in Theatre Arts from first-year entry, eight semesters, with the major electives, two pages.
+- [theatre-ba-roadmap-transfer.pdf](theatre-ba-roadmap-transfer.pdf), from [theatre-ba-roadmap-transfer.html](theatre-ba-roadmap-transfer.html): the B.A. in Theatre Arts from AA-T transfer entry, four semesters, with the major electives, two pages.
 
 Each roadmap sheet is the download behind the download pdf button on its online roadmap in `../roadmaps/`. The semester tables match the online roadmaps row for row.
 
@@ -83,6 +85,8 @@ Each sheet has 0.85-inch QR codes, captioned with the destination. A square is w
 | This roadmap online | B.A. with certificate 4-year roadmap, fall B | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-certificate-roadmap-4-year.html#fall-b |
 | This roadmap online | B.A. with certificate transfer roadmap, fall A | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-certificate-roadmap-2-year-transfer.html |
 | This roadmap online | B.A. with certificate transfer roadmap, fall B | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/ba-certificate-roadmap-2-year-transfer.html#fall-b |
+| This roadmap online | B.A. in Theatre Arts 4-year roadmap | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/theatre-ba-roadmap-4-year.html |
+| This roadmap online | B.A. in Theatre Arts transfer roadmap | https://csuebmusic.github.io/music-curriculum/documents/roadmaps/theatre-ba-roadmap-2-year-transfer.html |
 
 ## Rendering
 
