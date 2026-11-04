@@ -7,10 +7,6 @@ Student-facing HTML handbooks and guides on CSUEB visual identity, Montserrat an
 - [undergraduate-handbook.html](https://csuebmusic.github.io/music-curriculum/documents/handbooks/undergraduate-handbook.html)
 - [graduate-handbook.html](https://csuebmusic.github.io/music-curriculum/documents/handbooks/graduate-handbook.html)
 
-## University handbooks
-
-- [csueb-graduate-handbook.html](https://csuebmusic.github.io/music-curriculum/documents/handbooks/csueb-graduate-handbook.html): the Office of Graduate Studies handbook. University requirements, policies, and procedures for all graduate and post-baccalaureate students, including the capstone and the University Thesis format review process.
-
 ## Student employment
 
 - [equipment-office-student-assistant-guide.html](https://csuebmusic.github.io/music-curriculum/documents/handbooks/equipment-office-student-assistant-guide.html): position responsibilities, rounds, event setup, problem reporting, and the hour-tracking worksheet.
