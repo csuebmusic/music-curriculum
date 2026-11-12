@@ -9,3 +9,4 @@ Course and program proposals and curriculum documentation for the Department of 
 - [schedule](schedule/): the course rotation and scheduling rules.
 - [ma](ma/): curriculum map and long-term assessment plan for the M.A. in Music, draft for faculty review.
 - [theatre-arts-ba](theatre-arts-ba/): curriculum map and long-term assessment plan for the B.A. in Theatre Arts, draft for faculty review.
+- [performing-arts-minor](performing-arts-minor/): advising roadmap for the Performing Arts Minor, draft for review.
