@@ -4,6 +4,11 @@ California State University, East Bay, Department of Music and Performing Arts.
 
 Course rotation and scheduling rules for the department, on the two-year cycle of fall A, spring A, fall B, and spring B. Fall A is in even years and fall B in odd years.
 
+## Files
+
+- [spring-2027.md](spring-2027.md): music courses for music majors in Spring 2027.
+- [performances-spring-2027.md](performances-spring-2027.md): department performances and production rehearsals for Spring 2027.
+
 ## Rotation
 
 | | Fall A | Spring A | Fall B | Spring B |
