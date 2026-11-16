@@ -13,7 +13,7 @@ Performances and production rehearsals for the whole department, April 20 to May
 | Monday, April 26 | *Parable of Belonging*, Act II | 7:00 PM | Around the Core Building | |
 | Tuesday, April 27 | *Parable of Belonging*, Act II | 7:00 PM | Around the Core Building | |
 | Wednesday, April 28 | *Parable of Belonging*, Act II | 4:00 PM | Around the Core Building | |
-| Wednesday, April 28 | Rock Band spring concert | 7:00 PM | To be announced | |
+| Wednesday, April 28 | Rock Band spring concert | 7:00 PM | Courtyard | |
 | Thursday, April 29 | University hour student recital | 12:15–1:15 PM | Recital Hall (MB 1055) | |
 | Thursday, April 29 | *Parable of Belonging*, Act II | 7:00 PM | Around the Core Building | |
 | Friday, April 30 | *Parable of Belonging*, Act II | 12:00 PM | Around the Core Building | Matinee |
