@@ -51,3 +51,4 @@ Dates are from the Registrar's [spring 2027 important dates](https://www.csueast
 | Event | Time | Location | Notes |
 |---|---|---|---|
 | Percussion Ensemble spring concert | 7:30 PM | MB 1039 | Date set with the instructor |
+| Junior recital, percussion | To be announced | To be announced | |
